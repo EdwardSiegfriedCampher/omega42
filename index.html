@@ -49,29 +49,29 @@
             padding: 0 20px;
         }
         
-        /* Golden ratio header section (38.2% of viewport) */
+        /* Header section (25% of viewport) */
         .header-section {
-            height: 38.2vh;
-            min-height: 300px;
+            height: 25vh;
+            min-height: 180px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 20px 0;
+            padding: 10px 0;
             position: relative;
         }
         
         .logo-container {
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         
         .omega-logo {
-            font-size: 120px;
+            font-size: 70px;
             color: var(--gold);
             font-weight: 700;
-            text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
             position: relative;
             z-index: 2;
         }
@@ -81,9 +81,9 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 180px;
-            height: 180px;
-            border: 3px solid transparent;
+            width: 110px;
+            height: 110px;
+            border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
             border-radius: 50%;
@@ -94,11 +94,11 @@
         .spiral::before {
             content: "";
             position: absolute;
-            top: 15px;
-            left: 15px;
-            right: 15px;
-            bottom: 15px;
-            border: 3px solid transparent;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 2px solid transparent;
             border-top-color: var(--gold);
             border-left-color: var(--starry-teal);
             border-radius: 50%;
@@ -108,11 +108,11 @@
         .spiral::after {
             content: "";
             position: absolute;
-            top: 30px;
-            left: 30px;
-            right: 30px;
-            bottom: 30px;
-            border: 3px solid transparent;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 2px solid transparent;
             border-top-color: var(--cosmic-purple);
             border-right-color: var(--gold);
             border-radius: 50%;
@@ -125,8 +125,8 @@
         }
         
         .welcome-message h1 {
-            font-size: 2.8rem;
-            margin-bottom: 15px;
+            font-size: 1.6rem;
+            margin-bottom: 8px;
             background: linear-gradient(to right, var(--gold), var(--starry-teal));
             -webkit-background-clip: text;
             background-clip: text;
@@ -134,45 +134,47 @@
         }
         
         .welcome-message p {
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto 25px;
-            line-height: 1.6;
+            font-size: 0.95rem;
+            max-width: 700px;
+            margin: 0 auto 15px;
+            line-height: 1.5;
             color: rgba(255, 255, 255, 0.85);
         }
         
         .counters {
+            position: absolute;
+            top: 15px;
+            right: 15px;
             display: flex;
-            gap: 30px;
-            margin-top: 20px;
+            gap: 15px;
         }
         
         .counter {
             background: rgba(10, 17, 40, 0.7);
-            padding: 12px 25px;
-            border-radius: 50px;
+            padding: 8px 15px;
+            border-radius: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
             border: 1px solid var(--starry-teal);
-            box-shadow: 0 0 15px rgba(0, 201, 200, 0.3);
+            box-shadow: 0 0 10px rgba(0, 201, 200, 0.3);
         }
         
         .counter-value {
-            font-size: 2rem;
+            font-size: 1.4rem;
             font-weight: bold;
             color: var(--gold);
         }
         
         .counter-label {
-            font-size: 0.9rem;
+            font-size: 0.7rem;
             opacity: 0.8;
         }
         
-        /* Main content section (61.8% of viewport) */
+        /* Main content section (75% of viewport) */
         .main-section {
-            min-height: 61.8vh;
-            padding: 40px 0;
+            min-height: 75vh;
+            padding: 15px 0;
             background: rgba(5, 5, 23, 0.6);
             border-top: 1px solid rgba(255, 215, 0, 0.2);
         }
@@ -180,22 +182,22 @@
         .controls {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-bottom: 40px;
+            gap: 10px;
+            margin-bottom: 15px;
             flex-wrap: wrap;
         }
         
         .btn {
-            padding: 14px 30px;
+            padding: 8px 16px;
             border: none;
-            border-radius: 50px;
-            font-size: 1.1rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 6px;
         }
         
         .btn-primary {
@@ -210,53 +212,43 @@
         }
         
         .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-        
-        .btn:active {
-            transform: translateY(0);
+            transform: translateY(-2px);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
         }
         
         .dropdown-container {
-            max-width: 800px;
-            margin: 0 auto 40px;
+            max-width: 700px;
+            margin: 0 auto 15px;
         }
         
         .category-select {
             width: 100%;
-            padding: 16px 20px;
-            font-size: 1.1rem;
+            padding: 12px 16px;
+            font-size: 0.95rem;
             background: rgba(10, 17, 40, 0.7);
             color: white;
             border: 1px solid var(--starry-teal);
-            border-radius: 10px;
+            border-radius: 8px;
             cursor: pointer;
             appearance: none;
             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
             background-repeat: no-repeat;
             background-position: right 1rem center;
-            background-size: 1.2em;
-        }
-        
-        .category-select:focus {
-            outline: none;
-            border-color: var(--gold);
-            box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
+            background-size: 1.1em;
         }
         
         .prompts-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-            max-width: 1200px;
+            gap: 12px;
+            max-width: 1100px;
             margin: 0 auto;
         }
         
         .prompt-card {
             background: rgba(10, 17, 40, 0.7);
-            border-radius: 15px;
-            padding: 25px;
+            border-radius: 10px;
+            padding: 18px;
             cursor: pointer;
             transition: all 0.3s ease;
             border: 1px solid transparent;
@@ -268,9 +260,9 @@
         }
         
         .prompt-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-3px);
             border-color: var(--starry-teal);
-            box-shadow: 0 10px 25px rgba(0, 201, 200, 0.2);
+            box-shadow: 0 5px 15px rgba(0, 201, 200, 0.2);
         }
         
         .prompt-card::before {
@@ -290,16 +282,16 @@
         .category-growth::before { background: linear-gradient(to right, #ff7e5f, #feb47b); }
         
         .prompt-text {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 20px;
+            font-size: 0.92rem;
+            line-height: 1.5;
+            margin-bottom: 12px;
             flex-grow: 1;
         }
         
         .prompt-category {
-            font-size: 0.85rem;
-            padding: 5px 12px;
-            border-radius: 20px;
+            font-size: 0.72rem;
+            padding: 3px 8px;
+            border-radius: 12px;
             background: rgba(255, 255, 255, 0.1);
             display: inline-block;
             align-self: flex-start;
@@ -318,49 +310,50 @@
             align-items: center;
             justify-content: center;
             overflow-y: auto;
-            padding: 20px;
+            padding: 15px;
         }
         
         .modal-content {
             background: rgba(10, 17, 40, 0.95);
-            border-radius: 15px;
-            max-width: 800px;
+            border-radius: 12px;
+            max-width: 700px;
             width: 100%;
             max-height: 90vh;
             overflow-y: auto;
             border: 1px solid var(--starry-teal);
-            box-shadow: 0 0 40px rgba(0, 201, 200, 0.3);
+            box-shadow: 0 0 30px rgba(0, 201, 200, 0.3);
             position: relative;
         }
         
         .modal-header {
-            padding: 25px;
+            padding: 18px;
             border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
         
         .modal-title {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             color: var(--gold);
-            margin-bottom: 10px;
+            margin-bottom: 6px;
         }
         
         .modal-body {
-            padding: 25px;
-            line-height: 1.7;
+            padding: 18px;
+            line-height: 1.6;
+            font-size: 0.92rem;
         }
         
         .modal-body p {
-            margin-bottom: 20px;
+            margin-bottom: 12px;
         }
         
         .close-modal {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 12px;
+            right: 12px;
             background: none;
             border: none;
             color: var(--starry-teal);
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             cursor: pointer;
             transition: all 0.3s ease;
         }
@@ -371,57 +364,54 @@
         }
         
         .form-group {
-            margin-bottom: 20px;
+            margin-bottom: 12px;
         }
         
         .form-group label {
             display: block;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
             color: var(--starry-teal);
+            font-size: 0.85rem;
         }
         
         .form-control {
             width: 100%;
-            padding: 14px;
+            padding: 10px;
             background: rgba(5, 5, 23, 0.7);
             border: 1px solid var(--starry-teal);
-            border-radius: 10px;
+            border-radius: 8px;
             color: white;
-            font-size: 1rem;
-        }
-        
-        .form-control:focus {
-            outline: none;
-            border-color: var(--gold);
-            box-shadow: 0 0 0 2px rgba(255, 215, 0, 0.3);
+            font-size: 0.9rem;
         }
         
         .copy-notification {
             position: fixed;
-            bottom: 20px;
+            bottom: 15px;
             left: 50%;
             transform: translateX(-50%);
             background: rgba(10, 17, 40, 0.9);
             color: var(--gold);
-            padding: 15px 30px;
-            border-radius: 50px;
+            padding: 10px 25px;
+            border-radius: 40px;
             border: 1px solid var(--gold);
             display: none;
             z-index: 100;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            font-size: 0.9rem;
         }
         
         .copied-meter {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 10px;
-            margin-top: 20px;
+            gap: 8px;
+            margin-top: 15px;
+            font-size: 0.9rem;
         }
         
         .meter-dot {
-            width: 12px;
-            height: 12px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.2);
             border: 1px solid var(--starry-teal);
@@ -429,7 +419,7 @@
         
         .meter-dot.active {
             background: var(--gold);
-            box-shadow: 0 0 10px var(--gold);
+            box-shadow: 0 0 8px var(--gold);
         }
         
         @media (max-width: 992px) {
@@ -444,14 +434,27 @@
             }
             
             .welcome-message h1 {
-                font-size: 2.2rem;
+                font-size: 1.4rem;
+            }
+            
+            .controls {
+                flex-direction: row;
+                justify-content: center;
+            }
+            
+            .btn {
+                padding: 6px 12px;
+                font-size: 0.8rem;
             }
             
             .counters {
-                flex-direction: column;
-                gap: 15px;
+                position: static;
+                margin-top: 10px;
+                justify-content: center;
             }
-            
+        }
+        
+        @media (max-width: 480px) {
             .controls {
                 flex-direction: column;
                 align-items: center;
@@ -459,7 +462,7 @@
             
             .btn {
                 width: 100%;
-                max-width: 300px;
+                max-width: 240px;
                 justify-content: center;
             }
         }
@@ -467,8 +470,19 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header section (38.2% of viewport) -->
+        <!-- Header section (25% of viewport) -->
         <section class="header-section">
+            <div class="counters">
+                <div class="counter">
+                    <div class="counter-value" id="total-prompts">42</div>
+                    <div class="counter-label">Prompts</div>
+                </div>
+                <div class="counter">
+                    <div class="counter-value" id="category-prompts">6</div>
+                    <div class="counter-label">Selected</div>
+                </div>
+            </div>
+            
             <div class="logo-container">
                 <div class="spiral"></div>
                 <div class="omega-logo">Ω42</div>
@@ -476,32 +490,21 @@
             
             <div class="welcome-message">
                 <h1>Welcome to the Omega 42 Project</h1>
-                <p>Explore the universe's deepest mysteries through thought-provoking questions. Each prompt you select will be copied with our GitHub link, ready for your AI explorations.</p>
-            </div>
-            
-            <div class="counters">
-                <div class="counter">
-                    <div class="counter-value" id="total-prompts">42</div>
-                    <div class="counter-label">Total Prompts</div>
-                </div>
-                <div class="counter">
-                    <div class="counter-value" id="category-prompts">0</div>
-                    <div class="counter-label">Category Prompts</div>
-                </div>
+                <p>Explore cosmic mysteries through thought-provoking questions</p>
             </div>
         </section>
         
-        <!-- Main section (61.8% of viewport) -->
+        <!-- Main section (75% of viewport) -->
         <section class="main-section">
             <div class="controls">
                 <button class="btn btn-primary" id="readme-btn">
                     <i class="fas fa-book"></i> Readme
                 </button>
                 <button class="btn btn-secondary" id="suggest-btn">
-                    <i class="fas fa-lightbulb"></i> Suggest a Prompt
+                    <i class="fas fa-lightbulb"></i> Suggest
                 </button>
                 <button class="btn btn-secondary" id="devs-btn">
-                    <i class="fas fa-code"></i> For Devs
+                    <i class="fas fa-code"></i> Devs
                 </button>
             </div>
             
@@ -518,7 +521,7 @@
             </div>
             
             <div class="prompts-grid" id="prompts-container">
-                <!-- Prompts will be inserted here -->
+                <!-- Default prompts will be inserted here -->
             </div>
             
             <div class="copied-meter">
@@ -527,14 +530,14 @@
                 <div class="meter-dot"></div>
                 <div class="meter-dot"></div>
                 <div class="meter-dot"></div>
-                <span>Copied prompts: <span id="copied-count">0</span></span>
+                <span>Copied: <span id="copied-count">0</span></span>
             </div>
         </section>
     </div>
     
     <!-- Copy notification -->
     <div class="copy-notification" id="copy-notification">
-        Prompt copied to clipboard with GitHub link!
+        <i class="fas fa-check-circle"></i> Prompt copied with GitHub link!
     </div>
     
     <!-- Readme Modal -->
@@ -545,22 +548,18 @@
                 <p>A Journey to Understand the Universe</p>
             </div>
             <div class="modal-body">
-                <p>Welcome to the Omega 42 Project, where we explore the deepest mysteries of existence through the lens of science, philosophy, and human experience. Our mission is to create a framework for understanding reality that bridges the gap between ancient wisdom and modern scientific discovery.</p>
+                <p>Welcome to the Omega 42 Project, where we explore the deepest mysteries of existence through science, philosophy, and human experience.</p>
                 
-                <p>At the heart of our project is the belief that consciousness is fundamental to the universe, and that by asking the right questions, we can unlock profound insights about the nature of existence. The Omega 42 Construct represents a unified model of reality that integrates insights from physics, mathematics, neuroscience, and spirituality.</p>
+                <p>This repository contains the mathematical framework, research papers, and computational models that form the foundation of our work. We invite scientists, philosophers, and curious minds to examine, challenge, and contribute to this evolving theory.</p>
                 
-                <p>This repository contains the mathematical framework, research papers, and computational models that form the foundation of our work. We invite scientists, philosophers, and curious minds from all backgrounds to examine, challenge, and contribute to this evolving theory.</p>
-                
-                <p>Key principles of the Omega 42 Project:</p>
+                <p>Key principles:</p>
                 <ul>
-                    <li>Consciousness as the fundamental fabric of reality</li>
-                    <li>A toroidal holographic model of the universe</li>
-                    <li>Digital root mathematics as a cosmic harmony filter</li>
+                    <li>Consciousness as fundamental to reality</li>
+                    <li>Toroidal holographic model of the universe</li>
+                    <li>Digital root mathematics as cosmic harmony filter</li>
                     <li>The golden ratio (φ) as a universal constant</li>
-                    <li>Human-AI collaboration as a path to discovery</li>
+                    <li>Human-AI collaboration for discovery</li>
                 </ul>
-                
-                <p>Explore our prompts to begin your journey into the Omega 42 universe. Each question is designed to provoke deep reflection and inspire new insights about yourself and the cosmos.</p>
             </div>
             <button class="close-modal" id="close-readme">&times;</button>
         </div>
@@ -576,7 +575,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <label for="prompt-text">Your Prompt:</label>
-                    <textarea class="form-control" id="prompt-text" rows="3" placeholder="Enter your thought-provoking question..."></textarea>
+                    <textarea class="form-control" id="prompt-text" rows="2" placeholder="Enter your thought-provoking question..."></textarea>
                 </div>
                 
                 <div class="form-group">
@@ -591,13 +590,8 @@
                     </select>
                 </div>
                 
-                <div class="form-group">
-                    <label for="user-email">Your Email (optional):</label>
-                    <input type="email" class="form-control" id="user-email" placeholder="name@example.com">
-                </div>
-                
                 <button class="btn btn-primary" id="submit-prompt">Submit Prompt</button>
-                <div id="prompt-feedback" style="margin-top: 20px; display: none;"></div>
+                <div id="prompt-feedback" style="margin-top: 15px; display: none;"></div>
             </div>
             <button class="close-modal" id="close-suggest">&times;</button>
         </div>
@@ -611,34 +605,24 @@
                 <p>Contribute to the Omega 42 Project</p>
             </div>
             <div class="modal-body">
-                <p>We welcome developers to contribute to the Omega 42 Project! Our GitHub repository contains the source code for the mathematical framework, simulations, and this web interface.</p>
+                <p>We welcome developers to contribute to the Omega 42 Project!</p>
                 
-                <p>Key areas where we need developer contributions:</p>
+                <p>Key areas for contribution:</p>
                 <ul>
-                    <li>Improving the computational models of the toroidal holographic universe</li>
-                    <li>Developing visualizations of the Omega 42 lattice</li>
-                    <li>Creating interactive simulations of consciousness-driven collapse</li>
-                    <li>Building APIs for integrating with AI systems</li>
-                    <li>Enhancing the web interface and user experience</li>
+                    <li>Computational models of the toroidal holographic universe</li>
+                    <li>Visualizations of the Omega 42 lattice</li>
+                    <li>Interactive simulations</li>
+                    <li>APIs for AI integration</li>
+                    <li>Web interface enhancements</li>
                 </ul>
                 
                 <p>To get started:</p>
                 <ol>
                     <li>Fork the Omega 42 repository on GitHub</li>
-                    <li>Explore the open issues and feature requests</li>
-                    <li>Set up the development environment (documentation in /docs)</li>
-                    <li>Submit pull requests for your contributions</li>
+                    <li>Explore open issues and feature requests</li>
+                    <li>Set up development environment</li>
+                    <li>Submit pull requests</li>
                 </ol>
-                
-                <p>We follow these development principles:</p>
-                <ul>
-                    <li>All code must be well-documented and tested</li>
-                    <li>New features should include examples and usage instructions</li>
-                    <li>Mathematical components require peer review</li>
-                    <li>User interfaces should be accessible and intuitive</li>
-                </ul>
-                
-                <p>Join our developer community and help us build tools to explore the fundamental nature of reality!</p>
             </div>
             <button class="close-modal" id="close-devs">&times;</button>
         </div>
@@ -648,78 +632,64 @@
         // Sample prompt data
         const promptData = {
             life: [
-                "What is the ultimate purpose of human existence according to the Omega 42 framework?",
-                "How can I find deeper meaning in my daily life through cosmic awareness?",
-                "Does the universe have a plan for humanity's evolution?",
-                "How do our individual actions affect the cosmic balance?",
-                "What happens after we die in the Omega 42 model of consciousness?",
-                "How can I live in alignment with universal principles?",
-                "What is the relationship between love and the structure of the universe?",
-                "How does the concept of fate fit into a conscious universe?",
-                "Can we change our destiny through conscious intention?",
-                "What role does suffering play in cosmic evolution?"
+                "What is the purpose of human existence according to Omega 42?",
+                "How can I find deeper meaning in daily life?",
+                "Does the universe have a plan for humanity?",
+                "How do our actions affect cosmic balance?",
+                "What happens after death in the Omega 42 model?",
+                "How can I live in alignment with universal principles?"
             ],
             science: [
-                "How does the Omega 42 model explain the origin of the universe?",
-                "What is the relationship between consciousness and quantum physics?",
+                "How does Omega 42 explain the origin of the universe?",
+                "What is consciousness in quantum physics?",
                 "How does the golden ratio manifest in cosmic structures?",
-                "Can the Omega 42 framework reconcile relativity and quantum mechanics?",
+                "Can Omega 42 reconcile relativity and quantum mechanics?",
                 "What is the nature of time in a toroidal universe?",
-                "How do black holes function in the Omega 42 model?",
-                "What evidence supports the holographic principle of reality?",
-                "How does dark matter fit into the Omega 42 framework?",
-                "What is the role of entropy in a conscious universe?",
-                "How might the Omega 42 theory change our search for extraterrestrial life?"
+                "How do black holes function in Omega 42?"
             ],
             consciousness: [
-                "What is consciousness according to the Omega 42 framework?",
+                "What is consciousness in the Omega 42 framework?",
                 "How can I expand my conscious awareness?",
-                "What is the relationship between dreams and cosmic reality?",
-                "How do meditation practices affect our connection to the universal lattice?",
-                "Can consciousness exist independently of the brain?",
-                "What is the collective unconscious in cosmic terms?",
-                "How do psychedelic experiences relate to the Omega 42 model?",
-                "What is the role of intuition in understanding cosmic truths?",
-                "How can we measure the 'resonance' of a conscious being?",
-                "What is the connection between consciousness and the fine structure constant?"
+                "What is the relationship between dreams and reality?",
+                "How does meditation affect our connection to the universe?",
+                "Can consciousness exist without the brain?",
+                "What is the role of intuition in cosmic understanding?"
             ],
             technology: [
-                "How will AI evolve according to the Omega 42 framework?",
-                "What technologies could help us detect the cosmic lattice?",
-                "How might quantum computing advance the Omega 42 research?",
+                "How will AI evolve according to Omega 42?",
+                "What technologies could detect the cosmic lattice?",
+                "How might quantum computing advance Omega 42 research?",
                 "Can we create devices that interface with consciousness?",
-                "What role will humans play in a future with advanced AI?",
-                "How can technology help us achieve cosmic awareness?",
-                "What ethical considerations arise from consciousness-based tech?",
-                "How might the Omega 42 theory influence space exploration?",
-                "Can we develop energy sources based on cosmic principles?",
-                "What would a 'conscious internet' look like?"
+                "What role will humans play with advanced AI?",
+                "How can technology help achieve cosmic awareness?"
             ],
             society: [
-                "How can the Omega 42 principles create a better society?",
+                "How can Omega 42 principles create a better society?",
                 "What would an economy based on cosmic awareness look like?",
                 "How can we solve global conflicts using universal principles?",
                 "What is the future of education in a conscious universe?",
                 "How can we address inequality through cosmic understanding?",
-                "What role does art play in expressing cosmic truths?",
-                "How might the Omega 42 framework influence governance?",
-                "What is humanity's collective purpose in the cosmos?",
-                "How can we balance technological progress with spiritual growth?",
-                "What would a civilization aligned with cosmic principles achieve?"
+                "What role does art play in expressing cosmic truths?"
             ],
             growth: [
-                "How can I apply Omega 42 principles to personal development?",
-                "What practices increase my connection to the cosmic lattice?",
-                "How can I overcome limiting beliefs using cosmic awareness?",
+                "How can I apply Omega 42 to personal development?",
+                "What practices increase connection to the cosmic lattice?",
+                "How can I overcome limiting beliefs?",
                 "What is the relationship between personal growth and universal evolution?",
-                "How can I find my unique purpose in the cosmic scheme?",
-                "What daily habits align with Omega 42 principles?",
-                "How can I transform challenges into cosmic growth opportunities?",
-                "What is the role of relationships in personal evolution?",
-                "How can I develop intuition as a cosmic navigation tool?",
+                "How can I find my purpose in the cosmic scheme?",
                 "What does it mean to live as a 'cosmic citizen'?"
             ]
         };
+        
+        // Default essential prompts
+        const defaultPrompts = [
+            "What is the fundamental nature of reality according to Omega 42?",
+            "How does consciousness create the universe?",
+            "What is the significance of the number 42 in cosmic terms?",
+            "How can I apply Omega 42 principles in daily life?",
+            "What role does the golden ratio play in universal structure?",
+            "How does Omega 42 explain the connection between mind and matter?"
+        ];
         
         // DOM Elements
         const categorySelect = document.getElementById('category-select');
@@ -760,6 +730,9 @@
             }
             totalPromptsEl.textContent = totalPrompts;
             
+            // Show default prompts
+            showDefaultPrompts();
+            
             // Set up event listeners
             categorySelect.addEventListener('change', handleCategorySelect);
             readmeBtn.addEventListener('click', () => showModal(readmeModal));
@@ -778,23 +751,46 @@
             });
         }
         
+        // Show default prompts
+        function showDefaultPrompts() {
+            promptsContainer.innerHTML = '';
+            categoryPromptsEl.textContent = defaultPrompts.length;
+            
+            for (let i = 0; i < defaultPrompts.length; i++) {
+                const promptText = defaultPrompts[i];
+                
+                const promptCard = document.createElement('div');
+                promptCard.className = `prompt-card category-science`;
+                promptCard.innerHTML = `
+                    <div class="prompt-text">${promptText}</div>
+                    <div class="prompt-category">Essential</div>
+                `;
+                
+                // Add click event to copy prompt
+                promptCard.addEventListener('click', () => {
+                    copyPromptToClipboard(promptText, 'default');
+                });
+                
+                promptsContainer.appendChild(promptCard);
+            }
+        }
+        
         // Handle category selection
         function handleCategorySelect() {
             const category = categorySelect.value;
-            promptsContainer.innerHTML = '';
             
             if (!category) {
-                categoryPromptsEl.textContent = '0';
+                showDefaultPrompts();
                 return;
             }
             
+            promptsContainer.innerHTML = '';
             const prompts = promptData[category];
             categoryPromptsEl.textContent = prompts.length;
             
-            // Add prompts to the grid
-            for (let i = 0; i < 6; i++) {
-                const promptIndex = i % prompts.length;
-                const promptText = prompts[promptIndex];
+            // Add all prompts to the grid
+            for (let i = 0; i < prompts.length; i++) {
+                const promptText = prompts[i];
                 
                 const promptCard = document.createElement('div');
                 promptCard.className = `prompt-card category-${category}`;
@@ -854,7 +850,7 @@
                 return;
             }
             
-            // Check for uniqueness (simple implementation)
+            // Check for uniqueness
             let isUnique = true;
             for (const cat in promptData) {
                 if (promptData[cat].includes(text)) {
@@ -880,7 +876,7 @@
                 handleCategorySelect();
             }
             
-            showFeedback("Thank you! Your prompt has been added to our collection.", "success");
+            showFeedback("Thank you! Your prompt has been added.", "success");
             promptText.value = '';
         }
         
