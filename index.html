@@ -64,7 +64,7 @@
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 15px;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -72,8 +72,8 @@
         
         /* Header section */
         .header-section {
-            height: 18vh;
-            min-height: 120px;
+            height: auto;
+            min-height: 130px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -112,7 +112,7 @@
         
         .logo-container {
             position: relative;
-            margin-bottom: 5px;
+            margin: 35px 0 10px;
         }
         
         .omega-logo {
@@ -223,10 +223,10 @@
         }
         
         .btn {
-            padding: 8px 14px;
+            padding: 10px 16px;
             border: none;
             border-radius: 40px;
-            font-size: 0.82rem;
+            font-size: 0.85rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -258,7 +258,7 @@
         
         .counter {
             background: rgba(10, 17, 40, 0.7);
-            padding: 6px 10px;
+            padding: 8px 12px;
             border-radius: 30px;
             display: flex;
             flex-direction: column;
@@ -268,13 +268,13 @@
         }
         
         .counter-value {
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-weight: bold;
             color: var(--gold);
         }
         
         .counter-label {
-            font-size: 0.65rem;
+            font-size: 0.7rem;
             opacity: 0.8;
         }
         
@@ -284,8 +284,8 @@
         
         .category-select {
             width: 100%;
-            padding: 10px 14px;
-            font-size: 0.9rem;
+            padding: 12px 16px;
+            font-size: 0.95rem;
             background: rgba(10, 17, 40, 0.7);
             color: white;
             border: 1px solid var(--starry-teal);
@@ -304,12 +304,13 @@
             flex-direction: column;
             max-height: 100%;
             padding: 0 10px;
+            overflow: auto;
         }
         
         .prompts-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 10px;
+            gap: 12px;
             max-width: 1100px;
             margin: 0 auto;
             flex: 1;
@@ -320,7 +321,7 @@
         .prompt-card {
             background: rgba(10, 17, 40, 0.7);
             border-radius: 10px;
-            padding: 14px;
+            padding: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
             position: relative;
@@ -359,15 +360,15 @@
         }
         
         .prompt-text {
-            font-size: 0.88rem;
+            font-size: 0.92rem;
             line-height: 1.5;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             flex-grow: 1;
         }
         
         .prompt-category {
-            font-size: 0.7rem;
-            padding: 3px 8px;
+            font-size: 0.75rem;
+            padding: 4px 10px;
             border-radius: 12px;
             display: inline-block;
             align-self: flex-start;
@@ -398,6 +399,26 @@
         .category-growth .prompt-category { 
             background: var(--growth-color); 
             color: #000;
+        }
+        
+        /* Mobile Navigation */
+        .mobile-menu-btn {
+            display: none;
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: rgba(10, 17, 40, 0.85);
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
         }
         
         /* Modal styles */
@@ -531,6 +552,7 @@
             box-shadow: 0 0 8px var(--gold);
         }
         
+        /* Mobile Responsiveness */
         @media (max-width: 992px) {
             .prompts-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -538,61 +560,132 @@
         }
         
         @media (max-width: 768px) {
-            .prompts-grid {
-                grid-template-columns: 1fr;
+            .container {
+                padding: 0 10px;
+            }
+            
+            .header-section {
+                padding-top: 40px;
+            }
+            
+            .project-description {
+                position: static;
+                max-width: 100%;
+                margin: 10px 0;
+            }
+            
+            .logo-container {
+                margin: 10px 0;
+            }
+            
+            .omega-logo {
+                font-size: 40px;
+            }
+            
+            .spiral {
+                width: 70px;
+                height: 70px;
             }
             
             .welcome-message h1 {
                 font-size: 1.3rem;
             }
             
-            .controls {
-                flex-direction: row;
-                justify-content: center;
-            }
-            
-            .btn {
-                padding: 6px 12px;
+            .welcome-message p {
                 font-size: 0.8rem;
             }
             
-            .counters {
-                position: static;
-                margin-top: 10px;
+            .top-row {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .controls {
+                width: 100%;
                 justify-content: center;
             }
             
-            .project-description {
-                position: static;
-                max-width: 100%;
-                margin-bottom: 15px;
+            .counters {
+                width: 100%;
+                justify-content: center;
             }
             
-            .header-section {
-                height: auto;
-                min-height: auto;
-                padding: 20px 0;
+            .prompts-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
             
-            .controls-container {
-                flex-direction: column;
+            .btn {
+                padding: 10px 14px;
+                font-size: 0.8rem;
+            }
+            
+            .mobile-menu-btn {
+                display: flex;
             }
         }
         
-        @media (max-width: 480px) {
+        @media (max-width: 576px) {
+            .prompts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-section {
+                min-height: 100px;
+            }
+            
+            .omega-logo {
+                font-size: 35px;
+            }
+            
+            .spiral {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .welcome-message h1 {
+                font-size: 1.2rem;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+            }
+            
+            .counter {
+                padding: 8px 15px;
+            }
+            
+            .counter-value {
+                font-size: 1rem;
+            }
+            
+            .mobile-menu-btn {
+                top: 10px;
+                right: 10px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .container {
+                padding: 0 8px;
+            }
+            
+            .welcome-message h1 {
+                font-size: 1.1rem;
+            }
+            
             .controls {
                 flex-direction: column;
                 align-items: center;
             }
             
-            .btn {
-                width: 100%;
-                max-width: 240px;
-                justify-content: center;
-            }
-            
             .counters {
-                width: 100%;
+                flex-wrap: wrap;
                 justify-content: center;
             }
         }
@@ -600,6 +693,11 @@
 </head>
 <body>
     <div class="galaxy"></div>
+    
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </button>
     
     <div class="container">
         <!-- Header section -->
@@ -841,6 +939,7 @@
         const categoryPromptsEl = document.getElementById('category-prompts');
         const copiedCountEl = document.getElementById('copied-count');
         const copyNotification = document.getElementById('copy-notification');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         
         const readmeBtn = document.getElementById('readme-btn');
         const readmeModal = document.getElementById('readme-modal');
@@ -892,6 +991,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             submitPromptBtn.addEventListener('click', handleSubmitPrompt);
             devsBtn.addEventListener('click', () => showModal(devsModal));
             closeDevs.addEventListener('click', () => hideModal(devsModal));
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
             
             // Close modals when clicking outside content
             window.addEventListener('click', (e) => {
@@ -899,6 +999,22 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                 if (e.target === suggestModal) hideModal(suggestModal);
                 if (e.target === devsModal) hideModal(devsModal);
             });
+        }
+        
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            const controls = document.querySelector('.controls');
+            const counters = document.querySelector('.counters');
+            
+            if (controls.style.display === 'flex' || controls.style.display === '') {
+                controls.style.display = 'none';
+                counters.style.display = 'none';
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            } else {
+                controls.style.display = 'flex';
+                counters.style.display = 'flex';
+                mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+            }
         }
         
         // Show default prompts
