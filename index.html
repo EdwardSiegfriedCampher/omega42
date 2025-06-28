@@ -13,7 +13,7 @@
             --starry-teal: #00c9c8;
             --dark-space: #050517;
             --light-space: #1c1c3d;
-            --main-bg: rgba(20, 20, 60, 0.6); /* Lighter background */
+            --main-bg: rgba(30, 30, 70, 0.65); /* Lighter background */
             
             /* Category Colors */
             --life-color: #FF6B6B;
@@ -72,8 +72,8 @@
         
         /* Header section */
         .header-section {
-            height: 22vh;
-            min-height: 150px;
+            height: 18vh; /* Reduced height */
+            min-height: 120px; /* Reduced min height */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -85,37 +85,38 @@
         
         .project-description {
             position: absolute;
-            top: 15px;
-            left: 15px;
-            max-width: 280px;
+            top: 5px; /* Moved higher */
+            left: 5px; /* Moved further left */
+            max-width: 260px; /* Slightly smaller */
             background: rgba(10, 17, 40, 0.85);
-            padding: 12px;
+            padding: 10px;
             border-radius: 10px;
             border: 1px solid var(--starry-teal);
             text-align: left;
             backdrop-filter: blur(5px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 10; /* Ensure it's above other elements */
         }
         
         .project-description h3 {
             color: var(--gold);
             margin-bottom: 5px;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
         
         .project-description p {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             line-height: 1.4;
             color: rgba(255, 255, 255, 0.85);
         }
         
         .logo-container {
             position: relative;
-            margin-bottom: 10px;
+            margin-bottom: 5px; /* Reduced margin */
         }
         
         .omega-logo {
-            font-size: 60px;
+            font-size: 50px; /* Slightly smaller */
             color: var(--gold);
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -128,8 +129,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 100px;
-            height: 100px;
+            width: 80px; /* Smaller spiral */
+            height: 80px; /* Smaller spiral */
             border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
@@ -141,10 +142,10 @@
         .spiral::before {
             content: "";
             position: absolute;
-            top: 10px;
-            left: 10px;
-            right: 10px;
-            bottom: 10px;
+            top: 8px;
+            left: 8px;
+            right: 8px;
+            bottom: 8px;
             border: 2px solid transparent;
             border-top-color: var(--gold);
             border-left-color: var(--starry-teal);
@@ -155,10 +156,10 @@
         .spiral::after {
             content: "";
             position: absolute;
-            top: 20px;
-            left: 20px;
-            right: 20px;
-            bottom: 20px;
+            top: 16px;
+            left: 16px;
+            right: 16px;
+            bottom: 16px;
             border: 2px solid transparent;
             border-top-color: var(--cosmic-purple);
             border-right-color: var(--gold);
@@ -172,8 +173,8 @@
         }
         
         .welcome-message h1 {
-            font-size: 1.5rem;
-            margin-bottom: 8px;
+            font-size: 1.4rem; /* Slightly smaller */
+            margin-bottom: 5px;
             background: linear-gradient(to right, var(--gold), var(--starry-teal));
             -webkit-background-clip: text;
             background-clip: text;
@@ -181,9 +182,9 @@
         }
         
         .welcome-message p {
-            font-size: 0.9rem;
+            font-size: 0.85rem; /* Slightly smaller */
             max-width: 700px;
-            margin: 0 auto 15px;
+            margin: 0 auto 10px; /* Reduced margin */
             line-height: 1.5;
             color: rgba(255, 255, 255, 0.85);
         }
@@ -191,7 +192,7 @@
         /* Main content section */
         .main-section {
             flex: 1;
-            padding: 15px 0;
+            padding: 10px 0; /* Reduced padding */
             background: var(--main-bg); /* Lighter background */
             border-top: 1px solid rgba(255, 215, 0, 0.2);
             backdrop-filter: blur(3px);
@@ -203,7 +204,17 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 12px; /* Reduced margin */
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 0 10px;
+        }
+        
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
             flex-wrap: wrap;
             gap: 15px;
         }
@@ -215,10 +226,10 @@
         }
         
         .btn {
-            padding: 8px 16px;
+            padding: 8px 14px; /* Slightly smaller */
             border: none;
             border-radius: 40px;
-            font-size: 0.85rem;
+            font-size: 0.82rem; /* Slightly smaller */
             font-weight: 600;
             cursor: pointer;
             transition: all 0.3s ease;
@@ -250,35 +261,36 @@
         
         .counter {
             background: rgba(10, 17, 40, 0.7);
-            padding: 6px 10px; /* Smaller padding */
+            padding: 6px 10px;
             border-radius: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
             border: 1px solid var(--starry-teal);
-            box-shadow: 0 0 8px rgba(0, 201, 200, 0.3); /* Smaller shadow */
+            box-shadow: 0 0 8px rgba(0, 201, 200, 0.3);
         }
         
         .counter-value {
-            font-size: 1rem; /* Smaller font */
+            font-size: 1rem;
             font-weight: bold;
             color: var(--gold);
         }
         
         .counter-label {
-            font-size: 0.65rem; /* Smaller font */
+            font-size: 0.65rem;
             opacity: 0.8;
         }
         
         .dropdown-container {
-            max-width: 700px;
-            margin: 0 auto 15px;
+            width: 100%;
+            margin-bottom: 10px; /* Reduced margin */
+            padding: 0 10px;
         }
         
         .category-select {
             width: 100%;
-            padding: 12px 16px;
-            font-size: 0.95rem;
+            padding: 10px 14px; /* Slightly smaller */
+            font-size: 0.9rem; /* Slightly smaller */
             background: rgba(10, 17, 40, 0.7);
             color: white;
             border: 1px solid var(--starry-teal);
@@ -296,12 +308,13 @@
             display: flex;
             flex-direction: column;
             max-height: 100%;
+            padding: 0 10px;
         }
         
         .prompts-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 12px;
+            gap: 10px; /* Reduced gap */
             max-width: 1100px;
             margin: 0 auto;
             flex: 1;
@@ -312,7 +325,7 @@
         .prompt-card {
             background: rgba(10, 17, 40, 0.7);
             border-radius: 10px;
-            padding: 18px;
+            padding: 14px; /* Reduced padding */
             cursor: pointer;
             transition: all 0.3s ease;
             position: relative;
@@ -351,14 +364,14 @@
         }
         
         .prompt-text {
-            font-size: 0.92rem;
+            font-size: 0.88rem; /* Slightly smaller */
             line-height: 1.5;
-            margin-bottom: 12px;
+            margin-bottom: 10px; /* Reduced margin */
             flex-grow: 1;
         }
         
         .prompt-category {
-            font-size: 0.72rem;
+            font-size: 0.7rem; /* Slightly smaller */
             padding: 3px 8px;
             border-radius: 12px;
             display: inline-block;
@@ -506,8 +519,8 @@
             justify-content: center;
             align-items: center;
             gap: 8px;
-            margin-top: 15px;
-            font-size: 0.9rem;
+            margin-top: 12px; /* Reduced margin */
+            font-size: 0.85rem; /* Slightly smaller */
         }
         
         .meter-dot {
@@ -615,40 +628,42 @@
         <!-- Main section -->
         <section class="main-section">
             <div class="controls-container">
-                <div class="controls">
-                    <button class="btn btn-primary" id="readme-btn">
-                        <i class="fas fa-book"></i> Readme
-                    </button>
-                    <button class="btn btn-secondary" id="suggest-btn">
-                        <i class="fas fa-lightbulb"></i> Suggest
-                    </button>
-                    <button class="btn btn-secondary" id="devs-btn">
-                        <i class="fas fa-code"></i> Devs
-                    </button>
+                <div class="top-row">
+                    <div class="controls">
+                        <button class="btn btn-primary" id="readme-btn">
+                            <i class="fas fa-book"></i> Readme
+                        </button>
+                        <button class="btn btn-secondary" id="suggest-btn">
+                            <i class="fas fa-lightbulb"></i> Suggest
+                        </button>
+                        <button class="btn btn-secondary" id="devs-btn">
+                            <i class="fas fa-code"></i> Devs
+                        </button>
+                    </div>
+                    
+                    <div class="counters">
+                        <div class="counter">
+                            <div class="counter-value" id="total-prompts">42</div>
+                            <div class="counter-label">Prompts</div>
+                        </div>
+                        <div class="counter">
+                            <div class="counter-value" id="category-prompts">6</div>
+                            <div class="counter-label">Selected</div>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="counters">
-                    <div class="counter">
-                        <div class="counter-value" id="total-prompts">42</div>
-                        <div class="counter-label">Prompts</div>
-                    </div>
-                    <div class="counter">
-                        <div class="counter-value" id="category-prompts">6</div>
-                        <div class="counter-label">Selected</div>
-                    </div>
+                <div class="dropdown-container">
+                    <select class="category-select" id="category-select">
+                        <option value="">-- Select a Category --</option>
+                        <option value="life">Life & Meaning</option>
+                        <option value="science">Science & Universe</option>
+                        <option value="consciousness">Consciousness & Mind</option>
+                        <option value="technology">Technology & Future</option>
+                        <option value="society">Society & Humanity</option>
+                        <option value="growth">Personal Growth</option>
+                    </select>
                 </div>
-            </div>
-            
-            <div class="dropdown-container">
-                <select class="category-select" id="category-select">
-                    <option value="">-- Select a Category --</option>
-                    <option value="life">Life & Meaning</option>
-                    <option value="science">Science & Universe</option>
-                    <option value="consciousness">Consciousness & Mind</option>
-                    <option value="technology">Technology & Future</option>
-                    <option value="society">Society & Humanity</option>
-                    <option value="growth">Personal Growth</option>
-                </select>
             </div>
             
             <div class="prompts-container">
