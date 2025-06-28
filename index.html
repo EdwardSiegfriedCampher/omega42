@@ -13,6 +13,7 @@
             --starry-teal: #00c9c8;
             --dark-space: #050517;
             --light-space: #1c1c3d;
+            --main-bg: rgba(20, 20, 60, 0.6); /* Lighter background */
             
             /* Category Colors */
             --life-color: #FF6B6B;
@@ -187,52 +188,29 @@
             color: rgba(255, 255, 255, 0.85);
         }
         
-        .counters {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            display: flex;
-            gap: 15px;
-        }
-        
-        .counter {
-            background: rgba(10, 17, 40, 0.7);
-            padding: 8px 15px;
-            border-radius: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border: 1px solid var(--starry-teal);
-            box-shadow: 0 0 10px rgba(0, 201, 200, 0.3);
-        }
-        
-        .counter-value {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: var(--gold);
-        }
-        
-        .counter-label {
-            font-size: 0.7rem;
-            opacity: 0.8;
-        }
-        
         /* Main content section */
         .main-section {
             flex: 1;
             padding: 15px 0;
-            background: rgba(5, 5, 23, 0.4);
+            background: var(--main-bg); /* Lighter background */
             border-top: 1px solid rgba(255, 215, 0, 0.2);
             backdrop-filter: blur(3px);
             display: flex;
             flex-direction: column;
         }
         
+        .controls-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
         .controls {
             display: flex;
-            justify-content: center;
             gap: 8px;
-            margin-bottom: 15px;
             flex-wrap: wrap;
         }
         
@@ -263,6 +241,33 @@
         .btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .counters {
+            display: flex;
+            gap: 8px;
+        }
+        
+        .counter {
+            background: rgba(10, 17, 40, 0.7);
+            padding: 6px 10px; /* Smaller padding */
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid var(--starry-teal);
+            box-shadow: 0 0 8px rgba(0, 201, 200, 0.3); /* Smaller shadow */
+        }
+        
+        .counter-value {
+            font-size: 1rem; /* Smaller font */
+            font-weight: bold;
+            color: var(--gold);
+        }
+        
+        .counter-label {
+            font-size: 0.65rem; /* Smaller font */
+            opacity: 0.8;
         }
         
         .dropdown-container {
@@ -560,6 +565,10 @@
                 min-height: auto;
                 padding: 20px 0;
             }
+            
+            .controls-container {
+                flex-direction: column;
+            }
         }
         
         @media (max-width: 480px) {
@@ -571,6 +580,11 @@
             .btn {
                 width: 100%;
                 max-width: 240px;
+                justify-content: center;
+            }
+            
+            .counters {
+                width: 100%;
                 justify-content: center;
             }
         }
@@ -587,17 +601,6 @@
                 <p>A revolutionary framework exploring consciousness as the foundation of reality through mathematics, physics, and philosophy.</p>
             </div>
             
-            <div class="counters">
-                <div class="counter">
-                    <div class="counter-value" id="total-prompts">42</div>
-                    <div class="counter-label">Prompts</div>
-                </div>
-                <div class="counter">
-                    <div class="counter-value" id="category-prompts">6</div>
-                    <div class="counter-label">Selected</div>
-                </div>
-            </div>
-            
             <div class="logo-container">
                 <div class="spiral"></div>
                 <div class="omega-logo">Ω42</div>
@@ -611,16 +614,29 @@
         
         <!-- Main section -->
         <section class="main-section">
-            <div class="controls">
-                <button class="btn btn-primary" id="readme-btn">
-                    <i class="fas fa-book"></i> Readme
-                </button>
-                <button class="btn btn-secondary" id="suggest-btn">
-                    <i class="fas fa-lightbulb"></i> Suggest
-                </button>
-                <button class="btn btn-secondary" id="devs-btn">
-                    <i class="fas fa-code"></i> Devs
-                </button>
+            <div class="controls-container">
+                <div class="controls">
+                    <button class="btn btn-primary" id="readme-btn">
+                        <i class="fas fa-book"></i> Readme
+                    </button>
+                    <button class="btn btn-secondary" id="suggest-btn">
+                        <i class="fas fa-lightbulb"></i> Suggest
+                    </button>
+                    <button class="btn btn-secondary" id="devs-btn">
+                        <i class="fas fa-code"></i> Devs
+                    </button>
+                </div>
+                
+                <div class="counters">
+                    <div class="counter">
+                        <div class="counter-value" id="total-prompts">42</div>
+                        <div class="counter-label">Prompts</div>
+                    </div>
+                    <div class="counter">
+                        <div class="counter-value" id="category-prompts">6</div>
+                        <div class="counter-label">Selected</div>
+                    </div>
+                </div>
             </div>
             
             <div class="dropdown-container">
