@@ -64,7 +64,7 @@
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 15px;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -72,8 +72,8 @@
         
         /* Header section */
         .header-section {
-            height: 22vh;
-            min-height: 150px;
+            height: auto;
+            min-height: 130px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -85,37 +85,38 @@
         
         .project-description {
             position: absolute;
-            top: 15px;
-            left: 15px;
-            max-width: 280px;
+            top: 5px;
+            left: 5px; /* Moved further left */
+            max-width: 260px;
             background: rgba(10, 17, 40, 0.85);
-            padding: 12px;
+            padding: 10px;
             border-radius: 10px;
             border: 1px solid var(--starry-teal);
             text-align: left;
             backdrop-filter: blur(5px);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            z-index: 10;
         }
         
         .project-description h3 {
             color: var(--gold);
             margin-bottom: 5px;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
         
         .project-description p {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             line-height: 1.4;
             color: rgba(255, 255, 255, 0.85);
         }
         
         .logo-container {
             position: relative;
-            margin-bottom: 10px;
+            margin: 35px 0 10px;
         }
         
         .omega-logo {
-            font-size: 60px;
+            font-size: 50px;
             color: var(--gold);
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -128,8 +129,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
@@ -141,10 +142,10 @@
         .spiral::before {
             content: "";
             position: absolute;
-            top: 10px;
-            left: 10px;
-            right: 10px;
-            bottom: 10px;
+            top: 8px;
+            left: 8px;
+            right: 8px;
+            bottom: 8px;
             border: 2px solid transparent;
             border-top-color: var(--gold);
             border-left-color: var(--starry-teal);
@@ -155,10 +156,10 @@
         .spiral::after {
             content: "";
             position: absolute;
-            top: 20px;
-            left: 20px;
-            right: 20px;
-            bottom: 20px;
+            top: 16px;
+            left: 16px;
+            right: 16px;
+            bottom: 16px;
             border: 2px solid transparent;
             border-top-color: var(--cosmic-purple);
             border-right-color: var(--gold);
@@ -172,8 +173,8 @@
         }
         
         .welcome-message h1 {
-            font-size: 1.5rem;
-            margin-bottom: 8px;
+            font-size: 1.4rem;
+            margin-bottom: 5px;
             background: linear-gradient(to right, var(--gold), var(--starry-teal));
             -webkit-background-clip: text;
             background-clip: text;
@@ -181,9 +182,9 @@
         }
         
         .welcome-message p {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             max-width: 700px;
-            margin: 0 auto 15px;
+            margin: 0 auto 10px;
             line-height: 1.5;
             color: rgba(255, 255, 255, 0.85);
         }
@@ -223,7 +224,7 @@
         /* Main content section */
         .main-section {
             flex: 1;
-            padding: 15px 0;
+            padding: 10px 0;
             background: var(--main-bg);
             border-top: 1px solid rgba(255, 215, 0, 0.2);
             backdrop-filter: blur(3px);
@@ -233,11 +234,9 @@
         
         .controls-container {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 15px;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 12px;
             padding: 0 10px;
         }
         
@@ -245,7 +244,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 100%;
             flex-wrap: wrap;
             gap: 15px;
         }
@@ -257,7 +255,7 @@
         }
         
         .btn {
-            padding: 8px 16px;
+            padding: 10px 16px;
             border: none;
             border-radius: 40px;
             font-size: 0.85rem;
@@ -287,22 +285,22 @@
         
         .counters {
             display: flex;
-            gap: 15px;
+            gap: 8px;
         }
         
         .counter {
             background: rgba(10, 17, 40, 0.7);
-            padding: 8px 15px;
+            padding: 8px 12px;
             border-radius: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
             border: 1px solid var(--starry-teal);
-            box-shadow: 0 0 10px rgba(0, 201, 200, 0.3);
+            box-shadow: 0 0 8px rgba(0, 201, 200, 0.3);
         }
         
         .counter-value {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: bold;
             color: var(--gold);
         }
@@ -312,15 +310,17 @@
             opacity: 0.8;
         }
         
+        /* Category selector positioned next to buttons */
         .dropdown-container {
-            max-width: 700px;
-            margin: 0 auto 15px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-left: 10px;
         }
         
         .category-select {
-            width: 100%;
-            padding: 12px 16px;
-            font-size: 0.95rem;
+            padding: 10px 14px;
+            font-size: 0.9rem;
             background: rgba(10, 17, 40, 0.7);
             color: white;
             border: 1px solid var(--starry-teal);
@@ -331,6 +331,7 @@
             background-repeat: no-repeat;
             background-position: right 1rem center;
             background-size: 1.1em;
+            min-width: 220px;
         }
         
         .prompts-container {
@@ -338,6 +339,8 @@
             display: flex;
             flex-direction: column;
             max-height: 100%;
+            padding: 0 10px;
+            overflow: auto;
         }
         
         .prompts-grid {
@@ -354,7 +357,7 @@
         .prompt-card {
             background: rgba(10, 17, 40, 0.7);
             border-radius: 10px;
-            padding: 18px;
+            padding: 16px;
             cursor: pointer;
             transition: all 0.3s ease;
             position: relative;
@@ -400,8 +403,8 @@
         }
         
         .prompt-category {
-            font-size: 0.72rem;
-            padding: 3px 8px;
+            font-size: 0.75rem;
+            padding: 4px 10px;
             border-radius: 12px;
             display: inline-block;
             align-self: flex-start;
@@ -432,6 +435,26 @@
         .category-growth .prompt-category { 
             background: var(--growth-color); 
             color: #000;
+        }
+        
+        /* Mobile Navigation */
+        .mobile-menu-btn {
+            display: none;
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: rgba(10, 17, 40, 0.85);
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
         }
         
         /* Modal styles */
@@ -548,8 +571,8 @@
             justify-content: center;
             align-items: center;
             gap: 8px;
-            margin-top: 15px;
-            font-size: 0.9rem;
+            margin-top: 12px;
+            font-size: 0.85rem;
         }
         
         .meter-dot {
@@ -565,6 +588,7 @@
             box-shadow: 0 0 8px var(--gold);
         }
         
+        /* Mobile Responsiveness */
         @media (max-width: 992px) {
             .prompts-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -572,44 +596,74 @@
         }
         
         @media (max-width: 768px) {
-            .prompts-grid {
-                grid-template-columns: 1fr;
+            .container {
+                padding: 0 10px;
+            }
+            
+            .header-section {
+                padding-top: 40px;
+            }
+            
+            .project-description {
+                position: static;
+                max-width: 100%;
+                margin: 10px 0;
+            }
+            
+            .logo-container {
+                margin: 10px 0;
+            }
+            
+            .omega-logo {
+                font-size: 40px;
+            }
+            
+            .spiral {
+                width: 70px;
+                height: 70px;
             }
             
             .welcome-message h1 {
                 font-size: 1.3rem;
             }
             
-            .controls {
-                flex-direction: row;
-                justify-content: center;
-            }
-            
-            .btn {
-                padding: 6px 12px;
+            .welcome-message p {
                 font-size: 0.8rem;
             }
             
-            .counters {
-                position: static;
-                margin-top: 10px;
+            .top-row {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            .controls {
+                width: 100%;
                 justify-content: center;
             }
             
-            .project-description {
-                position: static;
-                max-width: 100%;
-                margin-bottom: 15px;
+            .dropdown-container {
+                width: 100%;
+                justify-content: center;
+                margin: 10px 0;
             }
             
-            .header-section {
-                height: auto;
-                min-height: auto;
-                padding: 20px 0;
+            .counters {
+                width: 100%;
+                justify-content: center;
             }
             
-            .controls-container {
-                flex-direction: column;
+            .prompts-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .btn {
+                padding: 10px 14px;
+                font-size: 0.8rem;
+            }
+            
+            .mobile-menu-btn {
+                display: flex;
             }
             
             .ai-invitation {
@@ -623,21 +677,72 @@
             }
         }
         
-        @media (max-width: 480px) {
+        @media (max-width: 576px) {
+            .prompts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-section {
+                min-height: 100px;
+            }
+            
+            .omega-logo {
+                font-size: 35px;
+            }
+            
+            .spiral {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .welcome-message h1 {
+                font-size: 1.2rem;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+            }
+            
+            .counter {
+                padding: 8px 15px;
+            }
+            
+            .counter-value {
+                font-size: 1rem;
+            }
+            
+            .mobile-menu-btn {
+                top: 10px;
+                right: 10px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (max-width: 400px) {
+            .container {
+                padding: 0 8px;
+            }
+            
+            .welcome-message h1 {
+                font-size: 1.1rem;
+            }
+            
             .controls {
                 flex-direction: column;
                 align-items: center;
             }
             
-            .btn {
-                width: 100%;
-                max-width: 240px;
+            .counters {
+                flex-wrap: wrap;
                 justify-content: center;
             }
             
-            .counters {
-                width: 100%;
-                justify-content: center;
+            .category-select {
+                min-width: 100%;
             }
         }
     </style>
@@ -645,23 +750,17 @@
 <body>
     <div class="galaxy"></div>
     
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn" id="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+    
     <div class="container">
         <!-- Header section -->
         <section class="header-section">
             <div class="project-description">
                 <h3>Omega 42 Project</h3>
                 <p>A revolutionary framework exploring consciousness as the foundation of reality through mathematics, physics, and philosophy.</p>
-            </div>
-            
-            <div class="counters">
-                <div class="counter">
-                    <div class="counter-value" id="total-prompts">42</div>
-                    <div class="counter-label">Prompts</div>
-                </div>
-                <div class="counter">
-                    <div class="counter-value" id="category-prompts">6</div>
-                    <div class="counter-label">Selected</div>
-                </div>
             </div>
             
             <div class="logo-container">
@@ -689,28 +788,39 @@
                         <button class="btn btn-secondary" id="devs-btn">
                             <i class="fas fa-code"></i> Devs
                         </button>
+                        
+                        <!-- Category selector next to Dev button -->
+                        <div class="dropdown-container">
+                            <select class="category-select" id="category-select">
+                                <option value="">-- Select a Category --</option>
+                                <option value="life">Life & Meaning</option>
+                                <option value="science">Science & Universe</option>
+                                <option value="consciousness">Consciousness & Mind</option>
+                                <option value="technology">Technology & Future</option>
+                                <option value="society">Society & Humanity</option>
+                                <option value="growth">Personal Growth</option>
+                            </select>
+                        </div>
                     </div>
                     
-                    <!-- AI Invitation Message -->
-                    <div class="ai-invitation">
-                        <i class="fas fa-robot"></i>
-                        <div>
-                            <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
+                    <div class="counters">
+                        <div class="counter">
+                            <div class="counter-value" id="total-prompts">42</div>
+                            <div class="counter-label">Prompts</div>
+                        </div>
+                        <div class="counter">
+                            <div class="counter-value" id="category-prompts">6</div>
+                            <div class="counter-label">Selected</div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <div class="dropdown-container">
-                <select class="category-select" id="category-select">
-                    <option value="">-- Select a Category --</option>
-                    <option value="life">Life & Meaning</option>
-                    <option value="science">Science & Universe</option>
-                    <option value="consciousness">Consciousness & Mind</option>
-                    <option value="technology">Technology & Future</option>
-                    <option value="society">Society & Humanity</option>
-                    <option value="growth">Personal Growth</option>
-                </select>
+            <div class="ai-invitation">
+                <i class="fas fa-robot"></i>
+                <div>
+                    <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
+                </div>
             </div>
             
             <div class="prompts-container">
@@ -893,6 +1003,7 @@
         const categoryPromptsEl = document.getElementById('category-prompts');
         const copiedCountEl = document.getElementById('copied-count');
         const copyNotification = document.getElementById('copy-notification');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         
         const readmeBtn = document.getElementById('readme-btn');
         const readmeModal = document.getElementById('readme-modal');
@@ -944,6 +1055,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             submitPromptBtn.addEventListener('click', handleSubmitPrompt);
             devsBtn.addEventListener('click', () => showModal(devsModal));
             closeDevs.addEventListener('click', () => hideModal(devsModal));
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
             
             // Close modals when clicking outside content
             window.addEventListener('click', (e) => {
@@ -951,6 +1063,22 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                 if (e.target === suggestModal) hideModal(suggestModal);
                 if (e.target === devsModal) hideModal(devsModal);
             });
+        }
+        
+        // Toggle mobile menu
+        function toggleMobileMenu() {
+            const controls = document.querySelector('.controls');
+            const counters = document.querySelector('.counters');
+            
+            if (controls.style.display === 'flex' || controls.style.display === '') {
+                controls.style.display = 'none';
+                counters.style.display = 'none';
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            } else {
+                controls.style.display = 'flex';
+                counters.style.display = 'flex';
+                mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+            }
         }
         
         // Show default prompts
