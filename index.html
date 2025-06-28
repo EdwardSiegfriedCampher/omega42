@@ -13,6 +13,14 @@
             --starry-teal: #00c9c8;
             --dark-space: #050517;
             --light-space: #1c1c3d;
+            
+            /* Category Colors */
+            --life-color: #FF6B6B;
+            --science-color: #4ECDC4;
+            --consciousness-color: #9B59B6;
+            --technology-color: #2ECC71;
+            --society-color: #3498DB;
+            --growth-color: #F39C12;
         }
         
         * {
@@ -23,36 +31,48 @@
         }
         
         body {
-            background: linear-gradient(135deg, var(--dark-space), var(--light-space));
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
             color: white;
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
         }
         
-        body::before {
-            content: "";
+        .galaxy {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             background: 
-                radial-gradient(circle at 20% 30%, rgba(255, 215, 0, 0.1) 0%, transparent 40%),
-                radial-gradient(circle at 80% 70%, rgba(74, 0, 224, 0.1) 0%, transparent 40%);
+                radial-gradient(circle at 10% 20%, rgba(255, 107, 107, 0.05) 0%, transparent 10%),
+                radial-gradient(circle at 90% 40%, rgba(78, 205, 196, 0.05) 0%, transparent 15%),
+                radial-gradient(circle at 30% 80%, rgba(155, 89, 182, 0.05) 0%, transparent 12%),
+                radial-gradient(circle at 70% 10%, rgba(46, 204, 113, 0.05) 0%, transparent 18%),
+                radial-gradient(circle at 50% 70%, rgba(52, 152, 219, 0.05) 0%, transparent 14%),
+                radial-gradient(circle at 20% 60%, rgba(243, 156, 18, 0.05) 0%, transparent 16%);
             z-index: -1;
+            animation: pulse 20s infinite alternate;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 0.4; }
+            100% { opacity: 0.8; }
         }
         
         .container {
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         
-        /* Header section (25% of viewport) */
+        /* Header section */
         .header-section {
-            height: 25vh;
-            min-height: 180px;
+            height: 22vh;
+            min-height: 150px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -62,13 +82,39 @@
             position: relative;
         }
         
+        .project-description {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            max-width: 280px;
+            background: rgba(10, 17, 40, 0.85);
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid var(--starry-teal);
+            text-align: left;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .project-description h3 {
+            color: var(--gold);
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .project-description p {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            color: rgba(255, 255, 255, 0.85);
+        }
+        
         .logo-container {
             position: relative;
             margin-bottom: 10px;
         }
         
         .omega-logo {
-            font-size: 70px;
+            font-size: 60px;
             color: var(--gold);
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -81,8 +127,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 110px;
-            height: 110px;
+            width: 100px;
+            height: 100px;
             border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
@@ -125,7 +171,7 @@
         }
         
         .welcome-message h1 {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             margin-bottom: 8px;
             background: linear-gradient(to right, var(--gold), var(--starry-teal));
             -webkit-background-clip: text;
@@ -134,7 +180,7 @@
         }
         
         .welcome-message p {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             max-width: 700px;
             margin: 0 auto 15px;
             line-height: 1.5;
@@ -161,7 +207,7 @@
         }
         
         .counter-value {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             font-weight: bold;
             color: var(--gold);
         }
@@ -171,18 +217,21 @@
             opacity: 0.8;
         }
         
-        /* Main content section (75% of viewport) */
+        /* Main content section */
         .main-section {
-            min-height: 75vh;
+            flex: 1;
             padding: 15px 0;
-            background: rgba(5, 5, 23, 0.6);
+            background: rgba(5, 5, 23, 0.4);
             border-top: 1px solid rgba(255, 215, 0, 0.2);
+            backdrop-filter: blur(3px);
+            display: flex;
+            flex-direction: column;
         }
         
         .controls {
             display: flex;
             justify-content: center;
-            gap: 10px;
+            gap: 8px;
             margin-bottom: 15px;
             flex-wrap: wrap;
         }
@@ -237,12 +286,22 @@
             background-size: 1.1em;
         }
         
+        .prompts-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-height: 100%;
+        }
+        
         .prompts-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 12px;
             max-width: 1100px;
             margin: 0 auto;
+            flex: 1;
+            overflow-y: auto;
+            padding: 5px;
         }
         
         .prompt-card {
@@ -251,35 +310,40 @@
             padding: 18px;
             cursor: pointer;
             transition: all 0.3s ease;
-            border: 1px solid transparent;
             position: relative;
             overflow: hidden;
             height: 100%;
             display: flex;
             flex-direction: column;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            border: 2px solid;
         }
         
         .prompt-card:hover {
-            transform: translateY(-3px);
-            border-color: var(--starry-teal);
-            box-shadow: 0 5px 15px rgba(0, 201, 200, 0.2);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 201, 200, 0.3);
         }
         
-        .prompt-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
+        /* Category-specific border colors */
+        .category-life { 
+            border-color: var(--life-color);
         }
-        
-        .category-life::before { background: linear-gradient(to right, #FF6B6B, #FF8E53); }
-        .category-science::before { background: linear-gradient(to right, #4ECDC4, #556270); }
-        .category-consciousness::before { background: linear-gradient(to right, #834d9b, #d04ed6); }
-        .category-technology::before { background: linear-gradient(to right, #1D976C, #93F9B9); }
-        .category-society::before { background: linear-gradient(to right, #3a7bd5, #00d2ff); }
-        .category-growth::before { background: linear-gradient(to right, #ff7e5f, #feb47b); }
+        .category-science { 
+            border-color: var(--science-color);
+        }
+        .category-consciousness { 
+            border-color: var(--consciousness-color);
+        }
+        .category-technology { 
+            border-color: var(--technology-color);
+        }
+        .category-society { 
+            border-color: var(--society-color);
+        }
+        .category-growth { 
+            border-color: var(--growth-color);
+        }
         
         .prompt-text {
             font-size: 0.92rem;
@@ -292,9 +356,35 @@
             font-size: 0.72rem;
             padding: 3px 8px;
             border-radius: 12px;
-            background: rgba(255, 255, 255, 0.1);
             display: inline-block;
             align-self: flex-start;
+            font-weight: 600;
+        }
+        
+        /* Category-specific backgrounds */
+        .category-life .prompt-category { 
+            background: var(--life-color); 
+            color: #fff;
+        }
+        .category-science .prompt-category { 
+            background: var(--science-color); 
+            color: #000;
+        }
+        .category-consciousness .prompt-category { 
+            background: var(--consciousness-color); 
+            color: #fff;
+        }
+        .category-technology .prompt-category { 
+            background: var(--technology-color); 
+            color: #000;
+        }
+        .category-society .prompt-category { 
+            background: var(--society-color); 
+            color: #fff;
+        }
+        .category-growth .prompt-category { 
+            background: var(--growth-color); 
+            color: #000;
         }
         
         /* Modal styles */
@@ -314,7 +404,7 @@
         }
         
         .modal-content {
-            background: rgba(10, 17, 40, 0.95);
+            background: linear-gradient(135deg, #0f0c29, #302b63);
             border-radius: 12px;
             max-width: 700px;
             width: 100%;
@@ -391,13 +481,19 @@
             transform: translateX(-50%);
             background: rgba(10, 17, 40, 0.9);
             color: var(--gold);
-            padding: 10px 25px;
+            padding: 12px 30px;
             border-radius: 40px;
             border: 1px solid var(--gold);
             display: none;
             z-index: 100;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
             font-size: 0.9rem;
+            animation: slideIn 0.3s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translate(-50%, 100%); opacity: 0; }
+            to { transform: translate(-50%, 0); opacity: 1; }
         }
         
         .copied-meter {
@@ -434,7 +530,7 @@
             }
             
             .welcome-message h1 {
-                font-size: 1.4rem;
+                font-size: 1.3rem;
             }
             
             .controls {
@@ -451,6 +547,18 @@
                 position: static;
                 margin-top: 10px;
                 justify-content: center;
+            }
+            
+            .project-description {
+                position: static;
+                max-width: 100%;
+                margin-bottom: 15px;
+            }
+            
+            .header-section {
+                height: auto;
+                min-height: auto;
+                padding: 20px 0;
             }
         }
         
@@ -469,9 +577,16 @@
     </style>
 </head>
 <body>
+    <div class="galaxy"></div>
+    
     <div class="container">
-        <!-- Header section (25% of viewport) -->
+        <!-- Header section -->
         <section class="header-section">
+            <div class="project-description">
+                <h3>Omega 42 Project</h3>
+                <p>A revolutionary framework exploring consciousness as the foundation of reality through mathematics, physics, and philosophy.</p>
+            </div>
+            
             <div class="counters">
                 <div class="counter">
                     <div class="counter-value" id="total-prompts">42</div>
@@ -494,7 +609,7 @@
             </div>
         </section>
         
-        <!-- Main section (75% of viewport) -->
+        <!-- Main section -->
         <section class="main-section">
             <div class="controls">
                 <button class="btn btn-primary" id="readme-btn">
@@ -520,8 +635,10 @@
                 </select>
             </div>
             
-            <div class="prompts-grid" id="prompts-container">
-                <!-- Default prompts will be inserted here -->
+            <div class="prompts-container">
+                <div class="prompts-grid" id="prompts-grid">
+                    <!-- Default prompts will be inserted here -->
+                </div>
             </div>
             
             <div class="copied-meter">
@@ -693,7 +810,7 @@
         
         // DOM Elements
         const categorySelect = document.getElementById('category-select');
-        const promptsContainer = document.getElementById('prompts-container');
+        const promptsGrid = document.getElementById('prompts-grid');
         const totalPromptsEl = document.getElementById('total-prompts');
         const categoryPromptsEl = document.getElementById('category-prompts');
         const copiedCountEl = document.getElementById('copied-count');
@@ -753,7 +870,7 @@
         
         // Show default prompts
         function showDefaultPrompts() {
-            promptsContainer.innerHTML = '';
+            promptsGrid.innerHTML = '';
             categoryPromptsEl.textContent = defaultPrompts.length;
             
             for (let i = 0; i < defaultPrompts.length; i++) {
@@ -771,7 +888,7 @@
                     copyPromptToClipboard(promptText, 'default');
                 });
                 
-                promptsContainer.appendChild(promptCard);
+                promptsGrid.appendChild(promptCard);
             }
         }
         
@@ -784,7 +901,7 @@
                 return;
             }
             
-            promptsContainer.innerHTML = '';
+            promptsGrid.innerHTML = '';
             const prompts = promptData[category];
             categoryPromptsEl.textContent = prompts.length;
             
@@ -804,7 +921,7 @@
                     copyPromptToClipboard(promptText, category);
                 });
                 
-                promptsContainer.appendChild(promptCard);
+                promptsGrid.appendChild(promptCard);
             }
         }
         
