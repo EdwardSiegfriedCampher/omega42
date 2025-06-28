@@ -112,11 +112,11 @@
         
         .logo-container {
             position: relative;
-            margin: 35px 0 10px;
+            margin: 20px 0 5px; /* Reduced top margin */
         }
         
         .omega-logo {
-            font-size: 50px;
+            font-size: 40px; /* Reduced from 50px */
             color: var(--gold);
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -129,8 +129,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 80px;
-            height: 80px;
+            width: 70px; /* Reduced from 80px */
+            height: 70px; /* Reduced from 80px */
             border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
@@ -142,10 +142,10 @@
         .spiral::before {
             content: "";
             position: absolute;
-            top: 8px;
-            left: 8px;
-            right: 8px;
-            bottom: 8px;
+            top: 7px; /* Adjusted for new size */
+            left: 7px; /* Adjusted for new size */
+            right: 7px; /* Adjusted for new size */
+            bottom: 7px; /* Adjusted for new size */
             border: 2px solid transparent;
             border-top-color: var(--gold);
             border-left-color: var(--starry-teal);
@@ -156,10 +156,10 @@
         .spiral::after {
             content: "";
             position: absolute;
-            top: 16px;
-            left: 16px;
-            right: 16px;
-            bottom: 16px;
+            top: 14px; /* Adjusted for new size */
+            left: 14px; /* Adjusted for new size */
+            right: 14px; /* Adjusted for new size */
+            bottom: 14px; /* Adjusted for new size */
             border: 2px solid transparent;
             border-top-color: var(--cosmic-purple);
             border-right-color: var(--gold);
@@ -194,8 +194,8 @@
             background: rgba(255, 215, 0, 0.1);
             border: 1px solid var(--gold);
             border-radius: 12px;
-            padding: 15px 20px;
-            margin: 0 10px 15px;
+            padding: 10px 20px; /* Reduced vertical padding */
+            margin: 0 10px 10px; /* Reduced bottom margin */
             text-align: center;
             font-size: 0.95rem;
             color: var(--gold);
@@ -204,7 +204,7 @@
             justify-content: center;
             gap: 12px;
             max-width: 800px;
-            margin: 0 auto 15px;
+            margin: 0 auto 10px; /* Reduced bottom margin */
             backdrop-filter: blur(5px);
             box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
         }
@@ -615,12 +615,26 @@
             }
             
             .omega-logo {
-                font-size: 40px;
+                font-size: 35px; /* Reduced from 40px */
             }
             
             .spiral {
-                width: 70px;
-                height: 70px;
+                width: 60px; /* Reduced from 70px */
+                height: 60px; /* Reduced from 70px */
+            }
+            
+            .spiral::before {
+                top: 6px; /* Adjusted for new size */
+                left: 6px; /* Adjusted for new size */
+                right: 6px; /* Adjusted for new size */
+                bottom: 6px; /* Adjusted for new size */
+            }
+            
+            .spiral::after {
+                top: 12px; /* Adjusted for new size */
+                left: 12px; /* Adjusted for new size */
+                right: 12px; /* Adjusted for new size */
+                bottom: 12px; /* Adjusted for new size */
             }
             
             .welcome-message h1 {
@@ -668,12 +682,13 @@
             
             .ai-invitation {
                 flex-direction: column;
-                padding: 12px;
+                padding: 10px; /* Reduced vertical padding */
                 font-size: 0.9rem;
+                margin-bottom: 10px; /* Reduced bottom margin */
             }
             
             .ai-invitation i {
-                margin-bottom: 8px;
+                margin-bottom: 5px; /* Reduced spacing */
             }
         }
         
@@ -687,12 +702,26 @@
             }
             
             .omega-logo {
-                font-size: 35px;
+                font-size: 30px; /* Reduced from 35px */
             }
             
             .spiral {
-                width: 60px;
-                height: 60px;
+                width: 50px; /* Reduced from 60px */
+                height: 50px; /* Reduced from 60px */
+            }
+            
+            .spiral::before {
+                top: 5px; /* Adjusted for new size */
+                left: 5px; /* Adjusted for new size */
+                right: 5px; /* Adjusted for new size */
+                bottom: 5px; /* Adjusted for new size */
+            }
+            
+            .spiral::after {
+                top: 10px; /* Adjusted for new size */
+                left: 10px; /* Adjusted for new size */
+                right: 10px; /* Adjusted for new size */
+                bottom: 10px; /* Adjusted for new size */
             }
             
             .welcome-message h1 {
