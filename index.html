@@ -189,22 +189,6 @@
             color: rgba(255, 255, 255, 0.85);
         }
         
-        /* AI Invitation Message - Updated without icon */
-        .ai-invitation {
-            background: rgba(255, 215, 0, 0.1);
-            border: 1px solid var(--gold);
-            border-radius: 12px;
-            padding: 10px 15px; /* Reduced vertical padding */
-            margin: 0 10px 8px; /* Reduced bottom margin */
-            text-align: center;
-            font-size: 0.92rem; /* Slightly smaller font */
-            color: var(--gold);
-            max-width: 800px;
-            margin: 0 auto 8px; /* Reduced bottom margin */
-            backdrop-filter: blur(5px);
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
-        }
-        
         /* Main content section */
         .main-section {
             flex: 1;
@@ -216,11 +200,27 @@
             flex-direction: column;
         }
         
+        /* AI Invitation positioned above controls */
+        .ai-invitation {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid var(--gold);
+            border-radius: 12px;
+            padding: 10px 15px;
+            margin: 0 10px 8px;
+            text-align: center;
+            font-size: 0.92rem;
+            color: var(--gold);
+            max-width: 800px;
+            margin: 0 auto 8px;
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+        
         .controls-container {
             display: flex;
             flex-direction: column;
-            gap: 8px; /* Reduced gap */
-            margin-bottom: 8px; /* Reduced margin */
+            gap: 8px;
+            margin-bottom: 8px;
             padding: 0 10px;
         }
         
@@ -229,7 +229,7 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 12px; /* Reduced gap */
+            gap: 12px;
         }
         
         .controls {
@@ -421,26 +421,6 @@
             color: #000;
         }
         
-        /* Mobile Navigation */
-        .mobile-menu-btn {
-            display: none;
-            position: fixed;
-            top: 15px;
-            right: 15px;
-            background: rgba(10, 17, 40, 0.85);
-            color: var(--gold);
-            border: 1px solid var(--gold);
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
-            cursor: pointer;
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-        }
-        
         /* Modal styles */
         .modal {
             display: none;
@@ -585,17 +565,17 @@
             }
             
             .header-section {
-                padding-top: 50px; /* Increased top padding */
+                padding-top: 60px; /* Increased top padding */
             }
             
             .project-description {
                 position: static;
                 max-width: 100%;
-                margin: 5px 0 10px; /* Reduced margins */
+                margin: 5px 0 10px;
             }
             
             .logo-container {
-                margin: 5px 0; /* Reduced margins */
+                margin: 5px 0;
             }
             
             .omega-logo {
@@ -623,30 +603,30 @@
             
             .welcome-message h1 {
                 font-size: 1.3rem;
-                margin-bottom: 3px; /* Reduced margin */
+                margin-bottom: 3px;
             }
             
             .welcome-message p {
                 font-size: 0.8rem;
-                margin-bottom: 8px; /* Reduced margin */
+                margin-bottom: 8px;
             }
             
             .top-row {
                 flex-direction: column;
                 align-items: center;
-                gap: 8px; /* Reduced gap */
+                gap: 8px;
             }
             
             .controls {
                 width: 100%;
                 justify-content: center;
-                gap: 6px; /* Reduced gap */
+                gap: 6px;
             }
             
             .dropdown-container {
                 width: 100%;
                 justify-content: center;
-                margin: 5px 0; /* Reduced margin */
+                margin: 5px 0;
             }
             
             .counters {
@@ -659,19 +639,14 @@
             }
             
             .btn {
-                padding: 8px 12px; /* Reduced padding */
+                padding: 8px 12px;
                 font-size: 0.8rem;
             }
             
-            .mobile-menu-btn {
-                display: flex;
-                top: 10px; /* Adjusted position */
-            }
-            
             .ai-invitation {
-                padding: 8px 12px; /* Reduced padding */
-                font-size: 0.85rem; /* Smaller font */
-                margin: 0 auto 5px; /* Reduced margins */
+                padding: 8px 12px;
+                font-size: 0.85rem;
+                margin: 0 auto 5px;
             }
         }
         
@@ -681,8 +656,8 @@
             }
             
             .header-section {
-                min-height: auto; /* Flexible height */
-                padding-top: 55px; /* More top padding */
+                min-height: auto;
+                padding-top: 65px; /* More top padding */
             }
             
             .omega-logo {
@@ -709,7 +684,7 @@
             }
             
             .welcome-message h1 {
-                font-size: 1.15rem; /* Slightly smaller */
+                font-size: 1.15rem;
             }
             
             .btn {
@@ -719,24 +694,17 @@
             }
             
             .counter {
-                padding: 6px 10px; /* Reduced padding */
+                padding: 6px 10px;
             }
             
             .counter-value {
                 font-size: 1rem;
             }
             
-            .mobile-menu-btn {
-                top: 8px; /* Higher position */
-                width: 42px;
-                height: 42px;
-                font-size: 1.2rem;
-            }
-            
             .ai-invitation {
-                font-size: 0.82rem; /* Smaller font for mobile */
-                line-height: 1.4; /* Better line spacing */
-                padding: 7px 10px; /* Compact padding */
+                font-size: 0.82rem;
+                line-height: 1.4;
+                padding: 7px 10px;
             }
         }
         
@@ -746,7 +714,7 @@
             }
             
             .header-section {
-                padding-top: 60px; /* More top padding */
+                padding-top: 70px; /* Even more top padding */
             }
             
             .welcome-message h1 {
@@ -766,20 +734,11 @@
             .category-select {
                 min-width: 100%;
             }
-            
-            .mobile-menu-btn {
-                top: 6px; /* Higher position */
-            }
         }
     </style>
 </head>
 <body>
     <div class="galaxy"></div>
-    
-    <!-- Mobile Menu Button -->
-    <button class="mobile-menu-btn" id="mobile-menu-btn">
-        <i class="fas fa-bars"></i>
-    </button>
     
     <div class="container">
         <!-- Header section -->
@@ -802,6 +761,11 @@
         
         <!-- Main section -->
         <section class="main-section">
+            <!-- AI Invitation placed above controls -->
+            <div class="ai-invitation">
+                <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
+            </div>
+            
             <div class="controls-container">
                 <div class="top-row">
                     <div class="controls">
@@ -840,11 +804,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- AI Invitation without icon -->
-            <div class="ai-invitation">
-                <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
             </div>
             
             <div class="prompts-container">
@@ -1027,7 +986,6 @@
         const categoryPromptsEl = document.getElementById('category-prompts');
         const copiedCountEl = document.getElementById('copied-count');
         const copyNotification = document.getElementById('copy-notification');
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
         
         const readmeBtn = document.getElementById('readme-btn');
         const readmeModal = document.getElementById('readme-modal');
@@ -1079,7 +1037,6 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             submitPromptBtn.addEventListener('click', handleSubmitPrompt);
             devsBtn.addEventListener('click', () => showModal(devsModal));
             closeDevs.addEventListener('click', () => hideModal(devsModal));
-            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
             
             // Close modals when clicking outside content
             window.addEventListener('click', (e) => {
@@ -1087,22 +1044,6 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                 if (e.target === suggestModal) hideModal(suggestModal);
                 if (e.target === devsModal) hideModal(devsModal);
             });
-        }
-        
-        // Toggle mobile menu
-        function toggleMobileMenu() {
-            const controls = document.querySelector('.controls');
-            const counters = document.querySelector('.counters');
-            
-            if (controls.style.display === 'flex' || controls.style.display === '') {
-                controls.style.display = 'none';
-                counters.style.display = 'none';
-                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
-            } else {
-                controls.style.display = 'flex';
-                counters.style.display = 'flex';
-                mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
-            }
         }
         
         // Show default prompts
