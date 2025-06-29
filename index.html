@@ -86,7 +86,7 @@
         .project-description {
             position: absolute;
             top: 5px;
-            left: 5px; /* Moved further left */
+            left: 5px;
             max-width: 260px;
             background: rgba(10, 17, 40, 0.85);
             padding: 10px;
@@ -112,11 +112,11 @@
         
         .logo-container {
             position: relative;
-            margin: 20px 0 5px; /* Reduced top margin */
+            margin: 20px 0 5px;
         }
         
         .omega-logo {
-            font-size: 40px; /* Reduced from 50px */
+            font-size: 40px;
             color: var(--gold);
             font-weight: 700;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
@@ -129,8 +129,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 70px; /* Reduced from 80px */
-            height: 70px; /* Reduced from 80px */
+            width: 70px;
+            height: 70px;
             border: 2px solid transparent;
             border-top-color: var(--starry-teal);
             border-right-color: var(--cosmic-purple);
@@ -142,10 +142,10 @@
         .spiral::before {
             content: "";
             position: absolute;
-            top: 7px; /* Adjusted for new size */
-            left: 7px; /* Adjusted for new size */
-            right: 7px; /* Adjusted for new size */
-            bottom: 7px; /* Adjusted for new size */
+            top: 7px;
+            left: 7px;
+            right: 7px;
+            bottom: 7px;
             border: 2px solid transparent;
             border-top-color: var(--gold);
             border-left-color: var(--starry-teal);
@@ -156,10 +156,10 @@
         .spiral::after {
             content: "";
             position: absolute;
-            top: 14px; /* Adjusted for new size */
-            left: 14px; /* Adjusted for new size */
-            right: 14px; /* Adjusted for new size */
-            bottom: 14px; /* Adjusted for new size */
+            top: 14px;
+            left: 14px;
+            right: 14px;
+            bottom: 14px;
             border: 2px solid transparent;
             border-top-color: var(--cosmic-purple);
             border-right-color: var(--gold);
@@ -189,36 +189,20 @@
             color: rgba(255, 255, 255, 0.85);
         }
         
-        /* AI Invitation Message */
+        /* AI Invitation Message - Updated without icon */
         .ai-invitation {
             background: rgba(255, 215, 0, 0.1);
             border: 1px solid var(--gold);
             border-radius: 12px;
-            padding: 10px 20px; /* Reduced vertical padding */
-            margin: 0 10px 10px; /* Reduced bottom margin */
+            padding: 10px 15px; /* Reduced vertical padding */
+            margin: 0 10px 8px; /* Reduced bottom margin */
             text-align: center;
-            font-size: 0.95rem;
+            font-size: 0.92rem; /* Slightly smaller font */
             color: var(--gold);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
             max-width: 800px;
-            margin: 0 auto 10px; /* Reduced bottom margin */
+            margin: 0 auto 8px; /* Reduced bottom margin */
             backdrop-filter: blur(5px);
             box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
-        }
-        
-        .ai-invitation i {
-            font-size: 1.5rem;
-            color: var(--starry-teal);
-            animation: pulse-icon 2s infinite;
-        }
-        
-        @keyframes pulse-icon {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
         }
         
         /* Main content section */
@@ -235,8 +219,8 @@
         .controls-container {
             display: flex;
             flex-direction: column;
-            gap: 12px;
-            margin-bottom: 12px;
+            gap: 8px; /* Reduced gap */
+            margin-bottom: 8px; /* Reduced margin */
             padding: 0 10px;
         }
         
@@ -245,7 +229,7 @@
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 15px;
+            gap: 12px; /* Reduced gap */
         }
         
         .controls {
@@ -601,65 +585,68 @@
             }
             
             .header-section {
-                padding-top: 40px;
+                padding-top: 50px; /* Increased top padding */
             }
             
             .project-description {
                 position: static;
                 max-width: 100%;
-                margin: 10px 0;
+                margin: 5px 0 10px; /* Reduced margins */
             }
             
             .logo-container {
-                margin: 10px 0;
+                margin: 5px 0; /* Reduced margins */
             }
             
             .omega-logo {
-                font-size: 35px; /* Reduced from 40px */
+                font-size: 35px;
             }
             
             .spiral {
-                width: 60px; /* Reduced from 70px */
-                height: 60px; /* Reduced from 70px */
+                width: 60px;
+                height: 60px;
             }
             
             .spiral::before {
-                top: 6px; /* Adjusted for new size */
-                left: 6px; /* Adjusted for new size */
-                right: 6px; /* Adjusted for new size */
-                bottom: 6px; /* Adjusted for new size */
+                top: 6px;
+                left: 6px;
+                right: 6px;
+                bottom: 6px;
             }
             
             .spiral::after {
-                top: 12px; /* Adjusted for new size */
-                left: 12px; /* Adjusted for new size */
-                right: 12px; /* Adjusted for new size */
-                bottom: 12px; /* Adjusted for new size */
+                top: 12px;
+                left: 12px;
+                right: 12px;
+                bottom: 12px;
             }
             
             .welcome-message h1 {
                 font-size: 1.3rem;
+                margin-bottom: 3px; /* Reduced margin */
             }
             
             .welcome-message p {
                 font-size: 0.8rem;
+                margin-bottom: 8px; /* Reduced margin */
             }
             
             .top-row {
                 flex-direction: column;
                 align-items: center;
-                gap: 10px;
+                gap: 8px; /* Reduced gap */
             }
             
             .controls {
                 width: 100%;
                 justify-content: center;
+                gap: 6px; /* Reduced gap */
             }
             
             .dropdown-container {
                 width: 100%;
                 justify-content: center;
-                margin: 10px 0;
+                margin: 5px 0; /* Reduced margin */
             }
             
             .counters {
@@ -672,23 +659,19 @@
             }
             
             .btn {
-                padding: 10px 14px;
+                padding: 8px 12px; /* Reduced padding */
                 font-size: 0.8rem;
             }
             
             .mobile-menu-btn {
                 display: flex;
+                top: 10px; /* Adjusted position */
             }
             
             .ai-invitation {
-                flex-direction: column;
-                padding: 10px; /* Reduced vertical padding */
-                font-size: 0.9rem;
-                margin-bottom: 10px; /* Reduced bottom margin */
-            }
-            
-            .ai-invitation i {
-                margin-bottom: 5px; /* Reduced spacing */
+                padding: 8px 12px; /* Reduced padding */
+                font-size: 0.85rem; /* Smaller font */
+                margin: 0 auto 5px; /* Reduced margins */
             }
         }
         
@@ -698,34 +681,35 @@
             }
             
             .header-section {
-                min-height: 100px;
+                min-height: auto; /* Flexible height */
+                padding-top: 55px; /* More top padding */
             }
             
             .omega-logo {
-                font-size: 30px; /* Reduced from 35px */
+                font-size: 30px;
             }
             
             .spiral {
-                width: 50px; /* Reduced from 60px */
-                height: 50px; /* Reduced from 60px */
+                width: 50px;
+                height: 50px;
             }
             
             .spiral::before {
-                top: 5px; /* Adjusted for new size */
-                left: 5px; /* Adjusted for new size */
-                right: 5px; /* Adjusted for new size */
-                bottom: 5px; /* Adjusted for new size */
+                top: 5px;
+                left: 5px;
+                right: 5px;
+                bottom: 5px;
             }
             
             .spiral::after {
-                top: 10px; /* Adjusted for new size */
-                left: 10px; /* Adjusted for new size */
-                right: 10px; /* Adjusted for new size */
-                bottom: 10px; /* Adjusted for new size */
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
             }
             
             .welcome-message h1 {
-                font-size: 1.2rem;
+                font-size: 1.15rem; /* Slightly smaller */
             }
             
             .btn {
@@ -735,7 +719,7 @@
             }
             
             .counter {
-                padding: 8px 15px;
+                padding: 6px 10px; /* Reduced padding */
             }
             
             .counter-value {
@@ -743,17 +727,26 @@
             }
             
             .mobile-menu-btn {
-                top: 10px;
-                right: 10px;
-                width: 45px;
-                height: 45px;
-                font-size: 1.3rem;
+                top: 8px; /* Higher position */
+                width: 42px;
+                height: 42px;
+                font-size: 1.2rem;
+            }
+            
+            .ai-invitation {
+                font-size: 0.82rem; /* Smaller font for mobile */
+                line-height: 1.4; /* Better line spacing */
+                padding: 7px 10px; /* Compact padding */
             }
         }
         
         @media (max-width: 400px) {
             .container {
                 padding: 0 8px;
+            }
+            
+            .header-section {
+                padding-top: 60px; /* More top padding */
             }
             
             .welcome-message h1 {
@@ -772,6 +765,10 @@
             
             .category-select {
                 min-width: 100%;
+            }
+            
+            .mobile-menu-btn {
+                top: 6px; /* Higher position */
             }
         }
     </style>
@@ -845,11 +842,9 @@
                 </div>
             </div>
             
+            <!-- AI Invitation without icon -->
             <div class="ai-invitation">
-                <i class="fas fa-robot"></i>
-                <div>
-                    <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
-                </div>
+                <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your favorite AI system for insights about the Omega 42 Project
             </div>
             
             <div class="prompts-container">
