@@ -72,26 +72,26 @@
             flex-direction: column;
         }
         
-        /* Header section - Reduced space */
+        /* Header section - Fixed overlapping issues */
         .header-section {
             height: auto;
-            min-height: 90px;
+            min-height: 120px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 5px 0;
+            padding: 10px 0;
             position: relative;
         }
         
         .project-description {
             position: absolute;
-            top: 5px;
-            left: 5px;
+            top: 10px;
+            left: 10px;
             max-width: 260px;
             background: rgba(10, 17, 40, 0.85);
-            padding: 8px;
+            padding: 10px;
             border-radius: 10px;
             border: 1px solid var(--starry-teal);
             text-align: left;
@@ -103,7 +103,7 @@
         
         .project-description h3 {
             color: var(--gold);
-            margin-bottom: 3px;
+            margin-bottom: 5px;
             font-size: 1rem;
         }
         
@@ -114,7 +114,7 @@
         
         .logo-container {
             position: relative;
-            margin: 8px 0 5px;
+            margin: 20px 0 10px;
         }
         
         .omega-logo {
@@ -174,13 +174,13 @@
             100% { transform: translate(-50%, -50%) rotate(360deg); }
         }
         
-        /* AI Invitation Box - Repositioned */
+        /* AI Invitation Box - Fixed positioning */
         .ai-invitation {
             background: rgba(255, 215, 0, 0.1);
             border: 1px solid var(--gold);
             border-radius: 12px;
             padding: 12px 15px;
-            margin: 5px auto 10px;
+            margin: 10px auto;
             text-align: center;
             font-size: 0.9rem;
             color: var(--gold);
@@ -191,6 +191,7 @@
             max-width: 800px;
             backdrop-filter: blur(5px);
             box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+            width: 90%;
         }
         
         .ai-invitation i {
@@ -205,9 +206,14 @@
             100% { transform: scale(1); }
         }
         
+        .welcome-message {
+            margin: 5px 0;
+            width: 100%;
+        }
+        
         .welcome-message h1 {
             font-size: 1.2rem;
-            margin-bottom: 3px;
+            margin-bottom: 5px;
             background: linear-gradient(to right, var(--gold), var(--starry-teal));
             -webkit-background-clip: text;
             background-clip: text;
@@ -217,11 +223,11 @@
         .welcome-message p {
             font-size: 0.8rem;
             max-width: 700px;
-            margin: 0 auto 5px;
+            margin: 0 auto;
             line-height: 1.4;
         }
         
-        /* Main content section */
+        /* Main content section - Fixed spacing */
         .main-section {
             flex: 1;
             padding: 10px 0;
@@ -469,7 +475,7 @@
             box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
         }
         
-        /* Modal styles */
+        /* Modal styles - Fixed overlapping */
         .modal {
             display: none;
             position: fixed;
@@ -683,7 +689,7 @@
             border-radius: 4px;
         }
         
-        /* Mobile Responsiveness */
+        /* Mobile Responsiveness - Fixed text overlap */
         @media (max-width: 992px) {
             .prompts-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -916,7 +922,7 @@
     </div>
     
     <div class="container">
-        <!-- Header section -->
+        <!-- Header section - Fixed overlapping -->
         <section class="header-section">
             <div class="project-description">
                 <h3>Omega 42 Project</h3>
@@ -1247,10 +1253,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             // Calculate total prompts
             updateTotalPromptCount();
             
-            // Set the category select to essential by default
-            categorySelect.value = 'essential';
-            
-            // Show essential prompts
+            // Show essential prompts by default
             showCategoryPrompts('essential');
             
             // Set up event listeners
@@ -1357,7 +1360,12 @@ consult the canonical version of the Theory of Everything at the repository.]`;
         // Handle category selection
         function handleCategorySelect() {
             const category = categorySelect.value;
-            showCategoryPrompts(category);
+            
+            if (!category) {
+                showCategoryPrompts('essential');
+            } else {
+                showCategoryPrompts(category);
+            }
         }
         
         // Copy prompt to clipboard with GitHub URL and AI instructions
