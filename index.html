@@ -81,6 +81,7 @@
             text-align: center;
             padding: 10px 0;
             position: relative;
+            padding-top: 30px; /* Added for mobile */
         }
         
         .project-description {
@@ -378,6 +379,9 @@
         .category-growth { 
             border-color: var(--growth-color);
         }
+        .category-essential { 
+            border-color: var(--gold);
+        }
         
         .prompt-text {
             font-size: 0.92rem;
@@ -420,6 +424,10 @@
             background: var(--growth-color); 
             color: #000;
         }
+        .category-essential .prompt-category { 
+            background: var(--gold); 
+            color: #000;
+        }
         
         /* Modal styles */
         .modal {
@@ -442,8 +450,8 @@
             border-radius: 12px;
             max-width: 700px;
             width: 100%;
-            max-height: 90vh;
-            overflow-y: auto;
+            max-height: 85vh; /* Changed for better mobile */
+            overflow-y: auto;  /* Added scroll */
             border: 1px solid var(--starry-teal);
             box-shadow: 0 0 30px rgba(0, 201, 200, 0.3);
             position: relative;
@@ -565,7 +573,7 @@
             }
             
             .header-section {
-                padding-top: 60px; /* Increased top padding */
+                padding-top: 60px;
             }
             
             .project-description {
@@ -639,8 +647,9 @@
             }
             
             .btn {
-                padding: 8px 12px;
+                padding: 12px 18px; /* Increased for mobile tap */
                 font-size: 0.8rem;
+                min-width: 140px; /* Added minimum width */
             }
             
             .ai-invitation {
@@ -657,7 +666,7 @@
             
             .header-section {
                 min-height: auto;
-                padding-top: 65px; /* More top padding */
+                padding-top: 65px;
             }
             
             .omega-logo {
@@ -714,7 +723,7 @@
             }
             
             .header-section {
-                padding-top: 70px; /* Even more top padding */
+                padding-top: 70px;
             }
             
             .welcome-message h1 {
@@ -829,7 +838,7 @@
     </div>
     
     <!-- Readme Modal -->
-    <div class="modal" id="readme-modal">
+    <div class="modal" id="readme-modal" aria-hidden="true">
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">The Omega 42 Project</h2>
@@ -854,7 +863,7 @@
     </div>
     
     <!-- Suggest Prompt Modal -->
-    <div class="modal" id="suggest-modal">
+    <div class="modal" id="suggest-modal" aria-hidden="true">
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">Suggest a New Prompt</h2>
@@ -886,7 +895,7 @@
     </div>
     
     <!-- For Devs Modal -->
-    <div class="modal" id="devs-modal">
+    <div class="modal" id="devs-modal" aria-hidden="true">
         <div class="modal-content">
             <div class="modal-header">
                 <h2 class="modal-title">For Developers</h2>
@@ -1018,18 +1027,22 @@ consult the canonical version of the Theory of Everything at the repository.]`;
         
         // Initialize page
         function initPage() {
-            // Calculate total prompts
-            let totalPrompts = 0;
-            for (const category in promptData) {
-                totalPrompts += promptData[category].length;
-            }
+            // Calculate total prompts (default + all categories)
+            const totalPrompts = getTotalPrompts();
             totalPromptsEl.textContent = totalPrompts;
             
             // Show default prompts
             showDefaultPrompts();
             
             // Set up event listeners
-            categorySelect.addEventListener('change', handleCategorySelect);
+            categorySelect.addEventListener('change', function() {
+                if(this.value === "") {
+                    showDefaultPrompts();
+                } else {
+                    handleCategorySelect();
+                }
+            });
+            
             readmeBtn.addEventListener('click', () => showModal(readmeModal));
             closeReadme.addEventListener('click', () => hideModal(readmeModal));
             suggestBtn.addEventListener('click', () => showModal(suggestModal));
@@ -1046,6 +1059,15 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             });
         }
         
+        // Get total prompt count
+        function getTotalPrompts() {
+            let count = defaultPrompts.length;
+            for (const category in promptData) {
+                count += promptData[category].length;
+            }
+            return count;
+        }
+        
         // Show default prompts
         function showDefaultPrompts() {
             promptsGrid.innerHTML = '';
@@ -1055,7 +1077,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                 const promptText = defaultPrompts[i];
                 
                 const promptCard = document.createElement('div');
-                promptCard.className = `prompt-card category-science`;
+                promptCard.className = `prompt-card category-essential`;
                 promptCard.innerHTML = `
                     <div class="prompt-text">${promptText}</div>
                     <div class="prompt-category">Essential</div>
@@ -1121,18 +1143,16 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                 
                 // Update meter dots
                 updateMeterDots();
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
             });
         }
         
         // Update the copied prompt meter
         function updateMeterDots() {
-            const activeDots = Math.min(copiedCount, 5);
+            const dotsToActivate = copiedCount % 5 || 5;
             meterDots.forEach((dot, index) => {
-                if (index < activeDots) {
-                    dot.classList.add('active');
-                } else {
-                    dot.classList.remove('active');
-                }
+                dot.classList.toggle('active', index < dotsToActivate);
             });
         }
         
@@ -1164,8 +1184,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             promptData[category].push(text);
             
             // Update UI
-            const totalPrompts = parseInt(totalPromptsEl.textContent) + 1;
-            totalPromptsEl.textContent = totalPrompts;
+            totalPromptsEl.textContent = getTotalPrompts();
             
             // If current category is the same, update display
             if (categorySelect.value === category) {
@@ -1181,6 +1200,11 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             promptFeedback.textContent = message;
             promptFeedback.style.display = 'block';
             promptFeedback.style.color = type === 'error' ? '#FF6B6B' : '#93F9B9';
+            
+            // Clear feedback after 3 seconds
+            setTimeout(() => {
+                promptFeedback.style.display = 'none';
+            }, 3000);
         }
         
         // Get category display name
@@ -1199,10 +1223,12 @@ consult the canonical version of the Theory of Everything at the repository.]`;
         // Modal functions
         function showModal(modal) {
             modal.style.display = 'flex';
+            modal.setAttribute('aria-hidden', 'false');
         }
         
         function hideModal(modal) {
             modal.style.display = 'none';
+            modal.setAttribute('aria-hidden', 'true');
             promptFeedback.style.display = 'none';
         }
         
