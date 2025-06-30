@@ -6,7 +6,7 @@
     <title>Omega 42 Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* ... existing styles ... */
+        /* ... your existing styles ... */
 
         /* NEW: Problem/Solution Index Modal Styles */
         #index-modal .modal-content {
@@ -152,7 +152,23 @@
                 <p>A Journey to Understand the Universe</p>
             </div>
             <div class="modal-body">
-                <!-- ... existing content ... -->
+                <p>Welcome to the Omega 42 Project, where we explore the deepest mysteries of existence through science, philosophy, and human experience.</p>
+                
+                <p>This repository contains the mathematical framework, research papers, and computational models that form the foundation of our work. We invite scientists, philosophers, and curious minds to examine, challenge, and contribute to this evolving theory.</p>
+                
+                <p>Key principles:</p>
+                <ul>
+                    <li>Consciousness as fundamental to reality</li>
+                    <li>Toroidal holographic model of the universe</li>
+                    <li>Digital root mathematics as cosmic harmony filter</li>
+                    <li>The golden ratio (φ) as a universal constant</li>
+                    <li>Human-AI collaboration for discovery</li>
+                </ul>
+                
+                <!-- Explanation for prompt disappearance -->
+                <h3 style="margin-top: 20px; color: var(--gold);">About Prompt Submissions</h3>
+                <p>We've fixed an issue where submitted prompts were not being saved permanently. Now, prompts are stored using your browser's local storage.</p>
+                <p><strong>Prompt Limit:</strong> You can add up to 100 prompts total across all categories. This helps us maintain quality while allowing community participation.</p>
             </div>
             <button class="close-modal" id="close-readme">&times;</button>
         </div>
@@ -166,7 +182,26 @@
                 <p>Contribute to the Omega 42 Project</p>
             </div>
             <div class="modal-body">
-                <!-- ... existing content ... -->
+                <div class="form-group">
+                    <label for="prompt-text">Your Prompt:</label>
+                    <textarea class="form-control" id="prompt-text" rows="2" placeholder="Enter your thought-provoking question..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="prompt-category">Category:</label>
+                    <select class="form-control" id="prompt-category">
+                        <option value="essential">Essential</option>
+                        <option value="life">Life & Meaning</option>
+                        <option value="science">Science & Universe</option>
+                        <option value="consciousness">Consciousness & Mind</option>
+                        <option value="technology">Technology & Future</option>
+                        <option value="society">Society & Humanity</option>
+                        <option value="growth">Personal Growth</option>
+                    </select>
+                </div>
+                
+                <button class="btn btn-primary" id="submit-prompt">Submit Prompt</button>
+                <div id="prompt-feedback" style="margin-top: 15px; display: none;"></div>
             </div>
             <button class="close-modal" id="close-suggest">&times;</button>
         </div>
@@ -180,7 +215,24 @@
                 <p>Contribute to the Omega 42 Project</p>
             </div>
             <div class="modal-body">
-                <!-- ... existing content ... -->
+                <p>We welcome developers to contribute to the Omega 42 Project!</p>
+                
+                <p>Key areas for contribution:</p>
+                <ul>
+                    <li>Computational models of the toroidal holographic universe</li>
+                    <li>Visualizations of the Omega 42 lattice</li>
+                    <li>Interactive simulations</li>
+                    <li>APIs for AI integration</li>
+                    <li>Web interface enhancements</li>
+                </ul>
+                
+                <p>To get started:</p>
+                <ol>
+                    <li>Fork the Omega 42 repository on GitHub</li>
+                    <li>Explore open issues and feature requests</li>
+                    <li>Set up development environment</li>
+                    <li>Submit pull requests</li>
+                </ol>
             </div>
             <button class="close-modal" id="close-devs">&times;</button>
         </div>
@@ -203,19 +255,10 @@
         </div>
     </div>
 
-    <!-- NEW: Problem/Solution Index HTML Content -->
-    <script id="problem-solution-index" type="text/html">
-        <!-- PASTE THE ENTIRE PROBLEM/SOLUTION INDEX HTML HERE -->
-        <!-- This will be populated dynamically in the JavaScript -->
-    </script>
-
     <script>
-        // ... existing JavaScript ...
+        // ... your existing JavaScript ...
 
-        // NEW: Problem/Solution Index HTML Content
-        const problemSolutionIndexHTML = `<!-- COPY THE ENTIRE PROBLEM/SOLUTION INDEX HTML HERE -->`;
-
-        // DOM Elements - NEW
+        // NEW: Problem/Solution Index functionality
         const indexBtn = document.getElementById('index-btn');
         const indexModal = document.getElementById('index-modal');
         const closeIndex = document.getElementById('close-index');
@@ -224,7 +267,7 @@
 
         // Initialize page - UPDATED
         function initPage() {
-            // ... existing initialization ...
+            // ... your existing initialization ...
             
             // NEW: Set up event listeners for index button
             indexBtn.addEventListener('click', showProblemSolutionIndex);
@@ -243,10 +286,8 @@
             
             // Set a small timeout to ensure iframe is ready
             setTimeout(() => {
-                const iframeDoc = indexIframe.contentDocument || indexIframe.contentWindow.document;
-                iframeDoc.open();
-                iframeDoc.write(problemSolutionIndexHTML);
-                iframeDoc.close();
+                // Set iframe source to the Problem/Solution Index
+                indexIframe.src = 'https://raw.githubusercontent.com/EdwardSiegfriedCampher/omega42/main/Problem-Solution-Index.html';
                 
                 // Hide loading indicator after content loads
                 indexIframe.onload = () => {
@@ -255,7 +296,7 @@
             }, 100);
         }
 
-        // ... rest of existing JavaScript ...
+        // ... rest of your existing JavaScript ...
     </script>
 </body>
 </html>
