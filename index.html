@@ -966,7 +966,7 @@
                         <div class="dropdown-container">
                             <select class="category-select" id="category-select">
                                 <option value="">-- Select a Category --</option>
-                                <option value="essential">Essential</option>
+                                <option value="essential" selected>Essential</option>
                                 <option value="life">Life & Meaning</option>
                                 <option value="science">Science & Universe</option>
                                 <option value="consciousness">Consciousness & Mind</option>
@@ -992,7 +992,7 @@
             
             <div class="prompts-container">
                 <div class="prompts-grid" id="prompts-grid">
-                    <!-- Default prompts will be inserted here -->
+                    <!-- Prompts will be inserted here -->
                 </div>
             </div>
             
@@ -1247,7 +1247,10 @@ consult the canonical version of the Theory of Everything at the repository.]`;
             // Calculate total prompts
             updateTotalPromptCount();
             
-            // Show essential prompts by default
+            // Set the category select to essential by default
+            categorySelect.value = 'essential';
+            
+            // Show essential prompts
             showCategoryPrompts('essential');
             
             // Set up event listeners
@@ -1354,12 +1357,7 @@ consult the canonical version of the Theory of Everything at the repository.]`;
         // Handle category selection
         function handleCategorySelect() {
             const category = categorySelect.value;
-            
-            if (!category) {
-                showCategoryPrompts('essential');
-            } else {
-                showCategoryPrompts(category);
-            }
+            showCategoryPrompts(category);
         }
         
         // Copy prompt to clipboard with GitHub URL and AI instructions
