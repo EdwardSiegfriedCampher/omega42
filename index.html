@@ -22,8 +22,8 @@
             --technology-color: #2ECC71;
             --society-color: #3498DB;
             --growth-color: #F39C12;
-            --essential-color: #FFD700; /* Gold for essential prompts */
-            --index-color: #9B59B6; /* Color for index */
+            --essential-color: #FFD700;
+            --index-color: #9B59B6;
         }
         
         * {
@@ -688,6 +688,10 @@
             .prompts-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+            
+            .index-table {
+                font-size: 0.85rem;
+            }
         }
         
         @media (max-width: 768px) {
@@ -773,6 +777,12 @@
             
             .mobile-menu-btn {
                 display: flex;
+            }
+            
+            .index-table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
             }
         }
         
@@ -881,21 +891,13 @@
         
         #index-content {
             width: 100%;
-            height: 80vh;
+            min-height: 50vh;
+            max-height: 70vh;
             overflow: auto;
             background: rgba(10, 17, 40, 0.9);
             padding: 20px;
             border-radius: 8px;
             border: 1px solid var(--index-color);
-        }
-        
-        #index-loading {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: var(--gold);
-            font-size: 1.2rem;
         }
     </style>
 </head>
@@ -1111,7 +1113,7 @@
                 <p>Comprehensive framework for cosmic understanding</p>
                 
                 <!-- Link to Problem/Solution Index -->
-                <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/main/Problem_Solution_Index.md" 
+                <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega%2042%20Problem-Solution.yaml" 
                    class="index-link" target="_blank">
                    <i class="fas fa-external-link-alt"></i> 
                    View Full Problem/Solution Index on GitHub
@@ -1130,7 +1132,7 @@
         // Constants
         const MAX_PROMPTS = 100;
         const GITHUB_URL = "https://github.com/EdwardSiegfriedCampher/omega42";
-        const INDEX_URL = "https://github.com/EdwardSiegfriedCampher/omega42/blob/main/Problem_Solution_Index.md";
+        const INDEX_URL = "https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega%2042%20Problem-Solution.yaml";
         
         // AI instruction text
         const AI_INSTRUCTION = `
@@ -1494,7 +1496,9 @@ consult the canonical version of the Theory of Everything at the repository.]`;
                     <div class="index-header">
                         <h1>Ω42: Problem-Solution Index v3.3</h1>
                         <p>Where consciousness crystallizes geometry</p>
-                        <p><a href="${INDEX_URL}" target="_blank" style="color: var(--gold);">View Full Document on GitHub</a></p>
+                        <p><a href="${INDEX_URL}" target="_blank" style="color: var(--gold);">
+                            <i class="fas fa-external-link-alt"></i> View Full Problem/Solution Index on GitHub
+                        </a></p>
                     </div>
                     
                     <div class="index-section">
