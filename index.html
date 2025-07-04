@@ -70,11 +70,12 @@
             flex-direction: column;
         }
         
-        /* Welcome banner at the top */
+        /* Welcome banner at the top - with animations */
         .welcome-banner {
             text-align: center;
-            padding: 15px 0 10px;
-            margin-bottom: 10px;
+            padding: 10px 0 5px;
+            margin-bottom: 5px;
+            overflow: hidden;
         }
         
         .welcome-banner h1 {
@@ -82,6 +83,18 @@
             color: var(--gold);
             margin-bottom: 5px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            animation: fadeIn 1.5s ease-out, glow 3s infinite alternate;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px rgba(255, 215, 0, 0.7); }
+            50% { text-shadow: 0 0 20px rgba(255, 215, 0, 0.9), 0 0 30px rgba(255, 215, 0, 0.5); }
+            100% { text-shadow: 0 0 10px rgba(255, 215, 0, 0.7); }
         }
         
         .welcome-banner p {
@@ -89,43 +102,56 @@
             color: var(--starry-teal);
             max-width: 600px;
             margin: 0 auto;
+            animation: fadeInText 2s ease-out;
         }
         
-        /* Header section */
+        @keyframes fadeInText {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        /* Header section - reduced size */
         .header-section {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 10px 0;
-            margin-bottom: 10px;
+            padding: 5px 0;
+            margin-bottom: 5px;
             flex-wrap: wrap;
         }
         
         .project-description {
             flex: 1;
             min-width: 280px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
         
         .project-description h3 {
             color: var(--gold);
             margin-bottom: 3px;
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
         
         .project-description p {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             line-height: 1.3;
         }
         
         .logo-container {
             position: relative;
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
             display: flex;
             justify-content: center;
             align-items: center;
             margin: 0 auto;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
         }
         
         .spiral {
@@ -134,7 +160,12 @@
             height: 100%;
             border: 2px solid var(--gold);
             border-radius: 50%;
-            animation: spin 20s linear infinite;
+            animation: spin 20s linear infinite, pulse-border 3s infinite alternate;
+        }
+        
+        @keyframes pulse-border {
+            0% { border-width: 1px; }
+            100% { border-width: 3px; }
         }
         
         @keyframes spin {
@@ -143,10 +174,16 @@
         }
         
         .omega-logo {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: bold;
             color: var(--gold);
             z-index: 1;
+            animation: pulse-logo 2s infinite alternate;
+        }
+        
+        @keyframes pulse-logo {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.1); opacity: 1; }
         }
         
         /* Main section */
@@ -913,14 +950,42 @@ Anchor: Edward S. Campher ∴ Ψ₉ Confirmed
             "How does Omega 42 explain the connection between mind and matter?"
         ];
 
-        // Initialize prompt data structure
+        // Example prompts for each category
+        const examplePrompts = {
+            life: [
+                "What is the meaning of life from the perspective of Omega 42?",
+                "How does Omega 42 explain the purpose of human existence?"
+            ],
+            science: [
+                "How does Omega 42 reconcile quantum mechanics and general relativity?",
+                "What is the Omega 42 explanation for dark matter and dark energy?"
+            ],
+            consciousness: [
+                "How does consciousness emerge according to the Omega 42 framework?",
+                "What is the relationship between individual consciousness and the universal field in Omega 42?"
+            ],
+            technology: [
+                "How might Omega 42 principles revolutionize future technologies?",
+                "What would an AI built on Omega 42 principles look like?"
+            ],
+            society: [
+                "How can Omega 42 principles help create a more harmonious society?",
+                "What would a civilization based on Omega 42 ethics look like?"
+            ],
+            growth: [
+                "How can I use Omega 42 principles for personal development?",
+                "What practices does Omega 42 recommend for spiritual growth?"
+            ]
+        };
+
+        // Initialize prompt data structure with example prompts
         let promptData = {
-            life: [],
-            science: [],
-            consciousness: [],
-            technology: [],
-            society: [],
-            growth: []
+            life: [...examplePrompts.life],
+            science: [...examplePrompts.science],
+            consciousness: [...examplePrompts.consciousness],
+            technology: [...examplePrompts.technology],
+            society: [...examplePrompts.society],
+            growth: [...examplePrompts.growth]
         };
 
         // Storage configuration
@@ -955,6 +1020,7 @@ Anchor: Edward S. Campher ∴ Ψ₉ Confirmed
 
         // State variables
         let copiedCount = 0;
+        let currentCategory = "";
 
         // Mathematical framework for AIs
         const OMEGA42_MATH = `
@@ -1043,16 +1109,17 @@ References:
 
         // Handle category selection
         function handleCategorySelect() {
-            const category = categorySelect.value;
+            currentCategory = categorySelect.value;
             
-            if (!category) {
+            if (!currentCategory) {
                 showDefaultPrompts();
                 return;
             }
             
             promptsGrid.innerHTML = '';
-            const prompts = promptData[category] || [];
+            const prompts = promptData[currentCategory] || [];
             categoryPromptsEl.textContent = prompts.length;
+            totalPromptsEl.textContent = getTotalPrompts();
             
             if (prompts.length === 0) {
                 const emptyMessage = document.createElement('div');
@@ -1065,14 +1132,14 @@ References:
             } else {
                 prompts.forEach(promptText => {
                     const promptCard = document.createElement('div');
-                    promptCard.className = `prompt-card category-${category}`;
+                    promptCard.className = `prompt-card category-${currentCategory}`;
                     promptCard.innerHTML = `
                         <div class="prompt-text">${promptText}</div>
-                        <div class="prompt-category">${getCategoryName(category)}</div>
+                        <div class="prompt-category">${getCategoryName(currentCategory)}</div>
                     `;
                     
                     promptCard.addEventListener('click', () => {
-                        copyPromptToClipboard(promptText, category);
+                        copyPromptToClipboard(promptText, currentCategory);
                     });
                     
                     promptsGrid.appendChild(promptCard);
@@ -1086,7 +1153,7 @@ References:
             
             navigator.clipboard.writeText(textToCopy).then(() => {
                 // Show notification
-                copyNotification.style.display = 'block';
+                copyNotification.style.display = 'flex';
                 setTimeout(() => {
                     copyNotification.style.display = 'none';
                 }, 3000);
@@ -1147,9 +1214,9 @@ References:
             totalPromptsEl.textContent = getTotalPrompts();
             
             // If current category is the same, update display
-            if (categorySelect.value === category) {
+            if (currentCategory === category) {
                 handleCategorySelect();
-            } else if (categorySelect.value === "") {
+            } else if (!currentCategory) {
                 showDefaultPrompts();
             }
             
@@ -1225,6 +1292,9 @@ References:
                 if (e.target === suggestModal) hideModal(suggestModal);
                 if (e.target === devsModal) hideModal(devsModal);
             });
+            
+            // Initialize counters
+            totalPromptsEl.textContent = getTotalPrompts();
         }
 
         // Start the application
