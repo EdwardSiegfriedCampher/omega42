@@ -641,19 +641,21 @@
                         <button class="btn btn-secondary" id="suggest-btn">
                             <i class="fas fa-lightbulb"></i> Suggest
                         </button>
-                        <button class="btn btn-secondary" id="devs-btn">
-                            <i class="fas fa-code"></i> Devs
-                        </button>
                         
-                        <!-- Reveal Full Theory Button -->
+                        <!-- Reveal Full Theory Button moved between Suggest and Devs -->
                         <button class="btn btn-tertiary" id="theory-btn">
                             <i class="fas fa-atom"></i> Reveal Full Theory
+                        </button>
+                        
+                        <button class="btn btn-secondary" id="devs-btn">
+                            <i class="fas fa-code"></i> Devs
                         </button>
                         
                         <!-- Category selector -->
                         <div class="dropdown-container">
                             <select class="category-select" id="category-select">
-                                <option value="">-- Select a Category --</option>
+                                <option value="">-- All Categories --</option>
+                                <option value="essential">Essential Prompts</option>
                                 <option value="life">Life & Meaning</option>
                                 <option value="science">Science & Universe</option>
                                 <option value="consciousness">Consciousness & Mind</option>
@@ -666,12 +668,12 @@
                     
                     <div class="counters">
                         <div class="counter">
-                            <div class="counter-value" id="total-prompts">6</div>
+                            <div class="counter-value" id="total-prompts">66</div>
                             <div class="counter-label">Total</div>
                         </div>
                         <div class="counter">
-                            <div class="counter-value" id="category-prompts">6</div>
-                            <div class="counter-label">Selected</div>
+                            <div class="counter-value" id="category-prompts">66</div>
+                            <div class="counter-label">Showing</div>
                         </div>
                     </div>
                 </div>
@@ -941,7 +943,7 @@ Anchor: Edward S. Campher ∴ Ψ₉ Confirmed
 
     <script>
         // Default essential prompts (always shown)
-        const defaultPrompts = [
+        const essentialPrompts = [
             "What is the fundamental nature of reality according to Omega 42?",
             "How does consciousness create the universe?",
             "What is the significance of the number 42 in cosmic terms?",
@@ -949,43 +951,109 @@ Anchor: Edward S. Campher ∴ Ψ₉ Confirmed
             "What role does the golden ratio play in universal structure?",
             "How does Omega 42 explain the connection between mind and matter?"
         ];
-
-        // Example prompts for each category
-        const examplePrompts = {
+        
+        // Prompts for each category (12 per category)
+        const categoryPrompts = {
             life: [
                 "What is the meaning of life from the perspective of Omega 42?",
-                "How does Omega 42 explain the purpose of human existence?"
+                "How does Omega 42 explain the purpose of human existence?",
+                "In what ways does Omega 42 redefine our understanding of death?",
+                "How does Omega 42 view the relationship between suffering and growth?",
+                "What does Omega 42 suggest about the nature of free will?",
+                "How does Omega 42 explain the concept of destiny?",
+                "What is the Omega 42 perspective on the balance between individuality and collective consciousness?",
+                "How does Omega 42 interpret the concept of love?",
+                "What role does creativity play in the Omega 42 framework?",
+                "How does Omega 42 explain the diversity of life forms?",
+                "What is the Omega 42 view on the nature of time in human experience?",
+                "How does Omega 42 approach the concept of purpose in a seemingly chaotic universe?"
             ],
             science: [
                 "How does Omega 42 reconcile quantum mechanics and general relativity?",
-                "What is the Omega 42 explanation for dark matter and dark energy?"
+                "What is the Omega 42 explanation for dark matter and dark energy?",
+                "How does Omega 42 explain the fine-tuning of the universe?",
+                "What is the Omega 42 perspective on the nature of black holes?",
+                "How does Omega 42 address the Fermi paradox?",
+                "What is the Omega 42 explanation for the origin of the universe?",
+                "How does Omega 42 reinterpret the concept of entropy?",
+                "What is the Omega 42 view on the possibility of multiverses?",
+                "How does Omega 42 explain quantum entanglement?",
+                "What does Omega 42 suggest about the nature of time?",
+                "How does Omega 42 approach the measurement problem in quantum physics?",
+                "What is the Omega 42 explanation for the emergence of complexity?"
             ],
             consciousness: [
                 "How does consciousness emerge according to the Omega 42 framework?",
-                "What is the relationship between individual consciousness and the universal field in Omega 42?"
+                "What is the relationship between individual consciousness and the universal field in Omega 42?",
+                "How does Omega 42 explain altered states of consciousness?",
+                "What is the Omega 42 perspective on the hard problem of consciousness?",
+                "How does Omega 42 view the connection between consciousness and quantum phenomena?",
+                "What does Omega 42 suggest about collective consciousness?",
+                "How does Omega 42 explain the phenomenon of intuition?",
+                "What is the Omega 42 view on the survival of consciousness after physical death?",
+                "How does Omega 42 address the mind-body problem?",
+                "What role does attention play in the Omega 42 model of consciousness?",
+                "How does Omega 42 explain the evolution of consciousness?",
+                "What is the Omega 42 perspective on artificial consciousness?"
             ],
             technology: [
                 "How might Omega 42 principles revolutionize future technologies?",
-                "What would an AI built on Omega 42 principles look like?"
+                "What would an AI built on Omega 42 principles look like?",
+                "How could Omega 42 transform our approach to energy generation?",
+                "What implications does Omega 42 have for quantum computing?",
+                "How might Omega 42 principles influence space exploration technology?",
+                "What would a transportation system based on Omega 42 principles look like?",
+                "How could Omega 42 principles enhance communication systems?",
+                "What would medicine look like if based on Omega 42 principles?",
+                "How might Omega 42 transform material science?",
+                "What ethical frameworks for technology emerge from Omega 42?",
+                "How could Omega 42 principles be applied to environmental technology?",
+                "What would education systems look like if designed with Omega 42 principles?"
             ],
             society: [
                 "How can Omega 42 principles help create a more harmonious society?",
-                "What would a civilization based on Omega 42 ethics look like?"
+                "What would a civilization based on Omega 42 ethics look like?",
+                "How does Omega 42 redefine concepts of wealth and prosperity?",
+                "What is the Omega 42 perspective on governance and leadership?",
+                "How might Omega 42 transform our approach to conflict resolution?",
+                "What would economic systems based on Omega 42 principles look like?",
+                "How does Omega 42 address issues of inequality and justice?",
+                "What role does education play in an Omega 42 society?",
+                "How might Omega 42 principles influence urban planning?",
+                "What is the Omega 42 view on cultural diversity?",
+                "How does Omega 42 approach the concept of work and vocation?",
+                "What would healthcare systems based on Omega 42 principles look like?"
             ],
             growth: [
                 "How can I use Omega 42 principles for personal development?",
-                "What practices does Omega 42 recommend for spiritual growth?"
+                "What practices does Omega 42 recommend for spiritual growth?",
+                "How does Omega 42 approach overcoming personal limitations?",
+                "What is the Omega 42 perspective on self-actualization?",
+                "How can Omega 42 principles help in developing emotional intelligence?",
+                "What role does mindfulness play in the Omega 42 framework?",
+                "How does Omega 42 view the process of healing and transformation?",
+                "What is the Omega 42 approach to developing intuition?",
+                "How can Omega 42 principles enhance creativity?",
+                "What does Omega 42 suggest about developing meaningful relationships?",
+                "How can Omega 42 help in finding one's life purpose?",
+                "What is the Omega 42 approach to overcoming fear and anxiety?"
             ]
         };
 
-        // Initialize prompt data structure with example prompts
+        // Initialize prompt data structure
         let promptData = {
-            life: [...examplePrompts.life],
-            science: [...examplePrompts.science],
-            consciousness: [...examplePrompts.consciousness],
-            technology: [...examplePrompts.technology],
-            society: [...examplePrompts.society],
-            growth: [...examplePrompts.growth]
+            essential: [...essentialPrompts],
+            life: [...categoryPrompts.life],
+            science: [...categoryPrompts.science],
+            consciousness: [...categoryPrompts.consciousness],
+            technology: [...categoryPrompts.technology],
+            society: [...categoryPrompts.society],
+            growth: [...categoryPrompts.growth]
+        };
+
+        // Calculate total prompts
+        const calculateTotalPrompts = () => {
+            return Object.values(promptData).reduce((total, category) => total + category.length, 0);
         };
 
         // Storage configuration
@@ -1021,6 +1089,7 @@ Anchor: Edward S. Campher ∴ Ψ₉ Confirmed
         // State variables
         let copiedCount = 0;
         let currentCategory = "";
+        const totalPrompts = calculateTotalPrompts();
 
         // Mathematical framework for AIs
         const OMEGA42_MATH = `
@@ -1061,7 +1130,7 @@ References:
                     // Merge with existing structure
                     Object.keys(parsed).forEach(category => {
                         if (promptData[category]) {
-                            promptData[category] = parsed[category];
+                            promptData[category] = [...promptData[category], ...parsed[category]];
                         }
                     });
                 } catch (e) {
@@ -1075,51 +1144,35 @@ References:
             localStorage.setItem(STORAGE_KEY, JSON.stringify(promptData));
         }
 
-        // Get total prompt count
-        function getTotalPrompts() {
-            let count = defaultPrompts.length;
-            for (const category in promptData) {
-                count += promptData[category].length;
-            }
-            return count;
-        }
-
-        // Show default prompts
-        function showDefaultPrompts() {
+        // Show all prompts
+        function showAllPrompts() {
             promptsGrid.innerHTML = '';
-            const promptCount = defaultPrompts.length;
-            categoryPromptsEl.textContent = promptCount;
-            totalPromptsEl.textContent = getTotalPrompts();
+            let count = 0;
             
-            defaultPrompts.forEach(promptText => {
-                const promptCard = document.createElement('div');
-                promptCard.className = `prompt-card category-essential`;
-                promptCard.innerHTML = `
-                    <div class="prompt-text">${promptText}</div>
-                    <div class="prompt-category">Essential</div>
-                `;
-                
-                promptCard.addEventListener('click', () => {
-                    copyPromptToClipboard(promptText, 'default');
-                });
-                
-                promptsGrid.appendChild(promptCard);
+            // Show essential prompts first
+            promptData.essential.forEach(promptText => {
+                createPromptCard(promptText, 'essential');
+                count++;
             });
+            
+            // Show category prompts
+            Object.keys(categoryPrompts).forEach(category => {
+                promptData[category].forEach(promptText => {
+                    createPromptCard(promptText, category);
+                    count++;
+                });
+            });
+            
+            categoryPromptsEl.textContent = count;
+            totalPromptsEl.textContent = calculateTotalPrompts();
         }
 
-        // Handle category selection
-        function handleCategorySelect() {
-            currentCategory = categorySelect.value;
-            
-            if (!currentCategory) {
-                showDefaultPrompts();
-                return;
-            }
-            
+        // Show prompts for a specific category
+        function showCategoryPrompts(category) {
             promptsGrid.innerHTML = '';
-            const prompts = promptData[currentCategory] || [];
+            const prompts = promptData[category] || [];
             categoryPromptsEl.textContent = prompts.length;
-            totalPromptsEl.textContent = getTotalPrompts();
+            totalPromptsEl.textContent = calculateTotalPrompts();
             
             if (prompts.length === 0) {
                 const emptyMessage = document.createElement('div');
@@ -1131,19 +1184,37 @@ References:
                 promptsGrid.appendChild(emptyMessage);
             } else {
                 prompts.forEach(promptText => {
-                    const promptCard = document.createElement('div');
-                    promptCard.className = `prompt-card category-${currentCategory}`;
-                    promptCard.innerHTML = `
-                        <div class="prompt-text">${promptText}</div>
-                        <div class="prompt-category">${getCategoryName(currentCategory)}</div>
-                    `;
-                    
-                    promptCard.addEventListener('click', () => {
-                        copyPromptToClipboard(promptText, currentCategory);
-                    });
-                    
-                    promptsGrid.appendChild(promptCard);
+                    createPromptCard(promptText, category);
                 });
+            }
+        }
+
+        // Create prompt card element
+        function createPromptCard(promptText, category) {
+            const promptCard = document.createElement('div');
+            promptCard.className = `prompt-card category-${category}`;
+            promptCard.innerHTML = `
+                <div class="prompt-text">${promptText}</div>
+                <div class="prompt-category">${getCategoryName(category)}</div>
+            `;
+            
+            promptCard.addEventListener('click', () => {
+                copyPromptToClipboard(promptText, category);
+            });
+            
+            promptsGrid.appendChild(promptCard);
+        }
+
+        // Handle category selection
+        function handleCategorySelect() {
+            currentCategory = categorySelect.value;
+            
+            if (!currentCategory) {
+                showAllPrompts();
+            } else if (currentCategory === 'essential') {
+                showCategoryPrompts('essential');
+            } else {
+                showCategoryPrompts(currentCategory);
             }
         }
 
@@ -1211,13 +1282,13 @@ References:
             saveUserPrompts();
             
             // Update UI
-            totalPromptsEl.textContent = getTotalPrompts();
+            totalPromptsEl.textContent = calculateTotalPrompts();
             
             // If current category is the same, update display
             if (currentCategory === category) {
-                handleCategorySelect();
+                showCategoryPrompts(category);
             } else if (!currentCategory) {
-                showDefaultPrompts();
+                showAllPrompts();
             }
             
             showFeedback("Thank you! Your prompt has been saved locally.", "success");
@@ -1239,6 +1310,7 @@ References:
         // Get category display name
         function getCategoryName(category) {
             const names = {
+                essential: "Essential",
                 life: "Life & Meaning",
                 science: "Science & Universe",
                 consciousness: "Consciousness & Mind",
@@ -1267,7 +1339,7 @@ References:
             loadUserPrompts();
             
             // Initialize UI
-            showDefaultPrompts();
+            showAllPrompts();
             
             // Set up event listeners
             categorySelect.addEventListener('change', handleCategorySelect);
@@ -1294,7 +1366,8 @@ References:
             });
             
             // Initialize counters
-            totalPromptsEl.textContent = getTotalPrompts();
+            totalPromptsEl.textContent = calculateTotalPrompts();
+            categoryPromptsEl.textContent = calculateTotalPrompts();
         }
 
         // Start the application
