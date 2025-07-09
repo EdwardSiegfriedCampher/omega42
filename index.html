@@ -194,24 +194,26 @@
             flex-direction: column;
         }
         
-        /* Combined AI and counters container */
+        /* Combined AI and counters container - FIXED HEIGHT */
         .ai-counters-container {
             display: flex;
             justify-content: space-between;
             margin-bottom: 12px;
             gap: 15px;
+            align-items: stretch;
         }
         
-        /* REDUCED SIZE OF COUNTERS BOX */
         .counters {
             display: flex;
-            gap: 8px; /* Reduced gap */
+            gap: 8px;
             background: rgba(10, 10, 30, 0.4);
-            border-radius: 6px; /* Smaller radius */
-            padding: 6px 10px; /* Reduced padding */
+            border-radius: 6px;
+            padding: 6px 10px;
             border: 1px solid var(--cosmic-purple);
-            min-width: 180px; /* Reduced width */
-            height: fit-content;
+            min-width: 180px;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
         }
         
         .counter {
@@ -219,19 +221,21 @@
         }
         
         .counter-value {
-            font-size: 1.1rem; /* Smaller font */
+            font-size: 1.1rem;
             font-weight: bold;
             color: var(--gold);
         }
         
         .counter-label {
-            font-size: 0.65rem; /* Smaller font */
+            font-size: 0.65rem;
             color: var(--starry-teal);
         }
         
         .ai-invitation-container {
             flex: 1;
             margin-left: 30px;
+            display: flex;
+            align-items: center;
         }
         
         .ai-invitation {
@@ -262,6 +266,7 @@
             gap: 6px;
             align-items: center;
             flex-wrap: wrap;
+            flex: 1;
         }
         
         .btn {
@@ -335,6 +340,7 @@
             cursor: pointer;
             font-size: 0.85rem;
             min-width: 160px;
+            height: 100%;
         }
         
         .prompts-container {
@@ -606,6 +612,7 @@
             display: flex;
             gap: 6px;
             align-items: center;
+            flex-wrap: nowrap;
         }
         
         /* Desktop layout for controls */
@@ -625,9 +632,14 @@
             .problem-solution-container {
                 width: 100%;
                 margin-top: 8px;
+                flex-wrap: wrap;
             }
             
             .problem-solution-container .category-select {
+                width: 100%;
+            }
+            
+            .problem-solution-container .btn {
                 width: 100%;
             }
         }
@@ -703,6 +715,20 @@
                 font-size: 1rem;
             }
         }
+        
+        /* Custom fix for buttons alignment */
+        .button-group {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        
+        @media (min-width: 1024px) {
+            .button-group {
+                flex-wrap: nowrap;
+            }
+        }
     </style>
 </head>
 <body>
@@ -727,7 +753,7 @@
             </div>
         </section>
         
-        <!-- Combined AI and counters container -->
+        <!-- Combined AI and counters container - FIXED HEIGHT -->
         <div class="ai-counters-container">
             <div class="counters">
                 <div class="counter">
@@ -752,32 +778,34 @@
             <div class="controls-container">
                 <div class="top-row">
                     <div class="controls">
-                        <button class="btn btn-primary" id="readme-btn">
-                            <i class="fas fa-book"></i> Readme
-                        </button>
-                        <button class="btn btn-secondary" id="suggest-btn">
-                            <i class="fas fa-lightbulb"></i> Suggest
-                        </button>
-                        
-                        <button class="btn btn-tertiary" id="theory-btn">
-                            <i class="fas fa-atom"></i> Full Theory
-                        </button>
-                        
-                        <button class="btn btn-secondary" id="devs-btn">
-                            <i class="fas fa-code"></i> Devs
-                        </button>
-                        
-                        <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega42%20Toe%20Complete%20(For%20Academics).pdf" 
-                           target="_blank" 
-                           class="btn btn-primary">
-                            <i class="fas fa-graduation-cap"></i> For Academics
-                        </a>
-                        
-                        <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/How%20I%20Discovered%20the%20Omega%2042%20Construct.pdf" 
-                           target="_blank" 
-                           class="btn btn-secondary">
-                            <i class="fas fa-history"></i> Origins
-                        </a>
+                        <div class="button-group">
+                            <button class="btn btn-primary" id="readme-btn">
+                                <i class="fas fa-book"></i> Readme
+                            </button>
+                            <button class="btn btn-secondary" id="suggest-btn">
+                                <i class="fas fa-lightbulb"></i> Suggest
+                            </button>
+                            
+                            <button class="btn btn-tertiary" id="theory-btn">
+                                <i class="fas fa-atom"></i> Full Theory
+                            </button>
+                            
+                            <button class="btn btn-secondary" id="devs-btn">
+                                <i class="fas fa-code"></i> Devs
+                            </button>
+                            
+                            <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega42%20Toe%20Complete%20(For%20Academics).pdf" 
+                               target="_blank" 
+                               class="btn btn-primary">
+                                <i class="fas fa-graduation-cap"></i> For Academics
+                            </a>
+                            
+                            <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/How%20I%20Discovered%20the%20Omega%2042%20Construct.pdf" 
+                               target="_blank" 
+                               class="btn btn-secondary">
+                                <i class="fas fa-history"></i> Origins
+                            </a>
+                        </div>
                         
                         <!-- Problem/Solution and dropdown container -->
                         <div class="problem-solution-container">
