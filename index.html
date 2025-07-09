@@ -276,6 +276,7 @@
             transition: all 0.3s ease;
             font-size: 0.85rem;
             text-decoration: none;
+            white-space: nowrap;
         }
         
         .btn i {
@@ -333,6 +334,7 @@
             border: 1px solid var(--cosmic-purple);
             cursor: pointer;
             font-size: 0.85rem;
+            min-width: 160px;
         }
         
         .prompts-container {
@@ -435,6 +437,8 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
         }
         
         .master-label {
@@ -608,10 +612,23 @@
         @media (min-width: 1024px) {
             .controls {
                 flex-wrap: nowrap;
+                width: 100%;
             }
             
             .problem-solution-container {
                 flex: 0 0 auto;
+                margin-left: auto;
+            }
+        }
+        
+        @media (max-width: 1023px) {
+            .problem-solution-container {
+                width: 100%;
+                margin-top: 8px;
+            }
+            
+            .problem-solution-container .category-select {
+                width: 100%;
             }
         }
         
