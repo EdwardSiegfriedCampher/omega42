@@ -241,6 +241,7 @@
             font-weight: 500;
             transition: all 0.3s ease;
             font-size: 0.85rem;
+            text-decoration: none;
         }
         
         .btn i {
@@ -598,6 +599,12 @@
             .prompts-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 5px;
+            }
         }
     </style>
 </head>
@@ -650,6 +657,19 @@
                         <button class="btn btn-secondary" id="devs-btn">
                             <i class="fas fa-code"></i> Devs
                         </button>
+                        
+                        <!-- New buttons added here -->
+                        <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega42%20Toe%20Complete%20(For%20Academics).pdf" 
+                           target="_blank" 
+                           class="btn btn-secondary">
+                            <i class="fas fa-book-open"></i> Omega 42 Origins
+                        </a>
+                        
+                        <a href="https://github.com/EdwardSiegfriedCampher/omega42/blob/master/Omega42%20Problem%20Index%20V4.pdf" 
+                           target="_blank" 
+                           class="btn btn-secondary">
+                            <i class="fas fa-list"></i> Problem/Solution Index V4
+                        </a>
                         
                         <!-- Category selector -->
                         <div class="dropdown-container">
@@ -1340,6 +1360,8 @@ References:
             
             // Initialize UI
             showAllPrompts();
+            totalPromptsEl.textContent = calculateTotalPrompts();
+            categoryPromptsEl.textContent = calculateTotalPrompts();
             
             // Set up event listeners
             categorySelect.addEventListener('change', handleCategorySelect);
@@ -1364,10 +1386,6 @@ References:
                 if (e.target === suggestModal) hideModal(suggestModal);
                 if (e.target === devsModal) hideModal(devsModal);
             });
-            
-            // Initialize counters
-            totalPromptsEl.textContent = calculateTotalPrompts();
-            categoryPromptsEl.textContent = calculateTotalPrompts();
         }
 
         // Start the application
