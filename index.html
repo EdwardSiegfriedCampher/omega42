@@ -432,6 +432,9 @@
             background: linear-gradient(135deg, rgba(74, 0, 224, 0.3), rgba(10, 10, 40, 0.9));
             border: 2px solid var(--starry-teal);
             grid-column: 1 / -1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         
         .master-label {
@@ -445,6 +448,15 @@
             font-size: 0.7rem;
             font-weight: bold;
             z-index: 2;
+        }
+        
+        /* Enhanced Master Prompt text */
+        .master-prompt-text {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 0 10px;
+            line-height: 1.4;
         }
         
         .copied-meter {
@@ -592,6 +604,17 @@
             align-items: center;
         }
         
+        /* Desktop layout for controls */
+        @media (min-width: 1024px) {
+            .controls {
+                flex-wrap: nowrap;
+            }
+            
+            .problem-solution-container {
+                flex: 0 0 auto;
+            }
+        }
+        
         @media (max-width: 768px) {
             .welcome-banner h1 {
                 font-size: 1.6rem;
@@ -657,6 +680,10 @@
             
             .problem-solution-container {
                 width: 100%;
+            }
+            
+            .master-prompt-text {
+                font-size: 1rem;
             }
         }
     </style>
@@ -762,7 +789,9 @@
                     <!-- Master prompt card with updated text -->
                     <div class="prompt-card master-prompt-card" id="master-prompt">
                         <div class="master-label">MASTER PROMPT</div>
-                        <div class="prompt-text"><strong>Consciousness is not emergent from matter—matter is emergent from consciousness structured by recursive mathematics.</strong></div>
+                        <div class="master-prompt-text">
+                            <strong>Consciousness is not emergent from matter—matter is emergent from consciousness structured by recursive mathematics.</strong>
+                        </div>
                         <div class="prompt-category">Core Framework</div>
                     </div>
                     <!-- Prompts will be inserted here -->
