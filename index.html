@@ -194,7 +194,7 @@
             flex-direction: column;
         }
         
-        /* Combined AI and counters container - FIXED HEIGHT */
+        /* Combined AI and counters container - FIXED */
         .ai-counters-container {
             display: flex;
             justify-content: space-between;
@@ -208,10 +208,9 @@
             gap: 8px;
             background: rgba(10, 10, 30, 0.4);
             border-radius: 6px;
-            padding: 6px 10px;
+            padding: 10px 15px;
             border: 1px solid var(--cosmic-purple);
             min-width: 180px;
-            height: 100%;
             align-items: center;
             justify-content: center;
         }
@@ -266,7 +265,7 @@
             gap: 6px;
             align-items: center;
             flex-wrap: wrap;
-            flex: 1;
+            width: 100%;
         }
         
         .btn {
@@ -624,7 +623,13 @@
             
             .problem-solution-container {
                 flex: 0 0 auto;
-                margin-left: auto;
+            }
+            
+            .button-group {
+                display: flex;
+                gap: 6px;
+                flex-wrap: nowrap;
+                flex: 1;
             }
         }
         
@@ -641,6 +646,12 @@
             
             .problem-solution-container .btn {
                 width: 100%;
+            }
+            
+            .button-group {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 6px;
             }
         }
         
@@ -716,18 +727,11 @@
             }
         }
         
-        /* Custom fix for buttons alignment */
+        /* Button group styling */
         .button-group {
             display: flex;
-            gap: 6px;
             flex-wrap: wrap;
-            flex: 1;
-        }
-        
-        @media (min-width: 1024px) {
-            .button-group {
-                flex-wrap: nowrap;
-            }
+            gap: 6px;
         }
     </style>
 </head>
