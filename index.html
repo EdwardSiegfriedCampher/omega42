@@ -618,6 +618,34 @@
             margin-left: auto; /* Push to the right */
         }
         
+        /* Search container */
+        .search-container {
+            display: flex;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .search-box {
+            flex: 1;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: rgba(10, 10, 30, 0.7);
+            color: white;
+            border: 1px solid var(--cosmic-purple);
+            font-size: 0.85rem;
+        }
+        
+        .search-btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: var(--gold);
+            color: var(--dark-space);
+            cursor: pointer;
+            margin-left: 8px;
+            font-weight: 500;
+        }
+        
         /* Desktop layout for controls */
         @media (min-width: 1024px) {
             .controls {
@@ -836,6 +864,12 @@
                             </select>
                         </div>
                     </div>
+                </div>
+                
+                <!-- Search box -->
+                <div class="search-container">
+                    <input type="text" class="search-box" placeholder="Search prompts...">
+                    <button class="search-btn">Search</button>
                 </div>
             </div>
             
@@ -1350,6 +1384,8 @@ These fundamental expressions define the harmonic logic underlying the construct
         const closeDevs = document.getElementById('close-devs');
         const meterDots = document.querySelectorAll('.meter-dot');
         const masterPromptCard = document.getElementById('master-prompt');
+        const searchBox = document.querySelector('.search-box');
+        const searchBtn = document.querySelector('.search-btn');
 
         // State variables
         let copiedCount = 0;
