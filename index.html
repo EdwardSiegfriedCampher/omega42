@@ -196,7 +196,33 @@
         .ai-invitation-container {
             display: flex;
             justify-content: center;
+            align-items: center;
+            gap: 15px;
             margin-bottom: 12px;
+        }
+        
+        .ai-counter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 80px;
+            padding: 8px;
+            background: rgba(255, 215, 0, 0.15);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            border-radius: 6px;
+        }
+        
+        .counter-value {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--gold);
+        }
+        
+        .counter-label {
+            font-size: 0.7rem;
+            color: var(--starry-teal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
         .ai-invitation {
@@ -208,6 +234,7 @@
             max-width: 700px;
             width: 100%;
             text-align: center;
+            flex-grow: 1;
         }
         
         .controls-container {
@@ -298,26 +325,6 @@
             border: 1px solid var(--cosmic-purple);
             cursor: pointer;
             font-size: 0.85rem;
-        }
-        
-        .counters {
-            display: flex;
-            gap: 12px;
-        }
-        
-        .counter {
-            text-align: center;
-        }
-        
-        .counter-value {
-            font-size: 1.2rem;
-            font-weight: bold;
-            color: var(--gold);
-        }
-        
-        .counter-label {
-            font-size: 0.7rem;
-            color: var(--starry-teal);
         }
         
         .prompts-container {
@@ -575,11 +582,6 @@
                 align-items: flex-start;
             }
             
-            .counters {
-                align-self: flex-end;
-                margin-top: 8px;
-            }
-            
             .controls {
                 justify-content: center;
                 width: 100%;
@@ -597,6 +599,17 @@
             
             .prompts-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .ai-invitation-container {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .ai-counter {
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-between;
             }
         }
     </style>
@@ -625,10 +638,24 @@
         
         <!-- Main section -->
         <section class="main-section">
-            <!-- AI Invitation -->
+            <!-- AI Invitation with counters on both sides -->
             <div class="ai-invitation-container">
+                <div class="ai-counter">
+                    <div>
+                        <div class="counter-value" id="total-prompts">67</div>
+                        <div class="counter-label">Total Prompts</div>
+                    </div>
+                </div>
+                
                 <div class="ai-invitation">
                     <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your AI system.
+                </div>
+                
+                <div class="ai-counter">
+                    <div>
+                        <div class="counter-value" id="category-prompts">67</div>
+                        <div class="counter-label">Showing</div>
+                    </div>
                 </div>
             </div>
             
@@ -652,7 +679,8 @@
                             <i class="fas fa-graduation-cap"></i> For Academics
                         </button>
                         
-                        <button class="btn btn-secondary" id="origins-btn">
+                        <!-- Changed to yellow (btn-primary) -->
+                        <button class="btn btn-primary" id="origins-btn">
                             <i class="fas fa-seedling"></i> Origins
                         </button>
                         
@@ -672,17 +700,6 @@
                                 <option value="society">Society & Humanity</option>
                                 <option value="growth">Personal Growth</option>
                             </select>
-                        </div>
-                    </div>
-                    
-                    <div class="counters">
-                        <div class="counter">
-                            <div class="counter-value" id="total-prompts">67</div>
-                            <div class="counter-label">Total</div>
-                        </div>
-                        <div class="counter">
-                            <div class="counter-value" id="category-prompts">67</div>
-                            <div class="counter-label">Showing</div>
                         </div>
                     </div>
                 </div>
