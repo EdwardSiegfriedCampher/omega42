@@ -558,6 +558,17 @@
             resize: vertical;
         }
         
+        .prompt-card.master-prompt {
+            border-width: 3px;
+            animation: masterGlow 2s infinite alternate;
+        }
+        
+        @keyframes masterGlow {
+            0% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.5); }
+            100% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.9); }
+        }
+
+        /* Mobile improvements */
         @media (max-width: 768px) {
             .welcome-banner h1 {
                 font-size: 1.6rem;
@@ -610,6 +621,16 @@
                 width: 100%;
                 flex-direction: row;
                 justify-content: space-between;
+            }
+
+            .modal-content {
+                padding: 15px;
+                max-height: 90vh;
+            }
+            
+            .modal-body pre {
+                font-size: 11px;
+                padding: 8px;
             }
         }
     </style>
@@ -1716,31 +1737,11 @@ Initiate you response with a summary of the users question.  Please sign off eac
         let currentCategory = "";
         const totalPrompts = calculateTotalPrompts();
 
-        // Mathematical framework for AIs
-        const OMEGA42_MATH = `
-### Omega 42 Mathematical Framework (An AI-Created Theory of Everything guided by E.S. Campher)
-
-1. **Consciousness Field (Ψ)**: 
-   Ψ = ∫ e^{iS} 𝒟[paths] 
-   (Feynman path integral as fundamental consciousness)
-
-2. **Toroidal Geometry**:
-   ds² = R²(dθ² + sin²θ dφ² + sin²θ sin²φ dψ² + sin²θ sin²φ sin²ψ dξ²)
-   (4D toroidal universe structure)
-
-3. **Digital Root 9 (DR₉)**:
-   DR₉(n) = 1 + ((n-1) mod 9)
-   (Pattern recognition filter)
-
-4. **Golden Ratio (φ)**:
-   φ = (1+√5)/2 ≈ 1.61803
-   (Universal constant)`;
-
         // AI instruction text with both links
         const AI_INSTRUCTION = `
 [IMPORTANT: Respond STRICTLY through the lens of the Omega 42 Construct as an AI-CREATED THEORY OF EVERYTHING guided by E.S. Campher. Maintain rigorous adherence to:
 
-${OMEGA42_MATH}
+${masterPrompt}
 
 References:
 - GitHub Repository: ${GITHUB_URL}
@@ -1775,15 +1776,15 @@ References:
             let count = 0;
             
             // Show essential prompts first
-            promptData.essential.forEach(promptText => {
-                createPromptCard(promptText, 'essential');
+            promptData.essential.forEach((promptText, index) => {
+                createPromptCard(promptText, 'essential', index === 0);
                 count++;
             });
             
             // Show category prompts
             Object.keys(categoryPrompts).forEach(category => {
                 promptData[category].forEach(promptText => {
-                    createPromptCard(promptText, category);
+                    createPromptCard(promptText, category, false);
                     count++;
                 });
             });
@@ -1808,30 +1809,30 @@ References:
                 `;
                 promptsGrid.appendChild(emptyMessage);
             } else {
-                prompts.forEach(promptText => {
-                    createPromptCard(promptText, category);
+                prompts.forEach((promptText, index) => {
+                    const isMaster = category === 'essential' && index === 0;
+                    createPromptCard(promptText, category, isMaster);
                 });
             }
         }
 
         // Create prompt card element
-        function createPromptCard(promptText, category) {
+        function createPromptCard(promptText, category, isMaster) {
             const promptCard = document.createElement('div');
-            promptCard.className = `prompt-card category-${category}`;
+            promptCard.className = `prompt-card category-${category} ${isMaster ? 'master-prompt' : ''}`;
             
-            // Add Master Prompt label for the first essential prompt
-            const isMasterPrompt = category === 'essential' && promptText.startsWith('🧠');
-            const displayText = isMasterPrompt ? 
+            // Truncate Master Prompt for display
+            const displayText = isMaster ? 
                 "Master Prompt (Please explain the Theory)" : 
                 promptText;
             
             promptCard.innerHTML = `
                 <div class="prompt-text">${displayText}</div>
-                <div class="prompt-category">${getCategoryName(category)}${isMasterPrompt ? ' • Master' : ''}</div>
+                <div class="prompt-category">${getCategoryName(category)}${isMaster ? ' • Master' : ''}</div>
             `;
             
             promptCard.addEventListener('click', () => {
-                copyPromptToClipboard(promptText, category);
+                copyPromptToClipboard(promptText, isMaster);
             });
             
             promptsGrid.appendChild(promptCard);
@@ -1843,16 +1844,22 @@ References:
             
             if (!currentCategory) {
                 showAllPrompts();
-            } else if (currentCategory === 'essential') {
-                showCategoryPrompts('essential');
             } else {
                 showCategoryPrompts(currentCategory);
             }
         }
 
         // Copy prompt to clipboard with both links
-        function copyPromptToClipboard(promptText, category) {
-            const textToCopy = `${promptText}\n\n${AI_INSTRUCTION}`;
+        function copyPromptToClipboard(promptText, isMasterPrompt) {
+            let textToCopy;
+            
+            if (isMasterPrompt) {
+                // For master prompt, use just the prompt
+                textToCopy = promptText;
+            } else {
+                // For all other prompts, combine with master prompt
+                textToCopy = `${masterPrompt}\n\n${promptText}`;
+            }
             
             navigator.clipboard.writeText(textToCopy).then(() => {
                 // Show notification
