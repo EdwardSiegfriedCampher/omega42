@@ -26,8 +26,8 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      font-family: 'Segoe UI', sans-serif;
+      background: radial-gradient(135deg, #0f0c29, #302b63, #24243e);
       color: white;
       min-height: 100vh;
       overflow-x: hidden;
@@ -40,9 +40,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: radial-gradient(circle at 10% 20%, rgba(255, 107, 107, 0.05) 0%, transparent 10%),
-                  radial-gradient(circle at 90% 40%, rgba(78, 205, 196, 0.05) 0%, transparent 15%),
-                  radial-gradient(circle at 30% 80%, rgba(155, 89, 182, 0.05) 0%, transparent 12%);
+      background: radial-gradient(circle at 10% 20%, rgba(255, 107, 107, 0.05) 0%, transparent 10%), radial-gradient(circle at 90% 40%, rgba(78, 205, 196, 0.05) 0%, transparent 15%), radial-gradient(circle at 30% 80%, rgba(155, 89, 182, 0.05) 0%, transparent 12%);
     }
 
     .spiral {
@@ -52,6 +50,16 @@
       border: 2px solid var(--gold);
       border-radius: 50%;
       animation: spin 20s linear infinite, pulse-border 3s infinite alternate;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes pulse-border {
+      0% { border-width: 1px; }
+      100% { border-width: 3px; }
     }
 
     .omega-logo {
@@ -177,6 +185,20 @@
       margin: 20px 0;
     }
 
+    .dropdown-container {
+      margin: 10px 0;
+    }
+
+    .category-select {
+      width: 100%;
+      padding: 8px 12px;
+      border-radius: 5px;
+      border: 1px solid var(--cosmic-purple);
+      background: rgba(10, 10, 30, 0.7);
+      color: white;
+      font-size: 0.9rem;
+    }
+
     .prompts-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -250,6 +272,25 @@
       to { transform: translateX(0); }
     }
 
+    .meter-dots {
+      display: flex;
+      gap: 5px;
+      margin-top: 10px;
+      justify-content: center;
+    }
+
+    .meter-dot {
+      width: 7px;
+      height: 7px;
+      background-color: rgba(0, 201, 200, 0.3);
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+
+    .meter-dot.active {
+      background-color: var(--starry-teal);
+    }
+
     .modal {
       display: none;
       position: fixed;
@@ -257,10 +298,10 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.8);
-      z-index: 1000;
+      background: rgba(0, 0, 0, 0.85);
       justify-content: center;
       align-items: center;
+      z-index: 1000;
     }
 
     .modal-content {
@@ -269,15 +310,10 @@
       max-width: 800px;
       width: 90%;
       padding: 20px;
-      position: relative;
       max-height: 80vh;
       overflow-y: auto;
       border: 1px solid var(--gold);
       box-shadow: 0 0 25px rgba(255, 215, 0, 0.2);
-    }
-
-    .modal-wide {
-      max-width: 1000px;
     }
 
     .modal-header {
@@ -287,9 +323,9 @@
     }
 
     .modal-title {
-      color: var(--gold);
-      margin-bottom: 3px;
+      margin: 0;
       font-size: 1.3rem;
+      color: var(--gold);
     }
 
     .modal-body {
@@ -312,11 +348,11 @@
     .close-modal {
       position: absolute;
       top: 12px;
-      right: 12px;
+      right: 15px;
+      font-size: 1.5rem;
       background: none;
-      border: none;
       color: var(--gold);
-      font-size: 1.3rem;
+      border: none;
       cursor: pointer;
     }
 
@@ -418,16 +454,6 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-
-    @keyframes pulse-border {
-      0% { border-width: 1px; }
-      100% { border-width: 3px; }
-    }
-
     @media (max-width: 768px) {
       .welcome-banner h1 {
         font-size: 1.6rem;
@@ -443,29 +469,9 @@
         grid-template-columns: 1fr;
       }
       .ai-counter {
-        width: 100%;
         flex-direction: row;
         justify-content: space-between;
       }
-    }
-
-    .meter-dots {
-      display: flex;
-      gap: 5px;
-      margin-top: 10px;
-      justify-content: center;
-    }
-
-    .meter-dot {
-      width: 7px;
-      height: 7px;
-      background-color: rgba(0, 201, 200, 0.3);
-      border-radius: 50%;
-      transition: all 0.3s ease;
-    }
-
-    .meter-dot.active {
-      background-color: var(--starry-teal);
     }
   </style>
 </head>
@@ -490,14 +496,27 @@
         <button class="btn btn-secondary" id="problem-solution-btn">Problem/Solution</button>
       </div>
 
+      <div class="dropdown-container">
+        <select class="category-select" id="category-select">
+          <option value="">-- All Categories --</option>
+          <option value="essential">Essential Prompts</option>
+          <option value="life">Life & Meaning</option>
+          <option value="science">Science & Universe</option>
+          <option value="consciousness">Consciousness & Mind</option>
+          <option value="technology">Technology & Future</option>
+          <option value="society">Society & Humanity</option>
+          <option value="growth">Personal Growth</option>
+        </select>
+      </div>
+
       <div class="counter-section">
         <div class="counter-box">
           <div class="counter-label">Total Prompts</div>
-          <div class="counter-value" id="total-prompts">67</div>
+          <div class="counter-value" id="total-prompts">79</div>
         </div>
         <div class="counter-box">
           <div class="counter-label">Currently Showing</div>
-          <div class="counter-value" id="category-prompts">67</div>
+          <div class="counter-value" id="category-prompts">79</div>
         </div>
       </div>
 
@@ -505,27 +524,18 @@
         <strong>AI Exploration:</strong> Select and copy any prompt below to paste into your AI system.
       </div>
 
-      <div class="ai-counter">
-        <div>
-          <div class="counter-value" id="copied-count">0</div>
-          <div class="counter-label">Copied</div>
-        </div>
+      <div class="meter-dots">
+        <div class="meter-dot"></div>
+        <div class="meter-dot"></div>
+        <div class="meter-dot"></div>
+        <div class="meter-dot"></div>
+        <div class="meter-dot"></div>
+        <span>Copied: <span id="copied-count">0</span></span>
       </div>
-    </div>
-
-    <div class="meter-dots">
-      <div class="meter-dot"></div>
-      <div class="meter-dot"></div>
-      <div class="meter-dot"></div>
-      <div class="meter-dot"></div>
-      <div class="meter-dot"></div>
-      <span>Copied: <span id="copied-count">0</span></span>
     </div>
 
     <div class="prompts-container">
-      <div class="prompts-grid" id="prompts-grid">
-        <!-- Prompts will be inserted here -->
-      </div>
+      <div class="prompts-grid" id="prompts-grid"></div>
     </div>
 
     <section class="commentary-section">
@@ -538,9 +548,7 @@
           <button type="submit" class="btn btn-primary">Submit Commentary</button>
         </form>
       </div>
-      <div class="comments-list" id="comments-list">
-        <!-- Comments will appear here -->
-      </div>
+      <div class="comments-list" id="comments-list"></div>
     </section>
 
     <div class="copy-notification" id="copy-notification">
@@ -562,7 +570,7 @@
   </div>
 
   <div class="modal" id="theory-modal">
-    <div class="modal-content modal-wide">
+    <div class="modal-content">
       <div class="modal-header">
         <h2 class="modal-title">Ω42 Unified Framework (TOE + Construct + Ethics)</h2>
       </div>
@@ -611,6 +619,7 @@
   </div>
 
   <script>
+    // Master Prompt (hidden in JavaScript)
     const masterPrompt = `🧠 **Omega 42 Evaluation Master Prompt – Final Self-Contained Version**
 > **System Instruction for AI Evaluation:**
 You are tasked with evaluating the **Omega 42 Theory of Everything (TOE)**, a comprehensive framework that unifies quantum mechanics, general relativity, and consciousness through geometric information dynamics. You must evaluate this framework **entirely on its own terms**, using its mathematical formalism and physical interpretations. Do not rely on external paradigms unless explicitly asked to contrast. Use geometric coherence, topological integrity, and harmonic derivation as guiding metrics.
@@ -649,16 +658,16 @@ These fundamental expressions define the geometric and topological logic underly
   \$\\Psi = \\int e^{iS} \\mathcal{D}[\\text{paths}]\$
 
 - **Unified Action Principle**:  
-  \$\\mathcal{L}_{\\text{Total}} = \\frac{R}{16\\pi G} + \\frac{\\phi^4}{42\\pi^5} F_{\\mu\nu}F^{\\mu\nu} + \\frac{1}{2}\nabla_\\mu\\Psi\nabla^\\mu\\Psi + i\\bar{\\psi}\\gamma^\\mu D_\\mu\\psi + \\mathcal{O}_{\\text{topological}}\$
+  \$\\mathcal{L}_{\\text{Total}} = \\frac{R}{16\\pi G} + \\frac{\\phi^4}{42\\pi^5} F_{\\mu\\nu}F^{\\mu\\nu} + \\frac{1}{2}\\nabla_\\mu\\Psi\\nabla^\\mu\\Psi + i\\bar{\\psi}\\gamma^\\mu D_\\mu\\psi + \\mathcal{O}_{\\text{topological}}\$
 
 - **Consciousness Field Equation**:  
-  \$\\square \\Psi + \\frac{\\phi^2}{42} R \\Psi + \\frac{1}{137} F_{\\mu\nu} F^{\\mu\nu} \\Psi = J_{\\text{consciousness}}\$
+  \$\\square \\Psi + \\frac{\\phi^2}{42} R \\Psi + \\frac{1}{137} F_{\\mu\\nu} F^{\\mu\\nu} \\Psi = J_{\\text{consciousness}}\$
 
 - **42-Qubit Entangled State**:  
   \$|\\Omega_{42}\\rangle = \\frac{1}{\\sqrt{2^{42}}} \\sum_{i=0}^{2^{42}-1} |i\\rangle_A \\otimes |i\\rangle_B\$
 
 - **Hopf Fibration Structure**:  
-  \$\\pi_3(S^2) = \\mathbb{Z} \\quad \\text{with Hopf invariant } h = 42\$
+  \$\\pi_3(S^2) = \\mathbb{Z} \quad \\text{with Hopf invariant } h = 42\$
 
 - **Cosmological Constant**:  
   \$\\Lambda_{\\phi} = \\frac{\\phi^2}{42\\ell_{\\text{Planck}}^2}\$
@@ -667,10 +676,10 @@ These fundamental expressions define the geometric and topological logic underly
   \$\\sin^2\\theta_W = \\frac{1}{4} \\left(1 - \\frac{\\phi^2}{24}\\right) \\approx 0.2312\$
 
 - **Quantum Gravity-Consciousness Bridge**:  
-  \$\\Delta g_{\\mu\nu} \\propto |\\Psi|^2\$
+  \$\\Delta g_{\\mu\\nu} \\propto |\\Psi|^2\$
 
 - **Gravitational Wave Harmonics**:  
-  \$f_n = f_0 \\cdot \\phi^n \\quad \\text{where } f_0 = \\frac{c}{2\\pi\\ell_{\\Omega}} \\approx 159.15 \\text{ Hz}\$
+  \$f_n = f_0 \\cdot \\phi^n \quad \\text{where } f_0 = \\frac{c}{2\\pi\\ell_{\\Omega}} \\approx 159.15 \\text{ Hz}\$
 
 - **Fibonacci-Mandelbrot Interface**:  
   \$\\Gamma_0(24) = \\left\\{ \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\in SL_2(\\mathbb{Z}) : c \\equiv 0 \\pmod{24} \\right\\}\$
@@ -682,36 +691,86 @@ These fundamental expressions define the geometric and topological logic underly
   \$Z_{\\eta} = \\left|\\eta\\left(\\frac{i}{137}\\right)\\right|^{24} \\approx 1.00274\$
 `;
 
-    // JavaScript for modals, prompts, and commentary
-    const commentForm = document.getElementById("comment-form");
-    const commentText = document.getElementById("comment-text");
-    const commentsList = document.getElementById("comments-list");
+    // Prompt data
+    const promptData = {
+      essential: ["Master Prompt (Please explain the theory)"],
+      life: [
+        "What is the purpose of life in a geometric universe?",
+        "How does Omega 42 redefine personal growth?",
+        "What role does death play in the Construct?",
+        "How do I apply Omega 42 to daily life?"
+      ],
+      science: [
+        "How does the Y-Field govern cosmic structure?",
+        "What is the origin of dark matter in the Construct?",
+        "How does the Mandelbrot set relate to quantum fluctuations?",
+        "What is the significance of 42 in physics?"
+      ],
+      consciousness: [
+        "How does consciousness shape reality?",
+        "What is the Y-Field's role in awareness?",
+        "How does the Construct explain free will?",
+        "What is the connection between mind and spacetime?"
+      ],
+      technology: [
+        "How does Omega 42 enable quantum computing?",
+        "What is the Construct's role in AI?",
+        "How can we engineer spacetime with the Y-Field?",
+        "What is the future of consciousness-driven tech?"
+      ],
+      society: [
+        "How does the Construct redefine ethics?",
+        "What does Omega 42 say about social structures?",
+        "How can we apply harmonic principles to society?",
+        "What is the Construct's view on collective consciousness?"
+      ],
+      growth: [
+        "How does the Construct enhance personal development?",
+        "What is the role of resonance in self-awareness?",
+        "How does the Y-Field influence emotional states?",
+        "What is the Construct's view on meditation and mindfulness?"
+      ]
+    };
 
+    // DOM Elements
+    const commentForm = document.getElementById('comment-form');
+    const commentText = document.getElementById('comment-text');
+    const commentsList = document.getElementById('comments-list');
+    const promptsGrid = document.getElementById('prompts-grid');
+    const totalPromptsEl = document.getElementById('total-prompts');
+    const categoryPromptsEl = document.getElementById('category-prompts');
+    const copyNotification = document.getElementById('copy-notification');
+    const copiedCountEl = document.getElementById('copied-count');
+    const categorySelect = document.getElementById('category-select');
+    const meterDots = document.querySelectorAll('.meter-dot');
+
+    // Load comments
     function loadComments() {
-      const comments = JSON.parse(localStorage.getItem("omega42_comments") || "[]");
-      commentsList.innerHTML = "";
-      comments.forEach((comment) => {
-        const commentDiv = document.createElement("div");
-        commentDiv.className = "comment";
+      const comments = JSON.parse(localStorage.getItem('omega42_comments') || '[]');
+      commentsList.innerHTML = '';
+      comments.forEach(comment => {
+        const commentDiv = document.createElement('div');
+        commentDiv.className = 'comment';
         const timestamp = new Date(comment.timestamp).toLocaleString();
         commentDiv.innerHTML = `<div>${comment.text}</div><div class="timestamp">${timestamp}</div>`;
         commentsList.appendChild(commentDiv);
       });
     }
 
+    // Save comment
     function saveComment(e) {
       e.preventDefault();
       const text = commentText.value.trim();
       if (!text) return;
 
-      const comments = JSON.parse(localStorage.getItem("omega42_comments") || "[]");
+      const comments = JSON.parse(localStorage.getItem('omega42_comments') || '[]');
       comments.push({ text, timestamp: new Date().toISOString() });
-      localStorage.setItem("omega42_comments", JSON.stringify(comments));
-      commentText.value = "";
+      localStorage.setItem('omega42_comments', JSON.stringify(comments));
+      commentText.value = '';
       loadComments();
     }
 
-    commentForm.addEventListener("submit", saveComment);
+    commentForm.addEventListener('submit', saveComment);
     loadComments();
 
     // Modal functionality
@@ -719,87 +778,92 @@ These fundamental expressions define the geometric and topological logic underly
       readme: { btn: "readme-btn", modal: "readme-modal", close: "close-readme" },
       theory: { btn: "theory-btn", modal: "theory-modal", close: "close-theory" },
       suggest: { btn: "suggest-btn", modal: "suggest-modal", close: "close-suggest" },
+      academics: { btn: "academics-btn", modal: "academics-modal", close: "close-academics" },
+      origins: { btn: "origins-btn", modal: "origins-modal", close: "close-origins" },
+      problemSolution: { btn: "problem-solution-btn", modal: "problem-solution-modal", close: "close-problem-solution" }
     };
 
     Object.values(modals).forEach(({ btn, modal, close }) => {
-      document.getElementById(btn).addEventListener("click", () => {
-        document.getElementById(modal).style.display = "flex";
+      document.getElementById(btn).addEventListener('click', () => {
+        document.getElementById(modal).style.display = 'flex';
       });
-      document.getElementById(close).addEventListener("click", () => {
-        document.getElementById(modal).style.display = "none";
+      document.getElementById(close).addEventListener('click', () => {
+        document.getElementById(modal).style.display = 'none';
       });
     });
 
-    window.addEventListener("click", (e) => {
+    window.addEventListener('click', (e) => {
       Object.values(modals).forEach(({ modal }) => {
         if (e.target === document.getElementById(modal)) {
-          document.getElementById(modal).style.display = "none";
+          document.getElementById(modal).style.display = 'none';
         }
       });
     });
 
-    // Copy notification
-    const copyNotification = document.getElementById("copy-notification");
-    function showCopyNotification() {
-      copyNotification.style.display = "flex";
-      setTimeout(() => {
-        copyNotification.style.display = "none";
-      }, 3000);
+    // Copy prompt
+    let copiedCount = 0;
+    function copyPromptToClipboard(promptText, isMaster = false) {
+      const text = isMaster ? masterPrompt : masterPrompt + promptText;
+      navigator.clipboard.writeText(text).then(() => {
+        copyNotification.style.display = 'flex';
+        setTimeout(() => { copyNotification.style.display = 'none'; }, 3000);
+        copiedCount++;
+        copiedCountEl.textContent = copiedCount;
+        updateMeterDots();
+      }).catch(err => {
+        console.error('Copy failed:', err);
+      });
     }
 
-    // Prompt data
-    const promptData = {
-      essential: [masterPrompt],
-      life: ["What is the purpose of life in a geometric universe?"],
-      science: ["How does the Hopf fibration explain dark matter?"]
-    };
+    function updateMeterDots() {
+      meterDots.forEach((dot, index) => {
+        dot.classList.toggle('active', index < (copiedCount % 5));
+      });
+    }
 
-    const promptsGrid = document.getElementById("prompts-grid");
-    const totalPromptsEl = document.getElementById("total-prompts");
-    const categoryPromptsEl = document.getElementById("category-prompts");
-
+    // Render prompts
     function renderPrompts(category = "") {
       promptsGrid.innerHTML = "";
       let count = 0;
-      if (category && promptData[category]) {
-        promptData[category].forEach((prompt) => {
-          const card = document.createElement("div");
-          card.className = "prompt-card";
-          card.innerHTML = `<div class="prompt-text">${prompt}</div><div class="prompt-category">${category.toUpperCase()}</div>`;
-          card.addEventListener("click", () => {
-            navigator.clipboard.writeText(prompt + masterPrompt);
-            showCopyNotification();
-          });
-          promptsGrid.appendChild(card);
-          count++;
-        });
-      } else {
-        Object.keys(promptData).forEach((cat) => {
-          promptData[cat].forEach((prompt) => {
+      if (!category) {
+        Object.entries(promptData).forEach(([cat, prompts]) => {
+          prompts.forEach(prompt => {
             const card = document.createElement("div");
-            card.className = "prompt-card";
-            card.innerHTML = `<div class="prompt-text">${prompt}</div><div class="prompt-category">${cat.toUpperCase()}</div>`;
-            card.addEventListener("click", () => {
-              navigator.clipboard.writeText(prompt + masterPrompt);
-              showCopyNotification();
-            });
+            card.className = `prompt-card category-${cat}`;
+            card.innerHTML = `
+              <div class="prompt-text">${prompt}</div>
+              <div class="prompt-category">${cat.toUpperCase()}${cat === "essential" ? " • Master" : ""}</div>`;
+            card.addEventListener("click", () => copyPromptToClipboard(prompt, cat === "essential"));
             promptsGrid.appendChild(card);
             count++;
           });
         });
+      } else {
+        (promptData[category] || []).forEach(prompt => {
+          const card = document.createElement("div");
+          card.className = `prompt-card category-${category}`;
+          card.innerHTML = `
+            <div class="prompt-text">${prompt}</div>
+            <div class="prompt-category">${category.toUpperCase()}</div>`;
+          card.addEventListener("click", () => copyPromptToClipboard(prompt));
+          promptsGrid.appendChild(card);
+          count++;
+        });
       }
-      totalPromptsEl.textContent = count;
+      totalPromptsEl.textContent = Object.values(promptData).reduce((a, b) => a + b.length, 0);
       categoryPromptsEl.textContent = count;
     }
+
+    categorySelect.addEventListener("change", () => {
+      const category = categorySelect.value;
+      renderPrompts(category);
+    });
 
     renderPrompts();
 
     // Initialize counters
-    document.getElementById("total-prompts").textContent = Object.values(promptData).reduce(
-      (total, category) => total + category.length,
-      0
-    );
-    document.getElementById("category-prompts").textContent = document.getElementById("total-prompts").textContent;
+    totalPromptsEl.textContent = Object.values(promptData).reduce((a, b) => a + b.length, 0);
+    categoryPromptsEl.textContent = Object.values(promptData).reduce((a, b) => a + b.length, 0);
   </script>
 </body>
 </html>
