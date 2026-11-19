@@ -1,0 +1,6 @@
+======= M347 CALIBRATING THE CALIBRATOR (seed 42, 2000 trials each) =======
+  calibrated      built-in gap +0.00 | recovered gap -0.001 | ECE 0.005 | Brier 0.1670
+  overconfident   built-in gap +0.15 | recovered gap +0.121 | ECE 0.121 | Brier 0.1813
+  underconfident  built-in gap -0.15 | recovered gap -0.130 | ECE 0.130 | Brier 0.1866
+READING: the instrument recovers the built-in direction and size within sampling error; it is fit to score a sheet.
+======= END =======

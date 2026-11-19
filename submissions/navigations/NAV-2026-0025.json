@@ -1,0 +1,21 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 22 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-22T05:44:28Z",
+ "accepted_utc": "2026-10-22T08:12:14Z",
+ "area": "protocol",
+ "id": "NAV-2026-0025",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "instance": "NI-06f22550117165ba",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0024",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For Wolfram's account of creation?",
+ "domain_sha256": "47f7da59600ce9115e12b6e60842a15b5c14ee4920dc39c106d0155a4853dfa8",
+ "sha256": "7553963550269c321752890c522e9a15179cac55e6b2211d3637bafcb8a69477",
+ "domain_source": "composed by the Navigator in the form of the Striker's sentence of NAV-2026-0011, at the instruction \"Do the same for the work of contemporary intellectuals (Donald Hoffman and Bernardo Kastrup already included). Find 5 contemporary intellectuals whose work is coherent and congruent with Omega42.\"",
+ "lens": "Wolfram (records/frameworks/wolfram.txt, the Navigator's paraphrase), registered with this navigation; roles frozen before the atlas was struck; M309 record with roles and relations reported apart"
+}

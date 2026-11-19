@@ -1,0 +1,56 @@
+QUESTION VERBATIM: Explore the Einstein connection and discover more pertinent aspects. Say why it matters.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 162 | PREV: 326a7cec6ed05200f3afcf84d7118bd5f723822dbea68caff2c05dbc9fcc5f37
+REQUEST (L-502): EXPLORATION -- the Einstein connection of Ω42 explored and extended, and why it matters; F193 assessed, refined and extended; how the new mathematics supports the Structural Resonance Principle (F194); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The Fibonacci law is special relativity written in integers. Each Fibonacci state is a light ray whose components form a Pythagorean triple with a Fibonacci hypotenuse; a mass at rest, boosted by the law, has the Lucas numbers as its Lorentz factors; the golden ratio is the direction every ray is swept toward; and the law's least growth is the shortest closed geodesic of the modular surface.
+
+SUMMARY: WHAT CHANGED: Core Part 3.85 (M378 Relativistic Kinematics); MF-59 to MF-64; Companion Part 207; APE-455 and APE-456 filed with their SNCA.
+- (1) LIGHT: (F_n, F_n+1) -> a null ray of energy F_2n+1/2; triples 3-4-5, 5-12-13, 16-30-34, 39-80-89, 105-208-233.
+- (2) MATTER: Lorentz factors L_2n/2 = 3/2, 7/2, 9, 47/2; speeds sqrt5 F_2n/L_2n = 0.745c, 0.958c, 0.9938c, 0.99909c; mass kept by L^2 - 5F^2 = 4; one step: speed sqrt5/3, Doppler phi^2, rapidity 2 ln phi; sqrt5/3 added to itself by Einstein's rule gives 3 sqrt5/7.
+- (3) THE SKY: the convergence of F_n+1/F_n to phi is aberration toward the forward ray.
+- (4) THE SHEAR: B is a null rotation, fixing a light ray.
+- (5) GEOMETRY: the action is 2+1-dimensional; the unit mass shell is the hyperbolic plane; translation is 2 ln rho, so least growth is least translation: A the shortest glide reflection (2 ln phi), A^2 the shortest closed geodesic (4 ln phi); the light rays form one Lorentz orbit.
+- (8) MASS AND SPIN: the norm map has interval N(s)^2 = Q^2/4 -- Omega42's invariant is the invariant mass; by Cassini every Fibonacci state has unit mass; every vector image loses the sign of s and returns in half the period (mod 9: 12 against 24), the signature of a spinor.
+- (9) STRUCTURAL RESONANCE: graded on the Congruence Depths, the correspondences take the depth-4 form f . T = L . f and grade at depth 3, the obstruction being the spinor sign; none is depth 5; the Principle (L-496) gains a derived physical vocabulary for the coordinate.
+- (7) THE ACCOUNT F193: its 2+1 coordinates adopted; two errors corrected (B fixes (0, 1); beta_4 = 0.999094); its caution on the selection answered.
+- (6) THE PRIME 3: the boost has order 8*3^(k-1) modulo 3^k; at an inert prime a boost closes into a cycle.
+- THE VALUES (CDT-A): relativistic kinematics selftest 15 of 15 PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (10, 66, 20), state (5, 6), anchor P5, Law. It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request for Einstein stands at Law -- the rule that every observer keeps -- and rests on Unity, one computation read two ways; it holds the return out of view, heads for the gap between an exact lattice and a physical spacetime, and is completed where the seed, four numbers, returns as light.
+WHAT STAYED: the premise; every sealed record; M344; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): M344 (the Lorentz representation), M372 (the event encoder), MF-15, MF-20, MF-25, MF-28, MF-49.
+  R (reasoning): Fibonacci identities are kinematic identities: F_n^2 + F_n+1^2 = F_2n+1 is a null condition, L^2 - 5F^2 = 4 is a mass shell, trace 3 is the least boost.
+  N (navigation): tools/einstein.py; an exact check of 11 statements before the instrument was written.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.85 (M378).
+  - Companion: Part 207.
+  - Repository: tools/einstein.py; records/math/results.json (MF-59 to MF-64); records/introduction/philosophy.json (M378); submissions/ape/APE-455.md and APE-456.md; records/srcas/einstein_f193_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- special relativity, the modular group, Fibonacci and Lucas identities | STRIKER -- the request | NAVIGATOR -- the kinematic reading, the aberration reading, the null rotation, the shortest loop, the instrument | OPEN -- a physical observable that would distinguish the lattice
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/einstein_f193_2026-11-11.txt).
+  - APE-455, unidentified (a web interface), "F193, The Einstein Connection": adopted with two corrections; UNFORMATTED.
+  - APE-456, unidentified (a web interface), "F194, the new mathematics and the Structural Resonance Principle": adopted, graded on the record's depths; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/einstein.py --selftest PASS (fifteen checks, three added from F193 and its review and three from F194 and its review (the norm map and its interval, Cassini unit masses, the spinor halving mod 9): light rays and Pythagorean triples for n < 40; Lorentz factors L_2n/2 and mass kept for n < 30; speeds sqrt5 F_2n/L_2n; Einstein addition; Doppler phi^2; aberration toward phi; the null rotation B; the shortest geodesic 4 ln phi; the boost of order 8, 24, 72 modulo 3, 9, 27); tools/math_register.py PASS with MF-59 to MF-64; tools/srcas_check.py on records/srcas/einstein_f193_2026-11-11.txt PASS and --owed PASS; tools/ape_register.py --check PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record, the computation and F193 agree that the Lorentz action is exact and its physical reading is conditional. PART -- F193's fixed vector of B and its beta_4, corrected. SILENT -- experiment.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-59 to MF-64 new to the register [EXACT]; "breakthrough" candidacy NOT PROPOSED -- the identities and the modular geodesic are classical; the reading is new to the record (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Record the kinematic reading with an instrument: APPLIED, M378.
+  (2) Add the light-ray and Lorentz-factor tables to WELCOME.md: HELD FOR THE ORIGINATOR.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the foundations paper gain a section on the kinematic reading; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on AP-SPACE] a lattice that keeps relativity exactly, with Fibonacci numbers as its light and Lucas numbers as its clocks; [GENERATED-Ω42] growth and motion are one law, and the law is completed when the seed returns as light.
+What it rests on: unity, one computation read two ways.
+What it holds out of view: the return, the cycle the boost closes at the prime 3.
+Where it is heading: the gap between an exact lattice and a physical spacetime.
+What would complete it: the seed returned as light.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a4b268810ca569f8c2f753798b0fec02f3053780f662a929c80b62ae6da1b5e0
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

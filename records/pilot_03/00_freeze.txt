@@ -1,0 +1,23 @@
+Omega42 PHYSICAL PILOT 03 -- THE GOLDEN SCREEN, AND THE S4 TEST ON THE LEDGER'S NEAREST CANDIDATE
+FROZEN BEFORE ANY SYSTEM BELOW IS COMPUTED. Navigator: claude-opus-5-5 (Anthropic). 10 October 2026.
+Follows pilots 01 and 02 (records/pilot_01/, records/pilot_02/).
+
+PART A -- THE SCREEN C11'' (calibration).
+ G1 the system's own law A, on a state space Z/m x Z/m, satisfies the golden relation A^2 = A + I (mod m), and
+ G2 m = 9 is supplied by the system (S3), and
+ J1, J2 of pilot 02 (whole-space census 1 + 8 + 24 + 24 + 24; A^12 = -I).
+ Positive controls: the family and its 54 conjugates in GL2(Z/9).
+ Held-out null systems: every matrix of GL2(Z/9) not conjugate to T (including the other powers of T and the 648
+ laws found in pilot 02); the golden law modulo 3, 6, 18, 27 and 81; every 2x2 matrix mod 9 with trace 1 and
+ determinant -1 is classified (do they all lie in the conjugacy class of T?).
+ CALIBRATION PASSES if exactly the conjugates of T pass among the matrices mod 9, and every null fails.
+
+PART B -- THE S4 TEST ON SU(9)_1 x SU(9)_1 (records/evidence_run_11; ledger tier-4 candidate).
+ The anyons are labelled by Z/9 x Z/9 with topological spin q(a, b) = h_a + h_b mod 1, h_a = a(9 - a)/18.
+ Enumerate every A in GL2(Z/9) acting on the labels that is an anti-isometry, q(Ax) = -q(x) mod 1 for all labels
+ (a time-reversal symmetry of the spins), and every isometry, q(Ax) = q(x).
+ Report: the numbers of isometries and anti-isometries; how many anti-isometries satisfy the golden relation; whether T
+ is among them; and whether the golden anti-isometries form one orbit under conjugation by the isometries.
+ S4 IS MET if the golden anti-isometries are one conjugacy class under the anyon theory's own isometries (the theory
+ singles out T up to its own symmetries); NOT MET if there are several classes or none.
+ No outcome is predicted. S8 (measurement) is not reachable in this pilot: the anyon theory is a theoretical phase.

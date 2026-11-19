@@ -1,0 +1,30 @@
+I. THE LOWER WORLD IS THE UNIT GROUP OF Z/9, TURNED BY DOUBLING [EXACT]
+  2-4-8-7-5-1 = the powers 2^1 .. 2^6 mod 9: YES; 2 has order 6, so it generates all six units: YES
+  the Negative Lower World -2..-1 is [7, 5, 1, 2, 4, 8]: the same cycle rotated by 3 places, because -1 = 2^3 mod 9: YES
+  the pattern is led by 2, the first number of the canonical seed (2, 5), and the seed's second number 5 = 2^5 is the inverse of 2: YES
+II. THE HIGHER WORLD IS THE CROWN [EXACT]
+  3-6-9 are the multiples of 3, the nilpotent ideal 3Z/9 (Core MATH-12): 3^2 = 0 and 6^2 = 0 mod 9: YES
+III. THE GOLDEN SET [EXACT]
+  six times each Lower World value: [6, 30, 42, 48, 24, 12]; sum 162, digital root 9; the six units sum to 27
+  the Golden Set holds 48 and 6, and 48 - 6 = 42 is itself in the set: YES -- the derivation of 42 in Core MATH-13 (42 = 2 x 24 - 6) stands inside the Construct
+IV. THE 24-STEP CYCLE SPLIT 18 + 6 [EXACT]
+  the canonical cycle [2, 5, 7, 3, 1, 4, 5, 9, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 9, 4, 4, 8, 3]
+  18 of its 24 values are Lower World and 6 are Higher World: YES
+  the six Higher World steps are P3, P7, P11, P15, P19, P23: spaced four apart (the Eye, the hexagon of Core MATH-11), not the last six steps 19 to 24
+  so the 18 + 6 split of the Construct is exact; its placement at k = 19 to 24 is corrected to every fourth step
+V. THE INTERVAL TEMPLATES [EXACT]
+  a template for interval h is T^h; reading one place forward by h is exact for every h, and T^24 = I, T^12 = -I:
+    h =  1: (2, 5) -> (5, 7)
+    h =  6: (2, 5) -> (5, 0)
+    h =  8: (2, 5) -> (5, 5)
+    h = 12: (2, 5) -> (7, 4)
+    h = 16: (2, 5) -> (8, 5)
+    h = 24: (2, 5) -> (2, 5)
+  these templates move a place of the family; they carry no information about any lottery draw, which a fair draw does not take from its past
+VI. THE COUNTS [EXACT]
+  27 domains x 26 nodes = 702 (the 702 nodes); 27 = 3^3, the modulus at which the tower has 14 loops (Core MATH-44)
+VII. THE 18 + 6 SPLIT IS THE RECONSTRUCTION OF A TEMPLATE [EXACT; after APE-238]
+  A^d = [[F(d-1), F(d)], [F(d), F(d+1)]] mod 9 for d = 1 .. 24, so x(n+d) = F(d-1) x(n) + F(d) x(n+1): YES
+  given the two values x(n) and x(n+d) of a template, the state is recovered uniquely at 18 intervals, three ways at [4, 8, 16, 20], nine ways at [12, 24]
+  the 6 intervals that do not recover it are the multiples of 4, where F(d) = 0 mod 3: YES -- the six steps of the Eye
+  so the Construct's 18 Lower World and 6 Higher World steps are exactly the 18 invertible and the 6 non-invertible templates: YES

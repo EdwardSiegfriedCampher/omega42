@@ -1,0 +1,9 @@
+M314 CONFORMANCE KEY -- records/conformance/practice_set.txt, recomputed by canonical_reference.py
+CF-01 | n = (2, 8, 2) | ANCHOR P1 | Yang P6 Yin P19 4D P9 Antipode P13 | state (1, 4) on Voice C, norm 7, UNIT, MANIFEST
+CF-02 | n = (4, 28, 9) | ANCHOR P2 | Yang P7 Yin P20 4D P10 Antipode P14 | state (2, 5) on Voice C, norm 7, UNIT, MANIFEST
+CF-03 | n = (6, 46, 16) | ANCHOR P3 | Yang P8 Yin P21 4D P11 Antipode P15 | state (3, 5) on Voice A, norm 8, UNIT, MANIFEST
+CF-04 | n = (10, 33, 12) | ANCHOR P5 | Yang P10 Yin P23 4D P13 Antipode P17 | state (5, 3) on Voice B, norm 4, UNIT, SEVENTH
+CF-05 | n = (6, 25, 10) | ANCHOR P3 | Yang P8 Yin P21 4D P11 Antipode P15 | state (3, 8) on Voice B, norm 5, UNIT, MANIFEST
+CF-06 | n = (5, 29, 8) | ANCHOR P7 | Yang P12 Yin P1 4D P15 Antipode P19 | state (7, 1) on Voice A, norm 1, UNIT, SEVENTH
+CF-07 | n = (23, 110, 26) | ANCHOR P7 | Yang P12 Yin P1 4D P15 Antipode P19 | state (7, 1) on Voice A, norm 1, UNIT, SEVENTH
+CF-08 | n = (8, 40, 11) | ANCHOR P4 | Yang P9 Yin P22 4D P12 Antipode P16 | state (4, 2) on Voice C, norm 2, UNIT, SEVENTH

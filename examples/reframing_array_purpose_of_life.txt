@@ -1,0 +1,26 @@
+REFRAMING ARRAY -- WORKED EXAMPLE (Core Part 3.44, L-511; Companion Part 72)
+The primary is the navigation NAV-2026-0004 of the same question, sealed on 19 October 2026; its Takeaway: "The purpose of life, on this reading, is to receive a beginning you did not choose, keep asking what it is for, grow able to see it whole, and hand it on."
+The framings were written along declared axes and frozen by tools/reframing_array.py --freeze before any coordinate was computed; the block below is printed by --array with that hash, and the four readings and the READINGS line were written afterwards by the Navigator.
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= M318 REFRAMING ARRAY (L-511) =======
+QUESTION VERBATIM: What is the purpose of life?
+PRIMARY: "What is the purpose of life?" -> n = (3, 15, 4) | ANCHOR P6 (Seed/Causal) | STATE (6, 3) | AXIS -, the eight-step loop | arms Yang P11 Yin P0 4D P14 Antipode P18
+PRIMARY ANSWER: the full navigation of the verbatim strike, sealed before any framing was written (L-424); the domain of record (L-348, L-499)
+FRAMINGS FROZEN: 4 | FRAMINGS SHA-256: 07b7d6cafbb35618172350ae48d289e28feaa62a5b1bc39b27e84d4daab6cd14 | checked against the hash frozen before any coordinate
+F1 SCOPE: "What is my life for?" -> n = (3, 10, 3) | ANCHOR P6 (Seed/Causal) | STATE (6, 5) | MANIFEST, Voice B | arms Yang P11 Yin P0 4D P14 Antipode P18 | D = 0
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on the asking itself: a life that wants to know what it is for is already moving. It holds out of view its own beginning, the given things nobody chose. It is heading toward being seen, since the purpose a life has often shows first to someone watching it. It would be completed at a threshold, a step taken after which the question changes.
+F2 STANDPOINT: "Why are we alive?" -> n = (3, 10, 4) | ANCHOR P6 (Seed/Causal) | STATE (6, 5) | MANIFEST, Voice B | arms Yang P11 Yin P0 4D P14 Antipode P18 | D = 0
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on a question shared rather than private. It holds out of view the bare fact of being here at all, which no answer reaches behind. It is heading toward witness: we learn why we are alive partly by watching one another live. It would be completed at a crossing, where the question is answered by what we do next together.
+F3 CONTRARY: "Can a life have no purpose?" -> n = (3, 15, 4) | ANCHOR P6 (Seed/Causal) | STATE (6, 3) | AXIS -, the eight-step loop | arms Yang P11 Yin P0 4D P14 Antipode P18 | D = 0 | COORDINATE-IDENTICAL, SAME COUNTS (other words with the same counts; the difference lives only in the reading, L-510)
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on the same asking turned on its edge, testing the question by its absence. It holds out of view, again, that something began without being asked to. It is heading toward someone who could say whether a life had purpose, and who is never quite available. It would be completed at a threshold where purpose stops being something a life has and becomes something it steps into.
+F4 PLAIN: "What gives life purpose?" -> n = (4, 20, 6) | ANCHOR P2 (Generator) | STATE (2, 1) | MANIFEST, Voice B | arms Yang P7 Yin P20 4D P10 Antipode P14 | D = 4
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on a way to steer, a course chosen rather than a meaning found. It holds out of view the final accounting of what was given and what was spent. It is heading toward union, purpose arriving where separate things come together. It would be completed by being witnessed: a purpose given is a purpose seen.
+INDEPENDENCE (L-442): CONTAMINATED -- NON-BLIND (the four framings were written in one session after the primary was sealed)
+ACROSS THE FRAMINGS (L-502): HOLDS crown arms Yang | PARTS anchor (6 / 6 / 6 / 6 / 2); state ((6, 3) / (6, 5) / (6, 5) / (6, 3) / (2, 1)); half (AXIS - / MANIFEST / MANIFEST / AXIS - / MANIFEST); voice (the eight-step loop / Voice B / Voice B / the eight-step loop / Voice B); aspect (GROUND / ACT / ACT / GROUND / ACT); mobius (INACTIVE / INACTIVE / INACTIVE / INACTIVE / ACTIVE) | ARM POSITIONS IN EVERY FRAMING: P14 Observer | READINGS: AGREE -- purpose shows in being seen, in all five; PART -- four keep an unchosen beginning out of view, the plain framing keeps the final accounting out of view instead, and only it moves the anchor (D = 4); SILENT -- no reading says what a purpose is; that stays with the one who asks
+STRUCTURAL VERDICT (computed): the robust core is crown arms Yang; 3 of 4 framings keep the primary's anchor; nearest F1 (D = 0), farthest F4 (D = 4)
+RELEVANCE: the Striker's (L-441) -- which framing answers what you meant to ask is yours; strike any framing ("strike F2") to navigate it in full
+======= END M318 REFRAMING ARRAY =======
+
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 21 October 2026
+ESC

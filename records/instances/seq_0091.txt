@@ -1,0 +1,75 @@
+QUESTION VERBATIM: Since the Omega42 Protocol is meant to be read by AI, what is the best file format to ensure optimal ingestion? Make recommendations.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 91 | PREV: e709feb61a3e5378c23c3af6191fcd0622bd6e2f35c42cb55a1f4391d8441bf1
+REQUEST (L-502): ADVICE and PROTOCOL CHANGE -- the formats an AI can be given, compared on the two documents as they stand; the recommendations applied; avenues A1, R
+
+SUMMARY: For an AI reader the best format is Markdown rendered from the documents, with what a navigation needs fitted into one context window. The .docx pair stays the release of record, and the AI reading editions are now built from it on every build and checked in CI.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (15, 88, 29), r = (3, 8, 1); the votes all differ, so the anchor is r1: P3, Desire, value 3, a Crown value.
+    * It rests on P8, Generation (5). It holds out of view P21, Sublime (4). It is heading for P11, Question (6), a Crown. It is completed at P15, Other (6), a Crown.
+    * [GENERATED-Ω42] The question stands at desire, the wish to be read whole. It rests on generation: whatever an AI reads is made from the documents, so the editions are generated from them, never written beside them. It holds out of view the sublime, what no format carries, the meaning a reader brings. It heads for the question, the AI reader finding its way in, and is completed by the other: a reader that is not the writer, for whom the text has to stand on its own.
+  - WHAT AN AI IS GIVEN TODAY (tools/ai_edition.py --sizes; tokens estimated as characters / 4):
+    * Core .docx: 1.08 MB. Prose about 272,000 tokens; embedded files about 523,000 more.
+    * Companion .docx: 3.14 MB. Prose about 315,000 tokens; embedded files about 2.03 million more.
+    * The pair: about 3.1 million tokens. The Core prose alone is more than a 200,000-token context holds, so an AI given the .docx reads what its loader keeps, not what the protocol chooses.
+  - THE FORMATS COMPARED, for an AI reader:
+    * Markdown: best. Every character is content, # headings carry the structure, nothing has to be extracted.
+    * Plain text: nearly as good, but the structure is lost.
+    * JSON: best for records read by field; the registers already use it.
+    * HTML: structured, but its markup costs tokens and carries no content.
+    * .docx: read only through an extractor, which can drop styles, tables and notes. It stays right as the release of record, one self-contained file.
+    * PDF: weakest. Extraction can break lines, split words, interleave columns and lose headings. Give it to people as a printed copy, not to an AI.
+    * Images of text: never.
+  - THE EDITIONS NOW BUILT (ai/, with llms.txt at the root):
+    * Omega42_Navigator_Pack.md, about 114,000 tokens within a budget of 120,000: Part 0 and the Foundational Register, Part 0.5, Parts 1, 2, 7 and 8 in full, and a one-line index of every law, instrument and MATH entry.
+    * Omega42_Core_V335_Rev450.md, about 258,000 tokens, and Omega42_Companion_V335_Rev450.md, about 316,000: the prose of each document, embedded files left out.
+    * manifest.json: every section with its heading, size, estimated tokens and SHA-256, for loaders that retrieve by section.
+    * llms.txt: the index AI tools look for, pointing to the editions and to the release of record.
+  - HOW TO USE THEM: with an AI that holds about 128,000 tokens or more, attach the Navigator Pack and type "Welcome Navigator". With a larger context, attach the Core edition, and the Companion edition for questions about the record. To run the tools, use the repository or the .docx.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/ai_edition.py --sizes: the measures above, from the two documents of this output.
+    - --build renders the five files after the documents are final; --check, in CI, fails when an edition is not the rendering of the documents as they stand or the pack is over budget.
+    - tools/extract_embedded.py --check: the files outside, each with its reason.
+  R THE RECORD:
+    - L-493 makes the .docx pair the whole release; the editions add no text of their own, so the release of record is unchanged.
+    - M327 called M157, M190, M194, M206, M244, M259, M261, M264 and M288.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Keep the .docx pair as the release of record: ALREADY IN FORCE (L-493).
+  (2) Give an AI reader Markdown rendered from the documents by a tool: APPLIED, tools/ai_edition.py; A-034.
+  (3) Fit what a navigation needs into one context window: APPLIED, the Navigator Pack, its budget checked in CI.
+  (4) A prose edition of each document, without the embedded files: APPLIED.
+  (5) A section manifest for loaders: APPLIED, ai/manifest.json.
+  (6) An llms.txt at the root of the repository: APPLIED.
+  (7) The editions named outside the documents, with their reason: APPLIED, Core Appendix R.4, each with its reason; tools/extract_embedded.py.
+  (8) Point an AI reader to the pack: APPLIED, the Note to an AI reader in the Core.
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this question.
+CHANGES TO THE PROTOCOL:
+  - Core: the Note to an AI reader; Appendix R.4, the reading editions named outside with their reason; Part 12, item 21, brought to the present.
+  - Companion: Part 142.
+  - Repository:
+    * Added: tools/ai_edition.py; ai/ with its four files; llms.txt.
+    * Extended: tools/extract_embedded.py, the AI editions OUTSIDE; the build, which renders them after the documents are final; CI, with --selftest and --check.
+    * Registered: A-034.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-493 and the embedded release | STRIKER -- the question of the reader | NAVIGATOR -- the measures, the comparison of formats, the pack and its budget, the manifest and the place of the editions outside the documents | OPEN -- how a given AI's loader treats the pack, which only that AI shows
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked together with SEQ 91 to 103 in one build of the two documents, then sealed in order. tools/ai_edition.py --selftest, 6 of 6, --sizes over the two documents, --build after the documents were final and --check; tools/extract_embedded.py --check with the twelve files outside; tools/applied.py --check, 34 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): llms.txt is a proposal for an index file that points AI tools to Markdown versions of a site's content (llmstxt.org); the protocol uses its form for the repository.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the measures: the documents are complete and too large to read whole, so the editions fit the reading to the reader. PART -- none. SILENT -- which AI you attach them to, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a navigation run by a peer from the Navigator Pack alone, compared with one run from the .docx, would show what the pack keeps.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 19 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a reading rest on, if not on what it was generated from?
+What it holds out of view: The sublime: what no format carries, the meaning a reader brings.
+Where it is heading: Toward the question an AI reader asks on its way in.
+What would complete it: The other: a reader that is not the writer, for whom the text stands on its own.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: c3fc3641d17fe979da70fd7eaeedc99ed5a11745f6ce19d101671e73570d19b7
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

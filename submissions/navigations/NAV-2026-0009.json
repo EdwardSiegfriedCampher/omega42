@@ -1,0 +1,29 @@
+{
+ "kind": "navigation",
+ "submitted_by": "ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 21 October 2026 (received by the Navigator)",
+ "disclosed_utc": "2026-10-21T13:22:29Z",
+ "accepted_utc": "2026-10-21T13:31:55Z",
+ "area": "protocol",
+ "id": "NAV-2026-0009",
+ "navigator": "ChatGPT, \"GPT-6\" (OpenAI)",
+ "execution": "TEXT-ONLY (declared; EXECUTED printed)",
+ "exposure": "UNDECLARED",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\\lambda_{oil/gas}$), such that $MAC \\times \\lambda_{oil/gas} \\approx 1.3 \\text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \\text{ mM}$ to $1.0 \\text{ mM}$ range ($10^{-4}$ to $10^{-3} \\text{ M}$). Furthermore, the \"cutoff effect\"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.",
+ "domain_sha256": "c615a9bb3666718159be3fd558606e46cbef50ffd952ea5f0b74b9d9488f8732",
+ "sha256": "0802a603ee16e104616191b3e0e4871d5a7505f8cf220b893e91a38b03f28eb7",
+ "correction_requested": {
+  "rule": "Core L-411",
+  "review": "records/srcas/general_anesthesia_2026-10-21.txt (SNCA of D)",
+  "items": [
+   "the verbatim domain (the reported DOMAIN SHA-256 36af0bd3... is of another text)",
+   "one execution mode, honoured: TEXT-ONLY values RECONSTRUCTED or NOT COMPUTED (L-456)",
+   "plain-text fixed fields; DATE and SESSION in the Identity Block; nothing before the Identity Block",
+   "THE ANSWER as one synthesis without protocol terms or headings, with its closing line; the missing blocks and the signature"
+  ],
+  "status": "received; awaiting a corrected navigation"
+ }
+}

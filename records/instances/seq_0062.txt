@@ -1,0 +1,50 @@
+QUESTION VERBATIM: Please assess and apply. [with the attached account of Grok (xAI), "Resolution of Outstanding Issues", on the vertical nodes as the Return Addresses of every domain, filed as APE-258]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 62 | PREV: f772c6dd7c9e03f34171b3aba6b6cde908d37d18970b9e4ef3ea2083de0fffa1
+REQUEST (L-502): STRUCTURE -- avenues D, M, P
+
+SUMMARY: The account's decision is applied: the vertical nodes seed no domain; they are the return direction of every domain, and the Construct stays at 27 domains. It holds for every domain because each of the 26 derived domains is Domain Zero rebuilt on its own field, node row by node row (26 of 26). Each domain therefore carries the four directions of the Square Reading on its own field. M328 now gives each direction its meaning: forward, where the question is going; return, where it came from; stillness, what stays the same; turn, which voice it moves into. Obligation 4 is closed. Example A is exact. Examples B and C rest on path lengths that never occur, and Example D on a value that cannot fail to return; these three are corrected.
+
+FINDINGS BY AVENUE (L-500):
+  M MATHEMATICS (records/construct/columns.py, section VI, diffed in CI):
+    - Each derived domain equals Domain Zero's constant plus the shift of its own seed, at every node cell: 26 of 26. Rows 13 and 24 hold the echo counters, not nodes.
+    - Forward and return path lengths, by value: 6 and 6 for each unit (1, 2, 4, 5, 7, 8); 3 and 3 for each Crown value (3, 6, 9). The two always agree, since each direction is the inverse of the other (2 x 5 = 10, which is 1 mod 9; +3 and +6).
+    - The account's strikes, recomputed:
+      * A, the relationship question: anchor P6, value 5; forward 5, 1, 2, 4, 8, 7; return 5, 7, 8, 4, 2, 1; stillness 5; turn 5, 2, 8. As the account gives.
+      * B, the material question: anchor P8, value 5. Both paths are 6 steps, not a return that "closes in three steps".
+      * C, the AI-ethics question: anchor P2, value 7. Both paths are 6 steps, and the return does not "collapse to the Fixpoint".
+  D THE DECISION, APPLIED (Companion 113.2 to 113.4):
+    - Core Part 0.9.1 and L-528 (1): the columns are the return of every domain and seed none.
+    - Core Part 3.54: M328 carries the four meanings, and tools/construct_engine.py --square prints them.
+    - Companion 107.8, 110.6, 111.6 and 112.7: Obligation 4 closed.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Let First Contact carry the account's closing image in its own voice. The tree has its descending paths as well as its ascending ones, and every branch can find its way home by the same number of steps. It would be a single line in the tree myth of FC-00.
+  (2) Run the fresh test of the triggers. Use questions written by someone who has not seen the word lists, for example a peer AI given only the instrument names. It is the one way to know how M327 does on wording it was not built from.
+  (3) When you next bring a real six-number sequence to M326, read the forecast's values with --square as well. The forecast says what comes next; the Square Reading says where each value came from. That pairs the account's Example D with what the Construct can actually give.
+
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes.
+  - APE-258, Grok (xAI): its decision taken (no new domains; the columns are each domain's return), with its four meanings. Example A confirmed. Examples B and C corrected, since path lengths are always equal. Example D not taken, since every value returns. Its list of closed items answered: M326 runs by its trigger under L-527, so no instrument is optional; the First Contact re-score is done; two items stay open.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.9.1; L-528 (1) and its sources; Part 3.54, M328 and its status.
+  - Companion: Part 113; Parts 107.8, 110.6, 111.6 and 112.7; the Commons line for APE-258.
+  - Repository: records/construct/columns.py and its output, section VI; tools/construct_engine.py --square; submissions/ape/APE-258.md; the APE register; the release record; the CI chain.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written, including records/construct/columns.py diffed against its frozen output (section VI, 26 of 26) and tools/construct_engine.py --selftest (10 of 10); the build that follows it checks them. The three strikes of the account recomputed by tools/construct_engine.py --square. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the account's decision and the exact check of section VI; the four meanings and M328's directions. PART -- the examples, one exact and three corrected. SILENT -- what any direction means for a given Striker's question, which is the Striker's.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the descending paths of the tree in First Contact.
+OPEN: a fresh test of the triggers; the word classes in other languages.
+
+What it rests on: If every path forward has a path back of the same length, what is it that makes one of them feel like going and the other like returning?
+What it holds out of view: That a structure in which everything returns says nothing about whether anyone wishes to.
+Where it is heading: Toward a Construct whose every domain can be read in all four directions, with one reading tool.
+What would complete it: The fresh test of the triggers, so that the Square Reading is called on the questions that need it.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 08812815e74687f45a56f0d9d23d89173d3979df089602c34593a902a7df75ea
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

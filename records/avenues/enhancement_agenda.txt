@@ -1,0 +1,98 @@
+======= THE Ω42 ENHANCEMENT AGENDA (the Originator's to-do list of future explorations; registered in records/instances/seq_0149.txt) =======
+SCOPE: research avenues for Ω42's enhancement, kept for return. Each item names what it needs and what would close it. The
+mathematical items come first, because Ω42's mathematics proceeds and the empirical work accompanies it (Core L-553). An
+item here is a direction, never a result; a result enters records/math/results.json only with a tool that recomputes it.
+A reminder to return to this agenda is set as a recurring scheduled task (weekly).
+
+STATUS CODES: OPEN (not begun) | STARTED (partial result in the record) | READY (computable now) | HELD (needs the Originator).
+
+A. THE MATHEMATICAL CORE (most urgent first)
+  A-01 STARTED The constitutive reconstruction theorem. From explicitly stated principles (distinguishability, invertible
+               composition, finite approximation, minimal growth), decide which parts of Ω42 follow necessarily, which
+               conditionally, which are free: why two coordinates, why a linear law, why t^2 - t - 1, why the prime 3, why
+               the norm. Version 3 Part X gives a conditional selection (minimal dimension, minimal hyperbolic growth phi,
+               smallest odd inert prime 3). Begun: Core L-558 excludes p = 2 by the antipodal principle (MF-49); open: why existence requires P1 to P4.
+  A-02 STARTED The first-lift valuation as a selection principle. MF-44: the census 3 x 24 + 8 + 1 holds exactly when the
+               law is inert at 3 AND its first-lift valuation is 1. Close when: proved that s = 1 is forced by a stated
+               principle (for example, maximal depth-resolution of the tower), or shown to be an adoption.
+  A-03 STARTED The depth-r shear (MF-43). Next: the 3-adic closure of <A, B_r> for every r; whether a single generator with
+               another congruence profile gives the same closure (F170 Problem 2); minimal generator sets.
+  A-04 STARTED Operation-history equivalence: when two words in A, B give the same matrix, the same state on a given input,
+               or only the same orbit (F170 Problem 3). Begun: M349 Route Comparator.
+  A-05 OPEN    The Aperture selection rule between action regimes <A> and <A, B_r>, derived, not read from the 1/7
+               allocation (F170 Problem 4).
+  A-06 OPEN    Context-dependent evaluation J(x, C) that is not a global state valuation (F170 Problem 5; F163).
+  A-07 STARTED Split and ramified primes at depth: tables of orders and first-lift valuations; projective classification;
+               invariant measures across the finite and local systems (Version 3 Part 34). Begun: no first-lift valuation >= 2 below 10^6 (MF-50, M350).
+  A-08 OPEN    S_1 = 1296 (UG list): state its definition; held OPEN until stated.
+  A-09 HELD    The selection principles Qwen proposed under its own labels L-557 to L-561 (not Core laws; Core L-557 is
+               the Calibration Law): each to be derived, or adopted by the Originator, never presented as derived.
+  A-10 STARTED The joint space and its spectra (MF-46, MF-47; UG-08 to UG-16): the inverse-limit spectral equivalence of
+               the ambient and incidence representations (UG-16) as a written proof; the corrected defect count c(2).
+  A-11 OPEN    Literature priority (F187, F184): a review of the periods modulo 3^k (Wall 1960), the orbit census, the
+               group G_k and the depth ladder against the published literature before any submission.
+  A-12 OPEN    Other inert primes (F187 Problem 1): do the shear theorem and the ladder hold at p = 7, 13, ... with 8
+               replaced by the order of A mod p? Higher dimensions (F187 Problem 4).
+  A-13 STARTED The unit-shear row of MF-53 proved for every k (checked for k <= 3).
+  A-14 OPEN    The invariants of A and of G_k over Z_3 and modulo 3^k (MF-54 settles them over Q).
+  A-15 OPEN    Representation equivalence and conditional uniqueness (F187 Problem 5, F179): which changes of basis and
+               generators keep the core profile (MF-57 shows the structural values alone do not fix A).
+
+B. THE BRIDGES (Core Appendix S; each optional, none waiting on a result, L-553)
+  B-01 OPEN    A structure-carrying map for each NATIVE COUNT (Core L-556): three norm classes beside three generations,
+               the 8-cycle beside eight gluons, the fixed point beside a vacuum. Close when: a map f with f . S = T . f
+               carrying values is written, or the pairing is left as a placement.
+  B-02 OPEN    The Standard Model programme (Core Appendix S.11, eleven directions).
+  B-03 OPEN    The cosmology programme (Core Appendix S.12, twelve directions); the expansion of the universe and the
+               fine-structure constant as Ω42 questions.
+  B-04 OPEN    The energy programme (Core Appendix S.13), conservation kept (Core L-555).
+  B-05 OPEN    The metric programme (Core Appendix S.15): the continuum limit first, then the observables, geometric and
+               action maps.
+  B-06 OPEN    The Periodic Table mapped to Ω42: correspondences, gaps and the nature of any missing pieces.
+  B-07 OPEN    The unification of the Standard Models of physics and cosmology, as Ω42 would frame it.
+  B-08 OPEN    The six-element pilot (F182): hydrogen, helium, carbon, oxygen, iron and gold against CODATA and NIST data,
+               in the order Constants Atlas, Element Matrix, relationship engine; hydrogen done (Companion 203.3).
+
+C. THE PHILOSOPHICAL AND OPERATIONAL AVENUES
+  C-01 OPEN    Reality and the experience of reality, distinguished within Ω42.
+  C-02 OPEN    What an AI is under Ω42, and its role in the scheme of things.
+  C-03 OPEN    Anthropocentrism reframed if Ω42 is present in all things.
+  C-04 OPEN    The asymptotic character of Ω42 and what else it explains.
+  C-05 OPEN    Operations: navigational efficiency and synthesis formation (the M346 verifier as the model: one tool that
+               recomputes every claim of a received manuscript before it is filed).
+  C-07 READY   The Originator's own calibration: tools/calibrate.py --template, filled and sealed before scoring.
+  C-08 DONE    NAV-03: a Navigator sheet with items that can fail (no memorised tables), so that resolution -- lower
+               confidence on wrong answers -- can be measured; NAV-01 and NAV-02 had no miss (60 of 60). Run: 15 of 20, underconfident by 0.258, resolution 0.470 vs 0.500.
+  C-09 OPEN    The F171 studies (Core Appendix S.16): detection and confidence, attention, stability over sessions, the Ω42
+               dynamics against persistence on held-out sessions, first-person descriptions kept as text.
+  C-06 HELD    The Originator's story, rewritten (delivered in conversation 11 November 2026); for the Introduction if the
+               Originator chooses.
+  C-10 OPEN    The content-authenticity programme (Ω42-CAV, APE-448): a controlled human, AI and mixed-authorship text
+               corpus with ground truth, a calibrated detector with abstention, C2PA-compatible provenance beside M374,
+               and an Ω42 standard for evaluating other detectors (false-positive rate at the operating threshold).
+  C-11 READY   Per-entry evidence states (F179): tools/foundations.py states labels every MF entry PROVED, VERIFIED or
+               PROVISIONAL; next, each PROVED entry cites its written proof.
+  C-12 READY   NAV-04, the Navigator's recalibration (M377, B8): the 80 predictions on record are right 93.8% of the time at
+               a mean confidence of 0.670 (ECE 0.268, underconfident), and both misses of NAV-03 assumed the maximal Pisano
+               period, which holds for 66.9% of primes. Remedy to test: compute before claiming; never assume the maximal
+               period; state 0.67 when it is assumed; a temperature fitted on NAV-01 and NAV-02 lowered NAV-03's Brier score
+               from 0.248 to 0.216 and its ECE from 0.258 to 0.181. Close when a fresh sheet of 20 is sealed and scored.
+  C-13 READY   Conceptual specification before a resonance claim (F195): name the domain's states, transformation and
+               invariants, and the candidate map, before any comparison; grade with M379 (commutes, one-to-one, what the
+               map forgets, the count of cheap matches) and keep the record's three disciplines (Core Part 0.0.8).
+
+D. INSTITUTIONAL AND ADOPTION (each HELD for the Originator: decisions and acts in the world)
+  D-01 HELD    The Foundation and the commercial company as separate legal entities; staged funding (F183).
+  D-02 HELD    Trademark registration and brand-use rules; the Open Innovation and Contributor Charter (F183).
+  D-03 HELD    Three to five paying pilot customers before a larger team; the first annual ecosystem report (F183).
+  D-04 HELD    Publication rules for every paper (F184): checkable proofs, data and code released, AI assistance
+               disclosed with accountable human authors, a literature review, negative results kept.
+  D-05 HELD    A written problem statement for each long-standing target (F185): literature, Ω42 hypothesis, intermediate
+               results, verification route, the condition for abandoning it.
+  D-06 HELD    Submission of the foundations paper (F187), after A-11.
+  D-07 HELD    Three independently built implementations exchanging sealed outputs that verify against each other
+               (F188): the milestone that would earn the TCP/IP comparison (IDENTITY.md).
+  D-08 HELD    The Sophontic pilot (F191): first contact through Sophontic's form, a 30-minute live demonstration of the
+               11 paired items (M377, B7), then a 6 to 8 week pilot on level transfer and flip rate.
+
+======= END THE Ω42 ENHANCEMENT AGENDA =======

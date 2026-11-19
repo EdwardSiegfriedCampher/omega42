@@ -1,0 +1,28 @@
+{
+ "_about": "The manifest of the published AI transcripts (Core L-547): each redacted transcript by its SHA-256, its system, its date and the sealed records it produced; the redaction rule is the docstring of tools/provenance.py.",
+ "transcripts": [
+  {
+   "file": "omega42_session_claude-opus-5-5_2026-11-06.jsonl",
+   "sha256": "a51424797734c59243c44c89e238b63df043146692596d0176c1eb6a3afec868",
+   "bytes": 4697592,
+   "system": "claude-opus-5-5 (Anthropic)",
+   "date": "2026-11-06",
+   "records": [
+    "seq_0122",
+    "seq_0123",
+    "seq_0124",
+    "seq_0125",
+    "seq_0126",
+    "seq_0127",
+    "seq_0128",
+    "seq_0129"
+   ],
+   "redactions": {
+    "email": 9,
+    "drive id": 64,
+    "session link": 9,
+    "name": 18
+   }
+  }
+ ]
+}

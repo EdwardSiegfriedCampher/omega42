@@ -1,0 +1,78 @@
+======= THE AVENUES, MERGED AND RANKED (Companion Part 84; records/instances/seq_0021.txt; APE-144, APE-145, APE-146) =======
+ORDER: by APE-146's four tests, then by cost. NULL -- a chance or a control exists to read the result against. FROZEN -- the
+class, sample or threshold can be fixed before the result is seen. NEGATIVE -- the result can come back against what is
+expected. RECOMPUTE -- a second party can run it again from the record. An avenue that passes none is a way of producing
+prose (APE-146). Codes: the avenue of Companion Part 59 each belongs to. STANDING: DONE, PARTLY RUN, READY (computable
+now), WAITING (needs the Originator, a second system or outside people), DESIGNED (frozen, not run).
+
+SCOPE: these are the comparative avenues of Appendix S. They are optional, each answers its own question, and none gates,
+grades or decides the protocol's operation, its premise, its coordinate or its readings (Core L-490, L-491).
+
+TIER 1 -- the comparative controls; each can return a null that changes how a comparative figure is read
+  1  Within-Navigator baseline (E07; X)          NULL FROZEN NEGATIVE RECOMPUTE  two fresh sessions of one model, one domain,
+                                                 blind to each other; without it cross-architecture agreement has no scale.      WAITING (two nonces)
+  2  Role-saturation control (L; APE-146 1.4,    NULL FROZEN NEGATIVE RECOMPUTE  the role column reads 1.00 for all 22 ideas;
+     seq_0021 avenue 14)                         the same five roles scored for frozen texts with no claim to the structure
+                                                 (a recipe, a timetable, a statute). If they also reach 1.00, the column
+                                                 measures the scorer, as K's null already shows for placement.                   DONE: 1.00 x 3, RETIRED (L-521)
+  3  Adversarial atlas against K (C; seq_0021 14) NULL FROZEN NEGATIVE RECOMPUTE  statements written to sit on the canonical
+                                                 cycle. If a gamed atlas reads 95, no idea's PROXIMITY is quoted before
+                                                 avenue 10 (sampled atlases).                                                    DONE: 100 / 82 (L-521)
+  4  A second judge, --agreement (M225; X)       NULL FROZEN NEGATIVE RECOMPUTE  quadratic-weighted kappa on the fit column,
+                                                 blind; kappa >= 0.60 or the fit column is one reader's impression.               WAITING (a second system)
+  5  Decoy-coordinate control (M267)             NULL FROZEN NEGATIVE RECOMPUTE  the only avenue that can show the coordinate
+                                                 adds nothing; frozen in records/m267_pilot_01/; run kit tools/m267_run.py.      KIT FROZEN; WAITING (2 writers, 3 raters)
+  6  Ground sensitivity and erasure (M279, M280) NULL FROZEN NEGATIVE RECOMPUTE  pre-registered 9 October 2026.                    DESIGNED, NOT RUN
+  7  Page forecast (U57; G)                      NULL FROZEN NEGATIVE RECOMPUTE  a forecast frozen before a reading at a state
+                                                 that already has readings.                                                      READY at each new navigation
+
+TIER 2 -- computable now, no panel; each has a natural null
+  8  Offset space (A1; APE-146 2.1)              the four arm offsets against the properties the record states for them:
+                                                 32 survive the generator orders; the M297 coherences and E01 remove none;
+                                                 APE-146's residues mod 4 leave 16; Yang = 5 leaves 4, differing by two signs
+                                                 (records/avenues/offset_space.py).                                               DONE
+  9  Identity mining with rarity (A2; APE-146 2.2) E01 holds for 10 of 576 (Antipode, Yin) lag pairs; the full search over
+                                                 products, differences and powers of the arms against random offsets is open.     PARTLY RUN
+ 10  Sampled atlases (L; seq_0021 4)             statements drawn by a frozen rule and seed from a named public-domain text.    RULE FROZEN; WAITING (a text file)
+ 11  Object panels for the eight pending objects (M; seq_0021 1) -- the Leech lattice against the 23 other Niemeier
+                                                 lattices first; the cube group against the 15 groups of order 24.              cube DONE: 0 (NRR-C23); Leech READY
+ 12  E8 and C6; a class across dimensions for the 24-cell (M; seq_0021 2, 3)                                                     READY
+ 13  Reconstruction window against the modulus (A1; APE-146 2.3) -- six consecutive values identify the ground mod 9; the
+                                                 minimal window at other moduli.                                                 READY
+ 14  The family at moduli 27 and 81 (A1; seq_0021 12) -- periods 72 and 216.                                                     READY
+ 15  Long questions across the adaptors (T; APE-146 2.4) -- meetings counted against their word-count reference (L-501).          READY
+ 16  The 13 evidence runs re-read under E13 (H; seq_0021 13).                                                                    READY
+
+TIER 3 -- need the Originator, outsiders or a growing record
+ 17  Blind replication in new instances (X; seq_0021 7; records/frameworks/blind_kit.txt).                                       WAITING (nonces)
+ 18  Scholar and author atlases; the common question in the Originator's words (L; seq_0021 5, 6).                               WAITING
+ 19  Wording stability and fixed-address comparison (D; seq_0021 9; APE-144 10) -- one word changed at a time, or different
+                                                 objects at one address, under a frozen comparison.                              READY (design)
+ 20  Translation (T; seq_0021 10); the Register grown from many Strikers (G; seq_0021 11; IN-03).                               WAITING
+ 21  Homogenization (E08; G) -- once three readings stand at each of three states.                                              WAITING (record)
+ 22  Deliberation study (Companion 47.4); conformance suite as a benchmark (M314); blind test 02 (depth-4 candidate).             DESIGNED
+
+AVENUES THAT DO NOT INFORM THE COMPARATIVE REGISTER (APE-146) -- named so that they are not run as comparative evidence by
+accident; they say nothing against the inside inquiry, where traditions and lenses stay part of the work (L-488, L-494)
+  - adding traditions or lenses: the role column saturates (1.00 for 22 of 22); a new tradition adds a row, not a finding;
+  - hunting 24s, 9s and 7s in nature: five frozen depth-2 values over counts 1 to 48 give a base rate of 5/48 = 0.1042, and six
+    post-hoc tests fire at least once with probability 1 - (43/48)^6 = 0.4832;
+  - reading anchor concentrations as resonance: for two content words r1 = 1 and the anchor equals r1 with chance 73/81;
+  - treating a placement as a finding: every countable thing has a position (L-510, IN-02.8);
+  - exhaustive state-space analysis as a first priority (APE-144): the 81 states are already classified (Core Part 1.8).
+
+READING: a list of what can be tried, ordered by whether its answer could surprise; it grades nothing (L-490) and makes no
+claim (L-505). Which avenue to take is the Originator's (F-06).
+======= END AVENUES =======
+
+ADDED 23 October 2026 (Core L-515; Companion Part 88; APE-153, its section 6) -- avenues under the Consciousness-First Frame
+ 23  F0 against F0-CF on one domain (D; M267)    one domain struck under each frame by fresh instances, read blind: what the frame
+                                                 changes in the reading, with the counts identical.                                READY (design)
+ 24  The fixed point, the 8-cycle and the 24-cycles read as one architecture (A1; M320 GROUND, RETURN).                      READY
+ 25  The twelve-step reversal: what reverses and what is kept (A1; M320 POLARITY) -- T^12 = -I keeps orbit, stratum and
+                                                 norm up to sign.                                                                 PARTLY RUN (mind_first.py)
+ 26  The norm's alternation, N(Ts) = -N(s), read consistently across every orbit (A1; M320 PERSPECTIVE).                     READY
+ 27  Perspective as a state, an orbit, a relation or an added coordinate, kept as four proposals (R; M320 PERSPECTIVE).     DESIGNED
+ 28  Finite recurrence and universal consciousness: a complete grammar, a grammar of differentiation, or one recurrent
+                                                 structure within a larger expression -- the conceptual decision (R; L-515).    WAITING (the Originator)
+ 29  A second judge for the fit and for M320 (X; records/consciousness/cf_rescore_request.txt).                             WAITING (a second system)

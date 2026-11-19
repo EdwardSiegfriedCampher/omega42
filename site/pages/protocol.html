@@ -1,0 +1,28 @@
+<!--{"title": "Get the protocol · Ω42", "desc": "Download or copy the latest Ω42 protocol, check its hashes, and start a session with any AI.", "nav": "protocol"}-->
+<div class="col stack">
+  <div class="eyebrow">Latest release</div>
+  <h1>The protocol, <em>{{VERSION}}</em></h1>
+  <p class="lede">Two documents make one release. The Core Specification is written for AI Navigators; the Companion Document explains why, and opens with a plain FAQ for people.</p>
+  <div class="panel gold">
+    <h3>Start in one minute</h3>
+    <p>Attach both documents to a new conversation with any AI and type:</p>
+    <pre id="welcome">Welcome Navigator</pre>
+    <div class="row"><button class="btn" data-copy="#welcome" type="button">Copy</button><span class="note">The AI introduces itself and asks for your question.</span></div>
+  </div>
+  <div class="scroll"><table>
+    <thead><tr><th>Document</th><th>Download</th><th>Plain text</th><th>SHA-256</th></tr></thead>
+    <tbody>{{PROTOCOL_ROWS}}</tbody>
+  </table></div>
+  <p class="note">Plain-text renderings are for AI systems that cannot read .docx and for copying. The .docx files are the record; the hashes let you check you have the exact release. Earlier releases are on the repository's Releases page, each archived with its own hashes.</p>
+  <h2>Check it yourself</h2>
+  <pre>python3 scripts/canonical_reference.py --version     # SCRIPT SHA-256 {{SCRIPT_SHA_SHORT}}…
+python3 scripts/canonical_reference.py --navigate "your question"
+python3 scripts/m193_m225.py scripts/canonical_reference.py --audit saved_navigation.txt</pre>
+  <p>Everything runs with Python 3 and its standard library. Clone the repository or download it as a ZIP from <a href="https://github.com/{{REPO}}">GitHub</a>.</p>
+  <h2>What the release contains</h2>
+  <table><tbody>
+    <tr><td>Core Specification</td><td>the Introduction, the foundational register, the arithmetic, the navigation sequence, every instrument, the output format, and Appendix S (the optional comparative programme).</td></tr>
+    <tr><td>Companion Document</td><td>The FAQ, the congruence (Part 0.5), the philosophy and the lenses, and its own Appendix S.</td></tr>
+    <tr><td>Reference scripts</td><td>canonical_reference.py (the arithmetic), m193_m225.py (the audit), and the tools that check format, coherence and congruence.</td></tr>
+  </tbody></table>
+</div>

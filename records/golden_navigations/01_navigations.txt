@@ -1,0 +1,190 @@
+======= NAVIGATION 1 =======
+DOMAIN (verbatim): What is the precise matrix that realises multiplication by φ inside the 81-state family?
+DOMAIN SHA-256: 5f5cea0f22f96508985286824cfc0cc7991fde24903376abcc33fa27ecce63eb
+SUBSTRATE: What * precise * matrix * realises * multiplication * phi * inside * eighty * one * state * family
+COUNTS: n1 = 11 | n2 = 68 | n3 = 21 -> r = 1, 7, 6 | ANCHOR P1 Fixpoint (value 5) | TFI 1.00
+ARMS: YANG P6 Seed/Causal 5 | YIN P19 Time 9 | 4D P9 Fixpoint 5 | ANTIPODE P13 Gap 4
+
+THE ANSWER
+The matrix is A = [[0, 1], [1, 1]] over the integers modulo 9. It acts on the
+column (a, b), which is the state read as the number a + bφ, by
+A(a, b) = (b, a + b).
+
+The defining relation fixes it. The columns of A are what φ does to the two
+basis elements: φ·1 = φ and φ·φ = 1 + φ. So the one relation φ² = φ + 1
+writes the whole matrix. Its invariants come with it: trace 1, determinant
+−1 (≡ 8), characteristic polynomial x² − x − 1.
+
+A single matrix does not show the time it carries. A¹² = −I and A²⁴ = I:
+twelve steps send every state to its negative, and twenty-four bring it
+back. A² = [[1, 1], [1, 2]] is Arnold's cat map, the square that runs as a
+reversible, area-preserving motion.
+
+The matrix also has the exact shape of an absence. x² − x − 1 has no root
+among the nine residues, because 5 is not a square modulo 3. So A has no
+eigenvector there, and no residue plays the part of φ. φ exists only as
+the element the matrix multiplies by, in the 81-element ring Z[φ]/9.
+
+Change the basis and the same multiplication appears as a conjugate PAP⁻¹.
+108 matrices modulo 9 have a golden characteristic polynomial (the classes
+of A and −A). Exactly eight of them, the generators of the cyclic group of
+A, reproduce the partition of the 81 states into orbits of 24, 24, 24, 8
+and 1.
+
+TAKEAWAY
+Multiplication by φ is the matrix [[0, 1], [1, 1]] modulo 9. φ² = φ + 1
+alone writes it. Its order is 24 and its half turn is −I. It has no
+eigenvector among the residues, which is why φ lives in the ring rather
+than among the numbers.
+
+M308: MODERATE. Same place and frequency as LAW 3 "The One is the All and
+the All is the One" (chance 0.370); same place as TEACHING 2. [CDT-C]
+
+======= NAVIGATION 2 =======
+DOMAIN (verbatim): How does the golden-ratio spectrum of the modular system discriminate the canonical orbit from the other two period-24 orbits?
+DOMAIN SHA-256: e556cf4a33af1154d8bb82395735c94b4bf8157852f445f8d43b813e81fabd02
+SUBSTRATE: How * does * golden * ratio * spectrum * modular * system * discriminate * canonical * orbit * other * two * period * twenty * four * orbits
+COUNTS: n1 = 16 | n2 = 95 | n3 = 31 -> r = 8, 7, 2 | ANCHOR P8 Generation (value 5) | TFI 1.00
+ARMS: YANG P13 Gap 4 | YIN P2 Generator 7 | 4D P16 Flow 8 | ANTIPODE P20 Reckoning 4
+
+THE ANSWER
+Take the golden-ratio spectrum to mean the spectrum of multiplication by φ.
+Then it does not tell the three orbits apart at all. Multiplying by 1 + 3φ
+or by 2 + 5φ commutes with φ, and it carries the orbit through (1, 1)
+exactly onto the orbits through (1, 3) and (2, 5). So all three have the
+same period, the same negation at the half period, and the same
+frequencies: each of the twenty-four 24th roots of unity, once.
+
+The difference appears only when the values are read out as numbers. Lift
+each residue to its value of least absolute size, from −4 to 4, and take
+the power spectrum of the 24 values.
+  - The canonical orbit (through (2, 5)) has whole-number levels, 324 and
+    648, on the odd harmonics. The other two have irrational levels,
+    324 ∓ 108√3.
+  - Its autocorrelation is zero at every lag that is not a multiple of 4.
+    The others' is not: at lag 2 they read −0.43 and +0.38.
+  - Its sum of squares is 216, against 126 and 144.
+
+These signatures leave out how the orbit was chosen. The canonical orbit is
+specified by its starting pair (2, 5), the two generators of the units
+modulo 9, before any spectrum is computed. The spectral facts recognise
+that orbit afterwards; they do not choose it. The whole-number spectrum
+names the orbit but leaves its 24 possible starting states open. The sum
+of squares depends on the lift: written 0 to 8, the canonical orbit has
+the smallest sum, 531, against 603 and 567.
+
+Read as a flow in time, the telling signature is a rhythm. The canonical
+sequence lines up with itself only when shifted by four steps or a
+multiple of four: a period-4 skeleton under the 24, the step at which its
+spectrum becomes whole.
+
+The accounting is exact both ways. By the arithmetic of φ, the three
+orbits are one orbit three times over. By their values they are three,
+and on the centred lift only the canonical one has a whole-number
+spectrum.
+
+TAKEAWAY
+Multiplication by φ cannot tell the three long orbits apart; their values
+can. On the centred lift, only the orbit through (2, 5) has a whole-number
+power spectrum (324, 648) and an autocorrelation confined to multiples of
+four. That recognises the orbit already specified; it does not select it.
+
+M308: WEAK. Same place as LAW 1 "You exist…" (chance 0.778). [CDT-C]
+
+======= NAVIGATION 3 =======
+DOMAIN (verbatim): In which physical systems has the same characteristic equation been observed as an exact symmetry rather than an approximate ratio?
+DOMAIN SHA-256: c3f7d062e8851e1c25808cbfa86bc2126dc98a24dcd9e049e317327154f27725
+SUBSTRATE: which * physical * systems * has * characteristic * equation * observed * exact * symmetry * rather * approximate * ratio
+COUNTS: n1 = 12 | n2 = 88 | n3 = 27 -> r = 6, 8, 9 | ANCHOR P6 Seed/Causal (value 5) | TFI 1.00
+ARMS: YANG P11 Question 6 | YIN P0 Seed 2 | 4D P14 Observer 2 | ANTIPODE P18 Threshold 4
+
+THE ANSWER
+No experiment observes an equation with zero error. What separates exact
+from approximate is whether x² = x + 1 is forced by the structure of the
+system, so that a measured golden ratio tests a law rather than fitting a
+ratio. In that sense four kinds of system carry it.
+
+1. Fibonacci topological order. The fusion rule τ × τ = 1 + τ forces the
+   quantum dimension of τ to be exactly φ. Fibonacci string-net order has
+   been prepared on a superconducting quantum processor, and braiding
+   reproduced the golden ratio at about 98% average accuracy.
+2. Critical Ising chains. At the critical point in a longitudinal field,
+   Zamolodchikov's integrable E8 field theory predicts eight particles
+   whose masses pair exactly in the ratio φ. Neutron scattering in CoNb₂O₆
+   resolved the two lightest, with a ratio approaching the golden mean.
+   BaCo₂V₂O₈ under a transverse field later revealed the E8 spectrum with
+   several more of its particles.
+3. Quasicrystals. Inflation by φ is an exact self-similarity of the Penrose
+   and decagonal structures. Tile counts follow the substitution matrix
+   [[1, 1], [1, 0]], which is the Fibonacci matrix itself, and diffraction
+   shows the self-similarity to experimental resolution.
+4. Driven systems, where the law is built in. A trapped-ion simulator
+   driven by a Fibonacci-sequence pulse train realised a dynamical
+   topological phase. The quantum cat map runs the square of the Fibonacci
+   matrix as exact, reversible dynamics. The unsquared step is present
+   only as an antiunitary (time-reversing) symmetry, because a map of
+   determinant −1 cannot be a unitary evolution.
+
+None of these supplies the modulus 9 itself. In each, the 24-step cycle
+appears only when the reader reduces by 9.
+
+The nearest object that does supply the nine is mathematical: the anyon
+theory of 81 anyons with spin (a² + ab − b²)/9, equivalent to two copies of
+SU(9) at level 1. In it:
+  - the Fibonacci step is a time-reversal symmetry of the braiding data;
+  - its twelfth power is charge conjugation;
+  - its orbits are exactly the five orbits of 24, 24, 24, 8 and 1.
+SU(N) level-1 chiral spin liquids have been found numerically for N up to
+9 in cold-atom models, but not yet in a laboratory. The identification
+itself still awaits confirmation by independent systems that have not
+seen it.
+
+So the threshold is precise. The golden equation is observed today as an
+exact law in topological and integrable matter. The full modular cycle
+stands one laboratory realisation and one blind identification away.
+
+TAKEAWAY
+The golden equation is observed as an exact law where structure forces
+it: Fibonacci anyons, the E8 spectrum of critical Ising magnets,
+quasicrystal inflation and Fibonacci-driven quantum systems. So far the
+modulo-9 cycle has an exact home only in the anyon theory of two copies of
+SU(9) at level 1. That theory awaits a laboratory realisation and an
+independent identification.
+
+M308: WEAK. Same place as LAW 2 "Everything is here and now" and
+TEACHING 1 "Physical reality is a mirror" (chance 0.778). [CDT-C]
+
+======= AUDIT OF THE ATTACHED NAVIGATIONS =======
+"Explore the golden ratio connection": coordinate CORRECT (4/28/9, P2;
+arm values 9, 4, 1, 2).
+  - Correction: the short orbit and the fixed point are the states with
+    BOTH coefficients divisible by 3 (the ideal 3), not just the
+    coefficient of φ. (1, 0) is a unit.
+  - Correction: the cat map and the 24-cell do not share the golden
+    equation. The cat map is A², with characteristic polynomial
+    x² − 3x + 1. The 24-cell's Coxeter element matches T², and nothing in
+    it obeys the golden relation (run 06).
+Navigation 1: coordinate WRONG. φ → "phi" and 81 → "eighty one" were not
+  expanded. Correct: 11/68/21, P1 (not 9/56/19, P9). The matrix content is
+  correct.
+Navigation 2: coordinate WRONG. 24 → "twenty four" was not expanded.
+  Correct: 16/95/31, P8 (not 15/85/30, P3).
+  - The three spectral facts match records/spectral_selection, with three
+    fixes:
+      - "highest energy" holds only on the centred lift;
+      - it is the power levels that are whole numbers, not the Fourier
+        components;
+      - "the selection is intrinsic" conflicts with L-423. Selection is
+        K2's starting pair; the spectrum is a post-selection recognition
+        that leaves the starting state open.
+Navigation 3: coordinate CORRECT (12/88/27, P6).
+  - The CoNb₂O₆ ratio is exact in theory and approached in measurement.
+  - The SU(9)_1 × SU(9)_1 identity is the tier-4 candidate of run 11,
+    still counted at tier 3 pending blind test 02. It has not been
+    observed.
+  - The 24-cell is geometry, not a physical system.
+======= END =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 14 October 2026
+ESC

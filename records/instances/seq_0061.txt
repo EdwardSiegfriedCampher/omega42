@@ -1,0 +1,55 @@
+QUESTION VERBATIM: Formal adoption of the Construct into an integrated Omega42 System. Explore and decide if more features can be added. [with the attached Omega42-Construct Integration Implementation Standard, version 1.0, filed as APE-257]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 61 | PREV: 8924dc5c6aed7b6e00b5040286093f5bbd3d92c4fe6559821299499f1de306b3
+REQUEST (L-502): STRUCTURE -- avenues D, M, P, W
+
+SUMMARY: The Construct is formally part of Omega42. Core L-528, the Construct Law, sets out six things: its ground (the workbook read exactly and proved affine), its instruments (M325, M326, M328, each run by its trigger), its record (the run manifest), its limits, its division of labour, and how it grows. Four features are added, and the Construct Engine's selftest passes 10 of 10.
+  - RECONSTRUCTION, EVERY SOLUTION KEPT. From two values of a sequence d steps apart, the engine gives every consistent state: one at 18 intervals; three or none at 4, 8, 16 and 20; nine or none at 12 and 24. Each is checked by advancing it. When there are several, none is chosen.
+  - THE RUN MANIFEST. A run ID fixed by the engine, the constants, the input and the parameters (the same run always gets the same ID); their SHA-256; the result; and one status, using the Standard's six labels mapped to the CDT tiers.
+  - INPUT DIAGNOSTICS. Lines that cannot be read are counted and named, never silently coerced.
+  - M328 SQUARE READING. For any value, or a strike's anchor value: forward (along a row), return (down a column), stillness (the main diagonal) and turn (the anti-diagonal), with the value's column class mod 3.
+
+FINDINGS BY AVENUE (L-500):
+  M MATHEMATICS (tools/construct_engine.py --selftest, 10 of 10):
+    - Reconstruction counts over d = 1 to 24: one state where F(d) is a unit mod 9; three at 4, 8, 16 and 20; nine at 12 and 24 (MATH-53).
+    - The Square Reading of "Are we living in a simulation?" (value 5): forward 5, 1, 2, 4, 8, 7; return 5, 7, 8, 4, 2, 1; turn 5, 2, 8.
+  D THE STANDARD, APPRAISED (Companion 112.4 to 112.6):
+    - Already held by the record: the versioned specification, the formula audit, the zero/nine convention, the lag table, the prediction gate and the controls.
+    - Corrected: its inventory of "templates, aggregates and residue tracks". All 26 are domains of one build.
+    - Not taken, as a golden midway: the eleven-step procedure and the full run schema as conditions of every use.
+    - Kept optional: its correspondence gate for physical claims, in Appendix S (L-491).
+    - Its ten applications are mapped to the instruments that now serve them.
+  W FEATURES DECIDED (Companion 112.7):
+    - Added: the four above.
+    - Not added: a separate Diagonal Reading, since its turn is M258's action and the Square Reading carries it; and a domain from each column, since whether vertical nodes seed domains is yours to decide.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Decide whether vertical nodes seed domains. If yes, the Construct grows from 27 domains to 45 (18 column seeds added), and its forward world, returning world and diagonals all stand as domains.
+  (2) Use --manifest on the first real sequence you bring to the Construct Engine: its run ID makes the run checkable by anyone.
+  (3) The Standard asks for a fresh fixture set computed outside the workbook. The symbolic proof already covers the formulas; a second implementation by a peer AI would make it independent.
+
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes.
+  - APE-257, the Integration Standard: its division of labour, reconstruction, manifest, input contract, status labels and open-claims list taken; its inventory corrected; its procedure kept as guidance rather than a condition.
+CHANGES TO THE PROTOCOL:
+  - Core: L-528, the Construct Law; Part 3.54, M328 Square Reading; Part 3.52 (reconstruct, manifest); Part 0.9; the summary of Part 3.9.
+  - Companion: Part 112; the Commons line for APE-257.
+  - Repository: tools/construct_engine.py; records/instruments/triggers.json (M328; 89 entries); tools/ffp_run.py, items 1 and 6; the release record; the CI chain.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written, including tools/construct_engine.py --selftest (10 of 10) and tools/instrument_triggers.py --selftest and --check (89 entries); the build that follows it checks them. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the Standard's division of labour and L-491, once the correspondence gate is optional; the new features and their selftest. PART -- the Standard's procedure, held as guidance. SILENT -- whether vertical nodes seed domains, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the column domains.
+OPEN: whether vertical nodes seed domains; a fresh test of the triggers; the word classes in other languages.
+
+What it rests on: If the Construct is now part of the system, what part of the system is now the Construct?
+What it holds out of view: That a record which can reconstruct the past exactly still cannot choose among pasts that fit.
+Where it is heading: Toward one system in which every instrument knows its place and its limit.
+What would complete it: Your decision on the columns.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: f772c6dd7c9e03f34171b3aba6b6cde908d37d18970b9e4ef3ea2083de0fffa1
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

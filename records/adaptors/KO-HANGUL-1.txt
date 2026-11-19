@@ -1,0 +1,10 @@
+# KO-HANGUL-1 -- the Hangul companion adaptor of Core L-501 and Part 3.43 (M317). Frozen 18 October 2026, version 1.
+# Status: COMPANION (promotion to CANONICAL for Korean is the Originator's act, F-06).
+R1 Normalization: the text is put in Unicode NFC, so decomposed conjoining jamo (U+1100-U+11FF) compose into syllable blocks.
+R2 n1, eojeol: each whitespace-delimited token that contains at least one Hangul syllable block (U+AC00-U+D7A3) or Hangul compatibility jamo (U+3131-U+318E). Particles and endings stay attached to their eojeol; there is no stopword list. The layer is the eojeol, declared as such, not the English content word.
+R3 n2, syllable blocks: each precomposed Hangul syllable U+AC00-U+D7A3.
+R4 n3, jamo: each syllable block decomposes by the Unicode algorithm, index = code point - 0xAC00, final = index mod 28; it carries 2 jamo when final = 0 and 3 otherwise. Each standalone compatibility jamo counts 1 jamo and 0 blocks.
+R5 Not counted (declared lost): Latin, Han and every other script in the text (mixed text: the Latin part keeps its canonical count as a companion, M189; metrics are never mixed in one count); punctuation, digits and spacing inside an eojeol; the internal structure of compound vowels and double consonants (each is one jamo).
+R6 Projection: r = dr(5n) for each layer, the anchor by majority vote, the arms at the canonical offsets -- exactly as the canonical extraction (Core Parts 1.3 and 2).
+R7 Stability family (frozen): S1 append the eojeol "정확히"; S2 remove the final eojeol; S3 prepend the eojeols "당신의 말로". Stability = the number of the three variants that keep the anchor.
+R8 Null: HANGUL-STRUCTURAL-1 -- the (anchor, state) distribution of strikes of 1 to 15 eojeol of 1 to 6 blocks each, with jamo = 2 x blocks + finals, every combination counted once (tools/adaptor_rules.py, null()). Meetings with this adaptor's coordinates are graded at the chances it gives, beside EN-CANON's UNIFORM-729 (L-501).

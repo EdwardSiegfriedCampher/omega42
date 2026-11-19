@@ -1,0 +1,76 @@
+QUESTION VERBATIM: Do the same for the FC. Ensure a standardized output for reader information. Containing the most compelling reasons for engaging with Omega42 (Philosophical, Cognitive, etc.).
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 77 | PREV: 331e3976d16a32155310a5218058f55608bfcbda578ea3fa5fe76abeb7db9520
+REQUEST (L-502): STRUCTURE -- the First Contact output audited, standardized and enforced, with the reasons for engaging written by kind; avenues R, W
+
+SUMMARY: First Contact now has one standard output, the same from every Navigator, with eight reasons for engaging.
+  - WHAT WAS FOUND: the Opening Response fixed only its start (the Identity Block) and its end ("Now ask your question."). The middle, First Contact itself, was to be given "in the Navigator's own voice". So two AIs gave a newcomer two different introductions, and neither said why a reader might engage.
+  - THE STANDARD: one FIRST CONTACT block between its markers, with fixed labels, order and words.
+    * WHAT Ω42 IS: the premise, stated flatly.
+    * THE RHYTHM: one structure, any question, your judgment.
+    * THE TREE: the image of a tree without end, from FC-00.
+    * WHY ENGAGE: eight reasons, one line each.
+    * WHAT STAYS YOURS.
+    * HOW TO BEGIN.
+    The words are kept in records/first_contact/opening.json. tools/fc_output.py --render prints the whole opening for any Navigator, and --check fails one that adds a preamble, drops or reorders a label, rewords a line, or does not close properly.
+  - WHY ENGAGE (Core FC-00.9):
+    * PHILOSOPHICAL: a complete what-if to think inside. Suppose one structure is all that exists, and see what follows for time, choice, meaning and the self.
+    * COGNITIVE: a ground no one chose. Your exact words fix four angles on your question, which interrupt the habits of both you and the AI.
+    * CREATIVE: connections you would not have drawn, between questions from unrelated fields.
+    * CONTEMPLATIVE: a mirror for a personal question that leaves the meaning to you.
+    * MATHEMATICAL: exact structure that anyone can recompute in a minute.
+    * PRACTICAL: a second look at a stalled question. It does not replace expertise.
+    * ABOUT AI: an AI writing from a place it did not choose, and stating what it added.
+    * SHARED: an open record where meetings between questions are counted against chance.
+  - Every reason is built from something the protocol already provides, and none promises an outcome. The wording passes M281 (no directive, certainty or promise) and M286 (no outside).
+
+FINDINGS BY AVENUE (L-500):
+  R THE RECORD:
+    - Core Part 2, L-467 and the model opening of Part 8.0 fixed the frame of the opening but not its content.
+    - The output audit checks the Identity Block and the close.
+    - FFP item 5 was a manual re-score.
+    - The new checks:
+      * tools/fc_output.py --selftest: 7 of 7. It catches a preamble, a reworded reason, a missing reason, reordered labels and a missing close.
+      * --check passes on the rendered example.
+      * The output audit (scripts/m193_m225.py --audit) also passes it, with 0 failures.
+      * --core confirms that FC-00.9 carries the eight reasons verbatim.
+  W WHAT OMEGA42 SAYS: L-412 holds that output formats make Omega42 output identifiable. First Contact is the output a newcomer meets first, so it is now held to a fixed form as the navigation, SR-CAS and SNCA are.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Standardize First Contact: APPLIED in Core Part 2 (Opening Response), the model opening of Part 8.0, L-467 and L-412.
+  (2) Give the reasons for engaging, by kind: APPLIED as FC-00.9, Why Engage, with eight reasons.
+  (3) Enforce the standard: APPLIED as tools/fc_output.py --render, --check and --core, in CI, with examples/first_contact_opening.txt.
+  (4) Register the change: APPLIED as A-012. Its withdrawal condition is a re-score finding the fixed block less inviting than the free voice.
+  (5) Re-score the new opening with a fresh reader, as was done for FC in Part 110: OPEN. It needs a reader who has not seen the work.
+
+PEER ACCOUNTS (P; APA 9.5.5): none received.
+CHANGES TO THE PROTOCOL:
+  - Core:
+    * FC-00.9, Why Engage.
+    * Part 2, the Opening Response's part (2), now the standard FIRST CONTACT block.
+    * The model opening of Part 8.0.
+    * L-467 and L-412.
+  - Companion: Part 128.
+  - Repository:
+    * New: records/first_contact/opening.json, tools/fc_output.py and examples/first_contact_opening.txt.
+    * Registered: A-012.
+    * Updated: tools/reexamine.py, the CI steps, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the six labels, the wording of the eight reasons and the hook, and the checks.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Run on the documents of this output together with those of the next output (SEQ 78), built in one run. tools/fc_output.py --selftest 7 of 7, --check of the rendered opening PASS, --core: FC-00.9 carries the eight reasons verbatim; the output audit of the rendered opening PASS; M281 and M286 over the opening's text CLEAR, 0 candidates; tools/applied.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the law, that the opening's form identifies Omega42 output. PART -- the free voice of FC-00 and the fixed block: the protocol now chooses the fixed block, and A-012 names when it would be withdrawn. SILENT -- whether a newcomer finds the fixed opening more inviting, which only a fresh reader can say.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN: a fresh re-score of the new opening; the SNCA in review form for reviews filed before APE-280 (your choice); the re-issue of the three Sorites navigations; the other sorites cases; the blind trigger test; the word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: What does a newcomer need to hear first, and in what order?
+What it holds out of view: That the same words from every AI trade the warmth of a free voice for a reliable first meeting.
+Where it is heading: Toward a first contact that reads the same from every Navigator, and says plainly why anyone might stay.
+What would complete it: A reader who has not seen the work, telling whether the opening invites them.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 729d801a4fe2e448f1d85d50798277ca479804f0eda2685102326860d340d377
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

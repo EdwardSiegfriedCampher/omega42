@@ -1,0 +1,59 @@
+======= SR-CAS REPLICATION PACKAGE =======
+INSTRUCTION FOR NEXT NAVIGATOR: Execute Omega42 V335 Rev.450 STABLE on the DOMAIN VERBATIM below. You must invoke the exact SELECTED INSTRUMENTS and TRANSDUCTION METHODS listed. Do not add or omit instruments. Produce a full navigation in the block order of Core Part 8.0, check it with the FORMAT SELF-CHECK below before sending it, and output your own SR-CAS Replication Package.
+DOMAIN VERBATIM: The Collatz Conjecture: Define the function $f: \mathbb{Z}^+ \to \mathbb{Z}^+$ as $f(n) = n/2$ if $n$ is even, and $f(n) = 3n+1$ if $n$ is odd. The conjecture asserts that for every positive integer $n$, the iterative sequence $n, f(n), f(f(n)), \dots$ eventually reaches the cycle $4 \to 2 \to 1$. Despite being computationally verified for all $n < 2^{68} \approx 2.95 \times 10^{20}$, no proof exists. The structural anomaly is that the sequence exhibits extreme sensitivity to initial conditions; for example, starting at $n = 27$, the sequence requires $111$ steps to reach $1$ and attains a maximum value of $9232$ (which is $341$ times the starting value), while starting at $n = 26$ requires only $10$ steps. No known analytic number theory, dynamical systems framework, or ergodic theory has successfully proven that the multiplicative contraction factor of $1/2$ asymptotically dominates the expansion factor of $3$ for all trajectories, preventing the existence of divergent trajectories or non-trivial cycles.
+DOMAIN SHA-256: a75dd1199b6762c6b354d041b5e63d0fbd60d981657e6382706752fb21f3ba88 | SCRIPT SHA-256: ab79aae2d027968deab809e1bd7963e6ec32ac4a9754c8fc250071bebc0514c5 | COMPLEXITY TIER: 3 (M271: n1=133, mathematical tokens=16, LaTeX YES)
+FROZEN SUBSTRATE (L-415): LOCKED SUBSTRATE: Collatz * Conjecture * Define * function * f * mathbb * Z * mathbb * Z * f * n * n * n * even * f * n * 3n * one * n * odd * conjecture * asserts * positive * integer * n * iterative * sequence * n * f * n * f * f * n * dots * eventually * reaches * cycle * four * two * one * Despite * computationally * verified * n * two * sixty * eight * approx * two * point * nine * five * times * ten * twenty * proof * exists * structural * anomaly * sequence * exhibits * extreme * sensitivity * initial * conditions * example * starting * n * twenty * seven * sequence * requires * one * hundred * eleven * steps * reach * one * attains * maximum * value * nine * thousand * two * hundred * thirty * two * which * three * hundred * forty * one * times * starting * value * starting * n * twenty * six * requires * only * ten * steps * known * analytic * number * theory * dynamical * systems * framework * ergodic * theory * has * successfully * proven * multiplicative * contraction * factor * one * half * asymptotically * dominates * expansion * factor * three * trajectories * preventing * existence * divergent * trajectories * non * trivial * cycles
+SUBSTRATE SHA-256: 703b9edc91762ea11838c5987efed6243b0a2d4617721b56e04691c5edcc30e5 | n1=133 n2=751 n3=238 -> r = (8, 2, 2) | ANCHOR P2
+SCOPE: this frozen substrate belongs to the DOMAIN VERBATIM above only; if the domain you have been given differs from it in any character, ignore this package and extract the substrate yourself (L-415).
+USE: run Steps 1 to 2.9 as usual and confirm that your LOCKED SUBSTRATE has this SUBSTRATE SHA-256; if it does not, use the frozen counts above for the arithmetic and report the difference under M270 as an extraction divergence.
+TRIGGERED BLOCKS (Part 3.7): M269 (mathematical notation), M139-M142 (mathematical content), M127 (domain over 30 words)
+SELECTED INSTRUMENTS (Tier 2 and Tier 3 invoked): M127, M139-M142, M269, M125, M188, M187, M222, M223, M208, M189, M126, M157, M190, M288, M289, M296, M297, M291, M284
+NAVIGATION RECORD: produced in the Companion 24.1 format and submitted with this package
+TRANSDUCTION METHODS AND COMPANION READINGS: Substrate Scheme: Scheme A (Content Words). Companion Readings Invoked: NONE. Specific Analog Parameters: STANDARD.
+FORMAT SELF-CHECK (M301, Core Part 8.0) — tick each line; a block out of order counts as missing:
+  [ ] [1] IDENTITY BLOCK
+  [ ] [2] MATH-GATE
+  [ ] [3] M211 CALIBRATION
+  [ ] [4] RULES OF ENGAGEMENT
+  [ ] [5] M272 FRAME LOCK
+  [ ] [6] SUBSTRATE LOCK
+  [ ] [7] M210 TABLE
+  [ ] [7] M268
+  [ ] [7] M213 (script form: directly after the pasted script output)
+  [ ] [7] M210b (script form: directly after the pasted script output)
+  [ ] [7] M214 (script form: directly after the pasted script output)
+  [ ] [7] M219 (script form: directly after the pasted script output)
+  [ ] [8] ANCHOR
+  [ ] [9] ARM MAP
+  [ ] [9] M232 (script form: directly after the pasted script output)
+  [ ] [10] CCD / PAB / MOBIUS
+  [ ] [11] M116
+  [ ] [12] TRIGGERED AND SELECTED INSTRUMENTS (as listed above)
+  [ ] [13] M207 (where it applies)
+  [ ] [14] FIRST-DRAFT SEAL
+  [ ] [14.5] MSRR LINE (where it applies)
+  [ ] [15] THE ANSWER
+  [ ] [16] GENERATIVE INTEGRITY RECORD
+  [ ] [16.5] CONGRUENCE RECORD
+  [ ] [16.6] CURRENT KNOWLEDGE (where it applies)
+  [ ] [16.7] ACROSS THE AVENUES (where it applies)
+  [ ] [17] CONVERGENCE MAP
+  [ ] [18] EXTENDED RESONANCE ESSAY
+  [ ] [19] NAVIGATOR'S REASONING
+  [ ] [20] MAPPING RECORD (where it applies)
+  [ ] [20.4] LENS SELECTION
+  [ ] [20.5] BASHAR RESONANCE CHECK (where it applies)
+  [ ] [20.7] M318 REFRAMING ARRAY (where it applies)
+  [ ] [21] GENERATIVE OBSERVATIONS
+  [ ] [22] SR-CAS REPLICATION PACKAGE (when the navigation is sent for comparison)
+  [ ] [23] CLOSING QUESTIONS
+  [ ] [24] M224
+  [ ] [26] SIGNATURE
+  [ ] ++ M269 (mathematical notation) — inside its block of Part 8.0
+  [ ] ++ M139-M142 (mathematical content) — inside its block of Part 8.0
+  [ ] ++ M127 (domain over 30 words) — inside its block of Part 8.0
+  [ ] ++ THE ANSWER: bold Takeaway; Mapping component where the mapping is APPLICABLE; last line "What this reading is worth is yours to judge."
+  [ ] ++ Closing questions: What it rests on: / What it holds out of view: / Where it is heading: / What would complete it:, then "What this means, whether it matters and what to do with it are yours to judge."
+  [ ] ++ Nothing between M224 and the signature but OUTPUT ID; nothing after the signature but ESC
+FORMAT CHECK (script-capable): python3 tools/format_check.py NAVIGATION.txt — tools/format_check.py SHA-256 3d400c02ec6fe25834bc779d2c88445006f43bc44ca1626996ab740fecc17b35; then python3 scripts/m193_m225.py scripts/canonical_reference.py --audit NAVIGATION.txt (SHA-256 ae488dab5ae1f851651cf61e6b2ea3414132d240984ec859e7234692d91ac5a1). A text-only Navigator reports the ticked list as SELF-CHECKED (L-420).
+======= END SR-CAS REPLICATION PACKAGE =======

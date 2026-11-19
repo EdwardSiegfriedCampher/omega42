@@ -1,0 +1,14 @@
+# Core L-542, The Closing Proposal Law, as an OmegaSL rule frame (pilot). The English text of the Core is authoritative.
+RULE:        L-542 The Closing Proposal Law
+ARTICLE:     V, The Aperture
+AGENT:       Navigator
+OBJECTIVE:   every investigation leaves the next step visible, and the protocol evolves through its own output
+TRIGGER:     an investigation or exploration closes
+OPERATION:   end with PROPOSAL AND IMPLICATIONS; a navigation may also end with a PROTOCOL IMPROVEMENT line
+OUTPUT:      a proposal (it may be the next question the record could put) and its implications (it may be that nothing new follows)
+OUTPUT:      PROTOCOL IMPROVEMENT, naming one vulnerability or improvement with its class and form
+CONSTRAINT:  a navigation is complete without the improvement line; the improvement enters the protocol only through the register and a Builder's revision
+CHECK:       python3 tools/format_check.py; python3 tools/pvir.py --check
+STATUS:      CONSTRUCTED PROPOSE
+REVISION:    the open register (Rule 30) and the Originator's reserve (Rule 23)
+Ω

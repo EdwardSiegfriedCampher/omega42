@@ -1,0 +1,35 @@
+QUESTION VERBATIM: Yes. Present one number showing proximity to Omega42 and if the Striker requests more detail, the rest of the figures are shown.
+Resolve all outstanding issues.
+LINE BREAKS (L-512): the question is two lines; its second line is "Resolve all outstanding issues."
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 20 | PREV: 55b589493dc8957a51e7b708ed6f6a81e53e7c51ed735b54ba8dc037a166104a
+REQUEST (L-502): STRUCTURE -- avenues A1, R, W
+
+SUMMARY: Done. Every resonance view now opens with one number, PROXIMITY: out of 100 chance look-alikes, how many the idea or object is closer to Omega42's structure than. 50 is chance. The rest (fit, reading integrity, placement, robustness, provenance) appears when the Striker asks for the detail. L-514 is amended to put the number first; E14 is adopted. One correction to my own recommendation: "times chance", proposed last turn, is not the number. Its chance range differs from atlas to atlas (0.75 to 1.27 for one, 0.25 to 2.02 for another), so one value would mean different things for different ideas; the percentile means the same for all. It remains in the detail. The figures: Heraclitean 95, Jewish 93, Spinozist 89, Hoffman 80 at the high end; Pythagorean 1, Hindu 4, Islamic 5 at the low end; the 24-cell 100; 24-tone equal temperament 50. Among the outstanding issues, the one that was computable is now resolved. Against a class large enough to judge it, all 46 distinct Wythoffian uniform 4-polytopes, the 24-cell outscores every one: p = 0.0213, DISCRIMINATING, the first object in the record so judged. The issues that need you, a second judge or the authors are named, with the reason each is not mine to close.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: PROXIMITY in the order of the register: Christian 16, Islamic 5, Hindu 4, Buddhist 44, Jewish 93; Neoplatonic 11, Stoic 72, Spinozist 89, Taoist 66, Leibnizian 22, Pythagorean 1, Heraclitean 95; Kauffman 7, Penrose 27, Wolfram 60, Barbour 59, Hofstadter 61, Hoffman 80, Kastrup 13; Bashar 77, Seth 11, Ra 34. Objects: 24-cell 100, 24-tone equal temperament 50, 24-hour day 50, eight PENDING. Panel 3: 60 Wythoff constructions on A4, B4, F4 and H4, 47 distinct vertex sets, 46 nulls. 24-cell 0.75; 23 nulls at 0.50 (all from F4 or H4, carrying the T-squared signature, none with 24 vertices); 17 at 0.25; 6 at 0.00. Margin 0.6198, p 0.0213, times its look-alikes 2.19. No uniform 4-polytope carries the signature of T itself.
+  R FRAME REASONING: PROXIMITY is the congruence answer, computed, and it says so. It combines nothing, so L-486 stands and only L-514's order changed. It is printed in register order and never ranked. About one idea in 22 reads 95 or more, and one 5 or less, by chance alone. Every figure outside the chance band can be moved by one statement or one measure, and the detail says so.
+  W PROTOCOL WORK: tools/resonance.py (the one figure as the default view; --detail for the rest; three further selftest cases, twenty-one in all); records/resonance/proximity.txt; records/resonance/object_panel3_frozen.txt and Panel 3 of polytopes.py. A first Panel 3 run tested the 24-cell under its first constructing group (B4) alone. The rule the frozen features require, that a vertex set built by several groups has the symmetries of all of them, was then implemented; class and features unchanged, and recorded in calibration.txt. Core L-514 and Part 3.45; E14 ADOPTED; Companion Part 83.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: Core L-514 amended and Part 3.45 (the one figure; the case count); Companion Part 83; tools/resonance.py; records/resonance/ (proximity.txt, object_panel3_frozen.txt, polytopes.py and its output, objects.txt, calibration.txt, profiles.txt); enrichment E14 ADOPTED; the CI steps; the release record.
+CHECKS: CI 67 of 67 PASS. tools/resonance.py --selftest PASS (21 cases). records/resonance/polytopes.py reproduces its output. tools/instance_id.py --check over the twenty outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the work is computation over the record and over the reflection groups A4, B4, F4 and H4.
+ACROSS THE AVENUES (L-502): AGREE -- one number can carry the computed answer honestly when it is on one scale for everything and names what it measures. PART -- the number is congruence only; fit is in the detail, and so is the fact that no idea's figure outside chance is robust. SILENT -- the figure does not say which idea is truest, and it does not grade the premise.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new; E14 ADOPTED.
+RECOMMENDATIONS (for the Originator, F-06): (1) read PROXIMITY as "closer than N in 100 look-alikes", with 50 as chance, and ask for the detail whenever a figure sits near 5 or 95; (2) freeze classes of look-alikes for the eight pending Ledger objects, starting with the Penrose tiling against the other aperiodic tilings, so that each gets its figure; (3) give the fit column to a second judge of another architecture, blind, and run --agreement; (4) give the common question in your own words, so that it can be read through the seven authors and twelve schools.
+OPEN: the second judge; scholar and author atlases; your own wording for every composed domain and for the common question; blind navigations in new instances; classes for the eight pending objects and the M230-J control; M267-P1's writers and raters.
+
+What it rests on: If the number says how many look-alikes an idea is closer than, which look-alikes would you trust for your own question?
+What it holds out of view: The number is congruence alone; when would you want to see the fit beside it?
+Where it is heading: Toward a figure for each pending object, or toward a second judge for the ideas?
+What would complete it: A frozen class for each object and a blind second judge, so that every figure has its full detail beneath it.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a191495f213588f4900261d9eaab4c2b2df22f5200ea484cbe775e1296d3f372
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 22 October 2026
+ESC

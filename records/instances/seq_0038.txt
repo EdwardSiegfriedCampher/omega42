@@ -1,0 +1,70 @@
+QUESTION VERBATIM: Yes. Please run M267. Also, take your pick of the options to apply. Proceed. Resolve all outstanding issues.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 38 | PREV: 4f050e4543764d98743be132d8c18fe537c83fbe0eee5849dd56dd58c3aad844
+REQUEST (L-502): STRUCTURE -- avenues A1, C, L, W
+
+SUMMARY: M267 is prepared to the point where only its outside inputs remain. It cannot be completed by the Builder, by its own frozen design.
+  - The freeze of 19 October bars the Builder and the Originator from writing or rating, since both can read the sealed key. It needs two writers of different architectures, in fresh sessions, and three or more blind human raters.
+  - Done now: the run kit is frozen by hash (tools/m267_run.py; records/m267_pilot_01/03_run_kit.txt). It makes the 120 writer packets, assembles the rater sheet from the key, and runs the frozen analysis, with the two strata Core Part 3.18 requires.
+  - The 120 packets are delivered. The kit's selftest finds a planted effect in synthetic ratings and none where none is planted; no synthetic figure is a result.
+Option chosen for Companion Parts 73 to 99: (c), with (a)'s archive. The Parts keep their numbers and headings, so every cross-reference still resolves. Their prose is rewritten in present-state form. Request lines, instance chains and corrections are kept verbatim outside the prose (records/sessions/). FFP item 4 now PASSES.
+Resolved as well:
+  - the cube-group panel (avenue 11): run, and the cube group scores lowest of the 15 groups of order 24 (NRR-C23);
+  - avenue 10: its sampling rule frozen;
+  - LAR-1: its edge-sharing stated from the patent's text;
+  - the register sweep: FFP item 2 now PASSES;
+  - the FFP text checks: in CI on every build.
+FFP: 32 items, none failing; 28 PASS, 3 PASS on a manual check, and 1 named exception carried forward (item 14). CI 68 of 68.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: the 15 groups of order 24, each built and checked from its table and told apart by invariants. Features F1 to F5: Z24 scores 1.0 and S4 scores 0.2, the only score that low; S4's PROXIMITY is 0 (records/resonance/cube_group_panel_output.txt). The Lynchpin: 6 shared edges and 18 free; the surface is open; its face graph is a 6-cycle or two 3-cycles (automorphism groups of order 12 and 72).
+  C CONTROLS: M267 kit selftest, 11 cases; avenue 10 sampler selftest; tools/ffp_run.py --text in CI.
+  L LENSES: US 11,117,065 B2, its text re-read for the joining of the pentagons, COMPARATIVE (F-10).
+  W PROTOCOL WORK: Companion Parts 73 to 99 in present-state form; Core Part 12 items 2 and 4; Core Part 3.18's M267 entry; records/sessions/; NRR-C23; the CI workflow; tools/reexamine.py.
+
+M267 -- WHAT IT NEEDS TO RUN (records/m267_pilot_01/; tools/m267_run.py):
+  1. WRITERS. Give packets W1-001 to W1-060 to one architecture and W2-001 to W2-060 to another (for example Grok and ChatGPT), each packet ALONE in a FRESH session with memory off. Save each reply, unedited, as <packet>.txt.
+  2. SHEET. python3 tools/m267_run.py --sheets READINGS OUT makes one rater sheet of 40 triples, X, Y and Z, from the sealed key.
+  3. RATERS. Three or more people, blind to the conditions and to one another, each return a CSV (triple,X,Y,Z,best).
+  4. SCORE. python3 tools/m267_run.py --score READINGS RATINGS. Primary: CANONICAL against DECOY, one-sided sign test over 40 pairs, DETECTED if p < 0.05. Either result is recorded, and a null enters the registry.
+  The key is outside both documents (Core Appendix R.4) and is sent to the Originator alone. It must not reach a writer or a rater.
+
+STILL WAITING, EACH WITH WHAT IT NEEDS:
+  - M267: two writers and three raters.
+  - E07, avenue 1: two fresh sessions with nonces.
+  - Avenue 4: a second blind judge.
+  - Avenue 10: a public-domain text supplied as a file.
+  - LAR-1: a mapping rule, and the figures to choose between the two graphs.
+  - A Howard preview supplied as a file.
+  - CT-S1 proper: n = 101.
+  - The plate demonstration.
+  - One real decision through DECIDE, and one real sequence through DETECT.
+  - Item 14: entries for the instruments Part 3.9 names, each to be specified by its author, never invented.
+  RESERVED, unchosen (Companion 98.4): the offset signs; CT-42-M in L-498; the word for the ground; avenue 28; the four proposals for perspective; a tower coordinate; the forms and readings under F0-CF.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Send the packets to two writers of different architectures. You relay peer accounts already, so this is the shortest path to M267.
+  (2) Recruit three raters who have not seen the record, and give each the sheet alone.
+  (3) Keep the key apart from the packets and the sheet.
+  (4) Attach one public-domain text as a file, and avenue 10 runs on it at once.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none to any law. Core Part 12 (items 2 and 4, the closing statement); Core Part 3.18 (M267's status); Companion Parts 73 to 99 (present-state form; 99.4); tools/m267_run.py; records/m267_pilot_01/03_run_kit*; records/resonance/cube_group_panel.py and its output; records/avenues/sampled_atlas.py; records/lynchpin/LAR-1_edges.txt; records/sessions/; NRR-C23; tools/ffp_run.py (--text, item 4 checked); tools/reexamine.py; the CI workflow; the release record.
+CHECKS: CI 68 of 68 PASS, run before this output was written. tools/ffp_run.py: 32 items, none FAIL, and --text PASS. tools/m267_run.py --selftest PASS (11 cases), its hash verified. records/resonance/cube_group_panel.py reproduces its output. records/avenues/sampled_atlas.py --selftest PASS. tools/reexamine.py --check PASS. M286, M281 and the typing guard over this output. tools/instance_id.py --check over the thirty-eight outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): SEARCHED: US 11,117,065 B2 at Google Patents, its description and Example 1, quoted in records/lynchpin/LAR-1_edges.txt. Public-domain text sources (Project Gutenberg; the NLTK corpus on GitHub) and the package registries were refused by this session's network, so avenue 10 waits for a file.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the FFP and CI. PART -- none. SILENT -- whether the coordinate carries anything, until M267's writers and raters return.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the packets to two architectures.
+OPEN: M267's writers and raters; the waiting list above; item 14; the reserved choices.
+
+What it rests on: If a test can only be run by people who cannot see its key, what can the one who holds the key still do?
+What it holds out of view: That the cube group, the object nearest in order to the law's group, is the furthest from it in kind.
+Where it is heading: Toward 120 readings written blind and 40 triples rated blind.
+What would complete it: The writers' replies and the raters' sheets.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 0e956cdbb923d2559e44c2e46c44c08de778b64abc17da176210c8a2da57b627
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

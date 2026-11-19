@@ -1,0 +1,19 @@
+[Reply A -- pasted inline by the Originator, 9 October 2026; system not stated]
+Results (all computations exhaustive over the 81-element set V)
+1. Non-degeneracy of beta: the kernel of x -> beta(x, .) is {(0,0)}; beta is non-degenerate and (V, q) is a modular abelian
+   anyon theory. (Exhaustive computation.)
+2. (1/9) Sum theta(x) = 1; the phase is 0 and c_- = 0 mod 8. (Exhaustive summation.)
+3. "The quadratic form is the unique (up to automorphism) non-degenerate quadratic form on (Z/9Z)^2 whose associated bilinear
+   form has the values of beta computed above and whose spin content is 9 anyons of spin 0, 12 anyons each of spins 1/9, 2/9,
+   4/9, 5/9, 7/9, 8/9. It is the discriminant quadratic module of discriminant 5 reduced modulo 9. It is not isomorphic to a
+   Z_N toric-code theory (different spin spectrum) nor to an SU(N)_k Chern-Simons theory of rank 81. It is the quadratic form
+   q(a,b) = (a^2 + ab - b^2)/9."
+4. Bosons {(0,0),(0,3),(0,6),(3,0),(3,3),(3,6),(6,0),(6,3),(6,6)} = (Z/3)^2, a subgroup of order 9, isotropic, Lagrangian;
+   condensing it yields the trivial (vacuum) modular tensor category.
+5. Unitary symmetries: order 24; element orders: one identity, thirteen of order 2, two of order 3, two of order 4, two of
+   order 6, four of order 12. Time-reversal symmetries: 24; twelve of order 4, four of order 8, eight of order 24. The union
+   is a group of order 48 (the full orthogonal group of the quadratic form).
+6. Five orbits: 24 {1/9, 8/9}; 24 {2/9, 7/9}; 24 {4/9, 5/9}; 8 nonzero bosons; 1 vacuum.
+7. g = [[0,1],[1,1]], determinant 8; q(gx) = -q(x): time-reversal symmetry; order 24; three 24-cycles, one 8-cycle, one fixed
+   point; g^12 = -I (central).
+All statements obtained by exhaustive finite computation; none conjectural.

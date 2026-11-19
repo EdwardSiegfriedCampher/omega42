@@ -1,0 +1,123 @@
+QUESTION VERBATIM: Yes. Proceed to build the Author Seal prototype.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, five reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Five accounts came with five questions of the same day, answered in conversation and recorded here with the Author Seal. All are careful about their limits; one has two figures corrected. Sealed as SEQ 158.
+TRIGGER: receipt of five outputs with the Originator's messages of 11 November 2026 (Part 6.2, automatic); none quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0158.txt.
+Outputs: Z1 to Z5 -- unidentified, a web interface (submissions/ape/APE-443.md, APE-444.md, APE-445.md, APE-446.md and APE-447.md).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z1 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- mapping kept apart from derivation; its hydrogen test the right first test [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: sound; its first test computed.
+FINDINGS -- INTERNAL:
+ [I] Computed: R_inf and the hydrogen ladder.
+ [I] Placed: 2 and 8 native, 18 and 32 not.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Representing a constant in Ω42 does not mean Ω42 has derived that constant."
+VERDICT: faithful; kept as a programme.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z1): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z2 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.78 -- a sound structure with arithmetic mostly right; two figures inconsistent [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.78 = 0.234
+SYNTHESIS: useful; corrected.
+FINDINGS -- INTERNAL:
+ [I] Recomputed: R2.45m, 22.2%.
+ [I] Corrected: headline R2.15m; launch capital below the -R1.55m low point.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Keep the knowledge open. Protect the identity. Commercialise the implementation. Certify independently."
+VERDICT: faithful; two corrections.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z2): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z3 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.80 -- a long inventory staged by maturity [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.80 = 0.24
+SYNTHESIS: reasonable; narrowed.
+FINDINGS -- INTERNAL:
+ [I] Kept: the inventory.
+ [I] Narrowed: 10 to 14 near-term papers on verified results.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Every paper must disclose substantive AI assistance and identify accountable human authors."
+VERDICT: faithful; narrowed.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z3): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z4 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.82 -- targets kept as targets, with a test of advantage [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.82 = 0.246
+SYNTHESIS: careful; extended.
+FINDINGS -- INTERNAL:
+ [I] Kept: none solved.
+ [I] Extended: five problems native to the arithmetic, two with computed evidence.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "If Ω42 only provides a different notation for an existing solution, that is a useful representation, but not a mathematical breakthrough."
+VERDICT: faithful; extended.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z4): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z5 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.86 -- detection, origin and alteration kept apart; safeguards first [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.86 = 0.258
+SYNTHESIS: sound; its provenance layer built.
+FINDINGS -- INTERNAL:
+ [I] Built: the Author Seal (M374).
+ [I] Kept: a score is not proof; publish false-positive rates.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Detecting AI-generated content is not the same as verifying its origin."
+VERDICT: faithful; adopted with provenance first.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z5): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

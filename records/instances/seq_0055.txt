@@ -1,0 +1,48 @@
+QUESTION VERBATIM: Take note.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 55 | PREV: 8f4b606256f5045befe20b4a012b827a5bb48f95a7c8624b0f250d437ad3ca43
+REQUEST (L-502): STRUCTURE -- avenues M, P, W
+
+SUMMARY: Both examinations of SEQ 54 are filed: GPT-6 as APE-245 and Grok as APE-246. GPT-6's main point was right: testing four random fields verifies the affine law but does not prove it. The proof is now symbolic and exact. Every node cell, with the field written as symbols, is y_j + K. The one step outside addition is the averaging in rows 20 and 31, and it is exact when the field values are integers. So MATH-55 now says "for every integer field", which it did not say before.
+  - PROVED, WITH ITS CONDITION. 11,664 node cells are exactly y_j + K with the frozen K. For a field with fractional values the averaged cells can differ by less than 1. Every field M326 has used (draws, the planted sequence, the stored fields) is integer, so no result changes.
+  - ONE RULE TAKEN. Validation on one sequence authorizes nothing on another: Core L-526 (6).
+  - DENOMINATORS STATED. The 99.1% and 93.8% count draw numbers, 15,816 at h = 1, not draws.
+  - TWO DECISIONS LEFT TO YOU. GPT-6's persistence baseline and block shuffle for M326, and Grok's question whether M326 joins standing conformance.
+
+FINDINGS BY AVENUE (L-500):
+  M MATHEMATICS (records/construct/primordial/affine_proof.py, frozen in AFFINE_PROOF.txt; the workbook stays with you, so this runs outside CI like freeze.py):
+    - Each value is held as a linear form in the symbols y_0 to y_5. Addition, subtraction and scaling keep it a form; any other operation on a form would be reported, and none is, except INT.
+    - INT appears 648 times, always as INT(AVERAGE(...)) of one column, a form y_j + c with c a half-integer. For integer y_j, INT(y_j + c) = y_j + floor(c), which is the frozen K.
+  P PEER ACCOUNTS: below.
+  W PROTOCOL WORK: the changes listed under CHANGES TO THE PROTOCOL.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Decide on GPT-6's proposal: add a persistence baseline (the last row carried forward) and a block shuffle to M326's gate. For a series with trend, beating plain shuffled history shows only that order matters; beating persistence shows the Construct adds something. I recommend it before M326 is used on a real series.
+  (2) Decide whether M326 stays optional (Tier 3) or joins standing conformance, as Grok asks. I recommend it stays optional until it has one real sequence behind it.
+  (3) The first test on a sequence of yours should be chosen and frozen before M326 sees it, as GPT-6 says: source, dates, target and baseline written down first.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes.
+  - APE-245, GPT-6: taken, the proof point (now symbolic) and Article 7 (L-526 (6)). Answered: the denominators, and CTE-42 (the record sets aside its check and its security claims, not every idea in it). Kept as proposal: persistence baseline, block shuffle, rolling-origin evaluation. Holding: the Lotto result is read narrowly, as no advantage for the selected rule on the held-out period.
+  - APE-246, Grok: checked against Companion Part 107. Corrected: the 26 seeds came from the descriptions; the workbook confirms the total and corrects the split to 18 + 8.
+CHANGES TO THE PROTOCOL:
+  - Core: MATH-55 qualified to integer fields, with the symbolic proof; L-526 (6).
+  - Companion: 107.3, 107.4, 107.10 and 107.11; Commons lines for APE-245 and APE-246.
+  - Repository: records/construct/primordial/affine_proof.py and AFFINE_PROOF.txt; the release record; the CI chain.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written; the build that follows it checks both. records/construct/primordial/affine_proof.py on the workbook (SHA-256 2a96dd63...): 11,664 node cells exactly y_j + K, 0 not. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281 and the typing guard over the documents. tools/instance_id.py --check over the fifty-five outputs. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed; the proof reads only the workbook and the frozen constants.
+ACROSS THE AVENUES (L-502): AGREE -- the symbolic proof, the numerical check and the frozen constants. PART -- none. SILENT -- whether a shuffle is the right null for a series you choose, which depends on the series.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the persistence baseline.
+OPEN: Obligation 4, the vertical nodes; the independent re-score of First Contact (FFP item 5); recommendations 1 and 2.
+
+What it rests on: If a law was verified, what made it proved?
+What it holds out of view: That a proof carries a condition the tests never varied.
+Where it is heading: Toward a Construct whose every cell is known, and whose limits are named.
+What would complete it: Your decision on the baseline, and a first sequence chosen in advance.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 2a90f29468213ae08bffde43eb357ed44c6e1c4313346d5ff4a6f2032d32e9a1
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 28 October 2026
+ESC

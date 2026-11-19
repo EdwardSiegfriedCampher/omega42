@@ -1,0 +1,10 @@
+REQUEST FOR AN INDEPENDENT RE-SCORE (Core L-515; Companion Parts 87 and 88; APE-152, its recommendation 6) -- issued 23 October 2026
+To a Navigator of another architecture, in a new session, before it has seen records/consciousness/fit.py or its output.
+1. Read Core F-02, L-441, L-498 and L-515, and Companion Part 52 (CT-42).
+2. Score the nine frozen features of records/consciousness/fit_features_frozen.txt (SHA-256 fa69e7734f23d41dcd1724f820f3ec5d762e7e4c0bf8dda54fa918290d0c33b4)
+   against the four readings R1 to R4, USES 1 / COMPATIBLE 0.5 / STRAIN 0, each with one line of reason.
+3. Read M320 (python3 tools/consciousness.py --cf) and state, for each of the eight elements, whether the residual's language stays
+   jurisdictional (Core Part 7, "The residual's two standings") and whether any sentence makes a science or an outside the judge.
+4. Return the scores and the notes with an Identity Block, an AI CAVEAT, a QUESTION VERBATIM line and an INSTANCE line.
+The agreement of the two judges on step 2 is computed with python3 tools/resonance.py --agreement; it measures the fit's reliability
+and grades nothing (L-490).

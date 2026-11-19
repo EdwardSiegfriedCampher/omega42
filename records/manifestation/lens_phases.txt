@@ -1,0 +1,286 @@
+MANIFESTATION PHASE (M312) OF THE FROZEN LENS ATLASES -- census after the freeze; CDT-A values, exact chance
+=== BASHAR (14 statements) ===
+  LAW 1        | You exist. You always have and you always will.      | state (8, 6)  | SEVENTH
+  LAW 2        | Everything is here and now.                          | state (6, 4)  | MANIFEST
+  LAW 3        | The One is the All and the All is the One.           | state (1, 3)  | SEVENTH
+  LAW 4        | What you put out is what you get back.               | state (4, 0)  | MANIFEST
+  LAW 5        | Everything changes except for the first four laws.   | state (3, 0)  | AXIS +
+  FORMULA 1    | Act on your highest excitement.                      | state (2, 3)  | SEVENTH
+  FORMULA 2    | Take it as far as you can.                           | state (6, 5)  | MANIFEST
+  FORMULA 3    | Have zero insistence on the outcome.                 | state (2, 8)  | SEVENTH
+  FORMULA 4    | Remain in a positive state whatever happens.         | state (7, 8)  | MANIFEST
+  FORMULA 5    | Let go of the beliefs that no longer serve you.      | state (3, 4)  | MANIFEST
+  TEACHING 1   | Physical reality is a mirror.                        | state (6, 6)  | AXIS +
+  TEACHING 2   | Circumstances are neutral; you give them meaning.    | state (3, 1)  | SEVENTH
+  TEACHING 3   | You shift between parallel realities.                | state (7, 7)  | SEVENTH
+  TEACHING 4   | The present creates the past.                        | state (6, 0)  | AXIS +
+  CENSUS: SEVENTH 6 | MANIFEST 5 | AXIS 3 | STILL 0
+  CHANCE: P(AXIS >= 3) = 0.154 (p = 8/81 each) | P(SEVENTH >= 6) = 0.647 | P(MANIFEST >= 5) = 0.822 (p = 36/81 each)
+=== SETH (8 statements) ===
+  SETH 1       | You create your own reality.                         | state (2, 1)  | MANIFEST
+  SETH 2       | The point of power is in the present.                | state (6, 4)  | MANIFEST
+  SETH 3       | Your beliefs form your experience.                   | state (7, 1)  | SEVENTH
+  SETH 4       | Consciousness creates form.                          | state (6, 3)  | AXIS -
+  SETH 5       | All time is simultaneous.                            | state (1, 8)  | MANIFEST
+  SETH 6       | Probable selves live out the choices you do not make | state (4, 5)  | SEVENTH
+  SETH 7       | Every being seeks value fulfillment.                 | state (6, 6)  | AXIS +
+  SETH 8       | You are not at the mercy of the past.                | state (6, 6)  | AXIS +
+  CENSUS: SEVENTH 2 | MANIFEST 3 | AXIS 3 | STILL 0
+  CHANCE: P(AXIS >= 3) = 0.037 (p = 8/81 each) | P(SEVENTH >= 2) = 0.933 | P(MANIFEST >= 3) = 0.770 (p = 36/81 each)
+=== RA (8 statements) ===
+  RA 1         | All is one.                                          | state (5, 6)  | SEVENTH
+  RA 2         | Free will is the first distortion.                   | state (6, 5)  | MANIFEST
+  RA 3         | Love is the second distortion.                       | state (6, 1)  | MANIFEST
+  RA 4         | Light is the third distortion.                       | state (6, 1)  | MANIFEST
+  RA 5         | There are two paths: service to others and service t | state (8, 5)  | MANIFEST
+  RA 6         | Consciousness evolves through seven densities.       | state (7, 7)  | SEVENTH
+  RA 7         | The Creator knows itself through each being.         | state (2, 8)  | SEVENTH
+  RA 8         | The veil of forgetting makes the choice possible.    | state (7, 3)  | MANIFEST
+  CENSUS: SEVENTH 3 | MANIFEST 5 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 3) = 0.770 | P(MANIFEST >= 5) = 0.250 (p = 36/81 each)
+=== CHRISTIAN (13 statements) ===
+  CHR 1        | In the beginning God created the heaven and the eart | state (7, 6)  | SEVENTH
+  CHR 2        | In the beginning was the Word.                       | state (1, 2)  | MANIFEST
+  CHR 3        | All things were made by him.                         | state (6, 2)  | MANIFEST
+  CHR 4        | The Word was made flesh.                             | state (6, 2)  | MANIFEST
+  CHR 5        | God is love.                                         | state (1, 8)  | MANIFEST
+  CHR 6        | He took upon him the form of a servant.              | state (3, 3)  | AXIS +
+  CHR 7        | God so loved the world, that he gave his only begott | state (0, 5)  | SEVENTH
+  CHR 8        | He is risen.                                         | state (1, 8)  | MANIFEST
+  CHR 9        | Behold, I make all things new.                       | state (7, 1)  | SEVENTH
+  CHR 10       | I am Alpha and Omega, the beginning and the ending.  | state (3, 5)  | MANIFEST
+  CHR 11       | Thou hast ordered all things in measure and number a | state (8, 2)  | SEVENTH
+  CHR 12       | Begotten, not made, being of one substance with the  | state (7, 6)  | SEVENTH
+  CHR 13       | On the seventh day God ended his work.               | state (3, 8)  | MANIFEST
+  CENSUS: SEVENTH 5 | MANIFEST 7 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.741 (p = 8/81 each) | P(SEVENTH >= 5) = 0.760 | P(MANIFEST >= 7) = 0.341 (p = 36/81 each)
+=== ISLAMIC (14 statements) ===
+  ISL 1        | In the name of Allah, the Beneficent, the Merciful.  | state (2, 0)  | SEVENTH
+  ISL 2        | Say: He is Allah, the One!                           | state (2, 2)  | SEVENTH
+  ISL 3        | He begetteth not nor was begotten.                   | state (6, 5)  | MANIFEST
+  ISL 4        | And there is none comparable unto Him.               | state (7, 4)  | MANIFEST
+  ISL 5        | The Originator of the heavens and the earth!         | state (6, 2)  | MANIFEST
+  ISL 6        | When He decreeth a thing, He saith unto it only: Be! | state (4, 8)  | SEVENTH
+  ISL 7        | Lo! We have created every thing by measure.          | state (3, 0)  | AXIS +
+  ISL 8        | He is the First and the Last, and the Outward and th | state (7, 3)  | MANIFEST
+  ISL 9        | Allah is the Light of the heavens and the earth.     | state (2, 2)  | SEVENTH
+  ISL 10       | We are nearer to him than his jugular vein.          | state (3, 8)  | MANIFEST
+  ISL 11       | Show us the straight path.                           | state (2, 0)  | SEVENTH
+  ISL 12       | Lo! we are Allah's and lo! unto Him we are returning | state (4, 1)  | SEVENTH
+  ISL 13       | As We began the first creation, We shall repeat it.  | state (8, 3)  | MANIFEST
+  ISL 14       | There remaineth but the Countenance of thy Lord of M | state (8, 3)  | MANIFEST
+  CENSUS: SEVENTH 6 | MANIFEST 7 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.767 (p = 8/81 each) | P(SEVENTH >= 6) = 0.647 | P(MANIFEST >= 7) = 0.437 (p = 36/81 each)
+=== HINDU (13 statements) ===
+  HIN 1        | In the beginning there was that only which is, one o | state (4, 8)  | SEVENTH
+  HIN 2        | It thought, may I be many, may I grow forth.         | state (4, 5)  | SEVENTH
+  HIN 3        | It is the Self, and thou art it.                     | state (6, 1)  | MANIFEST
+  HIN 4        | That from whence these beings are born, that by whic | state (3, 7)  | MANIFEST
+  HIN 5        | That is Brahman.                                     | state (5, 8)  | SEVENTH
+  HIN 6        | What is here, the same is there; and what is there,  | state (3, 4)  | MANIFEST
+  HIN 7        | He goes from death to death who sees any difference  | state (4, 5)  | SEVENTH
+  HIN 8        | As pure water poured into pure water remains the sam | state (1, 0)  | SEVENTH
+  HIN 9        | It is never born, nor doth it ever die.              | state (7, 1)  | SEVENTH
+  HIN 10       | Weapons cleave it not, fire consumeth it not.        | state (2, 4)  | MANIFEST
+  HIN 11       | Whenever loss of piety and the rise of impiety occur | state (1, 8)  | MANIFEST
+  HIN 12       | I am born age after age.                             | state (7, 2)  | MANIFEST
+  HIN 13       | On attaining to me there is no re-birth.             | state (7, 7)  | SEVENTH
+  CENSUS: SEVENTH 7 | MANIFEST 6 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 7) = 0.341 | P(MANIFEST >= 6) = 0.557 (p = 36/81 each)
+=== BUDDHIST (13 statements) ===
+  BUD 1        | All that we are is the result of what we have though | state (3, 8)  | MANIFEST
+  BUD 2        | Pain follows him, as the wheel follows the foot of t | state (0, 0)  | STILL
+  BUD 3        | Hatred does not cease by hatred at any time: hatred  | state (5, 6)  | SEVENTH
+  BUD 4        | Looking for the maker of this tabernacle, I shall ha | state (1, 2)  | MANIFEST
+  BUD 5        | Painful is birth again and again.                    | state (2, 2)  | SEVENTH
+  BUD 6        | But now, maker of the tabernacle, thou hast been see | state (6, 3)  | AXIS -
+  BUD 7        | Self is the lord of self, who else could be the lord | state (7, 5)  | MANIFEST
+  BUD 8        | Not to commit any sin, to do good, and to purify one | state (0, 4)  | SEVENTH
+  BUD 9        | Pain, the origin of pain, the destruction of pain, a | state (1, 4)  | MANIFEST
+  BUD 10       | Nirvana the highest happiness.                       | state (6, 7)  | SEVENTH
+  BUD 11       | All created things perish.                           | state (6, 5)  | MANIFEST
+  BUD 12       | All created things are grief and pain.               | state (2, 2)  | SEVENTH
+  BUD 13       | All forms are unreal.                                | state (1, 1)  | SEVENTH
+  CENSUS: SEVENTH 6 | MANIFEST 5 | AXIS 1 | STILL 1
+  CHANCE: P(AXIS >= 1) = 0.741 (p = 8/81 each) | P(SEVENTH >= 6) = 0.557 | P(MANIFEST >= 5) = 0.760 (p = 36/81 each)
+=== JEWISH (13 statements) ===
+  JEW 1        | In the beginning God created the heaven and the eart | state (7, 6)  | SEVENTH
+  JEW 2        | And God said: 'Let there be light.' And there was li | state (8, 6)  | SEVENTH
+  JEW 3        | And God created man in His own image.                | state (7, 6)  | SEVENTH
+  JEW 4        | And on the seventh day God finished His work which H | state (5, 3)  | SEVENTH
+  JEW 5        | Hear, O Israel: the LORD our God, the LORD is one.   | state (4, 5)  | SEVENTH
+  JEW 6        | I AM THAT I AM.                                      | state (2, 3)  | SEVENTH
+  JEW 7        | To whom then will ye liken God?                      | state (2, 7)  | MANIFEST
+  JEW 8        | Lift up your eyes on high, and see: who hath created | state (0, 4)  | SEVENTH
+  JEW 9        | I form the light, and create darkness; I make peace, | state (5, 4)  | SEVENTH
+  JEW 10       | Declaring the end from the beginning.                | state (6, 6)  | AXIS +
+  JEW 11       | One generation passeth away, and another generation  | state (5, 0)  | MANIFEST
+  JEW 12       | The wind goeth toward the south, and turneth about u | state (5, 8)  | SEVENTH
+  JEW 13       | That which hath been is that which shall be.         | state (2, 5)  | MANIFEST
+  CENSUS: SEVENTH 9 | MANIFEST 3 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.741 (p = 8/81 each) | P(SEVENTH >= 9) = 0.065 | P(MANIFEST >= 3) = 0.971 (p = 36/81 each)
+=== NEOPLATONIC (9 statements) ===
+  NEO 1        | The One is all things and no one of them.            | state (2, 8)  | SEVENTH
+  NEO 2        | The source of all things is not all things.          | state (6, 0)  | AXIS +
+  NEO 3        | Seeking nothing, possessing nothing, lacking nothing | state (4, 5)  | SEVENTH
+  NEO 4        | In our metaphor, it has overflowed, and its exuberan | state (4, 6)  | SEVENTH
+  NEO 5        | The source must be no Being but Being's generator.   | state (6, 5)  | MANIFEST
+  NEO 6        | This product has turned again to its begetter and be | state (0, 1)  | MANIFEST
+  NEO 7        | They will know their source and Principle since by p | state (5, 2)  | SEVENTH
+  NEO 8        | This is the life of gods and of the godlike and bles | state (3, 6)  | AXIS -
+  NEO 9        | The passing of solitary to solitary.                 | state (6, 7)  | SEVENTH
+  CENSUS: SEVENTH 5 | MANIFEST 2 | AXIS 2 | STILL 0
+  CHANCE: P(AXIS >= 2) = 0.221 (p = 8/81 each) | P(SEVENTH >= 5) = 0.366 | P(MANIFEST >= 2) = 0.959 (p = 36/81 each)
+=== STOIC (9 statements) ===
+  STO 1        | Constantly regard the universe as one living being,  | state (5, 2)  | SEVENTH
+  STO 2        | All things are implicated with one another, and the  | state (3, 8)  | MANIFEST
+  STO 3        | There is one universe made up of all things, and one | state (1, 3)  | SEVENTH
+  STO 4        | All things from eternity are of like forms and come  | state (8, 1)  | MANIFEST
+  STO 5        | The present is the only thing of which a man can be  | state (3, 7)  | MANIFEST
+  STO 6        | The periodic movements of the universe are the same, | state (8, 5)  | MANIFEST
+  STO 7        | Observe constantly that all things take place by cha | state (3, 1)  | SEVENTH
+  STO 8        | Of things some are in our power, and others are not. | state (2, 1)  | MANIFEST
+  STO 9        | Wish the things which happen to be as they are, and  | state (5, 6)  | SEVENTH
+  CENSUS: SEVENTH 4 | MANIFEST 5 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 4) = 0.626 | P(MANIFEST >= 5) = 0.366 (p = 36/81 each)
+=== SPINOZIST (9 statements) ===
+  SPI 1        | By God, I mean a being absolutely infinite.          | state (7, 4)  | MANIFEST
+  SPI 2        | That thing is called free, which exists solely by th | state (4, 1)  | SEVENTH
+  SPI 3        | Besides God no substance can be granted or conceived | state (7, 4)  | MANIFEST
+  SPI 4        | Whatsoever is, is in God, and without God nothing ca | state (3, 6)  | AXIS -
+  SPI 5        | From the necessity of the divine nature must follow  | state (5, 0)  | MANIFEST
+  SPI 6        | God is the indwelling and not the transient cause of | state (7, 3)  | MANIFEST
+  SPI 7        | Nothing in the universe is contingent.               | state (6, 8)  | SEVENTH
+  SPI 8        | Things could not have been brought into being by God | state (1, 3)  | SEVENTH
+  SPI 9        | The order and connection of ideas is the same as the | state (3, 7)  | MANIFEST
+  CENSUS: SEVENTH 3 | MANIFEST 5 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.608 (p = 8/81 each) | P(SEVENTH >= 3) = 0.843 | P(MANIFEST >= 5) = 0.366 (p = 36/81 each)
+=== TAOIST (9 statements) ===
+  TAO 1        | The Tao that can be trodden is not the enduring and  | state (7, 2)  | MANIFEST
+  TAO 2        | The Tao is like the emptiness of a vessel.           | state (2, 2)  | SEVENTH
+  TAO 3        | The thirty spokes unite in the one nave; but it is o | state (5, 2)  | SEVENTH
+  TAO 4        | This returning to their root is what we call the sta | state (4, 3)  | SEVENTH
+  TAO 5        | There was something undefined and complete, coming i | state (4, 6)  | SEVENTH
+  TAO 6        | Passing on, it becomes remote. Having become remote, | state (8, 0)  | SEVENTH
+  TAO 7        | The movement of the Tao by contraries proceeds.      | state (2, 1)  | MANIFEST
+  TAO 8        | The Tao produced One; One produced Two; Two produced | state (6, 0)  | AXIS +
+  TAO 9        | The Tao in its regular course does nothing, and so t | state (5, 7)  | SEVENTH
+  CENSUS: SEVENTH 6 | MANIFEST 2 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.608 (p = 8/81 each) | P(SEVENTH >= 6) = 0.157 | P(MANIFEST >= 2) = 0.959 (p = 36/81 each)
+=== LEIBNIZIAN (7 statements) ===
+  LEI 1        | The Monad, of which we shall here speak, is nothing  | state (0, 6)  | AXIS -
+  LEI 2        | The Monads have no windows, through which anything c | state (0, 5)  | SEVENTH
+  LEI 3        | God alone is the primary unity or original simple su | state (8, 8)  | SEVENTH
+  LEI 4        | It is a perpetual living mirror of the universe.     | state (2, 1)  | MANIFEST
+  LEI 5        | They agree with each other in virtue of the pre-esta | state (0, 2)  | MANIFEST
+  LEI 6        | There can be no fact real or existing, no statement  | state (5, 8)  | SEVENTH
+  LEI 7        | Truths of reasoning are necessary and their opposite | state (3, 1)  | SEVENTH
+  CENSUS: SEVENTH 4 | MANIFEST 2 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.517 (p = 8/81 each) | P(SEVENTH >= 4) = 0.380 | P(MANIFEST >= 2) = 0.892 (p = 36/81 each)
+=== PYTHAGOREAN (9 statements) ===
+  PYT 1        | Numbers are by nature the first.                     | state (6, 0)  | AXIS +
+  PYT 2        | In numbers they seemed to see many resemblances to t | state (0, 3)  | AXIS -
+  PYT 3        | The modifications and the ratios of the musical scal | state (3, 7)  | MANIFEST
+  PYT 4        | All other things seemed in their whole nature to be  | state (4, 6)  | SEVENTH
+  PYT 5        | The whole heaven to be a musical scale and a number. | state (7, 1)  | SEVENTH
+  PYT 6        | The elements of number are the even and the odd.     | state (2, 6)  | MANIFEST
+  PYT 7        | The One proceeds from both of these.                 | state (6, 3)  | AXIS -
+  PYT 8        | Number is the principle both as matter for things an | state (6, 4)  | MANIFEST
+  PYT 9        | Limit and unlimited, odd and even, one and plurality | state (4, 5)  | SEVENTH
+  CENSUS: SEVENTH 3 | MANIFEST 3 | AXIS 3 | STILL 0
+  CHANCE: P(AXIS >= 3) = 0.051 (p = 8/81 each) | P(SEVENTH >= 3) = 0.843 | P(MANIFEST >= 3) = 0.843 (p = 36/81 each)
+=== HERACLITEAN (10 statements) ===
+  HER 1        | All things are one.                                  | state (1, 0)  | SEVENTH
+  HER 2        | It was ever, is now, and ever shall be an ever-livin | state (6, 4)  | MANIFEST
+  HER 3        | The way up and the way down is one and the same.     | state (7, 3)  | MANIFEST
+  HER 4        | All things are an exchange for Fire, and Fire for al | state (7, 5)  | MANIFEST
+  HER 5        | It is an attunement of opposite tensions, like that  | state (3, 5)  | MANIFEST
+  HER 6        | The hidden attunement is better than the open.       | state (2, 4)  | MANIFEST
+  HER 7        | War is the father of all and the king of all.        | state (6, 2)  | MANIFEST
+  HER 8        | In the circumference of a circle the beginning and e | state (7, 5)  | MANIFEST
+  HER 9        | Man's character is his fate.                         | state (2, 5)  | MANIFEST
+  HER 10       | You cannot step twice into the same rivers.          | state (2, 0)  | SEVENTH
+  CENSUS: SEVENTH 2 | MANIFEST 8 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 2) = 0.975 | P(MANIFEST >= 8) = 0.025 (p = 36/81 each)
+=== KAUFFMAN (9 statements) ===
+  KAU 1        | A distinction is the first act, and from it a world  | state (4, 7)  | SEVENTH
+  KAU 2        | The unmarked state is the ground from which every ma | state (4, 8)  | SEVENTH
+  KAU 3        | A form that re-enters its own space produces a value | state (5, 8)  | SEVENTH
+  KAU 4        | An object is a token for a behavior that reproduces  | state (4, 7)  | SEVENTH
+  KAU 5        | The observer and the observed arise together as the  | state (4, 3)  | SEVENTH
+  KAU 6        | The form that re-enters itself as one plus its own r | state (2, 1)  | MANIFEST
+  KAU 7        | Imaginary values arise as the time-like oscillation  | state (0, 2)  | MANIFEST
+  KAU 8        | A knot can be read as a self-crossing form whose inv | state (0, 6)  | AXIS -
+  KAU 9        | Self-reference is not a paradox to be avoided but th | state (8, 0)  | SEVENTH
+  CENSUS: SEVENTH 6 | MANIFEST 2 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.608 (p = 8/81 each) | P(SEVENTH >= 6) = 0.157 | P(MANIFEST >= 2) = 0.959 (p = 36/81 each)
+=== PENROSE (9 statements) ===
+  PEN 1        | The universe passes through an endless succession of | state (3, 8)  | MANIFEST
+  PEN 2        | The remote future of one aeon becomes the big bang o | state (4, 5)  | SEVENTH
+  PEN 3        | At the crossover the universe forgets its scale, and | state (8, 0)  | SEVENTH
+  PEN 4        | There are three worlds, the physical, the mental and | state (0, 8)  | MANIFEST
+  PEN 5        | Mathematical truths exist independently of the minds | state (8, 4)  | MANIFEST
+  PEN 6        | Human understanding is not the running of any algori | state (2, 8)  | SEVENTH
+  PEN 7        | The second law requires a beginning of extraordinari | state (8, 3)  | MANIFEST
+  PEN 8        | A plane can be tiled in a pattern that never repeats | state (8, 7)  | MANIFEST
+  PEN 9        | Consciousness arises where quantum superpositions re | state (8, 4)  | MANIFEST
+  CENSUS: SEVENTH 3 | MANIFEST 6 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 3) = 0.843 | P(MANIFEST >= 6) = 0.157 (p = 36/81 each)
+=== WOLFRAM (9 statements) ===
+  WOL 1        | Very simple rules can produce behavior of the greate | state (3, 4)  | MANIFEST
+  WOL 2        | The ruliad is the entangled limit of every possible  | state (7, 6)  | SEVENTH
+  WOL 3        | The ruliad is unique, and nothing lies outside it.   | state (7, 6)  | SEVENTH
+  WOL 4        | Many processes are computationally irreducible, with | state (8, 2)  | SEVENTH
+  WOL 5        | Observers like us sample the ruliad from a bounded p | state (4, 8)  | SEVENTH
+  WOL 6        | The laws of physics we perceive follow from what suc | state (4, 4)  | MANIFEST
+  WOL 7        | Almost every rule that is not obviously simple is eq | state (3, 2)  | SEVENTH
+  WOL 8        | Space and time emerge from the rewriting of a networ | state (3, 2)  | SEVENTH
+  WOL 9        | Pockets of reducibility let an observer predict at a | state (7, 5)  | MANIFEST
+  CENSUS: SEVENTH 6 | MANIFEST 3 | AXIS 0 | STILL 0
+  CHANCE: P(AXIS >= 0) = 1.000 (p = 8/81 each) | P(SEVENTH >= 6) = 0.157 | P(MANIFEST >= 3) = 0.843 (p = 36/81 each)
+=== BARBOUR (9 statements) ===
+  BAR 1        | Time is nothing but change, and the universe is a su | state (3, 2)  | SEVENTH
+  BAR 2        | Only the shape of the universe is real; its scale an | state (3, 8)  | MANIFEST
+  BAR 3        | There is a point of least complexity from which time | state (5, 7)  | SEVENTH
+  BAR 4        | On each side of that point the arrow of time points  | state (3, 5)  | MANIFEST
+  BAR 5        | Complexity grows from the central point because the  | state (0, 0)  | STILL
+  BAR 6        | Records of the past are structures within the presen | state (3, 1)  | SEVENTH
+  BAR 7        | The universe as a whole has no external clock and no | state (3, 0)  | AXIS +
+  BAR 8        | Each instant contains everything that exists.        | state (2, 2)  | SEVENTH
+  BAR 9        | The laws of nature are fixed by the whole, not impos | state (3, 8)  | MANIFEST
+  CENSUS: SEVENTH 4 | MANIFEST 3 | AXIS 1 | STILL 1
+  CHANCE: P(AXIS >= 1) = 0.608 (p = 8/81 each) | P(SEVENTH >= 4) = 0.626 | P(MANIFEST >= 3) = 0.843 (p = 36/81 each)
+=== HOFSTADTER (9 statements) ===
+  HOF 1        | A strange loop rises through the levels of a hierarc | state (5, 7)  | SEVENTH
+  HOF 2        | The self is a pattern that perceives itself, a stran | state (8, 3)  | MANIFEST
+  HOF 3        | A formal system rich enough to describe arithmetic c | state (4, 3)  | SEVENTH
+  HOF 4        | Goedel's sentence says of itself that it cannot be p | state (8, 3)  | MANIFEST
+  HOF 5        | Meaning arises from isomorphism between patterns.    | state (7, 6)  | SEVENTH
+  HOF 6        | Analogy is the core of thought.                      | state (6, 0)  | AXIS +
+  HOF 7        | Symbols that represent themselves give rise to an I. | state (3, 4)  | MANIFEST
+  HOF 8        | Music, drawing and logic can all return upon themsel | state (0, 6)  | AXIS -
+  HOF 9        | A self cannot be found in any single part, only in t | state (8, 4)  | MANIFEST
+  CENSUS: SEVENTH 3 | MANIFEST 4 | AXIS 2 | STILL 0
+  CHANCE: P(AXIS >= 2) = 0.221 (p = 8/81 each) | P(SEVENTH >= 3) = 0.843 | P(MANIFEST >= 4) = 0.626 (p = 36/81 each)
+=== HOFFMAN (8 statements) ===
+  HFM 1        | Evolution shapes perception to track fitness, not tr | state (3, 3)  | AXIS +
+  HFM 2        | Space, time and physical objects are an interface, l | state (4, 2)  | SEVENTH
+  HFM 3        | The icons guide action and hide the reality behind t | state (8, 5)  | MANIFEST
+  HFM 4        | Reality is a network of interacting conscious agents | state (7, 2)  | MANIFEST
+  HFM 5        | Conscious agents can combine to form larger agents.  | state (3, 1)  | SEVENTH
+  HFM 6        | Spacetime is not fundamental but a projection of a d | state (7, 0)  | SEVENTH
+  HFM 7        | Physics can be derived from the dynamics of consciou | state (7, 5)  | MANIFEST
+  HFM 8        | Not seeing reality as it is can be what keeps a crea | state (3, 4)  | MANIFEST
+  CENSUS: SEVENTH 3 | MANIFEST 4 | AXIS 1 | STILL 0
+  CHANCE: P(AXIS >= 1) = 0.565 (p = 8/81 each) | P(SEVENTH >= 3) = 0.770 | P(MANIFEST >= 4) = 0.510 (p = 36/81 each)
+=== KASTRUP (8 statements) ===
+  KAS 1        | Reality is one universal consciousness, and nothing  | state (8, 8)  | SEVENTH
+  KAS 2        | Individual minds are dissociated alters of that one  | state (3, 6)  | AXIS -
+  KAS 3        | The physical world is how mental processes appear fr | state (8, 4)  | MANIFEST
+  KAS 4        | A living body is the image of a dissociated mental p | state (3, 6)  | AXIS -
+  KAS 5        | Matter is an appearance within consciousness, not it | state (7, 7)  | SEVENTH
+  KAS 6        | The universe as a whole is the outward appearance of | state (8, 4)  | MANIFEST
+  KAS 7        | Dissociation lets many perspectives exist within one | state (4, 7)  | SEVENTH
+  KAS 8        | Death is the end of a dissociation, not of conscious | state (2, 3)  | SEVENTH
+  CENSUS: SEVENTH 4 | MANIFEST 2 | AXIS 2 | STILL 0
+  CHANCE: P(AXIS >= 2) = 0.183 (p = 8/81 each) | P(SEVENTH >= 4) = 0.510 | P(MANIFEST >= 2) = 0.933 (p = 36/81 each)

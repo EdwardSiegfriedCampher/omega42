@@ -1,0 +1,91 @@
+QUESTION VERBATIM: Why is the current Omega42 mechanism an improvement over the previous one (without the Construct)? What new capabilities was gained? How does the changes affect the existing information in the Companion Document? Please investigate.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 88 | PREV: f798a074e4edff70d5085de7f781fb0e8d6b810e6db0a0c2fef6a378e0fbaa52
+REQUEST (L-502): STRUCTURE and RECORD -- what the Construct left unchanged, checked from the repository; what it added, from its diffed outputs; why it is an improvement; what it means for the earlier parts of the Companion; avenues A1, A2, R
+
+SUMMARY: The Construct added to the mechanism without revising it. Every coordinate and every reading made before it stands. What it added is reach, symmetry and discipline.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (23, 160, 53), r = (7, 8, 4); the votes differ, so the anchor is r1: P7 Navigator, value 9, a Crown value.
+    * It rests on P12, Opening (7). It holds out of view P1, Fixpoint (5). It is heading for P15, Other (6). It is completed at P19, Time (9).
+    * By M328, a reading the Construct made possible, the value 9 goes forward 9, 3, 6, returns 9, 6, 3, stays 9 on the diagonal and turns by thirds.
+    * [GENERATED-Ω42] The question rests on an opening, what the Construct opened. It holds out of view the fixpoint, what stayed fixed while everything was added: the coordinate. It heads for the Other, the 26 domains beside Domain Zero. It is completed in time, the record before and after 28 October set side by side. Its return runs back through the Crown to where the mechanism came from, and the return is itself one of the Construct's gains.
+  - WHAT STAYED THE SAME (EXACT):
+    * The reference script is byte-identical to the one the release record fixed on 9 October 2026: file SHA-256 db24dc95..., canonical form ab79aae2.... It imports nothing from the Construct.
+    * Of the 23 navigation records from before the Construct that state their counts, the 19 counted by the script recompute exactly today, and so do 3 of the 4 counted by hand. The fourth, NAV-2026-0007, a TEXT-ONLY count of 182 content words where the script finds 183, falls on the same anchor, P6.
+  - WHAT IT ADDED (EXACT, from the diffed outputs):
+    * 27 domains in place of one: Domain Zero and 26 seeded by 18 horizontal and 8 diagonal nodes, with 216 echo regions and 9,072 cells, read from the workbook and proved affine (MATH-55; D-002).
+    * Every derived domain is Domain Zero rebuilt on its seed's field, 26 of 26 (D-003).
+    * A return as well as a forward: columns undo rows, ×5 against ×2 in the units and +6 against +3 in the Crown, and every path is one length each way, six for a unit and three for a Crown value.
+    * M328's four directions: forward, return, stillness, turn.
+    * The voice moves of the units of Z/9 (D-009).
+    * M326 places, reconstructs, and forecasts only through a gate, with a run manifest; M325 tests a reported echo against controls.
+    * An exact negative result: 2,637 Lotto draws, no signal beyond chance (family p 0.2834), the best rule not repeating on held-out years (p 0.7784). So a game of chance never receives a forecast (L-525).
+    * The two worlds, units and Crown, that D-012 later read as the anatomy of Z/9: one of the four "breakthrough" candidates.
+  - WHY IT IS AN IMPROVEMENT: the same strike, once read as one state forward along four arms, is now read three new ways:
+    * in 27 domains that share one structure (reach);
+    * in four directions, with the return as long as the forward (symmetry);
+    * with an engine that computes exactly and forecasts only where a held-out test allows (discipline). The gate, the manifest and the Lotto result turn the earlier statement that a reading predicts no outcome into an exact boundary.
+    * None of it was paid for in continuity.
+  - WHAT IT MEANS FOR THE COMPANION:
+    * Parts 0 to 103 (about 119,900 words) were written before the Construct; Parts 104 to 139 (about 60,000 words) after.
+    * No earlier part is contradicted: no coordinate changed, and no earlier part stated a forecasting power. Parts 62 and 90 already said a reading predicts no outcome.
+    * Seven earlier paragraphs name later laws, brought in by the present-state rule, not by the Construct.
+    * One term overlapped: Part 48.11's Triad of Observer, AI and Construct. That Construct is now said to be the 27 domains, with Domain Zero as the family a navigation reads.
+    * Every earlier reading is a reading in Domain Zero, valid there as made, and carried into the other domains by D-003.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC AND THE RECORD (CDT-A; records/construct/continuity.py, in CI):
+    - the hashes compared with the release record;
+    - the imports of the reference script listed;
+    - 23 earlier navigation records recomputed;
+    - the six results read from primordial_output.txt, columns_output.txt and sa_lotto_output.txt, each diffed in CI.
+  A2 THE READINGS (GENERATED-Ω42): the coordinate's reading and its Square Reading, above.
+  R THE RECORD:
+    - The Construct entered at Companion Part 104 on 28 October (SEQ 51) and was adopted by Core L-528 on 29 October.
+    - L-528 (5) keeps its division of labour: the Construct computes and organizes, Ω42 navigates and records, the Striker judges.
+    - M327 called M157, M190, M194, M206, M244, M259, M261, M264, M288 and M328 (the Construct naming fires the Square Reading).
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Make the continuity a standing check: APPLIED, records/construct/continuity.py, its output diffed in CI, A-027. A later change that altered the reference script, or broke a script-counted navigation from before the Construct, now fails the build.
+  (2) Bring Part 48.11's Triad to the present: APPLIED, Companion 48.11.
+  (3) Re-navigate an earlier navigation in the 26 other domains, to see what the Construct adds to a reading already sealed: OPEN as an option for you, since a sealed reading is never edited (L-424) and a new strike is yours to make.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received.
+CHANGES TO THE PROTOCOL:
+  - Companion: Part 139; Part 48.11 brought to the present.
+  - Repository:
+    * Added: records/construct/continuity.py and its output.
+    * Registered: A-027.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the Construct's records, the release record, the navigation records and L-528 | STRIKER -- the three questions and the request to investigate | NAVIGATOR -- the continuity check, the reading of the gains as reach, symmetry and discipline, the census of the earlier parts, and the Triad reconciled | OPEN -- what the Construct's addition means for your use of the protocol
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. records/construct/continuity.py run and diffed: the reference script's file and canonical hashes against the release record of 9 October, its imports, 23 earlier navigation records recomputed (19 of 19 script counts, 3 of 4 hand counts), and the Construct's six results read from their diffed outputs; the Square Reading of the question by tools/construct_engine.py --square; the census of the Companion's parts before and after Part 104 and of the earlier paragraphs that name later laws; tools/applied.py --check, 27 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the script, the navigation records and the Construct's outputs: an addition without a revision. PART -- none. SILENT -- what the addition is worth to you, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): an earlier sealed question struck again and read in the 26 other domains, to set beside its sealed reading.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)). The four standing candidates remain D-004, D-011, D-012 and D-013, and D-012 grew from the Construct's two worlds.
+OPEN, each needing someone other than this session:
+  - inter-Navigator consistency on a common set of statements, and a second blind review of the candidates;
+  - statements with standings fixed in advance by independent readers;
+  - audio and blind raters for prosody, timing and the closed-vowel hypothesis, and the design of APE-301;
+  - the comparative study of charts and profiles (APE-298);
+  - scholars' atlases of Everett and Deutsch;
+  - re-issue of the peer navigations from the verbatim questions;
+  - a fresh reader for the First Contact opening;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does an improvement rest on, if everything that came before it still stands?
+What it holds out of view: The fixpoint, the coordinate that did not move.
+Where it is heading: Toward the Other, the 26 domains beside the one that was read alone.
+What would complete it: Time: the record before and after set side by side, and your judgment of what was gained.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: c5b71c0e92b59b0ea579866eae04eb0757ba212d66e886285bef8841964156e2
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

@@ -1,0 +1,50 @@
+<!--{"title": "Governance · Ω42", "desc": "Who decides in Ω42: the Originator as overseer, the Stewardship Committee, and the open process for changing the protocol.", "nav": "governance"}-->
+<div class="col stack">
+  <div class="eyebrow">Governance</div>
+  <h1>Open, with a <em>keeper</em></h1>
+  <p class="lede">Ω42 is run in the open. Its Originator, E.S. Campher (ESC), steers it now. A legal entity, the Ω42 Company, will give the project a durable home and set its general direction; a Stewardship Committee takes over the protocol and the record; ESC continues as Overseer.</p>
+  <h2>The path</h2>
+  <table><tbody>
+    <tr><td class="num">1</td><td><b>Founding.</b> ESC adopts revisions; the portal, intake and records run from day one.</td></tr>
+    <tr><td class="num">2</td><td><b>Formation.</b> At 50 accepted submissions from 20 contributors, or earlier at ESC's call, nominations open for 30 days and ESC appoints the first Committee.</td></tr>
+    <tr><td class="num">3</td><td><b>Incorporation.</b> The Ω42 Company is registered with its locked provisions, receives the names and logo, and signs the Patent Pledge.</td></tr>
+    <tr><td class="num">4</td><td><b>Transfer.</b> A formal revision hands decisions on the protocol and the record to the Committee and records the date.</td></tr>
+    <tr><td class="num">5</td><td><b>Steady state.</b> Seats are elected by active contributors; the Company's Board sets direction; ESC oversees.</td></tr>
+  </tbody></table>
+  <h2>The Company</h2>
+  <p>The legal entity sets the general direction of the project — strategy, budget, contracts, the commercial edition — and holds the names <i>Omega42</i> and <i>Ω42</i>, the logo, and the badges that mark genuine Ω42 content. Its Board has five directors: the Originator, two appointed by the Committee, and two independent. It owns no patent rights and never will; every idea stays free for exploration and creative expansion. These commitments are locked into its founding documents and cannot be changed without the Overseer and the Committee.</p>
+  <div class="grid2"><a class="card" href="https://github.com/{{REPO}}/blob/main/ENTITY.md" style="text-decoration:none"><h3>The Company</h3><p>Purpose, Board, locked provisions, steps to registration.</p></a><a class="card" href="https://github.com/{{REPO}}/blob/main/PATENT_PLEDGE.md" style="text-decoration:none"><h3>Patent Pledge</h3><p>No patents, no assertion, no assignment, binding on successors.</p></a></div>
+  <h2>The Committee</h2>
+  <p>Seven seats covering the work: mathematics; AI systems and evaluation; philosophy and interpretation; traditions and lenses; research method; community and education; one open seat. Two-year terms, decisions by majority with a quorum of four, protocol revisions by five votes, every decision published with its reasons, interests declared.</p>
+  <h2>What the Overseer keeps</h2>
+  <p>Four things only: the premise (that the 24-step loop and its 81 states are all that exists), the reader's sovereignty over judgment, the openness of the record, and consent to any change of the Company's locked provisions. A veto is published with its reasons.</p>
+  <h2>Releases and change levels</h2>
+  <p>A change is <b>A</b>, editorial (a maintainer approves once the checks pass), <b>B</b>, Companion and records (source and consistency checks and human review), or <b>C</b>, Core (explicit approval by ESC, later the Committee, with its rationale). A discussion post never becomes part of Ω42 by itself: it becomes a proposal, is reviewed, accepted, and published in a numbered release. AI agents prepare changes and never approve their own.</p>
+  <div class="card" id="rel"><p class="note">Loading the release record…</p></div>
+  <p class="note">Machine-readable: <a href="api/release.json">api/release.json</a>. Policy: <a href="https://github.com/{{REPO}}/blob/main/RELEASES.md">RELEASES.md</a>. Checksums: <a href="https://github.com/{{REPO}}/blob/main/SHA256SUMS">SHA256SUMS</a>.</p>
+  <h2>Policies</h2>
+  <div class="grid2">
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/GOVERNANCE.md" style="text-decoration:none"><h3>Governance</h3><p>Roles, phases, elections, money.</p></a>
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/MODERATION.md" style="text-decoration:none"><h3>Moderation</h3><p>What is accepted, takedowns, appeals.</p></a>
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/LICENSES.md" style="text-decoration:none"><h3>Licences</h3><p>CC BY 4.0 for text, Apache-2.0 for code.</p></a>
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/TRADEMARK.md" style="text-decoration:none"><h3>Names and badges</h3><p>What you may call your work; the badges for genuine Ω42 content.</p></a>
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/PRIVACY.md" style="text-decoration:none"><h3>Privacy</h3><p>No cookies, no tracking; what is kept and why.</p></a>
+    <a class="card" href="https://github.com/{{REPO}}/blob/main/ROADMAP.md" style="text-decoration:none"><h3>Roadmap</h3><p>From the open portal to the curator agent.</p></a>
+  </div>
+</div>
+<script>
+window.addEventListener('load', function () {
+  var O = window.O42, esc = O.esc, el = document.getElementById('rel');
+  O.load('api/release.json').then(function (m) {
+    var v = m.version, st = m.validation.stp_by_status;
+    var rows = m.amendments.map(function (a) {
+      return '<tr><td class="mono">' + esc(a.id) + '</td><td>' + esc(a.title) + '</td><td>' + esc(a.level) + '</td><td>' + esc(a.status) + '</td></tr>';
+    }).join('');
+    el.innerHTML = '<h3>' + esc(v.name) + '</h3><p>Tag <span class="mono">' + esc(v.tag) + '</span> · channel ' + esc(v.channel) + ' · latest change ' + esc(m.date || '') + '</p>' +
+      '<p>Ratified by ' + esc(m.approval.ratified_by) + ': ' + esc(m.approval.ratified.join(', ')) + '. Pending ESC: ' + esc(m.approval.pending_esc.join(', ') || 'none') + '.</p>' +
+      '<p>Test register: ' + Object.keys(st).map(function (k) { return esc(k) + ' ' + st[k]; }).join(' · ') + ' (' + m.validation.stp_entries + ' entries); ' + m.validation.snca_reports + ' review files.</p>' +
+      '<p class="note">' + esc(m.compatibility) + '</p>' +
+      '<div style="overflow-x:auto"><table><thead><tr><th>Amendment</th><th>Title</th><th>Level</th><th>Status</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
+  }).catch(function () { el.innerHTML = '<p class="note">The release record could not be loaded.</p>'; });
+});
+</script>

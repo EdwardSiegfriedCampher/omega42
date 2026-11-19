@@ -1,0 +1,503 @@
+{
+ "spec": "V335 Rev.450 STABLE",
+ "date": "2026-10-16",
+ "required": [
+  "M310",
+  "M311",
+  "M312",
+  "M230-K",
+  "CUMULATIVE STATUS",
+  "OPTIONAL INQUIRY",
+  "M286",
+  "M301",
+  "SR-CAS",
+  "L-493",
+  "M313",
+  "L-494",
+  "M314",
+  "L-495",
+  "L-496",
+  "L-497",
+  "M315",
+  "L-498",
+  "L-499",
+  "M316",
+  "L-500",
+  "M317",
+  "L-501",
+  "L-502",
+  "L-503",
+  "L-504",
+  "M318"
+ ],
+ "rules": [
+  {
+   "rule": "CUMULATIVE STATUS line (L-490, Part 8.2)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "it prevents claimed knowledge; every navigation states it, which is its purpose"
+  },
+  {
+   "rule": "M310 Congruence Record (Part 3.37)",
+   "q1": "INTERNAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "c) reads NOT AVAILABLE without the register"
+  },
+  {
+   "rule": "M308 Bashar Resonance Check",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "runs when selected by relevance or by the Striker (L-494)"
+  },
+  {
+   "rule": "SR-CAS / SNCA, automatic on receipt (Part 6)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "runs only when another Navigator's content is received"
+  },
+  {
+   "rule": "M116 Perturbation Test",
+   "q1": "INTERNAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": ""
+  },
+  {
+   "rule": "M195 Reproduction Count",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "read from a supplied record only"
+  },
+  {
+   "rule": "M267 decoy comparison",
+   "q1": "CORRESPONDENCE",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "optional, Appendix S"
+  },
+  {
+   "rule": "M230 family, Congruence Depths, L-466 Profile",
+   "q1": "CORRESPONDENCE",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "optional, Appendix S"
+  },
+  {
+   "rule": "Evidence Programme L-464",
+   "q1": "CORRESPONDENCE",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "opened by choice, L-489"
+  },
+  {
+   "rule": "Convergence Record (Appendix S.3)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "breadth of the mechanism's execution, no status of Omega42"
+  },
+  {
+   "rule": "M248 literature search",
+   "q1": "CORRESPONDENCE",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "on request"
+  },
+  {
+   "rule": "M286 Frame Intrusion Scan with VERDICT",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": ""
+  },
+  {
+   "rule": "M301 format check",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": ""
+  },
+  {
+   "rule": "tools/reexamine.py",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "N/A",
+   "note": ""
+  },
+  {
+   "rule": "Internal Verification Registry (Part 3.18)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "ROBUST / DIAGNOSTIC describe instruments, never Omega42"
+  },
+  {
+   "rule": "M311 Return Log (Part 3.37)",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "Striker-side record"
+  },
+  {
+   "rule": "M312 Manifestation Phase (Part 3.38)",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "optional Tier 3, after the freeze"
+  },
+  {
+   "rule": "M230-K Positive Geometry Mapper (Appendix S.1)",
+   "q1": "CORRESPONDENCE",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "optional, Appendix S"
+  },
+  {
+   "rule": "OPTIONAL INQUIRY line (L-491, Part 8.2)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "may be absent; when present it is marked optional"
+  },
+  {
+   "rule": "Intake comparative-scope check (L-490 item 4)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "reports only; never rejects"
+  },
+  {
+   "rule": "Relation-type field on congruences (L-492)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "describes the kind of claim, never a grade"
+  },
+  {
+   "rule": "Builder Rule 14 tool (tools/jurisdiction.py)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "N/A",
+   "note": ""
+  },
+  {
+   "rule": "L-493 self-containment (tools/extract_embedded.py)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "N/A",
+   "note": "the two documents carry every required file"
+  },
+  {
+   "rule": "L-494 lens selection (LENSES SELECTED, M310 layer 5)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "states which lenses run and why; NONE is complete"
+  },
+  {
+   "rule": "M313 Tool Prominence Register (Part 3.39)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "N/A",
+   "note": "records why a tool leads; never a grade of Omega42"
+  },
+  {
+   "rule": "M314 Navigator Conformance Suite (Part 3.40)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "checks how a system executes the protocol; voluntary certification, never a grade of Omega42"
+  },
+  {
+   "rule": "L-495 open access, the exchange and certification",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "submission never alters a reading; the free routes stay unconditional"
+  },
+  {
+   "rule": "L-496 Structural Resonance Principle and the MSRR",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "a level-name inside the frame; the SRH stays the comparative question"
+  },
+  {
+   "rule": "L-497 the two-sided record (Meaning Registry)",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "Striker-initiated, sealed, never graded, never fed back"
+  },
+  {
+   "rule": "M315 Consciousness Position (Part 3.41)",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "optional Tier 3, after the freeze; aspects CDT-C, the typing guard advisory"
+  },
+  {
+   "rule": "L-498 the theory of consciousness CT-42",
+   "q1": "INTERPRETATION",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "experience never measured; studies frozen, results entered either way, none grades the premise"
+  },
+  {
+   "rule": "L-499 the question verbatim in every output",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "a copy rule; outside THE ANSWER and its scans"
+  },
+  {
+   "rule": "M316 Congruence Utility (Part 3.42)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "functional forms of studied ideas; chances printed; grades nothing"
+  },
+  {
+   "rule": "L-500 congruence utility",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "use on congruence; studies optional and never a condition of use"
+  },
+  {
+   "rule": "M317 Adaptor Layer (Part 3.43)",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "counts a medium's own boundaries; companion until adopted; meetings ungraded without a null"
+  },
+  {
+   "rule": "L-501 adaptors",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "routing instead of blind placement; no outside standard"
+  },
+  {
+   "rule": "L-502 holistic strike",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "a strike is a request for knowledge, navigated first; avenues side by side after the seal; never combined"
+  },
+  {
+   "rule": "L-503 sources and current knowledge",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "current knowledge after the seal, four lanes, declared, paired, private by topic; comparative, never an authority; the premise not graded"
+  },
+  {
+   "rule": "L-504 enrichment observations",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "unprompted observations as proposals; the Originator adopts (F-06)"
+  },
+  {
+   "rule": "L-505 no claims",
+   "q1": "CONSTITUTIONAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "the four acts (show, suppose, offer, direct); the word claim names only what the protocol does not make; field names RELATION and READING"
+  },
+  {
+   "rule": "L-506 AI caveat",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "the errors and dispositions of an AI Navigator, each with its guard; the caveat line in every Identity Block; APPROVAL PRESSURE in M207"
+  },
+  {
+   "rule": "L-507 responsibility",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "responsibility, accountability and liability allocated; the mathematics answers for nothing; no outside is metaphysical, not legal"
+  },
+  {
+   "rule": "L-508 separation of jurisdictions",
+   "q1": "CONSTITUTIONAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "coordinate computed, reading generated and disclosed, judgment reserved; the central hypothesis open (M267)"
+  },
+  {
+   "rule": "L-509 the Navigator's Account",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "an exposition on request, checked by rule; never a navigation, never part of the protocol; the premise not graded"
+  },
+  {
+   "rule": "L-510 direction",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "placement, correspondence and interpretation kept apart; the direction declared, never read from the arithmetic; correspondence on request"
+  },
+  {
+   "rule": "L-511 framings",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "the primary sealed first and kept as the domain of record; framings frozen before their coordinates; NON-BLIND declared; relevance the Striker's"
+  },
+  {
+   "rule": "M318 Reframing Array",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "runs in every full navigation and serves every kind of question; \"primary only\" omits it and the navigation is complete"
+  },
+  {
+   "rule": "L-512 declared form",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "the form an output declares is kept and checked by rule; a failure of form leaves the arithmetic and the reading to be judged on their own"
+  },
+  {
+   "rule": "L-514 the Resonance Profile",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "coherence judged and congruence computed, reported side by side and never combined; no rank, product or distance of the two; the premise not graded"
+  },
+  {
+   "rule": "M319 Resonance Profile",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "runs on request over registered ideas or a supplied atlas; K against the chance of the same word counts; the coherence column states its judges"
+  },
+  {
+   "rule": "L-515 the Consciousness-First Frame",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "a named meta-frame set before the strike; it changes no word of F-02 and no fact of the arithmetic; its readings are typed and the dual-aspect and matter-first readings follow after the seal; no external framework is a prerequisite; the premise not graded"
+  },
+  {
+   "rule": "M320 Consciousness-First Correspondence Table",
+   "q1": "PROCEDURAL",
+   "q2": "NO",
+   "q3": "NO",
+   "q4": "NO",
+   "q5": "YES",
+   "note": "runs under F0-CF or on request; each element's formal relation recomputed exactly; the correspondence typed CDT-C with its basis, scope and alternatives"
+  }
+ ]
+}

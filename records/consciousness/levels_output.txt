@@ -1,0 +1,16 @@
+LEVELS OF THE FAMILY (Companion Part 89) -- level = 3-adic valuation of the state at scale 3^n [CDT-A]
+  mod 3   level 0: 8 states, period 8 | level 1: 1 states, period 1
+  mod 9   level 0: 72 states, period 24 | level 1: 8 states, period 8 | level 2: 1 states, period 1
+  mod 27  level 0: 648 states, period 72 | level 1: 72 states, period 24 | level 2: 8 states, period 8 | level 3: 1 states, period 1
+  mod 81  level 0: 5832 states, period 216 | level 1: 648 states, period 72 | level 2: 72 states, period 24 | level 3: 8 states, period 8 | level 4: 1 states, period 1
+  rule: at mod 3^n, level k (k < n) holds 8 x 9^(n-1-k) states of period 8 x 3^(n-1-k); level n is the still point;
+  level k at mod 3^n is the unit set of mod 3^(n-k), carried by 3^k (FP-CoreRecursion)
+EXPERIENTIAL SPECTRUM PLACEMENT -- frozen VERIFIED (7e282c44f830)
+  joy       (1, 8) MANIFEST | sadness       (1, 1) SEVENTH  | opposite halves YES | antipodes NO
+  trust     (1, 0) SEVENTH  | disgust       (1, 1) SEVENTH  | opposite halves NO  | antipodes NO
+  fear      (1, 4) MANIFEST | anger         (1, 0) SEVENTH  | opposite halves YES | antipodes NO
+  surprise  (1, 6) MANIFEST | anticipation  (1, 8) MANIFEST | opposite halves NO  | antipodes NO
+  P1 opposite halves: 2 of 4 | chance per pair 0.3951 uniform, 0.4938 given r1 = 1 (E13) | P(>= 2 of 4) 0.5162 uniform, 0.6782 given r1
+  P2 antipodes:      0 of 4 | chance per pair 0.0122 uniform, 0.0000 given r1 = 1 (E13) | P(>= 0 of 4) 1.0000 uniform, 1.0000 given r1
+READING: the ladder is exact; the placement test is a placement, entered whichever way it falls (L-498); it measures where
+words fall, not what an emotion is (R_C), and it grades nothing (L-490).

@@ -1,0 +1,158 @@
+[
+ {
+  "id": "R-001",
+  "a": "rotation invariance of a Lagrangian",
+  "b": "conservation of angular momentum",
+  "statement": "A Lagrangian invariant under rotations conserves angular momentum (Noether, 1918).",
+  "definitions_precise": true,
+  "derivation": "published",
+  "derivation_checked": true,
+  "counterexample": false,
+  "structural_only": false,
+  "physical_consequence": true,
+  "test_registered": null,
+  "measured": null,
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    "Noether's theorem"
+   ],
+   "internal consistency": [
+    "MET",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    "it is established physics"
+   ],
+   "reproducibility": [
+    "MET",
+    "PHB-01 B1 reproduces it, with a control that breaks the symmetry"
+   ],
+   "novel predictions": [
+    "NOT MET",
+    "none: a known result"
+   ]
+  }
+ },
+ {
+  "id": "R-002",
+  "a": "black-hole horizon area",
+  "b": "thermodynamic entropy",
+  "statement": "S = A/4 with T_H = 1/(8 pi M) satisfies the first law dS/dM = 1/T_H (Bekenstein 1973; Hawking 1975).",
+  "definitions_precise": true,
+  "derivation": "published",
+  "derivation_checked": true,
+  "counterexample": false,
+  "structural_only": false,
+  "physical_consequence": true,
+  "test_registered": null,
+  "measured": null,
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    "the first law of thermodynamics"
+   ],
+   "empirical adequacy": [
+    "UNKNOWN",
+    "Hawking radiation of astrophysical black holes is unmeasured"
+   ],
+   "reproducibility": [
+    "MET",
+    "PHB-01 B4"
+   ],
+   "open problems": [
+    "NOT MET",
+    "the microscopic origin of the entropy is open (H-028 uses it)"
+   ]
+  }
+ },
+ {
+  "id": "R-003",
+  "a": "the transverse-field Ising chain at criticality (E8 spectrum)",
+  "b": "the golden ratio",
+  "statement": "The two lightest masses stand in the golden ratio (Zamolodchikov 1989), observed in CoNb2O6 (Coldea et al., Science 2010); the record's PM-008.",
+  "definitions_precise": true,
+  "derivation": "published",
+  "derivation_checked": true,
+  "counterexample": false,
+  "structural_only": false,
+  "physical_consequence": true,
+  "test_registered": null,
+  "measured": "Coldea et al., Science 327 (2010) 177",
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    ""
+   ],
+   "empirical adequacy": [
+    "MET",
+    "neutron scattering, CoNb2O6"
+   ],
+   "open problems": [
+    "PARTLY",
+    "interchain couplings left aside (PM-008)"
+   ]
+  }
+ },
+ {
+  "id": "R-004",
+  "a": "acoustic transfer matrices",
+  "b": "the record's optical engine",
+  "statement": "The acoustic stack is the optical one with the index n read as the impedance Z, by M(1/n) = J M(n) J (PM-003, MF-152).",
+  "definitions_precise": true,
+  "derivation": "new",
+  "derivation_checked": false,
+  "counterexample": false,
+  "structural_only": false,
+  "physical_consequence": true,
+  "test_registered": null,
+  "measured": null,
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    "the map is written out"
+   ],
+   "reproducibility": [
+    "PARTLY",
+    "the author's self-test only (tools/waves.py); no independent recomputation yet"
+   ],
+   "novel predictions": [
+    "UNKNOWN",
+    ""
+   ]
+  }
+ },
+ {
+  "id": "R-005",
+  "a": "quantum entanglement",
+  "b": "spacetime geometry",
+  "statement": "Entangled systems are connected by spacetime geometry, as entered here from a one-line statement with no map written out (the flagship question of section 11).",
+  "definitions_precise": false,
+  "derivation": "none",
+  "derivation_checked": false,
+  "counterexample": false,
+  "structural_only": false,
+  "physical_consequence": false,
+  "test_registered": null,
+  "measured": null,
+  "profile": {
+   "mathematical precision": [
+    "NOT MET",
+    "as entered; precise versions exist in the literature and are the flagship's first task"
+   ],
+   "open problems": [
+    "NOT MET",
+    "open in physics"
+   ]
+  }
+ }
+]

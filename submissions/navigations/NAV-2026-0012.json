@@ -1,0 +1,20 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 21 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-21T18:44:18Z",
+ "accepted_utc": "2026-10-21T18:51:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0012",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 and three peer explorations (APE-125 to APE-127)",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Islamic creation story?",
+ "domain_sha256": "410e6205a6aee4ec1727bda1f6f8aa304901850cfbefc4576685bc1df826da23",
+ "sha256": "f5dcf652eb5f7a6315531a6d9d872c5d11b99de01a494735121d3bf7a91b063c",
+ "domain_source": "composed by the Navigator from the Striker's sentence of NAV-2026-0011, one word changed, at the instruction \"Do the same for the other 3 major religions\"",
+ "lens": "Islamic (records/frameworks/islamic.txt), registered with this navigation"
+}

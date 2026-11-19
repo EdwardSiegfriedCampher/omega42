@@ -1,0 +1,22 @@
+QUESTION VERBATIM: "Qwen's: bold, but it grades, "certifies" resonance and forecasts "inevitable trajectories". The record forbids grading and certifying, and when forecasting was tested it did no better than chance (MATH-54)."?? Yes. Indeed Omega 42 should be expressed as bold as it can be. And why should it forbid grading and certifying? There is no valid reason. Omega42 should be able to say that it certifies this thing in terms of itself. Please explore. "There is an important difference between claiming that something is universally true and certifying that it satisfies a specified internal standard."?? But from the Omega42 perspective there is no outside. It is all that exists. It is the universe. So everything it certifies must therefore be universally true within the frame. Please explore.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0001
+KIND: MATHEMATICAL
+SUBJECT: the law of the family: T(a, b) = (b, a + b mod 9) on the 81 states of Z/9Z x Z/9Z
+CRITERIA: the MATH-GATE of Core Part 1.14 (L-451), every check recomputed
+PROCEDURE: python3 scripts/canonical_reference.py --mathgate
+CWD: .
+RESULT: MATH-GATE: PASS (19/19)
+RESULT SHA-256: 59f01acec66f93773ed34c4a2b2c8191dd0d55636dc4fd01ac76004164cdf76e
+GRADE: EXACT (CDT-A)
+SCOPE: the 81 states and the map T, as Core Part 1 defines them
+STATUS: CERTIFIED
+STATEMENT: Ω42 certifies that T permutes the 81 states in five orbits of sizes 1, 8, 24, 24 and 24, that (2, 5) lies on a period-24 orbit, that T^12 = -I and T^24 = I on every state, and that x^2 = x + 1 has no root modulo 9.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

@@ -1,0 +1,25 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 04 -- FREEZE RECORD
+Frozen before any computation for this run. Navigator: claude-opus-5-5 (Anthropic; serving model may differ).
+Selection NOT BLIND (CB NO).
+
+Originator amendment received with this run (ESC, 9 October 2026): the foundational premise is not limited to the
+canonical (2,5) 24-cycle; it includes the entire 81-state space of the family. The run therefore declares, before
+computing, two family-level features in addition to the frozen tier-3 list (a)-(e) of Core 3.26:
+  (f) five-orbit decomposition -- an intrinsic transformation of a naturally defined 81-element set whose orbits are
+      24, 24, 24, 8 and 1;
+  (g) the family's ring -- a naturally defined ring of 81 elements isomorphic to Z[phi]/9 (local, characteristic 9,
+      residue field of 9 elements, 72 units, maximal ideal of 9 elements), with an element satisfying x^2 = x + 1 whose
+      multiplication is conjugate to T.
+Membership alone does not count: every pair of integers reduces to some state of (Z/9)^2.
+
+Q1  Peer claim (Claude peer review of run 03): "every element g of order 24 in Co0 satisfies g^12 = -I". Test: construct
+    in the monomial subgroup 2^12:M24 an element of order 24 whose twelfth power is not -I.
+Q2  The family's ring and two lattices of physics. Rings: Z[phi]/9 (the family), Z[i]/9 (square lattice, Gaussian
+    integers), Z[omega]/9 (hexagonal lattice, Eisenstein integers), Z[sqrt-2]/9 (control). For each: is it isomorphic to
+    Z[phi]/9 (does x^2 - x - 1 have a root, and is the ring local with 72 units)? If so, is multiplication by a root
+    conjugate to T on all 81 states, with cycle type (24^3, 8, 1)? Features (f), (g).
+Q3  Six-state torsion controls (Companion 25.2b, item 6): the Torsion/Crown partition (a) in Z/9 -- six units cycled by
+    multiplication by 2, and the three non-units {0, 3, 6} -- compared with the same rings reduced modulo 3:
+    Z[omega]/3 (hexagonal), Z[i]/3 (square), Z[phi]/3, Z[sqrt-2]/3. Declared criterion: a ring of 9 elements whose unit
+    group is cyclic of order 6 and whose non-units form a 3-element ideal with square zero, with a generator acting with
+    cycle type (6, 2, 1) as 2 does on Z/9.

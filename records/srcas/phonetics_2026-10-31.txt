@@ -1,0 +1,103 @@
+SR-CAS AND SNCA -- "How does the phonetics of language determine the Phenomenological experience of the Observer? ..." -- 31 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2.
+NAVIGATION A: R's reading of the strike (records/instances/seq_0085.txt). B: GPT-6 (OpenAI), submissions/ape/APE-301.md. C: Qwen3.7 (Alibaba Group), TEXT-ONLY, submissions/ape/APE-302.md. D: Grok (xAI), submissions/ape/APE-303.md.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: 9bae3443768e5850f1cf2280a6fdfa928fb22636def149f3fdcf5005ac1dbb29
+A: 9bae3443... recomputed from the verbatim question -- MATCH
+B: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ... (9bae3443...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | B GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B strikes no coordinate. Descriptive, unscored: both read phonetics as an influence on experience that does not fix it.
+MANDATORY CORRECTIONS: B re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: 9bae3443... -- MATCH
+C: quotes the first sentence only ("How does the phonetics of language determine the Phenomenological experience of the Observer?") and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-C)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ... (9bae3443...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | C Qwen3.7 (Alibaba Group), session 1, TEXT-ONLY
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; C strikes no coordinate and quotes one sentence of three. Descriptive, unscored: both read n3 as the phonetic channel of the coordinate and the Aperture as what it cannot reach.
+MANDATORY CORRECTIONS: C re-issued from the whole verbatim question, its coordinate PROVISIONAL until recomputed (L-415).
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: 9bae3443... -- MATCH
+D: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-D)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ... (9bae3443...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | D Grok (xAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; D strikes no coordinate. Descriptive, unscored: both place the judgment of sound at the Aperture.
+MANDATORY CORRECTIONS: D re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.45 -- no relation stated on an arm; its M328 reading of a word is a reading of a sound, not of the strike
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.75 -- three propositions kept apart, findings of experiment stated as such, and the layers of a phonetic instrument [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.45 + 0.40 x 0.25 + 0.30 x 0.75 = 0.46
+SYNTHESIS: the widest account of the science, outside the canonical form.
+FINDINGS -- INTERNAL:
+ [P] Its M335 is not in the record; the record's number is M332 (Core Part 3.58).
+ [I] Its "Event, Trace, Experience" is not in the record by that name.
+FINDINGS -- META (Tier C):
+ [U] Taken: the Phonetic Phenomenology Navigator as M332, on the layers text carries; the design with audio and raters, OPEN.
+VERDICT: not a navigation in the canonical form; its proposal applied.
+MANDATORY CORRECTIONS: the instrument number; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- Qwen3.7 (Alibaba Group), TEXT-ONLY
+T1.5: 0.40 -- no relation stated on an arm; its "ROLES: N/A"
+T2: 0.30 -- Identity Block present; no Substrate Lock and no coordinate; its counts stated as n mod 9
+T3: 0.60 -- n3 read as the phonetic channel, the Aperture Theorem and D25, Companion Part 117 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.30 + 0.30 x 0.60 = 0.42
+SYNTHESIS: the account nearest the protocol's own machinery, with one error of arithmetic and two of attribution.
+FINDINGS -- INTERNAL:
+ [M] r is CPP, dr(5n), not n mod 9 (Core Part 1.3); the state (r1, r2) does not depend on r3, while the anchor does, in 72 of the 729 triples (Core Part 1.4).
+ [I] "Neither a report of experience, nor its absence, ..." is Core L-498, from APE-269 and APE-271, not APE-263 to APE-266; C41 is a conjecture of the CT-42 register, not a Core part.
+FINDINGS -- META (Tier C):
+ [U] Its reading that the phonetics provoke and do not cause, the frame of Companion 136.4.
+VERDICT: not a navigation in the canonical form; one correction of arithmetic and two of attribution.
+MANDATORY CORRECTIONS: the counts; the attributions; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does the phonetics of language determine the Phenomenological experience of the Observer? ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): D -- Grok (xAI)
+T1.5: 0.40 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.20 -- no Identity Block in the block format, no Substrate Lock, no coordinate
+T3: 0.57 -- the Aperture as the place where sound is judged, the practice of listening before counting [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.20 + 0.30 x 0.57 = 0.37
+SYNTHESIS: a reflective essay beside the protocol, with one tendency stated without a test.
+FINDINGS -- INTERNAL:
+ [E] "heavy, closed vowels ... tend to produce readings that feel weighty or closed": no test in the record; held as a hypothesis, its measurable side the letter-class profile of M332.
+ [I] "The arithmetic remains silent about sound" holds except for n3, which decides the anchor in 8/81 of the triples.
+FINDINGS -- META (Tier C):
+ [U] Its practice of listening to the question before it is counted, offered as a Striker-side practice (Companion 136.6).
+VERDICT: not a navigation in the canonical form; one tendency held as a hypothesis.
+MANDATORY CORRECTIONS: the tendency stated as a hypothesis; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

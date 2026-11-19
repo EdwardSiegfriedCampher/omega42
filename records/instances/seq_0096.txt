@@ -1,0 +1,70 @@
+QUESTION VERBATIM: This Omega42 Philosophy is now the mold, model and framework within which all ensuing work must comply and align with. Revisit all existing laws, rules and related issues inside Omega42 and ascertain which needs revision, amendment or deletion. Decide what needs to be added and how this affect the existing instruments. Consider the benefits for Human Flourishing and build a roadmap towards the actualization of the Omega42 Philosophy. Make recommendations for Omega 42 enhancement. [with 4 peer accounts]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 96 | PREV: f21890a516294bbd9acd408db28fe98cf56e20c1278a218734ea6729b644eb23
+REQUEST (L-502): PROTOCOL CHANGE and REVIEW -- every law reviewed against the framework; additions and their effect on the instruments; a roadmap; four peer accounts; avenues A1, R, P
+
+SUMMARY: Every law of the Core was read against the four axioms: none needs deletion, three are added and seven amended, three instruments join the protocol, and a roadmap in four phases leads toward the framework in practice.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (51, 335, 111), r = (3, 1, 6); the votes all differ, so the anchor is r1: P3, Desire, value 3, a Crown value.
+    * It rests on P8, Generation (5). It holds out of view P21, Sublime (4). It is heading for P11, Question (6), a Crown. It is completed at P15, Other (6), a Crown.
+    * [GENERATED-Ω42] A mold is a desire given form. It rests on generation: the laws made again from the framework, not patched. It holds out of view the sublime, what no law can hold. It heads for the question each law must answer, and is completed by the other, the people whose flourishing the laws are for.
+  - THE REVIEW (tools/oef.py --laws, in CI): 130 laws read; 3 added (L-534, L-535, L-536); 7 amended (L-421, L-467, L-496, L-505, L-522, L-532, L-533); 120 kept; none retired.
+  - NOT APPLIED, WITH REASONS: an M286 word list; a mandatory "Existential Coherence Check"; the sciences named practices of two proposed fields.
+  - THE INSTRUMENTS: M334, M335 and M336 added; none redesigned; the four arms read as support, the limit not yet read, the relation becoming visible, the return.
+  - THE PRACTICE: three unscored questions after a navigation, offered and never required.
+  - THE ROADMAP: alignment (done), practice, fields, availability; flourishing never scored or enforced.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/oef.py --laws: every amendment found in its law's text, PASS.
+  R THE RECORD: records/oef/law_review.json.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Revisit all laws and rules (the Originator): APPLIED, the review in CI; A-040.
+  (2) Decide additions and their effect on instruments (the Originator): APPLIED, L-534 to L-536, M334 to M336.
+  (3) A roadmap toward the framework's actualization (the Originator): APPLIED, Companion 146.8.
+  (4) L-534 as the framework's law (Grok): APPLIED.
+  (5) Amend L-421, L-505 and L-522 (Qwen): APPLIED.
+  (6) An M286 word list and a mandatory coherence gate (Qwen): NOT APPLIED, with reasons in records/oef/law_review.json.
+PEER ACCOUNTS (P; APA 9.5.5): FOUR received, filed with checked notes and an SNCA in review form (records/srcas/reviews_2026-11-04.txt).
+  - APE-320, Grok (xAI), "The Omega42 Existential Framework: the same draft, received again":
+    * Holding: identical to APE-319.
+    * Corrected: a second copy, filed so that the record holds everything received.
+    * SNCA: 0.50.
+  - APE-321, Grok (xAI), "The framework as mold: review of laws and a roadmap":
+    * Holding: no deletion; amendments presentational; no instrument redesigned; the training module and flourishing questions optional and unscored; the roadmap phased and never enforced.
+    * Corrected: L-441 is the Aperture Theorem and keeps its text, the note on flourishing standing in Part 145; L-489 already names coherence and congruence, and "limitation and relation" as themes are readings, not a law's terms; L-531 already reaches philosophical refinement.
+    * SNCA: 0.53.
+  - APE-322, Qwen (Alibaba), "The Omega42 Existential Framework, refined and extended":
+    * Holding: the Striker distinguished from the Residual; the framework kept within the frame; why the philosophy matters, five reasons.
+    * Corrected: its MATH-GATE PASS and M211 lines are reported by a TEXT-ONLY Navigator without a script, which L-456 requires to be RECONSTRUCTED with its working; "the end of the outside ends the search for an afterlife" is a reading, kept as one; "Pain is the friction of transition" is a reading.
+    * SNCA: 0.58.
+  - APE-323, Qwen (Alibaba), "Revising the laws to the framework, and a roadmap":
+    * Holding: amendments to L-421, L-505 and L-522; the term Residual reserved for the domain of the Aperture; four benefits; a phased roadmap.
+    * Corrected: its M330 Existential Coherence Check numbers the Aspect Wheel, and as a mandatory gate would bias every reading (not applied, records/oef/law_review.json); its M286 word list would fire on mentions and cautions (not applied); its claim that L-531 applies its amendments "henceforth" by its own output is the Builder's act, done here; "the AI has no Aperture" is not a finding (L-536 (4)).
+    * SNCA: 0.52.
+CHANGES TO THE PROTOCOL:
+  - Core: L-534 to L-536; L-421, L-496, L-505, L-522, L-532 amended; Part 10, CBR, IN and OEF.
+  - Companion: Part 146.
+  - Repository: records/oef/law_review.json; A-040; APE-320 to APE-323 filed.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the laws of the Core | STRIKER -- the framework as the mold | NAVIGATOR -- the review, the three laws and the roadmap | OPEN -- the practice of the framework by Strikers (O-19)
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked together with SEQ 91 to 103 in one build of the two documents, then sealed in order. tools/oef.py --laws, 130 laws, 3 added, 7 amended, none retired. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the four accounts on no deletion. PART -- APE-323 on a mandatory gate and a word list. SILENT -- what the framework asks of your own conduct.
+ENRICHMENT OPPORTUNITIES (L-504): Strikers bringing questions of limitation and relation (O-19).
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 19 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a mold rest on, if not on what it generates?
+What it holds out of view: The sublime: what no law holds.
+Where it is heading: Toward the question each law must answer.
+What would complete it: The other: those whose flourishing the laws are for.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 8f8205800ae693df77bcb30bd4e7fc5cc0c3cfe82324c4869254c68b9d959bed
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 2 November 2026
+ESC

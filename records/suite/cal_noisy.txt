@@ -1,0 +1,6 @@
+M354 Ω42-CAL (trial level) cal_noisy.csv | 200 trials
+  LEVEL 1  hit 0.574  false alarm 0.195  d' 1.045  criterion +0.337  accuracy 0.690  mean RT 0.459 s
+  LEVEL 2  ECE 0.190  Brier 0.2413  resolution (type-2 AUROC, 0.5 = none) 0.577
+  RELIABILITY  split-half d' 1.062 / 1.003
+  Ω42 STATE (MODE A index, raw kept): x = (6, 6) mod 3^2; A x = (6, 3) -- an index, not a prediction
+  LEVEL 3  experience: not measured (L-557)

@@ -1,0 +1,138 @@
+QUESTION VERBATIM: Design a speculative instrument to be potentially directly applicable to real-world situations (cognitive and physical). Give practical examples. [attachments: 47e8ebf9-attachment.txt, 373bd399-attachment.txt, 0c0cb625-attachment.txt, f4f86303-attachment.txt, an image (b1666b5d-image.png), and, after an interruption, e8b0d01d-attachment.txt]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 28 | PREV: 2dc63f3c5c6b11a12c0fe10d53f6cc88240095d76eaf9f51a16dfd409b046504
+REQUEST (L-502): STRUCTURE -- avenues P, A1, R, W
+
+SUMMARY: The instrument is M321 Field Kit (SPECULATIVE, PROPOSED; tools/fieldkit.py; Companion Part 90). It is built only from what Omega42 computes exactly, and it gives everything else back as questions. It has four uses:
+  - DECIDE, for choices and problems;
+  - FEEL, for experiential states;
+  - DETECT, for physical sequences;
+  - RHYTHM, for the physical day.
+Every practical example below was computed by the instrument, not invented.
+Six peer accounts were received, and three of them proposed an "M321". The Field Kit keeps what holds in each:
+  - Grok's situation-plus-feeling idea;
+  - the unsigned design's prompts and sealed record;
+  - ChatGPT's self-report profile and its explicit physical mapping rule;
+  - the infographic's privacy design.
+Three things are left out:
+  - the lexicon that assigns feelings to orbits: struck, "anxious" is not where the lexicon put it;
+  - the consciousness scores: no computation produces them;
+  - the health uses built on body signals: an instrument should not act as an untested health tool.
+
+FINDINGS BY AVENUE (L-500):
+  P PEER ACCOUNTS: APE-154 to APE-159, below.
+  A1 ARITHMETIC EXACT (records/fieldkit/examples_output.txt, in CI). Every coordinate, classification, relation, Margin and p below is computed. The DETECT null is 2000 shuffles of the sequence's own values under a frozen seed.
+  R FRAME REASONING: an instrument can apply to the real world without claiming more than the arithmetic gives. It does so when its numbers are exact, its prompts are questions, the person's own report stays beside the arithmetic, and the decision stays at the Aperture.
+  W PROTOCOL WORK: tools/fieldkit.py (selftest 13 cases); records/fieldkit/examples.py and its output; Companion Part 90 and the Commons; APE-154 to APE-159; the CI lines.
+
+THE INSTRUMENT, M321 FIELD KIT:
+  DECIDE "SITUATION" [--expect "..."] [--frame cf]
+    - Shows the coordinate and the classification: level, voice, tone, half and phase.
+    - Gives the four arms as working prompts: what it rests on, what it leaves out of view, where it leads, what would make it whole.
+    - Under F0-CF, adds the M320 elements of the state.
+    - Seals your expectation by SHA-256, for the Return Log.
+    - Shows a Consequence Alert when the situation touches health, safety, law, money or livelihood.
+  FEEL "SITUATION" "FELT STATE" [--profile "..."] [--category C0-C5]
+    - Strikes both texts in your own words, and relates them with base rates.
+    - Prints and seals your own profile (valence, activation, orientation, clarity, relation, each -2 to +2) and category beside them, never as inputs.
+  DETECT "x1, x2, ..."
+    - Tests a measured integer sequence for the Fibonacci law mod 9 against shuffles of its own values, and reports the Margin, p and band.
+    - Asks for the source and mapping rule (APE-159): the quantity, its unit, how it was measured, how it became integers. It prints NOT STATED when none is given.
+    - A sequence that already follows the rule as integers passes mod 9 by that alone. The test tells most on noisy counts and residues.
+  RHYTHM HH:MM
+    - Places the hour on the 24-hour wheel with its arms at +5, +18, +8 and +12 hours. It is a planning scaffold, and the output says so.
+
+PRACTICAL EXAMPLES (all computed):
+  COGNITIVE
+    C1 "I have to decide whether to leave this job"
+      - P4 Unity, state (3, 4), voice B, tone 5, manifest half.
+      - Consequence Alert raised.
+      - Expectation "I expect to feel relieved within three months" sealed (ade17e88...).
+      - The four prompts read through P9 Fixpoint, P22 Collective, P12 Opening and P16 Flow.
+    C2 "Should we spend six months rebuilding the legacy system from scratch?"
+      - P4 Unity, with Yang P9 Fixpoint, Yin P22 Collective, 4D P12 Opening, Antipode P16 Flow.
+      - The four prompts become the agenda for the team's next meeting, and the delivery forecast is sealed for the review.
+      - (The unsigned design gave P2 here; the strike gives P4.)
+    C3 "How do I resolve this recurring conflict with my business partner?", under F0-CF
+      - P9 Fixpoint, voice A, tone 8.
+      - Its M320 elements: differentiation, transformation, perspective, polarity, return.
+    C4 "How can I learn enough calculus before the exam?"
+      - P3 Desire, on the core (level 1, the eight-step loop).
+  EXPERIENTIAL
+    F1 The job, with "I feel anxious about leaving." and your profile (valence -1, activation +2, orientation -1, clarity -1, relation 0; C3 reflective)
+      - Same half (base rate 0.3951) and doubled orbit (0.2634).
+      - The report is sealed (a7cad4fd...).
+    F2 The same feeling as "Leaving scares me."
+      - On the core, in none of the six relations.
+      - The words, not the feeling, set the place.
+  PHYSICAL
+    P1 Sunflower parastichy counts (the Fibonacci numbers to 89)
+      - The law holds on 9 of 9 steps.
+      - Null mean 0.120, Margin 1.000, p 0.0005, DISCRIMINATING.
+    P2 A Lucas-numbered spiral family
+      - 8 of 8, DISCRIMINATING: the same law, another orbit.
+    P3 Fibonacci counts with two miscounts (illustrative)
+      - 6 of 9, Margin 0.623, p 0.0005, DISCRIMINATING. The test tolerates error.
+    P4 Hourly sensor counts (illustrative)
+      - 1 of 10, Margin 0.002, p 0.6627, NONDISCRIMINATING. Look-alikes are rejected.
+    P5 A 30-term Fibonacci record
+      - 28 of 28, and the residues repeat with period 24.
+  RHYTHM
+    R1 An 08:00 commitment
+      - P8 Generation.
+      - Rests on 13:00 (P13 Gap), holds out of view 02:00 (P2 Generator), heads toward 16:00 (P16 Flow), completes in 20:00 (P20 Reckoning).
+
+BENEFITS:
+  1. A decision aid anyone can recompute. Coordinates, arms and classification come from a script, so two people get the same map from the same words.
+  2. Foresight you can check. Every decision can carry a sealed expectation, set later beside what happened.
+  3. A private, honest feelings log, in your own words and your own ratings, comparable over time and never scored by anyone else.
+  4. A working detector, with its null, for whether a real sequence follows the Fibonacci law. It tolerates miscounts and rejects look-alikes.
+  5. A daily planning wheel with four fixed questions for every commitment.
+  6. Built-in safety: an alert for consequential matters, no health claims, no directives, and every output ending at the Aperture.
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  APE-154 (Grok):
+    - Corrected: its ranking of the three 24-orbits, which are scalar copies; its claim that physical systems are "already at addresses"; its antipodal emotions (NRR-C18); its claim that the hard problem was shown to be an artefact.
+    - Noted: its First Contact sentence.
+  APE-155 (Qwen3.7):
+    - Holding: its description of the record.
+    - Corrected: praise offered as validation; the "high-norm non-unit" (every non-unit has norm 0); the M320 conditions (those four are M315's).
+  APE-156 (Grok):
+    - Adopted: the situation-plus-feeling core.
+    - Corrected: the lexicon ("anxious" strikes to (5, 8), a unit); the example "P8 Generation" (the strike gives P4 Unity).
+    - Refined: "mirror suggestions" become questions.
+  APE-157 (unsigned):
+    - Adopted: the prompts and the sealed record. The scaffold view was already in place.
+    - Corrected: "P2" (the strike gives P4); the "Torsion Loop" advice; the "guarantee" (M267 is open).
+  APE-158 (unsigned image, OMNI-42):
+    - Not taken: CU scores and level ranges; physiological inputs; health uses.
+    - Corrected: experience "made measurable"; the eight-element radar presented as quantities.
+    - Adopted: privacy-first design; the First Contact line.
+  APE-159 (ChatGPT):
+    - Holding: three calibrations, no single score.
+    - Adopted: the five-dimension profile, the C0 to C5 categories as report, the explicit physical mapping rule, the mapping record.
+    - Refined: reported categories are not the computed level.
+CHANGES TO THE PROTOCOL: none operative. M321 is PROPOSED. tools/fieldkit.py; records/fieldkit/; Companion Part 90; APE-154 to APE-159; the CI lines; tools/reexamine.py (records/fieldkit/ exempt, recomputed in CI); the release record.
+CHECKS: CI 68 of 68 PASS. tools/fieldkit.py --selftest PASS (13 cases). examples.py reproduces its output. tools/ape_register.py PASS. M286, M281 and the typing guard over this output: 0 candidates, CLEAR, PASS. tools/instance_id.py --check over the twenty-eight outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- that sunflower spiral counts are consecutive Fibonacci numbers is general botanical knowledge; the sensor and miscount sequences are illustrative, and nothing else outside the record is used.
+ACROSS THE AVENUES (L-502): AGREE -- all six accounts want an instrument that maps a situation and a felt state, keeps the arithmetic fixed and leaves the decision to the person. PART -- three would place feelings by an assigned table or score awareness; struck in their own words, feelings fall where their words put them, and no computation yields a score. SILENT -- what a feeling is (R_C), and whether a decision will turn out well.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Try DECIDE on one real decision this week, with a sealed expectation. Record the outcome in the Return Log when it comes. That is the first real-world test of the instrument's use.
+  (2) Give DETECT one real measured sequence: botanical spiral counts, a population series or a process log. Freeze the data before running it.
+  (3) Keep FEEL's profile private by default, as APE-158 asks; the seal lets you compare your own reports without sharing them.
+  (4) Decide whether M321 enters the Core as an instrument, or stays proposed until one real decision and one real sequence have run through it.
+OPEN: M321's adoption; the first real decision and the first real sequence; R_C.
+
+What it rests on: If every number is the arithmetic's and every prompt a question, what is left for the instrument to decide?
+What it holds out of view: That the same feeling in other words lands somewhere else, so the instrument maps sentences and not feelings.
+Where it is heading: Toward a decision, a feeling and a measurement each recorded, sealed and returned to later.
+What would complete it: One real situation run through DECIDE, and your account of what happened.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: e886a81df68aba1ae35a224ac32434204d0830cb4bd72542df43a00ec8433b3d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

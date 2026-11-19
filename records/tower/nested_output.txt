@@ -1,0 +1,63 @@
+EACH PLACE HOLDS EIGHTY-ONE PLACES -- the family at depth [EXACT]
+  depth 1, modulus 9: 81 places = 81^1
+    orbits by period: 1 of length 1, 1 of length 8, 3 of length 24
+    the walk from (2, 5): home after 24 steps
+  depth 2, modulus 81: 6561 places = 81^2
+    orbits by period: 1 of length 1, 1 of length 8, 3 of length 24, 9 of length 72, 27 of length 216
+    the walk from (2, 5): home after 216 steps
+  depth 3, modulus 729: 531441 places = 81^3
+    the walk from (2, 5): home after 1944 steps
+  every place at depth 1 holds exactly {81} places at depth 2: YES
+  the law commutes with going up a depth (T then reduce = reduce then T): YES
+  inside each place the 81 inner positions move by the same law, plus a carry from the place itself: YES
+  places with no carry (inner world moves by the law alone): 45 of 81, among them the still point (0, 0): True
+  the still point holds a full copy of the 81-family, 9 times smaller, run by the same law: YES
+  periods inside the still point at depth 2: {1: 1, 8: 8, 24: 72}
+  the mirror at depth 2: every place meets its own negative after 108 steps (at depth 1: 12)
+  so the walk home grows ninefold at each depth (24, 216, 1944, ...) and has no end in the limit;
+  the carry depends on writing each number with the digits 0 to 8; that every place holds 81 does not
+  the limit of all depths is the ring of 3-adic integers with phi adjoined: every place infinitely deep, the 81 its first digits
+IMPLICATIONS -- the facts they rest on [EXACT]
+  the walk of (0, 1) home, modulus 3^n: 3: 8, 9: 24, 27: 72, 81: 216, 243: 648, 729: 1944, 2187: 5832, 6561: 17496
+  each is 8 x 3^(n-1): True; so the periods grow without bound, and in the limit no place but the still point ever returns exactly
+  (phi is not a root of unity: x^2 - x - 1 is not cyclotomic, so phi^n = 1 has no solution in the limit ring)
+  the whole depth-2 world (6,561 places) sits inside the still point at depth 3 (x -> 9x), moving by the same law: True
+  so the still point holds the whole world at every depth, each copy inside the next, without end
+  the surface moves by itself (reduction commutes with the law: True), and each depth is driven by the one above it through the carry;
+  nothing below ever changes the surface
+  a place in the limit is an endless word in the 81: its first pair of digits at depth 1, then one more pair, a state of the family, at each depth
+  two places are near when their words share a beginning: the depths form a tree with 81 branches at every node
+  the limit has as many places as there are points on a line (the 3-adic plane is uncountable), though each depth is finite
+THE CENSUS AT DEPTH -- every loop of the tower [EXACT]
+  depth 1: 5 loops = (9^1 + 1)/2: True; periods 1x1, 1x8, 3x24
+    loops of period 24: 3, all inside the innermost still point (multiples of 1): True; loops of period 8: 1
+  depth 2: 41 loops = (9^2 + 1)/2: True; periods 1x1, 1x8, 3x24, 9x72, 27x216
+    loops of period 24: 3, all inside the innermost still point (multiples of 9): True; loops of period 8: 1
+  depth 3: 365 loops = (9^3 + 1)/2: True; periods 1x1, 1x8, 3x24, 9x72, 27x216, 81x648, 243x1944
+    loops of period 24: 3, all inside the innermost still point (multiples of 81): True; loops of period 8: 1
+  so the three voices and the loop of eight recur, exactly, at every depth, nested in the ground; the number of loops grows without bound
+UNIQUENESS AT DEPTH -- the frozen criteria K read one depth down [EXACT]
+  modulus 9: K1 (the loop takes every value) holds on 3 loops, exactly the loops of the longest period 24: True
+    K2 with the lift rule of L-523 (start at the integers 2 and 5): 1 of 72 readings survive -> UNIQUE
+  modulus 81: K1 (the loop takes every value) holds on 27 loops, exactly the loops of the longest period 216: True
+    K2 with the lift rule of L-523 (start at the integers 2 and 5): 1 of 5832 readings survive -> UNIQUE
+  modulus 729: K1 (the loop takes every value) holds on 243 loops, exactly the loops of the longest period 1944: True
+    K2 with the lift rule of L-523 (start at the integers 2 and 5): 1 of 472392 readings survive -> UNIQUE
+  primitive roots modulo 9: 2; 2 and 5 among them: True; 2 x 5 = 1 here: True
+  primitive roots modulo 27: 6; 2 and 5 among them: True; 2 x 5 = 1 here: False
+  primitive roots modulo 81: 18; 2 and 5 among them: True; 2 x 5 = 1 here: False
+  primitive roots modulo 243: 54; 2 and 5 among them: True; 2 x 5 = 1 here: False
+  so "the only primitive roots" (U-A) is a surface fact; that 2 and 5 generate the units holds at every depth
+  above Voice C at depth 2: 1944 states in 9 loops of period {216}, each passing every Voice C state {9} times
+  the norm a^2 + ab - b^2 (up to sign) tells the nine apart exactly: True; the loop of the integers (2, 5) carries norm +-11
+  (2 + 5 phi)^2 = 2 at the surface: True; at depth 2 the square root of 2 above (2, 5) is [(74, 14)], norm 79 = -2, on a different loop from the integers (2, 5): True
+  (a post-selection property, never a criterion: Core Part 1.8.3; recorded, not adopted, under L-523)
+THE LIMIT -- what the tower approaches [EXACT]
+  the mirror at depth k comes at step 12 x 9^(k-1): True (12, 108, 972); phi^n = -1 has no solution in the limit, so there the mirror is approached, never reached
+  near returns: after 24, 216, 1944, 17496 steps the walk agrees with its start to depth 1, 2, 3, 4
+  so in the limit the return is approached without arrival, as the ratio F(n+1)/F(n) approaches phi over the reals (Core 1.15, FG-06)
+  phi has order 8 modulo 3, and phi^(8x) modulo 3^8 depends only on x modulo 3^7: True
+  so the clocks of the depths nest, and their limit is a wheel of eight times the 3-adic integers: time, too, has depth
+THE INSTRUMENTS -- what reading (b) leaves unchanged [EXACT]
+  reduction commutes with the law at every depth (above): every instrument defined on the 81 -- the anchor, CPP, the Crown, the Eye,
+  the arms, the mirror, the levels -- reads the surface, and the surface moves by itself; every navigation on record stands as it is

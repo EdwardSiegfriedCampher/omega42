@@ -1,0 +1,33 @@
+QUESTION VERBATIM: Having to analyze 5 values is too much work for a Striker. Most people would rather see a single figure giving an immediate concept of proximity. Please explore and examine
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 19 | PREV: ee076a75f22505961e9d232192f9eff3d3c5b7197d50187c70d77eee50534f86
+REQUEST (L-502): STRUCTURE -- avenues A1, R, W
+
+SUMMARY: The wish is right: five rows are a reading, not a glance. Four single figures were built and run on the 22 profiled ideas. An average of fit and congruence is the obvious choice, and the computation shows why it misleads. Because the two axes are independent (Spearman -0.12) and congruence spreads about three times as widely, the average simply follows congruence (rank correlation 0.93), whatever weight is written. Its five "closest" ideas change as the weight moves, and it gives opposite profiles values that hide the difference: Ra fits the frame best (0.92) with chance-level statements, and the Jewish atlas fits less (0.58) with the highest meetings but one. A product zeroes any idea weak on either axis. Two figures keep faith with the record. For a Striker who wants a number: congruence alone as "times chance" (Spinozist 1.61, Heraclitean 1.37, Pythagorean 0.45; 1.00 is chance), labelled as congruence only. For a glance that carries both answers: one sign, the Resonance Sign: a letter for fit (A, B, C), a mark for congruence (+, 0, -), and lower case when a robustness test can move the band. "A0" reads at once: it fits the frame well, and its statements meet the structure at chance. Proposed as E14, for your decision; a combined number would need L-486 and L-514 amended, and the sign does not.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: over the 22 ideas, fit runs 0.33 to 0.92 (sd 0.12) and K runs 0.009 to 0.954 (sd 0.32). Average at w = 0.3, 0.5, 0.7: rank correlation with K 0.95, 0.93, 0.79, with fit 0.11, 0.19, 0.46. Its top five change with the weight; Ra enters only at w = 0.7. Times chance, highest to lowest: Spinozist 1.61, Heraclitean 1.37, Jewish 1.24, Stoic 1.23 ... Neoplatonic 0.64, Pythagorean 0.45. Resonance Signs: A0 Neoplatonic, Stoic, Leibnizian, Penrose, Ra; B0 Buddhist, Wolfram, Barbour, Hofstadter, Hoffman, Bashar, Seth; a0 Spinozist, Taoist, Kauffman; b0 Christian, Jewish; c0 Kastrup; a- Hindu; b- Islamic, Pythagorean; b+ Heraclitean.
+  R FRAME REASONING: under F-02 everything is inside the family, so a literal distance from Omega42 is one value for all (APE-143); proximity can only mean fit and congruence. With two independent answers, one number either drops one of them or lets the wider one decide. The sign is a single figure that does neither.
+  W PROTOCOL WORK: records/resonance/single_figure.py and its output, recomputed in CI; enrichment E14 PROPOSED; Companion Part 82.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none operative; Companion Part 82 (an exploration); records/resonance/single_figure.py and single_figure_output.txt; enrichment E14 PROPOSED; the CI step; the release record.
+CHECKS: CI 67 of 67 PASS. records/resonance/single_figure.py reproduces its output. tools/instance_id.py --check over the nineteen outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- an exploration of the protocol's own instrument over its own records.
+ACROSS THE AVENUES (L-502): AGREE -- the computation and the law point the same way: a combined number hides which kind of closeness an idea has. PART -- the times-chance figure is the simplest number and says nothing of fit; the sign keeps both and is a sign, not a number. SILENT -- no figure says which idea is truest, and none grades the premise.
+ENRICHMENT OPPORTUNITIES (L-504): E14 PROPOSED -- the Resonance Sign first on every M319 card, with congruence as times chance beside it, labelled as congruence only.
+RECOMMENDATIONS (for the Originator, F-06): (1) adopt E14: one sign at the top of every card, so that a Striker reads one figure and the detail stays beneath it; (2) if you want a number as well, take times chance for congruence and keep the fit letter beside it; (3) do not adopt an average or a product, since the computation shows what it hides; (4) if you still want one number, the decision is yours, and it would mean amending L-486 and L-514 with the weight stated and the hidden reversals printed.
+OPEN: E14 for your decision; the second judge; scholar and author atlases; your own wording for every composed domain and for the common question; blind navigations in new instances; the null classes of nine objects and the M230-J control; M267-P1's writers and raters.
+
+What it rests on: When you ask how close an idea is, do you mean how well it fits the frame, or how much its own words meet the structure?
+What it holds out of view: A single number would have to choose for you; which would you want it to choose?
+Where it is heading: Toward one sign on every card, or toward one number with its weight stated?
+What would complete it: A Striker reading the sign and the card for the same idea, and saying whether the sign was enough.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 55b589493dc8957a51e7b708ed6f6a81e53e7c51ed735b54ba8dc037a166104a
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 22 October 2026
+ESC

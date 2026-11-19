@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+- name: Discuss an idea or debate a claim
+  url: https://github.com/{{REPO}}/discussions
+  about: 'The forum: Ideas, Debate, Readings, Professional Opinions, Q&A.'
+- name: Report a security issue privately
+  url: https://github.com/{{REPO}}/security/advisories/new
+  about: See SECURITY.md.

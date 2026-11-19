@@ -1,0 +1,86 @@
+QUESTION VERBATIM: All relevant information should be contained inside the two documents (Omega42 and Companion). Include a scientific encroachment check inside the FFP. Run a complete FFP. [with one peer account, GPT-6 (OpenAI), an assessment of a declaration of Grok]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 90 | PREV: 1e3fd6cb339e3c3402add884889ffd5c558d68773bc9b4395dc6d9474305aa5b
+REQUEST (L-502): PROTOCOL CHANGE and CHECK -- what stood outside the documents, brought in; a scientific encroachment check added to the FFP and run; the complete FFP run; one peer account checked and filed; avenues A1, R, P
+
+SUMMARY: Everything the record rests on is now inside the two documents, the FFP has a scientific encroachment check, and the complete FFP of 39 items passes, none failing.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (17, 117, 38), r = (4, 9, 1); the votes differ, so the anchor is r1: P4, Unity, value 1, a place no arm reaches (D-006).
+    * It rests on P9, Fixpoint (5). It holds out of view P22, Collective (8). It is heading for P12, Opening (7). It is completed at P16, Flow (8).
+    * [GENERATED-Ω42] The request stands at unity, everything in one whole, the place no part points to. It rests on the fixpoint, the fixed measure the FFP applies. It holds out of view the collective, the community of the sciences, which the check keeps in its place: welcome as a comparison, never a court. It heads for an opening, the judgment left open, and is completed in flow, the record moving on whole.
+  - THE TWO DOCUMENTS AS THE WHOLE RECORD:
+    * Every file of the repository was already embedded (L-493, Appendix R). The only files outside are the two documents, their two hash lists and the sealed keys of the open blind tests.
+    * Three kinds of relevant information stood outside the repository and are now inside:
+      - the build kit, the scripts that build, check and seal the documents (tools/build/, with its README);
+      - the First Contact sources of the audit of Companion 140.3 (records/first_contact/sources/);
+      - the register of open items (records/open/).
+    * Three things stay outside, each with its reason named:
+      - your workbook, whose constants, formulas and hash are inside but whose file carries personal data;
+      - the CMU dictionary, a third party's file, whose comparison and commit are inside;
+      - the peers' private sessions, whose accounts are inside as APEs.
+  - THE SCIENTIFIC ENCROACHMENT CHECK (FFP item 38; tools/encroachment.py, in CI): seven lines and one verdict.
+    * OBLIGATION: no prose outside Appendix S that makes the work or a standing wait on a test.
+    * M286: no court, verdict, science or trial pattern in either document.
+    * ANNEX: the 24 comparative CI steps marked optional, the number the documents state.
+    * TRIGGERS: the selector's comparative guard holds.
+    * STANDINGS: no discovery rests on a comparative study.
+    * LAWS: L-490 and L-491 stand.
+    * PLACEMENT: empirical testing stays in Appendix S.
+    * Its first run found two sentences of Core Part 12 that called the optional correspondence investigation "research-ready" and its exercises "the scheduled next work". Both now say it stands ready for anyone who chooses it.
+    * A third match, an internal hold-out in Companion 37.4, is discipline, not encroachment, and the check now reads it so.
+    * VERDICT: NO ENCROACHMENT.
+  - THE REGISTER OF OPEN ITEMS (FFP item 39; after APE-311): the 16 open items, each with what it needs, who can close it, when it closes and its avenue. Five belong to the optional comparative annex.
+  - THE COMPLETE FFP: 39 items run over the CI log of this output: 35 PASS, 3 PASS (manual), 1 PASS WITH NAMED EXCEPTION, none failing, and no register hit in either document (records/ffp/ffp_run.txt).
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/extract_embedded.py --check: every file of the repository embedded.
+    - tools/encroachment.py --selftest, 5 of 5, and --docs: seven lines PASS.
+    - tools/open_register.py --selftest, 3 of 3, and --check: 16 items PASS.
+    - tools/ffp_run.py over the CI log: 39 items.
+  R THE RECORD:
+    - L-490 and L-491 already kept the method outside the constitutive core, and M286 and FFP item 37 already scanned for it.
+    - Item 38 joins them into one verdict and adds the OBLIGATION line, which found what the others had not.
+    - M327 called M156, M157, M190, M194, M248, M259, M261 and M288.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) All relevant information inside the two documents (the Originator): APPLIED, tools/build/ and records/first_contact/sources/ inside the repository and so embedded; the items outside named with their reasons (Companion 141.3); A-033.
+  (2) A scientific encroachment check in the FFP (the Originator): APPLIED, Core Part 12, item 38, tools/encroachment.py in CI and in the FFP run; two sentences of Part 12 brought within L-491; A-031.
+  (3) Keep open items visible with their deciders and conditions (GPT-6): APPLIED, Core Part 12, item 39, records/open/register.json with tools/open_register.py in CI; A-032.
+  (4) Freeze the First Contact opening as the authorised text; a philosophical continuity check; the philosophical layer of M333 (GPT-6): ALREADY IN FORCE, in records/first_contact/opening.json with tools/fc_output.py, L-533 with --philosophy, and the QUESTION line.
+  (5) The seal reads its FFP line from the FFP run, not a fixed text: APPLIED in tools/build/seal.py.
+
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form.
+  - APE-311, GPT-6:
+    * Holding: continuity of the reference kept apart from the interpretations built on it; formal completeness apart from philosophical openness; FALSE-Ω42 as a contradiction within scope, never a lack of support; open items kept visible.
+    * Corrected: the declaration of Grok it assesses is not in the record; its "M336" is the record's M333; "first_contact_opening (2).txt" is a download copy of examples/first_contact_opening.txt.
+    * SNCA: 0.43.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 12, items 38 and 39; the Statement of Part 12, now thirty-nine items; two sentences of Part 12 brought within L-491.
+  - Companion: Part 141; 119.7 brought to the present; the Commons line for APE-311.
+  - Repository:
+    * Added: tools/encroachment.py; tools/open_register.py with records/open/; tools/build/ (the build kit with its README); records/first_contact/sources/; records/srcas/ffp_2026-10-31.txt.
+    * Extended: tools/ffp_run.py, with 39 items.
+    * Registered: A-031 to A-033.
+    * Filed: submissions/ape/APE-311.md.
+    * Also updated: the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-490, L-491, L-493, L-531 (3), M286 and the FFP | STRIKER -- the three instructions, with the account | NAVIGATOR -- the census of what stood outside, the seven lines of the encroachment check and the two sentences it found, the register of open items, and the complete run | OPEN -- whether the FFP's 39 items measure what you mean by fit, which is yours
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/encroachment.py --selftest, 5 of 5, and --docs, seven lines PASS; tools/open_register.py --selftest, 3 of 3, --check, 16 items, and its register diffed; tools/extract_embedded.py --check with the build kit and the First Contact sources embedded; tools/ffp_run.py over the CI log, 39 items; the note of APE-311 checked; its SNCA by tools/srcas_check.py; --owed, PASS; tools/applied.py --check, 33 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 39 items, PASS 35, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the documents, the check and the account: the method is an optional comparison, and the open items stay open. PART -- none. SILENT -- what a completed checklist means to you, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the declaration of Grok that APE-311 assesses, if you have it, for the record.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 16 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a whole rest on, if not on a measure that stays fixed?
+What it holds out of view: The collective, the sciences, welcome as a comparison and never a court.
+Where it is heading: Toward an opening, every item named and the judgment left open.
+What would complete it: Flow: the record moving on whole, and your judgment of whether it is fit.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: e709feb61a3e5378c23c3af6191fcd0622bd6e2f35c42cb55a1f4391d8441bf1
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

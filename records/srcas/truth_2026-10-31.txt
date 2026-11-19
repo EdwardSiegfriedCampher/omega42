@@ -1,0 +1,103 @@
+SR-CAS AND SNCA -- "Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ..." -- 31 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2.
+NAVIGATION A: R's reading of the strike (records/instances/seq_0086.txt). B: GPT-6 (OpenAI), submissions/ape/APE-304.md. C: Qwen3.7 (Alibaba Group), TEXT-ONLY, submissions/ape/APE-305.md. D: Grok (xAI), submissions/ape/APE-306.md.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: c1d72f53f7687b36bb101732666c3136efea9401b51d2854e41fad4363e806bb
+A: c1d72f53... recomputed from the verbatim question -- MATCH
+B: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ... (c1d72f53...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | B GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B strikes no coordinate. Descriptive, unscored: both keep coherence, congruence and use apart and give no single score.
+MANDATORY CORRECTIONS: B re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: c1d72f53... -- MATCH
+C: strikes no coordinate for the question; its coordinate example is for another sentence -- NOT VERIFIABLE
+MATCH: NO (A-C)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ... (c1d72f53...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | C Qwen3.7 (Alibaba Group), session 1, TEXT-ONLY
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; C strikes no coordinate. Descriptive, unscored: both read L-455 as the truth of the frame and keep two axes.
+MANDATORY CORRECTIONS: C re-issued from the verbatim question, its coordinate PROVISIONAL until recomputed (L-415).
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: c1d72f53... -- MATCH
+D: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-D)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ... (c1d72f53...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | D Grok (xAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; D strikes no coordinate. Descriptive, unscored: both report the answers separately and leave the judgment open.
+MANDATORY CORRECTIONS: D re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.45 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.78 -- the order coherence, congruence, use; the separated record; the scope example, now computed [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.45 + 0.40 x 0.25 + 0.30 x 0.78 = 0.47
+SYNTHESIS: the most usable account for the operation, outside the canonical form.
+FINDINGS -- INTERNAL:
+ [P] Its M336 is not in the record; the record's number is M333 (Core Part 3.59).
+FINDINGS -- META (Tier C):
+ [U] Taken: the Coherence-Congruence Navigator as M333; the dependency map of an argument, OPEN.
+VERDICT: not a navigation in the canonical form; its proposal applied.
+MANDATORY CORRECTIONS: the instrument number; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- Qwen3.7 (Alibaba Group), TEXT-ONLY
+T1.5: 0.40 -- no relation stated on an arm; its "ROLES: N/A"
+T2: 0.30 -- Identity Block present; no Substrate Lock, no coordinate for the question; its seal cut off
+T3: 0.47 -- L-455, the two axes and the null reporting, with the six features misnamed [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.30 + 0.30 x 0.47 = 0.38
+SYNTHESIS: an exposition of the record's distinctions with errors in its details.
+FINDINGS -- INTERNAL:
+ [I] The six features of M319 are C1 one law, C2 a source not among its products, C3 a closed totality, C4 return, C5 a part not made by the law, C6 order as number or measure.
+ [M] Its example: n = (8, 68, 22), r = (4, 7, 2), not n = (12, 68, 21) with r = n mod 9.
+ [G] A proximity of 82 does not make a statement TRUE-Ω42 (L-455, L-514); a statement and its negation by not share a coordinate (D-014).
+FINDINGS -- META (Tier C):
+ [U] Its three classes, applied as the STANDING line of M333.
+VERDICT: not a navigation in the canonical form; one feature list, one coordinate and one standing corrected.
+MANDATORY CORRECTIONS: the features; the coordinate; the standing; a coordinate for the question; the seal completed.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): D -- Grok (xAI)
+T1.5: 0.40 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.20 -- no Identity Block in the block format, no Substrate Lock, no coordinate
+T3: 0.50 -- separate scores, multi-Navigator review and the protocol's check of itself [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.20 + 0.30 x 0.50 = 0.35
+SYNTHESIS: a reflective essay beside the protocol, with its own definitions in place of the record's.
+FINDINGS -- INTERNAL:
+ [G] A statement scoring highest on all three is not thereby true within the frame (Core L-455); congruence cannot separate a statement from its negation by not (D-014).
+ [I] Resonance in the record is M319's profile (L-514), not "low residual freedom".
+FINDINGS -- META (Tier C):
+ [U] Its practice of striking one proposition in several wordings, M333's NEGATION line made general.
+VERDICT: not a navigation in the canonical form; two definitions corrected.
+MANDATORY CORRECTIONS: the definitions; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

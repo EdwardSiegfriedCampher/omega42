@@ -1,0 +1,25 @@
+1. Differencing is a time shift on every orbit (residues): dx(n) = x(n+1) - x(n) = x(n-1), and the central second difference is x(n-3): True
+2. Energy and curvature by representation (sum of squares of the values, and of their central second differences):
+   Voice A: residue energy 126 | residue curvature 126 | display 1-9 curvature 1296 | display 0-8 curvature 1296 | centred-lift curvature 648
+   Voice B: residue energy 144 | residue curvature 144 | display 1-9 curvature 972 | display 0-8 curvature 972 | centred-lift curvature 972
+   Voice C: residue energy 216 | residue curvature 216 | display 1-9 curvature 648 | display 0-8 curvature 648 | centred-lift curvature 1296
+   residue measures: Voice C is the unique maximum; the display measures order the voices one way and the centred lift the other
+3. Centred power spectra on the odd harmonics (levels):
+   Voice A: [108.0, 136.9385, 511.0615] | all integers: False
+   Voice B: [136.9385, 216.0, 511.0615] | all integers: False
+   Voice C: [324.0, 648.0] | all integers: True
+   108 * sqrt(3) = 187.0615: the irrational levels of Voices A and B are 324 - 108 sqrt 3 and 324 + 108 sqrt 3
+4. Autocorrelation of the centred canonical cycle, R(L) = sum c(n) c(n+L) / sum c(n)^2:
+   nonzero lags: {0: 1.0, 4: -0.25, 8: 0.25, 12: -1.0, 16: 0.25, 20: -0.25}
+   at the arm offsets: Yang +5 0.00 | Yin +18 0.00 | 4D +8 +0.25 | Antipode +12 -1.00
+   Voice A at lags 2, 5, 8, 12, 18: [-0.4286, 0.0, -0.2857, -1.0, 0.0]
+   Voice B at lags 2, 5, 8, 12, 18: [0.375, 0.0, -0.125, -1.0, 0.0]
+   Voice C at lags 2, 5, 8, 12, 18: [0.0, 0.0, 0.25, -1.0, 0.0]
+5. K-alt-5 (adversarial, not a criterion): period 24 and an all-integer centred power spectrum
+   survivors: 24, exactly the 24 states of Voice C: True -> the voice is selected, the starting state is open (UNDERDETERMINED)
+6. Parity of value observables under the half turn v -> -v (anchor -> Antipode):
+   M234 scale family dr(v^2)                    EVEN: identical at a position and its Antipode
+   Crown / Torsion membership (v mod 3 = 0)     EVEN: identical at a position and its Antipode
+   centred value (M289)                         ODD or mixed: separates a position from its Antipode
+   completion v_S + v_A (ACS, M285)             ODD or mixed: separates a position from its Antipode
+7. FP-Adjacency in residues: {4, 5} = {4, -4}, the pair at the greatest cyclic distance from 0: True

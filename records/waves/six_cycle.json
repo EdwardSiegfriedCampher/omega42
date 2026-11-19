@@ -1,0 +1,310 @@
+{
+ "_about": "The six-cycle of the trace map in five wave models, each with its letter matrices (real form, M_a then M_b), the seed (x_2, x_1, x_0), the six states, the return error and the Fricke-Vogt invariant before and after (Companion Part 228; F221). Written by python3 tools/wave_atlas.py --write.",
+ "models": {
+  "light, quarter wave, indices 2 and 3/2": {
+   "letter_matrices": [
+    [
+     "0",
+     "-1/2"
+    ],
+    [
+     "2",
+     "0"
+    ],
+    [
+     "0",
+     "-2/3"
+    ],
+    [
+     "3/2",
+     "0"
+    ]
+   ],
+   "seed": [
+    "-25/24",
+    "0",
+    "0"
+   ],
+   "states": [
+    [
+     "0",
+     "-25/24",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "-25/24"
+    ],
+    [
+     "25/24",
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "25/24",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "25/24"
+    ],
+    [
+     "-25/24",
+     "0",
+     "0"
+    ]
+   ],
+   "return_error": "0",
+   "invariant_before": "49/576",
+   "invariant_after": "49/576",
+   "six_periodic": true
+  },
+  "sound, quarter wave, impedances 4.6 and 3.2": {
+   "letter_matrices": [
+    [
+     "0",
+     "-5/23"
+    ],
+    [
+     "23/5",
+     "0"
+    ],
+    [
+     "0",
+     "-5/16"
+    ],
+    [
+     "16/5",
+     "0"
+    ]
+   ],
+   "seed": [
+    "-785/736",
+    "0",
+    "0"
+   ],
+   "states": [
+    [
+     "0",
+     "-785/736",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "-785/736"
+    ],
+    [
+     "785/736",
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "785/736",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "785/736"
+    ],
+    [
+     "-785/736",
+     "0",
+     "0"
+    ]
+   ],
+   "return_error": "0",
+   "invariant_before": "74529/541696",
+   "invariant_after": "74529/541696",
+   "six_periodic": true
+  },
+  "electrons, hoppings 1 and 3, E = 0": {
+   "letter_matrices": [
+    [
+     "0",
+     "-1"
+    ],
+    [
+     "1",
+     "0"
+    ],
+    [
+     "0",
+     "-1/3"
+    ],
+    [
+     "3",
+     "0"
+    ]
+   ],
+   "seed": [
+    "-5/3",
+    "0",
+    "0"
+   ],
+   "states": [
+    [
+     "0",
+     "-5/3",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "-5/3"
+    ],
+    [
+     "5/3",
+     "0",
+     "0"
+    ],
+    [
+     "0",
+     "5/3",
+     "0"
+    ],
+    [
+     "0",
+     "0",
+     "5/3"
+    ],
+    [
+     "-5/3",
+     "0",
+     "0"
+    ]
+   ],
+   "return_error": "0",
+   "invariant_before": "16/9",
+   "invariant_after": "16/9",
+   "six_periodic": true
+  },
+  "electrons on-site, V = 1, E = 0": {
+   "letter_matrices": [
+    [
+     "-1",
+     "-1"
+    ],
+    [
+     "1",
+     "0"
+    ],
+    [
+     "0",
+     "-1"
+    ],
+    [
+     "1",
+     "0"
+    ]
+   ],
+   "seed": [
+    "-1",
+    "-1/2",
+    "0"
+   ],
+   "states": [
+    [
+     "1",
+     "-1",
+     "-1/2"
+    ],
+    [
+     "-3/2",
+     "1",
+     "-1"
+    ],
+    [
+     "-2",
+     "-3/2",
+     "1"
+    ],
+    [
+     "5",
+     "-2",
+     "-3/2"
+    ],
+    [
+     "-37/2",
+     "5",
+     "-2"
+    ],
+    [
+     "-183",
+     "-37/2",
+     "5"
+    ]
+   ],
+   "return_error": "182",
+   "invariant_before": "1/4",
+   "invariant_after": "1/4",
+   "six_periodic": false
+  },
+  "electrons, hoppings 1 and 3, E = 1": {
+   "letter_matrices": [
+    [
+     "1",
+     "-1"
+    ],
+    [
+     "1",
+     "0"
+    ],
+    [
+     "1/3",
+     "-1/3"
+    ],
+    [
+     "3",
+     "0"
+    ]
+   ],
+   "seed": [
+    "-3/2",
+    "1/2",
+    "1/6"
+   ],
+   "states": [
+    [
+     "-5/3",
+     "-3/2",
+     "1/2"
+    ],
+    [
+     "9/2",
+     "-5/3",
+     "-3/2"
+    ],
+    [
+     "-27/2",
+     "9/2",
+     "-5/3"
+    ],
+    [
+     "-719/6",
+     "-27/2",
+     "9/2"
+    ],
+    [
+     "3231",
+     "-719/6",
+     "-27/2"
+    ],
+    [
+     "-1548699/2",
+     "3231",
+     "-719/6"
+    ]
+   ],
+   "return_error": "774348",
+   "invariant_before": "16/9",
+   "invariant_after": "16/9",
+   "six_periodic": false
+  }
+ }
+}

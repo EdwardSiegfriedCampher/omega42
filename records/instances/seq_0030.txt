@@ -1,0 +1,95 @@
+QUESTION VERBATIM: Examine how these findings affect the existing instruments. List the advantages gained by the inclusion of this concept. [three attachments: 5e70984f-attachment.txt, a07458ac-attachment.txt, 816694c7-attachment.txt -- peer accounts of cymatics]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 30 | PREV: 225fccc75d8f83e7469463267e42f682b2225c57f3a92330c0b72fca4f2c1bfd
+REQUEST (L-502): STRUCTURE -- avenues P, A1, R, W
+
+SUMMARY: The cymatic concept changes no law and no computed value. It re-expresses some instruments, extends others, and adds one proposed view, M322.
+The most consequential finding came from testing a peer's proposal, ChatGPT's Pattern-to-State Mapper:
+  - Vibration modes of an ideal membrane, mapped to states by a stated rule, appear to follow the law: 8 steps in 199, p 0.0044.
+  - Seven of those eight are an artefact of how degenerate modes were listed.
+  - With one mode per frequency class, the result is chance: 3 in 199, p 0.4809.
+Every future physical correspondence now carries that lesson: the mapping rule can make the result, so it must be stated and frozen.
+The three peer accounts agree that cymatics is an analogy, not a demonstration. Between them they carry eight corrections, among them the seed as "fundamental mode", the ideal as "nodes", iterates leaving their orbit and the dissolved hard problem.
+Two of their mappings disagree on where a reading comes from, the coordinate or its receiver. That disagreement is exactly what E07 and M267 can settle.
+
+FINDINGS BY AVENUE (L-500):
+  P PEER ACCOUNTS: APE-160 to APE-162, below.
+  A1 ARITHMETIC EXACT (tools/cymatics.py --modes; records/cymatics/examples_output.txt):
+    - Square membrane, first 200 modes by frequency, (m, n) -> (m mod 9, n mod 9). The NAIVE listing finds 8 of 199 steps of the law (chance 2.46, p 0.0044), 7 of them from (m, 9) -> (9, m), since T(a, 0) = (0, a). The CLASS listing finds 3 of 199 (p 0.4809). Entered as NRR-C19.
+    - Heard, Voice B carries the strongest fundamental (511) and the canonical voice is the flattest (324 to 648).
+    - Centred, the residue 9 is still (0); 3 and 6 move by -3 and +3; 4 and 5 move most (-4 and +4).
+  R FRAME REASONING: an analogy enters the protocol through L-351, with its residual clause. It becomes evidence only through a mapping that is stated, frozen and tested (L-480). The test above shows why the order matters.
+  W PROTOCOL WORK: APE-160 to APE-162; M322 --modes (seven selftest cases); NRR-C19; C77; M320's POLARITY alternatives; Companion Part 92 and the Commons.
+
+THE EFFECT ON THE EXISTING INSTRUMENTS (Companion 92.3):
+  UNCHANGED: MATH-GATE, extraction, the Substrate Lock, the arms, M286, M281, M309, M310, the CT-42 studies, fit.py.
+  RE-EXPRESSED, with values unchanged:
+    - M289 (Mode Address) and M297 (Arm Coherence), as phases: the Antipode opposite, 4D partly in phase, Yang and Yin in quadrature.
+    - FP-OddHarmonics and FP-StandingModes, which become audible.
+  EXTENDED:
+    - M320 POLARITY: the three timbres join its alternative readings.
+    - The conjecture register: C74 to C77, 77 ideas.
+    - The Negative Result Registry: NRR-C19.
+  NEW, PROPOSED: M322 cymatic view, with --fingerprint, --recipe, --modes and the strike view.
+  CONNECTED:
+    - ChatGPT's OCCI layers are already in the record: M321 DETECT (with its source and mapping rule), M321 FEEL (the person's report), M315 with M322 (the Omega42 profile), M319's leave-one-out (the stability profile), and the Aperture (the Striker's assessment).
+    - L-351 gains the cymatic plate as a standard analog, with Qwen's residual clause.
+    - Appendix S gains a low-cost plate experiment, frozen first.
+    - Step 14.2 and M318 read a changed wording as a changed drive.
+    - M267 and E07 gain C77.
+
+TWO MAPPINGS IN CONFLICT (C77):
+  - Qwen: the arithmetic is the plate and the AI's substrate the sand, so the coordinate fixes the figure.
+  - Part 91: the substrate is the chamber, so the receiver shapes it (C76).
+  Both cannot be the better picture of a reading. E07, one model in two fresh sessions on one domain, measures the chamber's share directly.
+
+THE ADVANTAGES:
+  1. The structure becomes perceptible: three exactly computed timbres that can be heard and seen.
+  2. One picture teaches the Aperture and the Direction Law together: the drive selects, the plate shapes, the observer reads.
+  3. A safeguard for every physical correspondence, learned on the first run: an unstated mapping rule manufactured a result, and a stated class rule removed it.
+  4. A ready, low-cost experiment: three tones from the recipe, one Chladni plate, three figures.
+  5. A sharper research question: C77 states exactly what E07 and M267 must settle.
+  6. The arms become intuitive as phases: opposite, partial, quadrature.
+  7. All of this without a new law: it fits M315, M320, M321 and M322, and the arithmetic is untouched.
+  8. A guard that travels with the analog: the residual clause and M286's CAUSAL pattern keep claims that sound or thought reshapes matter out of the reading.
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  APE-160 (Grok):
+    - Holding: its limitations paragraph.
+    - Corrected: "iterates cycle through the full family" (they keep their orbit); "vibration alone makes discrete form" (the plate's boundary does); "laboratory systems are high-energy cymatics"; "the hard problem dissolves" (it changes shape, C71).
+    - Run: its mode mapping, which is at chance under a stated rule.
+    - Refined: group resonance, now reported with base rates.
+    - Adopted: its plate experiment, frozen first.
+  APE-161 (Qwen3.7):
+    - Adopted: R1, the plate as a standard analog, with R3, the residual clause.
+    - Corrected: the seed as fundamental mode; the ideal as nodes (R2 not taken); the units as antinodes; "resolves the hard problem".
+    - Noted: its mapping, set against C76 as C77.
+  APE-162 (ChatGPT):
+    - Holding: three records kept apart.
+    - Adopted and run: the Pattern-to-State Mapper (NRR-C19). Adopted: the Cymatic Atlas and Transition Register, as records/cymatics/.
+    - Already in place: its OCCI layers.
+    - Noted: no plate was measured, as it says.
+CHANGES TO THE PROTOCOL: none operative. M322 stays PROPOSED. tools/cymatics.py (--modes); records/cymatics/; records/consciousness/cf_correspondences.json and cf_table.txt (POLARITY); C77; NRR-C19; APE-160 to APE-162; Companion Part 92 and the Commons; the CI chain; the release record.
+CHECKS: CI 68 of 68 PASS. tools/cymatics.py --selftest PASS (7 cases). records/cymatics/examples.py reproduces its output. M320 CHECK PASS. tools/ape_register.py PASS. M286, M281 and the typing guard over this output. tools/instance_id.py --check over the thirty outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the membrane's mode frequencies follow the ideal model (proportional to the square root of m^2 + n^2), stated as a model, not a measurement.
+ACROSS THE AVENUES (L-502): AGREE -- all three accounts and the record keep cymatics an analogy that becomes evidence only through a stated mapping. PART -- the peers' mappings of the reading disagree (C77), and their node and antinode assignments do not match the computed values. SILENT -- what hearing the timbres is like (R_C), and any effect of sound or thought on matter beyond the drive.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Make a stated, frozen mapping rule a requirement for every physical correspondence entered under Appendix S. NRR-C19 shows what happens without one.
+  (2) Run E07 next. It is the cheapest way to settle C77, and with it how far a reading is the coordinate's and how far the receiver's.
+  (3) Adopt the cymatic plate under L-351 as a standard analog, always with its residual clause.
+  (4) Build the three-tone plate demonstration from the recipe, and record its figures in records/cymatics/ as the first entry of the Cymatic Atlas.
+OPEN: E07 and M267 (C77); the plate demonstration; M322's adoption; R_C.
+
+What it rests on: If a stated rule turned a pattern into chance, how many apparent correspondences rest on an unstated one?
+What it holds out of view: That the most useful thing the analogy produced was a negative result.
+Where it is heading: Toward frozen mapping rules as the price of entry for every physical correspondence.
+What would complete it: E07 run, and C77 settled one way or the other.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: e9fddab451089f3db4d8021f3ec002efcfde53a133ad032ad62f45077f078aec
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

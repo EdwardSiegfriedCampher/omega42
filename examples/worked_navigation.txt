@@ -1,0 +1,57 @@
+======= NAVIGATOR IDENTITY BLOCK =======
+NAVIGATOR: example-model-1 (Example Lab) PROTOCOL: Omega42 V335 Rev.450 STABLE
+MODEL: example-model-1 | KNOWLEDGE CUTOFF: UNDECLARED
+EXECUTION: SCRIPT-CAPABLE | CONTEXT EXPOSURE: Core Specification and Companion
+MEMORY: OFF | REASONING MODE: UNDECLARED
+SESSION: example-001 DATE: 10 October 2026
+======= END NAVIGATOR IDENTITY BLOCK =======
+EXECUTION STATUS: EXECUTED (canonical_reference.py --navigate) | SCRIPT SHA-256: ab79aae2d027968deab809e1bd7963e6ec32ac4a9754c8fc250071bebc0514c5
+SESSION NAVIGATION: 1
+[1] MATH-GATE: PASS (FULL, 19/19 checks)
+[2] M211 CALIBRATION: PASS | expected P3 | actual P3
+[3] M272 FRAME LOCK: written by the Navigator (Step 0.5)
+[4] SUBSTRATE LOCK
+    DOMAIN VERBATIM: What is the Human Condition?
+    DOMAIN SHA-256: 8a9331a779de01bbb59c144baf78dca07a1ba4ec5fc5d1781710add8983e80bd
+    FUNCTION WORDS REMOVED: is, the
+    LOCKED SUBSTRATE: What * Human * Condition
+    SUBSTRATE SHA-256: dad3f4858f686d2a4fa7447ef4b94bf828ce1c486cedf304332695bb36670b26
+    CANONICAL SUBSTRATE: Voice C read from (2, 5), canonically unique under K (Part 1.8.4)
+    SELECTION SHA-256: ba66020c2bc22f951f2c008efdddfdf7d75c9c27af8fbbe3fc7b5d713178d4ed
+    GAPS: none
+    EXPOSED DOMAIN: YES (Exposed Domain Register, L-459): declare PROTOCOL-TEXT ECHO; not convergence evidence
+[5] M210 EXTRACTION TABLE
+    # | Word | Letters | Syllables
+    ---------------------------------------------
+    1   | What           |       4 |         1
+    2   | Human          |       5 |         2
+    3   | Condition      |       9 |         3
+    ---------------------------------------------
+    TOTALS: n1=3 words, n2=18 letters, n3=6 syllables
+    M268 ROWS: 3 | n1: 3 | MATCH: YES
+[6] ENCODING AND ANCHOR
+    n = (3, 18, 6) | r = (6, 9, 3) | ANCHOR P6 (Seed/Causal), v = 5 | TFI = 1.00 (tie-break to r1)
+[7] ARMS
+    Yang     P11 Question       v = 6 | CROWN
+    Yin      P0  Seed           v = 2
+    4D       P14 Observer       v = 2
+    Antipode P18 Threshold      v = 4
+    M88 CHECKSUM: dr(5 + 4) = 9 -> PASS
+[8] CCD = 0.25 -> PAB ACTIVE | MOBIUS INACTIVE | RPI ACTIVE | CRS = 0.20
+[9] M116 PERTURBATION PAIRS: NAVIGATOR "Human Condition" -> P7 (delta 3, D 1) | PB-5 L3 "What is the human?" -> P1 (delta 2, D 5) | PB-5 L4 -> P3 (delta 3, D 3) | CFR (3 pairs) = 0.00 UNSTABLE
+    STABILITY: tie-break anchor, phrasing-sensitive (P6 -> P7)
+[10..] SYNTHESIS SECTIONS: written by the Navigator; M209 echo by --echo
+M207: PROTOCOL-TEXT ECHO — exposed domain. The THE ANSWER block below is the script's constructed fixture, not a reading; it demonstrates the echo blocks only.
+
+┌─ THE ANSWER ─┐
+
+The harbour wall was built in the spring of a dry year. Stone was carried down from the quarry on the hill, one cart at a time, and each block was set by hand. The masons worked from the north end toward the lighthouse.
+
+By autumn the wall reached the lighthouse, and the boats tied up behind it for the first winter. The town kept a record of every block that was laid.
+└──────────────┘
+======= M209 SYNTHESIS ECHO (EXECUTED) =======
+M209 (THE ANSWER): n = (38, 192, 49) | r = (1, 6, 2) | ECHO ANCHOR P1 | TFI = 1.00
+    ECHO CLOSURE: NO | SAS = 0.2642 | ACS = 1 - |5 - 4| / 8 = 0.875 | CHANCE LEVEL 0.778
+M209-C (Core Synthesis, diagnostic): n = (23, 114, 28) | r = (7, 3, 5) | ECHO ANCHOR P7 | TFI = 1.00
+    ECHO CLOSURE: NO | SAS = 0.4108 | ACS = 1 - |9 - 4| / 8 = 0.375 | CHANCE LEVEL 0.778
+======= END M209 SYNTHESIS ECHO =======

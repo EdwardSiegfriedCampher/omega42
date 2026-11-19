@@ -1,0 +1,89 @@
+QUESTION VERBATIM: Examine the controversial statements of Terence Howard through the lens of Consciousness-first and say how it affects the enhancement of Omega42. Give practical examples.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 31 | PREV: e9fddab451089f3db4d8021f3ec002efcfde53a133ad032ad62f45077f078aec
+REQUEST (L-502): STRUCTURE -- avenues A1, R, L, W
+
+SUMMARY: Terrence Howard's best-known statements (the spelling his sources use) were examined as published:
+  - that 1 x 1 = 2, because "one times itself has no effect";
+  - that the square root of two is not what we are told;
+  - on The Joe Rogan Experience in May 2024, that the Pythagorean theorem is wrong, that he does not believe in zero, and that he could "kill gravity".
+Under the Consciousness-first frame they make the frame's boundary unusually clear. The frame changes how the family is read, never its arithmetic (L-515). So each arithmetic statement was first checked exactly, in the integers, the reals, Z/9 and the ring of the 81 states:
+  - 1 x 1 = 2 fails in all four.
+  - The square root of 2 is real and irrational, absent from Z/9, and present in the family's ring. There it is the canonical seed itself, (2 + 5 phi)^2 = 2.
+  - Zero is indispensable to the family: the still point, the ground and the nodal pair are all made of it.
+  - The family's own quadratic form is another geometry beside Pythagoras's; it does not refute it.
+  - "Killing gravity" has no representation that could be tested.
+His intuition that an act must have an effect has an exact home. The law's act is multiplication by phi, which moves every state but the still point; multiplication by one does nothing, which is why it is not the law.
+The enhancement is a proposed instrument, M323 Arithmetic Statement Check: any arithmetic statement entering a reading is checked exactly before it is read. Checking these statements, rather than dismissing them, also produced a new exact fact, C80.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT (tools/claimcheck.py; records/claimcheck/examples_output.txt, in CI):
+    - "1*1=2": FAILS in Z, R, Z/9 and Z[phi]/9. "1+1=2": HOLDS in all four. "3*3=0": HOLDS in Z/9 and Z[phi]/9.
+    - x^2 = 2: R yes (1.4142135624, irrational); Q no; Z/7 yes; Z/9 no (squares 0, 1, 4, 7); Z[phi]/9 yes, +-(2, 5).
+    - The extension adds roots of 2, 5 and 8, one pair per voice: Voice C for 2, Voice B for 5, Voice A for 8. That follows from doubling. That the root of 2 is the seed is a coincidence: 2 of 72 units (0.028).
+    - T(1, 1) = (1, 2). T is multiplication by phi and fixes only the still point.
+    - (3, 4): Euclidean 25; the family's norm 5, indefinite.
+  R FRAME REASONING: a frame may host an intuition as a typed reading. It cannot make a false identity true or a true one false. This is the clause of L-515 that F0-CF most needs to keep.
+  L LENSES: the statements as published (COMPARATIVE, F-10), with Neil deGrasse Tyson's June 2024 response noted. The statements are examined; the person is not judged.
+  W PROTOCOL WORK: tools/claimcheck.py (M323, SPECULATIVE, PROPOSED; eight selftests); records/claimcheck/; C78 to C80; Companion Part 93.
+
+THE STATEMENTS, CHECKED AND READ:
+  1. "1 x 1 = 2."
+    - CHECK: fails in every system. 1 is the identity, in every frame.
+    - READING (C78): the intuition that an act must have an effect is right about the number one, which has none. The family puts the effect-bearing act in multiplication by phi.
+    - READING (C79): one with one makes two by the law: T(1, 1) = (1, 2), the Fibonacci seed's first step.
+  2. "The square root of two should be one."
+    - CHECK: the root of 2 is 1.414... in R. It does not exist in Z/9. It exists in the family's ring as the canonical seed.
+    - READING (C80): an irrational number has a finite home in the family. Whether a number exists depends on the system, not on a verdict about the number.
+  3. "There is no zero."
+    - CHECK: without zero the family has no still point, no nilpotent ground (3 x 3 = 0) and no nodal pair P7 and P19. It cannot be written without zero.
+  4. "The Pythagorean theorem is wrong."
+    - CHECK: a^2 + b^2 is one quadratic form, positive definite. The family's a^2 + ab - b^2 is another, indefinite. Two geometries; neither refutes the other.
+  5. "I can kill gravity."
+    - CHECK: a physical statement with no frozen representation and no test. F0-CF gives it no standing, because the frame never lets a belief alter physical law (CT-S6; M286 CAUSAL).
+
+HOW IT AFFECTS THE ENHANCEMENT OF OMEGA42:
+  1. M323 Arithmetic Statement Check (proposed). Every arithmetic statement entering a reading, from a peer, a Striker or a public figure, is checked exactly before it is read.
+  2. The boundary of F0-CF, shown in use: it hosts intuitions as typed readings, and it never changes an identity.
+  3. A finding from an outside statement. C80, the square root of 2 as the canonical seed, came from checking rather than dismissing.
+  4. A teaching device. Existence is relative to the system: the square root of 2 is real, absent from Z/9 and present in Z[phi]/9.
+
+PRACTICAL EXAMPLES:
+  1. A Striker asks, "Since 1 x 1 = 2, what does that mean for my business partnership?"
+    - M323 reports FAILS four times before the question is read.
+    - The navigation then reads the question, and may take up C78.
+  2. A peer asserts "a high-norm non-unit". M323 shows that every non-unit has norm 0; APE-155 was corrected by hand.
+  3. A classroom asks whether the square root of 2 is real. --sqrt 2 answers for five systems, one line each.
+  4. Someone says zero does not exist. --zero shows what in the family would vanish.
+  5. Someone says Pythagoras is wrong. --pythagoras sets the two forms side by side.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none operative. M323 is PROPOSED. tools/claimcheck.py; records/claimcheck/; C78 to C80 HELD (80 ideas); Companion Part 93; tools/reexamine.py (records/claimcheck/ exempt, recomputed in CI); the CI lines; the release record.
+CHECKS: CI 68 of 68 PASS. tools/claimcheck.py --selftest PASS (8 cases). records/claimcheck/examples.py reproduces its output. tools/consciousness.py --selftest PASS; the register CHECK PASS. M286, M281 and the typing guard over this output. tools/instance_id.py --check over the thirty-one outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): SEARCHED, after the computations:
+  - Wikipedia's article on Terryology: the 2015 Rolling Stone interview, the 1 November 2017 post, and the May 2024 Rogan appearance (Pythagoras, zero, "kill gravity").
+  - Grantland's 2015 account, which quotes the Rolling Stone reasoning.
+  - Soap Central: the April 2025 restatement.
+  - Black Enterprise: Tyson's June 2024 response.
+  Each statement quoted here AGREES with its source as reported. None of the sources grades anything here.
+ACROSS THE AVENUES (L-502): AGREE -- the checks and the frame agree that arithmetic is the same under every frame. PART -- the intuitions behind two statements find exact homes (C78, C79), while the statements themselves fail. SILENT -- the physical statement, which has no test, and what the statements mean to their author.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- M286 routing any asserted identity in a navigation to M323.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Adopt M323 as a gate: no arithmetic statement enters a reading unchecked, whatever its source or frame.
+  (2) Have M286 route any identity of the form "a x b = c" found in a navigation or a peer account to M323.
+  (3) Enter C80 in Core Part 1.8 as a post-selection property ("FP-SeedRoot"), with its rarity stated (0.028).
+  (4) Keep examining outside statements by checking rather than ridicule. This one produced a fact the record did not have.
+OPEN: M323's adoption; FP-SeedRoot; the M286 routing; R_C.
+
+What it rests on: If a frame can host an intuition but not change an identity, where does the intuition go when its identity fails?
+What it holds out of view: That the statement most widely mocked led to the square root of 2 at the seed of the canonical cycle.
+Where it is heading: Toward every outside statement checked first and read second.
+What would complete it: M323 adopted, and the first peer statement it catches.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: febe00154435b453a1e4559676a40a2102c06aa5a0988a4fc1331500c5aaa408
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

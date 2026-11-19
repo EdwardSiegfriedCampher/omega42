@@ -1,0 +1,347 @@
+### Repeated computation: the quadratic form on
+
+I repeated the finite computations from the definitions and checked the algebraic steps independently. The results below include executable Python code for the exhaustive calculations.
+
+Let
+
+V=(\\mathbb Z/9\\mathbb Z)^2,\\qquad
+Q(a,b)=a^2+ab-b^2\\pmod9,
+
+with , , and
+
+\\beta(x,y)=q(x+y)-q(x)-q(y)\\pmod1.
+
+### 1\. Nondegeneracy
+
+For and , polarization gives
+
+9\\beta(x,y)=2ac+ad+bc-2bd\\pmod9.
+
+Thus
+
+B=\\begin{pmatrix}2&1\\\\1&-2\\end{pmatrix},
+\\qquad \\det B=-5.
+
+Because , is invertible modulo . The only element pairing trivially with every element of is therefore .
+
+Result — PROVEN: is nondegenerate, so defines a modular abelian anyon theory.
+
+### 2\. Gauss sum and chiral central charge
+
+Define . The bijective change of variables
+
+u=a+5b\\pmod9,\\qquad v=b
+
+gives
+
+Q(a,b)=u^2+v^2\\pmod9.
+
+Therefore
+
+\\begin{aligned}
+\\mathcal G
+&=\\frac19\\sum_{a,b}\\zeta^{Q(a,b)}\\\\
+&=\\frac19\\left(\\sum_{u=0}^8\\zeta^{u^2}\\right)^2\\\\
+&=\\frac19\\left(3+2(\\zeta+\\zeta^4+\\zeta^7)\\right)^2\\\\
+&=1,
+\\end{aligned}
+
+since .
+
+By the Gauss–Milgram relation, , so
+
+\\boxed{\\mathcal G=1,\\qquad c_-=0\\pmod8.}
+
+Result — PROVEN: Exact algebraic calculation.
+
+### 3\. Quadratic-form identification
+
+The map
+
+\\Phi(a,b)=(a+5b,b)\\pmod9
+
+is invertible, with inverse . It satisfies
+
+q(a,b)=\\frac{(a+5b)^2+b^2}{9}\\pmod1.
+
+Hence
+
+\\boxed{(V,q)\\cong
+\\left(\\mathbb Z/9\\mathbb Z,\\frac{u^2}{9}\\right)
+\\perp
+\\left(\\mathbb Z/9\\mathbb Z,\\frac{v^2}{9}\\right).}
+
+This is an orthogonal sum of two identical cyclic quadratic forms of order . It is not the usual hyperbolic toric-code quadratic form : for the form here, the only isotropic elements have both coordinates divisible by , unlike the hyperbolic form.
+
+Result — PROVEN: Explicit isomorphism supplied. No additional identification with a particular theory or named lattice is asserted.
+
+### 4\. Bosons and condensation
+
+A boson satisfies . Modulo , the equation
+
+a^2+ab-b^2=0
+
+has only the solution . Thus must both be divisible by , and conversely every such pair has .
+
+The complete boson set is
+
+L=\\{(3r,3s):r,s\\in\\{0,1,2\\}\\}.
+
+Explicitly, it is
+
+\\begin{split}
+L=\\{&(0,0),(3,0),(6,0),(0,3),(0,6),\\\\
+&(3,3),(3,6),(6,3),(6,6)\\}.
+\\end{split}
+
+It is a subgroup of order , and vanishes on it. Therefore it is Lagrangian. Condensing a Lagrangian subgroup yields the trivial topological order, with no nontrivial deconfined anyons remaining.
+
+Result — PROVEN: Nine bosons; they form a Lagrangian subgroup.
+
+### 5\. Unitary and time-reversal symmetries
+
+An invertible linear map is unitary if , and time-reversal if .
+
+Exhaustively testing all matrices modulo with determinant coprime to gives:
+
+| Set                  | Size | Element-order distribution |
+| -------------------- | ---- | -------------------------- |
+| Unitary group        | 24   |                            |
+| Time-reversal maps   | 24   |                            |
+| Full generated group | 48   |                            |
+
+The unitary group is the dihedral group of order , with a rotation of order . To describe the full group, define
+
+r(a,b)=(b,a+b),\\qquad j(a,b)=(a+b,-b)\\pmod9.
+
+Here is time-reversing and is unitary. Direct calculation verifies
+
+r^{24}=1,\\quad j^2=1,\\quad jrj=r^{11}.
+
+Consequently,
+
+\\boxed{\\langle r,j\\rangle\\cong C_{24}\\rtimes_{11}C_2}
+
+has order . The time-reversal maps are the anti-isometry coset; they are not a subgroup by themselves.
+
+Result — COMPUTED EXHAUSTIVELY: Sizes and order distributions are enumerated below; the generator relations provide the group description.
+
+### 6\. Orbits of the full group
+
+The full group partitions the anyons into five orbits:
+
+| Orbit size | Values of | Spins               |
+| ---------- | --------- | ------------------- |
+| 1          |           | , vacuum            |
+| 8          |           | , non-vacuum bosons |
+| 24         |           |                     |
+| 24         |           |                     |
+| 24         |           |                     |
+
+The sizes sum to . The possible -values are ; values and do not occur. The eight nonzero bosons form one orbit, while the vacuum is fixed.
+
+Result — COMPUTED EXHAUSTIVELY: The program below generates the orbit partition and verifies the spin residues.
+
+### 7\. The map
+
+This is the map above. Substitution gives
+
+\\begin{aligned}
+Q(b,a+b)
+&=b^2+b(a+b)-(a+b)^2\\\\
+&=-Q(a,b)\\pmod9.
+\\end{aligned}
+
+Therefore is a time-reversal symmetry, not a unitary symmetry.
+
+Its powers satisfy
+
+g^{12}=-I\\pmod9,\\qquad g^{24}=I.
+
+Since , and checking the proper divisors of rules out any smaller order,
+
+\\boxed{\\operatorname{ord}(g)=24,\\qquad g^{12}(a,b)=(-a,-b).}
+
+Its cycle structure on all elements is
+
+\\boxed{24^3\\,8^1\\,1^1,}
+
+meaning three cycles of length , one of length , and one fixed point. The cycle lengths total .
+
+Result — PROVEN: The time-reversal property, the twelfth power and exact order follow from matrix arithmetic. The cycle structure is also exhaustively computed below.
+
+### Reproducible Python code
+
+This standalone script uses only the Python standard library. It exhaustively enumerates all invertible matrices over , checks the quadratic-form conditions, calculates element orders, verifies the group relations, finds the orbits, and checks the Gauss sum and 's cycle structure.
+
+```python
+
+from itertools import product
+from collections import Counter
+from math import gcd, isclose, pi
+import cmath
+
+N = 9
+V = list(product(range(N), repeat=2))
+I = (1, 0, 0, 1)
+
+def Q(x):
+    a, b = x
+    return (a*a + a*b - b*b) % N
+
+def act(A, x):
+    a, b = x
+    r, s, t, u = A
+    return ((r*a + s*b) % N, (t*a + u*b) % N)
+
+def det(A):
+    r, s, t, u = A
+    return (r*u - s*t) % N
+
+def mm(A, B):
+    a, b, c, d = A
+    e, f, g, h = B
+    return (
+        (a*e + b*g) % N,
+        (a*f + b*h) % N,
+        (c*e + d*g) % N,
+        (c*f + d*h) % N
+    )
+
+def mpow(A, n):
+    out = I
+    for _ in range(n):
+        out = mm(out, A)
+    return out
+
+def order(A):
+    out = I
+    for n in range(1, 100):
+        out = mm(out, A)
+        if out == I:
+            return n
+    raise ValueError("Order not found")
+
+# Enumerate GL(2, Z/9Z).
+GL = [
+    A for A in product(range(N), repeat=4)
+    if gcd(det(A), N) == 1
+]
+
+# Test unitary and anti-isometric conditions on all 81 vectors.
+O = [
+    A for A in GL
+    if all((Q(act(A, x)) - Q(x)) % N == 0 for x in V)
+]
+Anti = [
+    A for A in GL
+    if all((Q(act(A, x)) + Q(x)) % N == 0 for x in V)
+]
+G = set(O) | set(Anti)
+
+print("Number of vectors:", len(V))
+print("Number of invertible matrices:", len(GL))
+print("Unitary group size:", len(O))
+print("Unitary element orders:", dict(sorted(
+    Counter(order(A) for A in O).items()
+)))
+print("Anti-isometry count:", len(Anti))
+print("Anti-isometry element orders:", dict(sorted(
+    Counter(order(A) for A in Anti).items()
+)))
+print("Generated group size:", len(G))
+print("Generated group element orders:", dict(sorted(
+    Counter(order(A) for A in G).items()
+)))
+
+# Verify explicit generators.
+r = (0, 1, 1, 1)      # (a,b) -> (b,a+b)
+j = (1, 1, 0, 8)      # (a,b) -> (a+b,-b)
+
+assert r in Anti
+assert j in O
+assert mpow(r, 24) == I
+assert mpow(r, 12) == (8, 0, 0, 8)  # -I
+assert mm(j, j) == I
+assert mm(mm(j, r), j) == mpow(r, 11)
+assert len(G) == 48
+
+# Bosons and Lagrangian subgroup.
+bosons = {x for x in V if Q(x) == 0}
+expected = {
+    (3*a, 3*b) for a in range(3) for b in range(3)
+}
+assert bosons == expected
+assert len(bosons) == 9
+print("Bosons:", sorted(bosons))
+
+# Verify diagonalization:
+# Q(a,b) = (a+5b)^2 + b^2 mod 9.
+assert all(
+    Q((a, b)) == ((a + 5*b)**2 + b*b) % N
+    for a, b in V
+)
+
+# Normalized Gauss sum.
+gauss = sum(
+    cmath.exp(2j*pi*Q(x)/9) for x in V
+) / 9
+print("Normalized Gauss sum:", gauss)
+assert isclose(gauss.real, 1.0, abs_tol=1e-10)
+assert isclose(gauss.imag, 0.0, abs_tol=1e-10)
+
+# Orbits under the full group.
+unseen = set(V)
+orbits = []
+while unseen:
+    x = min(unseen)
+    orb = {act(A, x) for A in G}
+    assert orb <= unseen
+    orbits.append(orb)
+    unseen -= orb
+
+print("Full-group orbits:")
+for orb in sorted(orbits, key=lambda z: (len(z), min(z))):
+    print(
+        "size =", len(orb),
+        "Q residues =", sorted({Q(x) for x in orb})
+    )
+assert sorted(len(orb) for orb in orbits) == [1, 8, 24, 24, 24]
+
+# Cycle structure of r on all vectors.
+unseen = set(V)
+cycles = Counter()
+while unseen:
+    x = min(unseen)
+    y = x
+    length = 0
+    while True:
+        unseen.remove(y)
+        length += 1
+        y = act(r, y)
+        if y == x:
+            break
+    cycles[length] += 1
+
+print("Cycle structure of g:", dict(sorted(cycles.items())))
+assert cycles == Counter({24: 3, 8: 1, 1: 1})
+```
+
+### Final result classification
+
+| Claim                                           | Status                         |
+| ----------------------------------------------- | ------------------------------ |
+| is nondegenerate                                | Proven algebraically           |
+| Gauss sum is ;                                  | Proven algebraically           |
+| Orthogonal sum of two cyclic quadratic forms    | Proven by explicit isomorphism |
+| Exactly nine bosons; Lagrangian subgroup        | Proven algebraically           |
+| Symmetry counts and element-order distributions | Computed exhaustively          |
+| Full-group orbit sizes and spin residues        | Computed exhaustively          |
+| is time-reversing, has order , and              | Proven algebraically           |
+| Cycle structure                                 | Computed exhaustively          |
+
+No additional conjectural identification is needed for these conclusions.
+
+Yours in the search for meaning.
+
+Navigator: GPT-6 | 9 October 2026

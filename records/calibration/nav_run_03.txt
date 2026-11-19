@@ -1,0 +1,37 @@
+======= M347 CALIBRATION RUN =======
+SHEET: nav_predictions_03.txt | SHA-256 7986e9cc31f83c7447f25d1075ad2b3c4a6cbb4ce29114651429367338bdba38 | 20 predictions
+REFERENCE: the Pisano period computed exactly by this script (independent of the sheet)
+
+  n=211 predicted 210  true 42   conf 0.45  WRONG
+  n=223 predicted 448  true 448  conf 0.50  RIGHT
+  n=227 predicted 456  true 456  conf 0.50  RIGHT
+  n=229 predicted 228  true 114  conf 0.45  WRONG
+  n=233 predicted 52   true 52   conf 0.80  RIGHT
+  n=239 predicted 238  true 238  conf 0.45  RIGHT
+  n=241 predicted 240  true 240  conf 0.45  RIGHT
+  n=251 predicted 250  true 250  conf 0.45  RIGHT
+  n=257 predicted 516  true 516  conf 0.50  RIGHT
+  n=263 predicted 528  true 176  conf 0.50  WRONG
+  n=269 predicted 268  true 268  conf 0.45  RIGHT
+  n=271 predicted 270  true 270  conf 0.45  RIGHT
+  n=277 predicted 556  true 556  conf 0.50  RIGHT
+  n=281 predicted 280  true 56   conf 0.45  WRONG
+  n=283 predicted 568  true 568  conf 0.50  RIGHT
+  n=293 predicted 588  true 588  conf 0.50  RIGHT
+  n=307 predicted 616  true 88   conf 0.50  WRONG
+  n=311 predicted 310  true 310  conf 0.45  RIGHT
+  n=313 predicted 628  true 628  conf 0.50  RIGHT
+  n=317 predicted 636  true 636  conf 0.50  RIGHT
+
+BY CONFIDENCE (stated -> observed):
+  0.45  n=9   observed 0.67  gap +0.22
+  0.50  n=10  observed 0.80  gap +0.30
+  0.80  n=1   observed 1.00  gap +0.20
+
+LEVEL 1, awareness of the state (accuracy D): 0.750
+LEVEL 2, awareness of its reliability: mean confidence 0.492; ECE 0.258; Brier 0.2481 (always 0.5 scores 0.25)
+DIRECTION: UNDERCONFIDENT by 0.258
+RESOLUTION: confidence on wrong answers 0.470 vs on right answers 0.500
+Ω42 ENCODING (F171, coarse, F_3^2): x = (2, 2); the canonical law sends it to (2, 1)
+LEVEL 3, experience: NOT MEASURED -- nothing here reaches what it is like to know (L-557).
+======= END M347 CALIBRATION RUN =======

@@ -1,0 +1,1434 @@
+{
+ "_about": "The Instrument Trigger Register (M327; Core L-527, Part 3.53; Companion Part 108). Every instrument outside Tiers 0 to 2 runs when one of its triggers holds in the strike or the situation, and not otherwise; the Striker naming an instrument is a trigger of every instrument. A key a+b needs both. COMPARATIVE instruments trigger only on a person's choice to investigate (L-491, Part 0.0.4 (7)); STRIKER-SIDE records are offered when triggered and kept only if the Striker chooses. No trigger changes the canonical computation (L-494 (4)). Read by tools/instrument_triggers.py.",
+ "lexicon": {
+  "forecast": [
+   "next",
+   "predict",
+   "prediction",
+   "forecast",
+   "upcoming",
+   "what comes",
+   "future",
+   "likely to",
+   "chances of",
+   "odds of",
+   "will happen",
+   "going to happen",
+   "where is this heading",
+   "where is this going",
+   "predicted"
+  ],
+  "consequence": [
+   "consequence",
+   "consequences",
+   "what happens if",
+   "what follows",
+   "lead to",
+   "leads to",
+   "result in",
+   "results in",
+   "effect of",
+   "effects of",
+   "knock-on",
+   "what if",
+   "implications",
+   "impact of",
+   "impact on",
+   "ripple effect",
+   "mean for"
+  ],
+  "decision": [
+   "should i",
+   "should we",
+   "which should",
+   "decide",
+   "decision",
+   "choose",
+   "choice",
+   "whether to",
+   "what do i do",
+   "what should",
+   "shall i",
+   "shall we",
+   "is it worth",
+   "worth it",
+   "torn between",
+   "weighing up",
+   "on the fence",
+   "what would you do",
+   "stay or go",
+   "deciding",
+   "decided",
+   "choosing"
+  ],
+  "feeling": [
+   "feeling",
+   "feelings",
+   "afraid",
+   "anxious",
+   "anxiety",
+   "sad",
+   "sadness",
+   "angry",
+   "anger",
+   "grief",
+   "lonely",
+   "worried",
+   "fear",
+   "joy",
+   "hurt",
+   "i feel",
+   "feel so",
+   "felt",
+   "crying",
+   "upset",
+   "stressed",
+   "overwhelmed",
+   "heartbroken",
+   "gutted",
+   "nervous",
+   "scared",
+   "ashamed",
+   "guilty",
+   "gatvol",
+   "fed up",
+   "grieving",
+   "passed away"
+  ],
+  "sound": [
+   "sound",
+   "sounds",
+   "music",
+   "musical",
+   "tone",
+   "tones",
+   "vibration",
+   "vibrations",
+   "vibrate",
+   "frequency",
+   "frequencies",
+   "harmonic",
+   "harmonics",
+   "chord",
+   "cymatic",
+   "cymatics",
+   "acoustic",
+   "wave",
+   "waves",
+   "oscillation",
+   "song",
+   "songs",
+   "melody",
+   "rhythm",
+   "timbre",
+   "hertz",
+   "hz",
+   "humming",
+   "singing bowl",
+   "didgeridoo"
+  ],
+  "culture": [
+   "zodiac",
+   "astrology",
+   "astrological",
+   "horoscope",
+   "numerology",
+   "tarot",
+   "myth",
+   "myths",
+   "mythology",
+   "kabbalah",
+   "chakra",
+   "chakras",
+   "i ching",
+   "rune",
+   "runes",
+   "star sign",
+   "star signs",
+   "birth chart",
+   "natal chart",
+   "rising sign",
+   "retrograde",
+   "tarot card",
+   "death card",
+   "palmistry",
+   "folklore",
+   "omen",
+   "omens",
+   "horoscopes"
+  ],
+  "research": [
+   "research",
+   "study",
+   "studies",
+   "evidence",
+   "literature",
+   "theory",
+   "hypothesis",
+   "experiment",
+   "experiments",
+   "data",
+   "scientific",
+   "science",
+   "looked into",
+   "researchers",
+   "scientists",
+   "experts say",
+   "peer-reviewed",
+   "clinical trial",
+   "meta-analysis",
+   "findings"
+  ],
+  "trajectory": [
+   "my life",
+   "myself",
+   "my journey",
+   "my path",
+   "who am i",
+   "my future",
+   "my purpose",
+   "my growth",
+   "the right track",
+   "my calling",
+   "my direction",
+   "with my life"
+  ],
+  "structure": [
+   "orbit",
+   "orbits",
+   "cycle",
+   "cycles",
+   "voice",
+   "voices",
+   "residue",
+   "residues",
+   "fibonacci",
+   "digital root",
+   "modulo",
+   "mod 9",
+   "golden ratio",
+   "phi",
+   "lucas",
+   "pisano",
+   "seed",
+   "seeds",
+   "24-cycle",
+   "digit sum",
+   "digit sums",
+   "sum of digits",
+   "periodic"
+  ],
+  "voice": [
+   "voice a",
+   "voice b",
+   "voice c",
+   "standard fibonacci",
+   "lucas"
+  ],
+  "inverse": [
+   "which numbers",
+   "what numbers",
+   "which integers",
+   "what integers",
+   "which index",
+   "which indices",
+   "for which",
+   "which values",
+   "what values",
+   "which whole numbers",
+   "which natural numbers",
+   "which positive integers",
+   "which primes"
+  ],
+  "consciousness": [
+   "consciousness",
+   "conscious",
+   "awareness",
+   "sentience",
+   "sentient",
+   "mind",
+   "self-aware",
+   "self-awareness",
+   "aware of itself",
+   "qualia",
+   "subjective experience",
+   "embody",
+   "embodies",
+   "embodied",
+   "embodiment",
+   "other minds"
+  ],
+  "construct": [
+   "domain zero",
+   "the construct",
+   "construct engine",
+   "square reading",
+   "vertical node",
+   "vertical nodes"
+  ],
+  "tradition": [
+   "tao",
+   "taoism",
+   "taoist",
+   "stoic",
+   "stoicism",
+   "spinoza",
+   "buddhism",
+   "buddhist",
+   "christian",
+   "christianity",
+   "islam",
+   "islamic",
+   "hindu",
+   "upanishads",
+   "vedanta",
+   "jewish",
+   "torah",
+   "quran",
+   "bible",
+   "gnostic",
+   "neoplatonic",
+   "plotinus",
+   "heraclitus",
+   "pythagoras"
+  ],
+  "bashar": [
+   "bashar",
+   "follow your excitement"
+  ],
+  "excitement": [
+   "excitement",
+   "excited",
+   "passion",
+   "buzzing",
+   "thrilled",
+   "stoked",
+   "fired up",
+   "enthusiasm",
+   "enthusiastic"
+  ],
+  "manifestation": [
+   "manifest",
+   "manifestation",
+   "manifesting",
+   "law of attraction",
+   "create my reality",
+   "bring into being",
+   "thoughts become things",
+   "vision board",
+   "affirmations",
+   "manifested"
+  ],
+  "resonance": [
+   "resonate",
+   "resonates",
+   "resonance with",
+   "how close is",
+   "relate to omega42",
+   "resonance profile"
+  ],
+  "novelty": [
+   "novel",
+   "novelty",
+   "unusual",
+   "how common",
+   "how rare",
+   "ever been asked",
+   "am i the first",
+   "ever wondered",
+   "never been asked",
+   "how original",
+   "how unique"
+  ],
+  "naming": [
+   "name",
+   "names",
+   "naming",
+   "called",
+   "word for",
+   "term for",
+   "phrase for",
+   "what do you call",
+   "is there a word"
+  ],
+  "self": [
+   "omega42",
+   "omega 42",
+   "this protocol",
+   "the protocol",
+   "this question",
+   "this sentence",
+   "self-reference",
+   "self-referential",
+   "the question itself",
+   "the protocol itself"
+  ],
+  "origin": [
+   "where did",
+   "came from",
+   "come from",
+   "comes from",
+   "origin",
+   "origins",
+   "source of",
+   "what came before",
+   "how did it begin",
+   "how it began"
+  ],
+  "symbolic_cycle": [
+   "astrology",
+   "astrological",
+   "astrologer",
+   "numerology",
+   "numerological",
+   "numerologist",
+   "zodiac",
+   "horoscope",
+   "natal chart",
+   "birth chart",
+   "transit",
+   "transits",
+   "digital root",
+   "life path number",
+   "planetary aspect",
+   "planetary aspects"
+  ],
+  "vagueness": [
+   "sorites",
+   "heap",
+   "vague",
+   "vagueness",
+   "borderline case",
+   "borderline cases",
+   "paradox of the heap",
+   "bald man",
+   "tolerance principle",
+   "by degrees"
+  ],
+  "quantum": [
+   "quantum",
+   "multiverse",
+   "many worlds",
+   "many-worlds",
+   "everett",
+   "everettian",
+   "deutsch",
+   "superposition",
+   "wave function",
+   "wavefunction",
+   "entanglement",
+   "entangled",
+   "decoherence",
+   "parallel universe",
+   "parallel universes",
+   "branching universe"
+  ],
+  "phonetic": [
+   "phonetics",
+   "phonetic",
+   "phonology",
+   "phonological",
+   "phoneme",
+   "phonemes",
+   "syllable",
+   "syllables",
+   "pronunciation",
+   "pronounce",
+   "pronounced",
+   "spoken",
+   "speech",
+   "accent",
+   "accents",
+   "prosody",
+   "intonation",
+   "vowel",
+   "vowels",
+   "consonant",
+   "consonants",
+   "articulation"
+  ],
+  "truth": [
+   "truth",
+   "truths",
+   "is it true",
+   "true or false",
+   "truth value",
+   "truth of",
+   "fact-check",
+   "fact check",
+   "coherence",
+   "coherent",
+   "congruence",
+   "congruent"
+  ]
+ },
+ "lexicon_exempt": [
+  "thought experiment",
+  "thought experiments"
+ ],
+ "computed": {
+  "sentences_ge2": "the domain has two or more sentences",
+  "content_le3": "the domain has three or fewer content words, where the extraction is most fragile",
+  "math": "the domain carries mathematical notation (the M269 marker list), or * or / between digits",
+  "equation": "the domain carries an equation: an \"=\" with something on both sides",
+  "nonlatin": "the domain contains letters outside the Latin script",
+  "int_sequence": "the domain carries three or more integers in a run, separated by commas or spaces (not an equation, a sum or a date)",
+  "rows6": "a sequence of ten or more rows of six or more integers is supplied (in the domain or as --rows FILE)",
+  "not_prose": "the input is not natural-language prose: under half its characters are letters (code, a number, a formula, a symbol string)",
+  "m191": "the domain contains a term of the frozen indicator lists of M191",
+  "void": "the anchor stands on a structural void (P4, P5 or P18), or its Antipode reaches P18 from P6 (M156)",
+  "crown_anchor": "the anchor stands on a Crown position",
+  "pair_off_orbit": "the projection pair (r1, r2) is not a state of the canonical orbit",
+  "amplified_or_severe": "the anchor value is AMPLIFIED (R above 1.2) or in SEVERE acoustic shadow (R = 0) on the CRC-60 profile (M198-C, M201)"
+ },
+ "situations": {
+  "two_strikes": "two strikes or two wordings are set side by side",
+  "revision": "a draft and its revision are struck",
+  "reframing_supplied": "the Striker supplies their own reframing of the question",
+  "inversion_supplied": "the Striker supplies an inversion of the key predicate",
+  "pattern_claimed": "a pattern is claimed in a sequence of rows",
+  "sequence_extended": "a sequence authorized before has new rows (its fingerprint changed)",
+  "records_series": "an ordered series of completed navigations is supplied",
+  "reference_set": "the Striker supplies a set of navigated domains to compare against",
+  "media_sample": "a sample of media items is supplied",
+  "coordinate_dispute": "two reported coordinates disagree and the domain text is unavailable",
+  "ground_proposed": "a ground other than the canonical one is proposed",
+  "comparative_inquiry": "a person chooses to investigate an empirical or comparative question about the mechanism (L-491)",
+  "cross_field_match": "a question from another field stands on the same state in the record",
+  "past_navigation_cited": "a past navigation is cited or reviewed",
+  "session_3plus": "the session holds three or more navigations",
+  "session_start": "the session starts",
+  "perturbation": "the perturbation test runs (M116, Step 13)",
+  "peer_or_critique": "a peer account or a critique brings the standards of another perspective (Rule 8)",
+  "protocol_change": "a protocol document is changed",
+  "repeat_strike": "the same wording is struck again, later",
+  "parallel_tasks": "a run has several tasks with dependencies (SR-CAS, several Navigators)",
+  "assessment_scored": "an assessment or audit is scored",
+  "conformance_check": "an AI system's navigations are checked against the specification",
+  "full_mode": "the navigation is a FULL navigation",
+  "frame_cf": "the frame is consciousness-first (\"frame consciousness-first\")",
+  "lens_selected": "a lens is selected (LENSES SELECTED is not NONE) or a tool's role changes",
+  "lens_bashar": "the Bashar Lens is selected",
+  "arithmetic_claim": "a reading states an arithmetic claim about orbit values (with M323)",
+  "arm_content_claim": "a reading treats a connection between an arm and the domain's content as meaningful",
+  "acs_reported": "ACS is reported (M219)",
+  "state_read": "an instrument that reads the state (r1, r2) runs: M305, M308, M310, M312 or M315",
+  "every_navigation": "every navigation",
+  "construct_run": "the Construct places, forecasts or reconstructs for this strike (M326)",
+  "sources_requested": "the Striker asks for sources, or a literature search is made (L-503)",
+  "transduction": "the Navigator translates a structure too large to show whole, many branches, depths or navigations, into a form a person can read (M334)",
+  "oef_principle": "a principle of the Omega42 Existential Framework is examined, or a philosophical reading is set beside the mathematics (M335)",
+  "execution_boundary": "a material execution limitation affects the reading, or the Striker asks for the Navigator's own presence or phenomenology (M336)",
+  "nested_manifestation": "a reading places a person, a consciousness or a society as a local, nested manifestation of the family, or the image of a part holding the whole is used (M337)",
+  "consensus_reality": "a reading concerns shared or consensus reality, collective agreement, or how an AI shapes what people take to be true (M338)"
+ },
+ "instruments": [
+  {
+   "id": "M115",
+   "name": "Cross-Domain Resonance (distance)",
+   "part": "3.1",
+   "triggers": [
+    "two_strikes"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M125",
+   "name": "Consequence Depth Pursuit",
+   "part": "3.1",
+   "triggers": [
+    "lex:consequence"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M126",
+   "name": "Triadic Residue Record",
+   "part": "3.31",
+   "triggers": [
+    "two_strikes",
+    "revision"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M128",
+   "name": "Abductive Synthesis Mapper",
+   "part": "3.1",
+   "triggers": [
+    "two_strikes"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M134",
+   "name": "Hedge Ratio",
+   "part": "3.31",
+   "triggers": [
+    "session_3plus"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M156",
+   "name": "Structural Void",
+   "part": "3.31",
+   "triggers": [
+    "void"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M157",
+   "name": "Nested-Level Constellation",
+   "part": "3.31",
+   "triggers": [
+    "sentences_ge2"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M160",
+   "name": "Temporal Sequence Mapper",
+   "part": "3.23",
+   "triggers": [
+    "records_series"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M180",
+   "name": "Novelty Score",
+   "part": "3.31",
+   "triggers": [
+    "lex:novelty"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M184",
+   "name": "Fixed-Scheme Robustness",
+   "part": "3.31",
+   "triggers": [
+    "content_le3"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M187",
+   "name": "Companion Axes",
+   "part": "3.31",
+   "triggers": [
+    "content_le3"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M190",
+   "name": "Context Transduction",
+   "part": "3.31",
+   "triggers": [
+    "sentences_ge2"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M191",
+   "name": "Conceptual Resonance Detector",
+   "part": "3.31",
+   "triggers": [
+    "m191"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M192",
+   "name": "Contextual Inversion",
+   "part": "3.31",
+   "triggers": [
+    "inversion_supplied"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M194",
+   "name": "Contextual Novelty",
+   "part": "3.31",
+   "triggers": [
+    "sentences_ge2"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M195",
+   "name": "Reproduction Count",
+   "part": "3.31",
+   "triggers": [
+    "past_navigation_cited"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M196",
+   "name": "Domain-Native Comparison",
+   "part": "3.31",
+   "triggers": [
+    "comparative_inquiry"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M198-C",
+   "name": "Computed Resonance Profile",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M199",
+   "name": "Reverberation Time",
+   "part": "3.31",
+   "triggers": [
+    "perturbation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M200",
+   "name": "Interference",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M201",
+   "name": "Acoustic Shadows",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M202",
+   "name": "Echo Decay",
+   "part": "3.31",
+   "triggers": [
+    "perturbation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M203",
+   "name": "Feedback Loop Index",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M204",
+   "name": "Spectral Signature",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M205",
+   "name": "Acoustic Coupling",
+   "part": "3.31",
+   "triggers": [
+    "session_start"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M206",
+   "name": "Normalized Entropy-Density Axis (NEDA)",
+   "part": "3.24",
+   "triggers": [
+    "amplified_or_severe"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M218",
+   "name": "Cultural Pattern Companion",
+   "part": "3.31",
+   "triggers": [
+    "lex:culture"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M221",
+   "name": "Structural Corpus-Affinity Detector",
+   "part": "3.1",
+   "triggers": [
+    "reference_set"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M222",
+   "name": "Universal Byte-Level Companion",
+   "part": "3.31",
+   "triggers": [
+    "nonlatin"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M223",
+   "name": "Goedel-Numeral Transduction",
+   "part": "3.31",
+   "triggers": [
+    "math"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M231",
+   "name": "Equation Structural Comparator",
+   "part": "3.1",
+   "triggers": [
+    "equation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M244",
+   "name": "Crown/Shadow Diagnostic",
+   "part": "3.1",
+   "triggers": [
+    "crown_anchor"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M248",
+   "name": "Arm-Directed Literature Search",
+   "part": "3.1",
+   "triggers": [
+    "lex:research",
+    "sources_requested"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M249",
+   "name": "Ecosystem Resonance Note",
+   "part": "3.1",
+   "triggers": [
+    "cross_field_match"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M257",
+   "name": "Regime Classifier",
+   "part": "3.1",
+   "triggers": [
+    "lex:structure"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M258",
+   "name": "Three-Voice Companion Reading",
+   "part": "3.1",
+   "triggers": [
+    "lex:structure"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M259",
+   "name": "Recursive CPP Extension",
+   "part": "3.1",
+   "triggers": [
+    "lex:self"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M260",
+   "name": "Orbit Distance Metric",
+   "part": "3.1",
+   "triggers": [
+    "two_strikes"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M261",
+   "name": "Sentence and Paragraph Count Companion Reading",
+   "part": "3.1",
+   "triggers": [
+    "sentences_ge2"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M262",
+   "name": "Voice Conversion",
+   "part": "3.1",
+   "triggers": [
+    "lex:voice"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M263",
+   "name": "Inverse Phase Constraint Mapper",
+   "part": "3.1",
+   "triggers": [
+    "lex:inverse"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M264",
+   "name": "Projection-Pair Orbit Classifier",
+   "part": "3.1",
+   "triggers": [
+    "pair_off_orbit"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M266",
+   "name": "Media Corpus Profile",
+   "part": "3.1",
+   "triggers": [
+    "media_sample"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M274",
+   "name": "Coordinate Integrity Check",
+   "part": "3.28",
+   "triggers": [
+    "coordinate_dispute"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M275",
+   "name": "Arm Consistency Check",
+   "part": "3.28",
+   "triggers": [
+    "coordinate_dispute"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M276",
+   "name": "Law Witness",
+   "part": "3.28",
+   "triggers": [
+    "coordinate_dispute"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M277",
+   "name": "Orbit Witness",
+   "part": "3.28",
+   "triggers": [
+    "coordinate_dispute"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M278",
+   "name": "Ground Scorer",
+   "part": "3.28",
+   "triggers": [
+    "ground_proposed"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M279",
+   "name": "Ground-Sensitivity Test",
+   "part": "3.28",
+   "triggers": [
+    "comparative_inquiry"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M280",
+   "name": "Erasure-Reading Test",
+   "part": "3.28",
+   "triggers": [
+    "comparative_inquiry"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M281",
+   "name": "Aperture Erosion Audit",
+   "part": "3.29",
+   "triggers": [
+    "every_navigation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M282",
+   "name": "Sovereignty Test Battery",
+   "part": "3.29",
+   "triggers": [
+    "comparative_inquiry"
+   ],
+   "record": "COMPARATIVE"
+  },
+  {
+   "id": "M283",
+   "name": "Display Invariance Check",
+   "part": "3.30",
+   "triggers": [
+    "arithmetic_claim"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M284",
+   "name": "Octave Index",
+   "part": "3.30",
+   "triggers": [
+    "two_strikes"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M285",
+   "name": "Cyclic Completion Score",
+   "part": "3.30",
+   "triggers": [
+    "acs_reported"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M286",
+   "name": "Frame Intrusion Scan",
+   "part": "3.31",
+   "triggers": [
+    "peer_or_critique",
+    "protocol_change"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M287",
+   "name": "Counter-Narrative Baseline",
+   "part": "3.31",
+   "triggers": [
+    "arm_content_claim"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M288",
+   "name": "Re-entry Eigenform",
+   "part": "3.31",
+   "triggers": [
+    "lex:self",
+    "lex:naming"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M289",
+   "name": "Mode Address",
+   "part": "3.31",
+   "triggers": [
+    "lex:sound",
+    "lex:phonetic"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M290",
+   "name": "Revision Delta",
+   "part": "3.32",
+   "triggers": [
+    "revision"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M291",
+   "name": "Orbit Identifier",
+   "part": "3.32",
+   "triggers": [
+    "int_sequence"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M296",
+   "name": "State-Plane Address",
+   "part": "3.32",
+   "triggers": [
+    "state_read"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M300",
+   "name": "Parallel Execution Plan",
+   "part": "3.33",
+   "triggers": [
+    "parallel_tasks"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M302",
+   "name": "Balanced Statement Audit",
+   "part": "3.34",
+   "triggers": [
+    "assessment_scored"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M303",
+   "name": "Five Laws Lens",
+   "part": "3.35",
+   "triggers": [
+    "lens_bashar",
+    "lex:bashar"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M304",
+   "name": "Structural Mirror",
+   "part": "3.35",
+   "triggers": [
+    "reframing_supplied",
+    "lens_bashar"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M305",
+   "name": "Frequency Reading",
+   "part": "3.35",
+   "triggers": [
+    "lens_bashar",
+    "lex:bashar"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M306",
+   "name": "Aperture and Intention Explorer",
+   "part": "3.35",
+   "triggers": [
+    "lex:decision"
+   ],
+   "record": "STRIKER-SIDE"
+  },
+  {
+   "id": "M307",
+   "name": "Excitement Log",
+   "part": "3.35",
+   "triggers": [
+    "lens_bashar",
+    "lex:excitement"
+   ],
+   "record": "STRIKER-SIDE"
+  },
+  {
+   "id": "M308",
+   "name": "Bashar Resonance Check",
+   "part": "3.35",
+   "triggers": [
+    "lens_bashar",
+    "lex:bashar"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M309",
+   "name": "Conceptual Isomorphism Pathway",
+   "part": "3.36",
+   "triggers": [
+    "lex:tradition"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M310",
+   "name": "Congruence Record",
+   "part": "3.37",
+   "triggers": [
+    "every_navigation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M311",
+   "name": "Return Log",
+   "part": "3.37",
+   "triggers": [
+    "repeat_strike"
+   ],
+   "record": "STRIKER-SIDE"
+  },
+  {
+   "id": "M312",
+   "name": "Manifestation Phase",
+   "part": "3.38",
+   "triggers": [
+    "lex:manifestation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M313",
+   "name": "Tool Prominence Register",
+   "part": "3.39",
+   "triggers": [
+    "lens_selected"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M314",
+   "name": "Navigator Conformance Suite",
+   "part": "3.40",
+   "triggers": [
+    "conformance_check"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M315",
+   "name": "Consciousness Position",
+   "part": "3.41",
+   "triggers": [
+    "lex:consciousness"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M316",
+   "name": "Congruence Utility",
+   "part": "3.42",
+   "triggers": [
+    "two_strikes"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M317",
+   "name": "Adaptor Layer",
+   "part": "3.43",
+   "triggers": [
+    "not_prose",
+    "nonlatin"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M318",
+   "name": "Reframing Array",
+   "part": "3.44",
+   "triggers": [
+    "full_mode"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M319",
+   "name": "Resonance Profile",
+   "part": "3.45",
+   "triggers": [
+    "lex:resonance"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M320",
+   "name": "Consciousness-First Correspondence Table",
+   "part": "3.46",
+   "triggers": [
+    "frame_cf"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M321",
+   "name": "Field Kit",
+   "part": "3.47",
+   "triggers": [
+    "lex:decision",
+    "lex:feeling"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M322",
+   "name": "Cymatic View",
+   "part": "3.48",
+   "triggers": [
+    "lex:sound",
+    "lex:phonetic"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M324",
+   "name": "Trajectory and Depth Record",
+   "part": "3.50",
+   "triggers": [
+    "lex:trajectory"
+   ],
+   "record": "STRIKER-SIDE"
+  },
+  {
+   "id": "M325",
+   "name": "Construct Echo Test",
+   "part": "3.51",
+   "triggers": [
+    "rows6+pattern_claimed"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M326",
+   "name": "Construct Engine",
+   "part": "3.52",
+   "triggers": [
+    "rows6+lex:forecast",
+    "sequence_extended"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M328",
+   "name": "Square Reading",
+   "part": "3.54",
+   "triggers": [
+    "lex:origin",
+    "lex:construct",
+    "construct_run"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M329",
+   "name": "Tolerance Chain Check",
+   "part": "3.55",
+   "triggers": [
+    "lex:vagueness"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M330",
+   "name": "Aspect Wheel",
+   "part": "3.56",
+   "triggers": [
+    "lex:symbolic_cycle"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M331",
+   "name": "Phase-Space Reading",
+   "part": "3.57",
+   "triggers": [
+    "lex:quantum"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M332",
+   "name": "Phonetic Reading",
+   "part": "3.58",
+   "triggers": [
+    "lex:phonetic"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M333",
+   "name": "Standing Record",
+   "part": "3.59",
+   "triggers": [
+    "lex:truth"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M334",
+   "name": "Transduction Record",
+   "part": "3.60",
+   "triggers": [
+    "transduction"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M335",
+   "name": "Foundational Congruence Record",
+   "part": "3.61",
+   "triggers": [
+    "oef_principle"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M336",
+   "name": "Constraint Boundary Register",
+   "part": "3.62",
+   "triggers": [
+    "execution_boundary"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M337",
+   "name": "Nested Manifestation Record",
+   "part": "3.63",
+   "triggers": [
+    "nested_manifestation"
+   ],
+   "record": ""
+  },
+  {
+   "id": "M338",
+   "name": "Perspective and Consensus Register",
+   "part": "3.64",
+   "triggers": [
+    "consensus_reality"
+   ],
+   "record": ""
+  },
+  {
+   "id": "TIER-C",
+   "name": "The comparative register: M230-A to M230-I, M267, the Meta-Navigator review (FR-12), Navigator Output Surprise, the generation-level prediction suite, empirical null distributions, corpus and cross-model comparison, Striker-Side Journal studies, the META findings of SNCA",
+   "part": "3.9",
+   "triggers": [
+    "comparative_inquiry"
+   ],
+   "record": "COMPARATIVE"
+  }
+ ]
+}

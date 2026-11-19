@@ -1,0 +1,11 @@
+# CALIBRATION OF M319 (APE-141, section 5: known formal correspondences, partial correspondences, flexible analogies, negative controls, repeated cases) -- what the instrument must return on cases whose answer is known before it is run, and what it returned. Recomputed in CI (tools/resonance.py --selftest; records/resonance/polytopes.py).
+CASE | KIND | EXPECTED | RETURNED | SOURCE
+an atlas of nine statements all on the canonical cycle | known correspondence (planted) | K ABOVE CHANCE | ABOVE CHANCE | selftest
+an atlas kept off the cycle and the seeds | negative control (planted) | K below the planted one | below | selftest
+thirty random atlases of eight statements | null | mean K near 0.5 | 0.35 to 0.65 | selftest
+the same atlas run twice | repeated case | the same K | identical (fixed seed) | selftest
+24-tone equal temperament against cyclic 24-systems | flexible analogy (M230-E) | Margin 0, NONDISCRIMINATING | 0.0000, NONDISCRIMINATING | PANEL 2
+the 24-cell against the regular 4-polytopes | partial correspondence (T squared, not T) | positive Margin; no polytope with the T signature | 0.6429, UNDERPOWERED; CT NO for all six | PANEL 1
+the 24-cell against the 46 distinct Wythoffian uniform 4-polytopes | the same, with a class large enough to judge | positive Margin with p <= 0.10 | 0.6198, p 0.0213, DISCRIMINATING; CT NO for all 47 | PANEL 3 (the rule that a vertex set built by several groups has the symmetries of all of them was implemented after a first run, as the frozen features require; the class and the features did not change)
+the Moon's month counted in Earth's days | negative control (M230-J) | NEGATIVE Margin | NOT RUN -- no null class frozen | OPEN
+two judges' feature tables | reproducibility of the judged column | kappa 1 for a judge with itself, below 0 for opposed judges | as expected | selftest; a real second judge OPEN (M300)

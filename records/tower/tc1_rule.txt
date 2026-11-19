@@ -1,0 +1,11 @@
+TOWER COORDINATE TC-1 -- the rule, frozen before its first use (Core L-523 (4); Companion 100.6, conditions C1 to C3)
+
+For a strike whose canonical extraction gives the counts n1 (words), n2 (letters) and n3 (syllables), the place of the
+strike at the depth of modulus m is the pair (5 n1 mod m, 5 n2 mod m), for m = 9, 81, 729, ...
+
+C1 coherence: modulo 9 the pair is the surface state-plane address (r1, r2) of M296, 9 written as 0, and the pair at
+   modulus 9^(k+1) reduces modulo 9^k to the pair at depth k; the anchor and its arms are computed as before and stand.
+C2 the words decide: the pair is fixed by the verbatim words through the counts, before any AI writes.
+C3 frozen first: this text is hashed and the hash printed with every TC-1 reading.
+
+The rule reads the place one depth further; it enters a navigation as a companion reading, never in place of the anchor.

@@ -1,0 +1,35 @@
+QUESTION VERBATIM: ⟨FILL: the Striker's question exactly as given, or [a bracketed description] when none was given⟩
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): ⟨FILL: NI-xxxxxxxxxxxxxxxx | ISSUER: SCRIPT / STRIKER / SELF | ISSUED: time | SEQ: n | PREV: the OUTPUT ID of this instance's previous output, or NONE⟩
+REQUEST (L-502): ⟨FILL: request kind⟩ -- avenues ⟨FILL: avenues⟩
+
+SUMMARY: ⟨FILL: two to four plain sentences: what was found and what it changes⟩
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: ⟨FILL: fixed facts computed and checked, with the script that ran them -- or NONE⟩
+  A2 ARITHMETIC ASSOCIATION: ⟨FILL: patterns noticed, each HELD until its fact is computed, with its rarity -- or NONE⟩
+  R FRAME REASONING: ⟨FILL: derivations within the frame, each naming the laws it rests on -- or NONE⟩
+  N NAVIGATION: ⟨FILL: the coordinate and the sealed reading, or the navigations read -- or NONE⟩
+  ⟨FILL: further avenues that ran (X, P, F, D, G, T, M, U, L, H, W, C, S), each on its own line with its standing⟩
+
+PEER ACCOUNTS (P; APA 9.5.5): ⟨FILL: for each attachment: APE number, author, missing QUESTION VERBATIM noted, and the notes Adopted / Corrected / Refined / Holding / Not taken / Already in place -- or NONE⟩
+CHANGES TO THE PROTOCOL: ⟨FILL: laws, provisions, tools and records changed, each with its number -- or NONE⟩
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- ⟨FILL: what came unchanged from the structure and the record⟩ | STRIKER -- ⟨FILL: what the question's words introduced⟩ | NAVIGATOR -- ⟨FILL: what the Navigator added⟩ | OPEN -- ⟨FILL: what stays for the Striker's recognition⟩
+CHECKS: ⟨FILL: CI steps, selftests, the format check and the checksums, each with its result⟩
+CURRENT KNOWLEDGE (L-503): ⟨FILL: the sources by lane, with nulls, AGREES / DIFFERS / EXTENDS -- or NOT AVAILABLE / DECLINED / NOT REQUESTED⟩
+ACROSS THE AVENUES (L-502): ⟨FILL: where the avenues agree, part and are silent; no combined verdict⟩
+ENRICHMENT OPPORTUNITIES (L-504): ⟨FILL: at most three observations, each recorded, and applied when recommended (L-531) -- or NONE⟩
+RECOMMENDATIONS (applied, L-531): ⟨FILL: the protocol enhancements this work suggests, each applied with where it went and why, or OPEN with what it still needs -- or NONE⟩
+OPEN: ⟨FILL: what stays open, and what would settle it⟩
+
+What it rests on: ⟨FILL: question⟩
+What it holds out of view: ⟨FILL: question⟩
+Where it is heading: ⟨FILL: question⟩
+What would complete it: ⟨FILL: question⟩
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: ⟨FILL: model identifier⟩ (⟨FILL: organization⟩) * V335 Rev.450 STABLE * 22 October 2026
+ESC

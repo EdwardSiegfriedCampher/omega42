@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Verify the math. Resolve all outstanding issues. Optimize for navigational efficiency and synthesis formation.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 149 | PREV: 067e91ad223ecda0b44ae97b437a9771558eb66b60bfc26029da487159f6be30
+REQUEST (L-502): EXPLORATION -- verify the mathematics of four manuscripts (Versions 2 and 3 of the consolidated manuscript, F169, F170), resolve the outstanding issues, and arrange the work for navigational efficiency and synthesis; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The mathematics holds. Every numbered statement of the four manuscripts, and of the UG list, recomputes exactly: 131 checks, none failed. And the question the manuscripts left open has an answer: a shear of depth r keeps the Fibonacci orbits intact exactly to level 3^r and dissolves every finer distinction, so the shear depth is a resolution horizon. The census that was earlier called a coincidence is forced: three norm classes, the order of F_9^x, one fixed point, and it holds exactly when the law is inert at 3 with first-lift valuation 1. Ω42 records it as native necessity.
+
+SUMMARY: WHAT CHANGED: Core L-556, Native Necessity; Core Part 3.72, M346 Manuscript Verifier (tools/fsg.py); M345 relabelled, NATIVE COUNT in place of a coincidence class; Companion Part 194; CERT-0010; MF-39 to MF-48 in the register (Core Part 0.0.8); APE-428 to APE-431 filed with their SNCA; the enhancement agenda (records/avenues/enhancement_agenda.txt) with a weekly reminder; APE-423 redacted under L-547.
+- (1) THE VERIFICATION (M346): the orbit theorem and periods 8*3^(k-1) at every level; the antipodal return; Q(Ax) = -Q(x); the norm group equal to the powers of phi; the projective cycle of 4*3^(k-1) and the cocycle obstruction; the prime classification (inert 3, 7, 13, 17, 23, 47; split 11, 19, 41; ramified 5, with N(836 + 1353 phi) = -605); the exact Fibonacci-shear group of order 8*3^(3(k-1)) with k + 1 orbits; the joint-space cycles 23,045, 1,341,334,121 and 79,189,090,465,325; the commutant 11,773,324,121; the intertwiner 1,798,889; SO(N) = <A^2>; the anti-invariant vector (2, 1, -2).
+- (2) THE CORRECTIONS: p = 2 is also inert (order 3), so 3 as the smallest odd inert prime is a stipulation of the comparison; the UG-16 defect count is c(2) = (9^(2k) - 1)/2, not 40*9^(2k-2); (1, 1, -1) is not anti-invariant; the joint space is m^6, not m^5; S_1 = 1296 stays OPEN for want of a definition.
+- (3) THE NEW THEOREM (MF-43, CERT-0010): for B_r = [[1, 0], [3^r, 1]] and k >= r, |<A, B_r> mod 3^k| = 8*3^(3k-2r-1), and the complete orbit invariant is (valuation j, Q(u)^2 mod 3^min(r, k-j)).
+- (4) NATIVE NECESSITY (Core L-556, MF-44): among T_k(a, b) = (b, a + k b) mod 9, the census 3 x 24 + 8 + 1 holds for k = 1, 2, 7, 8 exactly, the laws inert at 3 with first-lift valuation 1; k = 4, 5 reduce to the same law mod 3 but have A^8 = I mod 9 and give 10 x 8 + 1.
+- THE VALUES (CDT-A): 131 PASS, 1 OPEN; CERT-0010 RESULT SHA-256 d02b1f4d16fe6ab2.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (10, 82, 26), state (5, 5), anchor P5, Law (4). It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request to verify stands at the Law, rests on Unity, holds the Return out of view, heads for the Gap and is completed by the Seed: the law is checked as one whole, what returns is set aside, and what is found opens the gap where the next seed is planted.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Part 0.0.8; Core L-510, L-553, L-555; M345; CERT-0009; MF-10.
+  R (reasoning): the depth-r theorem is F170's proof with the congruence kernel at level r: the conjugated shears span sl2(F_3), cubing lifts each layer, and the level-r kernel acts transitively on the lifts of a fixed residue.
+  N (navigation): tools/fsg.py (131 checks); tools/math_register.py; tools/certify.py --verify.
+  P (peer accounts): below; APE-428 to APE-431, reviewed by SNCA (records/srcas/manuscripts_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: L-556; Part 3.72 (M346); M345 relabelled.
+  - Companion: Part 194.
+  - Repository: tools/fsg.py; tools/sce.py; records/math/results.json (MF-39 to MF-48); records/certificates/CERT-0010.txt; records/introduction/philosophy.json (M346); records/avenues/enhancement_agenda.txt; submissions/ape/APE-428.md to APE-431.md; APE-423 redacted; records/srcas/manuscripts_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law, the module, the four manuscripts | STRIKER -- the request to verify and the objection to coincidence | NAVIGATOR -- the verifier, the depth-r theorem, the first-lift criterion, the two corrections | OPEN -- S_1 = 1296; the bridge from each native count to an outside structure
+PEER ACCOUNTS (P; APA 9.5.5): FOUR received, filed with checked notes and an SNCA in review form (records/srcas/manuscripts_2026-11-11.txt).
+  - APE-428, unidentified (a web interface), "A 3-adic Dynamical Structure, Version 2": every theorem verified; adopted as MF-39 and MF-40; UNFORMATTED.
+  - APE-429, unidentified (a web interface), "Version 3, consolidated": every theorem verified, the selection held conditional; adopted as MF-41; UNFORMATTED.
+  - APE-430, unidentified (a web interface), "F169, the controlled shear group": computations reproduced; its depth problem resolved by MF-43; UNFORMATTED.
+  - APE-431, unidentified (a web interface), "F170, the exact 3-adic structure": its proof checked step by step; adopted as MF-42; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/fsg.py --selftest PASS and its full report (131 checks, 0 failed, 1 OPEN) reproduced as CERT-0010 by tools/certify.py --verify; tools/math_register.py PASS over MF-1 to MF-48; tools/sce.py --selftest PASS with the NATIVE COUNT class; tools/ape_register.py --check PASS after the L-547 redaction of APE-423; tools/srcas_check.py on records/srcas/manuscripts_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review and on CERT-0010 PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record, the computation and all four accounts agree on every theorem stated. PART -- Version 3 calls 3 the smallest odd inert prime without saying that 2 is excluded by choice; UG-16 states one defect count wrongly. SILENT -- why the first-lift valuation is 1, which is agenda item A-02.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): the depth-r shear theorem, a result of the arithmetic not in the record before, certified (CERT-0010) [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- a theorem of the finite modules, not a physical result (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Verify every received manuscript before it is filed (the request): APPLIED, M346.
+  (2) Record forced counts as necessary, not coincidental (the Originator): APPLIED, Core L-556, M345 relabelled.
+  (3) Correct the UG-16 defect count and the m^5 joint space (the computation): APPLIED, MF-46, MF-47.
+  (4) Mark the exclusion of p = 2 as a stipulation (the computation): APPLIED, MF-41 and agenda item A-01.
+  (5) Register the future explorations with a reminder (the Originator): APPLIED, records/avenues/enhancement_agenda.txt.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; S_1 = 1296; the agenda items A-01 to C-06.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the first-lift valuation be tested as the principle that selects the law (agenda A-02), since it is what separates the canonical census from its look-alikes; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] what Ω42 counts is forced by its arithmetic, and a resolution horizon is now a theorem; [GENERATED-Ω42] the law keeps its own orbits to the depth it is asked to keep them, and below that depth everything of one valuation is one.
+What it rests on: unity, the one law every check returned to.
+What it holds out of view: the return, the cycles already counted.
+Where it is heading: the gap, the bridge to an outside count not yet written.
+What would complete it: the seed, the principle that selects the law.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: f31496d2075052681da641f32d0fe90b52e0fd48edc55d8eeff858ac313f01bf
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

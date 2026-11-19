@@ -1,0 +1,9 @@
+M329 TOLERANCE CHAIN CHECK (Core Part 3.55) | chain 1,000,000 -> 1 by unit steps
+  THE CHAIN: 999,999 steps | absolute step 1 | relative step 1/1,000,000 = 1e-06 at the top, 1/2 = 0.5 at the bottom
+  DRIFT: sum of 1/n for n = 2 to N = 13.3927267229 (ln N + gamma - 1 = 13.3927262229): each step small against the count it leaves, the steps add up to 13.39 in relative terms
+  TRANSITIVITY (relative tolerance delta = 0.01): 1,000,000 ~ 990,000 and 990,000 ~ 980,100, each a change of exactly 0.01; 1,000,000 to 980,100 is a change of 0.0199 > 0.01, so tolerance does not compose; from the top, unit steps stay within delta for 10,000 steps and leave it at step 10,001
+  RESOLUTION: mod 9: 1 and 1, mod 27: 1 and 1, mod 81: 55 and 1 (apart), mod 729: 541 and 1 (apart) | N - 1 = 999,999 has 3-adic valuation 3, so |N - 1|_3 = 1/27 while |1|_3 = 1 | the class dr(5n) for n = 1 to 9: 5, 1, 6, 2, 7, 3, 8, 4, 9, then it repeats
+  DEGREES (mu(n) = (n - 1)/(N - 1)): theta 0.25: first n = 250,001, mu = 0.2500003; theta 0.5: first n = 500,001, mu = 0.5000005; theta 0.75: first n = 750,001, mu = 0.7500008; theta 0.9: first n = 900,001, mu = 0.9000009
+  PRESERVATION: under one sharp cutoff c, H(n) -> H(n - 1) holds at 999,998 of 999,999 steps and fails at 1 (n = c), so a step taken alone is almost always safe and the chain as a whole is not | with the band, the status label changes at 2 steps (n = 100 and n = 10,000) and holds at 999,997
+  STATUS (admissible cutoffs 100 to 10,000): DEFINITE-OUT 99 counts (n < 100) | BORDERLINE 9,900 (100 <= n < 10,000) | DEFINITE-IN 990,001 (n >= 10,000) | precisifications 9,901
+  [the values are exact (CDT-A); what the predicate is, and where it applies, is the Striker's (Core Part 7)]

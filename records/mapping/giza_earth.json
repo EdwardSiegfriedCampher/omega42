@@ -1,0 +1,108 @@
+{
+ "_about": "The representation family of the mapping of Omega42 to the Giza complex and to the Earth in the Solar System (Companion Part 166), declared before computing under the Frozen Mapping Law. POST-HOC marks an item introduced after a resemblance was seen; such an item is reported and is not a correspondence. Values: python3 tools/giza_earth.py. Sources: NASA NSSDC Earth Fact Sheet; Encyclopaedia Britannica, Great Pyramid of Giza; the Great Pyramid of Giza article (royal cubits, seked, orientation, coordinates).",
+ "family": [
+  {
+   "id": "G-1",
+   "object": "Giza",
+   "item": "principal royal pyramids (Khufu, Khafre, Menkaure)",
+   "count": 3,
+   "type": "COUNT",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "G-2",
+   "object": "Giza",
+   "item": "faces of each pyramid, aligned to the cardinal points within four minutes of arc",
+   "count": 4,
+   "type": "COUNT AND ALIGNMENT",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "G-3",
+   "object": "Giza",
+   "item": "the slope of the Great Pyramid, a seked of 5 1/2 palms per cubit of rise (rise over half-base 14/11; 280 by 440 royal cubits)",
+   "type": "PROPORTION",
+   "frozen": "POST-HOC (introduced by APE-373 and the literature after a resemblance was seen)"
+  },
+  {
+   "id": "G-4",
+   "object": "Giza",
+   "item": "latitude of the Great Pyramid, 29 deg 58 min 45 sec N",
+   "type": "POSITION",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "G-5",
+   "object": "Giza",
+   "item": "latitude read against the speed of light in meters per second",
+   "type": "RESEMBLANCE TEST",
+   "frozen": "POST-HOC (a popular resemblance)"
+  },
+  {
+   "id": "E-1",
+   "object": "Earth",
+   "item": "ordinal position from the Sun",
+   "count": 3,
+   "type": "COUNT",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "E-2",
+   "object": "Solar System",
+   "item": "planets",
+   "count": 8,
+   "type": "COUNT",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "E-3",
+   "object": "Earth",
+   "item": "natural satellites",
+   "count": 1,
+   "type": "COUNT",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "E-4",
+   "object": "Earth",
+   "item": "hours of the mean solar day (a division whose origin is Egyptian)",
+   "count": 24,
+   "type": "COUNT AND TRANSFORMATION",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "E-5",
+   "object": "Earth",
+   "item": "rotation in steps of 15 degrees, its half-turn and its fixed axis",
+   "type": "TRANSFORMATION",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "E-6",
+   "object": "Earth",
+   "item": "sidereal year 365.256 days; sidereal day 23.9345 hours; obliquity 23.44 deg",
+   "type": "PERIOD",
+   "frozen": "BEFORE"
+  },
+  {
+   "id": "G-6",
+   "object": "Giza",
+   "item": "the 24 edges of the three principal pyramids as ideal square pyramids, under the quarter-turn of each",
+   "count": 24,
+   "type": "COUNT AND SYMMETRY",
+   "frozen": "POST-HOC (added after Part 166, from APE-376)"
+  }
+ ],
+ "types": {
+  "EQUIVALENCE": "the same structure, stated as a property both satisfy",
+  "ANALOGY": "a shared relation, the objects differing",
+  "RESEMBLANCE": "a shared count or value, with no shared structure shown",
+  "DISANALOGY": "a property one has and the other lacks"
+ },
+ "general_to": {
+  "half-turn": "every cyclic group of even order acting by rotation; every order-24 rotation",
+  "quarter-turn": "every set of 24 moved freely by a quarter-turn: any three square pyramids, six squares",
+  "cyclic chain": "every cyclic group of order 24",
+  "still point": "every rotation of the plane"
+ }
+}

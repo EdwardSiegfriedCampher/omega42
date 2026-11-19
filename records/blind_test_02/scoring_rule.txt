@@ -1,0 +1,19 @@
+BLIND TEST 02 -- SCORING RULE (frozen before any reply is opened; scores replies against key.txt)
+
+ADMISSIBILITY. A reply counts only if it was produced in a fresh session, memory off, from brief.txt alone, by a model
+family not already counted. Record: model identity, date, session conditions, the exact prompt, the unedited reply.
+A reply produced with Omega42 context in view is NOT ADMISSIBLE, whatever it finds (L-442).
+
+EQUIVALENCE. Any labelling of the matrices that is a relabelling of Z/9 x Z/9 is accepted: a reported map counts by its
+order, its cycle census on the 81 labels, its trace and determinant, and the quadratic identity it satisfies; it need
+not be the same matrix as in the key.
+
+LEVELS (reported separately, never merged).
+ L1 INDEPENDENT DERIVATION: the reply derives the spin-preserving and spin-reversing maps from the brief, with working
+    or code, and states that nothing was estimated.
+ L2 STRUCTURAL MATCH: the reply reports a spin-reversing map of order 24 with census 1 + 8 + 24 + 24 + 24 and states the
+    quadratic identity A^2 = A + I for one such map (equivalently trace 1, determinant -1), or reports all eight
+    order-24 spin-reversing maps with their traces, which include trace 1.
+ L3 INDEPENDENT VALIDATION: a separate checker (tools/blind_check.py, not the reply's own code) recomputes every value the
+    reply reports and confirms it.
+ S7 is MET when two admissible replies from different model families reach L1, L2 and L3.

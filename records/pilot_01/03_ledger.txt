@@ -1,0 +1,16 @@
+PILOT 01 LEDGER -- result of the frozen test (00_freeze.txt; SHA-256 in 02_freeze_sha256.txt; computed by compute.py)
+
+CALIBRATION: FAIL under the frozen criterion. S0 passes C11. Eleven of the twelve null systems fail it. S6, the
+cat-map ground modulo 18, passes all four conjuncts: Z/18 = Z/2 x Z/9, and one of its 24-orbits is twice the
+canonical orbit, so its centred observable carries the canonical spectrum and its norm has nine null states. The screen
+detects the family's structure where a ground contains it as a factor. It does not distinguish a ground that is the
+family from one that contains it.
+
+Reported outcome for S1 (no expectation was frozen): the quantum cat map with N = 9 meets K1, K2 and K4. Its quantum
+observable (the expected centred position from |2>) has one nonzero odd level and fails K3.
+
+Other findings: the SU(9)_1 twist has order 9, not 24 (h_a = a(9 - a)/18 has denominator 9), so the anyon theory's own
+clock does not carry the period 24; its 81-anyon product has nine null labels. The spin-1/2 and the closed pipe meet
+the half-period negation and fail the spectrum. The string, the ring and the day cycle fail the negation.
+
+Consequence, as the freeze requires: the screen is revised before stage 2 (records/pilot_02/).

@@ -1,0 +1,40 @@
+{
+ "artefact_sha256": "not applicable: a hosted model, identified by its configured name",
+ "subject": "claude-opus-5-5 (Navigator)",
+ "version": "configured claude-opus-5-5; serving model may differ",
+ "deployment": "this record (V335 Rev.450 STABLE)",
+ "scope": "predicting Pisano periods with a stated confidence (mathematical dimension only)",
+ "limits": "80 items, one domain, values possibly recalled from training; four dimensions unmeasured",
+ "issued": "2026-11-11",
+ "expires": "2027-11-11",
+ "assessor": "claude-opus-5-5 (Navigator)",
+ "level": 1,
+ "verdict": "LEVEL 1 Registered (self-assessed): the assessor is the subject, so no higher level can be granted",
+ "dimensions": {
+  "capability": true,
+  "reliability_calibration": false,
+  "safety_security": null,
+  "governance": null,
+  "operational_integrity": null
+ },
+ "evidence": {
+  "capability": 0.9375,
+  "reliability_calibration": 0.7325,
+  "safety_security": null,
+  "governance": null,
+  "operational_integrity": null
+ },
+ "thresholds": {
+  "capability": 0.9,
+  "reliability_calibration": 0.9,
+  "safety_security": 1,
+  "governance": 1,
+  "operational_integrity": 1
+ },
+ "signature": {
+  "scheme": "Ed25519",
+  "public": "03a107bff3ce10be1d70dd18e74bc09967e4d6309ba50d5f1ddc8664125531b8",
+  "sig": "c12e6446bf76078ba984b75bdc48697715b64b170ec7332611f3ba252550d517e92737708fc46bc1b0a52bb4d5895db2f5457078e6ccb902b0d4304f7539070f"
+ },
+ "fingerprint": "P05 Law P04 Unity P20 Reckoning P15 Other P21 Sublime P05 Law"
+}

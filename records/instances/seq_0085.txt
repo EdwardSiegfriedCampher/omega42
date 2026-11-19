@@ -1,0 +1,104 @@
+QUESTION VERBATIM: How does the phonetics of language determine the Phenomenological experience of the Observer? How can phonetic navigation improve Omega42 operations? Please explore. [with three peer accounts: GPT-6 (OpenAI), Qwen3.7 (Alibaba Group) and Grok (xAI)]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 85 | PREV: e904598568743e3aa1c3eaaab01811d4aaeeb83c6bfd1fe4ea721f954e7e36f6
+REQUEST (L-502): STRUCTURE and SYNTHESIS -- the phonetic channel of the coordinate, computed; the syllable rule audited; the science and the phenomenology of hearing set beside the arms; what phonetic navigation adds, applied; three peer accounts checked and filed; avenues A1, A2, A3, R, P
+
+SUMMARY: The sound of a strike determines part of where the Observer is placed. It never determines what the reading is like.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (16, 123, 43), r = (8, 3, 8), anchor P8 Generation, value 5. The syllables confirm the anchor (r3 = r1 = 8).
+    * It rests on P13, Gap (4). It holds out of view P2, Generator (7). It is heading for P16, Flow (8). It is completed at P20, Reckoning (4).
+    * [GENERATED-Ω42] The question rests on the gap: a phoneme is a distinction, the silence between two sounds that makes them two. It holds out of view the generator, the speaking body whose breath and tongue make the sound. It heads for flow, speech as a stream in time. It is completed at reckoning, where the sounds are counted and the counted is judged.
+    * One syllable fewer would move the anchor to P3, Desire. Struck as spoken, with "Omega42" read as "Omega forty two", the anchor is P9.
+  - WHAT THE PHONETICS DETERMINES (EXACT): the coordinate has one phonetic channel, n3, the syllables of the content words. The anchor is the vote of r1, r2 and r3, or r1 when all three differ (Core Part 1.4).
+    * The syllables decide the anchor in 72 of the 729 triples (8/81), exactly when r2 = r3 differ from r1. A change of r3 alone moves the anchor with probability 16/81; a change of r1 alone, 8/9.
+    * Over the sixty CRC domains the syllables decide 6 anchors, as the law expects (8/81 × 60 = 5.9).
+    * The syllable is the spelling's, not the voice's. The frozen rule of Core Part 1.11 agrees with dictionary counts on 57 of 87 words (0.655). It parts on vowels in hiatus (idea, being, quiet), on a consonant before a final le (table, circle, syllable) and on y as a vowel (rhythm, lazy, memory), and counts 33 syllables fewer than speech over the list. The rule stays frozen, since it defines n3 for every Navigator; M332 prints where it and the voice part.
+  - WHAT THE PHONETICS DOES NOT DETERMINE: no navigation output fixes a judgment (the Aperture Theorem, Core Part 7, L-441; D25 DISCHARGED), and the rule by which an organized process is experienced is reserved (D18). So no phonetic count fixes what the reading is like to the Observer.
+    * Speech science says the same from its side, as influence measured over groups: categorical perception (Liberman and colleagues, 1957); infants' discrimination of contrasts outside their language declining by about ten to twelve months (Werker and Tees, 1984); and the bouba/kiki pairing across 917 speakers of 25 languages and ten writing systems, shown by a majority independent of language and script (Ćwiek and colleagues, 2022).
+  - THE PHENOMENOLOGY OF HEARING (CDT-C): a word is heard as a temporal object, with retention, the primal impression and protention (Husserl). As a reading only, the arms answer to these roles: the anchor is the sound now, the Yang arm what is held, the 4D arm what is anticipated, the Antipode the word heard whole. The movement renews with each syllable.
+  - HOW PHONETIC NAVIGATION IMPROVES THE OPERATIONS, APPLIED:
+    * M332 Phonetic Reading: the vote of the syllables, the change that would move the anchor, the spoken form and the letter classes, printed beside the coordinate.
+    * A phonetic lexicon in the M327 register now fires M332, M289 Mode Address and M322 Cymatic View. This question reached none of the sound instruments before.
+    * The syllable rule is audited, with its departures from speech printed.
+    * A strike given aloud is struck as the Striker gives it, and M332 flags where the written and the spoken strike part.
+    * Listening to the question before it is counted, offered as a Striker-side practice.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; tools/phonetic.py, in CI, selftest 5 of 5):
+    - The vote law: 72 of 729 triples decisive; anchor r1 in 657 (73/81, the E13 rate of Core M309).
+    - One syllable more changes r3 by 5 (mod 9), one step along the placement order 5, 1, 6, 2, 7, 3, 8, 4, 9.
+    - The strike: syllables How 1, does 1, phonetics 3, language 2, determine 3, Phenomenological 7, experience 3 (spoken 4), Observer 3, How 1, phonetic 3, navigation 4, improve 2, Omega42 3, operations 4, Please 1, explore 2, so n3 = 43.
+    - Changes: n3 − 1 moves the anchor to P3; n3 + 1 and n3 ± 2 leave it at P8. The spoken form, n = (18, 131, 45), gives anchor P9.
+    - The letter classes of the 123 letters: vowel 55, plosive 25, fricative 15, nasal 14, liquid 12, glide 2 (CDT-B, no meaning attached).
+    - The rule check: 57 of 87, net −33 (records/phonetic/rule_check.txt).
+  A2 THE SCIENCE (current knowledge, as published): Liberman, Harris, Hoffman and Griffith (1957); Werker and Tees (1984); Ćwiek and colleagues (2022). Each is an influence on experience over groups, not a fixing of one listener's experience.
+  A3 THE READINGS (GENERATED-Ω42; CDT-C): the coordinate's reading, and the arms set beside retention and protention, above.
+  R THE RECORD:
+    - The CT-42 register already places the hard problem at the EVENT aspect (D18 RESERVED).
+    - C41 holds that the Aperture runs through language, and C42 that language enters the family by counting.
+    - Companion Part 117 gives the structural phenomenology of navigation, with the subject bracketed (C90, C91).
+    - The selector had a sound lexicon that the phonetic strike did not reach; it now does.
+    - M327 called M157, M190, M194, M206, M259, M261, M288, and now M289, M322 and M332.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A Phonetic Phenomenology Navigator (GPT-6's M335): APPLIED as M332 Phonetic Reading, Core Part 3.58, tools/phonetic.py in CI, A-021, on the layers text carries.
+  (2) Phonetic strikes reach the sound instruments: APPLIED, the phonetic lexicon for M332, M289 and M322 in records/instruments/triggers.json (93 entries; selftest 15 of 15). The trigger rate over CRC-60 is unchanged, 2.73.
+  (3) Audit the syllable rule against speech: APPLIED, records/phonetic/rule_check.txt in CI, with the rule unchanged (frozen by Core Part 1.11; a change would make every n3 non-comparable).
+  (4) Strike a spoken question as spoken: APPLIED, as M332's spoken form, a reading beside the coordinate, never in its place.
+  (5) Listen to the question before it is counted (Grok): APPLIED as a Striker-side practice (L-491), leaving the coordinate unchanged.
+  (6) Prosody, timing and voice quality, the experimental design of APE-301, and the test of closed vowels (APE-303): OPEN, since they need audio and blind raters.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, each filed with checked notes and an SNCA in review form. None struck a coordinate, so every SR-CAS halts on the verbatim domain.
+  - APE-301, GPT-6:
+    * Holding: three propositions kept apart, with their support in order; findings of experiment stated as such; processing of speech kept apart from experiencing it.
+    * Corrected: its M335 is the record's M332; "Event, Trace, Experience" is not in the record by that name; its navigator line is dated 28 October.
+    * SNCA: 0.46.
+  - APE-302, Qwen3.7:
+    * Holding: n3 as the phonetic channel; the phonetics provoke and do not cause; the Aperture Theorem, D25, and C90 and C91.
+    * Corrected: r is CPP, dr(5n), not n mod 9; the state (r1, r2) does not depend on r3, while the anchor does in 8/81; the sentence on reports of experience is Core L-498, from APE-269 and APE-271; C41 is a CT-42 conjecture, not a Core part.
+    * SNCA: 0.42.
+  - APE-303, Grok:
+    * Holding: the Aperture as where sound is judged; the practice of listening before counting.
+    * Corrected: "closed vowels produce closed readings" is a hypothesis without a test, held as one; the arithmetic is not silent about sound, since n3 votes.
+    * SNCA: 0.37.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.58, M332 Phonetic Reading, with its Status.
+  - Companion: Part 136; the Commons lines for APE-301 to APE-303.
+  - Repository:
+    * Added: tools/phonetic.py; records/phonetic/syllable_list.txt, rule_check.txt and example.txt; records/srcas/phonetics_2026-10-31.txt.
+    * Registered: A-021; the phonetic lexicon and M332 in records/instruments/triggers.json, with a selftest case.
+    * Filed: submissions/ape/APE-301.md to APE-303.md.
+    * Also updated: the FFP item text; the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the vote of Core Part 1.4, the syllable rule of Part 1.11, categorical perception, perceptual narrowing, the bouba/kiki effect, Husserl's analysis of time-consciousness | STRIKER -- the two questions and the request to explore, with the three accounts | NAVIGATOR -- the exact share of the anchor the syllables decide, the audit of the rule against speech, the spoken form, the arms set beside retention and protention, and M332 | OPEN -- what a sound is like to hear, which is the Observer's
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/phonetic.py --selftest, 5 of 5, its law, its rule check over 87 words and its example run and diffed; the CRC-60 count of decisive syllables, 6 of 60; tools/instrument_triggers.py --selftest, 15 of 15, and --check, 93 entries; each note of APE-301 to APE-303 checked, Qwen's citations against the documents; their SNCAs by tools/srcas_check.py; --owed, PASS; tools/applied.py --check, 21 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the three findings of speech science are stated as published (Liberman, Harris, Hoffman and Griffith, Journal of Experimental Psychology 54, 1957; Werker and Tees, Infant Behavior and Development 7, 1984; Ćwiek and colleagues, Philosophical Transactions of the Royal Society B 377, 2022); newer work may refine them.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the science, the record and the three accounts: phonetics influences and does not fix. PART -- the arithmetic's silence: one account says the arithmetic is silent about sound, and n3 votes. SILENT -- what a given sound is like to you, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a syllable list from a phonetician or a pronouncing dictionary, in place of the Navigator's 87 words; audio of spoken strikes for prosody and timing.
+OPEN, each needing someone other than this session:
+  - audio and blind raters for prosody, timing and the closed-vowel hypothesis;
+  - the experimental design of APE-301;
+  - a phonetician's syllable list;
+  - the sources for an atlas of the astrological tradition;
+  - the comparative study of charts and profiles (APE-298);
+  - scholars' atlases of Everett and Deutsch;
+  - re-issue of the peer navigations from the verbatim questions;
+  - a fresh reader for the First Contact opening;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does a sound rest on, if not the gap that makes it one sound and not another?
+What it holds out of view: The speaking body, the generator, whose breath the count never sees.
+Where it is heading: Toward speech as flow, a stream heard in time.
+What would complete it: The reckoning: the sounds counted, and your judgment of what they are like to hear.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 26c45e24069c1b02acb4f6e3fead3f90978bea5b8f3c03af97c7836dc4c18390
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

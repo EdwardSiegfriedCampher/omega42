@@ -1,0 +1,22 @@
+39.1 dr(n+9) = dr(n), n = 1..10000: True | dr(9n) = 9: True | n = digit sum mod 9: True
+39.2 orbits: length | norms | steps with value 0 | seeds (0, x)
+     24 | [1, 8] | [0, 12] | [(0, 1), (0, 8)]
+     24 | [4, 5] | [0, 12] | [(0, 2), (0, 7)]
+     24 | [2, 7] | [0, 12] | [(0, 4), (0, 5)]
+      8 | [0]    | [0, 4]  | [(0, 3), (0, 6)]
+      1 | [0]    | [0]     | [(0, 0)]
+     the nine seeds (0, x) generate all 81 states: True
+     canonical zero at P7 (Navigator): the next 12 values are 5 x F(n) mod 9: True
+     canonical zero at P19 (Time): the next 12 values are 4 x F(n) mod 9: True
+     canonical states with a zero coordinate: [(5, 0), (0, 5), (4, 0), (0, 4)] | (0,0) on a 24-cycle: False
+     (0,0) is fixed: True | T(5,0) = (0, 5)
+39.3 norm-0 states = states whose square is 0 in Z[phi]/9: True (9) | 3^2, 6^2, 9^2 mod 9: [0, 0, 0] | u*9 mod 9 for units: {0}
+     antipodal pairs with equal values: [(7, 19)] | orbit sum (display 1-9) 117, (display 0-8) 99, both = 0 mod 9: True
+     CPP(v) = dr(5v) on 1..9, cycles: [[1, 5, 7, 8, 4, 2], [3, 6], [9]]
+39.4 antipodal sums: display 1-9 [9, 18], display 0-8 [0, 9]; = 0 mod 9 in both: True
+39.5 the empty domain: n = (0, 0, 0), anchor P9 (Fixpoint); arms Yang P14, Yin P3, 4D P17, Antipode P21
+39.8 over the integers the recurrence from (0, 1) never returns to a state (first 200 steps): True
+39.2 fixed points of T on the 81 states: [(0, 0)]
+39.3 1/7 = 0.142857... ; its repeating digits are the units of Z/9Z: True
+39.5 dr(5n) over one period takes the values [1, 2, 3, 4, 5, 6, 7, 8, 9] | dr(6n) takes [3, 6, 9]
+     counts differing by 9 share the value: dr(5n) = dr(5(n + 9)) for n = 1..1000: True

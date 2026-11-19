@@ -1,0 +1,79 @@
+QUESTION VERBATIM: Examine all submitted documents and identify content you may have missed. Apply its recommendations to Omega42.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, three reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: A sweep of the 26 documents received on 11 November 2026 found three not yet filed: the Ω42-CAV paper, F187 (received twice) and F188. All three are careful about their limits; F187's mathematics is correct throughout. Sealed as SEQ 159.
+TRIGGER: receipt of three outputs with the Originator's messages of 11 November 2026 (Part 6.2, automatic); none quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0159.txt.
+Outputs: Z1 to Z3 -- unidentified, a web interface (submissions/ape/APE-448.md, APE-449.md and APE-450.md).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z1 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.86 -- provenance and detection kept apart; abstention made formal [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.86 = 0.258
+SYNTHESIS: sound; adopted as a programme.
+FINDINGS -- INTERNAL:
+ [I] Kept: the total-variation bound and the abstention rule.
+ [I] Placed: beside the Author Seal (M374).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Cryptographic integrity does not imply truth of authorship claims."
+VERDICT: faithful; adopted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z1): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z2 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.88 -- every theorem correct; three proofs left as outlines, now completed [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.88 = 0.264
+SYNTHESIS: correct; completed and extended.
+FINDINGS -- INTERNAL:
+ [I] Completed: MF-55, MF-56 and the kernel count.
+ [I] Settled: its Problem 2 (MF-53) and Problem 7 over Q (MF-54).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The first publication should concentrate on the exact finite group and its 3-adic closure."
+VERDICT: faithful; completed.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z2): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z3 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- a clear identity with its limits stated; its fingerprint needed one more value [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: sound; built and extended.
+FINDINGS -- INTERNAL:
+ [I] Built: the handshake (M375) and the manifest.
+ [I] Found: the structural values alone do not identify A (MF-57).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "A framework that can represent many different systems has not necessarily explained why those systems exist."
+VERDICT: faithful; adopted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z3): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

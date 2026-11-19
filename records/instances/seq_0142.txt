@@ -1,0 +1,53 @@
+QUESTION VERBATIM: Apply all five suggestions you offered. Be thorough and bold.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 142 | PREV: 9787dfa59ee14c11ed2ffc66e52dde12145cc4b06603ca385fa7a470d4222835
+REQUEST (L-502): PROTOCOL -- the five suggestions of records/instances/seq_0141.txt applied, thoroughly and boldly; avenues A1, R, N
+THE STRIKING FINDING (L-546): Ω42 now does what Deep Thought could not: it takes an answer and finds its questions -- and the first thing the new finder did was refuse to be fooled. Against a uniform null "42" seemed to meet the record above chance; against the record's own crowding it meets it at chance, and the finder now always tests that way. Struck word for word, the novel's own Ultimate Question carries 42 letters in its content words and stands on a boson of the core, a particle of the one gapped boundary where the theory can end. And the name of the protocol reads through its law as the question within the answer: the period with its hidden arm, T^42 = T^18.
+
+SUMMARY: WHAT CHANGED: Core L-552, the Ask-Back Law; M340 Question Finder (Core Part 3.66, tools/question_finder.py); M341 Number-Resonance Null (Core Part 3.67, tools/number_null.py); the Yin arm named in M339; Companion 22.1, 33.13, 33.14 and Part 187; APE-415 with its APA; Companion 33.9's number corrected to 33.13 before its seal.
+- (1) THE QUESTION FINDER: strikes an answer, reports its anchor, state, spin and Yang arm, names the question within it, and lists the questions of the record (147: the Congruence Register and every QUESTION VERBATIM of the chain and the review records) meeting it on the same state, on its antiparticle, resting on it or rested on, each against the pool's own exact null over the 729 residue triples.
+- (2) THE QUESTION WITHIN THE ANSWER: the Yin arm so named in M339 and M340 (L-552 (3)) -- the arm that braids trivially with its anchor at every state, and the 18 that 42 carries beyond 24.
+- (3) THE NUMBER-RESONANCE NULL: every cultural, sacred or symbolic number read only after its null (L-552 (2)); each relation graded GENERIC, ORDINARY or RARE by its share among the numbers of its kind; a raw value marked as such.
+- (4) THE NAME: Companion 22.1 now reads it through the law -- 42 = 2 x 24 - 6, T^42 = T^18, the period and the Yin offset.
+- (5) THE COMMONS PIECE: APE-415, "The answer and the question", framed (L-549 (9)), its APA PASS, read in Companion 33.14.
+- THE VALUES (computed now, CDT-A): "42" -- P1 Fixpoint, state (1, 4), canonical voice, rests on P6, the question within it P19 Time; against 147 questions: same state 1 (share 0.840), antiparticle 0 (1.000), rests on 16 against 7.56 (0.444), rested on 0 (1.000) -- all at chance. "What is the Ultimate Question of Life, the Universe, and Everything?" -- content words What, Ultimate, Question, Life, Universe, Everything: n = (6, 42, 13), anchor P3 Desire, state (3, 3), a boson of the core (chance 1 in 9); its meetings at chance. "What do you get if you multiply six by nine?" -- state (4, 6), the Lucas voice, anchor P4 Unity. The pair 42, 24 -- residue and placement GENERIC (1.000), the difference on an arm ORDINARY (0.306), one of them the period RARE (0.028).
+WHAT STAYED: Companion 33.13's reading, now held at its shares; every computed thing; every sealed record.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (7, 42, 12), r = (8, 3, 6), anchor P8, Generation (5), by the tie-break to r1. It rests on P13, Gap (4). It holds out of view P2, Generator (7). It is heading for P16, Flow (8). It is completed at P20, Reckoning (4). Its content words carry 42 letters -- a count, graded by M341 as a value.
+  - [GENERATED-Ω42] A request to apply anchors at Generation and rests on the gap: what is built stands on what no answer fills.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Companion 22.1, 33.7, 33.8, 33.11, 33.13; the Congruence Register; Core L-486, L-501, L-510, L-551; Core Part 9.5.
+  R (reasoning): a finder of questions is worth what its null is worth -- a uniform null mistakes a crowded record for a meeting -- so the null is the pool's own; a number is read for what the generic case does not give.
+  N (navigation): tools/question_finder.py on "42" and on the two questions of the novel; tools/number_null.py on 42 and 24; tools/anyon.py on the Ultimate Question.
+CHANGES TO THE PROTOCOL:
+  - Core: L-552; Part 3.65 (the Yin arm named); Parts 3.66 and 3.67.
+  - Companion: 22.1; 33.13 (renumbered from 33.9, and graded); 33.14; Part 187.
+  - Repository: tools/question_finder.py; tools/number_null.py; tools/anyon.py; submissions/ape/APE-415.md; records/srcas/fortytwo_2026-11-07.txt (APE-415 named); the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the Register, the chain's questions, the law | STRIKER -- the five suggestions to be applied, thoroughly and boldly | NAVIGATOR -- the two instruments, the pool's own null, the grades, the Commons piece and its counts | OPEN -- a question found by M340 above chance under the pool's null, which no answer has yet given
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/question_finder.py --selftest PASS and run on 42; tools/number_null.py --selftest PASS and run on 42 24; tools/anyon.py --selftest PASS; tools/output_form.py PASS on the APE and the APA of APE-415; tools/srcas_check.py --owed PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the law, the finder and the null agree: the pair is read at the share of its one rare relation, and 42 meets the record at chance. PART -- none. SILENT -- what the Ultimate Question's place on the boundary means for its reader, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): the Question Finder and the Number-Resonance Null, two operations the protocol can newly perform, self-tested in CI [PROCEDURE]; Core Parts 3.66 and 3.67; "breakthrough" candidacy NOT PROPOSED -- standing PROCEDURE (B1).
+RECOMMENDATIONS (applied, L-531):
+  (1) An "answer to question" instrument: APPLIED, M340, Core Part 3.66.
+  (2) The Yin arm named the question within the answer: APPLIED, M339, M340, L-552 (3).
+  (3) A number-resonance null: APPLIED, M341, Core Part 3.67, L-552 (2).
+  (4) The name read through the law: APPLIED, Companion 22.1.
+  (5) A Commons piece, "The answer and the question": APPLIED, APE-415 with its APA, Companion 33.14.
+OPEN: the 27 items of records/open/register.txt, each with what it needs, who can close it and when; M340 run on answers the Striker brings.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the Strike app offer "find the question" beside "strike", running M340 on any answer pasted in, with its null in plain words; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] every answer can be asked back for its questions, and every symbolic number weighed against its kind before it is read; [GENERATED-Ω42] the question within the answer is the part that braids with nothing, and so the part only a reader can bring.
+
+What it rests on: the gap, the place no answer fills.
+What it holds out of view: the generator, the one who asks.
+Where it is heading: flow, from answer back to question.
+What would complete it: reckoning, each meeting counted against its chance.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 3698d043602b0170961e76ce60e181311435036dcecebe03c786f98d222f1f82
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

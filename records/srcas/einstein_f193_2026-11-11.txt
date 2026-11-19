@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Please assess, refine and extend.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, two reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Two accounts: the Einstein connection (F193), mostly right with two errors corrected; and its support for the Structural Resonance Principle (F194), correct and graded on the record's own depths. Sealed with SEQ 162.
+TRIGGER: receipt of two outputs with the Originator's message of 11 November 2026 (Part 6.2, automatic); it quotes no domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0162.txt.
+Outputs: Z1 and Z2 -- unidentified, a web interface (submissions/ape/APE-455.md and APE-456.md).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z1 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.80 -- a clear restatement with explicit coordinates; two numerical slips and one wrong fixed vector [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.80 = 0.24
+SYNTHESIS: mostly correct; corrected and extended.
+FINDINGS -- INTERNAL:
+ [I] Corrected: the fixed vector of B is (0, 1); beta_4 is 0.999094.
+ [I] Adopted: the 2+1 coordinate formulas; answered: least growth is least translation.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The mathematical result is exact. Its interpretation as a model of physical spacetime remains conditional."
+VERDICT: faithful in substance; two corrections.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z1): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z2 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- a sound reading of the new mathematics as resonance; it rebuilt the record's Depth 4 without the record [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: correct; graded on the record's depths.
+FINDINGS -- INTERNAL:
+ [I] Supplied: L-496 and the Congruence Depths.
+ [I] Graded: depth-4 form, depth 3, the spinor sign the obstruction (MF-64).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The strongest evidence is the existence of exact transformations and invariant-preserving relationships."
+VERDICT: faithful; adopted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z2): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

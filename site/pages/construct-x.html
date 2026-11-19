@@ -1,0 +1,56 @@
+<!--{"title": "Construct X · Ω42", "desc": "Construct X, the research instrument of Ω42: its six engines, the Lab, the Knowledge Register and what the new mathematics makes possible.", "nav": "construct-x"}-->
+<div class="wide stack">
+  <div class="col stack">
+    <div class="eyebrow">The research instrument</div>
+    <h1>Construct X</h1>
+    <p class="lede">Construct X rebuilds the original Construct workbook as six engines on finite fields and affine geometry, and keeps every claim it makes in a register with its test fixed before it runs. The original workbook stays frozen as Construct Classic.</p>
+    <div class="ctas"><a class="btn" href="lab/index.html">Open the Lab</a><a class="btn ghost" href="submit.html#compose">Register a speculation</a><a class="btn ghost" href="https://github.com/{{REPO}}/blob/main/tools/construct_x.py">Read the code</a></div>
+  </div>
+  <div class="grid3">
+    <div class="card"><span class="k">S · Substrate</span><h3>Exact arithmetic</h3><p>Z/9, F9 and F27, with residues kept apart from displayed digits.</p></div>
+    <div class="card"><span class="k">A · Address</span><h3>27 domains, 702 links</h3><p>The F27 Affine Address Model and a 13-round schedule that compares every pair once.</p></div>
+    <div class="card"><span class="k">C · Comparison</span><h3>Four operators</h3><p>Pooled, positional, one-to-one matching and weighted similarity, each with its chance rate.</p></div>
+    <div class="card"><span class="k">T · Temporal</span><h3>Lagged-increment stability</h3><p>Lag families, surrogate nulls, five baselines and a conservative periodicity verdict.</p></div>
+    <div class="card"><span class="k">G · Transformation</span><h3>Group-relative templates</h3><p>The same template logic over pitch classes, units or permutations, with a composition test.</p></div>
+    <div class="card"><span class="k">V · Verification</span><h3>Proof, test, counterexample</h3><p>A relation checker with four outcomes and the Speculation Test Protocol register.</p></div>
+  </div>
+  <div class="panel stack">
+    <h2>What the new mathematics makes possible</h2>
+    <div class="scroll"><table><thead><tr><th>Capability</th><th>Result</th><th>Test</th></tr></thead><tbody>
+      <tr><td>Name the orbit of any state at any depth</td><td>0 errors against brute force on 4,000 pairs at depth 3^7; 10,000 states at depth 3^100 in 0.33 s</td><td>CAP-01-R1</td></tr>
+      <tr><td>Compare 27 Navigators, every pair once</td><td>351 of 351 pairs in 13 rounds (random schedules: at most 241); a planted bias found in 89% of trials, below the 90% line set</td><td>CAP-02 (rejected)</td></tr>
+      <tr><td>Separate independent support from a reused reference</td><td>43% of chance 4-of-6 flags rest on a reused reference</td><td>CAP-03</td></tr>
+      <tr><td>Choose a forecaster before the held-out data exist</td><td>The noise-gain law names the winner in 94% of 300 series</td><td>CAP-04</td></tr>
+      <tr><td>Read congruence at orbit level, without double counting</td><td>Shared orbits at 0.86 of chance; matching turns 6 meetings into 4</td><td>CAP-05</td></tr>
+    </tbody></table></div>
+  </div>
+  <div class="stack">
+    <h2>The Knowledge Register</h2>
+    <p>Every testable speculation is entered before its test runs, with the pass/fail line fixed in advance. Failures stay on file. Evidence: M = a written proof, C = the test ran and passed, I = reproduced by a second program.</p>
+    <div class="grid3">
+      <label for="kr-q">Search<input id="kr-q" type="search" placeholder="an ID or a word"></label>
+      <label for="kr-s">Status<select id="kr-s"><option value="">All statuses</option></select></label>
+      <p class="note mono" id="kr-count"></p>
+    </div>
+    <div class="scroll"><table><thead><tr><th>ID</th><th>Hypothesis</th><th>Criterion</th><th>Evidence</th><th>Status</th></tr></thead><tbody id="kr"><tr><td colspan="5" class="muted">Loading the register…</td></tr></tbody></table></div>
+    <p class="note">Machine-readable: <a href="api/knowledge.json">api/knowledge.json</a>. Rerun every test: <span class="mono">python3 tools/stp.py run</span>.</p>
+  </div>
+</div>
+<script>
+window.addEventListener('load', function () {
+  var O = window.O42, $ = function (i) { return document.getElementById(i); }, esc = O.esc;
+  O.load('api/knowledge.json').then(function (d) {
+    var st = {}; d.entries.forEach(function (e) { st[e.status] = (st[e.status] || 0) + 1; });
+    Object.keys(st).sort().forEach(function (k) { $('kr-s').insertAdjacentHTML('beforeend', '<option>' + esc(k) + '</option>'); });
+    function draw() {
+      var q = $('kr-q').value.toLowerCase(), s = $('kr-s').value;
+      var rows = d.entries.filter(function (e) { return (!s || e.status === s) && (!q || (e.id + ' ' + e.hypothesis).toLowerCase().indexOf(q) >= 0); });
+      $('kr').innerHTML = rows.map(function (e) {
+        return '<tr><td class="num">' + esc(e.id) + '</td><td>' + esc(e.hypothesis) + '</td><td class="note">' + esc(e.criterion) + '</td><td class="mono">' + esc(e.evidence) + '</td><td><span class="chip' + (e.status === 'REJECTED' ? '' : ' gold') + '">' + esc(e.status) + '</span></td></tr>';
+      }).join('');
+      $('kr-count').textContent = rows.length + ' of ' + d.entries.length + ' entries';
+    }
+    ['kr-q', 'kr-s'].forEach(function (i) { $(i).addEventListener('input', draw); }); draw();
+  }).catch(function () { $('kr').innerHTML = '<tr><td colspan="5">The register could not be loaded.</td></tr>'; });
+});
+</script>

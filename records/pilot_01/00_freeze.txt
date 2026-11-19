@@ -1,0 +1,39 @@
+Omega42 PHYSICAL PILOT 01 -- METHOD CALIBRATION OF THE SPECTRAL SCREEN C11 (Core 3.32; Companion 43.8, stage 1)
+FROZEN BEFORE ANY SYSTEM BELOW IS COMPUTED. Navigator: claude-opus-5-5 (Anthropic). 10 October 2026.
+
+QUESTION. Does the spectral screen C11 pass the family and reject systems that share only part of its fingerprint?
+The pilot calibrates the method. It is not a search for new physical evidence and grades no premise (L-470).
+
+SYSTEMS (each defined in its own field; the reader-chosen parameters are named).
+ S0  The family: T(a,b) = (b, a+b) on (Z/9)^2. Internal positive control.
+ S1  Quantum cat map, Planck parameter N = 9 (Arnold cat map, quantized; Hannay and Berry 1980): the antiunitary V that
+     implements T on C^9 (Weil representation, Core 1.8.9). N is reader-chosen.
+ S2-S6  Classical cat-map grounds T mod N, N = 6, 10, 12, 16, 18 (N reader-chosen).
+ S7  Ideal string fixed at both ends, plucked at one fifth of its length, observed at 0.3 of its length; standard
+     Fourier modes; sampled 24 times per fundamental period (sampling reader-chosen).
+ S8  Pipe closed at one end: pressure at the closed end, odd modes with amplitudes 1/n^2; sampled 24 per period.
+ S9  Spin-1/2 rotated by 30 degrees per step about x (the 4 pi spinor symmetry measured by neutron interferometry,
+     Rauch et al. 1975, Werner et al. 1975); observable: the amplitude <up|U^t|up>. Step size reader-chosen.
+ S10 Rotation of a ring of 24 sites by one site per step (the 24-tone scale or the 24-hour clock as a cyclic shift);
+     observable: occupation of site 0.
+ S11 SU(9)_1 anyons: the modular T matrix (topological twist), T = diag exp(2 pi i h_a), h_a = a(9-a)/18, as the clock.
+ S12 A day-cycle model sampled hourly: x(t) = cos(2 pi t/24) + 0.3 cos(4 pi t/24 + 1).
+
+CONJUNCTS (all four are required for C11 PASS).
+ K1 closure: the system's own evolution returns to itself (up to a global phase) with minimal period exactly 24 steps.
+ K2 half-period negation: at step 12 the evolution equals the system's own negation or parity (up to a global
+    phase); for a signal, x(t + 12) = -x(t).
+ K3 observable spectrum: for the natural observable, odd harmonics only, with exactly two nonzero power levels in the
+    ratio 1 : 2, the larger at harmonics 3, 9, 15, 21.
+ K4 nine null states: the system's own state space carries the norm a^2 + ab - b^2 with exactly nine null states.
+ Separately, S3: whether the modulus and the period are supplied by the object (a reader-chosen parameter is not).
+
+NATURAL OBSERVABLES. Cat-map grounds: the centred residue of the first entry along the longest orbit (M298, O).
+ S1 additionally: the expectation of the centred position on C^9 from the position state |2>.
+
+CALIBRATION CRITERION. The method PASSES calibration if S0 passes C11 and every null system S2 to S12 fails it.
+ Any null system passing C11 means the screen is not specific enough and is revised before stage 2.
+ S1 is reported either way; its quantum observable is a genuine test, with no expected outcome stated.
+
+STAGE 2 (not part of this pilot): a physical system whose own law supplies the modulus 9 and the period 24 (S3),
+ its spectrum measured, frozen in a new pilot.

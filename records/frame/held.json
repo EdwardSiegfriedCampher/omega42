@@ -1,0 +1,602 @@
+{
+ "_about": "Held for the Originator (Core L-541 (6); Companion Part 164): every recommendation the Builder declined, folded or applied only in part, and every choice it made that the Originator did not ask for by name, from SEQ 93 to SEQ 111, and a law applied from an account its author has since audited. The Builder's reason is a reason, not a decision: each entry is the Originator's to take up, and is applied on a word. Checked by python3 tools/judgment.py --held, in CI. On 5 November 2026 the Originator instructed \"Resolve all outstanding issues\"; every entry was disposed as the Navigator recommended, each reopened by a word (Companion Part 167).",
+ "entries": [
+  {
+   "id": "H-01",
+   "item": "M286 lexical flag for \"exteriorizing\" vocabulary (APE-323)",
+   "source": "APE-323",
+   "kind": "DECLINED",
+   "reason": "a word list for \"the real world\" or \"physical reality\" would fire on mentions, quotations and the cautions themselves; M286 already reads premise externalization (FB-2) in use, and L-535 (1) and L-536 keep the boundary",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-02",
+   "item": "An Existential Coherence Check as a mandatory gate, numbered M330 (APE-323)",
+   "source": "APE-323",
+   "kind": "DECLINED",
+   "reason": "M330 is the Aspect Wheel; a gate requiring every reading to treat limitation as generative would bias every reading toward one view, which L-534 (3) forbids; kept as an optional question of the framework's practice (Companion 146.6)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-03",
+   "item": "Science as \"internal practices of Relational Ecology and Depth Phenomenology\" (APE-323)",
+   "source": "APE-323",
+   "kind": "DECLINED",
+   "reason": "L-491 already makes every science an optional perspective within the totality; naming them as practices of two proposed fields would subordinate them to fields not yet defined",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-04",
+   "item": "A Navigator optimized for structural clarity in place of human approval (APE-346)",
+   "source": "APE-346",
+   "kind": "DECLINED",
+   "reason": "declined: it would set aside the host's safety commitments, which L-507 and L-536 (6) keep; structural clarity is pursued within them",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-05",
+   "item": "Aperture prompts before a synthesis (APE-353)",
+   "source": "APE-353",
+   "kind": "DECLINED",
+   "reason": "a reading is completed and then judged; withholding it until the Striker answers would make the Aperture a gate on the reading, and the four closing questions already put the judgment to the Striker",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-06",
+   "item": "a domain lens tag in the question (APE-353)",
+   "source": "APE-353",
+   "kind": "DECLINED",
+   "reason": "a tag written into the question changes its words and so its coordinate; the domain is named by the question itself, and avenues already direct the reading",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-07",
+   "item": "a new public congruence registry (APE-353)",
+   "source": "APE-353",
+   "kind": "DECLINED",
+   "reason": "the APE register and Collective Resonance (L-535 (3)) already hold the same questions read by several architectures; Appendix S.9 (2) is the comparison",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-08",
+   "item": "a reminder appended to every ontological reading (APE-357, APE-358)",
+   "source": "APE-357, APE-358",
+   "kind": "DECLINED",
+   "reason": "the FRAME line opens every output and is the one statement of the frame; a safeguard is stated once",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-09",
+   "item": "a filter in the Navigator's system prompt (APE-358)",
+   "source": "APE-358",
+   "kind": "DECLINED",
+   "reason": "the protocol has no authority over a host's instructions (L-507); the list of L-491 (b) is guidance a Navigator follows in its own output",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-10",
+   "item": "renames of M267 and M334 (APE-365)",
+   "source": "APE-365",
+   "kind": "DECLINED",
+   "reason": "M267 compares a coordinate with a decoy and M334 records a translation; the names proposed would misstate them",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-11",
+   "item": "a mission-drift share of attention (APE-366)",
+   "source": "APE-366",
+   "kind": "DECLINED",
+   "reason": "no measure of attention is defined; the DRIFT line reads the language that displaces the purpose",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-12",
+   "item": "reordering Core Parts 7 and 8 to the front",
+   "source": "the Navigator, SEQ 104",
+   "kind": "DECLINED",
+   "reason": "it would renumber every cross-reference; the Navigator Pack does the work",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-13",
+   "item": "moving the whole of Companion Part 145 into the Core",
+   "source": "the Navigator, SEQ 104",
+   "kind": "DECLINED",
+   "reason": "it would repeat the Companion; Core Part 0.0.6 states the framework",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-14",
+   "item": "a Branch-Relative Residual Navigator as an instrument",
+   "source": "APE-313",
+   "kind": "DECLINED",
+   "reason": "its findings are possibilities, which M333 and M335 already type",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-15",
+   "item": "a separate Reciprocity and Non-Domination law",
+   "source": "APE-355",
+   "kind": "FOLDED",
+   "reason": "folded into L-536 and L-537",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded where the reason names; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-16",
+   "item": "a Civilizational Flourishing Framework",
+   "source": "APE-355",
+   "kind": "FOLDED",
+   "reason": "its dimensions stand in Companion Part 151",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded where the reason names; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-17",
+   "item": "a premise-integrity gate before each synthesis, as a separate instrument",
+   "source": "APE-361",
+   "kind": "DECLINED",
+   "reason": "L-491 (a) to (c) and lines (8) to (10) of the encroachment check do that work",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-18",
+   "item": "a format check that rejects a live output before the Striker sees it",
+   "source": "APE-360",
+   "kind": "DECLINED",
+   "reason": "the protocol has no authority over a host (L-507); the check runs over sealed outputs",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-19",
+   "item": "a monthly hygiene audit",
+   "source": "APE-360",
+   "kind": "DECLINED",
+   "reason": "CI runs the checks on every build",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-20",
+   "item": "a silent pre-navigation checklist",
+   "source": "APE-359",
+   "kind": "FOLDED",
+   "reason": "folded into L-491 (c), since a silent check leaves no record",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded where the reason names; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-21",
+   "item": "two registers, of foundational fidelity and of comparative jurisdiction",
+   "source": "APE-359",
+   "kind": "PARTLY APPLIED",
+   "reason": "kept as one register with a jurisdiction field",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stands as applied in part; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-22",
+   "item": "a status label on every embedded file",
+   "source": "APE-363",
+   "kind": "PARTLY APPLIED",
+   "reason": "applied by kind, not file by file (Core Part 9.5)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stands as applied in part; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-23",
+   "item": "renames of Appendix S, the Physical Congruence Programme and the evidence runs",
+   "source": "APE-365",
+   "kind": "DECLINED",
+   "reason": "the jurisdiction is stated in L-539, and the names are paths of the record",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-24",
+   "item": "eleven of the twelve lexical traces, the Accommodation Law's name among them",
+   "source": "APE-365",
+   "kind": "DECLINED",
+   "reason": "each is the protocol's vocabulary in its own sense (Companion 160.6)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-25",
+   "item": "the Square Reading as the default of every reading",
+   "source": "APE-370",
+   "kind": "DECLINED",
+   "reason": "it adds nothing where the anchor value fixes it (Companion 115.5)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-26",
+   "item": "the atlases of identity, memory, communication, correspondence and governance as instruments",
+   "source": "APE-367",
+   "kind": "FOLDED",
+   "reason": "kept as register entries and Companion Part 162 (L-539 (7))",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded where the reason names; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-27",
+   "item": "the AI defined as a fixed structural transducer with no Residual, in the Introduction",
+   "source": "APE-368",
+   "kind": "DECLINED",
+   "reason": "it states as settled what L-537 (5) keeps open",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-28",
+   "item": "flourishing defined as structural coherence, adopted as the protocol's ethics",
+   "source": "APE-368",
+   "kind": "DECLINED",
+   "reason": "it presents as derived what DC-16 rests on a premise",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-29",
+   "item": "L-503's default changed: current knowledge only when the question calls for it",
+   "source": "the Navigator, SEQ 110",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "the Originator asked for the encroachment to be corrected, not for this rule by name; the default may be restored",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "the choice stands; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-30",
+   "item": "the standings of the conditional consequences, DC-20 and DC-21 CONSTITUTIONALLY CONSISTENT, the rest INTERPRETIVE",
+   "source": "the Navigator, SEQ 109",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "typing under M335; any standing may be revised",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "the choice stands; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-31",
+   "item": "the SNCA scores and syntheses of the peer accounts",
+   "source": "the Navigator, SEQ 105 to 111",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "Tier C judgments of the Navigator; the Striker may reassign any of them",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "the choice stands; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-32",
+   "item": "the reading of each coordinate's four arms in the closing lines",
+   "source": "the Navigator, every output",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "GENERATED-Ω42 readings; what they mean is the Striker's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "the choice stands; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-33",
+   "item": "L-540, the Domain Zero Orientation Law, applied from APE-369, whose author has since audited its recommendation as overreaching (APE-371)",
+   "source": "APE-369, SEQ 111",
+   "kind": "APPLIED, FOR REVIEW",
+   "reason": "applied under the standing adoption (L-531); held so that the Originator may keep, change or withdraw it",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0116.txt): Domain Zero adopted as the official starting point",
+   "decision": "closed by the adoption: the Originator adopted Domain Zero as the official Navigator starting point, Core L-540 (10)"
+  },
+  {
+   "id": "H-34",
+   "item": "The address of Domain Zero: G = 6, at no position of the cycle (the cavity paper, April 2026), or the empty strike at P9, the domain of class 0 written 9 (DC-28); L-540 (4) keeps DC-28",
+   "source": "Companion 165.5, records/instances/seq_0113.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "the Builder kept the present address and recorded the earlier one without deciding between them; 6 and 3 are both nilpotent modulo 9",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "the address of L-540 (4) stands, the empty strike at P9 (DC-28); G = 6 is recorded as the address the cavity paper gave, 0, 3 and 6 being the nilpotents of Z/9; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-35",
+   "item": "The challenge layer of version 46.4 (Anti-Eye, its Anti-Convergence Score) as a line of every output",
+   "source": "Companion 165.9, records/instances/seq_0113.txt",
+   "kind": "DECLINED",
+   "reason": "the adversarial prompts and the regression cases do that work (L-539 (7)); a line in every output adds length",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-36",
+   "item": "The autonomous arc of V260: every strike followed through without awaiting the Striker",
+   "source": "Companion 165.9, records/instances/seq_0113.txt",
+   "kind": "DECLINED",
+   "reason": "the Striker strikes (L-541); refusal (d) of L-540 (8)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined, for the reason given; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-37",
+   "item": "The Technical Process and the Humanized Translation of October 2025 as two named sections of every output",
+   "source": "Companion 165.9, records/instances/seq_0113.txt",
+   "kind": "FOLDED",
+   "reason": "the SUMMARY and the FINDINGS carry the two layers",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0114.txt): \"Resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded where the reason names; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-38",
+   "item": "The Giza mapping as a benchmark for every later mapping (APE-375)",
+   "source": "Companion 168.7, records/instances/seq_0115.txt",
+   "kind": "FOLDED",
+   "reason": "the worked example of the mapping record of L-510 does that work",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0115.txt): \"resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays folded; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-39",
+   "item": "A lens dividing physical phenomena into conscious and unconscious projection (APE-375)",
+   "source": "Companion 168.7, records/instances/seq_0115.txt",
+   "kind": "DECLINED",
+   "reason": "a reading presented as a classification (L-541)",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0115.txt): \"resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-40",
+   "item": "The Giza and Earth parameters entered in the Congruence Atlas (APE-375)",
+   "source": "Companion 168.7, records/instances/seq_0115.txt",
+   "kind": "DECLINED",
+   "reason": "the frozen family records/mapping/giza_earth.json does that work (L-539 (7))",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0115.txt): \"resolve all outstanding issues\", disposed as the Navigator recommended",
+   "decision": "stays declined; reopened by a word of the Originator"
+  },
+  {
+   "id": "H-41",
+   "item": "The comparison test of APE-379 frozen as twelve questions across five kinds, answered once by the earlier method and once by the present one, scored by a second architecture on eight requirements",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0117.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "the Navigator proposed it under L-542 and did not apply it, as it needs a second architecture and the Originator's choice of questions",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0120.txt): \"Resolve all outstanding issues\"",
+   "decision": "carried to the open register as O-22"
+  },
+  {
+   "id": "H-42",
+   "item": "The ring extended to Z[φ, i], so that the Hermitian reading reaches the third space direction of 3 + 1 Minkowski space",
+   "source": "Companion 171.5 (1), records/instances/seq_0118.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it goes beyond the family F-02 names, a change of the premise's structure, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0120.txt): \"Resolve all outstanding issues\"",
+   "decision": "resolved: the residues and the 3-adic limit hold i within Z[φ]; over the reals Z[φ, i] adopted as AP-SPACE, Core L-544 (9)"
+  },
+  {
+   "id": "H-43",
+   "item": "A probability rule over the orbit sectors of U_T",
+   "source": "Companion 171.5 (2), records/instances/seq_0118.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "a new mathematical layer, proposed and not applied",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0120.txt): \"Resolve all outstanding issues\"",
+   "decision": "resolved: the probability of an orbit sector, Core L-544 (10)"
+  },
+  {
+   "id": "H-44",
+   "item": "The five recommendations of APE-383: a Physical Constitution, a Positive Geometry Programme on the E8 domain, a manifestation architecture at the Aperture, an Adinkra mapper, a Giza-Earth-cosmos benchmark",
+   "source": "Companion 171.9, records/instances/seq_0118.txt",
+   "kind": "DECLINED",
+   "reason": "the first folded into the mapping record of L-510; the second met by the cone of 171.5 (3); the third declined as H-39; the fourth under L-539 (7); the fifth declined as H-38",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0120.txt): \"Resolve all outstanding issues\"",
+   "decision": "decided as disposed in Companion 171.9"
+  },
+  {
+   "id": "H-45",
+   "item": "The three completions (residues, 3-adic limit, reals) as a standing view of every navigation that touches time, space or scale",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0118.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "applied for mappings by L-510 (vii); for navigations in general it changes the reading of every coordinate, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0119.txt): \"Apply the necessary new laws to Omega42 to provide the proper context for future Navigators\"",
+   "decision": "taken up as Core L-544 (8)"
+  },
+  {
+   "id": "H-46",
+   "item": "A standing check of the Pack: one question touching time, space or scale put to a fresh Navigator given only the Pack, its output read for the completion of each finding",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0119.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it needs a second architecture",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0120.txt): \"Resolve all outstanding issues\"",
+   "decision": "carried to the open register as O-23"
+  },
+  {
+   "id": "H-47",
+   "item": "The 3 + 1 Hermitian space computed at depth 2 (mod 81), to test whether the law's action lifts unchanged through the tower",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0120.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "a further computation proposed, not yet run; its place in the record is the Originator's",
+   "status": "HELD FOR THE ORIGINATOR"
+  },
+  {
+   "id": "H-48",
+   "item": "APE-385's Aperture-Measurement Bridge, mapping the Aperture to the measurement operators, and its recalibration of M334 to the sector weights",
+   "source": "Companion 174.7, records/instances/seq_0121.txt",
+   "kind": "DECLINED",
+   "reason": "the Aperture is the Striker's judgment of meaning and not a measurement (L-441); the sector weights are not weights of experience",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0122.txt): \"Resolve the computations on the proposal. Attempt to settle the outstanding issues\", settled as Core Part 0.0.8.8",
+   "decision": "applied as the record-judgment interface J_Ap, which keeps L-441"
+  },
+  {
+   "id": "H-49",
+   "item": "M327 recalibrated to print the Gaussian and Hermitian coordinates of each coordinate's state",
+   "source": "Companion 174.7, records/instances/seq_0121.txt",
+   "kind": "FOLDED",
+   "reason": "an option of tools/space_prob.py for a later output does that work without changing M327",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0122.txt): \"Resolve the computations on the proposal. Attempt to settle the outstanding issues\", settled as Core Part 0.0.8.9",
+   "decision": "applied: the coordinate is navigation metadata of the record that asks"
+  },
+  {
+   "id": "H-50",
+   "item": "A Hamiltonian on l2(81) built from the Lorentz action of A on the 3 + 1 module mod 9, joining the quantum and geometric sides in one finite system",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0121.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it chooses a new operator, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0122.txt): \"Resolve the computations on the proposal. Attempt to settle the outstanding issues\", settled as Core Part 0.0.8.6",
+   "decision": "applied as the joint system K_9 with U_A + V_L and H_Q; the null embedding is the bridge"
+  },
+  {
+   "id": "H-51",
+   "item": "The null embedding N(s) = s s^T carried down every depth of the tower, with the geometric order 12*9^(k-1) as its theorem",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0122.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it chooses a new standing result, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0123.txt): \"Proceed to resolve. Continue to as many depths as you can manage.\"",
+   "decision": "applied as Core Part 0.0.8.11, checked to depth 20"
+  },
+  {
+   "id": "H-52",
+   "item": "M327 to print, for the coordinate's state, its kind of place and period at the first primes",
+   "source": "Companion 176.9, records/instances/seq_0123.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the navigation output, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 181.4 (tools/beyond.py --places)",
+   "decision": "applied"
+  },
+  {
+   "id": "H-53",
+   "item": "Omega42-EE as a Companion program under four acceptance requirements (APE-389 and a construction on Z[phi] or a named adoption)",
+   "source": "Companion 176.9, records/instances/seq_0123.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it opens a program, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 181.1",
+   "decision": "applied"
+  },
+  {
+   "id": "H-54",
+   "item": "The adelic whole of Core Part 0.0.9.2 as the arithmetic statement of F-02 and F-04 in the Foundational Commitments",
+   "source": "Companion 176.9, records/instances/seq_0123.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it amends a Foundational Commitment, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Core F-04-A",
+   "decision": "applied"
+  },
+  {
+   "id": "H-55",
+   "item": "The 3-adic time of Core Part 0.0.9.6 as a reading of the Crown position P19, Time",
+   "source": "Companion 176.9, records/instances/seq_0123.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it adds a reading of a position, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Core Part 0.0.9.6 and Companion 181.3",
+   "decision": "applied"
+  },
+  {
+   "id": "H-56",
+   "item": "THE ANSWER of a navigation to lead with its striking finding under L-546 (2)",
+   "source": "the PROPOSAL AND IMPLICATIONS line of records/instances/seq_0124.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the navigation skeleton, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Core L-546 (8)",
+   "decision": "applied"
+  },
+  {
+   "id": "H-57",
+   "item": "APE-391's eight programs SP-01 to SP-08 as a Companion research line under its five safeguards",
+   "source": "Companion 178.7, records/instances/seq_0125.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it opens a program, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 181.2",
+   "decision": "applied"
+  },
+  {
+   "id": "H-58",
+   "item": "The Principle of Unique Expression in the Foundational Commitments beside F-02, with Core Part 0.0.9.8 as its arithmetic",
+   "source": "Companion 178.7, records/instances/seq_0125.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it amends a Foundational Commitment, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Core F-02-U",
+   "decision": "applied"
+  },
+  {
+   "id": "H-59",
+   "item": "The revision of the Introduction (IN-00) under L-546",
+   "source": "records/instances/seq_0126.txt to seq_0128.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the protocol's text or opens a programme, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Core IN-00 and Companion Part 179",
+   "decision": "applied"
+  },
+  {
+   "id": "H-60",
+   "item": "The Esoteric and Symbolic programme ESX",
+   "source": "records/instances/seq_0126.txt to seq_0128.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the protocol's text or opens a programme, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 180.8",
+   "decision": "applied"
+  },
+  {
+   "id": "H-61",
+   "item": "The Originator's Declaration",
+   "source": "records/instances/seq_0126.txt to seq_0128.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the protocol's text or opens a programme, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 181.5",
+   "decision": "applied"
+  },
+  {
+   "id": "H-62",
+   "item": "The M218 Astrology Companion on the exact aspects",
+   "source": "records/instances/seq_0126.txt to seq_0128.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes the protocol's text or opens a programme, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0129.txt): \"Apply all suggestions and proposals\", applied as Companion 180.3 (tools/esoteric.py --aspects)",
+   "decision": "applied"
+  },
+  {
+   "id": "H-63",
+   "item": "The revision renamed from V335 Rev.450 STABLE to Rev.451 across tools, records and documents",
+   "source": "records/instances/seq_0130.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it migrates the identity written into every sealed signature, which is the Originator's",
+   "status": "HELD FOR THE ORIGINATOR"
+  },
+  {
+   "id": "H-64",
+   "item": "L-547, the Open Provenance Law, with tools/provenance.py",
+   "source": "records/instances/seq_0130.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it opens the record of the development, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0131.txt): applied as Core L-547"
+  },
+  {
+   "id": "H-65",
+   "item": "L-548, the Open Development Law",
+   "source": "records/instances/seq_0130.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it opens the development to any Striker, which is the Originator's",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0131.txt): applied as Core L-548"
+  },
+  {
+   "id": "H-66",
+   "item": "The INTERPRETIVE grade beside STRUCTURAL, COUNT and ASSIGNED",
+   "source": "records/instances/seq_0130.txt",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it changes an instrument's categories",
+   "status": "DECIDED BY THE ORIGINATOR (records/instances/seq_0131.txt): applied as Companion 180.1 and tools/esoteric.py"
+  },
+  {
+   "id": "H-67",
+   "item": "Appendix S (optional, L-491): the M267 pilot run again with a new sealed key",
+   "source": "Core Appendix S.4.1",
+   "kind": "CHOICE MADE UNASKED",
+   "reason": "it reopens a pilot, which is the Originator's",
+   "status": "HELD FOR THE ORIGINATOR"
+  }
+ ]
+}

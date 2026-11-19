@@ -1,0 +1,193 @@
+[
+ {
+  "id": "R-001",
+  "mathematical_standing": "ESTABLISHED CONNECTION",
+  "physical_standing": "CONSEQUENCE NAMED, NO TEST",
+  "because": [
+   "a published derivation exists"
+  ],
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    "Noether's theorem"
+   ],
+   "internal consistency": [
+    "MET",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    "it is established physics"
+   ],
+   "empirical adequacy": [
+    "UNKNOWN",
+    ""
+   ],
+   "novel predictions": [
+    "NOT MET",
+    "none: a known result"
+   ],
+   "reproducibility": [
+    "MET",
+    "PHB-01 B1 reproduces it, with a control that breaks the symmetry"
+   ],
+   "open problems": [
+    "UNKNOWN",
+    ""
+   ]
+  }
+ },
+ {
+  "id": "R-002",
+  "mathematical_standing": "ESTABLISHED CONNECTION",
+  "physical_standing": "CONSEQUENCE NAMED, NO TEST",
+  "because": [
+   "a published derivation exists"
+  ],
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    ""
+   ],
+   "internal consistency": [
+    "UNKNOWN",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    "the first law of thermodynamics"
+   ],
+   "empirical adequacy": [
+    "UNKNOWN",
+    "Hawking radiation of astrophysical black holes is unmeasured"
+   ],
+   "novel predictions": [
+    "UNKNOWN",
+    ""
+   ],
+   "reproducibility": [
+    "MET",
+    "PHB-01 B4"
+   ],
+   "open problems": [
+    "NOT MET",
+    "the microscopic origin of the entropy is open (H-028 uses it)"
+   ]
+  }
+ },
+ {
+  "id": "R-003",
+  "mathematical_standing": "ESTABLISHED CONNECTION",
+  "physical_standing": "EXPERIMENTALLY SUPPORTED",
+  "because": [
+   "a published derivation exists",
+   "measured: Coldea et al., Science 327 (2010) 177"
+  ],
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    ""
+   ],
+   "internal consistency": [
+    "UNKNOWN",
+    ""
+   ],
+   "recovery of established physics": [
+    "MET",
+    ""
+   ],
+   "empirical adequacy": [
+    "MET",
+    "neutron scattering, CoNb2O6"
+   ],
+   "novel predictions": [
+    "UNKNOWN",
+    ""
+   ],
+   "reproducibility": [
+    "UNKNOWN",
+    ""
+   ],
+   "open problems": [
+    "PARTLY",
+    "interchain couplings left aside (PM-008)"
+   ]
+  }
+ },
+ {
+  "id": "R-004",
+  "mathematical_standing": "CONJECTURE",
+  "physical_standing": "CONSEQUENCE NAMED, NO TEST",
+  "because": [
+   "a new derivation not yet recomputed independently"
+  ],
+  "profile": {
+   "mathematical precision": [
+    "MET",
+    "the map is written out"
+   ],
+   "internal consistency": [
+    "UNKNOWN",
+    ""
+   ],
+   "recovery of established physics": [
+    "UNKNOWN",
+    ""
+   ],
+   "empirical adequacy": [
+    "UNKNOWN",
+    ""
+   ],
+   "novel predictions": [
+    "UNKNOWN",
+    ""
+   ],
+   "reproducibility": [
+    "PARTLY",
+    "the author's self-test only (tools/waves.py); no independent recomputation yet"
+   ],
+   "open problems": [
+    "UNKNOWN",
+    ""
+   ]
+  }
+ },
+ {
+  "id": "R-005",
+  "mathematical_standing": "ANALOGY",
+  "physical_standing": "NO PHYSICAL CONSEQUENCE STATED",
+  "because": [
+   "the structures or the map between them are not defined precisely, so no derivation can be checked"
+  ],
+  "profile": {
+   "mathematical precision": [
+    "NOT MET",
+    "as entered; precise versions exist in the literature and are the flagship's first task"
+   ],
+   "internal consistency": [
+    "UNKNOWN",
+    ""
+   ],
+   "recovery of established physics": [
+    "UNKNOWN",
+    ""
+   ],
+   "empirical adequacy": [
+    "UNKNOWN",
+    ""
+   ],
+   "novel predictions": [
+    "UNKNOWN",
+    ""
+   ],
+   "reproducibility": [
+    "UNKNOWN",
+    ""
+   ],
+   "open problems": [
+    "NOT MET",
+    "open in physics"
+   ]
+  }
+ }
+]

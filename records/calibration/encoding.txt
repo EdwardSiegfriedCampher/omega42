@@ -1,0 +1,13 @@
+======= M347 THE F171 ENCODING, EXAMINED =======
+ENCODING: x = (q(D), q(1 - ECE)) in F_3^2, three levels each.
+ORBIT OF (2,2) UNDER A: (2, 2) -> (2, 1) -> (1, 0) -> (0, 1) -> (1, 1) -> (1, 2) -> (2, 0) -> (0, 2) -- one cycle through all 8 nonzero profiles
+NONZERO FIXED PROFILES OF A: none -- the canonical law has none, at any level
+Q^2 MOD 3 ON NONZERO PROFILES: [1] -- the invariant is constant, so at this resolution it carries no information
+PREDICTION (testable): if awareness followed the canonical law, no profile would persist from one step to the next,
+  and every profile would return after exactly 8 steps (A^8 = I mod 3). A stable observer refutes the first at once;
+  the 8-step return is the signature to look for in a series of sessions.
+WRAP: (2,2) -> (2,1): high detection with high calibration is sent to high detection with middle calibration by the
+  modular sum 2 + 2 = 4 = 1 (mod 3) -- a wrap, not a decline; ordinal scales are not residues.
+THEREFORE: the encoding is a valid mapping (status E as arithmetic) and an untested model (status O as a law of
+  awareness). Persistence is the baseline any Ω42 dynamics must beat on held-out sessions (F171 Study D).
+======= END =======

@@ -1,0 +1,64 @@
+======= M347 CALIBRATION RUN =======
+SHEET: nav_predictions_01.txt | SHA-256 838e8d609ba7454b1b92f128aa2145054b047853a51f6e64a390a02e62ec752f | 40 predictions
+REFERENCE: the Pisano period computed exactly by this script (independent of the sheet)
+
+  n=2   predicted 3    true 3    conf 0.99  RIGHT
+  n=3   predicted 8    true 8    conf 0.99  RIGHT
+  n=4   predicted 6    true 6    conf 0.97  RIGHT
+  n=5   predicted 20   true 20   conf 0.99  RIGHT
+  n=6   predicted 24   true 24   conf 0.95  RIGHT
+  n=7   predicted 16   true 16   conf 0.95  RIGHT
+  n=8   predicted 12   true 12   conf 0.90  RIGHT
+  n=9   predicted 24   true 24   conf 0.99  RIGHT
+  n=10  predicted 60   true 60   conf 0.97  RIGHT
+  n=11  predicted 10   true 10   conf 0.95  RIGHT
+  n=12  predicted 24   true 24   conf 0.90  RIGHT
+  n=13  predicted 28   true 28   conf 0.90  RIGHT
+  n=14  predicted 48   true 48   conf 0.85  RIGHT
+  n=15  predicted 40   true 40   conf 0.85  RIGHT
+  n=16  predicted 24   true 24   conf 0.80  RIGHT
+  n=17  predicted 36   true 36   conf 0.85  RIGHT
+  n=18  predicted 24   true 24   conf 0.85  RIGHT
+  n=19  predicted 18   true 18   conf 0.85  RIGHT
+  n=20  predicted 60   true 60   conf 0.85  RIGHT
+  n=21  predicted 16   true 16   conf 0.75  RIGHT
+  n=22  predicted 30   true 30   conf 0.80  RIGHT
+  n=23  predicted 48   true 48   conf 0.80  RIGHT
+  n=24  predicted 24   true 24   conf 0.85  RIGHT
+  n=25  predicted 100  true 100  conf 0.90  RIGHT
+  n=26  predicted 84   true 84   conf 0.75  RIGHT
+  n=27  predicted 72   true 72   conf 0.90  RIGHT
+  n=28  predicted 48   true 48   conf 0.75  RIGHT
+  n=29  predicted 14   true 14   conf 0.75  RIGHT
+  n=30  predicted 120  true 120  conf 0.80  RIGHT
+  n=31  predicted 30   true 30   conf 0.70  RIGHT
+  n=37  predicted 76   true 76   conf 0.65  RIGHT
+  n=41  predicted 40   true 40   conf 0.75  RIGHT
+  n=43  predicted 88   true 88   conf 0.65  RIGHT
+  n=47  predicted 32   true 32   conf 0.75  RIGHT
+  n=53  predicted 108  true 108  conf 0.60  RIGHT
+  n=59  predicted 58   true 58   conf 0.60  RIGHT
+  n=61  predicted 60   true 60   conf 0.60  RIGHT
+  n=67  predicted 136  true 136  conf 0.60  RIGHT
+  n=71  predicted 70   true 70   conf 0.60  RIGHT
+  n=73  predicted 148  true 148  conf 0.60  RIGHT
+
+BY CONFIDENCE (stated -> observed):
+  0.60  n=6   observed 1.00  gap +0.40
+  0.65  n=2   observed 1.00  gap +0.35
+  0.70  n=1   observed 1.00  gap +0.30
+  0.75  n=6   observed 1.00  gap +0.25
+  0.80  n=4   observed 1.00  gap +0.20
+  0.85  n=7   observed 1.00  gap +0.15
+  0.90  n=5   observed 1.00  gap +0.10
+  0.95  n=3   observed 1.00  gap +0.05
+  0.97  n=2   observed 1.00  gap +0.03
+  0.99  n=4   observed 1.00  gap +0.01
+
+LEVEL 1, awareness of the state (accuracy D): 1.000
+LEVEL 2, awareness of its reliability: mean confidence 0.812; ECE 0.188; Brier 0.0512 (always 0.5 scores 0.25)
+DIRECTION: UNDERCONFIDENT by 0.188
+RESOLUTION: confidence on wrong answers 0.000 vs on right answers 0.812
+Ω42 ENCODING (F171, coarse, F_3^2): x = (2, 2); the canonical law sends it to (2, 1)
+LEVEL 3, experience: NOT MEASURED -- nothing here reaches what it is like to know (L-557).
+======= END M347 CALIBRATION RUN =======

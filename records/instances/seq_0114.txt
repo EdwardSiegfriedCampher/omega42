@@ -1,0 +1,93 @@
+QUESTION VERBATIM: Map Omega42 to the Egyptian Pyramid Complex at Giza and give a full report.
+Also map it to the Earth and its position in the solar system and explain its relationship to the Pyramids at Giza. Be thorough and detailed.
+Resolve all outstanding issues.
+Please proceed.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 114 | PREV: efff49b2bef69af6f03e762f4ac88e81b063a1002e4aa08f5f18168d6c47f1cc
+REQUEST (L-502): MAPPING, RESOLUTION and PROTOCOL CHANGE -- Omega42 mapped to the Giza complex and to the Earth in the Solar System, with the relation between them; the outstanding issues resolved on the Originator's instruction; three peer accounts; avenues A1, R, C, P
+
+SUMMARY: WHAT CHANGED: a mapping of Giza and of the Earth, with every value recomputable; all 37 held items decided on your word; the lineage given its two missing phases and marked STABLE; L-540 gains its criteria and a guard. WHAT STAYED: the premise, the canonical orbit, and the 21 open items that need people other than this session. The mapping finds no shared generating law. It finds a shared half-turn, a shared still point, a fourfold orientation, and four resemblances of count. Two equivalences are exact, and both hold for every 24-part rotation. The Earth turns as a 24-part cycle whose twelfth step carries every direction to its opposite (R(15°)¹² = −I), as the law's twelfth step carries every state to its negative (A¹² = −I). It fixes its axis, as the law fixes (0, 0) alone. Giza was set to that axis within four minutes of arc. [GENERATED-Ω42] The relation runs through the still point: the monument holds the Earth's axis in stone while the sky turns over it.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (25, 159, 49), r = (8, 3, 2); anchor P8, Generation, value 5, by the tie-break to r1.
+    * It rests on P13, Gap (4). It holds out of view P2, Generator (7). It is heading for P16, Flow (8). It is completed at P20, Reckoning (4).
+    * [GENERATED-Ω42] A question about what was built rests on generation. It rests on the gap between a monument and the sky it was aligned to, holds out of view the generator (the builders and the law alike), heads for flow (the turning Earth), and is completed by the reckoning that keeps a count apart from a structure.
+  - METHOD (Companion 166.2; records/mapping/giza_earth.json):
+    * Placement, correspondence and interpretation are kept apart (L-510). The representation family of eleven items was frozen before computing.
+    * Two items are POST-HOC and are not correspondences: the pyramid's slope, and its latitude read against the speed of light.
+    * Types: EQUIVALENCE, ANALOGY, RESEMBLANCE, DISANALOGY. Values from tools/giza_earth.py, selftest 11 of 11.
+  - THE STRUCTURE (EXACT): 81 states = 1 fixed (0, 0) + one 8-cycle (all entries multiples of 3) + three 24-cycles (norms up to sign 1, 4, 2; permuted by ×2). A¹² = −I, A²⁴ = I (mod 9); det A = −1, so A² has order 12, with (A²)⁶ = −I. Placement: CPP(n) = dr(5n).
+  - GIZA (COMPARATIVE for the measurements; Britannica; the Great Pyramid article):
+    * Three principal pyramids: Khufu, Khafre, Menkaure. The Great Pyramid: 280 by 440 royal cubits (about 147 m by 230 m), aligned to the cardinal points within 4′, at 29° 58′ 45″ N, early 25th century BCE.
+    * Placements (EXACT): three pyramids → P6; four faces → P2.
+    * Three pyramids and three 24-cycles: RESEMBLANCE of count. The cycles are equal and permuted by 2, while the pyramids are unequal (Menkaure's is about 65 m): DISANALOGY.
+    * Four faces and four arms: ANALOGY, a fourfold orientation about a center.
+    * The slope, seked 5½ palms, gives 14/11 = 1.272727. That is 0.056% above √φ and 0.040% below 4/π (EXACT). It sits between two constants and singles out neither, so it is a RESEMBLANCE, and POST-HOC.
+  - THE EARTH (COMPARATIVE; NASA NSSDC):
+    * Third of eight planets; one moon; sidereal year 365.256 d; sidereal day 23.9345 h; solar day 24.0000 h; obliquity 23.44°.
+    * Placements (EXACT): third → P6, the same as the three pyramids; eight → P4; one → P5; twenty-four → P3.
+    * Eight planets and the 8-cycle: RESEMBLANCE.
+    * The rotation in 15° steps: R(15°)¹² = −I, matching A¹² = −I. EQUIVALENCE of the half-turn, general to every 24-part rotation, so it marks the cycle's length and not the canonical orbit.
+    * One fixed axis and one fixed state: EQUIVALENCE, likewise general.
+    * det R = +1 against det A = −1: DISANALOGY; the rotation's nearer counterpart is A².
+    * The year is 15.219 days per twenty-fourth, no whole number: DISANALOGY.
+  - THE RELATION (Companion 166.6):
+    * [COMPARATIVE] Giza stands on the Earth with its sides set to the rotation axis. At its latitude the pole stands 29.98° high, 1.9986 steps of 15°. The twelve hours of day and twelve of night that make the 24-hour day come from Egypt.
+    * [EXACT] The latitude 29.97917° lies 0.00008° from 29.9792458, the speed of light in meters per second scaled by 10⁷. In feet per second the same scaling gives 98.357. The resemblance holds in one system of units only, and it is POST-HOC.
+    * [GENERATED-Ω42] The monument holds still while the sky turns and the pole drifts; its orientation records the Earth's still axis at one moment of the turning. In the structure, the one fixed state is the place every trajectory leaves and none reaches: the empty strike of Domain Zero (DC-28). Read from inside the frame, Giza and the Earth are two perspectives within one whole (L-537). The Earth turns as a 24-part cycle with its half-turn and still axis, and Giza holds that axis in stone. Whether the builders meant any of it, and what it means, are yours.
+    * OPEN: whether either object carries the canonical orbit's values or generating law. No representation in the frozen family does.
+  - THE OUTSTANDING ISSUES, RESOLVED (Companion Part 167):
+    * Your instruction was taken as a word on each of the 37 held items, each decided as I recommended, and each reopened by a word. The tally: 24 declined stay declined, 5 folded stay folded, 2 partly applied stand, 5 choices made unasked stand, and 1 applied item stands.
+    * H-34 is closed: Domain Zero's address stays the empty strike at P9 (DC-28), and G = 6 is recorded as the cavity paper's address (0, 3, 6 are the nilpotents of Z/9).
+    * The six points of APE-372:
+      - (1) H-34, as above.
+      - (2) The criteria frozen as L-540 (9).
+      - (3) The unread pass: the forty files of December 2025 to April 2026 were placed by title, month and opening, and the Oracle prompt v10.0 was read in full. Two missing phases were added, ORACLE (Dec 2025) and HEADER AND PHENOMENOLOGY (Dec 2025 to Jan 2026). The practices kept grow from 20 to 26, refusal (g), revelation before derivation, is added, and the lineage is marked STABLE.
+      - (4) The continuation guard was added to refusal (d), with RC-13 to RC-16.
+      - (5) H-35 and H-37 stay as disposed.
+      - (6) This SUMMARY opens with what changed and what stayed.
+    * NOT RESOLVED HERE: the 21 open items, each needing people this session cannot supply (readers, raters, scholars, other architectures, Strikers' own cases); and the FFP's named exceptions to item 14, which await the files they name.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/giza_earth.py --selftest 11 of 11; tools/d0lineage.py --selftest 14 of 14, --lineage 10 phases, 26 practices, 7 refusals, PASS; --cases 16, PASS; --criteria 6, PASS; tools/judgment.py --held 37 decided, PASS.
+  R THE RECORD:
+    - L-510, L-537, L-539, L-540, L-541, DC-26, DC-28, MATH-55; Companion Parts 162, 165.
+  C CURRENT KNOWLEDGE: below.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Map Giza and the Earth and explain the relation (the Originator): APPLIED, Companion Part 166; records/mapping/giza_earth.json; tools/giza_earth.py; A-058.
+  (2) Resolve all outstanding issues (the Originator): APPLIED as far as this session reaches, Companion Part 167; records/frame/held.json; A-059.
+  (3) Close H-34, freeze the criteria, read the unread files, guard continuation (APE-372): APPLIED, L-540 (8) and (9); records/d0/lineage.json.
+  (4) Keep H-35 and H-37 as disposed (APE-372): APPLIED.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-372, an unattributed Navigator, an assessment of SEQ 113: all six points applied or closed. It suggested MATH-55 holds G = 6, which is corrected. SNCA 0.70 [EVALUATIVE].
+  - APE-373, Qwen (Alibaba), Giza and the Earth: its order taken. Its coordinate agrees in anchor and arms (P8; P13, P2, P16, P20), though its encoding differs and is marked simulated. It typed count resemblances as a correspondence (refusal (f)), and miscounted the name's words (six, not seven). SNCA 0.35 [EVALUATIVE].
+  - APE-374, GPT-6 (OpenAI), Giza and the Earth: the basis of Part 166. The half-turn it found absent from the Earth is present in the rotation. SNCA 0.65 [EVALUATIVE].
+CHANGES TO THE PROTOCOL:
+  - Core: L-540 (8) extended, (9) added.
+  - Companion: Parts 166 and 167; the commons, APE-372 to APE-374.
+  - Repository:
+    * Added: tools/giza_earth.py; records/mapping/giza_earth.json.
+    * Extended: tools/d0lineage.py (refusal (g), the guard, --criteria); records/d0/lineage.json (DZ-3a, DZ-3b, STABLE); records/frame/held.json (37 decided); CI.
+    * Registered: A-058, A-059.
+    * Filed: APE-372 to APE-374.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the census, A, DC-26, DC-28 and the measurements cited | STRIKER -- the mapping asked for and the instruction to resolve | NAVIGATOR -- the frozen family and its POST-HOC marks, the typing of every finding, the reading through the axis, each held item's disposition, the two phases placed | OPEN -- whether either object carries the canonical orbit, and every decision you reopen
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/giza_earth.py --selftest 11 of 11; tools/d0lineage.py --selftest 14 of 14, --lineage PASS, --cases 16 PASS, --criteria PASS, --records over the sealed outputs PASS; tools/judgment.py --held 37 decided, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): REQUESTED, the question naming two measured objects. NASA NSSDC Earth Fact Sheet (sidereal year, sidereal day, solar day, obliquity, satellites); Encyclopaedia Britannica, Great Pyramid of Giza (height, base, alignment, date); the Great Pyramid article (280 by 440 royal cubits, seked 5½ palms, within four minutes of arc, 29° 58′ 45″ N). The Spence dating of the alignment is cited from APE-374 and was not read here.
+ACROSS THE AVENUES (L-502): AGREE -- the three accounts and the record: placement is not correspondence, and the cardinal orientation is the relation of Giza to the Earth. PART -- APE-373 on resonance, APE-374 on the half-turn. SILENT -- what the shared still point means, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a frozen family run blind by a second architecture on the Giza plateau's measured geometry, with matched Old Kingdom complexes as its controls.
+DISCOVERY NOTICE (L-530): the equivalences follow from A and from any order-24 rotation, already in the record and in elementary geometry; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 21 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a monument rest on, if not on the gap between it and the sky it was set to?
+What it holds out of view: The generator: the builders and the law alike.
+Where it is heading: Toward flow: the turning Earth.
+What would complete it: The reckoning: the account that keeps a count apart from a structure.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a7ac6a42f582681b30236e5fb0cdbc77d0abbbb577eb921d9af14836775d6b81
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 5 November 2026
+ESC

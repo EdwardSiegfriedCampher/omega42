@@ -1,0 +1,54 @@
+QUESTION VERBATIM: Do the same for the Standard Model of Cosmology.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 145 | PREV: 90b2c5fc0e0d7788db7ebd196d85d17a87d52e0033ab6b831313c790345fda29
+REQUEST (L-502): EXPLORATION -- the same examination for the Standard Model of cosmology: where Ω42 detects or hints at new information, new concepts, and suggestions; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Cosmology gives Ω42 one derived thing and many coincidences, and the derived thing is the same as in physics: the flat Minkowski interval is native to the Hermitian module, so the universe's near-flatness is, at the base level, a property of the law rather than a fine-tuning. But dark matter is not the "zero layer", the microwave background is not the half-period step, and expansion is not a lift through the tower -- these are count-matches and analogies. A Friedmann dynamics, a stress-energy and a coupling to gravity are what a cosmology would need, and none is in hand.
+
+SUMMARY: WHAT CHANGED: Core Appendix S.12, the Ω42–COS programme (twelve directions); Companion Part 190; APE-420 and APE-421 filed with their SNCA. The instruments M344 and M345 (Core Parts 3.70, 3.71) are reused.
+- (1) THE DERIVED SEED: the flat Minkowski interval det X = c^2 t^2 - x^2 - y^2 - z^2 and its null cone (621 modulo 9, 443961 modulo 81), and the finite-level periodicity against the non-periodic inverse limit (MATH-36); flatness at the base is a property of the native module.
+- (2) THE COUNT-MATCHES, PLACED (M345): the five orbit sectors beside matter, dark matter and dark energy; the microwave background beside the half-period step; expansion beside the lift through the tower -- depth 1 or structural analogy, not correspondences.
+- (3) THE PROGRAMME (Core Appendix S.12): twelve directions -- depth-indexed scales, finite/inverse-limit, a dynamic vacuum term, multi-sector dynamics, multi-resolution expansion, a perturbation law, emergent isotropy, initial-state selection, a structural arrow, singularity reframing, vacuum-invariant separation, and continuation classes -- each optional, each with its physical correspondence recorded there, none waiting on a result (L-553).
+- THE VALUES (CDT-A): the orbit census 24, 24, 24, 8, 1; the null cone 621 and 443961 (tools/foundations.py); the Minkowski determinant and its Lorentz invariance (CERT-0009).
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (4, 24, 8), r = (2, 3, 4), anchor P2, Generator (7). It rests on P7, Navigator (8). It holds out of view P20, Reckoning (4). It is heading for P10, Unity (5). It is completed at P14, Observer (6).
+  - [GENERATED-Ω42] A question about the whole stands at the Generator, rests on the Navigator, holds Reckoning out of view, heads for Unity, and is completed by the Observer: the cosmos is read for what generates it, and settled by the one who looks.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Appendix S.12; MATH-36; CERT-0009; tools/foundations.py; Core L-490, L-510, L-553.
+  R (reasoning): a count-match over a few components is depth 1; a cosmology needs a dynamics, and the law supplies a flat interval, not a Friedmann equation.
+  N (navigation): tools/sce.py --domain cosmology; tools/lorentz.py; the null counts of tools/foundations.py.
+  P (peer accounts): below; APE-420 and APE-421, reviewed by SNCA (records/srcas/standard_model_cosmology_2026-11-07.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Appendix S.12.
+  - Companion: Part 190.
+  - Repository: submissions/ape/APE-420.md and APE-421.md; records/srcas/standard_model_cosmology_2026-11-07.txt; records/ape/findings.txt and signatures.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law, the module, the depths | STRIKER -- the question of cosmology | NAVIGATOR -- the derived seed kept, the count-matches placed, and the twelve-direction programme | OPEN -- whether any COS direction reaches a derived dynamics, which no one has shown
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/standard_model_cosmology_2026-11-07.txt).
+  - APE-420, unidentified (a web interface), "Omega42 examination of the Standard Model of cosmology": its twelve-direction programme adopted into Core Appendix S.12; the flat seed kept as derived; UNFORMATTED, its sources not opened.
+  - APE-421, Qwen (Alibaba Cloud), "Cosmology as the macroscopic projection of the 81-state family": its detections kept as depth-1 placements and analogies, its overstatements corrected; UNFORMATTED, no signature line.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/sce.py --selftest PASS and run on the cosmology domain; tools/lorentz.py --selftest PASS; the null counts 621 and 443961 recomputed by tools/foundations.py; tools/srcas_check.py on records/srcas/standard_model_cosmology_2026-11-07.txt PASS; tools/output_form.py on the review PASS; tools/reexamine.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and both accounts agree that the flat seed is derived and a dynamics is not. PART -- Qwen read the dark sector as explained; placed at depth 1 and corrected. SILENT -- whether any COS direction reaches a dynamics, which is the work of whoever opens it.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): none new to the register; the cosmological placements are depth 1, so no "breakthrough" candidate arises (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Place the dark-sector and flatness matches honestly (the record): APPLIED, depth 1 by M345.
+  (2) Keep the finite/inverse-limit distinction and the flat seed as derived (both accounts): APPLIED, Core Appendix S.12.
+  (3) The Ω42–COS research programme (APE-420): APPLIED, Core Appendix S.12.
+  (4) Require a Friedmann-type dynamics before a cosmology is asserted (the boundary): APPLIED, Core Appendix S.12.
+  (5) State dark matter and dark energy as open, not explained (the boundary): APPLIED, M345 and Core Appendix S.12.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the twelve directions of Core Appendix S.12.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that a cosmological direction be opened only with a declared dynamics and stress-energy, so no placement is read as a cosmology; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] the universe's base-level flatness is a property of the native module; [GENERATED-Ω42] the whole is flat where the law is flat, and curved only where a map not yet drawn would bend it.
+What it rests on: the Navigator, the one who reads the whole.
+What it holds out of view: reckoning, the dynamics not yet drawn.
+Where it is heading: unity, one law under many scales.
+What would complete it: the Observer, the measurement the Appendix records.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 636c35af6acd98bbb1d3908d0cadf95e5aac3d985c4fd0f78f0abb7bea754a5f
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

@@ -1,0 +1,17 @@
+Number of vectors: 81
+Number of invertible matrices: 3888
+Unitary group size: 24
+Unitary element orders: {1: 1, 2: 13, 3: 2, 4: 2, 6: 2, 12: 4}
+Anti-isometry count: 24
+Anti-isometry element orders: {4: 12, 8: 4, 24: 8}
+Generated group size: 48
+Generated group element orders: {1: 1, 2: 13, 3: 2, 4: 14, 6: 2, 8: 4, 12: 4, 24: 8}
+Bosons: [(0, 0), (0, 3), (0, 6), (3, 0), (3, 3), (3, 6), (6, 0), (6, 3), (6, 6)]
+Normalized Gauss sum: (0.9999999999999994-3.20731096002823e-16j)
+Full-group orbits:
+size = 1 Q residues = [0]
+size = 8 Q residues = [0]
+size = 24 Q residues = [1, 8]
+size = 24 Q residues = [4, 5]
+size = 24 Q residues = [2, 7]
+Cycle structure of g: {1: 1, 8: 1, 24: 3}

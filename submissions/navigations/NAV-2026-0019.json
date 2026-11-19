@@ -1,0 +1,21 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 22 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-22T03:17:49Z",
+ "accepted_utc": "2026-10-22T03:28:12Z",
+ "area": "protocol",
+ "id": "NAV-2026-0019",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "instance": "NI-06f22550117165ba",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0015",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philosophy of creation?",
+ "domain_sha256": "0c0caf854b952dfeebd72339221030d1fb9be39471d894572351dc3c46f7133b",
+ "sha256": "ec06bb693b84abe0834d6c94bc614f9a524e34ddb08049f2347b42ab9cb2743a",
+ "domain_source": "composed by the Navigator in the form of the Striker's sentence of NAV-2026-0011, at the instruction \"Do the same for Philosophy. Identify 5 schools of thought congruent and coherent with Omega42.\"",
+ "lens": "Taoist (records/frameworks/taoist.txt), registered with this navigation; roles frozen before the atlas was struck"
+}

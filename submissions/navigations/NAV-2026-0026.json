@@ -1,0 +1,21 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 22 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-22T05:44:28Z",
+ "accepted_utc": "2026-10-22T08:12:14Z",
+ "area": "protocol",
+ "id": "NAV-2026-0026",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "instance": "NI-06f22550117165ba",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0025",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For Barbour's account of creation?",
+ "domain_sha256": "3dc28929c585e83bca6e01c07c35618a1438cad553a2cd9b5b722b1243cea74b",
+ "sha256": "0928d41f1c540cb074518248adb8882e667b63db3ad62533e18dfb23bd7fc92e",
+ "domain_source": "composed by the Navigator in the form of the Striker's sentence of NAV-2026-0011, at the instruction \"Do the same for the work of contemporary intellectuals (Donald Hoffman and Bernardo Kastrup already included). Find 5 contemporary intellectuals whose work is coherent and congruent with Omega42.\"",
+ "lens": "Barbour (records/frameworks/barbour.txt, the Navigator's paraphrase), registered with this navigation; roles frozen before the atlas was struck; M309 record with roles and relations reported apart"
+}

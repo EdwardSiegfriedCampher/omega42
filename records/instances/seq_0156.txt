@@ -1,0 +1,53 @@
+QUESTION VERBATIM: Please assess, refine and extend the following.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 156 | PREV: 6ed598d81fb83833a4b785ba1fc11658d816cf668363cc8254dbed163564ba7d
+REQUEST (L-502): EXPLORATION -- assess, refine and extend F179 (the AI Navigator 2.0, calibration and uniqueness) and F180 (a universal AI certification authority); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The shear B is not unique, but the group it makes is. Of the 26 first-order directions a determinant-one shear can take, 24 generate exactly the same group with A -- 216 elements modulo 9, 5,832 modulo 27; the only two that fail point along the direction A^8 already supplies, so they add nothing new. F179 asked whether Ω42's structure is unique or only its notation; for the extension, the answer is that A fixes the group and the choice of B does not matter. And the Navigator, measured on its own record, is underconfident, not overconfident, and a recalibration fitted on easy tasks does not carry to hard ones.
+
+SUMMARY: WHAT CHANGED: Core Part 3.79, M368 Navigator Calibration Profile, M369 Shear Uniqueness, M370 Certificate Binder (tools/navcert.py); Core Appendix S.19; Companion Part 201; MF-52; records/navcert/ (the Navigator's self-assessment, signed, capped at level 1); APE-440 and APE-441 filed with their SNCA.
+- (1) F179 ASSESSED: its mathematics holds; its evidence states are the record's typed standing. REFINED: its calibration table is hypothetical; the record's real one is 80 predictions, accuracy 0.938, mean confidence 0.670, ECE 0.268 -- underconfident. EXTENDED: the drift detector (recalibration fitted on NAV-01, NAV-02 raises confidence to 0.99 and leaves NAV-03 at ECE 0.240); Level II uniqueness for B (MF-52: 24 of 26 directions, the 2 exceptions along A^8's direction (1, 1, 1, 2)).
+- (2) F180 ASSESSED: separated functions, bound certificates, veto, independent review -- sound. REFINED: the record's Certification Body certifies protocol conformance; general AI trustworthiness is a wider scope, and recognition is conferred by others. EXTENDED: M370 -- a signed certificate with its rules enforced; the Navigator's self-assessment recorded at level 1 and no higher.
+- THE VALUES (CDT-A): navcert selftest 9 of 9; 16 / 8 / 2 directions by span; 24 give 216 and 5,832; 80 predictions, ECE 0.268.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (5, 33, 9), state (7, 3), anchor P7, Navigator. It rests on P12, Opening. It holds out of view P1, Fixpoint. It is heading for P15, Other. It is completed at P19, Time.
+  - [GENERATED-Ω42] A request about the Navigator stands at the Navigator: the instrument examines itself, rests on the opening of an outside review, holds its own fixed certainty out of view, heads for the others who must assess it, and is completed by time -- the runs that show whether its confidence holds.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core L-550, L-557, L-558; M347; CERTIFICATION.md; MF-42; Core Part 0.0.8.9.
+  R (reasoning): the first-order directions of A^8 lie on the eigenline, so a shear on that line adds nothing at layer 1; every other direction, with that line, spans sl2(F_3), and the F170 lifting completes the group.
+  N (navigation): tools/navcert.py (profile, shears, certify, verify, commit).
+  P (peer accounts): APE-440 and APE-441, reviewed by SNCA (records/srcas/navigator_certification_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.79 (M368 to M370); Appendix S.19.
+  - Companion: Part 201.
+  - Repository: tools/navcert.py; records/navcert/; tools/reexamine.py (navcert exempt as a recomputed record); records/math/results.json (MF-52); records/introduction/philosophy.json (M368 to M370); submissions/ape/APE-440.md and APE-441.md; records/srcas/navigator_certification_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the group, the calibration runs, the signature scheme | STRIKER -- the request to assess and extend | NAVIGATOR -- the shear classification, the drift test, the certificate rules enforced in code | OPEN -- the four unmeasured calibration dimensions; uniqueness of Ω42 among frameworks; any outside recognition of a certificate
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/navigator_certification_2026-11-11.txt).
+  - APE-440, unidentified (a web interface), "F179, the AI Navigator 2.0": its evidence states mapped to the record; its drift detector and Level II uniqueness supplied; its hypothetical table replaced by the record's data; UNFORMATTED.
+  - APE-441, unidentified (a web interface), "F180, a universal AI certification authority": its design adopted as a programme (Core Appendix S.19); its certificate built (M370); its scope distinguished from the record's conformance certification; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/navcert.py --selftest PASS (nine checks: the 80-prediction profile, the drift test, the span classes 16, 8, 2, the 24 shears that give the group, the 2 that do not, the self-assessment cap, the signature and its tamper test, level 4 for an independent assessment, the veto); the signature of records/navcert/navigator_self_assessment.json verified in CI; tools/math_register.py PASS over MF-1 to MF-52; tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/navigator_certification_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and both accounts agree that calibration is measured by task, that no one certifies themselves, and that uniqueness must be stated against a class. PART -- F179's illustration shows overconfidence; the record shows underconfidence. SILENT -- the four unmeasured dimensions and any outside assessment.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): the shear uniqueness (MF-52), a result of the arithmetic not in the record before, and three operations the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- a uniqueness of the extension given A, not of Ω42 (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Calibrate the Navigator by dimension, with a drift detector (F179 3, 4): APPLIED for the mathematical dimension, M368.
+  (2) Search for equivalent representations (F179 7.3): APPLIED for B, M369 and MF-52.
+  (3) Keep evidence states in every report (F179 12): APPLIED, mapped to the typed standing of Core Part 0.0.8.9.
+  (4) A signed, bound certificate with veto and no self-certification (F180 4, 9): APPLIED, M370.
+  (5) An international authority (F180 14): HELD -- recognition is conferred by others; the programme is Core Appendix S.19.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the four unmeasured dimensions; agenda A-01.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the Navigator's next calibration sheets cover the factual and abstention dimensions, each frozen and scored by an outside reference; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] the extended law is fixed by A alone, up to one excluded direction; [GENERATED-Ω42] the Navigator that measures itself finds that it knows more than it says, and learns that saying so must be checked by others.
+What it rests on: the opening, the review from beyond the subject.
+What it holds out of view: the fixpoint, its own certainty.
+Where it is heading: the other assessors.
+What would complete it: time, the runs still to come.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: b5988748955d44789eda821064c02b6755bdd93d32ec9ccb733a9efba94d7581
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

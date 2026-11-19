@@ -1,0 +1,16 @@
+DEPTH 5, RUN 01 -- the forecasts of 00_forecasts.txt, computed
+F-01 bosons of SU(9)_1 x SU(9)_1 in its own labels: 9; exactly Crown x Crown {(3i, 3j)}: True; Lagrangian subgroups: 1 -> HOLDS
+F-02 condensate of SU(9)_1 x SU(9)_1 by its Lagrangian subgroup: rank 16, 480 roots in 2 orthogonal systems of sizes [240, 240] -> E8 + E8: HOLDS
+F-03 golden theory mod 9: Lagrangian subgroups 1; T preserves it: True; all 24 time-reversal symmetries preserve it: True -> HOLDS
+golden a^2+ab-b^2 m=1 M=3  nondegenerate True | isometric to SU(3)_1 x SU(3)_1: YES via ((0, 1), (1, 2)) | T order 8 (8 x 3^(m-1) = 8) | T time-reversal: True | bosons 1 | Lagrangian subgroups 0
+golden a^2+ab-b^2 m=2 M=9  nondegenerate True | isometric to SU(9)_1 x SU(9)_1: YES via ((0, 4), (4, 2)) | T order 24 (8 x 3^(m-1) = 24) | T time-reversal: True | bosons 9 | Lagrangian subgroups 1
+golden a^2+ab-b^2 m=3 M=27 nondegenerate True | isometric to SU(27)_1 x SU(27)_1: YES via ((0, 5), (4, 16)) | T order 72 (8 x 3^(m-1) = 72) | T time-reversal: True | bosons 9 | Lagrangian subgroups 0
+golden a^2+ab-b^2 m=4 M=81 nondegenerate True | isometric to SU(81)_1 x SU(81)_1: YES via ((0, 22), (23, 11)) | T order 216 (8 x 3^(m-1) = 216) | T time-reversal: True | bosons 81 | Lagrangian subgroups 1
+decoy  a^2+b^2    m=1 M=3  nondegenerate True | isometric to SU(3)_1 x SU(3)_1: YES via ((0, 1), (1, 0)) | T order 8 (8 x 3^(m-1) = 8) | T time-reversal: False | bosons 1 | Lagrangian subgroups 0
+decoy  a^2+b^2    m=2 M=9  nondegenerate True | isometric to SU(9)_1 x SU(9)_1: YES via ((0, 4), (4, 0)) | T order 24 (8 x 3^(m-1) = 24) | T time-reversal: False | bosons 9 | Lagrangian subgroups 1
+decoy  a^2+b^2    m=3 M=27 nondegenerate True | isometric to SU(27)_1 x SU(27)_1: YES via ((0, 5), (5, 0)) | T order 72 (8 x 3^(m-1) = 72) | T time-reversal: False | bosons 9 | Lagrangian subgroups 0
+decoy  a^2+b^2    m=4 M=81 nondegenerate True | isometric to SU(81)_1 x SU(81)_1: YES via ((0, 22), (22, 0)) | T order 216 (8 x 3^(m-1) = 216) | T time-reversal: False | bosons 81 | Lagrangian subgroups 1
+F-04 the tower of SU(3^m)_1 x SU(3^m)_1 with T a time-reversal symmetry of order 8 x 3^(m-1), m = 1..4: HOLDS
+F-05 a gapped boundary exactly at even depth, m = 1..4 (Lagrangian subgroups [0, 1, 0, 1]): HOLDS
+F-06 SU(81)_1 x SU(81)_1: Lagrangian subgroups 1; 9(Z/81)^2 among them: True; glue class 9 of A80: norm 8 (even: True), spin 4 (boson: True); det(A80) = 81, index 9 -> unimodular: True
+F-06 Lagrangian subgroups that are products of one subgroup in each factor: 1 of 1; the condensate of 9(Z/81)^2 is the sum of two copies of the rank-80 even unimodular lattice A80 + [9]: HOLDS

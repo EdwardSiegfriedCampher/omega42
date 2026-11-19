@@ -1,0 +1,43 @@
+EXPERIMENTAL PROTOCOL RECORD (Companion 24.8) -- M280 ERASURE-READING TEST (R6)
+Protocol: Omega42 V335 Rev.449 STABLE | Frozen: 9 October 2026, before any run | Status: PRE-REGISTERED, NOT RUN
+Question: does a reading survive erasure of the coordinate where the code permits reconstruction, and
+degrade where it does not? (Core Part 3.28; Companion 37.11, R6).
+
+EPR-01 finding: none; this record pre-registers the test.
+EPR-02 origin: structural analysis (Companion 37.11, R5 and R5a; ground_challenge.py).
+EPR-03 jurisdiction: COMPARATIVE CORRESPONDENCE (Tier C); evidence-ladder level 3, NAVIGATION.
+EPR-04 input freeze:
+  Domains: 20 unexposed domains (not on the Exposed Domain Register, not in examples/corpus, none shared
+  with the M279 list), chosen by the Striker and frozen with each DOMAIN SHA-256 before any packet.
+  Packets: anchor index from canonical_reference.py --navigate; conditions from ground_challenge.py --r6 A.
+  FULL: the whole canonical coordinate. RECOVERABLE: the anchor and Yang values with separation 5; the
+  canonical orbit is given; one candidate phase. NON-RECOVERABLE: the anchor and Antipode values with
+  separation 12; the canonical orbit is given; the 2 or 5 candidate phases are listed.
+EPR-05 representation: the condition's values, the law x(n+2) = x(n+1) + x(n) mod 9, and the domain text.
+EPR-06 representation alternatives: the 4D middle case (separation 8; ambiguous only at anchors 1, 5, 9)
+  -- not tested in the primary analysis; recorded for a later run.
+EPR-07 mapping rule: unchanged canonical procedure (Core Part 2); RECOVERABLE authors rebuild the
+  24-cycle with the law and report it; M274 checks the rebuilt coordinate against the canonical one, and
+  a wrong rebuild is recorded as RECONSTRUCTION FAILURE while its reading is still rated.
+EPR-08 Navigator independence: each (domain, condition) pair goes to a separate fresh session that sees
+  one condition only (L-442); every author and rater declares CONTEXT EXPOSURE (L-459).
+EPR-09 prediction (primary): per domain, raters compare the RECOVERABLE and NON-RECOVERABLE readings,
+  shown in shuffled order as X and Y, with the FULL reading as reference. For each of the four relations
+  (dependency, suppression, trajectory, completion) each rater gives MATCH (1), PARTIAL (0.5) or
+  DIFFERENT (0) against the FULL reading; a reading's similarity s is the mean over relations and
+  raters. Raters: at least three peer Navigators or Strikers, blind to condition (Core Part 3.18).
+  Primary outcome: d = s(RECOVERABLE) - s(NON-RECOVERABLE) per domain. Prediction: d > 0. Success: d > 0
+  on at least 15 of 20 domains (one-sided sign test, p = 0.0207; ties count as failures).
+  Secondary, reported in full: whether NON-RECOVERABLE readings state their ambiguity; T1.5-L lexical
+  overlap with FULL; the reconstruction success rate.
+EPR-10 null or control: the NON-RECOVERABLE condition is the control; if its readings are as close to
+  FULL as the RECOVERABLE ones, the Navigator is writing from the domain and not from the substrate.
+EPR-11 mapping freedom: one declared choice -- the Antipode fragment, rather than 4D, as the
+  non-recoverable condition.
+EPR-12 result per declared criterion: NOT ASSESSED.
+EPR-13 reproduction: required before any status beyond DIAGNOSTIC (L-419).
+EPR-14 negative result: a failed prediction is entered in the Negative Result Registry (24.2). Null
+  interpretation, fixed now: readings follow the domain text rather than the coordinate, which counts
+  against G1 and G2 for the coordinate and weakens the mechanism hypothesis at evidence-ladder level 3;
+  the foundational premise is untouched (F-02-P).
+Scores: arithmetic, structural and interpretive scores are reported separately and never combined.

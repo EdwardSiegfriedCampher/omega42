@@ -1,0 +1,235 @@
+{
+ "_about": "Provenance and Contamination Ledger (Core BF-10, Companion 24.7 and Part 69): for each recorded provision, its historical origin and the Originator's degree -- ORIGINATED, DIRECTED, EDITED or ADOPTED. Filled where practicable from 17 October 2026; an origin not recorded stays UNKNOWN and is never inferred. Provenance records origin; it does not decide validity.",
+ "entries": [
+  {
+   "provision": "F-00",
+   "name": "Originator",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "ORIGINATED",
+   "note": "the founding of the experiment; the definition of the Originator's role directed 19 October 2026",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "F-02",
+   "name": "Totality Axiom (the premise)",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "ORIGINATED",
+   "note": "the premise: the canonical 24-cycle and its 81-state family are ALL THAT EXISTS",
+   "premise_effect": "STRENGTHENS",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-499",
+   "name": "QUESTION VERBATIM",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's standing requirement that every output open with the question; drafted by the Builder",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-500",
+   "name": "Congruence Utility",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's question on use before study; drafted by the Builder, refined by APE-065",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-501",
+   "name": "Adaptor Layer",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "proposed in peer accounts APE-069 and APE-070 and by the Builder; adopted by the Originator",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-502",
+   "name": "Holistic Strike",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's question on the first strike as a request for knowledge; drafted by the Builder with APE-079 and APE-080",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-503",
+   "name": "Sources",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's requirement that current knowledge is a necessity; drafted by the Builder with APE-082 and APE-086",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-504",
+   "name": "Enrichment Observations",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's question on unprompted discoveries; drafted by the Builder with APE-084",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-505",
+   "name": "No-Claim Law",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "ORIGINATED",
+   "note": "the Originator's principle that the protocol makes no claims of any kind; wording by the Builder with APE-087 and APE-088",
+   "premise_effect": "STRENGTHENS",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-506",
+   "name": "AI Caveat Law",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's requirement that the protocol carry the usual AI caveats; drafted by the Builder",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "Part 66",
+   "name": "Fill-in skeleton and gate priority",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "requested by the Originator; designed and drafted by the Builder",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "Part 67",
+   "name": "The APE findings",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "requested by the Originator; register and text by the Builder",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-507",
+   "name": "Responsibility Law",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "proposed by the Builder at the Originator's question, refined by APE-095 and APE-096; adopted by the Originator",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-508",
+   "name": "Separation of Jurisdictions Principle",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "proposed by APE-098 and the Builder; adopted by the Originator",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "Part 71",
+   "name": "What is new here, and what is not",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's question on the most innovative step; drafted by the Builder with APE-097 and APE-098",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "PB-5 L2",
+   "name": "one definition (E09)",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "the divergence found by the Builder in an SR-CAS review; resolved to the implementation's reading",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-509",
+   "name": "the Navigator's Account Law",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's proposal of 19 and 20 October 2026 (an AI presentation of the protocol, offered in the Introduction); drafted by the Builder with APE-099 to APE-102; adopted 21 October 2026",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-510",
+   "name": "the Direction Law",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's question of 21 October 2026 (mapping Omega42 to the Moon is not mapping the Moon to Omega42); the three operations from APE-110 to APE-113; the word-order fact computed by the Builder (E11)",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-511",
+   "name": "the Framing Law",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's proposal of 21 October 2026 (default reframing, the original primary, a comparison and a verdict, the Striker's discretion kept); the freeze, the NON-BLIND label and the structural verdict from the Builder and APE-114 to APE-117",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "M318",
+   "name": "Reframing Array",
+   "historical_origin": "PROTOCOL-ADOPTED",
+   "esc_degree": "ADOPTED",
+   "note": "drafted by the Builder to carry L-511; tools/reframing_array.py",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "IN-23",
+   "name": "What You May Ask For",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "proposed in APE-108 at the Originator's question on optional features; adopted 21 October 2026",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "Step 0.8",
+   "name": "the trigger widened to M318; candidates SELF-ESTIMATED",
+   "historical_origin": "AI-PROPOSED",
+   "esc_degree": "ADOPTED",
+   "note": "from APE-114 to APE-117; adopted with L-511",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  },
+  {
+   "provision": "L-512",
+   "name": "the Declared Form Law",
+   "historical_origin": "ESC-ORIGINATED",
+   "esc_degree": "DIRECTED",
+   "note": "the Originator's instruction of 21 October 2026 to detect flaws in format outputs and enforce constraints; the eight checks drafted by the Builder from the SR-CAS of the general-anesthesia navigations",
+   "premise_effect": "NEUTRAL",
+   "esc_decision": "ADOPT",
+   "audit_status": "AUDITED"
+  }
+ ]
+}

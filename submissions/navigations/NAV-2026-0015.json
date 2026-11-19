@@ -1,0 +1,20 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 21 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-21T19:13:24Z",
+ "accepted_utc": "2026-10-21T19:22:22Z",
+ "area": "protocol",
+ "id": "NAV-2026-0015",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0014 and one peer exploration (APE-126)",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Jewish creation story?",
+ "domain_sha256": "e9b62f1ae0e383e66f74f73ef56768242c3a77c7e33ce9b1bf34680b17fe6b61",
+ "sha256": "46b799283a03f68d1b0166c0a0cda576b2045c3063da6c541b8969bf58339eb2",
+ "domain_source": "composed by the Navigator from the Striker's sentence of NAV-2026-0011, one word changed, at the instruction \"Yes. Do the same for Judaism.\"",
+ "lens": "Jewish (records/frameworks/jewish.txt), registered with this navigation"
+}

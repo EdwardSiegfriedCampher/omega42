@@ -1,0 +1,11 @@
+PILOT 02 LEDGER -- result of the frozen test (00_freeze.txt; SHA-256 in 02_freeze_sha256.txt; computed by compute.py)
+
+CALIBRATION: FAIL under the frozen criterion. The positives pass: the family, all 54 conjugates of T in GL2(Z/9) and
+the 8 powers T^k with gcd(k, 24) = 1. The design case (mod 18) now fails, on the whole-space census. All held-out moduli
+(27 to 99), the product with a two-state flip and the physical models fail. H2 does not: 15 of the 53 other
+second-order recurrences mod 9 pass C11', and only 3 of them are conjugate to a power of T. Over all 3888 matrices of
+GL2(Z/9), 864 pass C11'; 216 are conjugates of a power of T coprime to 24, and 648 are other laws.
+
+Finding: the census, the half-period negation and an anti-invariant norm with nine null states do not single out the
+family's law. A dynamical or spectral screen alone cannot; what distinguishes T is algebraic, its own relation
+T^2 = T + I (the Support Standard's S4). The screen is revised before stage 2 (records/pilot_03/).

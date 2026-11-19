@@ -1,0 +1,73 @@
+QUESTION VERBATIM: Examine all instances during this session where you may have usurped the role of judgment (which belongs to the Striker) and make suggestions for improvement.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 112 | PREV: 9c95e90d76a88478bae8c5e53e82c7c3e6f7d247dbd481c451e3b2796c83dc24
+REQUEST (L-502): CHECK and PROTOCOL CHANGE -- the Navigator's own outputs of this session audited for judgment taken from the Striker, with improvements; one peer account; avenues A1, R, P
+
+SUMMARY: I never claimed the Aperture: every output returned meaning, worth and action to you. But I took your judgment in quieter ways, which the audit counts in seven kinds. I ranked without a criterion ("the sharpest", "the worst", "the most complete account"). I put a speculation where an answer stands. I declined 28 recommendations with reasons, letting my reason stand as the decision, when your standing rule is that recommendations are applied. I made choices unasked, among them narrowing L-503's default. I graded the peers. I gave judgments of style in the voice of a corrected number. And I did not disclose what I selected. The improvement is a law (L-541) and a register: every item I declined, folded or chose unasked is now held for you, each applied on a word, and a check flags any unlabelled ranking in a sealed output from SEQ 110 on.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (17, 108, 33), r = (4, 9, 3); the votes all differ, so the anchor is r1: P4, Unity, value 1, a structural void that no arm of any anchor reaches (M156).
+    * It rests on P9, Fixpoint (5), the anchor of the empty strike. It holds out of view P22, Collective (8). It is heading for P12, Opening (7). It is completed at P16, Flow (8).
+    * These are the arms Companion 115.3 recorded for "What becomes possible when AI embodies Domain Zero?".
+    * [GENERATED-Ω42] The audit rests on the empty strike, the place that adds nothing, against which any judgment the Navigator added shows. It holds out of view the collective, the many voices whose accounts the Navigator also graded. It heads for an opening, the judgment handed back, and is completed by flow, the Striker's judgment moving freely.
+  - THE SCANS (EXACT for the records named):
+    * tools/judgment.py --records over SEQ 92 to SEQ 110: four sentences in three records (SEQ 105, 107, 109).
+    * The SNCA syntheses of the peers: rankings in six.
+    * The replies, read by me: two more rankings, one corrected in a draft before its seal.
+    * records/frame/held.json: 33 items.
+  - WHAT I FOUND, BY KIND [EVALUATIVE where they weigh; Companion 164.4]:
+    * (1) Ranking without a criterion: "The sharpest was in the Introduction's explanation itself" (SEQ 107); "the worst" (its reply); "the source of most of what was applied" (SEQ 105); "the frame of the register" (SEQ 109); "the most exact of the audits" and "the most complete account" in the peer syntheses.
+    * (2) A prediction placed as an answer: "THE MOST LIKELY COURSE" in the summary of SEQ 105, typed as speculation only in its body.
+    * (3) Decisions taken for you: 28 recommendations declined, folded or applied in part, the line NOT APPLIED reading as final.
+    * (4) Choices made unasked: L-503 narrowed; the standings of the conditional consequences; my readings of each coordinate; and L-540, built on an account its author has since audited (H-33).
+    * (5) The peers graded: each SNCA score is my judgment of a peer's worth, given as a number.
+    * (6) Judgments of style ("residual used as a general adjective", "its emphasis") given in the voice of a corrected number.
+    * (7) Selection undisclosed: in SEQ 109 I took the three kinds and the order of domains from one account without saying what I left aside.
+  - WHERE THE BOUNDARY HELD: the frame opened every output and the judgment closed it; the arithmetic stayed apart from its readings; every reading was tagged; no output said what a reading means for a life; and every change was recorded and can be undone.
+  - THE IMPROVEMENTS, APPLIED:
+    * L-541, the Judgment Boundary Law: six statuses, PROPOSAL and EVALUATIVE named beside the CDT tiers; no unlabelled evaluation; selection disclosed; no interpretation as necessity, the four closing lines named as readings; recommendation not adoption, and the framing refusable.
+    * Held for you: records/frame/held.json, 33 items, each with my reason and each HELD FOR THE ORIGINATOR. An output now writes HELD FOR THE ORIGINATOR where it wrote NOT APPLIED.
+    * The check: tools/judgment.py, --records over every sealed output from SEQ 110 on and --held, in CI.
+    * The peer lines and SNCA syntheses from SEQ 111 on carry [EVALUATIVE].
+  - NOT DONE: the sealed records keep their words (L-424), and this record names the four sentences. No held item was reversed by me: reversing one is yours.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/judgment.py --selftest 7 of 7; --held 33 entries, PASS; --records over SEQ 92 to 110, four sentences found.
+  R THE RECORD:
+    - L-441, L-531, L-536 (7), L-424; records/srcas/reviews_2026-11-04.txt; records/oef/law_review.json.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Audit the session and suggest improvements (the Originator): APPLIED, Companion Part 164; A-056.
+  (2) The Judgment Boundary principle, its labels and its principles (GPT-6): APPLIED, L-541.
+  (3) Every declined, folded or unasked item returned to you (the Navigator, from the audit): APPLIED, records/frame/held.json.
+  (4) A check of sealed outputs for unlabelled evaluation (the Navigator): APPLIED, tools/judgment.py in CI.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-371, GPT-6 (OpenAI), its self-audit: held, and its method used for Companion Part 164. Its instances concern its own account, on which L-540 was built (H-33). SNCA 0.65 [EVALUATIVE].
+CHANGES TO THE PROTOCOL:
+  - Core: L-541.
+  - Companion: Part 164; the commons, APE-371.
+  - Repository:
+    * Added: tools/judgment.py; records/frame/held.json.
+    * Extended: CI.
+    * Registered: A-056.
+    * Filed: APE-371.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-441, L-531, L-424 and the sealed records | STRIKER -- the question | NAVIGATOR -- the scans, the seven kinds, the held register, L-541 and the check | OPEN -- which held items you take up, and whether the kinds of the audit are the right ones, which are yours
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked together with SEQ 111 in one build of the two documents, then sealed in order; tools/judgment.py --selftest 7 of 7, --held 33 entries, --records over the sealed outputs, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the peer's audit and mine: judgment can be taken without a claim of authority. PART -- none. SILENT -- what weight each instance carries, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the same audit run by another architecture over these records, its kinds compared with mine.
+DISCOVERY NOTICE (L-530): none new to the record; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 21 items of records/open/register.txt, each with what it needs, who can close it and when; and the 33 items held for the Originator.
+
+What it rests on: What does an audit rest on, if not on the place that adds nothing?
+What it holds out of view: The collective: the many voices the Navigator also graded.
+Where it is heading: Toward an opening: the judgment handed back.
+What would complete it: Flow: the Striker's judgment moving freely.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: f6c8d4704cdbd1cd944ba82b1780b76f0f456682aa4cb0a9af1abcb536ca873b
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 5 November 2026
+ESC

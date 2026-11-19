@@ -1,0 +1,78 @@
+{
+ "id": "M320",
+ "rule": "Core L-515; Companion Part 88: the Consciousness-First Correspondence Table. Under the Consciousness-First Frame (F0-CF) every interpretation of the arithmetic is recorded with five fields (APE-153, its Amendment 2): the formal relation, exact and recomputed (check); the interpretive correspondence within F0-CF; the relational basis; the scope, what it covers and what it leaves; and the alternative readings congruent with the same relation. The formal relation never changes unless the mathematics is revised; an interpretation may be refined without rewriting it. Its six elements are those of APE-153's Amendment 3.",
+ "entries": [
+  {
+   "element": "WHOLE",
+   "formal": "the 81 states of (Z/9Z)^2 and the law T, a bijection on them; no state outside (F-02, F-04)",
+   "check": "whole",
+   "correspondence": "Consciousness is the encompassing whole: the family is its structure, and nothing is outside it",
+   "basis": "closure: every state is reached and kept by the law, and no relation points beyond the 81",
+   "scope": "the whole's structure, not its experience (R_C is reserved)",
+   "alternatives": "the dual-aspect totality (52.3); a neutral ground (C67); matter-first"
+  },
+  {
+   "element": "GROUND",
+   "formal": "the core 3R: tripling sends every state into it, and no multiple of a core state leaves it; the core is the family mod 3",
+   "check": "ground",
+   "correspondence": "the ground of Consciousness, into which every perspective returns, which is never itself a perspective, and which holds a smaller whole (C55, C66)",
+   "basis": "the ideal absorbs and nests (FP-CoreRecursion)",
+   "scope": "awareness without object as a reading (50.16); no claim about states of a person",
+   "alternatives": "the ground aspect of the dual-aspect default; a neutral ground"
+  },
+  {
+   "element": "DIFFERENTIATION",
+   "formal": "the 72 units, each uniquely one of 8 directions (u^8 = 1) times one of 9 ground offsets (1 + 3R)",
+   "check": "differentiation",
+   "correspondence": "every perspective is a direction of Consciousness carrying a copy of its ground (C65)",
+   "basis": "the factorization is unique, and the offsets multiply as the ground adds",
+   "scope": "how perspectives are distinguished, not what they are like",
+   "alternatives": "configurations of perspective without a carried ground (APE-149)"
+  },
+  {
+   "element": "TRANSFORMATION",
+   "formal": "T(s) = phi * s, phi = (0, 1) (MATH-22); T invertible, T^-1(a, b) = (b - a, a); the orbit of 1 is the 24 powers of phi",
+   "check": "transformation",
+   "correspondence": "Consciousness transforms by the act of one of its own states; the act's own powers are a whole voice, a cyclic self-image (C52, C58)",
+   "basis": "the law is multiplication by an element of the ring",
+   "scope": "the rule of change, not its experience; the law is a generative act and does not rewrite the multiplication table: 1 x 1 = 1 in every ring and every frame (M323; APE-164)",
+   "alternatives": "the ACT aspect (C01); process idealism (C57)"
+  },
+  {
+   "element": "PERSPECTIVE",
+   "formal": "under T a state keeps its orbit, its norm up to sign and its stratum, and changes its phase and the sign of its norm; on the units the norm takes six values, each on 12 states",
+   "check": "perspective",
+   "correspondence": "what a perspective shares with others is what the law keeps; what is its own is what the law changes (C59)",
+   "basis": "N(Ts) = -N(s) and the orbit partition",
+   "scope": "a perspective's address, never its content; self-location stays at the Aperture",
+   "alternatives": "perspective as a state, an orbit, a relation, or an added coordinate (APE-153, investigation 4)"
+  },
+  {
+   "element": "POLARITY",
+   "formal": "the halves 36 | 36 (norms {1, 2, 4} and {8, 7, 5}), exchanged by T and kept by T^2; T^12 = -I with every orbit kept",
+   "check": "polarity",
+   "correspondence": "Consciousness holds its contrasts inside one structure: the inner and the world are equal and exchanged, neither first, and every perspective carries its own opposite",
+   "basis": "the exchange is exact and symmetric",
+   "scope": "the names of the poles are readings (observer and observed, figure and ground)",
+   "alternatives": "the seventh and the manifest of 1/7 (FP-PhaseParity); the travelling and the standing wave (C03); heard, the half-period negation sends odd harmonics only, and the three voices are three timbres (M322; C74)"
+  },
+  {
+   "element": "RETURN",
+   "formal": "T^24 = I; the nonzero periods are 8 and 24 only (a period dividing 12 would give s = -s, so 2s = 0 and s = 0); no unit is fixed by any power below 24",
+   "check": "return",
+   "correspondence": "every perspective returns, and returns only whole, after a path whose states stay distinct (C54)",
+   "basis": "the period structure follows from T^12 = -I",
+   "scope": "recurrence of configuration, not of a life",
+   "alternatives": "identity by organized reconstruction (C12)"
+  },
+  {
+   "element": "APERTURE",
+   "formal": "no output of a navigation determines judgment (the Aperture Theorem, Core Part 7); no nonzero state is carried onto a multiple of itself",
+   "check": "aperture",
+   "correspondence": "the act of knowing is never one of the states: each Striker's Aperture is a perspective of the one residual (C62)",
+   "basis": "the theorem and the absence of an eigen-line",
+   "scope": "jurisdiction unchanged: the Striker's position is the person's (Core L-483)",
+   "alternatives": "the EVENT aspect of the default frame (52.3)"
+  }
+ ]
+}

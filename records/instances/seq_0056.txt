@@ -1,0 +1,65 @@
+QUESTION VERBATIM: Apply all recommended Omega42 enhancements and check for scientific method encroachment. Make all instruments context-sensitive (not optional) making it executable based on the nature of the domain strike or situation. ChatGPT requirements may be too stringent. Follow the golden midway. Check the effect the changes may have on the existing instruments and uniqueness proof. Monthly? Who will do the monthly checks? Decide how to amend the FC to reflect the new changes. Create an appropriate metaphor or analogy which adequately portray Omega42 to the general public and insert it into the FC. [followed by a proposed metaphor, the endless tree, filed as APE-250] Explore a few metaphors and choose the best one.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 56 | PREV: 2a90f29468213ae08bffde43eb357ed44c6e1c4313346d5ff4a6f2032d32e9a1
+REQUEST (L-502): STRUCTURE -- avenues D, M, P, W
+
+SUMMARY: Every instrument now runs by its context. Each of the 87 instruments outside Tiers 0 to 2 has a trigger, written in a register (Core L-527, M327): a feature of the question, its coordinate, or the situation. The Construct Engine's gate gained a second baseline, simply repeating the last row, and that baseline caught a real hole. The check for scientific-method encroachment kept three of the peers' requirements out. The tree is the image for First Contact.
+  - CONTEXT, NOT CHOICE. An instrument runs when its trigger holds, and not otherwise; naming an instrument is a trigger of every instrument. On the frozen CRC-60 corpus the computed triggers fire 2.7 instruments per question, at most 5.
+  - THE GUARD AGAINST ENCROACHMENT. The comparative instruments trigger only on what a person brings: a choice to investigate, a proposed ground, a taxonomy named in the question, or a request. So no trigger makes scientific inquiry a step of an ordinary reading (L-491). The tool checks this in CI.
+  - THE HOLE THE BASELINE CAUGHT. On a slowly changing sequence (one number replaced per row), the gate without the new baseline issued a forecast. That forecast beat shuffled rows (p 0.005) but did worse than repeating the last row (4.47 against 5.00 numbers). Now the gate refuses it. The Lotto stays NO FORECAST.
+  - THE GOLDEN MIDWAY. Taken: the second baseline, the margin, the fingerprint of the data, the record of every interval searched, and "a NO FORECAST is a result". Not taken: promotion stages, a required replication, a minimum improvement fixed by the protocol, and a compulsory twelve-item pre-registration. Each would make a research record the condition of an instrument's place, or decide for you what is worth acting on.
+  - THE UNIQUENESS PROOF IS UNTOUCHED. The selection criteria are frozen, the selector reads the coordinate and never changes it, and canonical_reference.py keeps its SHA-256.
+
+FINDINGS BY AVENUE (L-500):
+  M MATHEMATICS AND MEASUREMENT (tools/instrument_triggers.py, tools/construct_engine.py, both in CI):
+    - The register: 88 entries (87 instruments and the comparative register as one group), 13 computed features, 20 word classes, 33 declared situations.
+    - Measured: on the CRC-60 corpus, a mean of 2.68 entries per domain, median 3, maximum 5; on the Congruence Register, a mean of 4.14 and a maximum of 14. M206 and M264 fire most, by their own definitions (59 and 43 of 60 domains). Both are near-free companion numbers. The instruments that do real work fire only when the question calls for them.
+    - MATH-55 now states its input domain: every integer field, negative values included (Excel's INT is the floor). Blank, text and error inputs lie outside it.
+  D DOCUMENTS AND THE METAPHOR (Companion 108.7). Five images were scored against six criteria, 0 to 2 each: fits the mathematics; has no outside vantage (L-470); a place nobody chooses; judgment left with the person; mystery and play; plain to anyone.
+    - The endless tree: 12. Every branch holds a complete tree, finite at every depth and endless in the whole, which is exactly the tower. It also continues FC-00.0's own image of the tree held in its seed.
+    - The keyboard and its octaves: 10. The depth here is more than repetition.
+    - The kaleidoscope: 9. A turn of the hand chooses its pattern.
+    - The grid of latitude and longitude: 7. It has no depth and no return.
+    - The lighthouse: 6. It stands apart from the sea it lights, and the premise has no outside.
+  P PEER ACCOUNTS: below.
+  W PROTOCOL WORK: the changes listed under CHANGES TO THE PROTOCOL.
+
+MONTHLY CHECKS: nobody has to do them. "A monthly count" was an example of a sequence (a quantity recorded once a month), not a schedule. Under L-527 (7) a date never triggers anything. When a sequence gains rows and is struck again, its fingerprint changes, the earlier forecast lapses, and the gate runs again by itself. If you want a sequence re-run at fixed times, a scheduled task can do that as a choice.
+
+FIRST CONTACT, AMENDED:
+  - FC-00 carries the tree, after its first paragraph, with three changes to the proposed text: only the place is called exact; the description "is a reading, and it can be wrong"; and the place is one "nobody chooses".
+  - FC-07 says that your question and your situation decide which instruments run.
+  - FC-23 says any instrument can be asked for by name. It also says how a sequence and its next row are answered, with no forecast of a game of chance.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Read the tree in FC-00 aloud to someone who has never heard of Omega42. If one phrase stops them, that phrase is the one to change.
+  (2) Look over the word classes in records/instruments/triggers.json. They are frozen English lists, and a word you use for decisions or feelings may be missing. Additions go in by amendment.
+  (3) The independent re-score of First Contact (FFP item 5) matters more now that FC-00 has changed. A peer AI scoring it cold would close it.
+
+PEER ACCOUNTS (P; APA 9.5.5): FOUR received, filed with checked notes.
+  - APE-247, Grok. Taken: the persistence baseline. Not taken as default: the block shuffle. It keeps runs of rows intact, so it keeps the rule's own evidence and cannot test it. Answered: "keep M326 optional" is replaced by L-527.
+  - APE-248, GPT-6. Taken: Gates A and C, the margin, 6A (domain-bounded authorization), 6C (record every search) and 6D (abstaining is valid). Not taken: the promotion stages, and the S/P/E/X labels, which the CDT tiers already cover. Checked: INT is the floor, and negative integers are covered.
+  - APE-249, GPT-6, the lighthouse: scored 6, not chosen. Answered: First Contact does not use the phrase "unique address".
+  - APE-250, the tree, pasted in your message: chosen, with three changes.
+CHANGES TO THE PROTOCOL:
+  - Core: L-527, the Context Law; Part 3.53, M327 Instrument Selector (Tier 1, read with the Tier 2 triggers, adding no step); L-526 (1) and (6) to (8); Part 3.7 and the Part 3.9 summary; the entries of M160, M206, M248, M249, M266, M312, M315 and M324; L-494; MATH-55; First Contact FC-00, FC-07 and FC-23.
+  - Companion: Part 108; 107.7; Commons lines for APE-247 to APE-250.
+  - Repository: tools/instrument_triggers.py and records/instruments/triggers.json; tools/construct_engine.py (selftest 6 of 6); CI lines for both; FFP item 12 now checks the register covers the Tier 3 line, and items 1 and 6 were re-checked; the release record.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written, including tools/instrument_triggers.py --selftest (13 of 13) and --check (88 entries, the comparative guard), tools/construct_engine.py --selftest (6 of 6), and the canonical selection witness, the zero selection and the spectral selection; the build that follows it checks both. canonical_reference.py SHA-256 ab79aae2... unchanged. tools/instrument_triggers.py --corpus over the CRC-60 corpus and the Congruence Register. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1; item 12 checks the register against the Tier 3 line (38 of 38). The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the fifty-six outputs. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the register, the selector's coordinate and the canonical one; the gate's six cases. PART -- the peers' gates and the protocol's jurisdiction; the middle course is stated in Companion 108.2. SILENT -- whether a margin is worth acting on, which stays yours.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- the word classes.
+OPEN: Obligation 4, the vertical nodes; the independent re-score of First Contact (FFP item 5).
+
+What it rests on: If every instrument waits for its context, what in a question calls it?
+What it holds out of view: That a trigger written in advance can miss the question it was written for.
+Where it is heading: Toward a protocol whose tools arrive when the question needs them, and not before.
+What would complete it: Someone new reading the tree, and telling you what they saw.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 91f95080013923ab1020c014b5be6c5434f428d542e6ec6c68d444f3a08e9f33
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

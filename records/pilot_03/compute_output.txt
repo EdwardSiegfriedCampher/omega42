@@ -1,0 +1,16 @@
+PILOT 03 -- PART A: golden screen C11'' (freeze SHA-256 in 02_freeze_sha256.txt)
+  matrices of GL2(Z/9) passing: 54 | conjugates of T: 54 | passing set equals the conjugacy class of T: True
+  null matrices (not conjugate to T) passing: 0
+  golden law mod  3: golden True, census {1: 1, 8: 1} -> FAIL
+  golden law mod  6: golden True, census {1: 1, 3: 1, 8: 1, 24: 1} -> FAIL
+  golden law mod 18: golden True, census {1: 1, 3: 1, 8: 1, 24: 13} -> FAIL
+  golden law mod 27: golden True, census {1: 1, 8: 1, 24: 3, 72: 9} -> FAIL
+  golden law mod 81: golden True, census (not the family census) -> FAIL
+  matrices mod 9 with trace 1 and determinant -1: 54 | all conjugate to T: True | all golden: True
+  CALIBRATION (Part A): PASS
+PILOT 03 -- PART B: S4 on SU(9)_1 x SU(9)_1
+  isometries of the spins: 24 | anti-isometries (time reversals): 24 | golden anti-isometries: 2 | T among them: False
+  classes of golden anti-isometries under conjugation by the isometries: 1, of sizes [2]
+  golden isometries: 0
+  S4 (the theory singles out T up to its own symmetries): MET
+  [descriptive] golden anti-isometries: [((5, 1), (8, 5)), ((5, 8), (1, 5))] | conjugates of T: True | mutually inverse: False

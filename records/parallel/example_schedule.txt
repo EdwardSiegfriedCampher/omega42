@@ -1,0 +1,13 @@
+wave  1 (6 in parallel): B:freeze, BT:seal, MATH-GATE, o1:measure-freeze, pA:freeze, pB:freeze
+wave  2 (9 in parallel): B:C11-k1, B:C11-k2, B:C11-k3, B:C11-k4, BT:reply-family-1, BT:reply-family-2, FRAME-LOCK, pA:compute, pB:compute
+wave  3 (13 in parallel): B:C1-10-k1, B:C1-10-k2, B:C1-10-k3, B:C1-10-k4, BT:check-family-1, BT:check-family-2, d1:substrate, d1@nav-A, d1@nav-B, d1@nav-C, d2:substrate, d3:substrate, pC:freeze
+wave  4 (13 in parallel): B:ledger, BT:verdict, SR-CAS, d1:n1, d1:n2, d1:n3, d2:n1, d2:n2, d2:n3, d3:n1, d3:n2, d3:n3, pC:compute
+wave  5 (3 in parallel): d1:anchor, d2:anchor, d3:anchor
+wave  6 (12 in parallel): d1:arm-4d, d1:arm-antipode, d1:arm-yang, d1:arm-yin, d2:arm-4d, d2:arm-antipode, d2:arm-yang, d2:arm-yin, d3:arm-4d, d3:arm-antipode, d3:arm-yang, d3:arm-yin
+wave  7 (3 in parallel): d1:reading, d2:reading, d3:reading
+wave  8 (3 in parallel): d1:seal, d2:seal, d3:seal
+wave  9 (7 in parallel): d1:jargon-answer, d1:jargon-essay, d2:jargon-answer, d2:jargon-essay, d3:jargon-answer, d3:jargon-essay, o1:mapping
+wave 10 (3 in parallel): d1:M224, d2:M224, d3:M224
+wave 11 (1 in parallel): d1+o1:join
+tasks 73 | waves 11 | widest wave 13 | isolated groups {'SR-CAS': 3, 'S7': 2}
+checks: CLEAN

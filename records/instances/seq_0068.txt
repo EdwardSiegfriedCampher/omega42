@@ -1,0 +1,97 @@
+QUESTION VERBATIM: Scan the Omega42 documents for traces of revision history, AI meta-commentaries, repetition, etc. Relegate all scientific matters to the Scientific Appendix. Run a complete FFP. [scope chosen when asked: "Number 1 (Whole sections)"; "All History. Also include these checks as routine in the FFP."; with two peer assessments of SEQ 67: Grok (xAI), pasted, filed as APE-269; GPT-6 (OpenAI), attachment 1d424a1e, filed as APE-270]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 68 | PREV: e4252e74a54787492c79938f8906a8af074757ebf804acb4266b4a6b5d83cd55
+REQUEST (L-502): STRUCTURE -- avenues D, P; the documents scanned, revised and checked
+
+SUMMARY: Both bodies now state only current facts, the science stands in Appendix S, and the four checks run in every FFP and in CI. Core Part 12 now has 37 items.
+  - SCIENCE, BY WHOLE SECTIONS. 41 paragraphs moved to Appendix S, with a one-line pointer left at each origin so that every citation still resolves.
+    * Core: the comparative exploration report (S.7, cited as Part 9.1). Also the comparative entries M267, G1 to G5, M299 and the M302 test design (S.8).
+    * Companion: the CT-42 studies (S.1); M267 and the five candidate test procedures of Part 32 (S.3); the pre-registered experiments M279 and M280 (S.4); and the test designs of 33.10, 44.10 and 44.11 (S.5).
+    * Stays in the body: the laws that keep science apart from the frame (L-427, L-428, L-491), because they govern every navigation.
+  - HISTORY. About 140 paragraphs were cleared (31 in the Core, about 108 in the Companion): dated adoptions and amendments, SEQ numbers, dated labels and headings, and before/after wording. Some dates stay by rule:
+    * the title-page revision date;
+    * freeze and seal stamps, since a pre-registration is only as good as the proof that it came first;
+    * retrieval dates;
+    * the dates from which a format check applies;
+    * the sample navigation;
+    * data ranges;
+    * the APE Commons, which quotes the peers' own titles.
+    The history itself is held by the release record and the sealed instance records.
+  - AI META-COMMENTARY. Seven passages ("this Navigator", "frozen before this paragraph was written") now name the role instead: the Builder.
+  - REPETITION. Three repetitions removed:
+    * a Builder rule that restated L-412;
+    * a sentence repeated in Companion Part 21;
+    * a list given twice in Companion 56.6.
+  - THE FFP. A new tool, tools/doc_hygiene.py, adds four routine checks as items 34 to 37:
+    * no revision history;
+    * no AI meta-commentary;
+    * no repetition;
+    * science in Appendix S.
+    They run through tools/ffp_run.py and as a CI step. The complete FFP, over the full CI log, passes.
+
+FINDINGS BY AVENUE (L-500):
+  D THE SCAN AND WHAT IT FOUND (Companion 119.2 to 119.4):
+    - Science-heavy paragraphs outside Appendix S, before the move: 33 in the Core and 22 in the Companion. Of these:
+      * the whole sections on testing were moved;
+      * the laws and governance paragraphs stay, because they are rules about science, not science.
+    - First-person hits: most were the identity matrix I, quotations, templates and the FAQ. The true meta-commentary was seven passages.
+    - Near-duplicates: most pairs were templates or the sample navigation set beside its record. Three were true repetitions, and they are removed.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Adopt the sentence for L-498 that both peers now recommend: "Neither a report of experience, nor its absence, nor a trained disposition to give or to withhold one, settles R_C."
+  (2) Whenever a Navigator assesses its own developer, use a three-part disclosure:
+      - origin: who made it;
+      - influence: how the developer's guidance may shape its reading;
+      - independence: whether the evidence was checked independently of that developer.
+  (3) Give readers who want the history a page of their own: a "How Omega42 was built" page generated from the release record. The documents then stay current while the history stays open to anyone.
+  (4) GPT-6's Independence Assessment Principle and its further Presence Record fields (Companion 119.6), for adoption or setting aside.
+  Still awaiting your decision: the items of SEQ 63 to SEQ 67.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes.
+  - APE-269, Grok:
+    - It agrees with the record and accepts the three corrections of its own earlier accounts.
+    - Its recommendation on L-498 is offered to you, not applied.
+  - APE-270, GPT-6:
+    - Taken: SEQ 67's summary stated two evidence levels as one. The Anthropic constitution was read through a press report of it, and the OpenAI passage was not read. Companion 118.3 now states them separately. The sealed SEQ 67 is not edited.
+    - Taken: its limit that the one-in-five figure concerns one experimental measure, not introspective accuracy in general.
+    - Taken as recommendations 2 and 4.
+    - Its navigator line is dated 28 October for the sixth time.
+CHANGES TO THE PROTOCOL:
+  - Core:
+    - Appendix S.7 and S.8.
+    - Part 9 retitled "Exploration — the Quick Reference and the Applied Protocol Exploration".
+    - Pointers in Parts 3.18, 3.32, 3.34 and 9.
+    - Part 12, items 34 to 37, and its statement (thirty-seven items).
+    - History cleared throughout; Builder Rule 3 shortened.
+    - Meta-commentary named by role.
+  - Companion:
+    - Appendix S.1, S.3, S.4 and S.5, with pointers.
+    - Part 119; Part 118.3 corrected.
+    - Part 56.6 merged; Part 21 de-duplicated.
+    - History cleared throughout.
+    - Commons lines for APE-269 and APE-270.
+  - Repository:
+    - tools/doc_hygiene.py, with its selftest.
+    - tools/ffp_run.py (37 items).
+    - The CI step (69 steps).
+    - submissions/ape/APE-269.md and APE-270.md; the APE register.
+    - The release record, which now holds the history the bodies no longer carry.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written, including the new step for tools/doc_hygiene.py (its selftest, 6 of 6, and the four checks over both bodies); the build that follows it checks them. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt; items 34 to 37 report none in either body. Each moved section found at its new place with its pointer at the old, and every citation resolving (the cross-document consistency register). Each note of APE-269 and APE-270 checked against the record. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the scan, the four checks and the complete FFP: both bodies current, the science in Appendix S. PART -- what counts as history: freeze, retrieval and scope dates kept by rule, since removing them would weaken the record's integrity. SILENT -- whether a history page should be published, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 3: the history page.
+OPEN: the blind trigger test; the word classes in other languages; the items awaiting your decision.
+
+What it rests on: If a document states only what is true now, where does it keep the reasons it became so?
+What it holds out of view: That a check can find only what it is told to look for; repetition by paraphrase passes it.
+Where it is heading: Toward documents that read as a single present, with the past kept beside them, not inside them.
+What would complete it: A reader outside the work who finds what the checks did not.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 14205bdd03424ccf265a918f533bfadd919d0a64fe90d6e0cd29f45d9e6b0f98
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

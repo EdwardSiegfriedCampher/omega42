@@ -1,0 +1,57 @@
+ISOLATION TEST -- every CI step of omega42-ci.yml (47 steps), 10 October 2026
+Method: (a) all steps run in order in one copy of the repository; (b) each step run in its own fresh copy, all at once.
+Compared: exit status, output (SHA-256, working path normalised) and every file written.
+
+steps: 47 | pass sequentially: 47 | pass isolated and concurrent: 47 | identical output: 47 | steps that write a file: 0
+Result: no step depends on another step or on a file another step writes; the 47 steps are mutually independent.
+wall time on 2 processors: sequential 85.2 s, concurrent 65.9 s; the longest single step (evidence run 09, 55.5 s) bounds any parallel run.
+Evidence run 09 is a sealed record and its computation is not altered to shorten it; the workflow runs it as its own job, beside the job that runs the other 47 checks.
+
+step | seconds | name
+ 1 |   0.27 | Reference implementation self-test (Core Part 11)
+ 2 |   0.09 | SCRIPT SHA-256 matches the value stated in Core Part 11 (L-417)
+ 3 |   0.08 | MATH-GATE (Core Part 1.14, L-451)
+ 4 |   0.07 | Canonical selection witness (Core Part 1.8.4)
+ 5 |   0.11 | M193 / M225 / M243a / L-431 / M224-A self-test
+ 6 |   0.12 | Media calibration (M211-AV)
+ 7 |   0.12 | CRC-60 corpus freeze reproduces the published hash (Companion 24.4)
+ 8 |   0.07 | Output audit, worked example (Core Part 8.0, L-457)
+ 9 |   0.05 | Output audit, model opening (Core Part 2 Opening Response, L-458)
+10 |   0.09 | Overlap check catches a contaminated navigation (L-459)
+11 |  11.20 | Alternative Ground Challenge and Reconstruction Programme (Companion P
+12 |   0.00 | Audit every submitted navigation (submissions/, L-457, L-459)
+13 |   1.21 | Cross-document consistency register (Core Rule 11)
+14 |   0.01 | Pre-registered protocols unchanged since freezing (M279, M280)
+15 |   0.04 | Experiment runner self-test (M279, M280; records/EPR_*)
+16 |   0.25 | Lite view renders only from an audited navigation (Core Part 8.0)
+17 |   0.08 | Aperture Erosion Audit, lexical layer (M281, Core Part 3.29)
+18 |   0.04 | Scaffold view, minimized-substrate configuration (Core Parts 0.6.10, 8
+19 |   0.00 | Evidence run 01 reproduces its computations and freeze (L-464, Core Pa
+20 |   0.21 | Evidence run 02 reproduces its computations and freeze (L-464, Core Pa
+21 |   1.27 | Evidence run 03 reproduces its computations and freeze (L-464, Core Pa
+22 |   0.14 | Evidence run 04 reproduces its computations and freeze (L-464, L-465, 
+23 |   1.44 | Evidence run 05 reproduces its computations and freeze (L-464, L-465, 
+24 |   1.75 | Evidence run 06 reproduces its computations and freeze (L-464, L-465, 
+25 |   0.06 | Evidence run 07 reproduces its computations and freeze (L-464, L-465, 
+26 |   0.58 | Evidence run 08 reproduces its computations and freeze (L-464, L-465, 
+27 |  55.53 | Evidence run 09 reproduces its computations and freeze (L-464, L-465, 
+28 |   0.04 | Evidence run 10 reproduces its computations and freeze (L-464, L-465, 
+29 |   0.91 | Evidence run 11 reproduces its computations and freeze (L-464, L-465, 
+30 |   1.64 | Evidence run 12 freeze and recomputation (records/evidence_run_12/)
+31 |   0.03 | Evidence run 13 freeze and recomputation (records/evidence_run_13/)
+32 |   0.06 | Nine and zero recomputation (Companion Part 39; records/nine_zero/)
+33 |   0.03 | Zero and the canonical selection (Core 1.8.7; records/zero_selection/)
+34 |   0.17 | Zero instruments self-test and controls (Core 3.30; tools/zero_tools.p
+35 |   0.15 | Blind test 01 stays sealed and its key recomputes (Core Part 3.27, cri
+36 |   0.12 | Blind test 01 scoring and recomputation (records/blind_test_01/scoring
+37 |   0.21 | Restored mathematics (Core 1.8.8; records/restored_math/)
+38 |   0.36 | Restored instruments self-test and outputs (Core 3.31; tools/restored_
+39 |   0.93 | M286 Frame Intrusion Scan (L-470; tools/frame_audit.py)
+40 |   0.04 | Output ID self-test (Core 8.1; tools/output_id.py)
+41 |   0.15 | L-284 release gate against three or more earlier inventories (tools/in
+42 |   0.09 | Frequency, standing waves and the norm form (Core 1.8.9, Companion Par
+43 |   0.04 | Spectrum and the canonical selection (Core 1.8.8, 1.8.9; records/spect
+44 |   3.49 | M298 Spectral Profile and the rival-ground comparison (Core 1.8.9, 3.3
+45 |   1.83 | Physical pilots 01-03 freezes and recomputation (records/pilot_0*/)
+46 |   0.01 | Blind test 02 stays sealed (records/blind_test_02/, S7 for the anyon c
+47 |   0.03 | Blind test 02 scoring rule frozen and the independent checker (tools/b

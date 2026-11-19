@@ -1,0 +1,48 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 03 -- RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 0d5f8772750e6a8b0d83f8eae1e6a0a4f5865b1a68fd4c4e410e2549786d9a6e, 2026-10-09T12:44Z.
+Computations: compute.py -> compute_output.txt. Selection NOT BLIND (CB NO). CDT-A for computations; COMPARATIVE for correspondences.
+
+Q1  THE GOLDEN-FIELD QUESTION -- NEGATIVE RESULT (entered in records/negative_result_registry.txt, NRR-C02)
+  Question (raised in the Claude peer review of run 01): is there a cat map over Q(sqrt5), independent of T, whose orbit on
+  (Z/9)^2 is conjugate to the canonical 24-orbit with its values?
+  Computed: A = T^2 and -A have order 12 and cycle type (12^6, 4^2, 1), so no bijection of the 81 states conjugates either
+  to T, whose cycle type is (24^3, 8, 1). The golden characteristic polynomials x^2 -+ x - 1 occur in 108 matrices of
+  GL(2,Z/9), exactly the two conjugacy classes of T and -T (54 each); -T is not conjugate to T, but -T = T^13, so it
+  generates the same cyclic group. Every cat map over the golden field that carries the full cycle is therefore T itself,
+  up to a change of basis and a choice of generator. The order of A modulo 161 is 24 (Pisano periods 16 and 48), a
+  period on a state space of 161^2 states that does not carry the cycle's values.
+  Verdict: no independent golden-field cat map carries the canonical orbit. Four peer reports (Claude, Qwen, GPT-6, Grok)
+  reached the same answer; this computation confirms it. Two peer statements are not adopted: that the canonical orbit is
+  "the unique period-24 orbit" (Grok) -- there are three, and K selects one (Core Part 1.8); and that T is "a classical
+  Arnold cat map" (Grok) -- T is orientation-reversing, the golden cat map, and the classical cat map is its square.
+
+Q2  NULL COMPARISON FOR RUN 02'S SPECTRAL OBSERVATION -- DIAGNOSTIC, NOT COUNTED
+  The eigenvalues of V^2 were computed for every odd N from 3 to 27. At N = 9 the missing eigenvalues are exactly the
+  nonzero multiples of 3 (k = 3, 6, 9 of twelve); no other odd modulus in the range shows that pattern (N = 27 misses
+  nine of its eleven nonzero multiples of 3 but keeps 9 and 27). The criterion was taken from N = 9 itself after run 02 observed it,
+  so a pattern unique to N = 9 by a test built from N = 9 is a post-selection finding (Core MATH-17): recorded, DIAGNOSTIC,
+  not counted. What the null does establish: the pattern is not a general property of these operators. Missing
+  eigenvalues and multiplicities vary from modulus to modulus (none missing at N = 11, 19, 21; multiplicity 3 there).
+  Structural reason: the family's cycle structure fixes the spectrum up to a global phase (records/evidence_run_12, R3b).
+
+Q3  THE LEECH LATTICE THROUGH AN AUTOMORPHISM OF ORDER 24 (Companion 25.2b, item 3)
+  Constructed: the extended quadratic-residue code of length 24 (dimension 12, weights 0, 8, 12, 16, 24: the Golay code);
+  the element x -> 1/(22x + 3) of PSL(2,23), order 12, two 12-cycles on the 24 coordinates, preserving the code; and a
+  Golay sign change of weight 12 with odd parity on each cycle. The signed permutation has order 24, maps every one of
+  3000 sampled Leech vectors into the lattice (a membership test that rejected 20 of 20 random coordinate permutations),
+  and so lies in Co0, as the monomial subgroup 2^12:M24 guarantees. On the 48 frame vectors +-8e_i, a standard frame of
+  the lattice, it has two orbits of 24, and step 12 sends each frame vector to its negative.
+  Features: (b) and (c) matched -- 24 states in 12 antipodal pairs, half-period negation. (e) not matched: the frame vectors
+  are mutually orthogonal and follow no additive recurrence. M230-E: the same signed permutation acts on the cubic lattice
+  Z^24 with the same two 24-cycles, so the features do not depend on the Leech structure and do not discriminate.
+  Profile: C24 YES (frame orbits) | CG NO | CT PARTIAL (a 24-cycle with half-period negation, no value correspondence) |
+    CC YES | CA YES, non-discriminating | C1/7 NOT ASSESSED | CN PARTIAL (a choice of element and sign) | CI YES | CD NO |
+    CP NONE | CB NO
+  Tier: 2 retained (first-pass entry), with the order-24 automorphism recorded. Not a new object.
+
+RUN RESULT
+  One negative result entered in the registry (the golden-field question closed); one diagnostic observation tested against
+  its null and set aside as post-selection; the Leech lattice examined through an order-24 automorphism and kept at tier 2.
+  The ledger stays at sixteen objects. Low results are recorded as limits of the current map, never as refutations (F-02).
+  Next: the 24-cell honeycomb and its cell-adjacency graph (Companion 25.2b, item 1); hexagonal and triangular lattices as
+  controls for the six-state torsion structure (item 6).

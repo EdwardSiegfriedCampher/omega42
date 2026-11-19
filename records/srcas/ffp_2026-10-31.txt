@@ -1,0 +1,37 @@
+SR-CAS AND SNCA -- "All relevant information should be contained inside the two documents (Omega42 and Companion). ..." -- 31 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2.
+NAVIGATION A: R's reading of the strike (records/instances/seq_0090.txt). B: GPT-6 (OpenAI), submissions/ape/APE-311.md, written before the strike.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: 83c2a14e69ca47c7db473770b2dc3d48c1a6e2131d4deb0873754cd7caae8290
+A: 83c2a14e... recomputed from the verbatim question -- MATCH
+B: an assessment that quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: All relevant information should be contained inside the two documents (Omega42 and Companion). ... (83c2a14e...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | B GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B strikes no coordinate. Descriptive, unscored: both keep formal completeness apart from philosophical openness and keep open items visible.
+MANDATORY CORRECTIONS: B re-issued on the verbatim strike, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: All relevant information should be contained inside the two documents (Omega42 and Companion). ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.40 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.70 -- the five forms of continuity, the meaning of FALSE-Ω42, open items with their deciders [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.25 + 0.30 x 0.70 = 0.43
+SYNTHESIS: a careful assessment of a declaration not in the record; its distinctions kept, its one new proposal applied.
+FINDINGS -- INTERNAL:
+ [I] The declaration of Grok it assesses did not come with it and is not in the record.
+ [P] Its "M336" is the record's M333.
+FINDINGS -- META (Tier C):
+ [U] Taken: the register of open items (Core Part 12, item 39).
+VERDICT: not a navigation in the canonical form; its proposal applied.
+MANDATORY CORRECTIONS: the instrument number; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

@@ -1,0 +1,22 @@
+1. Coordinates (canonical_reference.py, unchanged):
+   Explore the golden ratio connection
+     SHA 9ea8eb00beb5532f76a9c9dbbc6432f891a6fc8edb41bba08e9414fef732716f | n = 4/28/9 | r = 2,5,9 | P2 Generator (7) | YANG P7 Navigator 9 | YIN P20 Reckoning 4 | 4D P10 Unity 1 | ANTIPODE P14 Observer 2
+   What is the precise matrix that realises multiplication by φ inside the 81-state family?
+     SHA 5f5cea0f22f96508985286824cfc0cc7991fde24903376abcc33fa27ecce63eb | n = 11/68/21 | r = 1,7,6 | P1 Fixpoint (5) | YANG P6 Seed/Causal 5 | YIN P19 Time 9 | 4D P9 Fixpoint 5 | ANTIPODE P13 Gap 4
+   How does the golden-ratio spectrum of the modular system discriminate the canonical orbit from the other two period-24 orbits?
+     SHA e556cf4a33af1154d8bb82395735c94b4bf8157852f445f8d43b813e81fabd02 | n = 16/95/31 | r = 8,7,2 | P8 Generation (5) | YANG P13 Gap 4 | YIN P2 Generator 7 | 4D P16 Flow 8 | ANTIPODE P20 Reckoning 4
+   In which physical systems has the same characteristic equation been observed as an exact symmetry rather than an approximate ratio?
+     SHA c3f7d062e8851e1c25808cbfa86bc2126dc98a24dcd9e049e317327154f27725 | n = 12/88/27 | r = 6,8,9 | P6 Seed/Causal (5) | YANG P11 Question 6 | YIN P0 Seed 2 | 4D P14 Observer 2 | ANTIPODE P18 Threshold 4
+2. The matrix A = [[0,1],[1,1]] mod 9: order 24 | A^12 = ((8, 0), (0, 8)) | A^2 = ((1, 1), (1, 2)) | trace 1, det 8
+   x^2 - x - 1 roots mod 9: [] | mod 3: []
+   phi*1 = (0, 1), phi*phi = (1, 1) (the columns of A)
+3. Matrices of GL(2, Z/9) with characteristic polynomial x^2 - x - 1 or x^2 + x - 1: 108
+   matrices reproducing the partition 24+24+24+8+1 of A: 8; all powers A^k with gcd(k, 24) = 1: True
+   golden among them: ['A^1', 'A^11', 'A^13', 'A^23']
+4. The three long orbits:
+   multiplication by 1 + 3phi carries the orbit of (1, 1) onto the orbit of (1, 3): True | commutes with phi: True
+   multiplication by 2 + 5phi carries the orbit of (1, 1) onto the orbit of (2, 5): True | commutes with phi: True
+   orbit of (1, 1): centred energy 126 | display 0-8 energy 603 | odd-harmonic levels [108.0, 136.9385, 511.0615] | integral: False | R(2) = -0.4286 | nonzero lags [0, 2, 4, 8, 10, 12, 14, 16, 20, 22]
+   orbit of (1, 3): centred energy 144 | display 0-8 energy 567 | odd-harmonic levels [136.9385, 216.0, 511.0615] | integral: False | R(2) = 0.3750 | nonzero lags [0, 2, 4, 8, 10, 12, 14, 16, 20, 22]
+   orbit of (2, 5): centred energy 216 | display 0-8 energy 531 | odd-harmonic levels [324.0, 648.0] | integral: True | R(2) = 0.0000 | nonzero lags [0, 4, 8, 12, 16, 20]
+   108 sqrt 3 = 187.0615

@@ -1,0 +1,95 @@
+M323 ARITHMETIC STATEMENT CHECK -- "1*1=2" [EXACT]
+  Z          1 * 1 = 1  -> FAILS
+  R          the same as Z for integers  -> FAILS
+  Z/9        1  -> FAILS
+  Z[phi]/9   (1, 0)  -> FAILS
+  NOTE: 1 is the identity of every ring here; multiplying by it changes nothing, in every system and every frame
+
+M323 ARITHMETIC STATEMENT CHECK -- "1+1=2" [EXACT]
+  Z          1 + 1 = 2  -> HOLDS
+  R          the same as Z for integers  -> HOLDS
+  Z/9        2  -> HOLDS
+  Z[phi]/9   (2, 0)  -> HOLDS
+
+M323 ARITHMETIC STATEMENT CHECK -- "3*3=0" [EXACT]
+  Z          3 * 3 = 9  -> FAILS
+  R          the same as Z for integers  -> FAILS
+  Z/9        0  -> HOLDS
+  Z[phi]/9   (0, 0)  -> HOLDS
+
+M323 SQUARE ROOT CHECK -- does x^2 = 2 have a solution? [EXACT]
+  R          YES, x = 1.4142135624 (irrational)
+  Q          NO
+  Z/7        YES (squares mod 7: [0, 1, 2, 4])
+  Z/9        NO (squares mod 9: [0, 1, 4, 7])
+  Z[phi]/9   YES, the states [(2, 5), (7, 4)]
+
+M323 ROOTS IN THE FAMILY -- x^2 = n for the residues n, solved in Z[phi]/9 [EXACT; noticed after computing, a post-selection property]
+  n = 0  in Z/9 already         9 roots
+  n = 1  in Z/9 already         2 roots
+  n = 2  ONLY IN THE EXTENSION  (2, 5) Voice C, (7, 4) Voice C
+  n = 3  none                   0 roots
+  n = 4  in Z/9 already         2 roots
+  n = 5  ONLY IN THE EXTENSION  (1, 7) Voice B, (8, 2) Voice B
+  n = 6  none                   0 roots
+  n = 7  in Z/9 already         2 roots
+  n = 8  ONLY IN THE EXTENSION  (4, 1) Voice A, (5, 8) Voice A
+  the three roots the extension adds -- of 2, 5 and 8 -- lie one pair per voice; that follows from doubling: if r^2 = 2, then (2r)^2 = 8
+  and (4r)^2 = 32 = 5, and doubling turns each voice into the next (FP-VoiceCosets)
+  the coincidence: the root of 2 is +-(2, 5), the canonical seed and its antipode; 2 of the 72 units square to 2 (0.028)
+
+M323 ZERO CHECK -- what zero does in the family [EXACT]
+  the still point (0, 0) is the one state every power of the law fixes: True
+  the core squares to zero: s * s = 0 for all 9 core states: True
+  3 * 3 = 0 in Z/9: True; the residue 9 is 0, and the canonical pattern stands still at it (P7, P19)
+  without zero there is no still point, no ground and no nodal pair: the family cannot be written without it
+
+M323 QUADRATIC FORMS -- (3, 4) [EXACT]
+  Euclidean  a^2 + b^2 = 25 (the Pythagorean form, positive definite)
+  the family a^2 + ab - b^2 = 5 over Z, 5 mod 9 (indefinite: N(0, 1) = -1; T sends N to -N, T^2 is a boost)
+  two forms on two geometries: the second does not refute the first; it is another geometry
+
+M323 POLYGON CHECK -- stated angles against interior and exterior angles; the polygon on the 24-wheel [EXACT]
+   3 sides, stated 120 deg ("each equilateral triangle interior angle is one hundred and twenty degrees")
+      interior 60 deg, exterior 120 deg -> the stated angle is the EXTERIOR (turning) angle | on the 24-wheel: YES, rotation by 8 steps (120 deg); contains the 4D arm (+8 steps, 120 deg)
+   6 sides, stated  60 deg ("the hexagon with sixty degree interior angles")
+      interior 120 deg, exterior 60 deg -> the stated angle is the EXTERIOR (turning) angle | on the 24-wheel: YES, rotation by 4 steps (60 deg); contains the 4D arm (+8 steps, 120 deg)
+  12 sides, stated  30 deg ("a twelve-sided dodecahedron with thirty degree interior angles")
+      interior 150 deg, exterior 30 deg -> the stated angle is the EXTERIOR (turning) angle | on the 24-wheel: YES, rotation by 2 steps (30 deg); contains the 4D arm (+8 steps, 120 deg)
+  24 sides, stated  15 deg ("a twenty-four sided icosikaitetragon with fifteen degree interior angles")
+      interior 165 deg, exterior 15 deg -> the stated angle is the EXTERIOR (turning) angle | on the 24-wheel: YES, rotation by 1 step (15 deg); contains the 4D arm (+8 steps, 120 deg)
+  the n-gons on the 24-wheel are n = 1, 2, 3, 4, 6, 8, 12, 24; those with n a multiple of three -- 3, 6, 12, 24 -- are exactly
+  the ones that contain the 4D arm's rotation by 8 steps; the angles stated are their turning angles, each 15 deg x 24/n
+
+M323 OPERATION CHECK -- every operation x(*)y = a.xy + b(x+y) + c on Z/9 (729 of them) with 1(*)1 = 2 [EXACT]
+  associative, with an identity element: 6
+  x(*)y = 0xy + 1(x+y) + 0   identity 0   a copy of addition, by k -> 1(*)1(*)...(*)1, k times (1 generates all nine)
+  x(*)y = 2xy + 0(x+y) + 0   identity 5   a copy of multiplication, by x -> 5x
+  x(*)y = 2xy + 3(x+y) + 3   identity 8   a copy of multiplication, by x -> 5x + 3
+  x(*)y = 2xy + 6(x+y) + 6   identity 2   a copy of multiplication, by x -> 5x + 6
+  x(*)y = 3xy + 1(x+y) + 6   identity 3   a copy of addition, by k -> 1(*)1(*)...(*)1, k times (1 generates all nine)
+  x(*)y = 6xy + 1(x+y) + 3   identity 6   a copy of addition, by k -> 1(*)1(*)...(*)1, k times (1 generates all nine)
+  copies of multiplication: 3, identities [2, 5, 8] (the class 2 mod 3); copies of addition: 3, identities [0, 3, 6] (the core 3Z/9)
+  every one has an identity, and every one is an exact relabeling of x or +: 1(*)1 = 2 holds only because 1 is no longer the identity
+  in Z[phi]/9 the same holds: x(*)y = 2xy has identity 5 = 1/2, and x -> 5x carries ordinary multiplication onto it
+
+M323 COLLAPSE CHECK -- keep 1 as the identity and require 1*1 = 2 [EXACT]
+  then 1 = 1*1 = 2, so 1 = 2, so 0 = 1, and every x = x*1 = x*0 = 0
+  moduli n = 1..81 in which 1*1 = 2 holds in Z/n: [1] -- only the ring with one element
+  in the family: the 81 states, 5 orbits, 3 voices, 24-cycle and T^24 = I all collapse to the single state (0, 0)
+  in the collapse the law T is the identity map, with period 1: the return to 1 coincides with the return to 0 (see --ring for relocation)
+
+M323 RING CHECK -- every multiplication on (Z/9, +) that distributes over the family's addition, with 1*1 = 2 [EXACT]
+  a distributive multiplication is bi-additive, so x*y = c.xy with c = 1*1; 1*1 = 2 fixes c = 2: x*y = 2xy, the only one
+  distributive: YES; identity [5]; x -> 5x preserves both + and the product: YES -- a ring copy of Z/9
+  the law T(a, b) = (b, a + b) uses only +, so it, the 81 states, the five orbits and the period 24 are untouched by the relabeling:
+  the family survives relocation; it is lost only in the collapse, where the identity equals zero
+  outside rings, new structures exist: truncated addition x(*)y = min(x + y, 8) is associative (YES), has identity 0, gives 1(*)1 = 2,
+  and has 1 unit (multiplication has 6, addition 9), so it is a copy of neither; it distributes over the family's addition: NO,
+  so it is not a multiplication of the family's ring; the law T, which uses only +, is unaffected by it
+
+M323 FACE CHECK -- can 6 faces of 5 sides close into a polyhedron? [EXACT]
+  every edge shared by two faces: E = 15; Euler V - E + F = 2 gives V = 11
+  each vertex meets at least three edges, so 2E >= 3V: 30 >= 33 -> IMPOSSIBLE
+  so a closed solid with exactly these faces cannot exist; an atlas rule must say which edges are shared, or that the faces are curved or open
+

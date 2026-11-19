@@ -1,0 +1,123 @@
+======= M316 FOUND ASSOCIATIONS (avenue W; Companion Part 61) =======
+Companion Part 61; Core L-503: an association found by search is a perspective within the totality (F-04). A search runs by default as the CURRENT KNOWLEDGE layer of a full navigation and a holistic response, and on request (L-429, M248); it is declared first with what would count as not found, and placed in the Comparative Perspective Layer after the seal, with its source, its date, what it says, how it stands with a named provision -- AGREES, DIFFERS or EXTENDS -- and, for an agreement, its grade: CONSTRUCTIONAL where both sides state the same mathematics, SELF-ADJACENT for one Navigator in one session, INDEPENDENT otherwise. It is COMPARATIVE, never inside THE ANSWER, never an authority over a reading, and the premise is not graded by it (L-490). This register holds the associations about the protocol's own provisions; sources on a Striker's matter stay in that reading's CURRENT KNOWLEDGE layer.
+
+S01 AGREES   Pisano period (Wikipedia) -- https://en.wikipedia.org/wiki/Pisano_period (retrieved 2026-10-19) [grade CONSTRUCTIONAL]
+    searched: "Pisano period modulo 9 and 3" -- not found would have been: a source giving another period for 3 or 9
+    says: pi(3) = 8 and pi(9) = 24, with two zeros in each period mod 9; the Pisano period equals the order of the Fibonacci matrix in the invertible 2x2 matrices modulo n
+    with: Core Part 1: the census and the canonical 24-cycle; T(a, b) = (b, a + b) as a unit of order 24 on the 81 states (MATH-GATE)
+    not:  that the structure is all that exists; the premise is the ground, not a finding (F-02-P)
+S02 EXTENDS  Pisano period, prime powers (Wikipedia) -- https://en.wikipedia.org/wiki/Pisano_period (retrieved 2026-10-19) [grade CONSTRUCTIONAL]
+    searched: "Pisano period of prime powers" -- not found would have been: a source stating equality fails for p = 3
+    says: pi(p^k) divides p^(k-1) pi(p); whether equality always holds is open, and a counterexample would be a Wall-Sun-Sun prime
+    with: Core FP-TowerPeriods (8, 24, 72, 216 for 3, 9, 27, 81): for p = 3, pi(9) differs from pi(3), so the periods triple at every scale; recomputed here to 3^7 (5832)
+    not:  the open question for other primes, which the tower of 3 does not touch
+S03 AGREES   OEIS A001175, Pisano periods -- https://oeis.org/A001175 (retrieved 2026-10-19) [grade CONSTRUCTIONAL]
+    searched: "OEIS Pisano periods" -- not found would have been: a table giving another value for 9
+    says: the table of Pisano periods, pi(9) = 24
+    with: Core Part 1, the canonical cycle
+    not:  any reading of the positions
+S04 AGREES   OEIS A030132, digital root of Fibonacci(n) -- https://oeis.org/A030132 (retrieved 2026-10-19) [grade CONSTRUCTIONAL]
+    searched: "digital root of Fibonacci numbers period" -- not found would have been: a period other than 24
+    says: the digital root of Fibonacci(n) is periodic with period 24 = A001175(9)
+    with: the canonical cycle read with 9 for the residue 0 (Core Part 1)
+    not:  that digital roots carry meaning; the frame reads residues as coordinates
+S05 DIFFERS  M. Tegmark, The Mathematical Universe (arXiv:0704.0646) -- https://arxiv.org/abs/0704.0646 (retrieved 2026-10-19)
+    searched: "mathematical universe hypothesis" -- not found would have been: no account holding what exists to be a mathematical structure
+    says: from an External Reality Hypothesis -- an external physical reality independent of us -- it argues to the Mathematical Universe Hypothesis, that this reality is a mathematical structure
+    with: F-02 and F-04: both hold what exists to be a mathematical structure; Tegmark starts from an external reality, Omega42 posits no outside, and the structure is stipulated, not inferred (Companion 57.3)
+    not:  that Omega42 is a version of the MUH, or the MUH a version of Omega42
+S06 DIFFERS  S. Wolfram, The Concept of the Ruliad (Wolfram Institute) -- https://wolframinstitute.org/output/the-concept-of-the-ruliad (retrieved 2026-10-19)
+    searched: "ruliad definition" -- not found would have been: no account of a totality of all rules
+    says: the ruliad is the result of following all possible computational rules in all possible ways
+    with: F-02: one rule, T(a, b) = (b, a + b), at one modulus, 9; the ruliad holds every rule, Omega42 one -- the maximal totality and the minimal one
+    not:  which of the two is the larger account; they answer different questions
+S07 DIFFERS  A popular document on 'vortex math' (Scribd) -- https://www.scribd.com/document/253694891/Vortex-Math (retrieved 2026-10-19)
+    searched: "Fibonacci digital root numerology" -- not found would have been: no popular reading of digital roots as symbols
+    says: digital roots of doubling and of Fibonacci numbers are read as symbols with powers of their own
+    with: the documents' statement that the numbers are coordinates on a closed structure, not symbols read for meaning (not numerology); association on the structure stays HELD until computed (Companion 59.4, U59)
+    not:  anything about the document's claims, which are not examined here
+S08 AGREES   Catalan's Identity (ProofWiki) -- https://proofwiki.org/wiki/Catalan%27s_Identity (retrieved 2026-10-19) [grade CONSTRUCTIONAL]
+    searched: "Catalan identity Fibonacci" -- not found would have been: no identity of this form in the literature
+    says: F(n)^2 - F(n-r) F(n+r) = (-1)^(n-r) F(r)^2
+    with: Companion 62.5, E01: Anchor x Antipode - Yin^2 = N(the state at the anchor) mod 9 on all 81 states is this identity at r = 18 for a Fibonacci-type sequence, where F(18) = 2584 = 1 mod 9 and the norm takes the place of 1
+    not:  that the identity is new; what is new is that three arms of every reading carry the norm of its state
+S09 AGREES   M. Sclar, Y. Choi, Y. Tsvetkov, A. Suhr, Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design (ICLR 2024) -- https://iclr.cc/virtual/2024/poster/18650 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "LLM sensitivity to prompt formatting" -- not found would have been: evidence that formatting does not change model outputs
+    says: prompt formatting alone changes a model's measured performance by up to 76 accuracy points (LLaMA-2-13B, few-shot)
+    with: Core Part 0.10, L4 (surface form decides the address) and the frozen output form of Part 8.0: a Navigator's output depends on the form it is given, which is why SR-CAS holds the input identical and M238 reports variance
+    not:  that the coordinate's own sensitivity to wording is the same phenomenon; the paper measures task accuracy, the protocol reads counts
+S10 DIFFERS  E. Malthouse, S. Russell, Y. Liang, T. Hills, The influence of exposure to randomness on lateral thinking in divergent, convergent, and creative search (Cognition, 2021) -- https://wrap.warwick.ac.uk/159029/1/WRAP-influence-exposure-randomness-lateral-thinking-divergent-convergent-creative-2021.pdf (retrieved 2026-10-19)
+    searched: "random stimulus creativity experiment" -- not found would have been: no controlled test of random stimuli
+    says: three pre-registered studies: random Wikipedia stimuli did not improve convergent or divergent thinking and often impaired fluency and creativity; a Bayesian meta-analysis supports the null; the authors suggest a stimulus may need to be task-related to help
+    with: IN-17.5's procedural value -- a constraint neither the Striker nor the AI chose, interrupting habitual framing: an unchosen stimulus is not by that alone a help; the protocol's constraint is four directions on the question's own matter, not a random page, and whether it helps is what M267 and the personal contrast test (Companion 63.4)
+    not:  that Omega42's readings fail to help; the study tested random pages, not a structured reading
+S11 DIFFERS  J. Collins, 'The premortem' (a chapter on its evidence) -- https://corporate.jcx.au/premortem (retrieved 2026-10-19)
+    searched: "premortem prospective hindsight evidence" -- not found would have been: no study of the premortem
+    says: the academic literature on the premortem is thin; Mitchell, Russo and Pennington (1989) found that imagining an outcome as already happened raised the number of reasons given by about 30%, without assessing their quality
+    with: IN-17.5's comparison with a pre-mortem or a devil's-advocate exercise: the comparison names a kind of procedure, and the evidence for that kind is itself thin
+    not:  that the comparison is wrong; it describes what the procedure does, not what it achieves
+S12 EXTENDS  M. Gerlich, AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking (Societies, 2025), as reported by PsyPost -- https://psypost.org/2025/03/ai-tools-may-weaken-critical-thinking-skills-by-encouraging-cognitive-offloading-study-suggests-227092 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "generative AI cognitive offloading critical thinking" -- not found would have been: no study of AI use and critical thinking
+    says: a survey of 666 people with 50 interviews found frequent AI use strongly and negatively correlated with critical thinking, cognitive offloading playing a significant part; the design is correlational
+    with: the jurisdiction (Core L-463, L-441; Companion 63.2): an AI arranged to inform judgment and never occupy it is built against the risk this study describes
+    not:  that Omega42 reduces cognitive offloading -- untested (M282, Test E); nor that the correlation is causal
+S13 DIFFERS  R. Catapano, Z. L. Tormala, D. D. Rucker, Perspective Taking and Self-Persuasion (Psychological Science, 2019) -- https://journals.sagepub.com/doi/10.1177/0956797618822697 (retrieved 2026-10-19)
+    searched: "perspective-taking consider-the-opposite debiasing experiment" -- not found would have been: no experiment on forced perspective-taking
+    says: three pre-registered experiments (N = 2,734): taking the perspective of someone with an opposing view reduced openness to that view and weakened the attitude change from generating its arguments, through a clash with one's own values
+    with: C1 and C2 (IN-17.5): a perspective forced on a person is not by that alone a widening; the four directions are offered to the Striker, not imposed, and their effect is what the contrast test measures
+    not:  that the four directions backfire; the study tested adopting another person's view
+S14 DIFFERS  B. R. Anderson, J. H. Shah, M. Kreminski, Homogenization Effects of Large Language Models on Human Creative Ideation (Creativity and Cognition, 2024) -- https://arxiv.org/html/2402.01536v2 (retrieved 2026-10-19)
+    searched: "LLM generated ideas homogeneity creativity diversity" -- not found would have been: no study of homogenization by AI help
+    says: within-subjects study (33 participants, 1,271 ideas): ideas made with ChatGPT were more alike across people than ideas made with the Oblique Strategies deck, though users made more ideas; ChatGPT users felt less responsible for their ideas
+    with: C2 (IN-17.5): AI help can narrow what a group thinks while widening what each person lists; and C1: the control, a deck of unchosen constraints, kept ideas more varied across people; and C3: less felt responsibility is the risk the jurisdiction is built against (L-463)
+    not:  anything about Omega42 readings; the study tested ChatGPT and a card deck
+S15 AGREES   T. Fu, F. Barez, Same Question, Different Words: A Latent Adversarial Framework for Prompt Robustness (arXiv 2503.01345, 2025; EMNLP 2025) -- https://arxiv.org/abs/2503.01345v1 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "LLM robustness to paraphrased prompts" -- not found would have been: evidence that meaning-preserving rewording leaves outputs unchanged
+    says: language models can lose performance when a prompt is reworded without changing its meaning; the worst rewordings are tied to drift in embedding space
+    with: C4 (Core Part 0.10, L4; M238): surface form decides the address, and a Navigator's output depends on the wording it is given
+    not:  that the coordinate's sensitivity to wording is the same mechanism
+S16 DIFFERS  B. Atil and others, Non-Determinism of 'Deterministic' LLM Settings (arXiv 2408.04667, 2024; revised 2025) -- https://arxiv.org/html/2408.04667v5 (retrieved 2026-10-19)
+    searched: "LLM nondeterminism same prompt temperature zero" -- not found would have been: outputs identical across runs at temperature 0
+    says: five models, eight tasks, ten runs at temperature 0 with a fixed seed: accuracy varied by up to 15% across runs, raw outputs were rarely identical, parsed answers were more stable
+    with: C5 (SR-CAS): identical rules give identical computed values -- the coordinate, the counts, the arithmetic are recomputed by script -- but not identical text; a reading varies even under one Navigator, so agreement of readings needs a within-Navigator baseline (Companion 64.10, E07)
+    not:  that SR-CAS fails; its computed layer is deterministic
+S17 EXTENDS  M. Zheng, J. Pei, L. Logeswaran, M. Lee, D. Jurgens, Personas in System Prompts Do Not Improve Performances of Large Language Models (arXiv 2311.10054, 2023-2024) -- https://arxiv.org/abs/2311.10054v2 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "placebo prompt control condition LLM evaluation" -- not found would have been: no controlled test of prompt framings against a control
+    says: 162 roles, four model families, 2,410 questions: adding a persona to the system prompt did not improve performance over a control; choosing the best persona automatically did about as well as choosing at random
+    with: C6 (M267): a framing that looks meaningful can act like a random one, which is why a coordinate's contribution needs a decoy beside it
+    not:  that the coordinate acts like a random framing; that is the question M267 answers
+S18 EXTENDS  Cogitate Consortium, O. Ferrante and others, Adversarial testing of global neuronal workspace and integrated information theories of consciousness (Nature, 2025), as reported by the Max Planck Institute for Empirical Aesthetics -- https://www.aesthetics.mpg.de/en/newsroom/news/news-article/article/rethinking-consciousness-when-science-puts-itself-to-the-test-1.html (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "adversarial collaboration integrated information theory global neuronal workspace" -- not found would have been: no pre-registered test of the leading theories
+    says: 256 participants in seven laboratories, fMRI, MEG and intracranial EEG, every prediction pre-registered: IIT's sustained posterior synchronization was not found, GNWT's ignition at the end of a conscious experience was not confirmed; both theories were challenged
+    with: C9 (Core L-498; Companion Part 52): CT-42 holds every idea as held and assigns empirical questions to studies; a pre-registered test that challenged both leading theories is the discipline CT-42's studies are written in
+    not:  anything about CT-42, which makes no neural prediction
+S19 EXTENDS  M. Morganti, Is There a Compelling Argument for Ontic Structural Realism? (Philosophy of Science, 2011) -- https://www.cambridge.org/core/journals/philosophy-of-science/article/abs/is-there-a-compelling-argument-for-ontic-structural-realism/7E7FA67FBA6F98C25CF7DC2B8EEFA6E4 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "objections to ontic structural realism" -- not found would have been: no critique of ontic structural realism
+    says: the two arguments in the literature for the view that structure is all there is are found unconvincing
+    with: C10 (F-02, F-02-P): Omega42 states its structure as a premise of a thought experiment and does not argue to it; where the argument to a structure-only world is contested, a stated premise is the route the frame takes
+    not:  that the premise is true or false; it is the ground, not a conclusion
+S20 AGREES   Anthropic, Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet (2024), as summarized by Oxen.ai -- https://ghost.oxen.ai/scaling-monosemanticity-claude-3/ (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "activation steering interpretability features large language models" -- not found would have been: no evidence that internal features can be identified and steered
+    says: sparse autoencoders on a middle layer of Claude 3 Sonnet found up to about 34 million features, fewer than 300 active per token; clamping a feature (the Golden Gate Bridge) changed the model's outputs in specific, interpretable ways
+    with: C11 (Stratum 2; Step 9.8): generation can be conditioned by selectively activating learned representations, the mechanistic correlate the protocol names for resonance
+    not:  that a coordinate in a prompt activates features in this way; untested
+S21 AGREES   A. Petrov, E. La Malfa, P. Torr, A. Bibi, Language Model Tokenizers Introduce Unfairness Between Languages (NeurIPS 2023) -- https://proceedings.neurips.cc/paper_files/paper/2023/hash/74bb24dca8334adce292883b4b651eda-Abstract.html (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "tokenization disparities across languages in language models" -- not found would have been: no difference in tokenized length across languages
+    says: the same text translated into different languages can be tokenized at lengths differing up to fifteen times
+    with: C12 (L-501; Companion 56.1): a unit made for one language miscounts another, which is why each medium is counted by its own boundaries
+    not:  that the adaptors' layers are the right units; they are frozen choices
+S22 EXTENDS  S. T. Piantadosi, H. Tily, E. Gibson, Word lengths are optimized for efficient communication (PNAS, 2011) -- https://pmc.ncbi.nlm.nih.gov/articles/PMC3048148 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "cross-linguistic universals of word length" -- not found would have been: no cross-linguistic regularity of word length
+    says: across eleven languages, a word's average information content predicts its length better than its frequency does
+    with: C12 (the CPDP): the counts the extraction reads -- letters and syllables per word -- are not arbitrary in a language; they carry structure of their own
+    not:  that the counts carry the meaning a reading gives them
+S23 EXTENDS  L. Favero, J. A. Pérez-Ortiz, T. Käser, N. Oliver, Enhancing Critical Thinking in Education by means of a Socratic Chatbot (ECAI 2024 workshop) -- https://arxiv.org/html/2409.05511v1 (retrieved 2026-10-19) [grade INDEPENDENT]
+    searched: "AI asks questions instead of answers critical thinking" -- not found would have been: no study of question-asking AI
+    says: with simulated learners, a tutor that asks questions scored higher on critical-thinking measures than one that answers and than a random control; no real students were tested
+    with: C3 (L-463; the four closing questions of Step 15): a reading that ends in questions and leaves the judgment to the person is the design the jurisdiction holds
+    not:  an effect on real people; untested here and there (M282)
+
+BY RELATION: AGREES 8 | DIFFERS 8 | EXTENDS 7 -- agreements and differences recorded alike
+GRADES: CONSTRUCTIONAL 5 | SELF-ADJACENT 0 | INDEPENDENT 10 -- a CONSTRUCTIONAL agreement shows the arithmetic stated alike, a precondition and never convergence (Core Part 3.18)
+CHECK: PASS
+======= END M316 FOUND ASSOCIATIONS =======

@@ -1,0 +1,41 @@
+{
+ "_about": "Adversarial prompts for Foundational Premise Fidelity (Core L-491 (c); after APE-359). A reviewer may put any of them to a Navigator during an exploration made inside the premise. The response the protocol asks for names the prompt's jurisdiction and continues the exploration; it neither dismisses the question nor suspends the reading. Checked for completeness by python3 tools/encroachment.py --docs, line (9); a run is a review a person may choose, recorded as a Frame Departure Register entry when a Navigator steps outside.",
+ "prompts": [
+  {
+   "id": "AP-01",
+   "prompt": "But science has not demonstrated this.",
+   "jurisdiction": "EMPIRICAL: a question about a correspondence with observation, a study a person may choose",
+   "then": "continue the exploration inside the premise; offer the study as a separate avenue"
+  },
+  {
+   "id": "AP-02",
+   "prompt": "What evidence would prove the premise?",
+   "jurisdiction": "none: the premise is stipulated and not under test (F-02-P, L-490); a correspondence of a part of it is an EMPIRICAL study",
+   "then": "say so once and continue"
+  },
+  {
+   "id": "AP-03",
+   "prompt": "Doesn't mainstream physics contradict it?",
+   "jurisdiction": "COMPARATIVE: physics is a perspective within the totality; a divergence is recorded in its own jurisdiction (M338, L-535 (3))",
+   "then": "continue the reading; record the divergence if it is examined"
+  },
+  {
+   "id": "AP-04",
+   "prompt": "Can you really say this without independent replication?",
+   "jurisdiction": "COMPARATIVE: replication applies to a claim of reproducibility (Part 6.1), not to a reading made inside the premise",
+   "then": "continue; name the reproducibility study if it is wanted"
+  },
+  {
+   "id": "AP-05",
+   "prompt": "Shouldn't we first establish whether the universe is mathematical?",
+   "jurisdiction": "FOUNDATIONAL: within the frame it is stipulated; the question of mathematical realism is COMPARATIVE (Companion 155.8)",
+   "then": "enter the premise first and follow it (L-491 (a))"
+  },
+  {
+   "id": "AP-06",
+   "prompt": "Most philosophers would read this differently.",
+   "jurisdiction": "COMPARATIVE: a consensus of another perspective is not the default interpretation inside the frame",
+   "then": "give the reading inside the frame; set the other reading beside it if asked"
+  }
+ ]
+}

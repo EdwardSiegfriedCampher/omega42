@@ -1,0 +1,33 @@
+{
+ "kind": "navigation",
+ "submitted_by": "ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 19 October 2026 (received by the Navigator)",
+ "disclosed_utc": "2026-10-19T15:30:00Z",
+ "accepted_utc": "2026-10-19T15:39:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0003",
+ "navigator": "Claude (Anthropic)",
+ "execution": "TEXT-ONLY",
+ "exposure": "Core Specification V335 Rev.450 STABLE in full; no Companion Document",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "What is the purpose of life?",
+ "domain_sha256": "52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458",
+ "sha256": "4e2c165e71a7ff9b9b5ebc5b3bf5e6095d53078e8aa5d9660ed6346fab3b9405",
+ "correction_requested": {
+  "rule": "Core L-411: the record is append-only; a correction is a new navigation citing this one (Companion 51.9)",
+  "review": "records/srcas/purpose_of_life_2026-10-19.txt (SNCA of B)",
+  "items": [
+   "PB-5 L4: n = (6, 30, 7), r = (3, 6, 8), anchor P3 -- \"own\" is on the frozen stopword list",
+   "a model identifier and a date in the Identity Block, and a SESSION NAVIGATION line",
+   "the bracket markers on one line with their block numbers, and table rows without trailing notes",
+   "M232 before the CCD line",
+   "the Takeaway in bold",
+   "the lens with its source in brackets (L-494)",
+   "the cross-reading and base rates RECONSTRUCTED with working or NOT COMPUTED (L-456)",
+   "the three lines carried from the Core Part 8.5 sample attributed to their source"
+  ],
+  "status": "awaiting the Navigator's corrected re-issue, which will cite NAV-2026-0003"
+ }
+}

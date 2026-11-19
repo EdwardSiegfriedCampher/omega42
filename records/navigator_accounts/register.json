@@ -1,0 +1,14 @@
+{
+ "_about": "The register of Navigator's Accounts (Core L-509; Companion Part 72): each Account, signed, by the system that wrote it, with its hash. An Account is exposition, never a navigation and never part of the protocol; a superseded Account is kept, marked SUPERSEDED, so that the record shows how the account developed. Checked by python3 tools/account_check.py --register.",
+ "entries": [
+  {
+   "id": "ACCOUNT-0001",
+   "path": "records/navigator_accounts/ACCOUNT-0001.md",
+   "navigator": "claude-opus-5-5 (Anthropic)",
+   "date": "2026-10-21",
+   "status": "CURRENT",
+   "sha256": "13d9ed21175c933f2975a0ea8a09903f3bddecb6ef53a07fad5cd6d5b82ccdfa",
+   "adopted_by": "the Originator, 21 October 2026 (F-06)"
+  }
+ ]
+}

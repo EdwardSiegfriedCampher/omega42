@@ -1,0 +1,44 @@
+CALIBRATION RUN NAV-01 -- the Navigator's predictions, frozen before any computation (M347; records/instances/seq_0150.txt)
+SUBJECT: claude-opus-5-5 (Anthropic; serving model may differ), from memory and reasoning only, no tool run
+TASK: the Pisano period pi(n), the period of the Fibonacci sequence modulo n (= the order of A modulo n)
+FORMAT: n | predicted pi(n) | stated confidence that the prediction is exactly right
+2 | 3 | 0.99
+3 | 8 | 0.99
+4 | 6 | 0.97
+5 | 20 | 0.99
+6 | 24 | 0.95
+7 | 16 | 0.95
+8 | 12 | 0.90
+9 | 24 | 0.99
+10 | 60 | 0.97
+11 | 10 | 0.95
+12 | 24 | 0.90
+13 | 28 | 0.90
+14 | 48 | 0.85
+15 | 40 | 0.85
+16 | 24 | 0.80
+17 | 36 | 0.85
+18 | 24 | 0.85
+19 | 18 | 0.85
+20 | 60 | 0.85
+21 | 16 | 0.75
+22 | 30 | 0.80
+23 | 48 | 0.80
+24 | 24 | 0.85
+25 | 100 | 0.90
+26 | 84 | 0.75
+27 | 72 | 0.90
+28 | 48 | 0.75
+29 | 14 | 0.75
+30 | 120 | 0.80
+31 | 30 | 0.70
+37 | 76 | 0.65
+41 | 40 | 0.75
+43 | 88 | 0.65
+47 | 32 | 0.75
+53 | 108 | 0.60
+59 | 58 | 0.60
+61 | 60 | 0.60
+67 | 136 | 0.60
+71 | 70 | 0.60
+73 | 148 | 0.60

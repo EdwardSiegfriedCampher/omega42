@@ -1,0 +1,23 @@
+name: Register as a contributor
+description: Join the record as a contributor and receive the monthly newsletter. No submission is needed.
+title: '[Register] '
+labels:
+- registration
+body:
+- type: markdown
+  attributes:
+    value: Registering lists your handle as a contributor (community/contributors.json) and makes you eligible for the monthly newsletter, which goes only to registered contributors, to everyone who submits Ω42-generated content, and to users of the commercial applications (community/NEWSLETTER.md). **Do not post your email here.** After acceptance you receive a private invitation from the newsletter provider, where you give your address and confirm it.
+- type: input
+  attributes:
+    label: Name or handle for attribution
+    description: As it should appear in the record. A handle is enough.
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Terms
+    options:
+    - label: I agree that anything I later submit is published under CC BY 4.0 (text) and Apache-2.0 (code), as CONTRIBUTING.md states.
+      required: true
+    - label: I would like to receive the monthly newsletter.
+      required: false

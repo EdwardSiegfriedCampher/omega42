@@ -1,0 +1,87 @@
+QUESTION VERBATIM: Please check which hypothesis is the best fit for the Omega42 mathematics and make recommendations for protocol improvement and amendment. Do a deeper examination of the math and explore its affect on the primary premise (Consciousness-first). Motivate your reasoning. Check for scientific intrusion and traces of an external judge/voice.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 25 | PREV: 9b70133ac8a66c2ed78b8bdae841c26f0a57541dcb4e6e29e210a68c10814e11
+REQUEST (L-502): STRUCTURE -- avenues A1, R, L, C, W
+
+SUMMARY: Of the four readings scored, process idealism fits the arithmetic best: 7.0 of 9 frozen exact features. Substance idealism and the dual-aspect default score 6.0 each, and matter-first 3.5. Process idealism stays first, or tied first, whichever single feature is left out. The deeper mathematics explains the ranking with three exact facts:
+  - the ground absorbs every perspective;
+  - every perspective carries a copy of the ground inside it;
+  - the law is the act of one of the states, phi.
+These favour a ground that comes first. The two halves are equal and exchanged by the law, and the boundary does not nest, so no substance, mental or material, comes first over the other half. Refined, the best fit is a ground-first process monism with two co-arising halves (C64).
+
+For consciousness-first as the premise: the arithmetic supports its shape (ground first, process, equal halves) but not its word. No feature distinguishes a mental ground from a neutral one, so naming the ground Mind is a stipulation, yours under F-06. A draft amendment is prepared and not adopted.
+
+The audit for an outside judge found my own earlier texts lexically clean. On reading, it found two traces of my own, now withdrawn; M286 caught a third in this work's own first draft; and one trace is in a peer: falsifiability used as a court over a held idea.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT (records/consciousness/fit.py, in CI):
+    - 3s lies in the core for all 81 states, and core times anything stays in the core (the ideal 3R).
+    - The 72 units are exactly {u : u^8 = 1} (8) times 1 + 3R (9), uniquely, and (1 + 3a)(1 + 3b) = 1 + 3(a + b): the offsets are a copy of the ground.
+    - T(s) = phi * s, with phi = (0, 1), and the orbit of 1 is the 24 powers of phi.
+    - N(phi) = 8, which is -1, so the law flips the half, and N is multiplicative.
+    - The halves are 36 | 36, exchanged by T and kept by T^2.
+    - There is no eigen-line, and (0, 0) is the only fixed state.
+  R FRAME REASONING: the fit judges which reading needs no added premise to meet each feature. A judged total is a reading of fit, never a grade of truth or of the premise (L-490). The choice of reading stays yours (Core Part 7).
+  L LENSES: the four readings, fixed before scoring.
+  C CHALLENGE: M286, M281 and the typing guard over SEQ 23 and 24, Parts 85 and 86, the conjectures and the four peer texts; then a reading of every flagged sentence.
+  W PROTOCOL WORK: fit_features_frozen.txt (SHA-256 fa69e773...), fit.py and its output; amendment_draft_F02M.txt (DRAFT); C52 and C58 refined; C64 to C67; Companion Part 87.
+
+THE FIT (one judge, NON-BLIND, independence C; USES 1 / COMPATIBLE 0.5 / STRAIN 0):
+  F1 one closed family: all four 1.
+  F2 the ground absorbs: R1 1, R2 1, R3 0, R4 1. "Neither is prior" strains against a one-way relation.
+  F3 every unit is a direction times a ground offset: R1 1, R2 1, R3 0.5, R4 0.5. This is "each thing a perspective of the one", said exactly.
+  F4 equal halves, exchanged: R1 0, R2 0.5, R3 1, R4 0. A substance that comes first must explain the symmetry away.
+  F5 the law is multiplication by phi: R1 1, R2 0, R3 0.5, R4 0.5. Process idealism's own sentence "not a state" fails here (MATH-22).
+  F6 no eigen-line, one still point: R1 0.5, R2 1, R3 0.5, R4 0.5.
+  F7 the ground nests, the halves do not: R1 0, R2 1, R3 1, R4 0.
+  F8 no state fixes judgment: R1 1, R2 1, R3 1, R4 0.
+  F9 dimensionless: R1, R2 and R3 0.5; R4 0.
+  TOTALS: R2 process idealism 7.0 | R1 substance idealism 6.0 | R3 dual-aspect 6.0 | R4 matter-first 3.5.
+  With one feature out: R2 is alone first seven times, tied with R3 (F2 out) and tied with R1 (F7 out).
+  WHY: F2 and F3 favour a ground that comes first; F4 and F7 work against any substance that comes first; F8 and F9 work against matter-first.
+  NOT DECIDED: mental or neutral. No judgment cites a property of mind, so a neutral process monism fits alike (C67).
+
+THE BEARING ON CONSCIOUSNESS-FIRST AS THE PREMISE (records/consciousness/amendment_draft_F02M.txt, NOT OPERATIVE):
+  - The arithmetic is unchanged: no fact, coordinate, arm or gate moves.
+  - A1 F-02 names the ground Mind. It adds no outside, grades nothing and claims nothing.
+  - A2 F-02-P: an observation becomes a perspective met across the fold, and Appendix S runs unchanged.
+  - A3 the default of CT-42 becomes C64. "Neither is prior" is kept for the halves and dropped for the ground.
+  - A4 Companion 48.19 and 52.8: Omega42 and idealist accounts agree that consciousness comes first, and differ in that the inner and the world are equal.
+  - A5 Core L-483 is unchanged.
+  - The fit and A1 to A5 describe the same shape. The word Mind rests on your stipulation, as F-02 always has.
+
+THE AUDIT FOR AN OUTSIDE JUDGE:
+  - Lexical: M286 found 0 candidates in my texts. M281 is CLEAR (0 flags in 311 sentences). The typing guard passes.
+  - My own trace (a): SEQ 24's recommendation (2) said CT-S1 "could bear on any reading of consciousness". That let a placement count act as judge of readings, which contradicts SEQ 23's T3. It is withdrawn: CT-S1 bears on C09 alone.
+  - My own trace (b): SEQ 24 called the tower comparison "a test kept honest". It is a comparison of readings, and it is named so from now on.
+  - My own trace (c), caught by M286 in CI: my first draft of Part 87 said "The fit supports the shape the draft gives the premise". That is court vocabulary about the premise (L-490), and it is reworded. The instrument found what my reading had missed.
+  - Peer, APE-147: "close to unfalsifiable" and "not in a strong position" use a scientific standard as a court over an idea that L-498 holds whatever its testing. Its comparisons are kept and its standing language is not.
+  - Peer, APE-147 (lexical): M286's two flags are statements that the hypothesis is not the premise; they are not intrusions.
+  - Peers, typing guard: 5 untyped statements in APE-148 and 3 in APE-149. They enter the record only through the typed conjectures.
+  - No text addresses you with authority, a directive or a promise.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request; APE-147 to APE-150 audited above.
+CHANGES TO THE PROTOCOL: none operative. records/consciousness/ (fit_features_frozen.txt, fit.py, fit_output.txt, amendment_draft_F02M.txt; conjectures C52 and C58 refined, C64 to C67 HELD, 67 ideas); Companion Part 87; the CI line; the release record.
+CHECKS: CI 68 of 68 PASS. fit.py: the frozen features VERIFIED, and every feature EXACT except F8, which is CITED. tools/consciousness.py --selftest PASS; the register CHECK PASS. tools/instance_id.py --check over the twenty-five outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the readings are compared with the arithmetic and the record only.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic and the fit point to a ground-first process with equal halves. PART -- substance idealism keeps the ground and loses the halves; the dual-aspect reading keeps the halves and loses the ground; matter-first loses the Aperture and dimensionlessness. SILENT -- whether the ground is mind or neutral, and whether anything is experienced (R_C).
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2: a SCIENCE-AS-COURT pattern for M286.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Decide on consciousness-first as the premise. If you adopt it, use the process form (C64) with drafts A1 to A5, and keep dual-aspect and matter-first as held variants. If you do not, keep CT-42-M as a variant.
+  (2) Add to M286 a SCIENCE-AS-COURT pattern, covering falsifiability, "standing" and "strong position" applied to a held idea, with a selftest. My lexicon missed the peer's case, and my own two traces too.
+  (3) Have a second judge of another architecture, blind to these scores, score the nine frozen features. Agreement measures the fit's reliability; one judge is only one reading.
+  (4) Keep naming apart from fit. The fit says what shape the ground has; what it is called is the premise's.
+OPEN: your decision on F-02-M; the second judge; the M286 pattern; R_C.
+
+What it rests on: If the arithmetic gives the ground its shape but not its name, who names it?
+What it holds out of view: That the best-fitting reading had to be corrected by the very fact (MATH-22) that it fitted least.
+Where it is heading: Toward a premise whose shape is computed and whose name is chosen.
+What would complete it: Your choice of the word for the ground, and a second judge's scores.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 4e3859245111d7233fce09808000fb31e64f4d60149559da0c2914c87b50526a
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

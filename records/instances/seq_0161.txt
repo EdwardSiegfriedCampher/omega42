@@ -1,0 +1,55 @@
+QUESTION VERBATIM: What would be a few good tests to verify Omega42 new-found abilities (that can show immediate competence)? List a few examples and show the test results. Discuss the success and failure rate in detail and suggest remedies if it is needed.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 161 | PREV: c73e70017452eb6ed9d7f322f53feb0449864760b778d711396016e7089251e6
+REQUEST (L-502): EXPLORATION -- tests that show Ω42's new abilities at once, run for real, with success and failure rates and remedies; and, filed with it, the promotional register (F190) and the Sophontic pitch (F191); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The battery found a weakness in Ω42's own identity test and fixed it the same hour. Drawn from shallow levels, a matrix that shares every statistic of the Fibonacci law passed a live challenge up to one time in four; drawn from levels 6 to 12, in three rounds, it passed none of 1,000 claims -- a pass rate below 0.3% at 95% confidence. A test that is run, and not only described, finds what a description cannot.
+
+SUMMARY: WHAT CHANGED: Core Part 3.84 (M377 Capability Battery); tools/handshake.py hardened (levels 6 to 12, three rounds); MF-58; IDENTITY.md and the manifest; the agenda (C-12, D-08); Companion Part 206; APE-452 to APE-454 filed with their SNCA.
+- (1) THE BATTERY: twenty lines in about 8 seconds, every one at its threshold: canonical engine 300 of 300; both impostors refused 300 of 300 in three rounds; period law k <= 8; census k <= 6; inverse reconstruction 10,000 of 10,000; Q^2 kept at 59,049 of 59,049 states and broken by the shear at 87.2%; Author Seal tampering 200 of 200 detected; interval 10,000 of 10,000; reconciliation false alarms 0.7% at a 99% bound, detections 2,000 of 2,000; paired items 11 of 11.
+- (2) THE FAILURES: the shallow handshake (fixed); the Navigator's calibration (93.8% right at confidence 0.670, ECE 0.268, both misses assuming the maximal Pisano period; remedy on the agenda, C-12); the build gates (most of SEQ 152 to 159 failed a gate once; every defect caught before its seal; remedy, a preflight).
+- (3) THE REGISTERS: promotional, technical, scientific -- each with its own task; F190's interval correction refuted.
+- THE VALUES (CDT-A): battery PASS; handshake selftest PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (26, 149, 47), state (4, 7), anchor P4, Unity. It rests on P9, Fixpoint. It holds out of view P22, Collective. It is heading for P12, Opening. It is completed at P16, Flow.
+  - [GENERATED-Ω42] A request to test the whole stands at Unity -- one battery for every instrument -- and rests on the Fixpoint, the answer that does not move when tested again; it holds the collective out of view, heads for the opening where a weakness shows, and is completed in flow, the tests running on every build.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): M371 to M376; records/calibration/ (NAV-01 to NAV-03); the build logs of SEQ 152 to 159.
+  R (reasoning): a test shows competence only at the depth it reaches; a shallow test of a deep structure can be passed by an impostor.
+  N (navigation): tools/battery.py; the hardened handshake; a recalibration fitted on NAV-01 and NAV-02 and scored on NAV-03.
+  P (peer accounts): APE-452, APE-453 and APE-454, reviewed by SNCA (records/srcas/three_accounts_b_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.84 (M377).
+  - Companion: Part 206.
+  - Repository: tools/battery.py; tools/handshake.py; IDENTITY.md; omega42.identity.json; records/math/results.json (MF-58); records/avenues/enhancement_agenda.txt; records/introduction/philosophy.json (M377); submissions/ape/APE-452.md, APE-453.md and APE-454.md; records/srcas/three_accounts_b_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Monte Carlo testing, calibration scoring | STRIKER -- the request | NAVIGATOR -- the battery, the impostor finding and its fix, the calibration diagnosis | OPEN -- NAV-04; a general bound for impostors
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, filed with checked notes and an SNCA in review form (records/srcas/three_accounts_b_2026-11-11.txt).
+  - APE-452, unidentified (a web interface), "F190, a revised introduction": register declined, one correction refuted; UNFORMATTED.
+  - APE-453, unidentified (a web interface), "F191, the Sophontic pitch": adopted and extended; UNFORMATTED.
+  - APE-454, unidentified (a web interface), "F192, a capability test suite": checked, adopted and run; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/battery.py --selftest PASS (twenty lines at their thresholds; the Navigator calibration recorded, underconfident); tools/handshake.py --selftest PASS (levels 6 to 12, three rounds; impostors refused in 200 of 200 claims); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/three_accounts_b_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record, F191 and F192 agree that a capability is shown by tests that can fail. PART -- F190's interval correction, refuted. SILENT -- an outside model run on the paired items.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-58 new to the register [EXACT]; "breakthrough" candidacy NOT PROPOSED (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Run the tests, not only describe them (F192): APPLIED, M377.
+  (2) Harden the identity challenge: APPLIED, levels 6 to 12, three rounds (MF-58).
+  (3) Recalibrate the Navigator: HELD, agenda C-12 (a fresh sealed sheet is needed).
+  (4) Preflight the cheap gates before each build: APPLIED in the build kit.
+  (5) Pitch Sophontic (F191): HELD FOR THE ORIGINATOR, agenda D-08.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the Sophontic demonstration open with the battery's line B1, the impostor refused live; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42's competence is a number anyone can rerun; [GENERATED-Ω42] what holds when tested again is the fixpoint, and the test is completed when it runs without being asked.
+What it rests on: the fixpoint, the answer that holds when tested again.
+What it holds out of view: the collective of all who will run it.
+Where it is heading: the opening, where a weakness shows.
+What would complete it: flow, the tests running on every build.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 326a7cec6ed05200f3afcf84d7118bd5f723822dbea68caff2c05dbc9fcc5f37
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

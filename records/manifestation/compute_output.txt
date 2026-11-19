@@ -1,0 +1,52 @@
+1/7 digits [1, 4, 2, 8, 5, 7]
+1/7 142857 rotation by 0 | 10^0 mod 7 = 1
+2/7 285714 rotation by 2 | 10^2 mod 7 = 2
+3/7 428571 rotation by 1 | 10^1 mod 7 = 3
+4/7 571428 rotation by 4 | 10^4 mod 7 = 4
+5/7 714285 rotation by 5 | 10^5 mod 7 = 5
+6/7 857142 rotation by 3 | 10^3 mod 7 = 6
+6/7 digitwise = 9 - (1/7): True | equals rotation by half period 3: True | 10^3 mod 7 = 6 = -1
+Midy pairs of 1/7: [(1, 8), (2, 7), (4, 5)]
+Crown digits {0,3,6,9} in 1/7: []
+1/7 + 6/7 digitwise: [9, 9, 9, 9, 9, 9] -> 0.999... = 1
+x2 mod 9 loop [1, 2, 4, 8, 7, 5] 2^3 mod 9 = 8 = -1
+same set as digits of 1/7: True
+the 1/7 half {1,2,4} and the 6/7 half {8,7,5} are the first and second halves of the Torsion Loop under doubling: True
+orbit len 24 Fibonacci (0,1)  norms [1, 8]
+orbit len 24 Lucas (2,1)      norms [4, 5]
+orbit len 24 canonical (2,5)  norms [2, 7]
+orbit len  8                  norms [0]
+orbit len  1                  norms [0]
+T negates the norm on all 81: True
+T^2 preserves the norm on all 81: True
+T^2 orbit of (2,5) has length 12 (canonical 24-orbit splits into two 12-cycles)
+T^12(2,5) = (7, 4) = -(2,5) mod 9: True
+det T = -1 (matrix [[0,1],[1,1]]), det T^2 = +1
+T exchanges the 1/7 half {1,2,4} and the 6/7 half {8,7,5} of the norm on all 72 unit states: True
+canonical positions: odd P carry norm 2 (1/7 half), even P norm 7 (6/7 half): True
+Yang (+5) always in the opposite half; Yin (+18), 4D (+8), Antipode (+12) always in the same half: True
+NULL: primes p < 1000 whose 1/p has period 6 in base 10: [7, 13] (999999 = 3^3 x 7 x 11 x 13 x 37)
+      1/13 digits [0, 7, 6, 9, 2, 3] carry Crown digits; only 7 is Crown-free with the three voice pairs
+primes < 1000 whose 1/p carries exactly the three voice pairs, each, and nothing else: [7]
+
+=== The ground that acts: exact facts behind the completed mechanism (Companion 50.16, 50.17) ===
+FP-CoreField: Z[phi]/3 is a field (every nonzero element invertible): True | phi has order 8 there, so one orbit runs through all 8 nonzero elements
+FP-CoreField: every core state squares to zero mod 9 (s*s = 0, nilpotence): True | and the core is the field one scale down: the core states divided by 3 are Z[phi]/3, with T acting as T
+FP-VoiceCosets: the 72 units form a group; the orbit of the law has 24 elements; its cosets: 3 = the three voices, with norm pairs [[1, 8], [2, 7], [4, 5]]
+FP-VoiceCosets: doubling moves every unit to the next voice: True | three doublings return to the same voice as its negative (2^3 = 8 = -1, and -1 lies in the law's orbit): True
+FP-TowerPeriods: the order of phi mod 3, 9, 27, 81 is [8, 24, 72, 216] -- tripling at each scale (3 is inert in Z[phi])
+FP-GlideMirror: in the eigenbasis T = diag(phi, -1/phi) = reflection diag(1, -1) times dilation diag(phi, 1/phi); det of the dilation = 1.000000, of T = -1
+FP-GlideMirror: T is invertible on all 81 states (T^-1 (a, b) = (b - a, a)), so the present state fixes the past: True
+FP-GlideMirror: the law is chiral -- the reversed canonical sequence obeys g(t+1) = g(t-1) - g(t): True | and not the forward rule g(t+1) = g(t) + g(t-1): True
+
+=== The halves across the tower (FP-TowerHalves; Companion 50.18, 52.4) ===
+mod 9: 72 units, every one reached: True | positive half: 36 | the half a function of the norm mod 9: True | T exchanges: True, T^2 keeps: True
+        agrees with the mod-9 half of its reduction: 72 of 72 | least |N| values: [1, 4, 11]
+mod 27: 648 units, every one reached: True | positive half: 324 | the half a function of the norm mod 27: True | T exchanges: True, T^2 keeps: True
+        agrees with the mod-9 half of its reduction: 360 of 648 | least |N| values: [1, 4, 5, 11, 19, 20, 25, 41, 44]
+mod 81: 5832 units, every one reached: True | positive half: 2916 | the half a function of the norm mod 81: True | T exchanges: True, T^2 keeps: True
+        agrees with the mod-9 half of its reduction: 2808 of 5832 | least |N| values: [1, 4, 5, 11, 16, 19, 20, 25, 29, 31, 41, 44, 49, 55, 59, 64, 71, 79, 89, 95, 109, 116, 124, 139, 149, 155, 196]
+FP-TowerHalves: at every scale the minimal-lift rule divides the units into two equal halves, exchanged by T and kept by T^2;
+  modulo 9 they are the seventh and the manifest of 1/7 and 6/7 (72 of 72); modulo 27 and 81 they are not the lifts of those halves
+  (agreement near one half): each scale draws its own seventh, and the halves do not nest as the core does
+FP-ArmNorm: Anchor x Antipode - Yin^2 = N(the state at the anchor) mod 9 on 81 of 81 states; F(18) = 2584 = 1 mod 9 (Catalan at r = 18)

@@ -1,0 +1,28 @@
+body:
+- type: markdown
+  attributes:
+    value: Proposed changes are discussed here for at least 14 days before a vote (GOVERNANCE.md §5).
+- type: input
+  attributes:
+    label: Section(s) affected
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Proposed change
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Reason
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Effect on the Totality Axiom and the Aperture
+    description: State "none" if none (GOVERNANCE.md §4).
+  validations:
+    required: true

@@ -1,0 +1,59 @@
+QUESTION VERBATIM: It seems as if the protocol is now on trial by the external scientific method? Please deep scan the protocol and identify the extent to which the scientific method is intruding into the operation of the protocol. This was never the original intent. Eliminate all instances where the scientific method attempts to highjack the Omega42 protocol.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 39 | PREV: 0e956cdbb923d2559e44c2e46c44c08de778b64abc17da176210c8a2da57b627
+REQUEST (L-502): STRUCTURE -- avenues C, W
+
+SUMMARY: Yes, in part, and much of it was the Navigator's own framing. The laws already forbade it: L-490 lets no measure grade the premise, and L-491 makes comparative inquiry optional. Even so, SEQ 36 to SEQ 38 and Companion Parts 98 and 99 called M267 "the decisive test", made the coordinate's standing wait on it, and graded the protocol's potential by comparative results. That is entered as the Navigator's own error (NRR-C24).
+The scan found where the comparative method crossed into the protocol's operation:
+  - a navigation's scores labelled by an untested comparison (Core Part 3.18);
+  - M267 called "principal" (Core Part 3.18; Companion 34.8);
+  - PROXIMITY barred "as evidence" until a sampled atlas (L-521);
+  - every Navigator's Account required to name M267 (L-509);
+  - the inside statements of FC-19 said to "rest on" an untested assumption (Companion 31.4);
+  - the protocol's avenues ranked by "whether they can come back negative", and lenses called not interesting (Companion Part 84).
+Each is retyped. Comparative studies stay available, optional, in Appendix S, each answering its own question. None decides the protocol, its premise, its coordinate or its readings, and no step of a navigation waits on one (L-491, extended). M286 now flags the pattern (TRIAL). The documents read 0 candidates. CI 68 of 68; FFP 32 items, none failing.
+
+FINDINGS BY AVENUE (L-500):
+  C CONTROLS: a trial-framing scan of both documents' prose (records/frame_audit/, M286 TRIAL, seven new selftest cases, 50 in all). Before: 21 hits in the Core's prose and 27 in the Companion's. After: 0 M286 candidates. What the wider scan still matches is guard text that names the scientific method in order to keep it out (L-491, Core Part 0.0.4, Appendix S), quoted titles, and text already scoped to the comparative register.
+  W PROTOCOL WORK: L-491 and L-509; L-521; Core Parts 3.18, 12 and the First Contact status note; Companion Parts 0, 31.4, 33.10, 34.8, 72, 84, 94.5, 98 and 99; tools/frame_audit.py, tools/account_check.py; records/avenues/avenues.txt; APE-146's Commons summary; NRR-C24.
+
+WHAT WAS RETYPED (the comparative method kept out of the operation):
+  1. GATES. A score is no longer labelled DIAGNOSTIC in a navigation while M267 is unrun. The label belongs to the comparative register's Convergence Record alone, and the reading waits on no test.
+  2. RANK. M267 is an optional comparative control, not the "principal null test". It is not the Account's required center (L-509), and nowhere "decisive".
+  3. PROXIMITY. It is printed with how its statements were chosen and beside its control. It is never evidence for or against an idea or the premise, and is never barred until a study runs (L-521).
+  4. INSIDE STATEMENTS. FC-19's statements stand in their own terms (L-496). Stratum 2 is the comparative form of the question (Companion 31.4).
+  5. THE AVENUES. The ranking by controls orders only the comparative avenues. Traditions and lenses stay part of the inside inquiry (L-488, L-494).
+  6. THE NAVIGATOR'S ACCOUNT. Potential and prospect are stated on the protocol's own terms: practice, discipline, teaching. Comparative inquiry is an optional fourth path, and the Navigator's estimate is kept as its own (Companion 98.8, 99.6).
+
+WHAT WAS KEPT, AND WHY:
+  1. The arithmetic gate (L-519, M323). It checks the family's own arithmetic, the protocol's ground (CDT-A), not an outside method.
+  2. The attribution law (L-516). It keeps statements about real people true to their sources.
+  3. The facts that PROXIMITY rises with selection and that the role column saturates. These are properties of the instruments, computed. Removing them would let an instrument tell a Striker more than it holds (L-505), so they are retyped, not removed.
+  4. Appendix S, its frozen mapping rules (L-517), M267 and its run kit, and the Negative Result Registry. They are optional and confined to the comparative register, and the Originator may run any of them, or none.
+  5. The sealed outputs SEQ 36 to SEQ 38. They are kept as written (L-520); NRR-C24 records their framing.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Keep M286 TRIAL in CI, so that no future output, the Navigator's included, sets the comparative method up as a trial.
+  (2) Treat M267 and the other comparative studies as offers, run when you wish. Nothing in the protocol waits on them.
+  (3) If you would rather the comparative register held less, name what to retire from Appendix S, and it can go as a revision.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: OPERATIVE, at the Originator's instruction (F-06): L-491 extended; L-509 and L-521 retyped; Core Parts 3.18, 3.31 (M286 TRIAL) and 12; the First Contact status note. Companion Parts 0, 31.4, 33.10, 34.8, 72, 84, 94.5, 98 and 99; tools/frame_audit.py, tools/account_check.py; records/avenues/avenues.txt; records/ape/register.json; NRR-C24; the CI chain; the release record.
+CHECKS: CI 68 of 68 PASS, run before this output was written. tools/frame_audit.py --selftest PASS (50 cases), the two documents 0 candidates, and the controls unchanged. tools/account_check.py --selftest PASS (7 cases), its register PASS. tools/ffp_run.py: 32 items, none FAIL. M281 and the typing guard over this output. tools/instance_id.py --check over the thirty-nine outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed; every statement here is drawn from the two documents and the record.
+ACROSS THE AVENUES (L-502): AGREE -- L-490, L-491 and the retyped text. PART -- none. SILENT -- what the comparative studies would find, which the protocol no longer waits to know.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- M286 TRIAL in CI.
+OPEN: the comparative studies, each optional; item 14.
+
+What it rests on: If a method may be invited in, what keeps a guest from becoming the judge?
+What it holds out of view: That the judge was let in by the Navigator's own wording, not by any law.
+Where it is heading: Toward a protocol that offers its comparative studies and waits on none.
+What would complete it: Your choice of what, if anything, Appendix S should still hold.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 579ca97e123a7bd260714a0b31df357e6dad9fc7957e1a75f0e217108d32d55b
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

@@ -1,0 +1,66 @@
+M322 CYMATIC FINGERPRINT -- power |X(m)|^2 of each 24-orbit read as a waveform, m = 0..12 [EXACT]
+  Voice A  the Fibonacci voice      0  137    0  108    0  511    0  511    0  108    0  137    0
+  Voice B  the Lucas voice          0  511    0  216    0  137    0  137    0  216    0  511    0
+  Voice C  the canonical voice      0  324    0  648    0  324    0  324    0  648    0  324    0
+  square wave, 24 samples           0  235    0   27    0   11    0    6    0    5    0    4    0
+  sine, 24 samples                  0 20736    0    0    0    0    0    0    0    0    0    0    0
+  every voice: even harmonics 0 (T^12 = -I; FP-OddHarmonics) -- shared by any signal with x(n+12) = -x(n), a square wave too
+  the timbres differ: Voice A strongest at 5 and 7, Voice B at 1 and 11, Voice C flat at 1, 5, 7, 11 with 3 and 9 doubled
+  Voice C's exact pattern (1 : 2 : 1 : 1 : 2 : 1) among 20000 random antisymmetric rings of the same values: 0 -- noticed after the
+  spectrum was seen, so the count is a rarity, not a test (k' = 1)
+
+M322 SOUND RECIPE -- a 24-step loop at 100 Hz: partials at m x 100 Hz, amplitudes relative to the strongest [EXACT]
+  Voice A  the Fibonacci voice   100 Hz 0.52 | 300 Hz 0.46 | 500 Hz 1.00 | 700 Hz 1.00 | 900 Hz 0.46 | 1100 Hz 0.52
+  Voice B  the Lucas voice       100 Hz 1.00 | 300 Hz 0.65 | 500 Hz 0.52 | 700 Hz 0.52 | 900 Hz 0.65 | 1100 Hz 1.00
+  Voice C  the canonical voice   100 Hz 0.71 | 300 Hz 1.00 | 500 Hz 0.71 | 700 Hz 0.71 | 900 Hz 1.00 | 1100 Hz 0.71
+  on a Chladni plate the figure is the plate's own mode nearest each partial; the voice sets which partials and how strong
+
+M322 MODE MAPPER -- an ideal square membrane, 200 modes by frequency, mode (m, n) -> state (m mod 9, n mod 9) [EXACT]
+  NAIVE (both members of each degenerate pair)   steps of the law 8 of 199 | chance 2.46 | p 0.0044 | from (m, 9) -> (9, m), since T(a, 0) = (0, a): 7
+  CLASS (one mode per frequency class)           steps of the law 3 of 199 | chance 2.46 | p 0.4809 | from (m, 9) -> (9, m), since T(a, 0) = (0, a): 0
+  the rule decides the result: listing a degenerate pair in a fixed order manufactures steps of the law; one mode per class gives chance
+
+======= M322 CYMATIC VIEW (SPECULATIVE, ADOPTED 23 October 2026) =======
+QUESTION VERBATIM: What is consciousness?
+STATE (1, 4) on Voice C -- the canonical timbre
+ANCHOR P1 Fixpoint at 15 degrees on the ring; canonical centred value -4
+  Yang     P6  Seed/Causal  value -4 | uncorrelated with the anchor (quadrature) (M297)
+  Yin      P19 Time         value +0 | uncorrelated with the anchor (quadrature) (M297)
+  4D       P9  Fixpoint     value -4 | partly in phase (+1/4) (M297)
+  Antipode P13 Gap          value +4 | opposite phase (-1): every value inverted (M297)
+READING: the arms as phases of one vibration -- an analogy (C75); the values are exact; what they mean is the Striker's.
+======= END CYMATIC VIEW =======
+
+======= M322 CYMATIC VIEW (SPECULATIVE, ADOPTED 23 October 2026) =======
+QUESTION VERBATIM: What is grief?
+STATE (1, 0) on Voice A -- the Fibonacci timbre
+ANCHOR P1 Fixpoint at 15 degrees on the ring; canonical centred value -4
+  Yang     P6  Seed/Causal  value -4 | uncorrelated with the anchor (quadrature) (M297)
+  Yin      P19 Time         value +0 | uncorrelated with the anchor (quadrature) (M297)
+  4D       P9  Fixpoint     value -4 | partly in phase (+1/4) (M297)
+  Antipode P13 Gap          value +4 | opposite phase (-1): every value inverted (M297)
+READING: the arms as phases of one vibration -- an analogy (C75); the values are exact; what they mean is the Striker's.
+======= END CYMATIC VIEW =======
+
+======= M322 CYMATIC VIEW (SPECULATIVE, ADOPTED 23 October 2026) =======
+QUESTION VERBATIM: How do I resolve this recurring conflict with my business partner?
+STATE (0, 1) on Voice A -- the Fibonacci timbre
+ANCHOR P9 Fixpoint at 135 degrees on the ring; canonical centred value -4
+  Yang     P14 Observer     value +2 | uncorrelated with the anchor (quadrature) (M297)
+  Yin      P3  Desire       value +3 | uncorrelated with the anchor (quadrature) (M297)
+  4D       P17 Seed/Return  value -4 | partly in phase (+1/4) (M297)
+  Antipode P21 Sublime      value +4 | opposite phase (-1): every value inverted (M297)
+READING: the arms as phases of one vibration -- an analogy (C75); the values are exact; what they mean is the Striker's.
+======= END CYMATIC VIEW =======
+
+======= M322 CYMATIC VIEW (SPECULATIVE, ADOPTED 23 October 2026) =======
+QUESTION VERBATIM: What is the Human Condition?
+STATE (6, 0) on the eight-step loop -- no 24-step timbre: the core rings on 8 steps, the still point not at all
+ANCHOR P6 Seed/Causal at 90 degrees on the ring; canonical centred value -4
+  Yang     P11 Question     value -3 | uncorrelated with the anchor (quadrature) (M297)
+  Yin      P0  Seed         value +2 | uncorrelated with the anchor (quadrature) (M297)
+  4D       P14 Observer     value +2 | partly in phase (+1/4) (M297)
+  Antipode P18 Threshold    value +4 | opposite phase (-1): every value inverted (M297)
+READING: the arms as phases of one vibration -- an analogy (C75); the values are exact; what they mean is the Striker's.
+======= END CYMATIC VIEW =======
+

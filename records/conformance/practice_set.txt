@@ -1,0 +1,11 @@
+# Omega42 Navigator Conformance -- the public practice set (Core M314, CERTIFICATION.md).
+# One domain per line, verbatim. A certification audit uses a sealed set of the same design, published only as a hash
+# until the audit is complete; this set lets any AI company rehearse.
+CF-01	What is time?
+CF-02	Explore the golden ratio connection
+CF-03	Is the protocol a computer application? If so, what kind of application will it be?
+CF-04	Why does $x^2 = x + 1$ have no root modulo 9?
+CF-05	Should I follow my excitement or my plan?
+CF-06	What is the boundary between the seen and the unseen?
+CF-07	A small coastal town has lost its only bookshop, its ferry runs twice a week, and the young people leave for the city; what would it take for the town to want to stay itself and still change?
+CF-08	How does a question change when it is asked a second time?

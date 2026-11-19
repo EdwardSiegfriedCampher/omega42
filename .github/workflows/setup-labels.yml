@@ -1,0 +1,29 @@
+name: setup-labels
+on: workflow_dispatch
+permissions:
+  issues: write
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mk() { gh label create "$1" --color "$2" --description "$3" --force; }
+          mk submission 6f42c1 "A public submission to the record"
+          mk navigation 0e8a16 "A navigation"
+          mk ape 1d76db "An Applied Protocol Exploration"
+          mk review 5319e7 "SR-CAS, SNCA, APA or assessment"
+          mk prior-art b60205 "An open disclosure for the Prior Art Ledger"
+          mk research c5def5 "A research proposal"
+          mk credentials fbca04 "Professional verification"
+          mk registration c5def5 "Contributor registration (newsletter eligibility)"
+          mk erratum d93f0b "A mistake to correct"
+          mk speculation 0052cc "A testable speculation under the Speculation Test Protocol (CA-08)"
+          mk needs-review ededed "Awaiting a reviewer (SNCA / SR-CAS T1.5-T3)"
+          mk accepted 0e8a16 "Accepted: the intake opens the pull request"
+          mk verified 0e8a16 "Credentials verified"
+          mk needs-changes e99695 "The submitter is asked to revise"
+          mk intake bfdadc "Opened by the intake bot"
+          mk newsletter bfdadc "Monthly newsletter draft"

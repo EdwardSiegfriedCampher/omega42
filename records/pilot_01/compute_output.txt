@@ -1,0 +1,15 @@
+PILOT 01 -- C11 method calibration (freeze SHA-256 in 02_freeze_sha256.txt)
+S0 family, mod 9                   K1 True  K2 True  K3 True  K4 True  | C11 PASS | S3 internal       | 3 longest orbit(s) of length 24; K3 met by 1; null states 9
+S1 quantum cat map, N = 9          K1 True  K2 True  K3 False K4 True  | C11 FAIL | S3 NOT MET (N)    | period of V 24; quantum observable: 1 nonzero odd levels; mean 0.000
+S2 cat-map ground, mod 6           K1 True  K2 True  K3 False K4 False | C11 FAIL | S3 NOT MET (N)    | period 24; 1 longest orbit(s) of length 24; K3 met by 0; null states 1
+S3 cat-map ground, mod 10          K1 False K2 False K3 False K4 False | C11 FAIL | S3 NOT MET (N)    | period 60; 1 longest orbit(s) of length 60; K3 met by 0; null states 5
+S4 cat-map ground, mod 12          K1 True  K2 False K3 False K4 False | C11 FAIL | S3 NOT MET (N)    | period 24; 5 longest orbit(s) of length 24; K3 met by 0; null states 4
+S5 cat-map ground, mod 16          K1 True  K2 False K3 False K4 False | C11 FAIL | S3 NOT MET (N)    | period 24; 8 longest orbit(s) of length 24; K3 met by 0; null states 16
+S6 cat-map ground, mod 18          K1 True  K2 True  K3 True  K4 True  | C11 PASS | S3 NOT MET (N)    | period 24; 13 longest orbit(s) of length 24; K3 met by 1; null states 9
+S7 plucked string                  K1 True  K2 False K3 False K4 False | C11 FAIL | S3 NOT MET        | sampled; even harmonics present
+S8 pipe closed at one end          K1 True  K2 True  K3 False K4 False | C11 FAIL | S3 NOT MET        | sampled; 6 nonzero odd levels
+S9 spin-1/2, 30 degrees per step   K1 True  K2 True  K3 False K4 False | C11 FAIL | S3 NOT MET (step) | period 24; U^12 = -I; observable: 1 nonzero odd levels
+S10 24-site ring rotation          K1 True  K2 False K3 False K4 False | C11 FAIL | S3 NOT MET        | shift^12 is a rotation by 12 sites, not a negation; observable: even harmonics present
+S11 SU(9)_1 twist T                K1 False K2 False K3 False K4 True  | C11 FAIL | S3 modulus 9 own  | order of T = 9; spins at half order None; null labels of the 81-anyon product 9; observable: even harmonics present
+S12 day-cycle model, hourly        K1 True  K2 False K3 False K4 False | C11 FAIL | S3 NOT MET        | even harmonics present
+CALIBRATION: FAIL -- S0 PASS; null systems passing C11: ['S6 cat-map ground, mod 18']; S1 (reported): FAIL

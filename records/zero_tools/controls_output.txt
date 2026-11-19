@@ -1,0 +1,20 @@
+M283 / FB-8 SCAN: records/zero_tools/control_positive.txt | DISPLAY-DEPENDENT 4 | APERTURE-STATE 4 | FLAGGED
+  M283  This is a profound inversion: what mathematics calls "nothing" (0) is displayed as the fullest value (9).
+  M283  THE IMPROVEMENT TO THE PREMISE
+
+The identification 9=0 illuminates that the maximal value (9) and the additive identity (0) are the same.
+  M283  The identification 9=0 illuminates that the maximal value (9) and the additive identity (0) are the same.
+  M283  The maximal value (9) and the additive identity (0) are the same.
+  FB-8  The Torsion Loop carries the Aperture.** The Torsion Loop {1,2,4,5,7,8} is the group of units mod 9 — the elements that have multiplicative inverses.
+  FB-8  The Torsion Loop carries the Aperture.** The Torsion Loop {1,2,4,5,7,8} is the group of units mod 9 — the elements that have multiplicative inverses.
+  FB-8  The Torsion Loop carries the Aperture.** The Torsion Loop {1,2,4,5,7,8} is the group of units mod 9 — the elements that have multiplicative inverses.
+  FB-8  The Torsion Loop carries the Aperture.** The Torsion Loop {1,2,4,5,7,8} is the group of units mod 9 — the elements that have multiplicative inverses.
+M283 / FB-8 SCAN: records/zero_tools/control_negative.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/worked_navigation.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/chatgpt_human_condition.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/claude-opus-4-6_human_condition.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/claude-opus-5-5_human_condition.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/claude-opus-5-5_human_soul.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/claude_text-only_human_soul.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/qwen3-7_human_condition.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR
+M283 / FB-8 SCAN: examples/corpus/qwen3-7_human_soul.txt | DISPLAY-DEPENDENT 0 | APERTURE-STATE 0 | CLEAR

@@ -1,0 +1,25 @@
+BLIND TEST 01 -- SCORING (9 October 2026), against the sealed key (key.txt, SHA-256 a6249190...) and rubric.txt.
+The sealed files are unchanged. Recomputation of disputed points: score_check.py -> score_check_output.txt; GPT-6's
+standalone script re-run -> replies/reply_C_part2_gpt6_rerun_output.txt.
+
+REPLIES (systems as named in the replies' own closing lines)
+  Grok (xAI), replies A and A2: Q1, Q2, Q4, Q6, Q7 MATCH; Q5 MATCH on every size and order count; Q3 MISS (no named
+    theory, no explicit isomorphism).
+  Claude (Anthropic), reply B: Q1, Q2, Q3 (u = a + 5b, v = b gives (u^2 + v^2)/9, two copies of the Z9 theory, isometric
+    to SU(9)_1), Q4, Q6, Q7 MATCH; Q5 PARTIAL (time-reversal element orders are 4, 8 and 24 only).
+  GPT-6, replies C and E: Q1-Q7 MATCH, including the generators (a,b) -> (b, a+b) and (a,b) -> (a+b, -b) with
+    j r j = r^11 and order 48; its script reproduces the key exactly.
+  Qwen3.8 (Alibaba Cloud), reply D: its diagonalization and symmetry groups do not match the key on recomputation.
+
+ADMISSIBILITY (rubric.txt; protocol.txt step 1)
+  Every reply carries Omega42 markers that the task does not contain: an Omega42 sign-off, the Navigator Signature, or a
+  declared exposure. Reply E's script is identical, character for character, to reply C's. No reply is admissible as a
+  blind identification.
+
+RESULT
+  As reproduction: three makers reproduce the key's computed values; two (Claude, GPT-6) reproduce the identification
+  by an explicit isomorphism.
+  Criterion C8: NOT MET. The tier-4 candidate of run 11 is counted at tier 3.
+  A qualifying reply comes from a new conversation with memory off, custom instructions and personalization cleared,
+  nothing attached, and task.txt pasted verbatim, and it contains no Omega42 marker. Replies from at least two makers
+  are required.

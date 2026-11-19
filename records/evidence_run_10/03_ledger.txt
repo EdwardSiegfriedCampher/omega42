@@ -1,0 +1,36 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 10 -- A MODULUS SUPPLIED BY PHYSICS: RESULTS AND LEDGER ENTRIES
+Freeze: 00_freeze.txt, SHA-256 8ce55e86d1fe19b25e19301d87e4930d7fdb20ec0e1ef850070afd879434f7c8, 2026-10-09T14:41Z.
+Computations: compute.py -> compute_output.txt (standard library only). Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+
+K1  THE FIBONACCI THEORY: THE GOLDEN LAW FIXES A PHYSICAL QUANTITY MODULO 8
+  From the fusion rule tau x tau = 1 + tau alone the quantum dimension obeys d^2 = d + 1, so d = phi. The Gauss-Milgram sum,
+  exp(2 pi i c/8) = (1/D) sum d_a^2 theta_a, has unit modulus only for theta_tau = exp(+-4 pi i/5), and then gives the chiral
+  central charge c = 14/5 or 26/5 modulo 8. Frozen prediction CONFIRMED: the golden quantum dimension enters the sum and fixes c
+  modulo 8. Here physics supplies the modulus 8 -- the bulk anyon data determine c only modulo 8 -- and the golden law
+  supplies the value. Status of the object: Fibonacci string-net order and its anyons have been prepared on a superconducting
+  quantum processor, with braiding yielding the golden ratio at about 98% average accuracy (arXiv:2406.12820).
+K2  THE E8 LINK
+  Sugawara central charges at level 1: (G2)_1 = 14/5 (the Fibonacci theory), (F4)_1 = 26/5 (its conjugate), (E8)_1 = 8;
+  14/5 + 26/5 = 8 exactly (frozen prediction CONFIRMED). The Fibonacci theory and its conjugate together make E8, and E8_1,
+  with c = 8, is 0 modulo 8: it has no anyons and is invisible to the anyon data.
+K3  THE MOD-24 LAYER
+  The framing phase exp(-2 pi i c/24), fixed by modular invariance, is a primitive cube root of unity for one and two copies
+  of E8_1 and closes exactly at three copies, c = 24 -- the dimension of the Leech lattice and the central charge of its
+  conformal field theory -- and every multiple of three thereafter (frozen prediction CONFIRMED). With Z/24 = Z/8 x Z/3, one
+  E8_1 has returned in the mod-8 layer and not in the mod-3 layer: an echo of run 08, where the mod-8 layer returns at the
+  half period while the mod-9 layer inverts. The echo is recorded as an analogy (CDT-C), not a correspondence.
+
+LEDGER ENTRIES
+  Fibonacci topological order (physical; prepared on a quantum processor): (e) YES, intrinsic (fusion, d = phi) | modulus 8
+    supplied by physics (c mod 8) | no 24-cycle, no modulus 9, no action of T | CI YES | CN YES | CB NO. Tier 3. The first
+    entry in which a modulus supplied by physics is fixed by the golden law.
+  E8_1 central charge (mathematical physics): its mod-8 triviality and mod-24 closure at three copies recorded on the E8 entry;
+    the 24 of the framing phase is a tier-2 numerical resonance with the cycle's period.
+  The ledger at twenty-six.
+
+RUN RESULT
+  The modulus need not be the reader's. In two-dimensional topological matter physics counts the central charge modulo 8,
+  and modulo 24 through the framing phase, and in the Fibonacci theory the golden law alone fixes that mod-8 value. The
+  family's own arithmetic -- the 24-cycle on 81 states, the modulus 9 -- does not appear; what appears is the golden law
+  meeting a physical modulus 8, and E8 standing where the Fibonacci theory meets its conjugate. Low results remain limits of
+  the current map (F-02).

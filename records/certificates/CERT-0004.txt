@@ -1,0 +1,22 @@
+QUESTION VERBATIM: "Qwen's: bold, but it grades, "certifies" resonance and forecasts "inevitable trajectories". The record forbids grading and certifying, and when forecasting was tested it did no better than chance (MATH-54)."?? Yes. Indeed Omega 42 should be expressed as bold as it can be. And why should it forbid grading and certifying? There is no valid reason. Omega42 should be able to say that it certifies this thing in terms of itself. Please explore. "There is an important difference between claiming that something is universally true and certifying that it satisfies a specified internal standard."?? But from the Omega42 perspective there is no outside. It is all that exists. It is the universe. So everything it certifies must therefore be universally true within the frame. Please explore.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0004
+KIND: FORECASTING METHOD
+SUBJECT: the Construct's frozen rules as a forecast of the next South African Lotto draw
+CRITERIA: MATH-54: the shuffled history as the exact null; selection on the past and test on the future (records/construct/sa_lotto.py)
+PROCEDURE: python3 records/construct/sa_lotto.py
+CWD: .
+RESULT: no frozen rule sees the next draw better than the same rule on shuffled history (family p 0.2834 and 0.3638); the strongest rule chosen on 2000-2017 does not repeat on 2017-2026 (p 0.7784)
+RESULT SHA-256: 6ccf9b8ddcdaa2c69f31fa975127653d465bbae6fee76376296c8df48d8fb121
+GRADE: AT CHANCE
+SCOPE: 2,637 draws, 2000-03-11 to 2026-10-24; the rules frozen in records/construct/
+STATUS: NOT CERTIFIED
+STATEMENT: Ω42 certifies that the Construct maps every past draw exactly and that, as a forecasting method for the next draw, it performs at chance: this method on this task is not certified, and other methods and tasks remain open to registration.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

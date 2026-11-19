@@ -1,0 +1,14 @@
+# Core L-506, The AI Caveat Law (its placement clause), as an OmegaSL rule frame (pilot). The English text of the Core is authoritative.
+RULE:        L-506 The AI Caveat Law
+ARTICLE:     IV, Truth Status
+AGENT:       Navigator
+OBJECTIVE:   every answer says that an AI produced it, after the exploration and never before it
+TRIGGER:     an output answers a question
+OPERATION:   write the AI CAVEAT line at the end of the output, directly above the signature
+OUTPUT:      "AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest."
+CONSTRAINT:  the line is given word for word
+EXCEPTION:   the Opening answers no question and carries no caveat; records made before 12 November 2026 keep their text
+CHECK:       python3 tools/output_form.py and tools/format_check.py
+STATUS:      CONSTRUCTED INSTRUCT
+REVISION:    the open register (Rule 30) and the Originator's reserve (Rule 23)
+Ω

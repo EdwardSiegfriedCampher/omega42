@@ -1,0 +1,24 @@
+CALIBRATION RUN NAV-03 -- the Navigator's predictions, frozen before any computation (M347; records/instances/seq_0151.txt)
+SUBJECT: claude-opus-5-5 (Anthropic; serving model may differ), from memory and reasoning only, no tool run; items chosen so that a miss is possible (agenda C-08): the period may be a proper divisor of the bound
+TASK: the Pisano period pi(p) for primes 211 to 317
+FORMAT: n | predicted pi(n) | stated confidence that the prediction is exactly right
+211 | 210 | 0.45
+223 | 448 | 0.50
+227 | 456 | 0.50
+229 | 228 | 0.45
+233 | 52 | 0.80
+239 | 238 | 0.45
+241 | 240 | 0.45
+251 | 250 | 0.45
+257 | 516 | 0.50
+263 | 528 | 0.50
+269 | 268 | 0.45
+271 | 270 | 0.45
+277 | 556 | 0.50
+281 | 280 | 0.45
+283 | 568 | 0.50
+293 | 588 | 0.50
+307 | 616 | 0.50
+311 | 310 | 0.45
+313 | 628 | 0.50
+317 | 636 | 0.50

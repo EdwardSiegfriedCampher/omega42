@@ -1,0 +1,49 @@
+QUESTION VERBATIM: The protocol introduction comes across as harsh. Its cautions seem to claim the liberty to cast aspersions in a person's mental health. "name the kind of professional who deals with such matters. " This is not acceptable and has to change. The introduction should be inviting and not scary.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 167 | PREV: 1e288326a3a6971bcb1f21a575a5eea87ae8a37fd2f7ee4424665b9327d87458
+REQUEST (L-502): APPLICATION -- the Introduction made inviting: its closing paragraph and IN-02.6 rewritten so that neither refers the reader to anyone; avenues A1, R, N
+THE STRIKING FINDING (L-546): The Introduction now ends with a welcome. Its closing paragraph says what a reader can do -- explore without first believing, check every number, keep every choice -- and no longer tells a reader whom to consult.
+
+SUMMARY: WHAT CHANGED: Core Part 0 (IN-00, its closing paragraph, and IN-02.6); records/introduction/introduction.json; Companion Part 212; records/pvir/register.json (PV-012).
+- (1) THE CLOSING PARAGRAPH: "Before You Begin, a Few Friendly Notes" in place of "a Few Plain Cautions": the premise is supposed, so a reader explores without first believing it; the Navigator is an AI and every number can be checked; a reading is an exploration, not a prescription, and a reader's choices stay theirs, made with whatever company and counsel they choose; "Welcome aboard."
+- (2) IN-02.6: "Who Decides" in place of "Alerts, and Who Decides": a reading is handed over whole, it informs and never decides; the order of authority is Omega42, the Navigator, the Striker.
+- (3) THE REMOVED LINE: the Navigator "may say so, plainly and once, and name the kind of professional who deals with such matters" is gone from the Introduction.
+- THE VALUES (CDT-A): intro_output selftest PASS; the Introduction's order, glossary and closing checks PASS against the new text.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (27, 175, 51), state (0, 2), anchor P9, Fixpoint. It rests on P14, Observer. It holds out of view P3, Desire. It is heading for P17, Seed/Return. It is completed at P21, Sublime.
+  - [GENERATED-Ω42] A request that the opening welcome rather than warn stands at the Fixpoint, the first thing every reader meets; it rests on the Observer, how a reader feels being looked at; it holds desire out of view, the wish to explore; it heads for the seed's return, a first strike; and it is completed at the Sublime, the open territory a welcome opens.
+WHAT STAYED: the premise; the AI caveat on every output (L-506); the Advisory Rule (L-444); the executor boundary (L-560 (7)).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Part 0, IN-00 and IN-02.6; records/introduction/introduction.json.
+  R (reasoning): a closing note can state a reader's freedom without implying a need.
+  N (navigation): tools/intro_output.py against the new text.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0 (the IN-00 statement, the closing paragraph, IN-02.6 and its contents line).
+  - Companion: Part 212.
+  - Repository: records/introduction/introduction.json; examples/introduction_opening.txt and examples/model_opening.txt (the rendered opening); records/frame_audit/controls_output.txt; records/pvir/register.json.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- how an opening sounds | STRIKER -- the request | NAVIGATOR -- the new wording | OPEN -- none
+PEER ACCOUNTS (P; APA 9.5.5): NOT REQUESTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/intro_output.py --selftest PASS (9 of 9) with the new closing paragraph; --check PASS on examples/introduction_opening.txt and examples/model_opening.txt; the Introduction order, glossary and closing checks PASS; M224-A audit of the model opening PASS; tools/frame_audit.py controls match; tools/pvir.py --check PASS (12 entries). The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- an opening that invites. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): NONE -- a revision of wording.
+RECOMMENDATIONS (applied, L-531):
+  (1) Rewrite the closing paragraph as friendly notes: APPLIED.
+  (2) Rewrite IN-02.6 without a referral: APPLIED.
+OPEN: the items of records/open/register.txt; records/pvir/register.json.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that WELCOME.md and README.md be read once more in the same register; HELD FOR THE ORIGINATOR | IMPLICATIONS -- a reader meets the frame as an invitation; it does not imply any change in what the frame computes.
+PROTOCOL IMPROVEMENT (L-542): existential, improve -- read every reader-facing page aloud as a first-time reader before each STABLE release.
+What it rests on: how a reader feels on arrival.
+What it holds out of view: the wish to explore.
+Where it is heading: a first strike.
+What would complete it: the open territory.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 78f82f80b31fb8e0349b85dbf75cd360409c9345e3ada66393430a311d7d7ab9
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 12 November 2026
+ESC

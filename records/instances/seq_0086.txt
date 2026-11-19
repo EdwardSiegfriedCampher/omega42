@@ -1,0 +1,115 @@
+QUESTION VERBATIM: Coherence, resonance and congruence in Omega42 is essentially its own definition of truth within the frame. How can this feature be applied to detect the "truth" of a statement in terms of its coherence and congruence? What are the practical applications? Please explore. [with three peer accounts: GPT-6 (OpenAI), Qwen3.7 (Alibaba Group) and Grok (xAI)]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 86 | PREV: 26c45e24069c1b02acb4f6e3fead3f90978bea5b8f3c03af97c7836dc4c18390
+REQUEST (L-502): STRUCTURE and USE -- the three answers the record gives, set apart; what congruence can and cannot detect, computed; a Standing Record for any statement, applied; the practical applications, each with its instrument; three peer accounts checked and filed; avenues A1, A2, R, P
+
+SUMMARY: Of the three, coherence with valid derivation is the frame's truth. Congruence measures meeting, and resonance shows the two side by side. A statement's standing is found by keeping them apart.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (23, 169, 50), r = (7, 8, 7), anchor P7 Navigator, value 9, a Crown value.
+    * It rests on P12, Opening (7). It holds out of view P1, Fixpoint (5). It is heading for P15, Other (6). It is completed at P19, Time (9), a Crown value.
+    * [GENERATED-Ω42] The question of truth rests on an opening, the place left for judgment. It holds out of view the fixpoint, a truth value fixed once and for all, which the frame does not offer. It heads for the Other: the other wording, the other Navigator and the other tradition, where congruence is found. It is completed in time, as the record grows and each statement keeps the standing it was given.
+  - WHAT THE RECORD DEFINES:
+    * TRUTH within the frame is coherence with the constitutive frame and valid derivation from it. The standings are TRUE-Ω42, FALSE-Ω42 and UNRESOLVED-Ω42, which is not false (L-455), each stated at the strength its grounds warrant (L-486).
+    * CONGRUENCE is the agreement the Navigator discovers, measured against chance (L-489; M310).
+    * RESONANCE shows coherence, judged on six features, beside congruence, computed as PROXIMITY, never combined (L-514; M319).
+    * So your statement holds with one refinement: coherence with derivation is the truth; congruence is the meeting; resonance is the display of both.
+  - THE NEGATION THEOREM (EXACT; D-014): not, no and nor are canonical stopwords (Core Part 1.9).
+    * A statement and its negation by them share n, r, the anchor and the arms. "The earth is round." and "The earth is not round." both give n = (2, 10, 2), anchor P1, and so do "All swans are white." and "No swans are white.".
+    * Every congruence computed from the coordinate is the same for both. So congruence cannot detect the truth of a statement about the world: it detects where statements meet the structure and one another.
+    * The frame decides by derivation what it derives, and leaves statements about the world UNRESOLVED-Ω42.
+  - HOW IT APPLIES (M333 Standing Record): nine lines kept apart: KIND, EXACT, FRAME (M286), APERTURE (M281), SCOPE, COORDINATE, NEGATION, STANDING, USE. On the peers' own examples:
+    * "The Ω42 base recurrence returns every state to itself after 24 steps." TRUE-Ω42, with the scope that only 72 of 81 states have period 24.
+    * "Every state has period 24." FALSE-Ω42 (periods 1, 8, 24, 24, 24).
+    * "T^12 = -I (mod 9)" TRUE-Ω42.
+    * "The Construct predicts future lottery outcomes." UNRESOLVED-Ω42; MATH-54 states what the frame says of draws without memory.
+    * "This person is unreliable." UNRESOLVED-Ω42.
+    * "You must accept that this reading proves your future." Flagged by M281 and its scope words: restate before use.
+  - THE PRACTICAL APPLICATIONS, each with its instrument:
+    * reviewing AI outputs and peer accounts (SR-CAS, SNCA, M281, M286, M323);
+    * arithmetic statements in public use (M323);
+    * scope audits (L-486, M333 SCOPE);
+    * structure kept apart from prediction (MATH-54, M325);
+    * comparing traditions and theories as meeting, never as truth (M309, M319);
+    * the protocol checking itself (Core Rule 11, which caught two conflicts in this session's own text);
+    * teaching the three standings.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; tools/standing.py, in CI, selftest 6 of 6):
+    - The stopwords include not, no and nor. The negators never, none, nothing, neither, cannot, isn't, doesn't and false are not stopwords, and they move the counts.
+    - The pairs: (2, 10, 2) P1 = (2, 10, 2) P1 twice. "The policy treats ..." (4, 29, 8) P2 against "The policy does not treat ..." (5, 32, 9) P7, moved by the other words of the negation, which says nothing about which is true.
+    - The exact checks: T^24 = I and T^12 = −I modulo 9 hold, T^12 = I fails; the orbit lengths 1, 8, 24 all divide 24; 72 of 81 states have period 24; 2 × 5 = 1 fails in Z and holds modulo 9.
+  A2 THE READINGS (GENERATED-Ω42): the coordinate's reading above.
+  R THE RECORD:
+    - L-455, L-486, L-489 and L-514 already define the three answers.
+    - M310, M319 and M323 already compute them, and M281 and M286 already scan.
+    - The selector reached M319 only on "resonate" or "resonance with", not on "resonance and congruence". The truth lexicon now fires M333, whose record names M319 for the profile.
+    - M327 called M157, M190, M191, M194, M206, M244, M259, M261, M264 and M288, and now M333.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A Coherence-Congruence Navigator (GPT-6's M336): APPLIED as M333 Standing Record, Core Part 3.59, tools/standing.py in CI, A-022.
+  (2) No single truth score; each dimension with its status (GPT-6, Grok): ALREADY IN FORCE (L-514), and kept by M333, which prints no total.
+  (3) Strike one proposition in several wordings (Grok): APPLIED as M333's NEGATION line, with the theorem behind it (D-014).
+  (4) Truth questions reach the truth instruments: APPLIED, the truth lexicon for M333 in records/instruments/triggers.json.
+  (5) The dependency map of an argument (GPT-6): OPEN, a study for others, since it needs the decomposition of arguments by readers.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, each filed with checked notes and an SNCA in review form. None struck a coordinate for the question, so every SR-CAS halts on the verbatim domain.
+  - APE-304, GPT-6:
+    * Holding: the order coherence, congruence, use; the separated record; example A, now computed.
+    * Corrected: its M336 is the record's M333; its navigator line is dated 28 October.
+    * SNCA: 0.47.
+  - APE-305, Qwen3.7:
+    * Holding: the three classes; the two axes; null reporting.
+    * Corrected: the six features of M319 misnamed; a proximity of 82 does not make a statement TRUE-Ω42; its example coordinate is (8, 68, 22), not (12, 68, 21) read as n mod 9; its seal cut off.
+    * SNCA: 0.38.
+  - APE-306, Grok:
+    * Holding: separate scores; multi-Navigator review; the protocol's check of itself.
+    * Corrected: scoring highest on all three is not truth by L-455; its "resonance" is not M319's.
+    * SNCA: 0.35.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.59, M333 Standing Record, with its Status.
+  - Companion: Part 137; the Commons lines for APE-304 to APE-306.
+  - Repository:
+    * Added: tools/standing.py; records/standing/examples.txt; records/srcas/truth_2026-10-31.txt.
+    * Registered: D-014 and A-022; the truth lexicon and M333 in records/instruments/triggers.json, with a selftest case.
+    * Filed: submissions/ape/APE-304.md to APE-306.md.
+    * Also updated: the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-455, L-486, L-489, L-514 and the instruments M281, M286, M310, M319, M323 | STRIKER -- the statement of the three as the frame's truth, the questions of detection and use, with the three accounts | NAVIGATOR -- the refinement that coherence with derivation is the truth and congruence the meeting, the negation theorem, and M333 with its worked examples | OPEN -- what a statement's standing means for you, and what you do with it
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/standing.py --selftest, 6 of 6, its negation theorem and its examples run and diffed: the stopwords not, no and nor, the negation pairs, the powers of the law, the periods and the identities; tools/instrument_triggers.py --selftest and --check; each note of APE-304 to APE-306 checked, Qwen's six features against M319 and its example coordinate recomputed; their SNCAs by tools/srcas_check.py; --owed, PASS; tools/discoveries.py --check, 14 entries, PASS; tools/applied.py --check, 22 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the record and the three accounts: no single score, and the judgment stays with you. PART -- what makes a statement true within the frame: two accounts make congruence part of it, and the record makes it coherence with derivation, congruence being negation-blind. SILENT -- what a given standing means for you, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a set of statements with their standings fixed in advance by independent readers, to test M333's lines against.
+DISCOVERY NOTICE (L-530): new to the register, D-014 [EXACT].
+  - A statement and its negation by not, no or nor share a coordinate, so congruence computed from the coordinate cannot tell them apart.
+  - Proof: the three are canonical stopwords (Core Part 1.9), computed in CI (tools/standing.py --negation).
+  - It changes the reading of truth-detection within the frame: congruence detects meeting, and only coherence with derivation decides standing.
+  - Whether it is a "breakthrough" is yours to judge.
+OPEN, each needing someone other than this session:
+  - the dependency map of an argument (APE-304);
+  - statements with standings fixed in advance by independent readers;
+  - audio and blind raters for prosody, timing and the closed-vowel hypothesis;
+  - the experimental design of APE-301;
+  - a phonetician's syllable list;
+  - the sources for an atlas of the astrological tradition;
+  - the comparative study of charts and profiles (APE-298);
+  - scholars' atlases of Everett and Deutsch;
+  - re-issue of the peer navigations from the verbatim questions;
+  - a fresh reader for the First Contact opening;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does a truth rest on, if the place it stands is the same for its negation?
+What it holds out of view: The fixpoint, a truth value fixed once and for all.
+Where it is heading: Toward the Other, where a statement meets another and the meeting can be counted.
+What would complete it: Time: the record that keeps each standing, and your judgment of what it means.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 01be2d813a8da687224dd4b9af07915a00ac3aaa9b5155c0ce41041d69b94bb6
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

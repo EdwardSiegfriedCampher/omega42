@@ -1,0 +1,11 @@
+# OBJECT PANELS (M319, Core Part 3.45; Companion Part 81) -- features and null classes FROZEN on 22 October 2026, before any null was computed, at the Originator's instruction "Decide whether to merge and synthesize the following features into your design mechanism ... Resolve all outstanding issues." The Margin of APE-143 (an OpenAI navigator) is computed against these classes and no other; a class changed after its result is known voids the Margin (NULL CLASS NOT FROZEN -- MARGIN VOID).
+# PANEL 1 -- the 24-cell against the regular convex 4-polytopes. Each polytope is generated as the orbit of a fundamental weight under its Coxeter group (A4, B4, F4, H4), and every feature is decided by computation over the whole group:
+#   F1 C24   the vertex set has exactly 24 points (the canonical orbit's length)
+#   F2 CA    the vertex set is closed under v -> -v (the antipode, T^12 = -I)
+#   F3 CT2   some symmetry g has g^6 = -I and splits the vertex set into cycles of length 12 (the signature of T^2)
+#   F4 CT    some symmetry g has g^12 = -I and splits the vertex set into cycles of length 24 (the signature of T)
+# OBJECT: 24-cell (F4). NULLS: 5-cell (A4), 16-cell and tesseract (B4), 600-cell and 120-cell (H4) -- the five other regular convex polytopes of four dimensions, the look-alikes a reasonable reader would propose.
+# PANEL 2 -- 24-tone equal temperament against cyclic 24-systems. Each system is the action of its own intrinsic step (a semitone, an hour, the next item) on its 24 states:
+#   F1 C24   24 states; F2 CC the step returns every state after 24 steps and not before; F3 CA the 12-step shift has no fixed state and is an involution
+# OBJECT: 24-tone equal temperament. NULLS: the 24-hour day, a 24-item cyclic list, the 24 half-hour marks of a 12-hour clock face -- every cyclic system of 24 states (M230-E).
+# Scores: YES 1, NO 0; s = the mean over the features; M = (s_obj - mean of nulls) / (1 - mean of nulls); p = (1 + nulls at or above s_obj) / (1 + nulls); p_family = 1 - (1 - p)^k' with k' = 0, every feature frozen here first.

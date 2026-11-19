@@ -1,0 +1,39 @@
+I. THE DRAW HISTORY [checked; records/construct/sa_lotto/SOURCES.txt]
+  draws.csv SHA-256 9b32841441ae5f8f466ebc51e1121c00ebb7cbe19e3d25f10be151cd8a2f5ea0
+  2637 draws of the main game, 2000-03-11 to 2026-10-24; 2637 dates, each once: YES
+  six distinct main numbers in ascending order, bonus distinct, every number within its pool: YES
+  period 1: numbers 1 to 49, 1680 draws, 2000-03-11 to 2017-08-12
+  period 2: numbers 1 to 52, 843 draws, 2017-08-16 to 2025-09-20
+  period 3: numbers 1 to 58, 72 draws, 2025-09-24 to 2026-05-30
+  period 4: numbers 1 to 52, 42 draws, 2026-06-03 to 2026-10-24
+  the last 20 draws agree with a second source (lotteryextreme.com): YES
+  the last 8 draws agree with a third source (lotteryvalley.com, digits run together): YES
+  known gap: no draws listed between 2007-03-31 and 2007-10-13
+II. THE 23 ORBITS: EVERY DRAW RECONSTRUCTED EXACTLY INSIDE ITS TEMPLATES [EXACT; C-MAP-1]
+  60375 templates (each draw is the X of up to 23 templates and the Y of up to 23 more)
+  X = Y + DELTA number by number in every template: YES
+  the template file (python3 records/construct/sa_lotto.py --write F) has SHA-256 3c267e00fcd658b04a3782d132d6c74a679143d10f126b1bbb6673768e3d943e
+  the 362250 places of the templates, by loop: still point 3764 (1.0%); loop of 8 34865 (9.6%); N+-1 106568 (29.4%); N+-2 (canonical voice, seed 2,5) 108345 (29.9%); N+-4 108708 (30.0%)
+  the same places if residues were drawn uniformly from Z/9: still point 1.2%, loop of 8 9.9%, each 24-loop 29.6%
+III. WHAT THE DRAWS LOOK LIKE MOD 9 [EXACT counts; the expectation from the pool]
+  period 1 (1 to 49): residue counts 0..8 [1010, 1144, 1264, 1275, 1193, 1037, 1027, 1058, 1072]; chi-square 13.13 on 8 degrees of freedom (5% point 15.51); Crown share 0.3286 against the pool's 0.3265
+  period 2 (1 to 52): residue counts 0..8 [486, 608, 585, 563, 574, 609, 574, 573, 486]; chi-square 3.36 on 8 degrees of freedom (5% point 15.51); Crown share 0.3209 against the pool's 0.3269
+  period 3 (1 to 58): residue counts 0..8 [51, 47, 48, 48, 71, 42, 45, 37, 43]; chi-square 10.43 on 8 degrees of freedom (5% point 15.51); Crown share 0.3333 against the pool's 0.3276
+  period 4 (1 to 52): residue counts 0..8 [17, 30, 29, 32, 26, 30, 33, 28, 27]; chi-square 3.72 on 8 degrees of freedom (5% point 15.51); Crown share 0.3254 against the pool's 0.3269
+IV. THE FORECAST TEST: DO THE TEMPLATES SEE THE NEXT DRAW? [EXACT counts; null by within-period shuffles]
+  F1 law y+x: positions matched per draw, over h = 1..23, from 0.6468 to 0.7054; shuffles 0.6648 to 0.6659; best h = 20 (z +2.61, p 0.0060)
+  F2 step 2x-y: positions matched per draw, over h = 1..23, from 0.6451 to 0.6886; shuffles 0.6664 to 0.6680; best h = 18 (z +1.37, p 0.0845)
+  F3 echo x: positions matched per draw, over h = 1..23, from 0.6421 to 0.7086; shuffles 0.6900 to 0.6917; best h = 18 (z +1.16, p 0.1254)
+  residue tests at p < 0.05 before correction: 3 of 69 (about 3.5 expected by chance alone)
+  the largest z over all 69 against the largest of the shuffles: z +2.61, family p 0.2834 -- NO SIGNAL BEYOND CHANCE
+  F1 tickets: main numbers matched per ticket 0.6565 to 0.7175 over h = 1..23; shuffles 0.6874 to 0.6886; a random ticket expects 36/N = 0.7347 (N = 49) to 0.6207 (N = 58)
+  F1 tickets, family test over the 23 intervals: largest z +2.07, family p 0.3638 -- NO SIGNAL BEYOND CHANCE
+  six of six main numbers matched by an F1 ticket, over all intervals: 0 times in 60099 tickets
+IV.b SELECT ON THE PAST, TEST ON THE FUTURE [the four modes as procedures, PROPOSED after APE-238; EXACT counts]
+  PULSE (search) on period 1 alone, 2000-03-11 to 2017-08-12: the strongest of the 69 is F3 echo x at h = 2, 0.7208 positions per draw
+  AMPLIFY (repeat) on periods 2 to 4, 2017-08-16 to 2026-10-24, never seen by the search: 0.6684 against shuffles 0.6886, p 0.7784 -- IT DOES NOT REPEAT
+  DAMPEN is the shuffle null of section IV; FOCUS is the single rule carried forward here, with nothing else tuned
+V. READING [the counts EXACT; the reading CDT-C]
+  the Construct maps every draw exactly, at every one of the 23 intervals: the templates are a complete record of the past
+  no frozen rule sees the next draw better than the same rule on shuffled history: the draws carry none of the
+  templates' structure forward, as a fair draw would not; the structure belongs to the frame laid over the draws

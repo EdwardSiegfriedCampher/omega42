@@ -1,0 +1,11 @@
+CUBE-GROUP PANEL -- FROZEN CLASS AND FEATURES (avenue 11; seq_0033 recommendation 3; FROZEN 23 October 2026, SEQ 36, before any score)
+OBJECT: the rotation group of the cube and octahedron, S4, order 24 (a pending object of the Resonance Ledger).
+CLASS OF LOOK-ALIKES: the 15 groups of order 24, up to isomorphism (SmallGroup(24, 1) to (24, 15)):
+  Z3:Z8, Z24, SL(2,3), Dic6, Z4 x S3, D24, Z2 x Dic3, Z3:D8, Z12 x Z2, Z3 x D8, Z3 x Q8, S4, Z2 x A4, Z2 x Z2 x S3, Z6 x Z2 x Z2.
+FEATURES (frozen; each 1 or 0, each a statement the record makes of the law's own cyclic group <T> of order 24):
+  F1 an element of order 24 (the canonical period)       F2 an element of order 8 (the Wheel's period)
+  F3 a central element of order 2 (T^12 = -I is central)  F4 an element of order 3 (the arms' 8-step rotation)
+  F5 abelian
+SCORE: the share of the five features held. PROXIMITY: the share of the other 14 groups the object outscores, ties half.
+BASELINE: the same score for each of the 15 groups, so the object is read in its class.
+STATUS: FROZEN, NOT RUN (avenue 11 READY). The run computes each feature from a group table, never from memory.

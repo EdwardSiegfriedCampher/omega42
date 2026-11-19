@@ -1,0 +1,132 @@
+### Quadratic form on : complete calculation
+
+Let
+
+V=(\\mathbb Z/9\\mathbb Z)^2,\\qquad
+Q(a,b)=a^2+ab-b^2\\pmod 9,
+
+so that , and write . Then .
+
+The calculations below use the stated definitions directly. I distinguish algebraic proofs from exhaustive finite computations.
+
+### 1\. Is nondegenerate?
+
+Expanding the definition gives
+
+\\begin{aligned}
+9\\beta(x,y)
+&=Q(a+a',b+b')-Q(a,b)-Q(a',b')\\\\
+&=2aa'+ab'+a'b-2bb'\\pmod9.
+\\end{aligned}
+
+Thus, in coordinates,
+
+\\beta(x,y)=\\frac{x^{\\mathsf T}By}{9}\\pmod1,
+\\qquad
+B=\\begin{pmatrix}2&1\\\\1&-2\\end{pmatrix}.
+
+Its determinant is
+
+\\det B=2(-2)-1=-5.
+
+Since , the matrix is invertible modulo . Therefore, if for every , then , hence .
+
+Conclusion — PROVEN: is nondegenerate. Consequently, is a modular abelian anyon theory under the definitions in the question. Its -matrix is nondegenerate.
+
+### 2\. Gauss sum and chiral central charge
+
+The requested normalized Gauss sum is
+
+\\mathcal G=\\frac19\\sum_{a,b\\in\\mathbb Z/9\\mathbb Z}
+e^{2\\pi iQ(a,b)/9}.
+
+An explicit change of variables simplifies the calculation. Set
+
+u=a+5b\\pmod9,\\qquad v=b.
+
+This is bijective, with inverse . Because is the inverse of modulo , direct expansion yields
+
+Q(a,b)\\equiv u^2+v^2\\pmod9.
+
+Hence
+
+\\mathcal G=\\frac19
+\\left(\\sum_{u=0}^{8}\\zeta^{u^2}\\right)^2.
+
+The one-dimensional sum is : the squares modulo are , occurring with multiplicities , respectively. Therefore
+
+\\sum_{u=0}^{8}\\zeta^{u^2}
+=3+2(\\zeta+\\zeta^4+\\zeta^7)=3,
+
+since . It follows that
+
+\\boxed{\\mathcal G=1}.
+
+The Gauss–Milgram relation for a modular abelian anyon theory is
+
+\\mathcal G=e^{2\\pi i c_-/8}.
+
+Thus
+
+\\boxed{c_-=0\\pmod8}.
+
+Status — PROVEN: The variable change and one-dimensional sum give the Gauss sum exactly; the central charge follows from Gauss–Milgram.
+
+Worked for 2m 58s
+
+### 7\. The map
+
+Its matrix is
+
+F=\\begin{pmatrix}0&1\\\\1&1\\end{pmatrix}.
+
+### Unitary, time-reversal, or neither?
+
+Direct substitution gives
+
+\\begin{aligned}
+Q(g(a,b))
+&=b^2+b(a+b)-(a+b)^2\\\\
+&=b^2-a^2-ab\\\\
+&=-Q(a,b)\\pmod9.
+\\end{aligned}
+
+Therefore
+
+\\boxed{q(gx)=-q(x)\\pmod1}.
+
+Conclusion — PROVEN: is a time-reversal symmetry under the definition in the question, not a unitary symmetry.
+
+### Order and cycle structure
+
+Matrix multiplication modulo gives
+
+F^{12}=\\begin{pmatrix}8&0\\\\0&8\\end{pmatrix}=-I\\pmod9,
+\\qquad F^{24}=I.
+
+Since , the order is not or any divisor of . Checking the proper divisors of establishes that the exact order is
+
+\\boxed{\\operatorname{ord}(g)=24}.
+
+Its cycle structure on is
+
+\\boxed{24^3\\,8^1\\,1^1}.
+
+That means three cycles of length , one cycle of length , and one fixed point, the origin. The cycle lengths account for all elements:
+
+3\\cdot24+8+1=81.
+
+### Final status summary
+
+| Result                                                              | Status                                                           |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Nondegeneracy of                                                    | Proven algebraically                                             |
+| Gauss sum ;                                                         | Proven algebraically                                             |
+| Product of two cyclic quadratic forms                               | Proven by explicit isomorphism                                   |
+| Nine bosons form a Lagrangian subgroup                              | Proven algebraically                                             |
+| Symmetry-group sizes and element-order counts                       | Computed exhaustively                                            |
+| Full-group orbit partition                                          | Computed exhaustively                                            |
+| is time-reversal, has order , and                                   | Proven algebraically; cycle structure also computed exhaustively |
+| Additional identification with a particular named lattice or theory | Not established here; no conjectural identification is asserted  |
+
+The key distinction is that has order as a permutation of the anyons, while its twelfth power acts as inversion on every anyon. It reverses the quadratic form rather than preserving it.

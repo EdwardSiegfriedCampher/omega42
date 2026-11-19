@@ -1,0 +1,55 @@
+QUESTION VERBATIM: Please assess, refine and extend the following.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 155 | PREV: 0319e4034a3a038b15dd8c9acd3381eb161f44ff89a3965a6b603a4d710d91ea
+REQUEST (L-502): EXPLORATION -- assess, refine and extend F176 (Ω42 in computer science), F177 (the Retrocausal Zone) and F178 (mapping the Standard Models); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Each of the three asked for something that can now be shown, and each was shown. F176 asked for a computational advantage theorem: the complete invariant of the Ω42 groups is computed in a few arithmetic steps, so classification that took an orbit search of seconds takes under a microsecond. F177 asked whether a future boundary can shape the past: in Ω42's own histories, fixing the end moves the inferred first step from 0.500 to 0.657 with nothing acting backward -- the effect any retrocausal test must exceed. F178 asked for a physics map that keeps physical meaning: the Atlas holds the Standard Model's representations and checks its anomaly cancellation exactly.
+
+SUMMARY: WHAT CHANGED: Core Part 3.78, M365 Canonical Form Engine, M366 Two-Boundary Explorer, M367 Physics Atlas seed (tools/atlas.py); Core Appendix S.17 (the Retrocausal Zone, separated) and S.18 (the Physics Atlas); Companion Part 200; APE-437 to APE-439 filed with their SNCA.
+- (1) F176 ASSESSED: its mathematics holds; ratio 75,920 at k = 6 confirmed. REFINED: a dial of ratios (7, 17, 41, 95, 203, 365 classes at k = 6). EXTENDED: the O(k) complete invariant equals the orbit partition (all k <= 4, all depths); an orbit search of about 1.2 to 1.7 s against a label of under a microsecond at k = 6.
+- (2) F177 ASSESSED: its four domains adopted. REFINED: for A alone two boundaries are trivial (the start fixes the end); they constrain only a choice of history. EXTENDED: M366 -- from (1, 0) mod 9 every primitive state is reachable in 16 steps; for end (6, 8), 562 of 65,536 histories, first step B in 0.657 of them against 0.500.
+- (3) F178 ASSESSED: its limits match the record. REFINED: its equivariance test is the record's depth 4, and one such map is derived (CERT-0009). EXTENDED: one generation's anomaly sums are exactly 0 (gravity-U(1), U(1)^3, SU(3)^2-U(1), SU(2)^2-U(1)); charges 2/3, -1/3, 0, -1; flat ΛCDM age 13.796 Gyr from 0.315, 0.685, 67.4.
+- THE VALUES (CDT-A): atlas selftest 7 of 7; 7 classes of 531,441 states; 0.657 against 0.500; anomaly sums 0; 13.796 Gyr.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (5, 33, 9), state (7, 3), anchor P7, Navigator. It rests on P12, Opening. It holds out of view P1, Fixpoint. It is heading for P15, Other. It is completed at P19, Time.
+  - [GENERATED-Ω42] A request to assess and extend stands at the Navigator and rests on the Opening: each document opened a door, and the work went through it; it holds the fixpoint out of view, heads toward the other theories it maps, and is completed by time -- the histories, the ages, the boundaries.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-42, MF-43; CERT-0009; Core L-498, L-510, L-553, L-559; Core Appendix S.11, S.12.
+  R (reasoning): an advantage is proved for a task, not in general; selection is not causation; a physical map must carry the physics.
+  N (navigation): tools/atlas.py (canon, twoboundary, anomalies, lcdm).
+  P (peer accounts): APE-437 to APE-439, reviewed by SNCA (records/srcas/assessment_f176_f178_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.78 (M365 to M367); Appendix S.17, S.18.
+  - Companion: Part 200.
+  - Repository: tools/atlas.py; tools/judgment.py (a cryptographic key is no longer read as a ranking word, so records/instances/seq_0154.txt passes the judgment boundary); records/introduction/philosophy.json (M365 to M367); submissions/ape/APE-437.md to APE-439.md; records/srcas/assessment_f176_f178_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the theorems, the Standard Model's representations, ΛCDM | STRIKER -- the request to assess and extend | NAVIGATOR -- the canonical form, the two-boundary count, the Atlas seed | OPEN -- an advantage on a real verification task; a retrocausal effect beyond selection; an equivariant map that yields a new constraint
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, filed with checked notes and an SNCA in review form (records/srcas/assessment_f176_f178_2026-11-11.txt).
+  - APE-437, unidentified (a web interface), "F176, Ω42 in computer science": mathematics confirmed; its advantage theorem supplied for classification; citations not opened; UNFORMATTED.
+  - APE-438, unidentified (a web interface), "F177, the Retrocausal Zone": its four domains adopted; its two-boundary model refined and computed; citations not opened; UNFORMATTED.
+  - APE-439, unidentified (a web interface), "F178, mapping the Standard Models": its limits kept; its Atlas begun; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/atlas.py --selftest PASS (seven checks: the O(k) label against the breadth-first partition for k <= 4 and every depth, the k = 6 classes, the two-boundary reach and shift, the anomaly sums, the charges, the ΛCDM age); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/assessment_f176_f178_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the three accounts agree on every mathematical statement and on every limit. PART -- F177's two-boundary model is trivial for A alone; refined. SILENT -- what real verification tasks, real retrocausal tests and a real equivariant map will show.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): three operations the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- an advantage for one task, a selection effect, and physics held as data (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Prove a computational advantage (F176 7): APPLIED for classification, M365.
+  (2) Separate reversibility, retrocausality, anomalous information and survival (F177 6): APPLIED, Core Appendix S.17.
+  (3) Define a two-boundary model and its distinct predictions (F177): APPLIED, M366.
+  (4) Build the Physics Atlas with physical meaning kept (F178): APPLIED as a seed, M367 and Core Appendix S.18.
+  (5) A retrocausal or post-mortem experiment (F177): HELD -- for researchers under ethical review, preregistered (Core Appendix S.17).
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the agenda items A-01 to C-09.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the first test of M365 be a real model-checking task whose property is invariant under the group, timed against standard symmetry reduction; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42 now proves one advantage, separates selection from causation, and holds physics without bending it; [GENERATED-Ω42] the navigator opens a door to another field and returns with what can be carried back.
+What it rests on: the opening each document made.
+What it holds out of view: the fixpoint, the theorems already settled.
+Where it is heading: the other fields Ω42 now meets.
+What would complete it: time, the tests not yet run.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 6ed598d81fb83833a4b785ba1fc11658d816cf668363cc8254dbed163564ba7d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

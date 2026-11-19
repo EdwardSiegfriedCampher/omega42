@@ -1,0 +1,6 @@
+B/C: u = a + 5b, v = b gives q = (u^2 + v^2)/9: True
+D:   u = a + 5b, v = b gives q = (u^2 - v^2)/9: False
+     (Z/9, x^2/9) is isometric to (Z/9, 4x^2/9) = SU(9)_1 via x -> 2x: True and SU(9)_1 spins a(9-a)/18 = 4a^2/9: True
+B:   the Gaussian norm u^2 + v^2 reduced mod 9 is the same form (run 04 found Z[i]/9 to be the family's ring): True by the line above
+B:   orders of the time-reversal symmetries (B claims they include 1, 2, 3, 6, 12): [4, 8, 24]
+D:   number of unitary symmetries (D claims 8): 24

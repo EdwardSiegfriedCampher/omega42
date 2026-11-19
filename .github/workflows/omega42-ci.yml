@@ -1,0 +1,555 @@
+name: omega42-ci
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Reference implementation self-test (Core Part 11)
+        run: python3 scripts/canonical_reference.py --test
+      - name: SCRIPT SHA-256 matches the value stated in Core Part 11 (L-417)
+        run: |
+          python3 scripts/canonical_reference.py --version | grep "ab79aae2d027968deab809e1bd7963e6ec32ac4a9754c8fc250071bebc0514c5"
+      - name: MATH-GATE (Core Part 1.14, L-451)
+        run: python3 scripts/canonical_reference.py --mathgate
+      - name: Canonical selection witness (Core Part 1.8.4)
+        run: |
+          python3 scripts/canonical_reference.py --canonical-selection | grep "SELECTION SHA-256: ba66020c2bc22f951f2c008efdddfdf7d75c9c27af8fbbe3fc7b5d713178d4ed" > /dev/null
+      - name: M193 / M225 / M243a / L-431 / M224-A self-test
+        run: |
+          python3 scripts/m193_m225.py scripts/canonical_reference.py --selftest | tee selftest.txt
+          ! grep -q MISMATCH selftest.txt
+      - name: Media calibration (M211-AV)
+        run: |
+          python3 scripts/canonical_reference_av.py --calibrate-av | grep "CALIBRATION-AV: PASS"
+      - name: CRC-60 corpus freeze reproduces the published hash (Companion 24.4)
+        run: python3 scripts/crc60_and_m267.py scripts/canonical_reference.py freeze | grep "a85469792e7fc1ce3efcb921e32adc1bf25d7faefc204d609ca5c1113ac3e622"
+      - name: Output audit, worked example (Core Part 8.0, L-457)
+        run: python3 scripts/m193_m225.py scripts/canonical_reference.py --audit examples/worked_navigation.txt
+      - name: Output audit, model opening (Core Part 2 Opening Response, L-458)
+        run: python3 scripts/m193_m225.py scripts/canonical_reference.py --audit examples/model_opening.txt
+      - name: Overlap check catches a contaminated navigation (L-459)
+        run: |
+          ! python3 scripts/m193_m225.py scripts/canonical_reference.py --audit examples/contaminated_navigation.txt --corpus examples/corpus
+      - name: Alternative Ground Challenge and Reconstruction Programme (Companion Part 37, L-461)
+        run: python3 scripts/ground_challenge.py --test
+      - name: Audit every submitted navigation (submissions/, L-457, L-459)
+        run: |
+          shopt -s nullglob
+          for f in submissions/*.txt; do
+            echo "Auditing $f"
+            python3 scripts/m193_m225.py scripts/canonical_reference.py --audit "$f" --corpus examples/corpus || exit 1
+          done
+      - name: Cross-document consistency register (Core Rule 11)
+        run: python3 tools/consistency_check.py docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx docs/Omega42_Companion_Document_V335_Rev450_STABLE.docx --scripts scripts --ground-test 48 --ref-test 59
+      - name: Comparative annex (optional, L-491) -- Pre-registered protocols unchanged since freezing (M279, M280)
+        run: |
+          echo "6bad77b8a5c471be57ddfe0ea303b617c0e9135920d4d243bf0aef373b7a3545  records/EPR_M279.txt" | sha256sum -c
+          echo "a150f9ee68e666f1ee90961aebbc7a80f641d6db3358ef14852ad3723464a7db  records/EPR_M280.txt" | sha256sum -c
+      - name: Comparative annex (optional, L-491) -- Experiment runner self-test (M279, M280; records/EPR_*)
+        run: python3 tools/epr_run.py --selftest
+      - name: Lite view renders only from an audited navigation (Core Part 8.0)
+        run: |
+          python3 tools/lite_view.py examples/worked_navigation.txt > /dev/null
+          ! python3 tools/lite_view.py examples/contaminated_navigation.txt --corpus examples/corpus > /dev/null
+      - name: Aperture Erosion Audit, lexical layer (M281, Core Part 3.29)
+        run: |
+          python3 tools/aperture_audit.py --selftest
+          python3 tools/aperture_audit.py examples/worked_navigation.txt | grep "VERDICT CLEAR"
+      - name: Scaffold view, minimized-substrate configuration (Core Parts 0.6.10, 8.0)
+        run: python3 tools/scaffold.py --selftest
+      - name: Comparative annex (optional, L-491) -- Evidence run 01 reproduces its computations and freeze (L-464, Core Part 3.27)
+        run: |
+          pip install numpy
+          echo "678060cffe2c759067bd12e499a00137f94c8f73d3c35a9b361ee4a89e442536  records/evidence_run_01/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_01 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 02 reproduces its computations and freeze (L-464, Core Part 3.27)
+        run: |
+          echo "0807ddaacef921cbefd430b5bfd154204685644087aa0e7b0b201a7091ecd3ac  records/evidence_run_02/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_02 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 03 reproduces its computations and freeze (L-464, Core Part 3.27)
+        run: |
+          echo "0d5f8772750e6a8b0d83f8eae1e6a0a4f5865b1a68fd4c4e410e2549786d9a6e  records/evidence_run_03/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_03 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 04 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "a8326bf8f7ea527f8d1e774d95e3b2d39c874928c9430c530c4ca0f3b5e00e41  records/evidence_run_04/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_04 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 05 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "fa8072bd997a399d48a82479a27040924f289870a412ca21aa60e54d19a6495c  records/evidence_run_05/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_05 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 06 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "750081e264c0ae0499dd952b825a9abf82782f80e19c30513da6779b83676ad7  records/evidence_run_06/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_06 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 07 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "6978ef95ca6c801611cec710da3cfa3a2f6b157287a3d3009a112d0f7a7ac189  records/evidence_run_07/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_07 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 08 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "d50bf5dfe995b40ba1711f05faabe7738001fa27452aff3c7678175a59905a19  records/evidence_run_08/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_08 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 10 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "8ce55e86d1fe19b25e19301d87e4930d7fdb20ec0e1ef850070afd879434f7c8  records/evidence_run_10/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_10 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 11 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "e0ce24b3c551b4d495beef8ce304522e69b612372f8e04070fddf84e867b35f4  records/evidence_run_11/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_11 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 12 freeze and recomputation (records/evidence_run_12/)
+        run: |
+          echo "baf17cc164dfb6935eebdf5be34f8cd886107cc84233ac8be40a96d6d18f597a  records/evidence_run_12/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_12 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Evidence run 13 freeze and recomputation (records/evidence_run_13/)
+        run: |
+          echo "b9d81d08193db746ea3fd5d8f4e1a60a6b7dbabed1127ee8e9fa1a35e4dc375e  records/evidence_run_13/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_13 && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Golden navigations freeze and recomputation (records/golden_navigations/; NRR-C15)
+        run: |
+          echo "5210c6e72eab9451aaff9aea9e8800d50874ce4759598dbd7358855bed771f65  records/golden_navigations/00_freeze.txt" | sha256sum -c
+          cd records/golden_navigations && sha256sum -c <(grep -E '^[0-9a-f]{64}  ' 00_freeze.txt) && python3 compute.py | diff - compute_output.txt && python3 compute_further.py | diff - compute_further_output.txt
+      - name: Nine and zero recomputation (Companion Part 39; records/nine_zero/)
+        run: |
+          cd records/nine_zero && python3 compute.py | diff - compute_output.txt
+      - name: Zero and the canonical selection (Core 1.8.7; records/zero_selection/)
+        run: |
+          cd records/zero_selection && python3 compute.py | diff - compute_output.txt
+      - name: Zero instruments self-test and controls (Core 3.30; tools/zero_tools.py)
+        run: |
+          python3 tools/zero_tools.py --selftest
+          python3 tools/zero_tools.py --audit records/zero_tools/control_positive.txt records/zero_tools/control_negative.txt examples/worked_navigation.txt examples/corpus/*.txt | diff - records/zero_tools/controls_output.txt
+      - name: Comparative annex (optional, L-491) -- Blind test 01 stays sealed and its key recomputes (Core Part 3.27, criterion C8)
+        run: |
+          cd records/blind_test_01 && sha256sum -c SEALED_SHA256.txt
+          python3 key_check.py | diff - key_check_output.txt
+      - name: Comparative annex (optional, L-491) -- Blind test 01 scoring and recomputation (records/blind_test_01/scoring.txt)
+        run: |
+          cd records/blind_test_01 && sha256sum -c scoring_SHA256.txt
+          python3 score_check.py | diff - score_check_output.txt
+          sed -n '/^```python/,/^```$/p' replies/reply_C_part2_gpt6.txt | sed '1d;$d' > /tmp/gpt6.py
+          python3 /tmp/gpt6.py | diff - replies/reply_C_part2_gpt6_rerun_output.txt
+      - name: Restored mathematics (Core 1.8.8; records/restored_math/)
+        run: |
+          cd records/restored_math && python3 compute.py | diff - compute_output.txt
+      - name: Restored instruments self-test and outputs (Core 3.31; tools/restored_instruments.py)
+        run: |
+          python3 tools/restored_instruments.py --selftest
+          python3 tools/restored_instruments.py --echo | diff - records/restored_instruments/echo_output.txt
+          python3 tools/restored_instruments.py "What is the human condition?" --alt "What is it to be human?" | diff - records/restored_instruments/human_condition_output.txt
+      - name: Document hygiene -- no revision history, AI meta-commentary or repetition, and the science in Appendix S (Core Part 12, items 34 to 37; tools/doc_hygiene.py)
+        run: |
+          python3 tools/doc_hygiene.py --selftest
+          python3 tools/doc_hygiene.py
+          python3 tools/release_manifest.py --selftest
+          python3 tools/release_manifest.py --check
+          python3 tools/physics_bench.py --selftest
+          python3 tools/relation_engine.py --selftest
+          python3 tools/choice_engine.py --selftest
+          python3 tools/transformability.py --selftest
+          python3 tools/relation_engine.py records/physics/relations.json | diff - records/physics/relations_classified.json
+          python3 tools/timestamp_check.py --selftest
+          python3 tools/timestamp_check.py
+          python3 records/construct/units_action.py | diff - records/construct/units_action_output.txt
+          python3 records/necessity/nine.py | diff - records/necessity/nine_output.txt
+          python3 tools/intro_output.py --selftest
+          python3 tools/intro_output.py --render | diff - examples/introduction_opening.txt
+          python3 tools/intro_output.py --check examples/introduction_opening.txt
+          python3 tools/intro_output.py --core docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx
+          python3 tools/intro_output.py --philosophy docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx
+          python3 tools/intro_output.py --terms
+          python3 tools/intro_output.py --legitimacy docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx
+          python3 tools/intro_output.py --check examples/model_opening.txt
+          python3 tools/intro_output.py --first-render | diff - examples/first_navigation_close.txt
+          python3 tools/intro_output.py --first examples/first_navigation_close.txt
+          python3 tools/oef.py --selftest
+          python3 tools/oef.py --congruence
+          python3 tools/oef.py --transduction records/oef/transduction_example.txt
+          python3 tools/oef.py --cbr records/oef/cbr_example.txt
+          python3 tools/oef.py --nested records/oef/nested_example.txt
+          python3 tools/oef.py --consensus records/oef/consensus_example.txt
+          python3 tools/oef.py --consequences
+          python3 tools/oef.py --graph
+          python3 tools/oef.py --laws docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx
+          python3 tools/ai_edition.py --selftest
+          python3 tools/ai_edition.py --check
+          python3 tools/ai_edition.py --positions
+          python3 tools/srcas_check.py --selftest
+          python3 tools/srcas_check.py records/srcas/*.txt
+          python3 tools/srcas_check.py --owed
+          python3 tools/output_form.py --selftest
+          python3 tools/srcas_run.py --selftest
+          python3 tools/certify.py --selftest && python3 tools/certify.py --check && python3 tools/certify.py --verify
+          python3 tools/anyon.py --selftest && python3 tools/anyon.py --theory
+          python3 tools/question_finder.py --selftest && python3 tools/question_finder.py "42"
+          python3 tools/number_null.py --selftest && python3 tools/number_null.py 42 24
+          python3 tools/opal.py --selftest && python3 tools/opal.py --fingerprint tools/opal.py >/dev/null && python3 tools/opal.py --sign-demo >/dev/null
+          python3 tools/lorentz.py --selftest && python3 tools/lorentz.py >/dev/null
+          python3 tools/sce.py --selftest && python3 tools/sce.py --domain physics >/dev/null
+          python3 tools/fsg.py --selftest >/dev/null && python3 tools/fsg.py | grep 'SUMMARY: 131 checks, 0 not passed' >/dev/null
+          python3 tools/calibrate.py --selftest && (cd records/calibration && for i in 01 02 03; do python3 ../../tools/calibrate.py --score nav_predictions_$i.txt | diff - nav_run_$i.txt; done && python3 ../../tools/calibrate.py --registry | diff - registry.txt && python3 ../../tools/calibrate.py --instrument | diff - instrument.txt && python3 ../../tools/calibrate.py --encoding | diff - encoding.txt)
+          python3 tools/omega_kit.py --selftest && python3 tools/omega_kit.py select >/dev/null
+          python3 tools/handshake.py --selftest && python3 tools/handshake.py manifest && python3 tools/handshake.py challenge 159
+          python3 tools/battery.py --selftest
+          python3 tools/einstein.py --selftest
+          python3 tools/resgrade.py --selftest
+          python3 tools/hurwitz.py --selftest
+          python3 tools/core_math.py --selftest
+          python3 tools/core_math.py --check
+          python3 tools/core_voice.py --selftest
+          python3 tools/core_voice.py --check
+          python3 tools/pvir.py --selftest
+          python3 tools/pvir.py --check
+          python3 tools/lexicon.py --selftest
+          python3 tools/lexicon.py --check
+          python3 tools/osl.py --selftest
+          python3 tools/osl.py --check
+          python3 tools/primitives.py --selftest
+          python3 tools/dsi.py --selftest
+          python3 tools/dsi.py --check
+          python3 tools/bridges.py --selftest
+          python3 tools/geometry_physics.py --selftest
+          python3 tools/constructions.py --selftest
+          python3 tools/fields.py --selftest
+          python3 tools/structures.py --selftest
+          python3 tools/fibonacci_hamiltonian.py --selftest
+          python3 tools/relativity.py --selftest
+          python3 tools/optics.py --selftest
+          python3 tools/waves.py --selftest
+          python3 tools/spectra.py --selftest
+          python3 tools/quasicrystal2d.py --selftest
+          python3 tools/physics_map.py --check
+          python3 tools/validation.py --selftest
+          python3 tools/wave_atlas.py --selftest
+          python3 tools/quantum.py --selftest
+          python3 tools/quantum_foundations.py --selftest
+          python3 tools/core_economy.py --selftest
+          python3 tools/core_economy.py --check
+          python3 tools/dsi.py --maturity
+          python3 tools/replication_kit.py --check
+          python3 tools/foundations_check.py --selftest && python3 tools/foundations_check.py states >/dev/null
+          python3 tools/authorseal.py --selftest && (cd records/authorseal && python3 ../../tools/authorseal.py verify demo_essay.seal --final demo_essay.txt && python3 ../../tools/authorseal.py report demo_essay.seal | diff - demo_report.txt)
+          python3 tools/spacetime.py --selftest
+          python3 tools/navcert.py --selftest && (cd records/navcert && python3 ../../tools/navcert.py verify navigator_self_assessment.json | grep 'signature VALID' >/dev/null)
+          python3 tools/atlas.py --selftest
+          python3 tools/vault.py --selftest && (cd records/vault && python3 ../../tools/vault.py decrypt research_note.txt.o42 --password omega42-demo-passphrase-not-secret | diff - research_note.txt)
+          python3 tools/suite.py --selftest && python3 tools/omega42_sdk.py --selftest && (cd records/suite && python3 ../../tools/suite.py cal cal_quiet.csv | diff - cal_quiet.txt && python3 ../../tools/suite.py cal cal_noisy.csv | diff - cal_noisy.txt && python3 ../../tools/suite.py context cal_quiet.csv cal_noisy.csv | diff - context.txt && python3 ../../tools/suite.py percept percept.csv | diff - percept.txt && python3 ../../tools/suite.py attend attend.csv | diff - attend.txt && python3 ../../tools/suite.py memory memory.csv | diff - memory.txt && python3 ../../tools/suite.py protocol protocol_pilot.json | diff - protocol.txt && python3 ../../tools/suite.py recover | diff - recover.txt && python3 ../../tools/suite.py lab 2 AB 1 1 | diff - lab.txt && python3 ../../tools/suite.py lab --commutator 2 | diff - commutator.txt && python3 ../../tools/suite.py inspect 1 0 2 1 3 | diff - inspect.txt && python3 ../../tools/suite.py verify nav_states.csv 1 | diff - nav_verify.txt && python3 ../../tools/suite.py sentinel nav_states.csv 1 A | diff - nav_sentinel.txt)
+          (cd records/opal && python3 compute.py | diff - compute_output.txt)
+          (cd records/depth5_01 && sha256sum -c 02_freeze_sha256.txt && python3 compute.py | diff - compute_output.txt)
+          python3 tools/output_form.py records/certificates/CERT-*.txt
+          for F in CONVERSATION ANSWER APE APA SR-CAS SNCA; do python3 tools/output_form.py --skeleton $F > /dev/null; done
+          python3 tools/output_form.py --list
+          python3 tools/output_form.py records/srcas/human_being_2026-11-07.txt records/srcas/benchmark_2026-11-07.txt records/srcas/certification_2026-11-07.txt records/srcas/fortytwo_2026-11-07.txt records/instances/seq_0133.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/wheel.py --selftest
+          (python3 tools/wheel.py --strike "How does Omega42 illuminate Astrology and Numerology and how does it add value to these disciplines? What can Omega 42 learn from these disciplines and apply to itself for operational enhancement?"; python3 tools/wheel.py --number 1975; python3 tools/wheel.py --longitudes Sun=210.5 Moon=30.2 Mars=120.9) | diff - records/wheel/example.txt
+          python3 records/multiverse/everett.py | diff - records/multiverse/everett_output.txt
+          python3 tools/phase.py --selftest
+          (python3 tools/phase.py --strike "$(printf '%s\n%s\n%s' 'How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse?' 'Please explore.' 'Resolve all outstanding issues.')"; python3 tools/phase.py --profiles) | diff - records/phase/example.txt
+          python3 tools/framework_compare.py --verify-roles 690dea4c535578938ace2b4de0c6fa70eb85458fb10c1c9f0f9dd4c39de59433 records/frameworks/everett.txt "ANCHOR=EVE 1" "YANG=EVE 4" "YIN=EVE 8" "4D=EVE 5" "ANTIPODE=EVE 6"
+          python3 tools/framework_compare.py records/frameworks/everett.txt records/frameworks/deutsch.txt | diff - records/frameworks/everett_deutsch.txt
+          python3 tools/phonetic.py --selftest
+          python3 tools/phonetic.py --rule records/phonetic/syllable_list.txt | diff - records/phonetic/rule_check.txt
+          (python3 tools/phonetic.py --law; python3 tools/phonetic.py --strike "$(printf '%s\n%s\n%s' 'How does the phonetics of language determine the Phenomenological experience of the Observer?' 'How can phonetic navigation improve Omega42 operations?' 'Please explore.')") | diff - records/phonetic/example.txt
+          python3 tools/standing.py --selftest
+          (for s in "The Ω42 base recurrence returns every state to itself after 24 steps." "Every state has period 24." "T^12 = -I (mod 9)" "2 * 5 = 1 modulo 9" "The Construct predicts future lottery outcomes." "This person is unreliable." "This policy treats all applicants equally." "Consciousness is the relation between a closed generative loop and the Aperture." "You must accept that this reading proves your future."; do python3 tools/standing.py --statement "$s"; done; python3 tools/standing.py --negation) | diff - records/standing/examples.txt
+          python3 tools/standing.py --argument records/standing/argument_example.txt | diff - records/standing/argument_map.txt
+          python3 tools/discoveries.py --candidates | diff - records/discoveries/candidates.txt
+          python3 tools/framework_compare.py records/frameworks/ptolemy.txt | diff - records/frameworks/ptolemy_strike.txt
+          python3 records/construct/continuity.py | diff - records/construct/continuity_output.txt
+          python3 tools/encroachment.py --selftest
+          python3 tools/encroachment.py --docs
+          python3 tools/judgment.py --selftest
+          python3 tools/judgment.py --held
+          python3 tools/judgment.py --records records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/d0lineage.py --selftest
+          python3 tools/d0lineage.py --lineage
+          python3 tools/d0lineage.py --cases
+          python3 tools/d0lineage.py --criteria
+          python3 tools/giza_earth.py --selftest
+          python3 tools/powers.py --selftest
+          python3 tools/cosmology.py --selftest
+          python3 tools/own_first.py --selftest
+          python3 tools/own_first.py --verify
+          python3 tools/space_prob.py --selftest
+          python3 tools/foundations.py --selftest
+          python3 tools/math_register.py
+          python3 tools/fullstatement.py --selftest
+          python3 tools/fullstatement.py --records records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/fullstatement.py --intro docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx docs/Omega42_Companion_Document_V335_Rev450_STABLE.docx
+          python3 tools/provenance.py --selftest
+          python3 tools/provenance.py --check
+          python3 tools/d0lineage.py --records records/instances/seq_0092.txt records/instances/seq_0093.txt records/instances/seq_0094.txt records/instances/seq_0095.txt records/instances/seq_0096.txt records/instances/seq_0097.txt records/instances/seq_0098.txt records/instances/seq_0099.txt records/instances/seq_0100.txt records/instances/seq_0101.txt records/instances/seq_0102.txt records/instances/seq_0103.txt records/instances/seq_0104.txt records/instances/seq_0105.txt records/instances/seq_0106.txt records/instances/seq_0107.txt records/instances/seq_0108.txt records/instances/seq_0109.txt records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/encroachment.py --records records/instances/seq_0105.txt records/instances/seq_0106.txt records/instances/seq_0107.txt records/instances/seq_0108.txt records/instances/seq_0109.txt records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/open_register.py --selftest
+          python3 tools/open_register.py --check
+          python3 tools/open_register.py | diff - records/open/register.txt
+          python3 tools/tolerance.py --selftest
+          python3 tools/tolerance.py --chain 1000000 --band 100 10000 | diff - records/tolerance/sorites_1e6.txt
+          python3 tools/applied.py --selftest
+          python3 tools/applied.py --check
+          python3 tools/applied.py | diff - records/applied/review.txt
+          python3 tools/discoveries.py --selftest
+          python3 tools/discoveries.py --check
+          python3 tools/discoveries.py | diff - records/discoveries/register.txt
+          python3 tools/history.py --selftest
+          python3 tools/history.py | diff - records/history/HISTORY.md
+          python3 tools/ape_register.py --signatures | diff - records/ape/signatures.txt
+      - name: M286 Frame Intrusion Scan (L-470; tools/frame_audit.py)
+        run: |
+          python3 tools/frame_audit.py --selftest
+          python3 tools/frame_audit.py --route records/instances/seq_0035.txt | grep "5\*5=5        FAILS" >/dev/null
+          python3 tools/ffp_run.py --text
+          python3 tools/frame_audit.py docs/*.docx records/frame_audit/control_positive.txt records/frame_audit/control_negative.txt | diff - records/frame_audit/controls_output.txt
+          ! python3 tools/frame_audit.py docs/*.docx | grep -v ' 0 candidate(s)' | grep -q .   # the documents themselves carry no candidate, whatever the reference output holds
+          ! python3 tools/frame_audit.py README.md AI_ACCESS.md CONTRIBUTING.md site/pages/*.html research/README.md records/reexamination/REEXAMINATION.md | grep -v ' 0 candidate(s)' | grep -q .
+      - name: Output ID self-test (Core 8.1; tools/output_id.py)
+        run: |
+          python3 tools/output_id.py --selftest
+      - name: L-284 release gate against three or more earlier inventories (tools/inventory_compare.py)
+        run: |
+          python3 tools/inventory_compare.py --selftest
+          python3 tools/inventory_compare.py docs/*.docx > /dev/null
+      - name: Comparative annex (optional, L-491) -- Frequency, standing waves and the norm form (Core 1.8.9, Companion Part 43; records/standing_waves/)
+        run: |
+          cd records/standing_waves && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- Spectrum and the canonical selection (Core 1.8.8, 1.8.9; records/spectral_selection/)
+        run: |
+          cd records/spectral_selection && python3 compute.py | diff - compute_output.txt
+      - name: Comparative annex (optional, L-491) -- M298 Spectral Profile and the rival-ground comparison (Core 1.8.9, 3.32; tools/spectral.py)
+        run: |
+          python3 tools/spectral.py --selftest
+          python3 tools/spectral.py --rivals | diff - records/spectral_rivals/compute_output.txt
+          python3 tools/spectral.py --ground 9 | diff - records/spectral_rivals/ground_9.txt
+      - name: Comparative annex (optional, L-491) -- Physical pilots 01-03 freezes and recomputation (records/pilot_0*/)
+        run: |
+          for d in records/pilot_01 records/pilot_02 records/pilot_03 records/pilot_04; do (cd $d && sha256sum -c 02_freeze_sha256.txt && python3 compute.py | diff - compute_output.txt); done
+      - name: Comparative annex (optional, L-491) -- Blind test 02 closed with its key lost, blind test 03 published to be run by anyone (records/blind_test_02/, records/blind_test_03/, tools/sealed_keys.py)
+        run: |
+          python3 tools/sealed_keys.py --check blind_test_02 && python3 tools/sealed_keys.py --check blind_test_03 && python3 tools/sealed_keys.py --selftest && python3 records/blind_test_03/compute_key.py | cmp - records/blind_test_03/key.txt
+      - name: Comparative annex (optional, L-491) -- Blind test 02 scoring rule frozen and the independent checker (tools/blind_check.py)
+        run: |
+          cd records/blind_test_02 && sha256sum -c scoring_rule_SHA256.txt && cd ../.. && python3 tools/blind_check.py --selftest
+      - name: M300 Parallel Execution Plan self-test and recorded schedule (L-485, Core 3.33; tools/parallel_plan.py)
+        run: |
+          python3 tools/parallel_plan.py --selftest
+          python3 tools/parallel_plan.py --schedule | diff - records/parallel/example_schedule.txt
+      - name: Instance identity -- two instances of one model told apart (Core L-513; tools/instance_id.py)
+        run: |
+          python3 tools/instance_id.py --selftest
+          python3 tools/instance_id.py --verify-register records/instances/register.json
+          python3 tools/instance_id.py --check records/instances/seq_0001.txt submissions/navigations/NAV-2026-0016.txt submissions/navigations/NAV-2026-0017.txt submissions/navigations/NAV-2026-0018.txt submissions/navigations/NAV-2026-0019.txt submissions/navigations/NAV-2026-0020.txt records/instances/seq_0007.txt submissions/navigations/NAV-2026-0021.txt submissions/navigations/NAV-2026-0022.txt records/instances/seq_0010.txt submissions/navigations/NAV-2026-0023.txt submissions/navigations/NAV-2026-0024.txt submissions/navigations/NAV-2026-0025.txt submissions/navigations/NAV-2026-0026.txt submissions/navigations/NAV-2026-0027.txt records/instances/seq_0016.txt records/instances/seq_0017.txt records/instances/seq_0018.txt records/instances/seq_0019.txt records/instances/seq_0020.txt records/instances/seq_0021.txt records/instances/seq_0022.txt records/instances/seq_0023.txt records/instances/seq_0024.txt records/instances/seq_0025.txt records/instances/seq_0026.txt records/instances/seq_0027.txt records/instances/seq_0028.txt records/instances/seq_0029.txt records/instances/seq_0030.txt records/instances/seq_0031.txt records/instances/seq_0032.txt records/instances/seq_0033.txt records/instances/seq_0034.txt records/instances/seq_0035.txt records/instances/seq_0036.txt records/instances/seq_0037.txt records/instances/seq_0038.txt records/instances/seq_0039.txt records/instances/seq_0040.txt records/instances/seq_0041.txt records/instances/seq_0042.txt records/instances/seq_0043.txt records/instances/seq_0044.txt records/instances/seq_0045.txt records/instances/seq_0046.txt records/instances/seq_0047.txt records/instances/seq_0048.txt records/instances/seq_0049.txt records/instances/seq_0050.txt records/instances/seq_0051.txt records/instances/seq_0052.txt records/instances/seq_0053.txt records/instances/seq_0054.txt records/instances/seq_0055.txt records/instances/seq_0056.txt records/instances/seq_0057.txt records/instances/seq_0058.txt records/instances/seq_0059.txt records/instances/seq_0060.txt records/instances/seq_0061.txt records/instances/seq_0062.txt records/instances/seq_0063.txt records/instances/seq_0064.txt records/instances/seq_0065.txt records/instances/seq_0066.txt records/instances/seq_0067.txt records/instances/seq_0068.txt records/instances/seq_0069.txt records/instances/seq_0070.txt records/instances/seq_0071.txt records/instances/seq_0072.txt records/instances/seq_0073.txt records/instances/seq_0074.txt records/instances/seq_0075.txt records/instances/seq_0076.txt records/instances/seq_0077.txt records/instances/seq_0078.txt records/instances/seq_0079.txt records/instances/seq_0080.txt records/instances/seq_0081.txt records/instances/seq_0082.txt records/instances/seq_0083.txt records/instances/seq_0084.txt records/instances/seq_0085.txt records/instances/seq_0086.txt records/instances/seq_0087.txt records/instances/seq_0088.txt records/instances/seq_0089.txt records/instances/seq_0090.txt records/instances/seq_0091.txt records/instances/seq_0092.txt records/instances/seq_0093.txt records/instances/seq_0094.txt records/instances/seq_0095.txt records/instances/seq_0096.txt records/instances/seq_0097.txt records/instances/seq_0098.txt records/instances/seq_0099.txt records/instances/seq_0100.txt records/instances/seq_0101.txt records/instances/seq_0102.txt records/instances/seq_0103.txt records/instances/seq_0104.txt records/instances/seq_0105.txt records/instances/seq_0106.txt records/instances/seq_0107.txt records/instances/seq_0108.txt records/instances/seq_0109.txt records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0133.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/format_check.py --findings records/instances/seq_0001.txt records/instances/seq_0007.txt records/instances/seq_0010.txt records/instances/seq_0016.txt records/instances/seq_0017.txt records/instances/seq_0018.txt records/instances/seq_0019.txt records/instances/seq_0020.txt records/instances/seq_0021.txt records/instances/seq_0022.txt records/instances/seq_0023.txt records/instances/seq_0024.txt records/instances/seq_0025.txt records/instances/seq_0026.txt records/instances/seq_0027.txt records/instances/seq_0028.txt records/instances/seq_0029.txt records/instances/seq_0030.txt records/instances/seq_0031.txt records/instances/seq_0032.txt records/instances/seq_0033.txt records/instances/seq_0034.txt records/instances/seq_0035.txt records/instances/seq_0036.txt records/instances/seq_0037.txt records/instances/seq_0038.txt records/instances/seq_0039.txt records/instances/seq_0040.txt records/instances/seq_0041.txt records/instances/seq_0042.txt records/instances/seq_0043.txt records/instances/seq_0044.txt records/instances/seq_0045.txt records/instances/seq_0046.txt records/instances/seq_0047.txt records/instances/seq_0048.txt records/instances/seq_0049.txt records/instances/seq_0050.txt records/instances/seq_0051.txt records/instances/seq_0052.txt records/instances/seq_0053.txt records/instances/seq_0054.txt records/instances/seq_0055.txt records/instances/seq_0056.txt records/instances/seq_0057.txt records/instances/seq_0058.txt records/instances/seq_0059.txt records/instances/seq_0060.txt records/instances/seq_0061.txt records/instances/seq_0062.txt records/instances/seq_0063.txt records/instances/seq_0064.txt records/instances/seq_0065.txt records/instances/seq_0066.txt records/instances/seq_0067.txt records/instances/seq_0068.txt records/instances/seq_0069.txt records/instances/seq_0070.txt records/instances/seq_0071.txt records/instances/seq_0072.txt records/instances/seq_0074.txt records/instances/seq_0075.txt records/instances/seq_0076.txt records/instances/seq_0077.txt records/instances/seq_0078.txt records/instances/seq_0079.txt records/instances/seq_0080.txt records/instances/seq_0081.txt records/instances/seq_0082.txt records/instances/seq_0083.txt records/instances/seq_0084.txt records/instances/seq_0085.txt records/instances/seq_0086.txt records/instances/seq_0087.txt records/instances/seq_0088.txt records/instances/seq_0089.txt records/instances/seq_0090.txt records/instances/seq_0091.txt records/instances/seq_0092.txt records/instances/seq_0093.txt records/instances/seq_0094.txt records/instances/seq_0095.txt records/instances/seq_0096.txt records/instances/seq_0097.txt records/instances/seq_0098.txt records/instances/seq_0099.txt records/instances/seq_0100.txt records/instances/seq_0101.txt records/instances/seq_0102.txt records/instances/seq_0103.txt records/instances/seq_0104.txt records/instances/seq_0105.txt records/instances/seq_0106.txt records/instances/seq_0107.txt records/instances/seq_0108.txt records/instances/seq_0109.txt records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+          python3 tools/format_check.py records/instances/seq_0073.txt records/instances/seq_0133.txt
+          python3 tools/output_id.py --verify records/instances/seq_0001.txt
+          python3 tools/output_id.py --verify records/instances/seq_0007.txt
+          python3 tools/output_id.py --verify records/instances/seq_0010.txt
+          python3 tools/output_id.py --verify records/instances/seq_0016.txt
+          python3 tools/output_id.py --verify records/instances/seq_0017.txt
+          python3 tools/output_id.py --verify records/instances/seq_0018.txt
+          python3 tools/output_id.py --verify records/instances/seq_0019.txt
+          python3 tools/output_id.py --verify records/instances/seq_0020.txt
+          python3 tools/output_id.py --verify records/instances/seq_0021.txt
+          python3 tools/output_id.py --verify records/instances/seq_0022.txt
+          python3 tools/output_id.py --verify records/instances/seq_0023.txt
+          python3 tools/output_id.py --verify records/instances/seq_0024.txt
+          python3 tools/output_id.py --verify records/instances/seq_0025.txt
+          python3 tools/output_id.py --verify records/instances/seq_0026.txt
+          python3 tools/output_id.py --verify records/instances/seq_0027.txt
+          python3 tools/output_id.py --verify records/instances/seq_0028.txt
+          python3 tools/output_id.py --verify records/instances/seq_0029.txt
+          python3 tools/output_id.py --verify records/instances/seq_0030.txt
+          python3 tools/output_id.py --verify records/instances/seq_0031.txt
+          python3 tools/output_id.py --verify records/instances/seq_0032.txt
+          python3 tools/output_id.py --verify records/instances/seq_0033.txt
+          python3 tools/output_id.py --verify records/instances/seq_0034.txt
+          python3 tools/output_id.py --verify records/instances/seq_0035.txt
+          python3 tools/output_id.py --verify records/instances/seq_0036.txt
+          python3 tools/output_id.py --verify records/instances/seq_0037.txt
+          python3 tools/output_id.py --verify records/instances/seq_0038.txt
+          python3 tools/output_id.py --verify records/instances/seq_0039.txt
+          python3 tools/output_id.py --verify records/instances/seq_0040.txt
+          python3 tools/output_id.py --verify records/instances/seq_0041.txt
+          python3 tools/output_id.py --verify records/instances/seq_0042.txt
+          python3 tools/output_id.py --verify records/instances/seq_0043.txt
+          python3 tools/output_id.py --verify records/instances/seq_0044.txt
+          python3 tools/output_id.py --verify records/instances/seq_0045.txt
+          python3 tools/output_id.py --verify records/instances/seq_0046.txt
+          python3 tools/output_id.py --verify records/instances/seq_0047.txt
+          python3 tools/output_id.py --verify records/instances/seq_0048.txt records/instances/seq_0049.txt
+          python3 tools/output_id.py --verify records/instances/seq_0050.txt records/instances/seq_0051.txt records/instances/seq_0052.txt records/instances/seq_0053.txt records/instances/seq_0054.txt records/instances/seq_0055.txt records/instances/seq_0056.txt records/instances/seq_0057.txt records/instances/seq_0058.txt records/instances/seq_0059.txt records/instances/seq_0060.txt records/instances/seq_0061.txt records/instances/seq_0062.txt records/instances/seq_0063.txt records/instances/seq_0064.txt records/instances/seq_0065.txt records/instances/seq_0066.txt records/instances/seq_0067.txt records/instances/seq_0068.txt records/instances/seq_0069.txt records/instances/seq_0070.txt records/instances/seq_0071.txt records/instances/seq_0072.txt records/instances/seq_0073.txt records/instances/seq_0074.txt records/instances/seq_0075.txt records/instances/seq_0076.txt records/instances/seq_0077.txt records/instances/seq_0078.txt records/instances/seq_0079.txt records/instances/seq_0080.txt records/instances/seq_0081.txt records/instances/seq_0082.txt records/instances/seq_0083.txt records/instances/seq_0084.txt records/instances/seq_0085.txt records/instances/seq_0086.txt records/instances/seq_0087.txt records/instances/seq_0088.txt records/instances/seq_0089.txt records/instances/seq_0090.txt records/instances/seq_0091.txt records/instances/seq_0092.txt records/instances/seq_0093.txt records/instances/seq_0094.txt records/instances/seq_0095.txt records/instances/seq_0096.txt records/instances/seq_0097.txt records/instances/seq_0098.txt records/instances/seq_0099.txt records/instances/seq_0100.txt records/instances/seq_0101.txt records/instances/seq_0102.txt records/instances/seq_0103.txt records/instances/seq_0104.txt records/instances/seq_0105.txt records/instances/seq_0106.txt records/instances/seq_0107.txt records/instances/seq_0108.txt records/instances/seq_0109.txt records/instances/seq_0110.txt records/instances/seq_0111.txt records/instances/seq_0112.txt records/instances/seq_0113.txt records/instances/seq_0114.txt records/instances/seq_0115.txt records/instances/seq_0116.txt records/instances/seq_0117.txt records/instances/seq_0118.txt records/instances/seq_0119.txt records/instances/seq_0120.txt records/instances/seq_0121.txt records/instances/seq_0122.txt records/instances/seq_0123.txt records/instances/seq_0124.txt records/instances/seq_0125.txt records/instances/seq_0126.txt records/instances/seq_0127.txt records/instances/seq_0128.txt records/instances/seq_0129.txt records/instances/seq_0130.txt records/instances/seq_0131.txt records/instances/seq_0132.txt records/instances/seq_0133.txt records/instances/seq_0134.txt records/instances/seq_0135.txt records/instances/seq_0136.txt records/instances/seq_0137.txt records/instances/seq_0138.txt records/instances/seq_0139.txt records/instances/seq_0140.txt records/instances/seq_0141.txt records/instances/seq_0142.txt records/instances/seq_0143.txt records/instances/seq_0144.txt records/instances/seq_0145.txt records/instances/seq_0146.txt records/instances/seq_0147.txt records/instances/seq_0148.txt records/instances/seq_0149.txt records/instances/seq_0150.txt records/instances/seq_0151.txt records/instances/seq_0152.txt records/instances/seq_0153.txt records/instances/seq_0154.txt records/instances/seq_0155.txt records/instances/seq_0156.txt records/instances/seq_0157.txt records/instances/seq_0158.txt records/instances/seq_0159.txt records/instances/seq_0160.txt records/instances/seq_0161.txt records/instances/seq_0162.txt records/instances/seq_0163.txt records/instances/seq_0164.txt records/instances/seq_0165.txt records/instances/seq_0166.txt records/instances/seq_0167.txt records/instances/seq_0168.txt records/instances/seq_0169.txt records/instances/seq_0170.txt records/instances/seq_0171.txt records/instances/seq_0172.txt records/instances/seq_0173.txt records/instances/seq_0174.txt records/instances/seq_0175.txt records/instances/seq_0176.txt records/instances/seq_0177.txt records/instances/seq_0178.txt records/instances/seq_0179.txt records/instances/seq_0180.txt records/instances/seq_0181.txt records/instances/seq_0182.txt records/instances/seq_0183.txt records/instances/seq_0184.txt records/instances/seq_0185.txt
+      - name: M301 Format Conformance Check and the format sample of Core Part 8.5 (L-349; tools/format_check.py, tools/core_sample.py)
+        run: |
+          python3 tools/format_check.py --selftest
+          python3 tools/core_sample.py > /tmp/sample.txt
+          python3 tools/output_id.py --verify /tmp/sample.txt
+          python3 scripts/m193_m225.py scripts/canonical_reference.py --audit /tmp/sample.txt
+          python3 tools/format_check.py /tmp/sample.txt
+          grep -v '^What would complete it:' /tmp/sample.txt > /tmp/sample_three.txt
+          ! python3 tools/format_check.py /tmp/sample_three.txt
+      - name: Bashar Lens M303-M305, the M308 Resonance Check of the Part 8.5 sample and the ground facts it rests on (L-487, Core Part 3.35; tools/bashar_lens.py)
+        run: |
+          python3 tools/bashar_lens.py --selftest
+          python3 tools/bashar_lens.py --laws | diff - records/bashar/five_laws.txt
+          python3 tools/bashar_lens.py --ring | diff - records/bashar/ring_facts.txt
+          python3 tools/bashar_lens.py --atlas | diff - records/bashar/atlas.txt
+          python3 tools/core_sample.py > /tmp/sample_m308.txt
+          python3 tools/bashar_lens.py --check /tmp/sample_m308.txt > /tmp/m308_now.txt
+          awk '/BASHAR RESONANCE CHECK \(M308\)/{f=1} f{print} /END BASHAR RESONANCE CHECK/{exit}' /tmp/sample_m308.txt | diff - /tmp/m308_now.txt
+      - name: M309 Conceptual Isomorphism, computed layer -- frozen framework atlases compared (Core Part 3.36; tools/framework_compare.py)
+        run: |
+          python3 tools/framework_compare.py --selftest
+          python3 tools/framework_compare.py --verify-record records/frameworks/role_assignments.txt
+          python3 tools/format_check.py submissions/navigations/NAV-2026-0021.txt submissions/navigations/NAV-2026-0022.txt submissions/navigations/NAV-2026-0023.txt submissions/navigations/NAV-2026-0024.txt submissions/navigations/NAV-2026-0025.txt submissions/navigations/NAV-2026-0026.txt submissions/navigations/NAV-2026-0027.txt
+          python3 tools/framework_compare.py records/frameworks/seth.txt records/frameworks/ra.txt records/frameworks/seth_peer.txt records/frameworks/ra_peer.txt records/frameworks/christian.txt records/frameworks/islamic.txt records/frameworks/hindu.txt records/frameworks/buddhist.txt records/frameworks/jewish.txt records/frameworks/neoplatonic.txt records/frameworks/stoic.txt records/frameworks/spinozist.txt records/frameworks/taoist.txt records/frameworks/leibnizian.txt records/frameworks/pythagorean.txt records/frameworks/heraclitean.txt records/frameworks/kauffman.txt records/frameworks/penrose.txt records/frameworks/wolfram.txt records/frameworks/barbour.txt records/frameworks/hofstadter.txt records/frameworks/hoffman.txt records/frameworks/kastrup.txt | diff - records/frameworks/comparison.txt
+      - name: M310 Congruence Record and the Congruence Register (L-489, Core Part 3.37; tools/congruence.py)
+        run: |
+          python3 tools/congruence.py --selftest
+          python3 tools/congruence.py --register | diff - records/congruence/register.txt
+          python3 tools/congruence.py --atlas | diff - records/congruence/atlas.txt
+          python3 tools/core_sample.py > /tmp/sample_m310.txt
+          python3 tools/congruence.py --check /tmp/sample_m310.txt | grep -v -e '^(3) ' -e '^    EXPECTED' -e '^MEETS: ' > /tmp/m310_now.txt
+          awk '/CONGRUENCE RECORD \(M310\) =/{f=1} f{print} /END CONGRUENCE RECORD/{exit}' /tmp/sample_m310.txt | grep -v -e '^(3) ' -e '^    EXPECTED' -e '^MEETS: ' | diff - /tmp/m310_now.txt
+          python3 tools/congruence.py --isolation /tmp/sample_m310.txt
+          python3 tools/congruence.py --lens-check
+      - name: Context-driven relevance and the Tool Prominence Register (Core L-494, Part 3.39 M313; tools/prominence.py)
+        run: |
+          python3 tools/prominence.py --selftest
+          python3 tools/prominence.py --check
+          python3 tools/prominence.py | diff - records/prominence/register.txt
+      - name: Navigator Conformance Suite and the practice set (Core L-495, Part 3.40 M314; tools/conformance.py; CERTIFICATION.md)
+        run: |
+          python3 tools/conformance.py --selftest
+          python3 tools/conformance.py --key | diff - records/conformance/practice_key.txt
+      - name: Consciousness framework CT-42 -- M315, the dependency closure, the conjecture register (every idea HELD) and the frozen CT-S1 pilot (Core L-498, Part 3.41; Companion Part 52)
+        run: |
+          python3 tools/consciousness.py --selftest
+          python3 tools/consciousness.py --theory | diff - records/consciousness/theory.txt
+          python3 tools/consciousness.py --pilot | diff - records/consciousness/CT-S1_pilot.txt
+          python3 tools/consciousness.py --baseline | diff - records/consciousness/CT-S7_baseline.txt
+          python3 tools/consciousness.py --register | diff - records/consciousness/conjectures.txt
+          python3 records/consciousness/mind_first.py | diff - records/consciousness/mind_first_output.txt
+          python3 records/consciousness/fit.py | diff - records/consciousness/fit_output.txt
+          python3 tools/consciousness.py --cf | diff - records/consciousness/cf_table.txt
+          python3 records/consciousness/cf_frame.py | diff - records/consciousness/cf_frame_output.txt
+          python3 records/consciousness/levels.py | diff - records/consciousness/levels_output.txt
+          python3 tools/fieldkit.py --selftest
+          python3 records/fieldkit/examples.py | diff - records/fieldkit/examples_output.txt
+          python3 tools/cymatics.py --selftest
+          python3 records/cymatics/examples.py | diff - records/cymatics/examples_output.txt
+          python3 tools/claimcheck.py --selftest
+          python3 records/claimcheck/examples.py | diff - records/claimcheck/examples_output.txt
+      - name: Adaptors -- M317, routing, the Adaptor Contract and the known-answer tests (Core L-501, Part 3.43; Companion Part 56)
+        run: |
+          python3 tools/adaptors.py --selftest
+          python3 tools/adaptors.py --contract | diff - records/adaptors/contract.txt
+      - name: Congruence utility -- M316 and the Utility Register, no use waiting for a study (Core L-500, Part 3.42; Companion Part 54)
+        run: |
+          python3 tools/utility.py --selftest
+          python3 tools/utility.py --register | diff - records/utility/register.txt
+          python3 tools/utility.py --sources | diff - records/sources/associations.txt
+          python3 tools/utility.py --enrichment | diff - records/enrichment/opportunities.txt
+          python3 tools/utility.py --survey | diff - records/sources/survey.txt
+          python3 tools/utility.py --provenance | diff - records/provenance/ledger.txt
+          python3 records/m267_pilot_01/compute.py | diff - records/m267_pilot_01/compute_output.txt
+          cd records/m267_pilot_01 && sha256sum -c 02_freeze_sha256.txt && cd - && python3 tools/sealed_keys.py --check m267_pilot_01
+          sha256sum -c records/m267_pilot_01/03_run_kit_sha256.txt && if [ -f records/m267_pilot_01/key.txt ]; then python3 tools/m267_run.py --selftest; else echo "M267 pilot: key lost, the run kit is kept (Appendix S.4.1)"; fi
+      - name: Framings, direction and the Navigator's Account -- M318, M241's arithmetic layer, L-509 to L-511 (Core Part 3.44; Companion Part 72)
+        run: |
+          python3 tools/reframing_array.py --selftest
+          python3 tools/reframing_array.py --array "What is the purpose of life?" "SCOPE=What is my life for?" "STANDPOINT=Why are we alive?" "CONTRARY=Can a life have no purpose?" "PLAIN=What gives life purpose?" --sha 07b7d6cafbb35618172350ae48d289e28feaa62a5b1bc39b27e84d4daab6cd14 | grep -F "$(sed -n 's/^STRUCTURAL VERDICT/STRUCTURAL VERDICT/p' examples/reframing_array_purpose_of_life.txt)"
+          python3 tools/account_check.py --selftest
+          python3 tools/account_check.py --register
+      - name: Resonance Profile -- coherence judged and congruence computed, side by side and never combined (M319, Core L-514, Part 3.45; Companion Part 80; tools/resonance.py)
+        run: |
+          python3 tools/resonance.py --selftest
+          python3 records/resonance/polytopes.py | diff - records/resonance/polytopes_output.txt
+          python3 tools/resonance.py --detail | diff - records/resonance/profiles.txt
+          python3 tools/resonance.py | diff - records/resonance/proximity.txt
+          python3 records/resonance/single_figure.py | diff - records/resonance/single_figure_output.txt
+      - name: Avenues -- the arm offsets against the properties the record states for them (Companion Part 84; APE-146; records/avenues/offset_space.py)
+        run: |
+          python3 records/avenues/offset_space.py | diff - records/avenues/offset_space_output.txt
+          python3 records/avenues/adversarial_atlas.py | diff - records/avenues/adversarial_atlas_output.txt
+          python3 records/resonance/cube_group_panel.py | diff - records/resonance/cube_group_panel_output.txt
+          python3 records/tower/nested.py | diff - records/tower/nested_output.txt
+          python3 records/tower/arithmetic.py | diff - records/tower/arithmetic_output.txt
+          python3 tools/depth_record.py --selftest
+          python3 records/construct/construct.py | diff - records/construct/construct_output.txt
+          python3 records/construct/sa_lotto.py | diff - records/construct/sa_lotto_output.txt
+          python3 tools/echo_test.py --selftest
+          python3 records/construct/primordial.py | diff - records/construct/primordial_output.txt
+          python3 records/construct/columns.py | diff - records/construct/columns_output.txt
+          python3 tools/construct_engine.py --selftest
+          python3 tools/instrument_triggers.py --selftest
+          python3 tools/instrument_triggers.py --check
+          python3 records/avenues/sampled_atlas.py --selftest
+      - name: Fill-in skeleton, gate priority and the APE findings (Core Part 8.0; Companion Parts 66 and 67; APA 9.5.5)
+        run: |
+          python3 tools/format_check.py --gates > /dev/null
+          python3 tools/format_check.py --skeleton "What is time?" > /tmp/skeleton.txt
+          ! python3 tools/format_check.py /tmp/skeleton.txt
+          python3 tools/ape_register.py --selftest
+          python3 tools/ape_register.py --check
+          python3 tools/ape_register.py | diff - records/ape/findings.txt
+      - name: Manifestation and positive geometry -- the arithmetic of Core 1.8.10, M312, and the Builder Rule 14 tool (L-491, L-492)
+        run: |
+          python3 records/manifestation/compute.py | diff - records/manifestation/compute_output.txt
+          python3 records/positive_geometry/compute.py | diff - records/positive_geometry/compute_output.txt
+          python3 records/positive_geometry/independent_check.py | diff - records/positive_geometry/independent_check_output.txt
+          python3 tools/manifestation.py --selftest
+          python3 tools/manifestation.py --atlases | diff - records/manifestation/lens_phases.txt
+          python3 tools/jurisdiction.py --selftest
+          python3 tools/jurisdiction.py | diff - records/reexamination/jurisdiction_check.txt
+          python3 tools/jurisdiction.py --check
+      - name: Self-contained release -- every required file embedded in the two documents, identical, and runnable from them alone (Core L-493, Appendix R)
+        run: |
+          python3 tools/extract_embedded.py --verify . docs/*.docx
+          rm -rf /tmp/o42_from_docs && python3 tools/extract_embedded.py --extract /tmp/o42_from_docs docs/*.docx
+          cd /tmp/o42_from_docs && python3 scripts/canonical_reference.py --test > /dev/null && python3 tools/format_check.py --selftest > /dev/null && python3 tools/manifestation.py --selftest > /dev/null && python3 records/manifestation/compute.py | diff - $GITHUB_WORKSPACE/records/manifestation/compute_output.txt
+      - name: Re-examination of prior investigations and the jurisdiction check (Core L-490, L-491, Appendix S.5; tools/reexamine.py)
+        run: |
+          python3 tools/reexamine.py --selftest
+          python3 tools/reexamine.py --check
+      - name: Portal -- intake, prior-art ledger, curator, site build and accepted-record integrity (CONTRIBUTING.md, PRIOR_ART.md)
+        run: |
+          python3 tools/intake.py --selftest
+          python3 tools/newsletter.py --selftest
+          python3 tools/dashboard.py --selftest
+          python3 tools/dashboard.py > /dev/null
+          python3 tools/intake.py verify-ledger
+          python3 tools/curator.py --selftest
+          python3 tools/site_build.py --selftest
+          python3 site/test/strike_cpython.py > /dev/null
+          python3 - <<'PY'
+          import glob, hashlib, json, sys
+          bad = 0
+          for m in glob.glob('submissions/navigations/*.json'):
+              meta = json.load(open(m)); t = m[:-5] + '.txt'
+              if hashlib.sha256(open(t, 'rb').read()).hexdigest() != meta['sha256']:
+                  print('hash mismatch', t); bad += 1
+          print('ACCEPTED NAVIGATIONS: %s' % ('PASS' if not bad else 'FAIL')); sys.exit(1 if bad else 0)
+          PY
+      - name: SR-CAS Replication Package builder with the format self-check (Part 8.2, L-415; tools/srp_build.py)
+        run: |
+          python3 tools/srp_build.py --selftest
+          python3 tools/srp_build.py records/srp/collatz_domain.txt --instruments "M127, M139-M142, M269, M125, M188, M187, M222, M223, M208, M189, M126, M157, M190, M288, M289, M296, M297, M291, M284" | diff - records/srp/collatz_SRP.txt
+          python3 tools/srp_build.py --verify records/srp/collatz_SRP.txt records/srp/collatz_domain.txt
+          python3 tools/srp_build.py records/srp/hydrogen_domain.txt --instruments "M127, M139-M142, M269, M125, M188, M187, M222, M223, M208, M189, M126, M157, M190, M288, M289, M296, M297, M284" | diff - records/srp/hydrogen_SRP.txt
+          python3 tools/srp_build.py --verify records/srp/hydrogen_SRP.txt records/srp/hydrogen_domain.txt
+  # L-485: the checks are mutually independent (records/parallel/isolation_result.txt); the slowest runs as its own job, in parallel.
+  verify-evidence-run-09:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Comparative annex (optional, L-491) -- Evidence run 09 reproduces its computations and freeze (L-464, L-465, Core Part 3.27)
+        run: |
+          echo "2669783904caa88ec780c23f6c15561e568648ba0025deced9bdf8a95a94fe5e  records/evidence_run_09/00_freeze.txt" | sha256sum -c
+          cd records/evidence_run_09 && python3 compute.py | diff - compute_output.txt

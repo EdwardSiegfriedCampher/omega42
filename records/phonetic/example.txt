@@ -1,0 +1,11 @@
+M332 THE LAW OF THE PHONETIC VOTE | anchor = the majority of (r1, r2, r3), r1 when all differ (Core Part 1.4)
+  the syllables decide the anchor in 72 of 729 triples, 8/81 = 0.0988, exactly when r2 = r3 != r1; the anchor is r1 in the other 657, 73/81
+  a change of r3 alone, to any of its 8 other values, moves the anchor with probability 16/81 = 0.1975; a change of r1 alone with probability 8/9
+  one syllable more changes n3 by 1 and r3 = dr(5 n3) by 5 (mod 9): one step along the placement order 5, 1, 6, 2, 7, 3, 8, 4, 9
+M332 PHONETIC READING (Core Part 3.58) | n = (16, 123, 43), r = (8, 3, 8), anchor P8
+  the syllables of the content words (Core Part 1.11, vowel groups in the spelling):
+    How 1 | does 1 | phonetics 3 | language 2 | determine 3 | Phenomenological 7 | experience 3 | Observer 3 | How 1 | phonetic 3 | navigation 4 | improve 2 | Omega42 3 | operations 4 | Please 1 | explore 2
+  r3 in the vote: CONFIRMING: r3 = r1 = 8; the anchor would be r1 without it
+  one or two syllables more or less: n3 -2 -> r3 = 7, anchor P8; n3 -1 -> r3 = 3, anchor P3 (MOVES); n3 +1 -> r3 = 4, anchor P8; n3 +2 -> r3 = 9, anchor P8
+  the strike as spoken (digits read as words, a reading beside the coordinate, never in its place): n = (18, 131, 45), r = (9, 7, 9), anchor P9 -- the written and the spoken strike part here
+  letter classes of the content words (123 letters; an orthographic proxy for sound classes, no meaning attached): vowel letters 55, plosive letters 25, fricative letters 15, nasal letters 14, liquid letters 12, glide letters 2

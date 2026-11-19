@@ -1,0 +1,119 @@
+{
+ "framework": "Omega42",
+ "designation": "Omega42 Mathematical and Computational Architecture",
+ "specification_version": "V335 Rev.450 STABLE",
+ "identity_profile": "omega42-core",
+ "identity_statement": "Omega42 is an open mathematical and computational architecture: a common foundation for representing, navigating, analyzing, verifying and connecting structured information, and a protocol by which different AI systems and people address a question to one structure and report what they find in one checkable, sealed format.",
+ "motto": "Represent. Navigate. Connect. Verify.",
+ "state_family": "S_k = (Z/3^k)^2, k >= 1, with the tower S_1 <- S_2 <- ... and its limit Z_3^2",
+ "canonical_generators": {
+  "A": [
+   [
+    0,
+    1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "B": [
+   [
+    1,
+    0
+   ],
+   [
+    3,
+    1
+   ]
+  ]
+ },
+ "core_profile": {
+  "required": [
+   "the law A on S_k",
+   "the shear B and the group <A, B>",
+   "the form Q(a, b) = 2a^2 + 2ab - 2b^2 with Q(As) = -Q(s)",
+   "the orbit census (3^k + 1)/2",
+   "the output forms of Core L-549",
+   "the sealed record chain"
+  ],
+  "optional_extensions": [
+   "the Hermitian 3+1 representation (CONDITIONAL readings under AP-SPACE)",
+   "the instruments M346 to M376",
+   "the bridges of Core Appendix S"
+  ]
+ },
+ "fingerprint": {
+  "trace_det": [
+   1,
+   -1
+  ],
+  "fibonacci_100_mod_729": 588,
+  "order_mod_7": 16,
+  "order": [
+   8,
+   24,
+   72
+  ],
+  "census": [
+   2,
+   5,
+   14,
+   41
+  ],
+  "group": [
+   8,
+   216,
+   5832
+  ],
+  "commutator_mod_9": [
+   7,
+   3,
+   3,
+   4
+  ]
+ },
+ "state_record": {
+  "fields": {
+   "k": "level, integer >= 1",
+   "a": "integer mod 3^k",
+   "b": "integer mod 3^k",
+   "q": "optional absolute quotient, so that no two cells alias (M371)"
+  }
+ },
+ "interfaces": {
+  "conformance": "python3 tools/handshake.py fingerprint | challenge [SEED] (three rounds, levels 6 to 12) | manifest",
+  "battery": "python3 tools/battery.py",
+  "foundations": "python3 tools/foundations_check.py check | states",
+  "navigation_output": "the output forms of Core L-549, checked by python3 tools/output_form.py",
+  "provenance": "python3 tools/authorseal.py init | seal | verify | report | anchor",
+  "envelope": "python3 tools/vault.py (M364)",
+  "coordinates": "python3 tools/spacetime.py allocate | event | reconcile"
+ },
+ "evidence_states": {
+  "PROVED": "a written proof in the record",
+  "VERIFIED": "recomputed by a tool in CI",
+  "PROVISIONAL": "CONDITIONAL on a named assumption",
+  "SPECULATIVE": "a research direction; never entered in records/math/results.json"
+ },
+ "release": {
+  "digests": "records/release_documents_SHA256.txt",
+  "record": "records/release_record_Rev450.txt",
+  "all_files": "SHA256SUMS",
+  "chain": "records/instances/ (each OUTPUT ID chained to the one before)"
+ },
+ "licence": "LICENSES.md",
+ "trademark": "TRADEMARK.md",
+ "conformance": "self-tested in CI; independent implementations: none yet; independent certification: none yet",
+ "is_not": [
+  "a replacement for TCP/IP or the Internet",
+  "a proven universal theory of mathematics",
+  "a demonstrated theory of fundamental physics",
+  "a proven model of consciousness",
+  "a demonstrated mechanism for retrocausality or survival after death",
+  "a universal AI detector",
+  "a cryptographic primitive (its groups are small and fully known)",
+  "a solution to every problem",
+  "proof that all domains share one structure"
+ ]
+}

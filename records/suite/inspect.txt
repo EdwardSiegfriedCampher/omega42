@@ -1,0 +1,4 @@
+M353 INVARIANT AND REACHABILITY INSPECTOR (MODE A) state (1, 0) mod 3^2
+  Q^2 = 4 (kept by <A>, not by <A,B>) | valuation 0 (kept by both)
+  orbit under <A>: 24 states | under <A,B>: 72 states
+  target (1, 3) reachable: under <A> False | under <A,B> True

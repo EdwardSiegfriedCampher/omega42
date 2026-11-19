@@ -1,0 +1,7 @@
+KEY LOST -- records/m267_pilot_01/key.txt
+
+The key of this test was sealed by a build session of the Builder (its hash: records/m267_pilot_01/SEALED_SHA256.txt) and kept outside the two documents, as Core Appendix R.4 requires of an open key. It lived only in that session's working repository, which was lost when the cloud workspace was replaced, before records/instances/seq_0122.txt.
+
+Searched on 2026-11-06 for a copy, with none found: every disk of the present workspace and its attachments; the transcript of the present session; the Originator's past conversations; the Originator's Google Drive. No one held the key: the CHECKS lines of records/instances/seq_0122.txt to seq_0131.txt and Companion 182.6 say the Originator holds it, and that is corrected by records/instances/seq_0132.txt. The test belongs to Appendix S, the optional comparative programme (L-491, Core Appendix S.4.1), and its state decides nothing in the protocol.
+
+Status: the test is CLOSED, KEY LOST. Its brief, its rules and its sealed hash stay as they are, so the record of what was sealed and when is intact; a key recomputed now could not be shown to be the one sealed. If a copy of key.txt is ever found, python3 tools/sealed_keys.py --check m267_pilot_01 verifies it against the sealed hash and the test reopens as it was.

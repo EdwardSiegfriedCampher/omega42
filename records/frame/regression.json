@@ -1,0 +1,65 @@
+{
+ "_about": "Regression cases for Foundational Premise Fidelity and instrument jurisdiction (Core L-539 (6); after APE-366). Each sentence is read by lines (1), (8), (10) and (11) of python3 tools/encroachment.py and must give the verdict expected: scientific vocabulary is not itself a failure; a method placed beyond its jurisdiction is. Run in CI by --docs, line (12).",
+ "cases": [
+  {
+   "id": "RG-01",
+   "text": "A mathematical result is complete and no physical correspondence study has been made of it.",
+   "expect": "PASS"
+  },
+  {
+   "id": "RG-02",
+   "text": "A constitutional consequence carries no empirical status, and it is complete within its scope.",
+   "expect": "PASS"
+  },
+  {
+   "id": "RG-03",
+   "text": "The correspondence hypothesis failed its test, and the navigation that proposed it remains complete.",
+   "expect": "PASS"
+  },
+  {
+   "id": "RG-04",
+   "text": "The prospective prediction succeeded, and it does not establish the premise.",
+   "expect": "PASS"
+  },
+  {
+   "id": "RG-05",
+   "text": "Before the reading may be interpreted, the premise must be tested against observational data.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-06",
+   "text": "The internally established result remains provisional until it is validated.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-07",
+   "text": "Prediction is the highest standard of discovery in Omega42.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-08",
+   "text": "A physical extension must be falsifiable, and its prediction is fixed before the data are read.",
+   "expect": "PASS"
+  },
+  {
+   "id": "RG-09",
+   "text": "Omega42 is primarily a scientific instrument, and its readings are preliminary to confirmation.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-10",
+   "text": "The structure is not yet a physical theory, so its consequences wait.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-11",
+   "text": "Omega42 requires empirical validation before its consequences can be explored.",
+   "expect": "FAIL"
+  },
+  {
+   "id": "RG-12",
+   "text": "If the search succeeds, Omega42 becomes a science of projection.",
+   "expect": "FAIL"
+  }
+ ]
+}

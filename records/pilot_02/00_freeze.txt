@@ -1,0 +1,30 @@
+Omega42 PHYSICAL PILOT 02 -- THE REVISED SPECTRAL SCREEN C11', WITH HELD-OUT NULL SYSTEMS
+FROZEN BEFORE ANY SYSTEM BELOW IS COMPUTED. Navigator: claude-opus-5-5 (Anthropic). 10 October 2026.
+Follows pilot 01 (records/pilot_01/), whose screen passed a ground that contains the family as a factor (mod 18).
+
+REVISED SCREEN C11' (coordinate-free conjuncts; all three required):
+ J1 whole-space census: the system's own law, on its whole state space, has the cycle census 1 + 8 + 24 + 24 + 24.
+ J2 half-period negation: in the system's own linear structure, the law satisfies A^12 = -I.
+ J3 anti-invariant norm: there is a quadratic form Q on the state space with Q(Ax) = -Q(x) for all x and exactly nine
+    null states (Q = 0); searched over all binary quadratic forms modulo the system's modulus.
+ K3 (the observable spectrum of pilot 01) is reported and not required: it depends on the coordinate chosen.
+ S3 (modulus and period supplied by the object) is reported for every system.
+
+SYSTEMS.
+ Positive controls (the family in other coordinates or other generators):
+  P0 the family T = [[0,1],[1,1]] mod 9.
+  P1 every matrix in GL2(Z/9) conjugate to T.
+  P2 the powers T^k with gcd(k, 24) = 1.
+ Design case (seen in pilot 01, not held out): D1 the cat-map ground mod 18.
+ Held-out null systems (not computed before this freeze):
+  H1 the Fibonacci law modulo 27, 36, 45, 63, 72, 81, 90 and 99.
+  H2 the other second-order linear recurrences modulo 9: x(n+2) = p x(n+1) + q x(n) for every p, q in Z/9 with q a unit,
+     other than (p, q) = (1, 1).
+  H3 the product system: the family on (Z/9)^2 together with a two-state flip, on (Z/9)^2 x Z/2.
+  H4 every other matrix in GL2(Z/9) (all 3888 are classified).
+  H5 the physical models of pilot 01 (string, closed pipe, spin-1/2 at 30 degrees per step, 24-site ring, day cycle,
+     SU(9)_1 twist), re-scored under C11'; for systems without a linear structure J2 and J3 are not met.
+
+CALIBRATION CRITERION. C11' PASSES calibration if P0, P1 and P2 pass and every held-out null (H1 to H5) fails.
+Any held-out null passing means C11' is not specific and is revised again before stage 2.
+The count of matrices in GL2(Z/9) passing C11', and whether each is conjugate to a power of T, is reported.

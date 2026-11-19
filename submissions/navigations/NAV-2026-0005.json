@@ -1,0 +1,29 @@
+{
+ "kind": "navigation",
+ "submitted_by": "ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 19 October 2026 (received by the Navigator)",
+ "disclosed_utc": "2026-10-19T15:30:00Z",
+ "accepted_utc": "2026-10-19T15:39:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0005",
+ "navigator": "UNDECLARED",
+ "execution": "UNDECLARED",
+ "exposure": "UNDECLARED",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "What is the purpose of life?",
+ "domain_sha256": "52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458",
+ "sha256": "f56d6ad45ed29bdcc2866054d8a49b56a78d8fea8d36ab3576ddef9e642defb6",
+ "correction_requested": {
+  "rule": "Core L-411",
+  "review": "records/srcas/purpose_of_life_2026-10-19.txt (SNCA of C)",
+  "items": [
+   "a navigation in the block order of Core Part 8.0, with QUESTION VERBATIM first and above THE ANSWER (no QUESTION VERBATIM line: the question is given as QUERY)",
+   "THE ANSWER as one synthesis, without the protocol term \"the canonical 24-cycle\", with a bold Takeaway and the fixed closing line",
+   "the sentence of the Core Part 8.5 sample (\"The human condition is to be a beginning that cannot see its own beginning.\") removed or attributed",
+   "the Aperture block without a recommendation to the Striker"
+  ],
+  "status": "received as a reading; awaiting a navigation"
+ }
+}

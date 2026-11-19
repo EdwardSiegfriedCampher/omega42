@@ -1,0 +1,24 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 07 -- FREEZE RECORD: FROZEN MANIFESTATIONS
+Frozen before any computation or literature reading for this run. Navigator: claude-opus-5-5 (Anthropic; serving
+model may differ). Selection NOT BLIND (CB NO). Premise as amended (L-465).
+
+Question (from the Originator): what if the recurrence manifests as a frozen object, with no visible recurrence?
+New discovery mode declared: (XIII) frozen manifestation -- the recurrence stored without motion, as (i) a static invariant,
+(ii) a ground-state or constraint structure, (iii) a grown record (time laid into space), or (iv) a scale hierarchy.
+Rule frozen now: a frozen manifestation counts only if the modulus (9, or 3 for the eight-cycle) is supplied by the
+object itself -- a nine-valued or three-valued variable, a nine-site cell -- and not imposed by the reader.
+
+F1  Static invariant: the norm form N = a^2 + ab - b^2 modulo 9 on the 81 states. Test: does it separate the five orbits
+    (value sets), and does T act on it as N -> -N? Null: other quadratic forms on (Z/9)^2 (all a^2 + pab + qb^2): how many
+    are T-invariant up to sign and separate the three long orbits?
+F2  Ground-state structure: the nine-valued clock chain with H = -J sum cos(2 pi (s(n+2) - s(n+1) - s(n)) / 9). Test:
+    ground states on a ring of L sites, L = 1..72; prediction frozen: 1 state unless 8 | L (9 states) or 24 | L (81 states).
+    Status: a constructed model, not a natural object; not counted as evidence.
+F3  Grown record, close-packed stacking (three positions A, B, C = Z/3, adjacent layers distinct). Tests: (a) can the
+    positions follow the Fibonacci rule modulo 3? (b) can the layer differences (Hagg signs, +-1) follow it?
+    (c) can the h/c sequence (h when a layer's two neighbors coincide)? Literature: Fibonacci-type polytypes or stackings.
+F4  Scale hierarchy: Fibonacci-chain approximants. Tile counts F(n) modulo 9 across inflation levels; number of levels
+    contained in real quasicrystal grains from 0.5 nm tiles. Rule above applies: the reader supplies the 9 unless a
+    physical quantity depends on F(n) modulo 9.
+F5  Literature: physical degrees of freedom with nine cyclic values (Z/9 clock variables, nine-fold orientations, spin-4
+    multiplets) where a frozen Fibonacci rule could live.

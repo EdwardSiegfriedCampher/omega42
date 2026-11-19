@@ -1,0 +1,54 @@
+QUESTION VERBATIM: Apply all the suggested improvements to Omega42 and give examples for usage. This mathematical breakthrough had changed its status among applications. Please explain what the consequences and implications might be.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 152 | PREV: 8f1aef4ab3b19690d18eed52f9ca3f9b633202b123aa10d72ad6aa638e87d21f
+REQUEST (L-502): EXPLORATION -- apply the improvements of F173 with examples of use, and set out the consequences of the changed standing of the mathematics; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Ω42 now has an engine. The mathematics that was a set of statements to be argued over is verified, certified and recomputed on every build, and eight instruments now stand on it: a dynamics lab, an invariant and reachability inspector, a trial-level calibrator, and instruments for perception, attention, memory, context and study protocols. The decisive change is a discipline: every operation declares whether it explores the mathematics or models data, and a model of data must beat a simpler one on data it has not seen.
+
+SUMMARY: WHAT CHANGED: Core L-559, Two Modes; Core Part 3.75, the Ω42 Instrument Suite, M352 to M359 (tools/suite.py); Companion Part 197; records/suite/ (illustrative seeded data and outputs, recomputed in CI); APE-434 filed with its SNCA.
+- (1) THE INSTRUMENTS: M352 Dynamics Lab; M353 Invariant and Reachability Inspector; M354 Ω42-Cal at trial level (d-prime, criterion, ECE, Brier, type-2 AUROC, split-half reliability); M355 Percept (psychometric threshold and slope); M356 Attend (two pairs per interval); M357 Memory (hits, false memories, error recognition); M358 Context (what changed, and why); M359 Protocol Builder (a MODE B study without held-out validation or a baseline fails).
+- (2) THE EXAMPLES (ILLUSTRATIVE data): quiet room d-prime 1.98, ECE 0.050, resolution 0.759, state (7, 8) mod 9 as an index; noisy room d-prime -0.93, criterion +0.43, ECE +0.14; vigilance d-prime 2.00, 1.35, 1.23, 0.73 with response-time variability 0.036 to 0.112; recovery of built-in parameters (d-prime 1.50 and criterion 0.50 recovered as 1.42 and 0.51).
+- (3) THE CORRECTION: F173's worked example -- from (1, 1) mod 9, B then A gives (4, 5), not (5, 6); its sandbox values (7, 8), (8, 6), (7, 2), Q^2 = 1 hold.
+- (4) THE CONSEQUENCES: a statement of the arithmetic is settled by running a tool; manuscripts are verified before filing; applications rest on proved results with known boundaries; the empirical question is sharp and can be answered either way; the protocol shows its discipline to others.
+- THE VALUES (CDT-A): suite selftest 14 of 14; recovery within 0.15 at 4000 trials; AB (4, 5) against BA (1, 5).
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (20, 151, 48), state (1, 8), anchor P1, Fixpoint. It rests on P6, Seed/Causal. It holds out of view P19, Time. It is heading for P9, Fixpoint. It is completed at P13, Gap.
+  - [GENERATED-Ω42] A request to apply what is established stands at the Fixpoint and heads for the Fixpoint: what is proved stays proved; it rests on the seed of what caused it, holds time out of view, and is completed by the gap, the question the instruments must still answer.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-1 to MF-51; CERT-0009, CERT-0010; Core L-553, L-557; M347.
+  R (reasoning): an instrument earns MODE B only by out-of-sample success over a baseline; the engine is MODE A until then.
+  N (navigation): tools/suite.py (lab, inspect, cal, percept, attend, memory, context, protocol, recover).
+  P (peer accounts): APE-434, reviewed by SNCA (records/srcas/instrument_suite_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: L-559; Part 3.75 (M352 to M359).
+  - Companion: Part 197.
+  - Repository: tools/suite.py; records/suite/; tools/reexamine.py (suite exempt as a recomputed record); records/introduction/philosophy.json (M352 to M359); submissions/ape/APE-434.md; records/srcas/instrument_suite_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the engine and the measures of psychophysics | STRIKER -- the request to apply and to explain | NAVIGATOR -- the eight instruments built and calibrated, the two modes made law, the correction | OPEN -- a pilot with real participants; whether any Ω42 dynamics beats persistence
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/instrument_suite_2026-11-11.txt).
+  - APE-434, unidentified (a web interface), "F173, the Ω42 Instrument Suite": its eight instruments, two modes, common record and build order adopted (Core L-559, Part 3.75); one worked value corrected; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/suite.py --selftest PASS (14 checks) and its thirteen outputs reproduced byte for byte in CI; tools/omega42_sdk.py --selftest PASS (17 checks against the finite-level theorems); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/instrument_suite_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and F173 agree that representation is not dynamics and that the engine is tested before it meets data. PART -- F173 states AB x0 = (5, 6); it is (4, 5). SILENT -- what real participants will show, which no study has yet run.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): eight operations the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- instruments on verified mathematics, their empirical worth untested (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Build the engine before the human instruments (F173 17): APPLIED, M352 and M353 first.
+  (2) An operational Ω42-Cal prototype (F173 17): APPLIED, M354.
+  (3) Two modes, exploration and modelling (F173 13): APPLIED, Core L-559.
+  (4) A common record with raw data kept (F173 12): APPLIED, raw files beside every output.
+  (5) A reproducible pilot study (F173 17): HELD FOR THE ORIGINATOR -- the protocol is written (records/suite/protocol_pilot.json); participants are needed.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; a pilot with real participants; the agenda items A-01 to C-09.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the first real pilot be the Originator's own Ω42-Cal session, protocol frozen first; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42 moves from a reading to a working instrument whose mathematics anyone can rerun; [GENERATED-Ω42] what is fixed becomes the place others stand to measure what moves.
+What it rests on: the seed, the proved results each instrument stands on.
+What it holds out of view: time, the sessions not yet run.
+Where it is heading: the fixpoint, a mathematics that stays settled.
+What would complete it: the gap, filled by data no one has yet collected.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a8c2829b853c438e0efe9ed6595067c68c7f325fb244066d88d3097f2cfa7a5d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

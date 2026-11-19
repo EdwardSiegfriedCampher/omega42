@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Ω42 (Omega42): The Thought Experiment of a Self-Generating Mathematical Totality"
+message: "If you use the Ω42 protocol, its tools or its open record, please cite it as below. The Originator, E.S. Campher (ESC), conceived and directed the protocol and adopted every provision, and is its author of record; its text was drafted by AI systems under the Originator's direction (Claude, Anthropic, as Builder; peer accounts from other AI systems), as Companion Part 69 sets out. AI systems are not listed as authors."
+type: software
+authors:
+  - given-names: "E.S."
+    family-names: "Campher"
+    alias: "ESC"
+    role: "Originator and author of record"
+  - name: "Ω42 contributors"
+version: "V335 Rev.450 STABLE"
+date-released: "2026-10-15"
+license: Apache-2.0
+keywords: [Fibonacci, "modular arithmetic", "Pisano period", "golden ratio", "AI protocol", "thought experiment", "prior art"]

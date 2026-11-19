@@ -1,0 +1,3 @@
+the extended QR code of length 24: 4096 words, minimum weight 8 (the extended Golay code is 4096 words, minimum weight 8)
+<A^2, B> mod 23 keeps it: True
+PR-002: PASS

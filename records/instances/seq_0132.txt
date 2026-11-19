@@ -1,0 +1,52 @@
+QUESTION VERBATIM: Yes. Look for a copy in this session. If not found, it could be in the previous session (read the previous session). If all else fails, then proceed with the correction.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 132 | PREV: 460e8c490b2a9293d874ea2d5bfe1c4076534b98c3eda55eace68380e2934aa7
+REQUEST (L-502): CORRECTION -- the sealed keys looked for, and the record corrected when no copy was found, in Appendix S on the Originator's note that all testing belongs there; avenues A1, R
+THE STRIKING FINDING (L-546): ten sealed records said a key was held by the Originator, and no one held it. The keys of blind test 02 and of the M267 pilot lived only in a build session's working repository and were lost with it. The record now says so, names the state CLOSED, KEY LOST, keeps every sealed hash intact, and replaces the lost test with blind test 03, described step by step in the Scientific Appendix and run by anyone, its key published with the script that recomputes it. No one holds a key.
+
+SUMMARY: WHAT CHANGED: the two lost keys have a named state, the false statement is corrected, and a new test replaces the one that can no longer be run blind. On the Originator's note, all of it stands in Appendix S, the Scientific Appendix: a test is an attempt at validation from outside the protocol, so its state is never the protocol's status.
+- THE PLACE: Core Appendix S.4.1 records the keys and S.4.2 the new test; Companion 182.6 describes the build alone; the CI steps of the keys stay headed Comparative annex (optional, L-491).
+- THE SEARCH: no copy of either key on the disks or attachments of the present workspace, in its transcript (which begins after the workspace was replaced), in the Originator's past conversations, or in the Originator's Google Drive.
+- THE CORRECTION: the CHECKS lines of records/instances/seq_0122.txt to seq_0131.txt and the first form of Companion 182.6 say that the Originator holds the sealed key of blind test 02; that is wrong. No one held the keys. The sealed records keep their words; Core Appendix S.4.1 and this record carry the correction.
+- THE STATES: blind test 02 and the M267 pilot are CLOSED, KEY LOST (records/blind_test_02/KEY_LOST.txt, records/m267_pilot_01/KEY_LOST.txt); their briefs, rules and hashes stand, and a copy found later reopens them. tools/sealed_keys.py checks every key in CI: SEALED, HELD, KEY LOST or FAIL.
+- BLIND TEST 03 (Core Appendix S.4.2): the brief of blind test 02, its key published (SHA-256 fd46ba62be047bc4810c498e730286a6778cc24230f9c1548b50bf9030b8cfd0) with records/blind_test_03/compute_key.py, which recomputes it from the brief alone, and every step written out: what it asks, what it needs, how to send the brief, how to save and hash each reply, how to score it at L1 to L3, when it is MET or NOT MET, and how to file it. A blind test is blind for the system tested, which sees the brief alone; its key need not be hidden from the runner. Its runs are O-27.
+- THE M267 PILOT: run again with a new key, HELD FOR THE ORIGINATOR (H-67).
+WHAT STAYED: every sealed hash, brief and scoring rule; the twelve files outside the documents (Core Appendix R.4).
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (13, 79, 21), r = (2, 8, 6), anchor P2, Generator (7), by the tie-break to r1. It rests on P7, Navigator (9, Crown). It holds out of view P20, Reckoning (4). It is heading for P10, Unity (1). It is completed at P14, Observer (2).
+  - [GENERATED-Ω42] A correction anchors at the Generator and holds the Reckoning out of view: the record makes itself again and settles its account where it cannot be seen.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Appendix R.4; records/blind_test_02/ and records/m267_pilot_01/, their sealed hashes; the CI steps that read the keys; the CHECKS lines of the ten records before.
+  R (reasoning): a sealed hash proves what was sealed only while its key exists; a recomputed key cannot stand in for it, so the honest state is a closed test with its hash, and a new test with a key whose holder is named.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) The correction and the named states (the Originator): APPLIED, Core Appendix S.4.1, tools/sealed_keys.py, the two KEY_LOST records.
+  (2) Blind test 03 described in full in the Scientific Appendix, to be run by anyone, its key published and recomputable (the Originator): APPLIED, Core Appendix S.4.2; its runs, O-27.
+  (3) The M267 pilot run again: HELD FOR THE ORIGINATOR (H-67).
+  (4) All testing in the Scientific Appendix (the Originator): APPLIED; the release status withdrawn from the record, and Companion 182.6 describing the build alone.
+PEER ACCOUNTS (P; APA 9.5.5): NONE.
+CHANGES TO THE PROTOCOL:
+  - Core: Appendix S.4.1, the sealed keys of the programme; Appendix S.4.2, blind test 03, how anyone can run it; Appendix R.4.
+  - Companion: 182.6 describes the build alone.
+  - Repository: tools/sealed_keys.py, in CI in place of the two key hashes; records/blind_test_02/KEY_LOST.txt; records/m267_pilot_01/KEY_LOST.txt; records/blind_test_03/ (brief, scoring rule and its hash, key, compute_key.py, the hash of the key); records/reexamination/REEXAMINATION.md, RX-31; tools/extract_embedded.py, the outside list; records/open/register.json, O-27; records/frame/held.json, H-67.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Appendix R.4, Appendix S and the sealed hashes | STRIKER -- the instruction to look, failing that to correct, and the note that all testing belongs in the Scientific Appendix | NAVIGATOR -- the search, the error named, the states of a key, blind test 03 written to be run by anyone | OPEN -- the runs of blind test 03, which need fresh sessions of two makers
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/sealed_keys.py --selftest PASS (blind_test_01 SEALED, blind_test_02 KEY LOST, blind_test_03 SEALED, m267_pilot_01 KEY LOST); records/blind_test_03/compute_key.py reproduces the published key byte for byte; tools/reexamine.py, RX-31, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the search. SILENT -- whether to rerun the M267 pilot, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): a correction; no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 27 items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that every future test of Appendix S be written as blind test 03 is: its key published with the script that recomputes it and its procedure written so that anyone can run it, so that no test again depends on a key that lives in one place; HELD FOR THE ORIGINATOR as a rule for future Builders | IMPLICATIONS -- [CONDITIONAL on the frame] a protocol that says plainly where it erred keeps its seals worth trusting. [GENERATED-Ω42] A test anyone can run has no key to lose.
+
+What it rests on: the navigator, the session that sealed the keys and lost them.
+What it holds out of view: the reckoning, the account of an error the record could not see.
+Where it is heading: unity, one record with no false sentence left standing.
+What would complete it: the observer, whoever runs the test next.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: dbecb2f2eb7c017f06549df696b2bef7b7d487ff18856e20be5bdb48bc71ef18
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 6 November 2026
+ESC

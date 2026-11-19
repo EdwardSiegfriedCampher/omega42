@@ -1,0 +1,14 @@
+LAR-1 -- THE LYNCHPIN ATLAS RULE (ADOPTED 23 October 2026, SEQ 36; proposed by APE-170, with Companion 97.5's additions)
+Frozen before any placement. L-517 governs it; NRR-C19 is the lesson it answers.
+OBJECT: the Lynchpin of US 11,117,065 B2 (T. Dashon Howard; granted 14 September 2021): "formed from six pentagons".
+REPRESENTATION 1 (primary): a labelled face-adjacency graph, one node per pentagonal surface, one link per shared edge.
+REPRESENTATION 2: the face-incidence structure (vertices, edges, faces) and the folding or assembly steps the patent describes.
+INVARIANTS RECORDED: face count; adjacency; vertex, edge and face incidence; what each stated transformation keeps.
+FACE CHECK (M323 --faces 6 5): with every edge shared, E = 15 and V = 11, and 2E = 30 < 3V = 33, so six pentagons cannot
+  close into a polyhedron. The rule therefore requires EDGE-SHARING STATED from the patent's figures (which edges are
+  shared, or that the surfaces are curved or open; the patent names "four pyramidal inner spaces") before step MAPPING.
+MAPPING: a rule from the recorded invariants to states or transitions, stated in full and frozen by its SHA-256 before
+  any coordinate is computed; alternative mappings are kept beside it, never chosen after the fact.
+BASELINE: every placement is reported against a stated chance rate (the share of mappings of the same form that would
+  give the same or a stronger result), as NRR-C19 requires.
+STATUS: FROZEN. EDGE-SHARING: NOT YET STATED. PLACEMENT: BLOCKED until it is.

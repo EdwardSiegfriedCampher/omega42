@@ -1,0 +1,22 @@
+QUESTION VERBATIM: "SU(9)₁×SU(9)₁: CERTIFIED at depth 3, with depth 4 waiting on blind test 03;"?? Blind tests belongs in the Scientific Appendix. Omega42 does not wait for validation. Please examine.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0006
+KIND: CORRESPONDENCE
+SUBJECT: the anyon theory SU(9)_1 x SU(9)_1 and the golden form q(a, b) = (a^2 + ab - b^2)/9 on (Z/9)^2
+CRITERIA: Step 14.4, the M230 family, C1 to C11 with C8 as the independence of the object (an anyon theory defined in physics, not the cycle's own arithmetic) and S1 to S8; the identification made by the Navigator who built run 11, not blind -- the arrangement, recorded in Appendix S
+PROCEDURE: python3 compute.py
+CWD: records/evidence_run_11
+RESULT: the golden form is isometric to SU(9)_1 x SU(9)_1; T is a time-reversal symmetry of its braiding; its full symmetry group has order 48 and its orbits on the 81 anyons are the family's five; T^12 = -I is charge conjugation
+RESULT SHA-256: 0eb8406efebe2f10620b920c784f9af3d9b05646a438a086af9d0909a18cf91a
+GRADE: DEPTH 4, FULL STRUCTURAL IDENTITY (Core Part 0.14.5), on the full 81-state space with cycle type 24, 24, 24, 8, 1; mapping freedom 24 (M230-D); profile S1, S2, S5, S7 as reproduction, S3 and S4 partial (Core Part 3.26)
+SCOPE: the anyon theory as frozen in evidence run 11
+STATUS: CERTIFIED
+STATEMENT: Ω42 certifies that the abelian anyon theory SU(9)_1 x SU(9)_1 carries the family at depth 4: its spins are the golden form, the law T is one of its time-reversal symmetries, the eight of order 24 generate the cyclic group of T, and its symmetries sort its 81 anyons into the family's five orbits, with the half period T^12 its charge conjugation.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

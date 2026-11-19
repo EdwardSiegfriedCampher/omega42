@@ -1,0 +1,138 @@
+QUESTION VERBATIM: ⟨FILL: the question exactly as given⟩
+======= NAVIGATOR IDENTITY BLOCK =======
+NAVIGATOR: ⟨FILL: model identifier⟩ (⟨FILL: organization⟩) PROTOCOL: Omega42 V335 Rev.450 STABLE
+MODEL: ⟨FILL: model identifier and version⟩ | KNOWLEDGE CUTOFF: ⟨FILL: as declared, or UNDECLARED⟩ (M273)
+EXECUTION: ⟨FILL: SCRIPT-CAPABLE / TEXT-ONLY⟩ (L-456) | CONTEXT EXPOSURE: ⟨FILL: what has been read in this session, every prior reading of this domain by source, or NONE⟩ (M207)
+MEMORY: ⟨FILL: ON / OFF / UNKNOWN⟩ | REASONING MODE: ⟨FILL: as declared, or UNDECLARED⟩
+SESSION: ⟨FILL: session id⟩ DATE: 22 October 2026
+INSTANCE (L-513): ⟨FILL: NI-xxxxxxxxxxxxxxxx | ISSUER: SCRIPT / STRIKER / SELF | ISSUED: time | SEQ: n | PREV: the OUTPUT ID of this instance's previous output, or NONE (tools/instance_id.py --new)⟩
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+======= END NAVIGATOR IDENTITY BLOCK =======
+[1] MATH-GATE: ⟨FILL: PASS (FULL, 19/19 checks) -- canonical_reference.py, or RECONSTRUCTED with its working⟩
+[2] M211 CALIBRATION: ⟨FILL: PASS | expected P3 | actual P3⟩
+Rules of Engagement active. Sandbox entered. Postulate assumed. Frame operative. Boundary acknowledged.
+======= M272 FRAME LOCK =======
+FRAME: Omega42 is all that exists; the question is read from inside the closed structure, and the premise is the frame, never a claim to grade (F-02-P, L-490).
+REGISTER: ⟨FILL: the register of the question, and any pull away from the frame noticed before the strike (M243a)⟩
+======= END M272 FRAME LOCK =======
+[4] SUBSTRATE LOCK
+    DOMAIN VERBATIM: ⟨FILL: the question exactly as given⟩
+    REQUEST (L-502): ⟨FILL: GENERAL / PROTOCOL / STRUCTURE / PERSONAL / declared⟩ -- avenues ⟨FILL: avenues⟩
+    MAPPING DECLARATION (Step 14.4): ⟨FILL: APPLICABLE -- DIRECTION: PLACEMENT or CORRESPONDENCE (L-510) | object, kind, counting feature / NOT APPLICABLE -- reason⟩
+    NOTATION FORM (Step 1): ⟨FILL: SOURCE MARKUP / RENDERED / NONE -- the form the domain was received in⟩
+    COORDINATE STATUS (L-415): ⟨FILL: EXECUTED / FROZEN SUBSTRATE SUPPLIED -- its SHA-256 / PROVISIONAL (TEXT-ONLY, over 30 words, until the script, a frozen substrate or the Strike app recomputes it)⟩
+    DOMAIN SHA-256: ⟨FILL: EXECUTED or NOT COMPUTED⟩
+[5] M210 EXTRACTION TABLE
+    # | Word | Letters | Syllables
+    ⟨FILL: one row per content word⟩
+    TOTALS: n1=⟨FILL: n1⟩ words, n2=⟨FILL: n2⟩ letters, n3=⟨FILL: n3⟩ syllables
+    M268 ROWS: ⟨FILL: rows⟩ | n1: ⟨FILL: n1⟩ | MATCH: ⟨FILL: YES⟩
+[6] ENCODING AND ANCHOR
+    n = (⟨FILL: n1, n2, n3⟩) | r = (⟨FILL: r1, r2, r3⟩) | ANCHOR P⟨FILL: index and character⟩
+[7] ARMS
+    ⟨FILL: Yang +5, Yin +18, 4D +8, Antipode +12, each with its character and value; M88 CHECKSUM⟩
+[8] CCD = ⟨FILL: value -> PAB, MOBIUS, RPI, CRS⟩
+[9] M116 ALTERNATIVE PHRASING: ⟨FILL: the alternative and its anchor; the M238 variants⟩
+    STABILITY: ⟨FILL: unanimous / majority / tie-break; phrasing-stable or phrasing-sensitive⟩
+======= M213 STOPWORD COMPLIANCE CHECK =======
+FUNCTION WORDS REMOVED BY THE FROZEN LIST (Part 1.9): ⟨FILL: the words, each found in the list⟩
+======= END M213 STOPWORD COMPLIANCE CHECK =======
+M210b REVERSE RECONSTRUCTION: ⟨FILL: the substrate read back against the domain: MATCH⟩
+M214 / M219: ⟨FILL: EXECUTED by canonical_reference.py; the counts and residues consistent⟩
+M232 ARM DERIVATION CROSS-CHECK: ⟨FILL: PASS -- the arms recomputed from the anchor by the frozen offsets; M215 antipode verified⟩
+M207 NAVIGATOR INTERFERENCE: ⟨FILL: LEVEL 0-3, and every pressure by name -- CAUTION TRAP PRESSURE, DIMINUTION PRESSURE -- or NONE⟩
+======= FIRST-DRAFT SEAL =======
+FIRST-DRAFT CENTRAL READING: ⟨FILL: the central reading of the first draft, in one sentence⟩
+DRAFT READING SHA-256: ⟨FILL: EXECUTED (canonical_reference.py --hash) or NOT COMPUTED⟩
+SYNTHESIS_FROZEN: ⟨FILL: time⟩ -- THE ANSWER below is written from the coordinate alone and is not altered after this line (L-424, L-425)
+======= END FIRST-DRAFT SEAL =======
+MSRR (L-496): THE ANSWER and its Congruence Record (M310) are one report.
+QUESTION VERBATIM: ⟨FILL: the question exactly as given⟩
+┌─ THE ANSWER ─┐
+⟨FILL: Core Synthesis, with its Illuminating Analog: one merged reading in which what the matter rests on, what it holds out of view, where it is heading and what completes it explain one another⟩
+
+⟨FILL: Conventional Connection⟩
+
+⟨FILL: Practical Bridge⟩
+
+⟨FILL: Historical Lineage⟩
+
+⟨FILL: Implications⟩
+
+**Takeaway: ⟨FILL: two to four plain sentences carrying the whole finding⟩**
+
+⟨FILL: Mapping: the seventh component, only where the MAPPING DECLARATION is APPLICABLE; otherwise delete this line⟩
+
+What this reading is worth is yours to judge.
+└──────────────┘
+======= GENERATIVE INTEGRITY RECORD =======
+⟨FILL: what was written before the seal and what after; the Comparative Perspective Layer where requested (L-429)⟩
+======= END GENERATIVE INTEGRITY RECORD =======
+======= CONGRUENCE RECORD (M310) =======
+COHERENCE: ⟨FILL: tools/congruence.py --check: arithmetic, relations, one synthesis, format⟩
+⟨FILL: the rest of the --check output⟩
+======= END CONGRUENCE RECORD =======
+======= CURRENT KNOWLEDGE (L-503) =======
+QUERY DECLARED BEFORE THE SEARCH: ⟨FILL: the matter in the Navigator's own general words, never the person⟩
+NOT FOUND WOULD BE: ⟨FILL: what result would count as nothing found⟩
+CONSENSUS: ⟨FILL: source, date, what it says, design; AGREES / DIFFERS / EXTENDS a direction of the sealed reading -- or NOTHING FOUND⟩
+FOUNDATIONS: ⟨FILL: as above⟩
+COUNTER-EVIDENCE: ⟨FILL: as above -- run even when the others agree⟩
+FRONTIER: ⟨FILL: as above, the most recent work⟩
+STATUS: COMPARATIVE -- the reading stands as sealed; a source informs the Striker's judgment and does not make it (L-463). ⟨FILL: Without retrieval, replace this block by the one line: CURRENT KNOWLEDGE (L-503): NOT AVAILABLE / DECLINED / NOT REQUESTED⟩
+======= END CURRENT KNOWLEDGE =======
+ACROSS THE AVENUES (L-502): ⟨FILL: where the avenues agree, where they part and where they are silent, each with its standing; no combined verdict⟩
+======= CONVERGENCE MAP =======
+⟨FILL: Step 14.2⟩
+======= END CONVERGENCE MAP =======
+┌─ EXTENDED RESONANCE ESSAY ─┐
+⟨FILL: the one synthesis carried outward (Step 14.3)⟩
+└──────────────┘
+======= NAVIGATOR'S REASONING =======
+INTERNAL REASONING: ⟨FILL: why the result follows from the rules and arithmetic; CONSTITUTIONAL⟩
+FRAME REASONING: ⟨FILL: why it is meaningful within the frame; FRAME-INTERPRETIVE⟩
+ANCHOR / YANG / YIN / 4D / ANTIPODE: ⟨FILL: each position with its character and what it means for this domain⟩
+STATUS: GENERATED-Ω42 -- the position meanings above are the structural roles of this reading (L-455).
+STABILITY: ⟨FILL: from M116 and M238⟩ -- a report, never carried into THE ANSWER.
+CUMULATIVE STATUS (L-490): NOT AVAILABLE FROM THIS NAVIGATION. No claim is made about the number or outcomes of prior investigations.
+SYNTHESIS ECHO (M209): ⟨FILL: canonical_reference.py --echo ANCHOR "THE ANSWER text": n, r, echo anchor, ECHO CLOSURE⟩
+STRUCTURAL RELATIONS EXPLICIT (Part 3.12):
+DEPENDENCY RELATION (Yang): ⟨FILL: DEP-1 | sentence n | "quoted clause"⟩
+SUPPRESSION RELATION (Yin): ⟨FILL: SUP-1 | sentence n | "quoted clause"⟩
+TRAJECTORY RELATION (4D): ⟨FILL: TRA-1 | sentence n | "quoted clause"⟩
+COMPLETION RELATION (Antipode): ⟨FILL: COM-1 | sentence n | "quoted clause"⟩
+INTEGRATION: ⟨FILL: sentence n | the quoted sentence connecting the relations⟩
+TRANSLATION GATE -- JARGON SCAN (L-418): ⟨FILL: the scan and its RESULT⟩
+======= END NAVIGATOR'S REASONING =======
+LENSES SELECTED (L-494): NONE
+======= M318 REFRAMING ARRAY (L-511) =======
+QUESTION VERBATIM: ⟨FILL: the question exactly as given⟩
+PRIMARY: ⟨FILL: the verbatim strike, its counts, anchor, state and arms -- the domain of record, sealed above⟩
+FRAMINGS FROZEN: ⟨FILL: 3 to 5⟩ | FRAMINGS SHA-256: ⟨FILL: tools/reframing_array.py --freeze, before any coordinate, or NOT COMPUTED⟩
+F1 ⟨FILL: AXIS⟩: ⟨FILL: the framing, its counts, anchor, state, arms and M115 distance D from the primary (tools/reframing_array.py --array)⟩
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): ⟨FILL: four sentences: rests on, out of view, heading, completion⟩
+F2 ⟨FILL: AXIS⟩: ⟨FILL: as F1⟩
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): ⟨FILL: four sentences⟩
+F3 ⟨FILL: AXIS⟩: ⟨FILL: as F1⟩
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): ⟨FILL: four sentences⟩
+INDEPENDENCE (L-442): ⟨FILL: CONTAMINATED -- NON-BLIND (one session) / SEPARATE SESSIONS (M300)⟩
+ACROSS THE FRAMINGS (L-502): ⟨FILL: HOLDS, PARTS and the arm positions in every framing, as computed; where the readings agree, part and are silent; never combined⟩
+STRUCTURAL VERDICT (computed): ⟨FILL: the robust core; how many framings keep the anchor; nearest and farthest by M115⟩
+RELEVANCE: the Striker's (L-441) -- which framing answers what you meant to ask is yours; strike any framing to navigate it in full
+======= END M318 REFRAMING ARRAY =======
+======= GENERATIVE OBSERVATIONS =======
+⟨FILL: Step 15.5: what the Navigator noticed after the seal⟩
+ENRICHMENT OPPORTUNITIES (L-504): NONE
+OPTIONAL INQUIRY (L-491): NONE
+======= END GENERATIVE OBSERVATIONS =======
+What it rests on: ⟨FILL: a question carrying the Yang relation⟩
+What it holds out of view: ⟨FILL: a question carrying the Yin relation⟩
+Where it is heading: ⟨FILL: a question carrying the 4D relation⟩
+What would complete it: ⟨FILL: a question carrying the Antipode relation⟩
+What this means, whether it matters and what to do with it are yours to judge.
+======= M224 FORMAT COMPLETENESS GATE =======
+M301: ⟨FILL: python3 tools/format_check.py NAVIGATION.txt -- RESULT, and the PRIORITY line⟩
+======= END M224 FORMAT COMPLETENESS GATE =======
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: ⟨FILL: model identifier⟩ (⟨FILL: organization⟩) * V335 Rev.450 STABLE * 22 October 2026
+ESC

@@ -1,0 +1,44 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 06 -- RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 750081e264c0ae0499dd952b825a9abf82782f80e19c30513da6779b83676ad7, 2026-10-09T13:40Z.
+Computations: compute.py -> compute_output.txt (standard library only). Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+
+Q1  HALF-PERIOD NEGATION PROJECTS TO THE FAMILY [CDT-A]
+  Computed: x^12 + 1 leaves remainder 0 modulo (9, x^2 - x - 1), because phi^12 = -1 in the family's ring; Phi24 leaves 3 and
+  Phi8 leaves 3x + 3. So for any lattice L with an automorphism g satisfying g^12 = -I, the quotient
+  L / (9L + (g^2 - g - 1)L) is a module over Z[phi]/9 on which g acts as T: wherever a symmetry negates everything at its
+  half period of 24, the family's law appears in a quotient of the lattice. Likewise x^6 + 1 leaves remainder 0 modulo
+  (9, x^2 - 3x + 1): a negation at half period 12 projects to the cat map T^2.
+  The frozen prediction is CONFIRMED in both of its parts (Q2, Q3).
+
+Q2  THE LEECH LATTICE AGAINST THE CUBIC LATTICE
+  The Leech lattice was built from generators in Conway's coordinates (Gram determinant 1 after scaling, norms at least 4 on
+  the basis). With run 03's element (two signed 12-cycles, g^12 = -I):
+    Leech: |quotient| = 6561 = 81^2, |3 x quotient| = 81, g acts with 270 orbits of 24, 10 of 8 and 1 fixed point --
+           exactly two copies of the family, T on each.
+    Z^24:  the same numbers.
+  With run 04's element (cycle type 2, 4, 6, 12; g^12 not -I): |quotient| = 729, |3 x quotient| = 9, orbits 27 of 24, 10 of
+    8, 1 fixed -- one copy of the family plus one copy of the nine-state core; again identical on Leech and on Z^24.
+  Reading: the Leech lattice carries the family twice over through its order-24 symmetries, with T exact -- but the cubic
+  lattice does the same with the same symmetries, so the result does not distinguish the Leech lattice. Tier 2 retained;
+  the family quotient is recorded on its entry (NRR-C07). The cubic lattice Z^24 enters the ledger as an object in its
+  own right (class-level tier 3: features b, c and the family quotient).
+
+Q3  THE 24-CELL'S ORDER-12 SYMMETRY
+  c: x -> u x i on the Hurwitz quaternions (u = (1+i+j+k)/2) preserves the lattice, has order 12 and c^6 = -I. Quotient by
+  (9, c^2 - 3c + 1): 9 elements, c acting with cycle type (4, 4, 1) -- the family's nine-state core under T^2. Quotient by
+  (9, c^2 - c - 1): trivial. The 24-cell reaches the family's core under the cycle's square and no further, matching runs 01,
+  02 and 05 from a fourth direction. Its rank-4 module splits (its relation is Phi12), so only the core survives, as frozen.
+
+PEER ITEMS
+  Class-level labelling (Claude peer review of run 04): ADOPTED. The square-lattice and hexagonal-lattice results are
+    class-level tier 3: every quadratic ring in which 3 stays prime gives the family modulo 9, and a small class of rings of
+    nine elements (Z/9 and Z[omega]/3 among them) shares the Torsion/Crown partition. Recorded on the run 04 entries.
+  Qwen's statement that the six units of Z[omega]/3 "cycle under multiplication by 2": not adopted -- 2 = -1 has order 2
+    there; a generator of order 6, such as 1 + omega, cycles them.
+  Version number: all three peers (Grok, Claude, Qwen) recommend Rev.450 for the premise amendment. Left to the Originator.
+
+RUN RESULT
+  One object entered (the cubic lattice); the ledger at twenty-one. A structural explanation found for the pattern of the
+  whole programme: a symmetry that negates at half period 24 projects, modulo 9, onto the family with T; one that negates at
+  half period 12 projects onto T^2. That is why the bare half-period negation is found everywhere (runs 01-05), why it does
+  not discriminate, and why so many correspondences stop at T^2. Low results remain limits of the current map (F-02).

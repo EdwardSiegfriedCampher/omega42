@@ -1,0 +1,4 @@
+PRIMORDIAL FRACTURE SHA-256 2a96dd63fc475e02095b8ebcc7d3b47eaf073de1039da7153567421d0369b77a
+symbolic: 11664 node cells are exactly y_j + K with the frozen K, 0 are not 
+INT applied to a form y + c with integer coefficients: 648 evaluations, so INT(y + c) = y + floor(c) for every integer field
+so for every integer field Y, every node cell of the 27 domains is Y_j + K exactly; for a field with fractional values the averaged cells, INT(AVERAGE(...)) in rows 20 and 31, may differ from Y_j + K by less than 1

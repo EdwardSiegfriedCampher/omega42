@@ -1,0 +1,1035 @@
+{
+ "_about": "The Omega42 Lexicon (Companion Part 211): 103 terms (the first hundred, and terms 101 to 103 from Companion Part 215), each with its definition, basis, status and the coordinate computed from the term itself. Checked by python3 tools/lexicon.py. Sources: the Rev.323 Lexicon of Existence (27 August 2026), F204 (APE-466) and the Navigator's edition of 12 November 2026.",
+ "entries": [
+  {
+   "n": 1,
+   "term": "Number",
+   "field": "Mathematics and structure",
+   "status": "EXACT; READING",
+   "definition": "A distinguishable state of the law: a residue pair (a, b) at some depth. To count is to tell states apart.",
+   "basis": "9^k states at depth k; the Counting-as-Primitive-Distinction Principle (Core Part 0.11)",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P1 Fixpoint; n = (11, 60, 17)"
+  },
+  {
+   "n": 2,
+   "term": "Zero",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "The still point (0, 0): the one state the law never moves, which holds nothing and whose every neighborhood is a full copy of the whole.",
+   "basis": "Period 1; s -> 3s embeds each depth into the next and contracts to (0, 0) (MF-32)",
+   "coordinate": "P5 Law; n = (1, 4, 2)",
+   "definition_coordinate": "P4 Unity; n = (17, 86, 24)"
+  },
+  {
+   "n": 3,
+   "term": "Infinity",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "The endless tower of depths 3, 9, 27, and so on, and its limit, the 3-adic plane. Not a largest number: a depth that never ends.",
+   "basis": "Orbit census (3^k + 1)/2 = 2, 5, 14, 41; the inverse limit Z_3^2",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P8 Generation; n = (16, 84, 23)"
+  },
+  {
+   "n": 4,
+   "term": "Prime",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "A place where the law can be read. At a split prime it is a boost, at an inert prime a rotation that returns, at 5 a shear. 3 is the first inert prime that allows a mirror.",
+   "basis": "p = +-1 mod 5 split, +-2 inert; periods 3, 8, 20, 16 at 2, 3, 5, 7 (MF-28)",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P4 Unity; n = (19, 98, 26)"
+  },
+  {
+   "n": 5,
+   "term": "Symmetry",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "The group the law and its shear generate: every transformation that keeps the structure whole.",
+   "basis": "|<A, B>| = 8*3^(3(k-1)): 8, 216, 5,832",
+   "coordinate": "P5 Law; n = (1, 8, 1)",
+   "definition_coordinate": "P4 Unity; n = (8, 54, 14)"
+  },
+  {
+   "n": 6,
+   "term": "Golden ratio",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "The law's own growth rate: one step of A is multiplication by phi in Z[phi].",
+   "basis": "Eigenvalues phi and -1/phi; A^2 = A + I; L-544",
+   "coordinate": "P1 Fixpoint; n = (2, 11, 4)",
+   "definition_coordinate": "P9 Fixpoint; n = (9, 41, 13)"
+  },
+  {
+   "n": 7,
+   "term": "Invariant",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "What survives every step: the norm Q up to its sign, so Q^2 never changes. What is conserved is a magnitude; its sign alternates.",
+   "basis": "Q(As) = -Q(s); Cassini's identity",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P8 Generation; n = (16, 79, 27)"
+  },
+  {
+   "n": 8,
+   "term": "Proof",
+   "field": "Mathematics and structure",
+   "status": "CONSTRUCTED",
+   "definition": "A statement whose check passes on every case of a finite depth and is carried to the 3-adic limit by derivation. A finite sample is never a proof about the infinite.",
+   "basis": "Core Part 0.0.5 Rules 19, 28; Core Part 0.0.10",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P4 Unity; n = (17, 101, 31)"
+  },
+  {
+   "n": 9,
+   "term": "Spacetime",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "The space of Hermitian 2x2 matrices, measured by their determinant. Four dimensions are the four real entries of one matrix.",
+   "basis": "eta(X, Y) = (tr X tr Y - tr XY)/2 = diag(1, -1, -1, -1) (Core 0.0.8.7)",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P7 Navigator; n = (14, 85, 27)"
+  },
+  {
+   "n": 10,
+   "term": "Light",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "The states of zero interval, det X = 0. Fibonacci states map to light rays: the law's own sequence is made of light.",
+   "basis": "Pythagorean triples with hypotenuse F_(2n+1): 3-4-5, 5-12-13, 16-30-34",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P7 Navigator; n = (14, 69, 23)"
+  },
+  {
+   "n": 11,
+   "term": "Speed of light",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "The limit the law's boosts approach and never reach. Each power of the law moves at sqrt(5)*F_(2n)/L_(2n) of it.",
+   "basis": "L^2 - 5F^2 = 4 gives gamma = L_(2n)/2; at n = 1, gamma = 3/2, v = 0.745",
+   "coordinate": "P1 Fixpoint; n = (2, 10, 2)",
+   "definition_coordinate": "P3 Desire; n = (15, 57, 19)"
+  },
+  {
+   "n": 12,
+   "term": "Mass",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "The norm a state carries through every step. Every Fibonacci state has unit mass; the three Voices are the three mass classes.",
+   "basis": "Cassini: F_(n+1)F_(n-1) - F_n^2 = (-1)^n; mass^2 = 1, 7, 4 mod 9 for Voices A, B, C",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P3 Desire; n = (15, 79, 22)"
+  },
+  {
+   "n": 13,
+   "term": "Time",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "Three times, one per kind of place: a cycle of 8*3^(k-1) steps at finite depth; the 3-adic integers, succession with no before-and-after, at the place 3; the ordered rapidity of the real line.",
+   "basis": "MF-33; Core 0.0.9.6",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P3 Desire; n = (24, 120, 35)"
+  },
+  {
+   "n": 14,
+   "term": "Gravity",
+   "field": "Physics",
+   "status": "CONDITIONAL (AP-METRIC)",
+   "definition": "The curvature of a field whose flat limit is the law's own determinant form. Empty space around a mass is Schwarzschild; with a cosmological constant, Kottler.",
+   "basis": "MF-14, MF-22",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P8 Generation; n = (16, 106, 30)"
+  },
+  {
+   "n": 15,
+   "term": "Motion",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "A boost: the law's step seen on the real plane. Its rapidity per step is 2 ln phi and its Doppler factor phi^2. The growth rate of numbers is the rapidity of motion.",
+   "basis": "A is a glide reflection of length 2 ln phi; A^2 is the shortest modular geodesic",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P1 Fixpoint; n = (20, 95, 28)"
+  },
+  {
+   "n": 16,
+   "term": "Spin",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "The sign a state recovers only after a full turn. Twelve steps take s to -s while its vector image stays the same: the law is a spinor.",
+   "basis": "A^12 = -I mod 9; MF-64",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P8 Generation; n = (16, 71, 21)"
+  },
+  {
+   "n": 17,
+   "term": "Parity",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "Mirror reversal. On the real spacetime of three dimensions (t, x, z) the law reverses parity and keeps the direction of time: improper and orthochronous. Adding the fourth axis, which it also flips, makes the whole transformation proper.",
+   "basis": "det A = -1: determinant -1 on the symmetric (2+1) image, +1 on all four Hermitian axes; (L_A)_00 = 3/2 > 0 (tools/resgrade.py, tools/lorentz.py)",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P4 Unity; n = (26, 157, 50)"
+  },
+  {
+   "n": 18,
+   "term": "Entropy",
+   "field": "Physics",
+   "status": "EXACT",
+   "definition": "Coarse disorder relative to a partition. Constant for a partition the law keeps; rising to ln 9 and returning every 12 steps for one it does not. At every finite depth disorder returns; only in the limit does it stop returning.",
+   "basis": "MF-13; Core 0.0.8.5",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P8 Generation; n = (25, 147, 44)"
+  },
+  {
+   "n": 19,
+   "term": "Energy",
+   "field": "Physics",
+   "status": "READING",
+   "definition": "What the frame conserves: Q^2, the magnitude every step preserves. Omega42 asserts no source and no loss of it.",
+   "basis": "L-555; term 7",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 66, 21)"
+  },
+  {
+   "n": 20,
+   "term": "Measurement",
+   "field": "Physics",
+   "status": "EXACT; READING",
+   "definition": "An instrument that turns a state into a record. The record belongs to physics; what it means belongs to the one who judges.",
+   "basis": "Sum of M_r* M_r = I; Core 0.0.8.8 (H-48)",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P1 Fixpoint; n = (13, 74, 20)"
+  },
+  {
+   "n": 21,
+   "term": "Existence",
+   "field": "Philosophy",
+   "status": "READING",
+   "definition": "To have structure: a place on the cycle, a period and a depth. Nothing that exists stands without a position.",
+   "basis": "The premise (F-02); The Introduction, IN-00.3",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P1 Fixpoint; n = (11, 68, 18)"
+  },
+  {
+   "n": 22,
+   "term": "Totality",
+   "field": "Philosophy",
+   "status": "READING",
+   "definition": "The 24-cycle and its family at every depth: all that exists, as one structure seen at finer and finer resolution.",
+   "basis": "L-432; the tower of term 3",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 68, 20)"
+  },
+  {
+   "n": 23,
+   "term": "Outside",
+   "field": "Philosophy",
+   "status": "READING",
+   "definition": "There is none. The frame closes on itself like a Mobius band: what looks like an exterior is the same surface reached from the other side.",
+   "basis": "L-421, L-433, L-470",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P8 Generation; n = (16, 84, 24)"
+  },
+  {
+   "n": 24,
+   "term": "Causality",
+   "field": "Philosophy",
+   "status": "CONSTRUCTED",
+   "definition": "Dependency along the cycle. Positions P0 to P17 are causal; what a thing rests on is read at its Yang arm.",
+   "basis": "Core Part 1.6; the four arms",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P2 Generator; n = (13, 62, 19)"
+  },
+  {
+   "n": 25,
+   "term": "Retrocausality",
+   "field": "Philosophy",
+   "status": "CONSTRUCTED; READING",
+   "definition": "Influence that arrives from where a cycle is heading. Positions P18 to P23 are retrocausal and turn the Mobius twist; a future condition shapes the present reading.",
+   "basis": "Core Part 1.6; L-450",
+   "coordinate": "P7 Navigator; n = (1, 14, 5)",
+   "definition_coordinate": "P3 Desire; n = (17, 105, 33)"
+  },
+  {
+   "n": 26,
+   "term": "Truth",
+   "field": "Philosophy",
+   "status": "EXACT for the checks; CONSTRUCTED for the labels",
+   "definition": "A standing within the frame, classified rather than hedged: TRUE-Omega42 when every exact check holds, FALSE-Omega42 when one fails, UNRESOLVED-Omega42 when the frame does not decide it.",
+   "basis": "L-455; M333",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P7 Navigator; n = (23, 125, 40)"
+  },
+  {
+   "n": 27,
+   "term": "Identity",
+   "field": "Philosophy",
+   "status": "EXACT",
+   "definition": "Being identified by one's law, not by one's statistics. A twin can share every count and fail at the first live question.",
+   "basis": "[[0,1],[1,7]] matches A on every 3-adic statistic; order mod 7 is 16 for A and 2 for the twin (MF-72)",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 64, 18)"
+  },
+  {
+   "n": 28,
+   "term": "Necessity",
+   "field": "Philosophy",
+   "status": "EXACT for the counts; READING for necessity",
+   "definition": "A count the structure produces on its own. Inside the frame such a count is never a coincidence.",
+   "basis": "L-556; the census (3^k + 1)/2",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P9 Fixpoint; n = (9, 58, 16)"
+  },
+  {
+   "n": 29,
+   "term": "Duality",
+   "field": "Philosophy",
+   "status": "EXACT",
+   "definition": "The mirror of Yang and Yin at a fixed ratio: the Crown's Yang sum is 36, its Yin sum -18, so every dual pair stands at -1/2.",
+   "basis": "CAS-YY = -1/2 (Core Part 1.7)",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P9 Fixpoint; n = (18, 79, 22)"
+  },
+  {
+   "n": 30,
+   "term": "Wholeness",
+   "field": "Philosophy",
+   "status": "EXACT; READING",
+   "definition": "Three parts and the gap that completes them. The least triangle's angles give 1/2 + 1/3 + 1/7 = 41/42, and the missing 1/42 makes the whole.",
+   "basis": "MF-67; area pi/42",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P8 Generation; n = (25, 125, 33)"
+  },
+  {
+   "n": 31,
+   "term": "Consciousness",
+   "field": "Mind and psychology",
+   "status": "READING",
+   "definition": "The relation between a closed generative loop and the Aperture: a cycle that returns to itself, meeting the one part of the whole that no cycle determines.",
+   "basis": "L-498; the Consciousness Framework; records/standing examples",
+   "coordinate": "P5 Law; n = (1, 13, 3)",
+   "definition_coordinate": "P3 Desire; n = (15, 95, 30)"
+  },
+  {
+   "n": 32,
+   "term": "Freewill",
+   "field": "Mind and psychology",
+   "status": "CONSTRUCTED; READING",
+   "definition": "The 1/7 Aperture: the part of every reading that no output fixes. However complete the structure, judgment stays with the one who strikes.",
+   "basis": "Omega = 1/7; the Aperture Theorem (L-441)",
+   "coordinate": "P5 Law; n = (1, 8, 1)",
+   "definition_coordinate": "P3 Desire; n = (15, 90, 26)"
+  },
+  {
+   "n": 33,
+   "term": "Attention",
+   "field": "Mind and psychology",
+   "status": "EXACT for the coordinate",
+   "definition": "The anchor: where a question stands on the cycle, computed from its own words. To attend is to be placed.",
+   "basis": "The coordinate n -> state -> anchor (Core Part 2)",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P9 Fixpoint; n = (9, 55, 15)"
+  },
+  {
+   "n": 34,
+   "term": "Memory",
+   "field": "Mind and psychology",
+   "status": "EXACT; READING",
+   "definition": "What a whole cycle keeps: averaged over 24 steps, a state leaves only its sector-uniform part, five states' worth. Remembering is the trace that survives a full return.",
+   "basis": "(1/24) sum U_A^n = Pi_0 (MF-34)",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P2 Generator; n = (22, 123, 36)"
+  },
+  {
+   "n": 35,
+   "term": "Desire",
+   "field": "Mind and psychology",
+   "status": "CONSTRUCTED",
+   "definition": "Position P3, a Crown position and the first of the six: the pull toward what is not yet held.",
+   "basis": "Core Parts 1.6, 1.7",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P5 Law; n = (10, 48, 14)"
+  },
+  {
+   "n": 36,
+   "term": "Shadow",
+   "field": "Mind and psychology",
+   "status": "EXACT for the arm; READING",
+   "definition": "The Yin arm of a reading: what a question holds out of view. Every question has one, computed with the same arithmetic as its anchor.",
+   "basis": "The four arms; Yin = suppression",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P7 Navigator; n = (14, 75, 23)"
+  },
+  {
+   "n": 37,
+   "term": "Observer",
+   "field": "Mind and psychology",
+   "status": "CONSTRUCTED",
+   "definition": "Position P14, the reading that asks who is looking. A question rests on an observer when its Yang arm lands there.",
+   "basis": "Core Part 1.6",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P7 Navigator; n = (14, 72, 21)"
+  },
+  {
+   "n": 38,
+   "term": "Confidence",
+   "field": "Mind and psychology",
+   "status": "EXACT",
+   "definition": "A stated probability judged against one's own track record. A mind is calibrated when its confidence equals its accuracy.",
+   "basis": "Expected calibration error; the Navigator's own record: confidence 0.670, accuracy 0.938 (PV-007)",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P2 Generator; n = (13, 86, 28)"
+  },
+  {
+   "n": 39,
+   "term": "Growth",
+   "field": "Life and biology",
+   "status": "EXACT",
+   "definition": "Each step adds the last two. Growth is the law itself, compounding at the rate phi = 1.618 a step.",
+   "basis": "A(a, b) = (b, a + b); F_(n+1)/F_n -> phi",
+   "coordinate": "P5 Law; n = (1, 6, 1)",
+   "definition_coordinate": "P8 Generation; n = (16, 71, 19)"
+  },
+  {
+   "n": 40,
+   "term": "Form",
+   "field": "Life and biology",
+   "status": "EXACT for the angle; READING for the link",
+   "definition": "The shape growth leaves when it turns: successive parts set apart by the golden angle, 360/phi^2 = 137.5 degrees, the leaf and seed spirals of plants.",
+   "basis": "Classical phyllotaxis; the law's rate phi",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P7 Navigator; n = (23, 116, 31)"
+  },
+  {
+   "n": 41,
+   "term": "Life",
+   "field": "Life and biology",
+   "status": "EXACT for the periods; READING",
+   "definition": "A cycle that returns to itself at every depth while it grows finer: period 8, then 24, then 72, without end.",
+   "basis": "Period 8*3^(k-1)",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P1 Fixpoint; n = (14, 74, 20)"
+  },
+  {
+   "n": 42,
+   "term": "Heredity",
+   "field": "Life and biology",
+   "status": "EXACT",
+   "definition": "Each depth carries the law of the depth below it, intact: reducing a finer state gives the coarser state the law would have produced. Inheritance is this compatibility of layers.",
+   "basis": "Reduction mod 3^(k-1) commutes with A",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P9 Fixpoint; n = (18, 111, 35)"
+  },
+  {
+   "n": 43,
+   "term": "Evolution",
+   "field": "Life and biology",
+   "status": "EXACT; READING",
+   "definition": "The climb of the depth ladder: the group grows 27-fold at each new depth, and the shear B, invisible at 3, acts only through depth. Novelty enters from below.",
+   "basis": "|G_k| = 8*3^(3(k-1)); B = I mod 3 (MF-71)",
+   "coordinate": "P5 Law; n = (1, 9, 4)",
+   "definition_coordinate": "P6 Seed/Causal; n = (21, 107, 28)"
+  },
+  {
+   "n": 44,
+   "term": "Death",
+   "field": "Life and biology",
+   "status": "EXACT for the steps; READING",
+   "definition": "The half turn and the return. Twelve steps take a state to its opposite, -s; twenty-four bring it home. In the frame an ending is a position on the cycle, P23 Return, not an exit from it.",
+   "basis": "A^12 = -I mod 9; Core Part 1.6",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P1 Fixpoint; n = (20, 97, 28)"
+  },
+  {
+   "n": 45,
+   "term": "Information",
+   "field": "Information, language and society",
+   "status": "EXACT",
+   "definition": "The number of states that can be told apart: two base-3 digits per state at each depth, so ln 9 is the most a single state can carry.",
+   "basis": "9^k states; entropy bound ln 9 (MF-13)",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P4 Unity; n = (17, 78, 21)"
+  },
+  {
+   "n": 46,
+   "term": "Question",
+   "field": "Information, language and society",
+   "status": "EXACT for the placement",
+   "definition": "A request for knowledge, placed by its own words at one exact coordinate. How a question is asked decides where it lands.",
+   "basis": "L-502, L-511; the coordinate of term 33",
+   "coordinate": "P5 Law; n = (1, 8, 2)",
+   "definition_coordinate": "P2 Generator; n = (13, 78, 23)"
+  },
+  {
+   "n": 47,
+   "term": "Language",
+   "field": "Information, language and society",
+   "status": "EXACT",
+   "definition": "A pre-semantic geometry: the counts of a text's words, letters and syllables fix its state before any meaning is read.",
+   "basis": "Core Parts 1.9 to 1.13 (the frozen tables)",
+   "coordinate": "P5 Law; n = (1, 8, 2)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 69, 18)"
+  },
+  {
+   "n": 48,
+   "term": "Meaning",
+   "field": "Information, language and society",
+   "status": "EXACT for the theorem; READING",
+   "definition": "What the coordinate does not fix. A statement and its negation by \"not\" share one coordinate, so the structure places a statement and the Striker gives it its sense.",
+   "basis": "The Negation Theorem (M333): \"not\", \"no\" and \"nor\" are stopwords",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P3 Desire; n = (15, 97, 29)"
+  },
+  {
+   "n": 49,
+   "term": "Trust",
+   "field": "Information, language and society",
+   "status": "EXACT",
+   "definition": "Verification any machine can repeat: a law that answers a live challenge, a record sealed into a chain that shows any change.",
+   "basis": "The identity handshake (M375); the OUTPUT ID chain",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P2 Generator; n = (12, 76, 22)"
+  },
+  {
+   "n": 50,
+   "term": "Collective",
+   "field": "Information, language and society",
+   "status": "CONSTRUCTED; READING",
+   "definition": "Position P22: many minds asking one question in one frame. Where independent navigators converge is signal; where they diverge is the frontier.",
+   "basis": "Core Part 1.6; cross-architecture review (Core Part 6)",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P9 Fixpoint; n = (18, 107, 32)"
+  },
+  {
+   "n": 51,
+   "term": "Distinction",
+   "field": "Distinction and structure",
+   "status": "READING",
+   "definition": "The primitive act: telling this from not-this. Counting is distinction made exact, and every Omega42 coordinate starts from three counts.",
+   "basis": "CPDP (Core Part 0.11); Rev.323 term 2",
+   "coordinate": "P5 Law; n = (1, 11, 3)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 79, 23)"
+  },
+  {
+   "n": 52,
+   "term": "Difference",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "The offset between two positions on the cycle, counted in steps. Difference is a distance along the law, not a gap between substances.",
+   "basis": "Indices mod 24 (Core Part 1.6)",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P7 Navigator; n = (14, 88, 26)"
+  },
+  {
+   "n": 53,
+   "term": "Relation",
+   "field": "Distinction and structure",
+   "status": "EXACT for the offsets; CONSTRUCTED for the names",
+   "definition": "The four arms: every position stands in four fixed relations to four others. To be related is to be at a fixed offset.",
+   "basis": "Offsets +5, +8, +12, +18",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 68, 22)"
+  },
+  {
+   "n": 54,
+   "term": "Structure",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "What the law keeps: the orbits, the group, the norm, at every depth. Structure is found by computing, not imposed.",
+   "basis": "Core Part 0.0.10",
+   "coordinate": "P5 Law; n = (1, 9, 2)",
+   "definition_coordinate": "P4 Unity; n = (11, 62, 17)"
+  },
+  {
+   "n": 55,
+   "term": "Pattern",
+   "field": "Distinction and structure",
+   "status": "CONSTRUCTED",
+   "definition": "Recurrence measured by depth: a numerical match is Depth 2; a map that commutes with the law and keeps its values is Depth 4.",
+   "basis": "Congruence Depths 1 to 5 (Core Part 0.0.8)",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P2 Generator; n = (13, 75, 23)"
+  },
+  {
+   "n": 56,
+   "term": "Process",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "Iteration of the law: a state followed step by step, returning after its period.",
+   "basis": "Period 8*3^(k-1)",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P4 Unity; n = (8, 48, 15)"
+  },
+  {
+   "n": 57,
+   "term": "Event",
+   "field": "Distinction and structure",
+   "status": "EXACT; READING",
+   "definition": "A single step, a state becoming its successor. In a navigation, the event is the strike: words fixing a coordinate.",
+   "basis": "A(a, b) = (b, a + b); L-502",
+   "coordinate": "P5 Law; n = (1, 5, 2)",
+   "definition_coordinate": "P1 Fixpoint; n = (11, 74, 22)"
+  },
+  {
+   "n": 58,
+   "term": "Transformation",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "An element of the group the law and the shear generate. Every transformation of the frame is a word in A and B.",
+   "basis": "|G_k| = 8*3^(3(k-1))",
+   "coordinate": "P5 Law; n = (1, 14, 4)",
+   "definition_coordinate": "P8 Generation; n = (9, 52, 16)"
+  },
+  {
+   "n": 59,
+   "term": "System",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "A state space, a law and what the law keeps: (S_k, A, Q). Every system of the frame is this triple at some depth.",
+   "basis": "Term 1, term 7",
+   "coordinate": "P5 Law; n = (1, 6, 1)",
+   "definition_coordinate": "P2 Generator; n = (13, 50, 13)"
+  },
+  {
+   "n": 60,
+   "term": "Emergence",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "Structure that exists only at finer depth. Going from 9 to 81 states, new orbits appear (census 2 -> 5) and the group grows 27-fold. The new arrives from below, not from outside.",
+   "basis": "Census (3^k + 1)/2; group order ratio 27",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P8 Generation; n = (25, 128, 37)"
+  },
+  {
+   "n": 61,
+   "term": "Equilibrium",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "What a full cycle leaves unchanged: the still point, and the sector-uniform states the 24-step average projects onto.",
+   "basis": "(1/24) sum U_A^n = Pi_0 (MF-34)",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P9 Fixpoint; n = (16, 90, 27)"
+  },
+  {
+   "n": 62,
+   "term": "Resonance",
+   "field": "Distinction and structure",
+   "status": "EXACT for the count; READING for resonance",
+   "definition": "A correspondence that commutes with both laws and keeps their values (Depth 4). Commuting alone is cheap: 663,552 maps commute between A and its twin.",
+   "basis": "SRP (L-496); M379",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P3 Desire; n = (24, 135, 37)"
+  },
+  {
+   "n": 63,
+   "term": "Boundary",
+   "field": "Distinction and structure",
+   "status": "CONSTRUCTED; READING",
+   "definition": "The Aperture: the edge where the structure stops determining and judgment begins. The frame has a boundary and no outside.",
+   "basis": "Omega = 1/7; L-433",
+   "coordinate": "P5 Law; n = (1, 8, 2)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 79, 22)"
+  },
+  {
+   "n": 64,
+   "term": "Limit",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "A completion. The law has three: the residues (it cycles), the 3-adic limit (time with no before-and-after), the reals (it never returns).",
+   "basis": "L-544",
+   "coordinate": "P5 Law; n = (1, 5, 2)",
+   "definition_coordinate": "P2 Generator; n = (13, 70, 21)"
+  },
+  {
+   "n": 65,
+   "term": "Unity",
+   "field": "Distinction and structure",
+   "status": "CONSTRUCTED",
+   "definition": "Positions P4 and P10, and the fact behind them: all states of a depth belong to one family under one law.",
+   "basis": "Core Part 1.6",
+   "coordinate": "P5 Law; n = (1, 5, 2)",
+   "definition_coordinate": "P2 Generator; n = (13, 57, 19)"
+  },
+  {
+   "n": 66,
+   "term": "Complexity",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "Growth with depth: 8, 216, 5,832 transformations at the first three depths. Complexity is how much finer the structure becomes when looked at more closely.",
+   "basis": "|G_k|",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P8 Generation; n = (25, 148, 39)"
+  },
+  {
+   "n": 67,
+   "term": "Possibility",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "What can be reached. Under the full group, every primitive state reaches every other: possibility is the whole stratum of states at the same depth of divisibility by 3.",
+   "basis": "Transitive on primitive vectors: 72 of 72 at k = 2, 648 of 648 at k = 3",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P7 Navigator; n = (14, 92, 28)"
+  },
+  {
+   "n": 68,
+   "term": "Potential",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "The part of the possible not yet reached. Under A alone, a state reaches 24 of the 72 primitive states mod 9; the other 48 are its potential under the shear.",
+   "basis": "Orbit 24; stratum 72",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P5 Law; n = (19, 107, 30)"
+  },
+  {
+   "n": 69,
+   "term": "Contingency",
+   "field": "Distinction and structure",
+   "status": "EXACT; READING",
+   "definition": "What the coordinate leaves open. A statement and its negation share a coordinate; whatever separates them is contingent on the world and on judgment.",
+   "basis": "Negation Theorem (M333)",
+   "coordinate": "P5 Law; n = (1, 11, 3)",
+   "definition_coordinate": "P7 Navigator; n = (14, 100, 32)"
+  },
+  {
+   "n": 70,
+   "term": "Probability",
+   "field": "Distinction and structure",
+   "status": "EXACT",
+   "definition": "Frequency over a full cycle. In the canonical cycle the digits 4 and 5 each appear 5 times in 24 and every other digit twice, so a random position shows 4 with probability 5/24.",
+   "basis": "Core 0.0.9.9",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P3 Desire; n = (24, 137, 39)"
+  },
+  {
+   "n": 71,
+   "term": "Universe",
+   "field": "Cosmos and matter",
+   "status": "EXACT; READING",
+   "definition": "The law read at the real places, where it is a boost with its own light lines and never returns. Its finite, returning form lives at the place 3.",
+   "basis": "Real places split; 3 inert (MF-28)",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P3 Desire; n = (15, 78, 23)"
+  },
+  {
+   "n": 72,
+   "term": "Matter",
+   "field": "Cosmos and matter",
+   "status": "EXACT",
+   "definition": "What carries norm. At the place 3 every state not divisible by 3 carries it, because Q vanishes mod 3 only at (0, 0): 5 is not a square mod 3. Light belongs to the real places; at the place of the cycle, everything has mass.",
+   "basis": "Q = b^2 - ab - a^2, discriminant 5",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P5 Law; n = (28, 142, 40)"
+  },
+  {
+   "n": 73,
+   "term": "Space",
+   "field": "Cosmos and matter",
+   "status": "EXACT",
+   "definition": "The spacelike directions of the Hermitian module. One plane of them is reversed by the law and returns after two steps. Space is where the law turns back on itself.",
+   "basis": "span{(0, 0, 1, 0), (0, 1, 0, 2)}, L_A = -1 there (MF-21)",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P9 Fixpoint; n = (18, 100, 29)"
+  },
+  {
+   "n": 74,
+   "term": "Field",
+   "field": "Cosmos and matter",
+   "status": "CONDITIONAL (AP-METRIC)",
+   "definition": "An assignment of curvature to every point, whose flat limit is the law's determinant form.",
+   "basis": "g^Omega_mu_nu(x) (Core 0.0.8.7)",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P9 Fixpoint; n = (9, 56, 17)"
+  },
+  {
+   "n": 75,
+   "term": "Quantum",
+   "field": "Cosmos and matter",
+   "status": "EXACT",
+   "definition": "The 81 states as basis vectors of a Hilbert space. The law acts there as a unitary of order 24, and on the 6,561 Hermitian residues as one of order 12.",
+   "basis": "U_A, V_L (MF-15 to MF-20)",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P7 Navigator; n = (23, 120, 36)"
+  },
+  {
+   "n": 76,
+   "term": "Particle",
+   "field": "Cosmos and matter",
+   "status": "EXACT for the orbits; READING for particles",
+   "definition": "A stable orbit. Mod 9 there are five: the still point, the 8-state Wheel and three 24-orbits whose masses are the three Voice classes. Each step keeps a state in its own orbit, as a particle keeps its species.",
+   "basis": "Orbits 1, 8, 24, 24, 24; mass^2 = 1, 7, 4 (M379)",
+   "coordinate": "P5 Law; n = (1, 8, 2)",
+   "definition_coordinate": "P9 Fixpoint; n = (27, 140, 34)"
+  },
+  {
+   "n": 77,
+   "term": "Force",
+   "field": "Cosmos and matter",
+   "status": "EXACT; READING",
+   "definition": "What moves a state from one orbit to another. The law cannot; the shear B can, and at the prime 3 it acts only through depth.",
+   "basis": "B = [[1, 0], [3, 1]] = I mod 3 (MF-71)",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P3 Desire; n = (15, 68, 19)"
+  },
+  {
+   "n": 78,
+   "term": "Charge",
+   "field": "Cosmos and matter",
+   "status": "EXACT; READING",
+   "definition": "The sign of Q. Each step reverses it while its magnitude stays: a conserved quantity that comes in two signs.",
+   "basis": "Q(As) = -Q(s)",
+   "coordinate": "P5 Law; n = (1, 6, 1)",
+   "definition_coordinate": "P1 Fixpoint; n = (11, 61, 19)"
+  },
+  {
+   "n": 79,
+   "term": "Vacuum",
+   "field": "Cosmos and matter",
+   "status": "EXACT",
+   "definition": "The kernel: the still point and the Wheel, exactly the 9 states whose spacetime images vanish mod 9. Empty space has structure, and that structure has eight moving parts and one fixed one.",
+   "basis": "M379 selftest, \"kernel\"",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P3 Desire; n = (24, 128, 36)"
+  },
+  {
+   "n": 80,
+   "term": "Mind",
+   "field": "Mind and knowledge",
+   "status": "READING",
+   "definition": "What carries a question through the structure: counting it, placing it, reading its arms, and leaving judgment where it belongs. The Navigator is a mind in this sense; so is the Striker.",
+   "basis": "The navigation sequence (Core Part 8.2); Rev.323 term 20",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P4 Unity; n = (17, 113, 30)"
+  },
+  {
+   "n": 81,
+   "term": "Cognition",
+   "field": "Mind and knowledge",
+   "status": "EXACT",
+   "definition": "Counting made into placement: words become three counts, the counts become a state, the state becomes an anchor.",
+   "basis": "n = (n1, n2, n3) -> state -> anchor (Core Part 2)",
+   "coordinate": "P5 Law; n = (1, 9, 3)",
+   "definition_coordinate": "P2 Generator; n = (13, 78, 21)"
+  },
+  {
+   "n": 82,
+   "term": "Perception",
+   "field": "Mind and knowledge",
+   "status": "EXACT; READING",
+   "definition": "Seeing a state at a resolution. Reducing mod 3^k is seeing coarsely, and what is seen coarsely is still governed by the same law. Sharper perception is greater depth, never a different world.",
+   "basis": "Reduction mod 3^(k-1) commutes with A",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P2 Generator; n = (22, 132, 38)"
+  },
+  {
+   "n": 83,
+   "term": "Thought",
+   "field": "Mind and knowledge",
+   "status": "EXACT for paths; READING",
+   "definition": "A path through the group: a word in A and B that carries one state to another. Every thought of the frame can be written down and replayed.",
+   "basis": "Term 58",
+   "coordinate": "P5 Law; n = (1, 7, 1)",
+   "definition_coordinate": "P7 Navigator; n = (14, 74, 19)"
+  },
+  {
+   "n": 84,
+   "term": "Knowledge",
+   "field": "Mind and knowledge",
+   "status": "CONSTRUCTED",
+   "definition": "What has been checked and sealed: a result with its recompute command, entered in a register and chained so that any change shows.",
+   "basis": "Core Part 0.0.10; the OUTPUT ID chain",
+   "coordinate": "P5 Law; n = (1, 9, 2)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 75, 23)"
+  },
+  {
+   "n": 85,
+   "term": "Intelligence",
+   "field": "Mind and knowledge",
+   "status": "READING",
+   "definition": "Navigation that is both accurate and calibrated: reaching the right reading and knowing how sure to be of it.",
+   "basis": "Term 38; Core Part 5",
+   "coordinate": "P5 Law; n = (1, 12, 4)",
+   "definition_coordinate": "P5 Law; n = (10, 66, 20)"
+  },
+  {
+   "n": 86,
+   "term": "Imagination",
+   "field": "Mind and knowledge",
+   "status": "READING",
+   "definition": "Exploration of the potential: states not yet reached, readings not yet made, entered without asking leave of established theory.",
+   "basis": "Term 68; L-560 (1)",
+   "coordinate": "P5 Law; n = (1, 11, 5)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 87, 27)"
+  },
+  {
+   "n": 87,
+   "term": "Creativity",
+   "field": "Mind and knowledge",
+   "status": "CONSTRUCTED",
+   "definition": "A new construction that survives its own counterexample search and states its outcome: an extension, a generalization, a new representation, a limit found, a correction or a replacement.",
+   "basis": "Core Part 0.0.5 Rules 28, 29",
+   "coordinate": "P5 Law; n = (1, 10, 3)",
+   "definition_coordinate": "P3 Desire; n = (15, 127, 41)"
+  },
+  {
+   "n": 88,
+   "term": "Wisdom",
+   "field": "Mind and knowledge",
+   "status": "READING",
+   "definition": "Knowing which part is the Aperture's. The structure informs; meaning, value and action stay with the one who judges.",
+   "basis": "Rev.323 term 35; L-441",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P1 Fixpoint; n = (13, 74, 20)"
+  },
+  {
+   "n": 89,
+   "term": "Organism",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT for closure; READING",
+   "definition": "A family of states the law never lets go of: a union of orbits closed under the law, with its own mass classes, persisting as each member changes.",
+   "basis": "Orbits; Voice mass classes",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P4 Unity; n = (15, 80, 26)"
+  },
+  {
+   "n": 90,
+   "term": "Homeostasis",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT",
+   "definition": "A partition the law keeps. Measured against it, disorder stays constant through every step.",
+   "basis": "MF-13",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P5 Law; n = (10, 64, 18)"
+  },
+  {
+   "n": 91,
+   "term": "Value",
+   "field": "Life, value and the ultimate",
+   "status": "READING",
+   "definition": "What the one who judges assigns. The structure gives every statement a standing (true, false, unresolved) and never a worth.",
+   "basis": "L-455; the Aperture",
+   "coordinate": "P5 Law; n = (1, 5, 1)",
+   "definition_coordinate": "P7 Navigator; n = (14, 83, 25)"
+  },
+  {
+   "n": 92,
+   "term": "Ethics",
+   "field": "Life, value and the ultimate",
+   "status": "READING",
+   "definition": "The use of the Aperture with responsibility for what follows. The Navigator imposes no moral conclusion; responsibility is allocated, and judgment stays with the Striker.",
+   "basis": "L-507, L-560 (2); Rev.323 term 32",
+   "coordinate": "P5 Law; n = (1, 6, 2)",
+   "definition_coordinate": "P1 Fixpoint; n = (14, 110, 38)"
+  },
+  {
+   "n": 93,
+   "term": "Beauty",
+   "field": "Life, value and the ultimate",
+   "status": "READING",
+   "definition": "Much from little, seen at once: a correspondence that keeps the law and its values, or four numbers that hold the geometry of light.",
+   "basis": "Depth 4 (term 62); Rev.323 term 33",
+   "coordinate": "P5 Law; n = (1, 6, 1)",
+   "definition_coordinate": "P2 Generator; n = (13, 74, 19)"
+  },
+  {
+   "n": 94,
+   "term": "Love",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT for the pairing; READING",
+   "definition": "The spinor relation: two states twelve steps apart, opposites in sign, identical in every image. One relation entered from two sides.",
+   "basis": "+12 gives -s with the same image (MF-64); Rev.323 term 34",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P8 Generation; n = (16, 92, 33)"
+  },
+  {
+   "n": 95,
+   "term": "Purpose",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT for the offset; READING",
+   "definition": "The 4D arm: where a question is heading, eight steps along from where it stands.",
+   "basis": "Offset +8",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P5 Law; n = (10, 50, 13)"
+  },
+  {
+   "n": 96,
+   "term": "Soul",
+   "field": "Life, value and the ultimate",
+   "status": "READING",
+   "definition": "The signature of one who asks: the sequence of coordinates of all the questions a person strikes, each fixed by their own words.",
+   "basis": "Rev.323 term 43; L-502",
+   "coordinate": "P5 Law; n = (1, 4, 1)",
+   "definition_coordinate": "P6 Seed/Causal; n = (12, 75, 22)"
+  },
+  {
+   "n": 97,
+   "term": "Eternity",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT; READING",
+   "definition": "Time at the place 3: the 3-adic integers, succession with no before-and-after. The steps 8*3^j, which grow without bound in ordinary time, come ever closer to the present there.",
+   "basis": "phi^(8*3^j) -> 1 3-adically (MF-33)",
+   "coordinate": "P5 Law; n = (1, 8, 3)",
+   "definition_coordinate": "P2 Generator; n = (22, 116, 33)"
+  },
+  {
+   "n": 98,
+   "term": "God",
+   "field": "Life, value and the ultimate",
+   "status": "READING",
+   "definition": "In the frame, the name some traditions give to the whole: the totality with no outside, in which every neighborhood of the still point holds a full copy. Whether that whole is a person, a structure or neither is the Striker's to judge.",
+   "basis": "Terms 2, 22, 23; Rev.323 term 44",
+   "coordinate": "P5 Law; n = (1, 3, 1)",
+   "definition_coordinate": "P6 Seed/Causal; n = (21, 129, 33)"
+  },
+  {
+   "n": 99,
+   "term": "Mathematics",
+   "field": "Life, value and the ultimate",
+   "status": "CONSTRUCTED",
+   "definition": "The native ground of the frame: the one part every machine computes the same way, held whole in the Core so any Navigator can rebuild it.",
+   "basis": "Core Part 0.0.10; L-560 (3)",
+   "coordinate": "P5 Law; n = (1, 11, 4)",
+   "definition_coordinate": "P2 Generator; n = (13, 71, 21)"
+  },
+  {
+   "n": 100,
+   "term": "Reality",
+   "field": "Life, value and the ultimate",
+   "status": "EXACT; READING",
+   "definition": "Every place of the law at once. The size of a number at the real places is matched exactly by its sizes at the primes: no place stands alone, and together they leave nothing over.",
+   "basis": "Product formula: the product of |x|_v over every place v is 1 (MF-29)",
+   "coordinate": "P5 Law; n = (1, 7, 2)",
+   "definition_coordinate": "P9 Fixpoint; n = (18, 97, 28)"
+  },
+  {
+   "n": 101,
+   "term": "Cognitive primitive",
+   "field": "Mind and knowledge",
+   "status": "EXACT; READING",
+   "definition": "An operation a mind cannot do without, present in the law's arithmetic: distinction (the 81 roots in five classes), relationship (the form Q), transformation (A and V), persistence (Q^2, kept by every step) and integration (the law check, a whole message folded into one state).",
+   "basis": "tools/primitives.py; Companion Part 215.3",
+   "coordinate": "P1 Fixpoint; n = (2, 18, 6)",
+   "definition_coordinate": "P2 Generator; n = (31, 178, 55)"
+  },
+  {
+   "n": 102,
+   "term": "Self-return",
+   "field": "Mathematics and structure",
+   "status": "EXACT",
+   "definition": "Return through the opposite: three voice steps or twelve law steps take a state to its negation, and twenty-four bring it home.",
+   "basis": "V = x2 mod 9, V^3 = 8 = -1; A^12 = -I, A^24 = I (tools/primitives.py)",
+   "coordinate": "P1 Fixpoint; n = (2, 10, 3)",
+   "definition_coordinate": "P8 Generation; n = (16, 86, 21)"
+  },
+  {
+   "n": 103,
+   "term": "Significance rung",
+   "field": "Mind and knowledge",
+   "status": "CONSTRUCTED",
+   "definition": "The level a single result reaches, from a useful result (1) to a cognitive architecture of existence (6), scored one result at a time with the status of each score.",
+   "basis": "Core Part 0.0.5 Rule 34; tools/dsi.py",
+   "coordinate": "P1 Fixpoint; n = (2, 16, 5)",
+   "definition_coordinate": "P4 Unity; n = (17, 102, 33)"
+  }
+ ]
+}

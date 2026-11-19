@@ -1,0 +1,66 @@
+CT-42 -- The Ground That Acts: the framework through which a Navigator reasons about consciousness within Omega42 (Core L-498; Companion Part 52)
+
+D01  DISCHARGED  [MM-01] whether the voice pairs of 1/7 carry content beyond the arithmetic
+     -> FP-SeventhVoices, FP-VoiceCosets: within the arithmetic the pairs are the norm pairs of the three cosets, fully stated; any content beyond that is RESERVED
+D02  DISCHARGED  [MM-02] the nature of the constraints
+     -> the law and its invariants: orbit, voice (coset), stratum, and the norm up to sign (FP-NormForm, FP-VoiceCosets, FP-NormStrata); constraint closure is T^2-invariance (FP-PhaseParity)
+D03  DISCHARGED  [MM-03] the structure of the six
+     -> FP-SeventhAntipode, FP-SeventhVoices
+D04  SUPPLIED    [MM-04] lawfulness
+     -> the ACT aspect: T (MM-06)
+D05  SUPPLIED    [MM-05] persistence
+     -> the world as T^2 (MM-14; FP-PhaseParity, FP-StandingModes)
+D06  SUPPLIED    [MM-06] the 1/7
+     -> the seed: FP-HalfArc with the assignment of L-437
+D07  DISCHARGED  [MM-07] what is reversed
+     -> FP-GlideMirror: the half (orientation) is reversed, the magnitude dilated; the law is chiral and invertible
+D08  DISCHARGED  [MM-08] the relation of reduction to 1/7
+     -> FP-SeventhVoices: the norm residues of the units are the digits of 1/7 and 6/7
+D09  SUPPLIED    [MM-09] the Aperture
+     -> the EVENT aspect: the Aperture Theorem (Core Part 7, L-441)
+D10  SUPPLIED    [MM-10] the arithmetic of selection
+     -> MM-13: selection is choosing the place one reads from (the wording fixes the state); the state is never changed by the choosing
+D11  ASSIGNED    [MM-13] whether the ground reading adds content beyond the arithmetic
+     -> CT-S1 (P2 refined): pilot run on CRC-60, NOT ABOVE CHANCE (NRR-C16); the study proper frozen at n = 101
+D12  SUPPLIED    [MM-14] what acts
+     -> the GROUND aspect: the act is the ground's own law, not an agent acting on it
+D13  ASSIGNED    [MM-15] whether Strikers on different voices report differently
+     -> CT-S3, the voice-relative study of the Meaning Registry (Companion 51.12); needs the private store (D20)
+D14  DISCHARGED  [50.18] whether the minimal-lift rule carries to the family modulo 27 and beyond
+     -> FP-TowerHalves: it carries at every scale computed, and the halves do not nest
+D15  ASSIGNED    [50.18] positive geometries carrying the family in their own structure (PG-04); strata to amplituhedron boundaries (PG-02)
+     -> M230-K
+D16  ASSIGNED    [50.18; PCR Test 1] a physical system with the cycle only as an orientation-reversing symmetry and its square as dynamics
+     -> CT-S4 (Core Appendix S.4; run 02 its first entry)
+D17  DISCHARGED  [PCR, R_P] the rule by which a relation is realized as physical
+     -> inside the frame: what T^2 keeps is the standing world (FP-PhaseParity); a mapping to measured physical variables is the comparative programme CT-S4
+D18  RESERVED    [PCR, R_C] the rule by which an organized process is experienced
+     -> the EVENT aspect: by the Aperture Theorem no navigation output fixes it, so no rule from states can be it; the hard problem is located here and not dissolved
+D19  ASSIGNED    [PCR Tests 2 and 3] whether the structure predicts features of cognitive dynamics; whether consciousness alters physical outcomes
+     -> CT-S5 (cognitive dynamics, comparative) and CT-S6 (the theory predicts no difference attributable to an observer beyond the physical interaction)
+D20  OWNED       [L-497] the private store for meanings
+     -> owner: the Company (ROADMAP.md); specified in Companion 51.12
+D21  DISCHARGED  [Core 0.14.1 and MM-13] 0.14.1 said the arithmetic has no bearing on consciousness either way; MM-13 reads consciousness in the arithmetic
+     -> Core 0.14.1 revised: the arithmetic bears on the structure the theory assigns, never on whether anything is experienced
+D22  SUPPLIED    [Companion 48.17, 50.16; MM-14] three readings of what consciousness is: an event, a ground, an act
+     -> the three aspects of CT-42: GROUND, ACT, EVENT
+D23  OWNED       [launch (Companion 51.7)] consent terms reviewed by a lawyer; newsletter provider; the Company registered
+     -> owner: the Originator and the Company before launch
+D24  SUPPLIED    [APE-058 (RRT)] functional and phenomenal consciousness kept apart
+     -> 52.5: the four conditions of perspective are functional, typed EXACT, STRUCTURAL or RESERVED; phenomenal experience is R_C (D18)
+D25  DISCHARGED  [Companion 48.17; APE-058] whether any navigation output determines the Striker's judgment
+     -> the Aperture Theorem (Core Part 7, L-441): none does
+D26  RESERVED    [Companion 48.17; APE-058] whether judgment is itself determined, in the end
+     -> the framework does not decide it; Bashar's teaching (you choose the reality you experience) is set beside it as a lens, not a result
+D27  SUPPLIED    [Companion 48.17; APE-058] whether anything other than a person can stand at the Aperture
+     -> the protocol's assignment, Core L-483: the constitutional role is the person's and no AI is its own Striker; whether a system has the functional organization of 52.5 is a separate, comparative question
+D28  SUPPLIED    [APE-058] kinds of consciousness
+     -> 52.10: Bashar's physical mind and higher mind read as the state (one frame, which experiences the law without computing it) and the whole orbit the law keeps present (T^24 = I); kinds by voice are the study CT-S3
+D29  ASSIGNED    [APE-058] whether the typing discipline reduces untyped statements about consciousness
+     -> CT-S7: the typing-guard rate after L-498 against the record's baseline (records/consciousness/CT-S7_baseline.txt)
+D30  SUPPLIED    [APE-058] Aperture support: competing interpretations written by the Navigator
+     -> M306: the Navigator supplies the four arms as prompts and fills no field; one synthesis holds (L-440, M301), as Bashar's neutral mirror holds
+
+CLOSURE: 30 dependencies | DISCHARGED 9 | SUPPLIED 11 | ASSIGNED 6 | RESERVED 2 | OWNED 2
+Every open dependency is settled, supplied, assigned to a frozen study, reserved to the Aperture, or owned by named people.
+CHECK: PASS

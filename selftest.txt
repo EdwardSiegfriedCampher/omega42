@@ -1,0 +1,34 @@
+Demonstration on constructed cases, not validation on real navigations.
+M225 identical                          T1.5=1.0 (SCORED; claims 5/5)
+M225 paraphrase, same relation words    T1.5=0.719 (SCORED; claims 5/5)
+M225 unrelated topic                    T1.5=0.0 (SCORED; claims 5/3)
+M225 words shuffled inside sentences    T1.5=1.0 (SCORED; claims 5/5)
+M225 no claims ("Nice day.")            T1.5=0.0 (SCORED; claims 5/0)
+M225 lexical vs structural (verdicts M/P) T1.5-L=0.0 T1.5-S=0.75 T1.5=0.0 QUALIFIED
+M225 structural, all DIFFERENT           T1.5-L=0.0 T1.5-S=0.0 T1.5=0.0
+L-418 clean answer                       PASS
+L-418 answer with jargon                 FAIL
+L-418 lowercase protocol term            FAIL
+L-418 quoted protocol term               FAIL
+L-418 capitalised name mid-sentence      FAIL
+L-418 ordinary lowercase words           PASS
+L-418 ordinary scientific words          PASS
+L-418 capitalised protocol label         FAIL
+M243a premise unverified                 REVIEW ok
+M243a premise speculative                REVIEW ok
+M243a premise externalized               REVIEW ok
+M243a subordinate unverified             PASS ok
+M243a subordinate speculative            PASS ok
+M243a premise affirmed                   PASS ok
+M224-A audit, compliant skeleton         0 ok
+M224-A audit, four breaches              4 ok
+M224-A opening, model form               0 ok
+M224-A opening, hedged with menu         7 ok
+M224-A audit, domain placeholder         1 ok
+M224-A audit, hash copied from the script field 1 ok
+M224-A audit, interleaved hash           1 ok
+M224-A overlap, one copied sentence      1 ok
+M193 clean answer                       CLEAN                                      | advisory leakage excess 0.182
+M193 answer reusing context vocabulary  CLEAN                                      | advisory leakage excess 0.842
+M193 history reference                  FLAGGED: history_references                | advisory leakage excess 0.188
+M193 altered domain echo                FLAGGED: domain_identity                   | advisory leakage excess 0.182

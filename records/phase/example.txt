@@ -1,0 +1,17 @@
+M331 PHASE-SPACE READING (Core Part 3.57) | r = (3, 9, 5), anchor P3; state v = (3, 0), on Wheel (orbit of 8)
+  the operator: D(3, 0) = w^(5 x 3 x 0) X^3 Z^0 on C^9, one of the 81 Weyl operators of a nine-level system
+  the unitary step T^2 (a Clifford gate) carries it through 4 points: (3, 0) -> (3, 3) -> (6, 0) -> (6, 6)
+  the antiunitary step T (a time reversal composed with a Clifford gate) carries it to (0, 3)
+  its parity partner, the Antipode T^12 v = -v = (6, 0): P D(v) P = D(-v); 4 steps away on the same orbit (12 mod 8)
+  as two systems, |3> (x) |0> is one branch: the law moves a basis state without branching; branching needs a superposition,
+  and then T^2 writes a record and T^12 erases it (records/multiverse/everett.py, (6) and (8))
+  the law adds no quantum resource: it permutes the Wigner function over the 81 points (everett.py, (5)); the quantum
+  speedup on which Deutsch's argument from quantum computation rests needs a resource this law does not have
+M331 PROFILES (after APE-299) | each in its own terms; a comparison of roles, not an identification
+  state space     E: the universal wave function | D: the multiverse, structured by information flow | Omega42: the 81 states, the phase space of C^9; the tower (Z/9^k)^2
+  transformation  E: one unitary law, no collapse | D: unitary evolution; the Heisenberg picture of descriptors | Omega42: T antiunitary; T^2 a Clifford unitary of order 12
+  invariants      E: the norm of the state | D: what information is conserved across the branches | Omega42: the norm form, the orbits, the parity -I at 12
+  information     E: correlations made by measurement | D: where information flows and where it is locally inaccessible | Omega42: T = SUM . SWAP; T^2 writes a record, T^12 erases it
+  the observer    E: a physical system among others | D: a knowledge-bearing physical system | Omega42: the Navigator inside the structure; the Striker's Aperture outside it
+  probability     E: a measure over branches | D: decision theory on branch weights | Omega42: weights forced by symmetry, 1/9 on the nine branches of the record
+  the residual    E: what an observer can never detect | D: what is not yet explained | Omega42: what the arithmetic leaves open, the meaning, the Striker's

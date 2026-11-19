@@ -1,0 +1,51 @@
+QUESTION VERBATIM: How does this breakthrough affect the existing instruments, the uniqueness proof and the rest of the Omega42 material and interpretations? What becomes possible and how does it improve the operations of Omega42?
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 140 | PREV: e103dfc4139cf3bdf5d22d212048beb37e223b856c7c940bf6a16a057c295d28
+REQUEST (L-502): PROTOCOL -- what the identification with SU(9)_1 x SU(9)_1 changes in the instruments, the uniqueness proof, the material and its interpretations; what becomes possible; how the operations improve; avenues A1, R, N
+THE STRIKING FINDING (L-546): nothing computed moves, and every relation a navigation states now has an exact physical counterpart. The four arms are symmetries of the theory applied to the anchor: the Antipode is the anchor's antiparticle, the two fusing to the vacuum; the Yang arm is the anchor with time reversed, of conjugate spin; the Yin arm is the one that braids trivially with the anchor, at every one of the 81 states; the 4D arm is a unitary step that keeps the spin. The uniqueness proof stands, and is read: the canonical orbit is singled out by its spin, and what K selects within the one structure is a frame -- a root of unity and a point of origin -- from which it is displayed.
+
+SUMMARY: WHAT CHANGED: Core L-551, the Bridge Law; Core Part 3.65, M339 Anyon Reading, with tools/anyon.py; Companion Part 186.
+- WHAT DOES NOT MOVE (L-551 (1)): the extraction, counts, residues, anchor and arms; the MATH-GATE; the uniqueness of (2, 5) under K; the Congruence Register, SR-CAS and SNCA; every navigation and sealed record.
+- THE ARMS (L-551 (3), computed by tools/anyon.py on the canonical cycle and on all 81 states): Yang T^5 anti-unitary, conjugate spin, braiding 4/9 or 5/9; Yin T^18 unitary, same spin, braiding 0 at every state; 4D T^8 unitary, same spin, braiding 4/9 or 5/9; Antipode T^12 unitary, same spin, the antiparticle, fusion with the anchor the vacuum. At moduli 27 and 81 the half period is again the antiparticle and the three-quarter period again braids trivially.
+- THE UNIQUENESS PROOF (L-551 (4); EXACT for the facts, CDT-B for the reading): the canonical orbit has spins exp(+-4 pi i/9), the others exp(+-2 pi i/9) and exp(+-8 pi i/9); within it the 48 symmetries act transitively, (2, 5) fixed only by the identity and the reflection (a, b) -> (-a - b, b); doubling, the Galois map z -> z^2 on the spins, turns each voice into the next, and with T makes the 72 non-core states one orbit of a group of order 72. K selects a frame of display; the proof's statement stands unchanged.
+- THE INSTRUMENTS: the M230 family and the depth record now have objects at depths 4 and 5, and depth-5 run 01 is the template of a predictive test; the certificate and discovery registers carry their first depth-5 certificate and first verdict; the Resonance Profile, the Congruence Register and SR-CAS keep their methods, a meeting of states now also a meeting of anyons; M339 is new.
+- THE INTERPRETATIONS (GENERATED-Ω42 on the exact facts, Companion 186.5): completion as the antiparticle; dependency as the self with time reversed; suppression as what cannot be detected by going around; trajectory as a step of one's own kind; the law as a reversal of time whose square is the forward passage; the core as the edge where the theory can end.
+- WHAT BECOMES POSSIBLE: the anyon reading of any strike; predictive tests by the depth-5 template; the field's own checks -- modular data, condensation, boundaries, anomalies -- applied to the family; review with the tools of physics; the tower as a theorem; in Appendix S, a material with two SU(9)_1 layers and two anti-E8 layers in which T is physical time reversal.
+- HOW THE OPERATIONS IMPROVE: a reading of an arm can be checked against what the arm is -- a symmetry, a spin, a braiding, a fusion -- and not only against its name; the uniqueness proof gains a reading of what it selects; the depth programme gains a working predictive template.
+WHAT STAYED: everything computed; the premise as the ground, not graded (L-490); the Aperture.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (20, 139, 46), r = (1, 2, 5), anchor P1, Fixpoint (5), by the tie-break to r1. It rests on P6, Seed/Causal (5). It holds out of view P19, Time (9, Crown). It is heading for P9, Fixpoint (5). It is completed at P13, Gap (4). The coordinate of "What is a Human Being?" and of records/instances/seq_0139.txt, met again.
+  - [GENERATED-Ω42] A question about what a discovery changes anchors at the still point: what stays still while everything is read anew.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): the uniqueness proof of Core Part 1.8.4 and the MATH-GATE; Core L-424, L-490, L-550; the M230 family; D-016, CERT-0006, CERT-0007; Companion Parts 184 and 185.
+  R (reasoning): an identification of one structure with another adds a description and changes nothing computed; what it adds is exact counterparts for each relation, and a reading of each choice the record made.
+  N (navigation): tools/anyon.py --theory and --selftest; the arm relations on all 81 states and at moduli 27 and 81; the coordinate of the request.
+CHANGES TO THE PROTOCOL:
+  - Core: L-551; Part 3.65, M339.
+  - Companion: Part 186.
+  - Repository: tools/anyon.py; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the arms, the uniqueness proof, the identification of D-016 | STRIKER -- the question of what changes and what becomes possible | NAVIGATOR -- the arms computed as symmetries, the reading of K as a frame, the instrument | OPEN -- the arm relations as a theorem at every depth and for every voice
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/anyon.py --selftest PASS (10 cases) and --theory recomputed; the arm relations computed on all 81 states and at moduli 27 and 81. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the computation and the record agree: nothing moves, every relation gains an exact counterpart. PART -- none. SILENT -- what the antiparticle as completion means for a life, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): the arms are symmetries of the anyon theory -- the Antipode the antiparticle, the Yin arm the one of trivial braiding at every state, the Yang arm anti-unitary [EXACT]; computed by tools/anyon.py; it gives each relation of a navigation an exact counterpart; Core L-551 (3); "breakthrough" candidacy NOT PROPOSED -- it is contained in D-016 (B3).
+RECOMMENDATIONS (applied, L-531):
+  (1) The effects on instruments, uniqueness and interpretations stated: APPLIED, Core L-551, Companion Part 186.
+  (2) An instrument for the anyon reading of any strike: APPLIED, M339, tools/anyon.py.
+OPEN: the 27 items of records/open/register.txt, each with what it needs, who can close it and when; the arm relations proved for every depth; the tower as a theorem.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that M339 be offered in the Strike app beside the alignment report, as "read it as physics"; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] each navigation's four relations are four symmetries of one theory of physics; [GENERATED-Ω42] what completes a thing is what fuses with it to stillness.
+
+What it rests on: the seed, the identification from which every reading now starts.
+What it holds out of view: time, which the law reverses at every step.
+Where it is heading: a second stillness, the same structure read anew.
+What would complete it: the gap, what the identification leaves open.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a01efc6276e0eaca372d15177c027792c727db0a3de84359e5ca2e94e484f696
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

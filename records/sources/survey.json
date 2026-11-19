@@ -1,0 +1,126 @@
+{
+ "rule": "Companion Part 64: the Contemporary Resonance Survey -- a scan of current research against the protocol's own provisions and the fields it borders, run apart from any reading, from a frozen list of provisions, each with a search for agreement and a search for challenge; every result enters the sources register with its relation and grade, and a provision with nothing found says so. It runs monthly as a scheduled task of the Originator's (adopted 19 October 2026), never inside a navigation, and the premise is not graded by it (L-490).",
+ "last_run": "2026-10-19 (test run)",
+ "provisions": [
+  {
+   "id": "C1",
+   "provision": "the procedural value: an unchosen constraint interrupts habitual framing (IN-17.5)",
+   "agree": "structured perspective-taking improves problem framing",
+   "challenge": "random stimulus creativity experiment",
+   "found": [
+    "S10",
+    "S11",
+    "S13"
+   ]
+  },
+  {
+   "id": "C2",
+   "provision": "the cognitive value: a reading widens attention (IN-17.5; Companion 33.10)",
+   "agree": "perspective prompts widen consideration of alternatives experiment",
+   "challenge": "structured prompts no effect on decision quality",
+   "found": [
+    "S14"
+   ]
+  },
+  {
+   "id": "C3",
+   "provision": "the jurisdiction: an AI that informs judgment and never occupies it (L-463, L-441)",
+   "agree": "AI design preserving human agency decision support",
+   "challenge": "generative AI cognitive offloading critical thinking",
+   "found": [
+    "S12",
+    "S23"
+   ]
+  },
+  {
+   "id": "C4",
+   "provision": "surface form decides the address, and a model's output depends on the form it is given (Part 0.10, L4; M238)",
+   "agree": "LLM sensitivity to prompt formatting",
+   "challenge": "LLM robust to prompt paraphrase",
+   "found": [
+    "S09",
+    "S15"
+   ]
+  },
+  {
+   "id": "C5",
+   "provision": "identical rules give identical results across architectures (SR-CAS)",
+   "agree": "LLM instruction following consistency across models benchmark",
+   "challenge": "LLM nondeterminism same prompt different outputs",
+   "found": [
+    "S16"
+   ]
+  },
+  {
+   "id": "C6",
+   "provision": "a decoy control separates a coordinate's contribution from the Navigator's training (M267)",
+   "agree": "placebo control prompts evaluation of LLM creativity",
+   "challenge": "human raters cannot distinguish AI outputs conditioned on random seeds",
+   "found": [
+    "S17"
+   ]
+  },
+  {
+   "id": "C7",
+   "provision": "the arithmetic of the structure: Pisano periods, the norm, Catalan's identity (Core Part 1)",
+   "agree": "Pisano period modulo 9 is 24",
+   "challenge": "(the arithmetic is recomputed; a source can only state it alike)",
+   "found": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S08"
+   ]
+  },
+  {
+   "id": "C8",
+   "provision": "totality accounts of what exists (F-02, F-04)",
+   "agree": "mathematical universe hypothesis",
+   "challenge": "ruliad all possible rules",
+   "found": [
+    "S05",
+    "S06"
+   ]
+  },
+  {
+   "id": "C9",
+   "provision": "consciousness read as ground, act and event (Core L-498; Companion Part 52, CT-42)",
+   "agree": "integrated information theory global workspace adversarial collaboration results",
+   "challenge": "adversarial collaboration consciousness theories predictions failed",
+   "found": [
+    "S18"
+   ]
+  },
+  {
+   "id": "C10",
+   "provision": "what exists is a structure, and there is no outside to it (F-02, F-04)",
+   "agree": "ontic structural realism",
+   "challenge": "objections to ontic structural realism",
+   "found": [
+    "S19"
+   ]
+  },
+  {
+   "id": "C11",
+   "provision": "a coordinate conditions generation by selectively activating learned representations (Stratum 2; Step 9.8)",
+   "agree": "activation steering interpretability features large language models",
+   "challenge": "prompt conditioning effects on LLM outputs superficial",
+   "found": [
+    "S20"
+   ]
+  },
+  {
+   "id": "C12",
+   "provision": "counting is a primitive act of distinction, and each medium has its own boundaries (CPDP; L-501)",
+   "agree": "cross-linguistic universals of word length and syllable structure",
+   "challenge": "tokenization disparities across languages in language models",
+   "found": [
+    "S21",
+    "S22"
+   ]
+  }
+ ],
+ "schedule": "monthly, the first day of each month, 07:52 UTC (a scheduled task, a fresh session each run)",
+ "nulls": "test run of 19 October 2026: one search found no published page naming Omega42 or its protocol (\"Omega42\" protocol 24-cycle 81 states): the record is not yet public; C7 found no new result on Pisano periods (a 2023 preprint on Fibonacci digit cycles was opened and is not on point); C8 nothing new beyond S05, S06"
+}

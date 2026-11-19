@@ -1,0 +1,451 @@
+{
+ "law": "Core L-501",
+ "adaptors": [
+  {
+   "id": "EN-CANON",
+   "version": "450",
+   "scripts": [
+    "LATIN"
+   ],
+   "status": "CANONICAL",
+   "adopted": "the frozen extraction of the Core (Parts 1 and 2)",
+   "granularities": [
+    "content words",
+    "letters",
+    "syllables"
+   ],
+   "rules": "scripts/canonical_reference.py",
+   "sha256": "ab79aae2d027968deab809e1bd7963e6ec32ac4a9754c8fc250071bebc0514c5 (canonical form, L-417)",
+   "lost": "function words on the frozen list, word order, punctuation; other scripts (routed, L-501); Latin-script languages other than English are counted under English rules (Core Part 1.9)",
+   "stability": "M238 and M116 (Core Step 13)",
+   "null": "UNIFORM-729",
+   "tests": [
+    {
+     "text": "What is consciousness?",
+     "n": [
+      2,
+      17,
+      4
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Dog bites man",
+     "n": [
+      3,
+      11,
+      4
+     ],
+     "anchor": 6
+    }
+   ]
+  },
+  {
+   "id": "KO-HANGUL-1",
+   "version": "1",
+   "scripts": [
+    "HANGUL"
+   ],
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "eojeol",
+    "syllable blocks",
+    "jamo"
+   ],
+   "rules": "records/adaptors/KO-HANGUL-1.txt",
+   "sha256": "b53142f077a561704eff02cf33670187b9c7ddf1e6b105d915f309ea8842756b",
+   "lost": "other scripts in the text, punctuation and digits, the internal structure of compound vowels and double consonants",
+   "stability": "R7: append, remove the final eojeol, prepend (frozen)",
+   "null": "HANGUL-STRUCTURAL-1",
+   "tests": [
+    {
+     "text": "의식이란 무엇인가?",
+     "n": [
+      2,
+      8,
+      20
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "사랑이란 무엇인가?",
+     "n": [
+      2,
+      8,
+      20
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "시간은 무엇인가?",
+     "n": [
+      2,
+      7,
+      18
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "삶의 의미는 무엇인가?",
+     "n": [
+      3,
+      9,
+      22
+     ],
+     "anchor": 6
+    }
+   ],
+   "code": "tools/adaptor_rules.py",
+   "code_sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992"
+  },
+  {
+   "id": "DE-LATN-1",
+   "version": "1",
+   "scripts": [
+    "LATIN (declared)"
+   ],
+   "declared": "de",
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "syllables (vowel groups)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen German rendering of the English stopword list; word order; punctuation; the syllable rule counts vowel groups, so a hiatus counts as one",
+   "stability": "frozen family: append \"genau\", remove the final word, prepend \"In deinen eigenen Worten\"",
+   "null": "UNIFORM-729",
+   "tests": [
+    {
+     "text": "Was ist Bewusstsein?",
+     "n": [
+      2,
+      14,
+      4
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Was ist Liebe?",
+     "n": [
+      2,
+      8,
+      3
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Was ist die Zeit?",
+     "n": [
+      2,
+      7,
+      2
+     ],
+     "anchor": 1
+    }
+   ]
+  },
+  {
+   "id": "FR-LATN-1",
+   "version": "1",
+   "scripts": [
+    "LATIN (declared)"
+   ],
+   "declared": "fr",
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "syllables (vowel groups, silent final e)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen French rendering of the English stopword list, elisions split; word order; punctuation; liaison and elision in speech",
+   "stability": "frozen family: append \"exactement\", remove the final word, prepend \"Avec tes propres mots\"",
+   "null": "UNIFORM-729",
+   "tests": [
+    {
+     "text": "Qu'est-ce que la conscience ?",
+     "n": [
+      2,
+      12,
+      3
+     ],
+     "anchor": 6
+    },
+    {
+     "text": "Qu'est-ce que l'amour ?",
+     "n": [
+      2,
+      7,
+      3
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Qu'est-ce que le temps ?",
+     "n": [
+      2,
+      7,
+      2
+     ],
+     "anchor": 1
+    }
+   ]
+  },
+  {
+   "id": "RU-CYRL-1",
+   "version": "1",
+   "scripts": [
+    "CYRILLIC"
+   ],
+   "declared": null,
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "syllables (one per vowel)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen Russian rendering of the English stopword list (as, kak, kept, being also how); other Cyrillic languages counted by Russian rules",
+   "stability": "frozen family: append \"точно\", remove the final word, prepend \"Своими словами\"",
+   "null": "UNIFORM-729",
+   "tests": [
+    {
+     "text": "Что такое сознание?",
+     "n": [
+      3,
+      16,
+      8
+     ],
+     "anchor": 6
+    },
+    {
+     "text": "Что такое любовь?",
+     "n": [
+      3,
+      14,
+      6
+     ],
+     "anchor": 6
+    },
+    {
+     "text": "Что такое время?",
+     "n": [
+      3,
+      13,
+      6
+     ],
+     "anchor": 6
+    }
+   ]
+  },
+  {
+   "id": "EL-GREK-1",
+   "version": "1",
+   "scripts": [
+    "GREEK"
+   ],
+   "declared": null,
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "syllables (vowels, digraphs as one)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen Greek rendering of the English stopword list; accents (letters counted without them); synizesis",
+   "stability": "frozen family: append \"ακριβώς\", remove the final word, prepend \"Με δικά σου λόγια\"",
+   "null": "UNIFORM-729",
+   "tests": [
+    {
+     "text": "Τι είναι η συνείδηση;",
+     "n": [
+      2,
+      11,
+      5
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Τι είναι η αγάπη;",
+     "n": [
+      2,
+      7,
+      4
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "Τι είναι ο χρόνος;",
+     "n": [
+      2,
+      8,
+      3
+     ],
+     "anchor": 1
+    }
+   ]
+  },
+  {
+   "id": "AR-ARAB-1",
+   "version": "1",
+   "scripts": [
+    "ARABIC"
+   ],
+   "declared": null,
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "vowel nuclei (ESTIMATE: short-vowel marks and long-vowel letters)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen Arabic rendering of the English stopword list; attached clitics (wa-, bi-, li-, al-) are not split; unwritten short vowels (the third layer is an estimate); Persian and Urdu counted by Arabic rules",
+   "stability": "frozen family: append \"بالضبط\", remove the final word, prepend \"بكلماتك الخاصة\"",
+   "null": "ABJAD-STRUCTURAL-1",
+   "tests": [
+    {
+     "text": "ما هو الوعي؟",
+     "n": [
+      2,
+      7,
+      4
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "ما هو الحب؟",
+     "n": [
+      2,
+      6,
+      2
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "ما هو الزمن؟",
+     "n": [
+      2,
+      7,
+      2
+     ],
+     "anchor": 1
+    }
+   ]
+  },
+  {
+   "id": "HE-HEBR-1",
+   "version": "1",
+   "scripts": [
+    "HEBREW"
+   ],
+   "declared": null,
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "letters",
+    "vowel nuclei (ESTIMATE: niqqud and the matres vav and yod)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen Hebrew rendering of the English stopword list; attached prefixes (ha-, ve-, be-, le-) are not split; unwritten vowels (the third layer is an estimate)",
+   "stability": "frozen family: append \"בדיוק\", remove the final word, prepend \"במילים שלך\"",
+   "null": "ABJAD-STRUCTURAL-1",
+   "tests": [
+    {
+     "text": "מה זה תודעה?",
+     "n": [
+      2,
+      7,
+      2
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "מה זה אהבה?",
+     "n": [
+      2,
+      6,
+      2
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "מה זה זמן?",
+     "n": [
+      2,
+      5,
+      2
+     ],
+     "anchor": 1
+    }
+   ]
+  },
+  {
+   "id": "HI-DEVA-1",
+   "version": "1",
+   "scripts": [
+    "DEVANAGARI"
+   ],
+   "declared": null,
+   "status": "COMPANION",
+   "adopted": null,
+   "granularities": [
+    "content words",
+    "aksharas",
+    "akshara components (consonants, vowels, vowel signs)"
+   ],
+   "rules": "tools/adaptor_rules.py",
+   "sha256": "06d6a510889dd6c3f20bf289dcc28d35ad6588c0783cfab1fff4f93581ea8992",
+   "lost": "the frozen Hindi rendering of the English stopword list; nasalization and visarga marks; other Devanagari languages counted by Hindi rules",
+   "stability": "frozen family: append \"ठीक\", remove the final word, prepend \"अपने शब्दों में\"",
+   "null": "AKSHARA-STRUCTURAL-1",
+   "tests": [
+    {
+     "text": "चेतना क्या है?",
+     "n": [
+      2,
+      4,
+      8
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "प्रेम क्या है?",
+     "n": [
+      2,
+      3,
+      7
+     ],
+     "anchor": 1
+    },
+    {
+     "text": "समय क्या है?",
+     "n": [
+      2,
+      4,
+      6
+     ],
+     "anchor": 1
+    }
+   ]
+  }
+ ],
+ "open": {
+  "CJK": "a frozen word segmentation and stroke table",
+  "HIRAGANA and KATAKANA": "a frozen reading table for kanji beside the kana",
+  "THAI": "a frozen word segmentation"
+ }
+}

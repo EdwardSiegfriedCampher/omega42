@@ -1,0 +1,14 @@
+Q1 x^12 + 1  mod (9, x^2 - x - 1): remainder [0]      | mod (9, x^2 - 3x + 1): remainder [2]
+Q1 Phi24     mod (9, x^2 - x - 1): remainder [3]      | mod (9, x^2 - 3x + 1): remainder [3, 1]
+Q1 Phi8      mod (9, x^2 - x - 1): remainder [3, 3]   | mod (9, x^2 - 3x + 1): remainder [3, 2]
+Q1 x^6 + 1   mod (9, x^2 - x - 1): remainder [8, 6]   | mod (9, x^2 - 3x + 1): remainder [0]
+Q1 Phi12     mod (9, x^2 - x - 1): remainder [2, 2]   | mod (9, x^2 - 3x + 1): remainder [3]
+Q2 Leech lattice basis from generators: determinant of the Gram matrix (scaled by 1/8) = 1; minimal diagonal norm 4
+Q2 run 03 element (12^2, g^12 = -I)       on Leech: |L/(9L + (g^2-g-1)L)| = 6561 = 81^2 | |3Q| = 81 | cycle type of g: {24: 270, 8: 10, 1: 1}
+Q2 run 03 element (12^2, g^12 = -I)       on Z^24 : |L/(9L + (g^2-g-1)L)| = 6561 = 81^2 | |3Q| = 81 | cycle type of g: {24: 270, 8: 10, 1: 1}
+Q2 run 04 element (2.4.6.12, g^12 != -I)  on Leech: |L/(9L + (g^2-g-1)L)| = 729 = 81^not a power of 81 | |3Q| = 9 | cycle type of g: {24: 27, 8: 10, 1: 1}
+Q2 run 04 element (2.4.6.12, g^12 != -I)  on Z^24 : |L/(9L + (g^2-g-1)L)| = 729 = 81^not a power of 81 | |3Q| = 9 | cycle type of g: {24: 27, 8: 10, 1: 1}
+Q3 24-cell symmetry c: x -> u x i (u = (1+i+j+k)/2) preserves the Hurwitz lattice; c^6 = -I: True; order 12
+Q3   quotient by (9, x^2 - 3x + 1 (the cat map, T^2)): size 9 | cycle type of c: {4: 2, 1: 1}
+Q3   quotient by (9, x^2 - x - 1 (T)): size 1 | cycle type of c: {1: 1}
+REF the family under T: {24: 3, 8: 1, 1: 1} | under T^2: {12: 6, 4: 2, 1: 1}

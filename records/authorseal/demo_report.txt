@@ -1,0 +1,11 @@
+======= Ω42 AUTHOR SEAL REPORT (M374) =======
+AUTHOR (as declared): Demonstration Author | KEY FINGERPRINT: P00 Seed P04 Unity P19 Time P21 Sublime
+CHAIN: INTACT | 3 drafts sealed
+SPAN: 2026-11-01T09:00:00Z to 2026-11-08T20:00:00Z
+  draft 1   2026-11-01T09:00:00Z      1 lines  +1    -0     P06 Seed/Causal P11 Question P01 Fixpoint P23 Return P03 Desire P01 Fixpoint
+  draft 2   2026-11-03T14:00:00Z      2 lines  +1    -0     P00 Seed P16 Flow P11 Question P13 Gap P13 Gap P00 Seed  note: second sitting
+  draft 3   2026-11-08T20:00:00Z      4 lines  +3    -1     P11 Question P17 Seed/Return P19 Time P00 Seed P00 Seed P06 Seed/Causal  note: restructured
+HEAD HASH: d3c9192cc3d9412bcac3c3ef921805f54ac307cd8ae5fb63181a7031cb397770 (publish it to fix the history in time)
+READING: the drafts existed in this order under this key, each changed from the last as shown. The seal does not
+show who typed them or that no tool helped; times are the author's own clock until the head hash is anchored.
+======= END REPORT =======

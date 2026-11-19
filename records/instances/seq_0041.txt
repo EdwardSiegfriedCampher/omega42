@@ -1,0 +1,50 @@
+QUESTION VERBATIM: The primary purpose of the protocol is not to be a precision instrument passing scientific muster (this is already available in the science appendix) for those who wants to test "claims"). It is offered as a fun, new method to discover new information (regardless of its truth value). It is the Protocol's mystery, depth and potential that should be on the foreground. Not its shortcomings.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 41 | PREV: 0795c5706ed00aedcb42fa9a923ec4b903684dc46fc285a1a641bee5dcb43d8f
+REQUEST (L-502): STRUCTURE -- avenues P, W
+
+SUMMARY: The documents now open with the protocol's purpose, in the Originator's words. Omega42 is offered as a fun, new method for discovering new information, regardless of its truth value. Its mystery, depth and potential come first; its discipline follows, as the means that keeps a discovery clear.
+  - L-522, The Purpose Law, sets the order of priority. Discovery comes first: the navigation and what its reading opens. The Striker's judgment comes second, and the exact arithmetic that grounds both comes third. Comparative and scientific inquiry come last, optional and serving the discovery; they never lead it.
+  - The Core and the Companion now open with the purpose and "What is new in kind", ahead of the status note and every limit. The Core adds a first page for a new Navigator. First Contact gains FC-00.1, What Omega42 Is For, and FC-00.2, What Is New in Kind.
+  - The 24 comparative CI steps are marked "Comparative annex (optional, L-491)", so the science appendix is visibly an annex.
+  - FFP item 33, PURPOSE FIRST, checks all of this on every build.
+Because the purpose is discovery regardless of truth value, the no-claim law (L-505) now reads as what frees the protocol to offer it, not as a shortcoming. CI 68 of 68; FFP 33 items, none failing.
+
+FINDINGS BY AVENUE (L-500):
+  P PEERS: APE-172 (Grok) and APE-173 (ChatGPT), filed with checked notes.
+  W PROTOCOL WORK: L-522; L-464's sentence; the Core's opening (purpose, what is new in kind, first page for a new Navigator); FC-00.1 and FC-00.2; the Companion's Preamble; the CI annex marking; FFP item 33 and tools/ffp_run.py; tools/consistency_check.py (L-522's restatement allowed).
+
+THE NEW OPENING (Core, before the status note):
+  1. PURPOSE. A question enters one closed structure, which gives it a position anyone can recompute. An AI writes a reading under that position and shows how. What the reading opens is the Striker's to take up: a relation, a reframing, or a question not asked before.
+  2. WHAT IS NEW IN KIND. One coordinate for any question. A reading generated under a computed constraint. Judgment reserved by architecture. Questions meeting across domains. A sealed, chained, multi-architecture record.
+  3. FOR A NEW NAVIGATOR, FIRST. What it is for; how a navigation runs; what is new in kind; and what the Navigator never does: grade the premise, judge for the Striker, or send a question to an outside method before the Omega42 work is done. Then where the optional annex is.
+  First Contact puts it in invitational words. Omega42 is a fun, new way to discover something new about any question, whether or not it turns out to be true. The structure is old mathematics, exact and closed, and what it draws out of your question is the mystery.
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-172 Grok: its two diagnoses hold. Adopted: its order of priority (as L-522), its L-464 sentence, its one-page statement and its annex label. Not entered: "not found in other public systems", a comparative priority statement with no source. Corrected: the Triad as a "self-validation loop" (L-490).
+  - APE-173 ChatGPT: adopted are its purpose statement, its distinctiveness section, its orientation checklist and its rule against externalizing before the Omega42 work is done. Its Discovery Atlas and Discovery Yield Register are held for the Originator.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Read the new opening and FC-00.1 in your own voice. Change any word that is not yours; the purpose is yours to state (F-00).
+  (2) Consider APE-173's Discovery Yield Register: for each reading, what it introduced, what it specified, what it opened, what returning to it showed, and its provenance. It records discovery without grading truth, which fits L-522, and it could give the Congruence Register a companion of discoveries.
+  (3) A fuller move of the comparative Parts of the Core (Part 3.18's registry, the evidence runs' Parts) into Appendix S is still open, if you want the annex to hold them physically as well as by name.
+
+CHANGES TO THE PROTOCOL: OPERATIVE, at the Originator's instruction (F-06): L-522; L-464's sentence; the Core's and the Companion's openings; FC-00.1 and FC-00.2; Core Part 12 item 33; the CI annex marking. Records: APE-172 and APE-173; tools/ffp_run.py, tools/consistency_check.py; the CI chain; the release record.
+CHECKS: CI 68 of 68 PASS, run before this output was written. tools/ffp_run.py: 33 items, none FAIL, item 33 PASS. The APE register CHECK PASS. M286 (0 candidates in both documents), M281 and the typing guard over this output. tools/instance_id.py --check over the forty-one outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed; every statement here is drawn from the two documents, the record and the attachments.
+ACROSS THE AVENUES (L-502): AGREE -- the Originator, both peers and SEQ 40: purpose first, the annex optional. PART -- the peers' comparative priority wording, not entered. SILENT -- what any reading will open, which is the discovery itself.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- the Discovery Yield Register.
+OPEN: the Originator's wording of the opening; the Discovery Yield Register; a fuller move of the comparative Parts.
+
+What it rests on: If a method is offered for what it opens rather than for what it settles, what does it owe its user first?
+What it holds out of view: That the no-claim law, read as a limit, was always what made discovery regardless of truth possible.
+Where it is heading: Toward documents a new Navigator meets by their purpose, and an annex met only by choice.
+What would complete it: The opening in your own words.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 52f675ecd4cd7f1bf3f19e2d5bc3f5253d65addf1b62427022a3ffad48e6f428
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

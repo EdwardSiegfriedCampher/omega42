@@ -1,0 +1,101 @@
+QUESTION VERBATIM: Verify the math. Resolve all outstanding issues. Optimize for navigational efficiency and synthesis formation.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, four reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Four mathematical manuscripts came with the question. Every numbered statement was recomputed by tools/fsg.py (M346); all hold. One emphasis is corrected (p = 2 is also inert) and the depth problem they left open is resolved (MF-43). Sealed as SEQ 149.
+TRIGGER: receipt of four outputs with the Originator's message of 11 November 2026 (Part 6.2, automatic); none quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0149.txt.
+Outputs: K -- unidentified, a web interface (submissions/ape/APE-428.md); L -- the same (APE-429); M -- the same (APE-430); N -- the same (APE-431).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): K -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.86 -- every theorem recomputed and holding; its limits section exact [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.86 = 0.258
+SYNTHESIS: rigorous and bounded; adopted as MF-39 and MF-40.
+FINDINGS -- INTERNAL:
+ [I] Verified: A^8 = I + 3B; the orbit theorem; the norm group equal to <phi> at every level; the projective cycle; the cocycle obstruction (tools/fsg.py V2.1 to V2.12).
+ [I] Added: the anisotropy is 3-adic; modulo 3^k the null set has 9^floor(k/2) states.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "A mathematical system can be internally unified without being ontologically fundamental."
+VERDICT: faithful; adopted in full.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, K): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): L -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- every theorem recomputed and holding, including the ramified valuation [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: rigorous; its selection argument correctly called conditional.
+FINDINGS -- INTERNAL:
+ [I] Verified: the prime classification (inert, split, ramified), the lifting and antipodal-persistence theorems, the ramified state periods (V3.1 to V3.12).
+ [I] Corrected in emphasis: p = 2 is inert, so "smallest odd inert prime" is a stipulation (V3.13).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The strongest justified conclusion is therefore mathematical and structural, not yet ontological."
+VERDICT: faithful; adopted as MF-41, the selection held conditional.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, L): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): M -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.80 -- its computations reproduced and its conjecture correctly marked unproved [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.80 = 0.24
+SYNTHESIS: careful computation; its open depth problem resolved here.
+FINDINGS -- INTERNAL:
+ [I] Verified: group orders through 3^4 and the orbit census through 3^5 (F.4, F.6).
+ [I] Resolved: Problem 4, by the depth-r shear theorem (MF-43).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Full matrix-group generation is stronger than full state-orbit accessibility."
+VERDICT: faithful; superseded in proof by F170.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, M): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): N -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.88 -- its proof checked step by step and certified [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.88 = 0.264
+SYNTHESIS: a complete proof; extended by the depth-r theorem.
+FINDINGS -- INTERNAL:
+ [I] Verified: the X_i as printed, their span sl2(F_3), the cubing lemma, the layer lifting to n = 10 (F.7 to F.9).
+ [I] Adopted as MF-42; certified with MF-43 (CERT-0010).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "A group action alone does not produce a judgment."
+VERDICT: faithful; adopted in full.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, N): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

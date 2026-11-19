@@ -1,0 +1,22 @@
+body:
+- type: markdown
+  attributes:
+    value: A debate post states **one claim**, the case for it, and what would change your mind. Replies are labelled *Counter* or *Evidence*.
+- type: input
+  attributes:
+    label: Claim
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: The case for it
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What would change my mind
+    description: ''
+  validations:
+    required: true

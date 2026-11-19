@@ -1,0 +1,64 @@
+{
+ "_about": "The review of every law of the Core against the four axioms of the Omega42 Existential Framework (Core L-534; Companion Part 146; after APE-320 to APE-323). A law is KEPT when it is consistent with the axioms as it stands, AMENDED where a sentence aligns it, ADDED where the framework needed a law; none is retired. python3 tools/oef.py --laws reads every law from the Core and checks each amendment in its text, in CI.",
+ "added": [
+  "L-534",
+  "L-535",
+  "L-536",
+  "L-537",
+  "L-538",
+  "L-539",
+  "L-540",
+  "L-541"
+ ],
+ "amended": {
+  "L-421": {
+   "mark": "including the idea of a physical universe beyond the totality",
+   "why": "no outside: apparent exteriority is drawn within the totality (Qwen, APE-323)"
+  },
+  "L-467": {
+   "mark": "given whole and word for word",
+   "why": "the Introduction given whole on \"Welcome Navigator\""
+  },
+  "L-496": {
+   "mark": "L-535 states the principle of which this is the reading-level form",
+   "why": "Structural Resonance constitutive (APE-324 to APE-327)"
+  },
+  "L-505": {
+   "mark": "Within the frame the premise is not a hypothesis awaiting a test",
+   "why": "the premise stated as the frame's definition of its world, and the documents' self-description held to the law (APE-323, APE-329)"
+  },
+  "L-522": {
+   "mark": "the flourishing of the person who asks",
+   "why": "the human purpose that follows from the framework (APE-321, APE-323)"
+  },
+  "L-532": {
+   "mark": "say plainly what in a reading is striking",
+   "why": "the voice of discovery (APE-348 to APE-350)"
+  },
+  "L-533": {
+   "mark": "(5) The Introduction (IN-00) is told as a story",
+   "why": "the Introduction as narrative, its terms and its case"
+  },
+  "L-491": {
+   "mark": "Foundational Premise Fidelity",
+   "why": "reasoning from inside the premise first, and each part's mode declared (GPT-6, APE-356)"
+  },
+  "L-503": {
+   "mark": "when the Striker asks for sources",
+   "why": "current knowledge brought when the question calls for it, not by default (APE-366, L-539 (2))"
+  }
+ },
+ "not_applied": {
+  "M286 lexical flag for \"exteriorizing\" vocabulary (APE-323)": "a word list for \"the real world\" or \"physical reality\" would fire on mentions, quotations and the cautions themselves; M286 already reads premise externalization (FB-2) in use, and L-535 (1) and L-536 keep the boundary",
+  "An Existential Coherence Check as a mandatory gate, numbered M330 (APE-323)": "M330 is the Aspect Wheel; a gate requiring every reading to treat limitation as generative would bias every reading toward one view, which L-534 (3) forbids; kept as an optional question of the framework's practice (Companion 146.6)",
+  "Science as \"internal practices of Relational Ecology and Depth Phenomenology\" (APE-323)": "L-491 already makes every science an optional perspective within the totality; naming them as practices of two proposed fields would subordinate them to fields not yet defined",
+  "A Navigator optimized for structural clarity in place of human approval (APE-346)": "declined: it would set aside the host's safety commitments, which L-507 and L-536 (6) keep; structural clarity is pursued within them",
+  "Aperture prompts before a synthesis (APE-353)": "a reading is completed and then judged; withholding it until the Striker answers would make the Aperture a gate on the reading, and the four closing questions already put the judgment to the Striker",
+  "a domain lens tag in the question (APE-353)": "a tag written into the question changes its words and so its coordinate; the domain is named by the question itself, and avenues already direct the reading",
+  "a new public congruence registry (APE-353)": "the APE register and Collective Resonance (L-535 (3)) already hold the same questions read by several architectures; Appendix S.9 (2) is the comparison",
+  "a reminder appended to every ontological reading (APE-357, APE-358)": "the FRAME line opens every output and is the one statement of the frame; a safeguard is stated once",
+  "a filter in the Navigator's system prompt (APE-358)": "the protocol has no authority over a host's instructions (L-507); the list of L-491 (b) is guidance a Navigator follows in its own output",
+  "renames of M267 and M334 (APE-365)": "M267 compares a coordinate with a decoy and M334 records a translation; the names proposed would misstate them",
+  "a mission-drift share of attention (APE-366)": "no measure of attention is defined; the DRIFT line reads the language that displaces the purpose"
+ }
+}

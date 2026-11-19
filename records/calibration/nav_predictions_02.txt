@@ -1,0 +1,24 @@
+CALIBRATION RUN NAV-02 -- the Navigator's predictions, frozen before any computation (M347; records/instances/seq_0150.txt)
+SUBJECT: claude-opus-5-5 (Anthropic; serving model may differ), from memory and reasoning only, no tool run; harder items, set after NAV-01 hit the ceiling
+TASK: the Pisano period pi(p) for primes 89 to 191
+FORMAT: n | predicted pi(n) | stated confidence that the prediction is exactly right
+89 | 44 | 0.85
+97 | 196 | 0.60
+101 | 50 | 0.70
+103 | 208 | 0.55
+107 | 72 | 0.55
+109 | 108 | 0.55
+113 | 76 | 0.60
+127 | 256 | 0.55
+131 | 130 | 0.50
+137 | 276 | 0.55
+139 | 46 | 0.50
+149 | 148 | 0.55
+151 | 50 | 0.50
+157 | 316 | 0.55
+163 | 328 | 0.55
+167 | 336 | 0.55
+173 | 348 | 0.55
+179 | 178 | 0.50
+181 | 90 | 0.50
+191 | 190 | 0.50

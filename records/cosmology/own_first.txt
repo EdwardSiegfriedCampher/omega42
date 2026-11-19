@@ -1,0 +1,31 @@
+OWN INVESTIGATION, FROZEN BEFORE THE PEER ACCOUNTS WERE COMPARED (Builder Rule 17; records/instances/seq_0118.txt)
+Disclosure: the four attachments were placed in the Builder's context with the request, before this investigation; the freeze makes the order of writing checkable, not the order of reading.
+
+FINDINGS (each computed by python3 tools/cosmology.py):
+1. The law is multiplication by phi in O = Z[phi]; O/3 is the field of nine elements and phi generates its eight nonzero elements.
+2. Census 81 = 1 (zero) + 8 (the nonzero multiples of 3, phi acting on F_9*) + 72 (the units, three cosets of <phi>, norm classes up to sign 1, 4, 2).
+3. 72 symmetries commute with the law (the units of O/9); they carry the three 24-orbits onto one another.
+4. Q(a, b) = a^2 + ab - b^2: one step reverses its sign, two steps keep it.
+5. Over the reals Q has signature (1, 1); A^2 is a Lorentz boost of the plane of Q, eigenvalues phi^2 and phi^-2, rapidity 2 ln(phi) = 0.962424, velocity sqrt(5)/3 = 0.745356; the null lines are the eigenlines of phi and psi; A itself exchanges the two sides of the cone.
+6. A is not conjugate to A^-1 (traces 1 and -1); the involution R = [[1, 0], [1, -1]], which keeps Q, gives R A R = -A^-1: reversal of the step holds only with the sign; 12 such involutions mod 9.
+7. The permutation operator U_T on l2 of the 81 states has the 24th roots of unity as spectrum: 1 five times, exp(2 pi i j/24) with 3 | j four times, the rest three times.
+8. A coarse entropy of a distribution under a partition the law does not keep rises from 0 to ln 9 and returns, period 12; at every finite depth every such entropy returns; only the inverse limit has no nonzero return (DC-25).
+9. Mod 9 the law is of finite order (rotation-like, the cyclic chain of Companion 168.4); over the reals it is hyperbolic (a boost). The rotation of the Earth is elliptic; the boost of spacetime is hyperbolic: the same matrix carries both, one in the residues and one in the reals.
+10. Missing from the structure: three space dimensions (rank 2), the values of constants, a Born rule and measurement, gravity as curvature, an arrow at finite depth, the particle spectrum.
+
+x2-x-1 has no root mod 3: True
+order of phi mod 3: 8
+census: [1, 8, 24, 24, 24]
+units of O/9: 72
+norm classes up to sign of the three 24-orbits: [1, 2, 4]
+symmetries commuting with T (mod 9): 72
+Q reversed by one step, kept by two: True
+A conjugate to A^-1: False
+trace A, trace A^-1 (mod 9): (1, 8)
+reversing involutions R A R = -A^-1 (mod 9): 12
+R = [[1,0],[1,-1]]: R^2 = I and R A R = -A^-1 over Z: False
+boost eigenvalues of A^2 (reals): (2.618034, 0.381966)
+rapidity 2 ln(phi): 0.962424
+velocity tanh = sqrt(5)/3: 0.745356
+spectrum of U_T, multiplicity of exp(2 pi i j/24): {0: 5, 1: 3, 2: 3, 3: 4, 4: 3, 5: 3, 6: 4, 7: 3, 8: 3, 9: 4, 10: 3, 11: 3, 12: 4, 13: 3, 14: 3, 15: 4, 16: 3, 17: 3, 18: 4, 19: 3, 20: 3, 21: 4, 22: 3, 23: 3}
+coarse entropy: period, varies, max, min: (12, True, 2.197224577, -0.0)

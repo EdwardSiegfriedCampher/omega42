@@ -1,0 +1,477 @@
+{
+ "_about": "The Physical Mapping Register (Core Part 0.0.5 Rule 37; Companion Part 226): for each application of Omega42 to a physical system, B = (P, M, Phi, I, R, E): the system, its established model, the Omega42 representation, what the map preserves and leaves aside, the results with their classes, and the evidence. Checked by tools/physics_map.py.",
+ "entries": [
+  {
+   "id": "PM-001",
+   "system": "electrons in a one-dimensional Fibonacci quasicrystal (on-site potential)",
+   "model": "the Fibonacci Hamiltonian (H psi)_n = -psi_(n+1) - psi_(n-1) + v_n psi_n, v_n = V on a, 0 on b",
+   "representation": "the law as the substitution matrix; the transfer matrices as the law of the words in SL2; the gaps labeled in Z + Z phi",
+   "preserves": "the word, the trace map, the Fricke-Vogt invariant V^2/4, the integrated density of states in each gap",
+   "leaves_aside": "electron-electron interaction, disorder, the lattice in three dimensions",
+   "results": [
+    {
+     "mf": "MF-127",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-128",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-129",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-130",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-131",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-132",
+     "class": "candidate theorem"
+    },
+    {
+     "mf": "MF-133",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-148",
+     "class": "independently reproduced result"
+    },
+    {
+     "mf": "MF-157",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-158",
+     "class": "candidate theorem"
+    },
+    {
+     "mf": "MF-159",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-163",
+     "class": "candidate theorem"
+    },
+    {
+     "mf": "MF-164",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-165",
+     "class": "independently reproduced result"
+    },
+    {
+     "mf": "MF-166",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-170",
+     "class": "candidate theorem"
+    },
+    {
+     "mf": "MF-174",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-176",
+     "class": "established mathematical result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/fibonacci_hamiltonian.py --selftest; python3 tools/spectra.py --selftest",
+    "returns": "RET-001 (MF-148); RET-002 (MF-148, MF-165, and in part MF-157, MF-158, MF-159, MF-162)",
+    "measurements": "Core Appendix S.23",
+    "predictions": "PR-006, PR-010, PR-011"
+   },
+   "map": "domain: the Fibonacci Hamiltonian (H psi)_n = -psi_(n+1) - psi_(n-1) + v_n psi_n, v_n = V on a, 0 on b; codomain: the law as the substitution matrix; the transfer matrices as the law of the words in SL2; the gaps labeled in Z + Z phi",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-002",
+   "system": "light in a Fibonacci dielectric multilayer",
+   "model": "thin-film transfer matrices [[cos d, (i/n) sin d], [i n sin d, cos d]], transmittance 4/|m11 + m12 + m21 + m22|^2",
+   "representation": "the same word and trace map; the six-cycle at the quarter wave",
+   "preserves": "the transmittance of every generation, the optical Fricke-Vogt invariant",
+   "leaves_aside": "absorption, oblique incidence, polarization",
+   "results": [
+    {
+     "mf": "MF-145",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-146",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-147",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-173",
+     "class": "new computational result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/optics.py --selftest",
+    "measurements": "Core Appendix S.25",
+    "predictions": "PR-008"
+   },
+   "map": "domain: thin-film transfer matrices [[cos d, (i/n) sin d], [i n sin d, cos d]], transmittance 4/|m11 + m12 + m21 + m22|^2; codomain: the same word and trace map; the six-cycle at the quarter wave",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-003",
+   "system": "sound in a Fibonacci layered medium",
+   "model": "acoustic transfer matrices [[cos, i Z sin], [i sin/Z, cos]]",
+   "representation": "the optical engine with the index n for the impedance Z, by M(1/n) = J M(n) J",
+   "preserves": "the transmittance of every stack",
+   "leaves_aside": "shear waves, attenuation",
+   "results": [
+    {
+     "mf": "MF-152",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-153",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-172",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-175",
+     "class": "established mathematical result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/waves.py --selftest",
+    "measurements": "Core Appendix S.26"
+   },
+   "map": "domain: acoustic transfer matrices [[cos, i Z sin], [i sin/Z, cos]]; codomain: the optical engine with the index n for the impedance Z, by M(1/n) = J M(n) J",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-004",
+   "system": "quantized transport in a Fibonacci chain pumped by its phason",
+   "model": "the Kraus family of smooth potentials tending to the Fibonacci potential; the Chern number of a pump",
+   "representation": "the gap label n in Z + Z phi as the pumped charge",
+   "preserves": "the integer charge per cycle",
+   "leaves_aside": "the rate of the pump, non-adiabatic effects",
+   "results": [
+    {
+     "mf": "MF-154",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-171",
+     "class": "new computational result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/waves.py --selftest",
+    "measurements": "Core Appendix S.26; Core Appendix S.27",
+    "predictions": "PR-009"
+   },
+   "map": "domain: the Kraus family of smooth potentials tending to the Fibonacci potential; the Chern number of a pump; codomain: the gap label n in Z + Z phi as the pumped charge",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-005",
+   "system": "a relativistic particle",
+   "model": "special relativity: the mass shell t^2 - x^2 - y^2 = 1 and the Lorentz group SO+(2,1), SO+(3,1)",
+   "representation": "the law acting by congruence X -> A X A^T; A^2 the golden boost; Q its axis",
+   "preserves": "the mass shell, the direction of time, the composition of collinear boosts",
+   "leaves_aside": "forces, fields, gravitation",
+   "results": [
+    {
+     "mf": "MF-135",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-136",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-137",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-138",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-139",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-140",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-141",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-142",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-143",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-144",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-149",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-150",
+     "class": "new structural correspondence"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/relativity.py --selftest",
+    "measurements": "Core Appendix S.24",
+    "predictions": "PR-007"
+   },
+   "map": "domain: special relativity: the mass shell t^2 - x^2 - y^2 = 1 and the Lorentz group SO+(2,1), SO+(3,1); codomain: the law acting by congruence X -> A X A^T; A^2 the golden boost; Q its axis",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-006",
+   "system": "electrons in a square Fibonacci quasicrystal",
+   "model": "the separable Hamiltonian H_x + H_y on the product of two Fibonacci chains",
+   "representation": "the sum set of the chain's spectrum with itself",
+   "preserves": "the spectrum as a set",
+   "leaves_aside": "non-separable couplings, the Fibonacci grid with diagonal hopping",
+   "results": [
+    {
+     "mf": "MF-160",
+     "class": "new computational result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/quasicrystal2d.py --selftest"
+   },
+   "map": "domain: the separable Hamiltonian H_x + H_y on the product of two Fibonacci chains; codomain: the sum set of the chain's spectrum with itself",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-007",
+   "system": "electrons on a Penrose tiling",
+   "model": "the vertex model, hopping along the edges of the rhombus tiling",
+   "representation": "the pentagrid of the golden ring; the zero-energy density 81 - 50 phi in Z[phi]",
+   "preserves": "the five-fold local order, the ratio of thick to thin tiles",
+   "leaves_aside": "the center model, magnetic fields",
+   "results": [
+    {
+     "mf": "MF-161",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-162",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-167",
+     "class": "new computational result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/quasicrystal2d.py --selftest"
+   },
+   "map": "domain: the vertex model, hopping along the edges of the rhombus tiling; codomain: the pentagrid of the golden ring; the zero-energy density 81 - 50 phi in Z[phi]",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-008",
+   "system": "the quasi-one-dimensional magnet CoNb2O6 near its quantum critical point",
+   "model": "the Ising chain in a transverse field and its E8 spectrum",
+   "representation": "the E8 masses and their golden ratio (MF-90)",
+   "preserves": "the mass ratios",
+   "leaves_aside": "the interchain couplings",
+   "results": [
+    {
+     "mf": "MF-90",
+     "class": "experimentally supported result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/geometry_physics.py --selftest",
+    "measurements": "Core Appendix S.22"
+   },
+   "map": "domain: the Ising chain in a transverse field and its E8 spectrum; codomain: the E8 masses and their golden ratio (MF-90)",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-009",
+   "system": "X-ray, electron or optical diffraction from a Fibonacci quasicrystal",
+   "model": "the Fourier transform of the Fibonacci letter sequence; nearly free electrons at weak coupling",
+   "representation": "Bragg peaks at frac(n F_(k-1)/F_k) with amplitude |sin(pi n/phi)|/(pi |n|), the labels of the gaps",
+   "map": "domain: the letter sequence of length F_k; codomain: the Fourier amplitudes, labeled by n in Z",
+   "preserves": "the label n of each peak and of the gap it opens; at weak coupling the gap width 2V times the amplitude",
+   "leaves_aside": "the atomic form factors, the Debye-Waller factor, two- and three-dimensional samples",
+   "results": [
+    {
+     "mf": "MF-168",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-169",
+     "class": "new structural correspondence"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/validation.py --selftest",
+    "predictions": "PR-012, PR-013"
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-010",
+   "system": "Fibonacci anyons in a topological quantum medium",
+   "model": "the Fibonacci anyon model: fusion rules, F- and R-matrices, braid group representations",
+   "representation": "the law as the fusion matrix N_tau; phi as the quantum dimension; F_n as the dimension of n anyons",
+   "map": "domain: the fusion rules in the basis (1, tau); codomain: the matrix A",
+   "preserves": "the fusion counts, the quantum dimension, the braid relation",
+   "leaves_aside": "the microscopic medium, the energy gap that protects the anyons",
+   "results": [
+    {
+     "mf": "MF-177",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-182",
+     "class": "new structural correspondence"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/quantum.py --selftest",
+    "measurements": "Core Appendix S.28",
+    "predictions": "PR-003"
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-011",
+   "system": "a nine-level quantum system (a qudit of dimension 9)",
+   "model": "the Weyl-Heisenberg group, the Clifford group and the discrete Wigner function of odd dimension",
+   "representation": "the 81 states as the discrete phase space; A^2 as a Clifford unitary; A as an antiunitary",
+   "map": "domain: the 81 states (a, b); codomain: the Weyl operators D(a, b) and phase-point operators on C^9",
+   "preserves": "the Weyl relations, the Wigner function under the law, the complementarity of bases",
+   "leaves_aside": "a physical carrier of the nine levels, noise, measurement",
+   "results": [
+    {
+     "mf": "MF-178",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-179",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-180",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-181",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-183",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-184",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-185",
+     "class": "new structural correspondence"
+    },
+    {
+     "mf": "MF-186",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-187",
+     "class": "new computational result"
+    },
+    {
+     "mf": "MF-188",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-189",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-190",
+     "class": "established mathematical result"
+    },
+    {
+     "mf": "MF-191",
+     "class": "new structural correspondence"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/quantum.py --selftest",
+    "predictions": "PR-015"
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  },
+  {
+   "id": "PM-012",
+   "system": "a quantum walker on a line whose coin follows the Fibonacci word in time",
+   "model": "the discrete-time quantum walk, U = S (C x I), with two reflecting coins in Fibonacci order",
+   "representation": "the law's word as the sequence of coins; the trace map of the walk (Romanelli)",
+   "map": "domain: the Fibonacci word; codomain: the sequence of unitary steps of the walk",
+   "preserves": "unitarity, the word's order",
+   "leaves_aside": "loss, decoherence, the platform",
+   "results": [
+    {
+     "mf": "MF-192",
+     "class": "new computational result"
+    }
+   ],
+   "evidence": {
+    "recompute": "python3 tools/quantum_foundations.py --selftest",
+    "measurements": "Core Appendix S.29"
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
+  }
+ ]
+}

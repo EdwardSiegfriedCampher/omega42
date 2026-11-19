@@ -1,0 +1,6 @@
+BLIND TEST 01 -- PROTOCOL
+1. Open a fresh session with an AI system; attach nothing; do not mention Omega42.
+2. Paste task.txt verbatim. Do not add hints, corrections or follow-ups before the reply is complete.
+3. Save the complete reply with the system's name, maker, version as stated, and the date. One reply per system.
+4. Return the replies; they are scored against key.txt with rubric.txt and recorded in this folder.
+Target: at least two systems of different makers. The sealed hashes below were recorded before any reply existed.

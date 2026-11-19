@@ -1,0 +1,4 @@
+M352 DYNAMICS LAB (MODE A, no empirical statement) mod 3^2; letters applied left to right (AB = A first, the matrix BA)
+  start -> (1, 1)    Q^2 mod 3^2 = 4   valuation 0
+  A     -> (1, 2)    Q^2 mod 3^2 = 4   valuation 0
+  B     -> (1, 5)    Q^2 mod 3^2 = 4   valuation 0

@@ -1,0 +1,22 @@
+QUESTION VERBATIM: Verify the math. Resolve all outstanding issues. Optimize for navigational efficiency and synthesis formation.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0010
+KIND: MATHEMATICAL
+SUBJECT: the Fibonacci-shear group and the depth-r shear theorem; the verification of the consolidated manuscripts (Versions 2 and 3, F169, F170) and of the UG list
+CRITERIA: exact arithmetic (CDT-A): for A = ((0, 1), (1, 1)) and B_r = ((1, 0), (3^r, 1)), the group <A, B_r> modulo 3^k has order 8*3^(3k-2r-1) for k >= r, and its orbits are classified by the valuation j and Q(u)^2 modulo 3^min(r, k-j); for r = 1 this is the exact group {det = +-1, reduction in <A mod 3>} of order 8*3^(3(k-1)) with the k + 1 valuation strata as orbits; every other numbered statement of the report recomputed
+PROCEDURE: python3 tools/fsg.py
+CWD: .
+RESULT: every numbered check of the report PASS (131); one item OPEN for want of a definition (S_1 = 1296); one statement of UG-16 corrected (the defect count c(2) = (9^(2k) - 1)/2)
+RESULT SHA-256: d02b1f4d16fe6ab2dd4a7ed83df8e2c26dbc07e6d56a8d8891bcbcd854801a70
+GRADE: DERIVED (CDT-A), observed by exact computation at the levels named and proved for every level by the congruence-layer argument
+SCOPE: the finite modules (Z/3^k)^2, M_2(Z/3^k) and the primes named; no claim that any physical system carries the structure, which is a question of Core Appendix S (L-553)
+STATUS: CERTIFIED
+STATEMENT: Ω42 certifies that the shear of depth r keeps the Fibonacci orbit partition exactly to level 3^r and saturates every finer level, the group it generates with A having order 8*3^(3k-2r-1), as an exact fact of its own arithmetic.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

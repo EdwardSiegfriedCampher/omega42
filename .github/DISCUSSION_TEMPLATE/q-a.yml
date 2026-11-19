@@ -1,0 +1,13 @@
+body:
+- type: textarea
+  attributes:
+    label: Question
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What you have tried
+    description: ''
+  validations:
+    required: false

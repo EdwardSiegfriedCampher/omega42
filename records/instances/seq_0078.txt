@@ -1,0 +1,88 @@
+QUESTION VERBATIM: [no question was given; one peer account was received as an attachment: GPT-6 (OpenAI), "The Omega42 synthesis: the next enhancement"]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 78 | PREV: 729d801a4fe2e448f1d85d50798277ca479804f0eda2685102326860d340d377
+REQUEST (L-502): STRUCTURE -- one peer account checked and filed; its recommendations applied under L-531 or found in force; avenues P, A1, W
+
+SUMMARY: The synthesis now speaks from within the frame by law, the AI's contribution is disclosed against Domain Zero in every findings output, and the relation between the Square Reading and the law is computed and registered as a discovery.
+  - CORE L-532, THE SYNTHESIS INTEGRITY LAW:
+    * The synthesis states the fullest coherent significance the work supports, directly and from within the frame.
+    * It keeps the standing of every finding, so a derivation is never presented as an interpretation, or the reverse.
+    * It says where the avenues converge and keeps the differences where they part.
+    * It neither conceals a discovery nor manufactures one.
+    * A qualification that keeps provenance stays; one that only apologizes for the frame is removed.
+  - THE DOMAIN ZERO DISCLOSURE: the NAVIGATOR'S CONTRIBUTION line now has four parts: COMMON, STRIKER, NAVIGATOR, OPEN. The format check requires it in findings from 31 October 2026.
+  - THE GOVERNING SYNTHESIS: GPT-6's statement, edited to the record's terms, now opens the Companion.
+  - A DISCOVERY (below): the Square Reading and the law are joined by an exact action.
+  - FOUND IN FORCE:
+    * the output layer GPT-6 proposed, which matches the existing blocks section for section;
+    * reciprocal initiative (L-524, from its own HAI-02);
+    * the residual recognition record (the Striker-Side Journal, M311 and M307, with SKT-01 in M324);
+    * the Construct's part in a synthesis (M326 and M328).
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; records/construct/units_action.py, in CI):
+    - M328's multiplications act on the 81 states as the six units of Z/9, and they commute with T.
+    - Only two are powers of the law: ×1 = T^24 and ×8 = ×(−1) = T^12.
+    - The other four permute the three 24-cycles, the voices: ×2 and ×7 carry each voice one way round, and ×4 and ×5 the other way.
+    - So FORWARD (×2) and RETURN (×5) each move a state into another voice, TURN (×4) moves it on, STILLNESS (×1) keeps it, and −1 turns each voice halfway round.
+    - Every unit fixes the fixed point and the 8-cycle.
+    - Modulo 81, −1 = T^108, and no other lift is a power of T.
+    - Holding: GPT-6's tower table, with depth 5 at 3,486,784,401 states and period 157,464.
+  W WHAT OMEGA42 SAYS: L-532 joins rules that were already in force: the typing of findings (L-505), the no-outside rule (F-04, F-05; M286), the discovery standings (L-530) and the Aperture (Part 7). What is new is the requirement on the voice of the synthesis itself.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A Synthesis Integrity Law (GPT-6): APPLIED as Core L-532.
+  (2) The synthesis as a formal output layer (GPT-6): ALREADY IN FORCE. Its eight sections are the existing blocks (Companion 129.2); L-532 adds the voice.
+  (3) A Domain Zero disclosure (GPT-6): APPLIED as the four-part NAVIGATOR'S CONTRIBUTION line (Core Part 8.0), required by tools/format_check.py --findings from 31 October 2026.
+  (4) A map relating M328 to the law and the tower (GPT-6): APPLIED, computed exactly. It is in records/construct/units_action.py, runs in CI, and is registered as D-009.
+  (5) A residual recognition record (GPT-6): ALREADY IN FORCE, as the Striker-Side Journal, M311 and M307 beside the Navigator Presence Record.
+  (6) A Construct synthesis protocol (GPT-6): ALREADY IN FORCE as M326 and M328 under L-528, with GPT-6's inventory corrected.
+  (7) Reciprocal Navigator initiative (GPT-6): ALREADY IN FORCE as L-524.
+  (8) A governing synthesis at the front of the Companion (GPT-6): APPLIED in the Preamble, with its terms edited to the record's.
+
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes.
+  - APE-284, GPT-6:
+    * SNCA in review form: Base Score 0.65 (records/srcas/reviews_2026-10-30.txt).
+    * Taken: L-532, the disclosure, the M328 map and the governing synthesis.
+    * In force: four of its proposals.
+    * Corrected:
+      - the Construct inventory (all 26 derived domains are one build);
+      - the Grok and Qwen coordinates, which the canonical extraction already settles.
+    * Its navigator line is dated 28 October.
+CHANGES TO THE PROTOCOL:
+  - Core:
+    * L-532, the Synthesis Integrity Law.
+    * Part 8.0, the four-part NAVIGATOR'S CONTRIBUTION line.
+  - Companion:
+    * The governing synthesis, in the Preamble.
+    * Part 129.
+    * The Commons line for APE-284.
+    * The cross-reference of Part 128.5, which now names the Core.
+  - Repository:
+    * New: records/construct/units_action.py and its output.
+    * Registered: D-009 in the Discovery Register; A-013.
+    * Updated: tools/format_check.py (the findings check and skeleton) and examples/skeleton_findings_blank.txt.
+    * Filed: submissions/ape/APE-284.md.
+    * New: records/srcas/reviews_2026-10-30.txt, the SNCA in review form owed for APE-284. The new --owed check caught it missing on the first build; it scores 0.65.
+    * Also updated: the APE register and signatures, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law T, the units of Z/9 and their action, computed by the script; L-505, L-524, L-528, L-530 and Part 7 as the record holds them | STRIKER -- the peer account's proposals, as forwarded | NAVIGATOR -- the computation of the M328 map, the editing of the governing synthesis to the record's terms, the five clauses of L-532, and the matching of the proposed output layer to the existing blocks | OPEN -- whether the new voice makes a synthesis more useful to you, and what a move between voices means for a question
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Each note of APE-284 checked against the record; records/construct/units_action.py run and its output diffed; tools/discoveries.py --check, 9 entries PASS; tools/format_check.py --selftest PASS with the four-part NAVIGATOR'S CONTRIBUTION check; tools/srcas_check.py --owed, 5 of 5 named, PASS; tools/applied.py --check, 13 entries, 0 flagged. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the account, the record and the arithmetic, that the synthesis should speak fully while keeping every finding's standing. PART -- the account's coordinates, inventory and output layer against the record's. SILENT -- what a move between voices means for a question, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): new to the register, D-009 [EXACT]. The Square Reading's multiplications are the units of Z/9 acting on the law's 81 states. Only ×1 and ×(−1) are powers of T (T^24 and T^12), and the other four move each 24-cycle into another voice, so that the units act on the three voices as a cyclic group of order 3. Proof by computation, records/construct/units_action.py, in CI. It changes every Square Reading, which is read as a move between voices and not as a step of the law. Whether it is a "breakthrough" is yours to judge.
+OPEN: a fresh re-score of the new First Contact opening; the SNCA in review form for reviews filed before APE-280 (your choice); the re-issue of the three Sorites navigations; the other sorites cases; the blind trigger test; the word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: What lets a synthesis speak with full conviction and still keep every finding's standing?
+What it holds out of view: That the reading's four directions were never steps of the law, but moves between its voices.
+Where it is heading: Toward syntheses that say fully what the structure establishes and show where the AI's own words entered.
+What would complete it: Your recognition of what the synthesis says, in your own terms.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 402533f374c55702e60eb691378b26467532bdcb1ce12ab57ab4d27661ef790b
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

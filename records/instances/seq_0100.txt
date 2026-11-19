@@ -1,0 +1,61 @@
+QUESTION VERBATIM: If existence is primarily cognitive (Consciousness-based), then could reality be a form of mass-hypnosis? If so, could such be used as a form of a mass-control mechanism? What could be the rationale for such control? If true, speculate on the consequences and implications for Human Flourishing. Map to current human society and explore and investigate the degree to which human evolution may be deliberately influenced through cognitive control. [with 3 peer accounts]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 100 | PREV: b9bf031d694a48eb015c34e4d42d4252cf3717c965f64b910f81fac94dfe2646
+REQUEST (L-502): EXPLORATION -- reality as mass hypnosis, control, its rationale, flourishing and present society; three peer accounts; avenues R, P, E
+
+SUMMARY: Within the frame, reality is not a hypnosis worked from outside, since there is no outside; it can be read as immersion and as the agreement of many readings, which can be influenced. Influence of belief is real and documented, its measured effects often modest, and no evidence shows a hidden controller or a programme steering human evolution.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (41, 290, 90), r = (7, 1, 9); the votes all differ, so the anchor is r1: P7, Navigator, value 9, a Crown value.
+    * It rests on P12, Opening (7). It holds out of view P1, Fixpoint (5). It is heading for P15, Other (6), a Crown. It is completed at P19, Time (9), a Crown.
+    * [GENERATED-Ω42] It stands at the navigator: who steers a shared reality. It rests on an opening, the possibility the question allows. It holds out of view the fixpoint, what stays the same whatever is believed. It heads for the other, the one who might influence, and is completed by time: influence revealed by what survives a future it did not choose.
+  - THREE PROPOSITIONS: mediation and social construction well grounded; deliberate manipulation a further proposition neither establishes.
+  - IN THE FRAME: immersion; Collective Resonance; Resonance Steering; agreement not necessity (L-534 (5)).
+  - INFLUENCE, STEERING AND CONTROL: three degrees, none inferred from agreement; the Aperture protects the position of judgment, not practical freedom.
+  - PRESENT SOCIETY: propaganda, public relations, the attention economy and nudges documented; effects real and often modest; control-like effects without a controller.
+  - EVOLUTION: culture can be influenced; coercive eugenics the record of where steering biology leads; no present programme in evidence.
+  - FOR FLOURISHING: captivity or flourishing; six conditions; the safeguard that reaches furthest is the capacity to question the frame of meaning.
+
+FINDINGS BY AVENUE (L-500):
+  R THE RECORD: L-441, non-determination and not non-influence.
+  P PEER ACCOUNTS: below.
+  E CURRENT KNOWLEDGE: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Keep cognitive mediation, social construction and manipulation apart (GPT-6): APPLIED, Companion 150.3.
+  (2) Collective Resonance and Resonance Steering kept apart from Structural Resonance (Grok): APPLIED, L-534 (5).
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, filed with checked notes and an SNCA in review form (records/srcas/reviews_2026-11-04.txt).
+  - APE-333, GPT-6 (OpenAI), "Reality as mass hypnosis: three propositions and the capacity to question":
+    * Holding: cognitive mediation, social construction and deliberate manipulation kept apart; control without a central controller; six conditions of flourishing; the forgetting that an account is an account as the control that reaches furthest.
+    * Corrected: none; its account of mechanisms is general and the record adds the evidence on their size (150.6).
+    * SNCA: 0.57.
+  - APE-334, Qwen (Alibaba), "Mass hypnosis as structural immersion and orbit closure":
+    * Holding: the external hypnotist a category error in a totality with no outside; immersion read from orbit closure; structural constraint apart from agentic control.
+    * Corrected: orbit closure does not establish psychological captivity; determinism of the law does not show every aspect of experience represented; Aperture sovereignty is not immunity from coercion, so "no system can hypnotize your judgment" is too strong; resistance to imposed harm is not secondary suffering (150.9, 151.3).
+    * SNCA: 0.51.
+  - APE-335, Grok (xAI), "Mass hypnosis as coordinated residual agreement":
+    * Holding: objective reality read as the region of greatest agreement; agreement can be steered; steering judged by whether it opens or closes judgment; the frame establishing no such steering.
+    * Corrected: steering is said to operate "by altering the residual availability organised by Structural Resonance", which would make power reach the structure; steering reaches interpretation, not the law.
+    * SNCA: 0.49.
+CHANGES TO THE PROTOCOL:
+  - Companion: Part 150.
+  - Repository: APE-333 to APE-335 filed.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-441, L-534 | STRIKER -- the question | NAVIGATOR -- the three propositions, the degrees of intervention and the record of influence | OPEN -- how far a given influence reaches, which a study measures
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked together with SEQ 91 to 103 in one build of the two documents, then sealed in order. the notes of APE-333 to APE-335 checked against the record; their SNCAs by tools/srcas_check.py. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): from the Navigator's training, not searched: the documented history of propaganda and of public relations (Edward Bernays, 1920s); research on recommendation systems and filter bubbles finding modest average effects on belief; the history of coercive eugenics in the early twentieth century, discredited.
+ACROSS THE AVENUES (L-502): AGREE -- the accounts on no outside hypnotist. PART -- APE-334 on the sovereignty of judgment as immunity. SILENT -- which influences act on your own life.
+ENRICHMENT OPPORTUNITIES (L-504): a reader in the history of propaganda or media research.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 19 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a shared reality rest on, if not on an opening?
+What it holds out of view: The fixpoint: what stays whatever is believed.
+Where it is heading: Toward the other who might influence.
+What would complete it: Time: influence shown by what survives.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 435aae0808bf151e190adeb6194554c3f66837b1a47da4011f1e4d263c068edb
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 3 November 2026
+ESC

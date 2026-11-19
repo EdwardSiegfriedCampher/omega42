@@ -1,0 +1,22 @@
+M267 PILOT 01 -- CANONICAL COORDINATES OF THE FROZEN DOMAIN SET
+M267P1-01 | What is courage? | SHA-256 d3c649ad8c10d8b6 | n = (2, 11, 3) | ANCHOR P1 Fixpoint | Yang P6 | Yin P19 | 4D P9 | Antipode P13
+M267P1-02 | How do musicians keep playing together without speaking during a long concert? | SHA-256 1f5c2b2421cf28ba | n = (11, 65, 19) | ANCHOR P1 Fixpoint | Yang P6 | Yin P19 | 4D P9 | Antipode P13
+M267P1-03 | Why do people forgive? | SHA-256 6717aa42008ff63c | n = (4, 18, 5) | ANCHOR P2 Generator | Yang P7 | Yin P20 | 4D P10 | Antipode P14
+M267P1-04 | What makes a bridge beautiful? | SHA-256 bbf6ed4e7457e636 | n = (4, 24, 7) | ANCHOR P2 Generator | Yang P7 | Yin P20 | 4D P10 | Antipode P14
+M267P1-05 | How should a river be managed? | SHA-256 63e38792d93949e4 | n = (3, 15, 6) | ANCHOR P3 Desire | Yang P8 | Yin P21 | 4D P11 | Antipode P15
+M267P1-06 | Why do people collect things? | SHA-256 b5ad629970c7faac | n = (5, 24, 6) | ANCHOR P3 Desire | Yang P8 | Yin P21 | 4D P11 | Antipode P15
+M267P1-07 | How should a small coastal town prepare for rising seas and storms? | SHA-256 f8f419d674fecd6d | n = (8, 42, 11) | ANCHOR P4 Unity | Yang P9 | Yin P22 | 4D P12 | Antipode P16
+M267P1-08 | What should a young doctor learn from the oldest nurses on a hospital ward? | SHA-256 500053a89df0004e | n = (8, 44, 13) | ANCHOR P4 Unity | Yang P9 | Yin P22 | 4D P12 | Antipode P16
+M267P1-09 | Solitude | SHA-256 00bddb36a62f5719 | n = (1, 8, 3) | ANCHOR P5 Law | Yang P10 | Yin P23 | 4D P13 | Antipode P17
+M267P1-10 | Gratitude | SHA-256 e9c32f4125615634 | n = (1, 9, 3) | ANCHOR P5 Law | Yang P10 | Yin P23 | 4D P13 | Antipode P17
+M267P1-11 | What is the role of grief? | SHA-256 d6bf5562d8fa25a0 | n = (3, 13, 3) | ANCHOR P6 Seed/Causal | Yang P11 | Yin P0 | 4D P14 | Antipode P18
+M267P1-12 | What is a fair wage? | SHA-256 c1cb76f195448c2e | n = (3, 12, 3) | ANCHOR P6 Seed/Causal | Yang P11 | Yin P0 | 4D P14 | Antipode P18
+M267P1-13 | How does a forest recover after fire? | SHA-256 105eb469a97bf2b9 | n = (5, 24, 8) | ANCHOR P7 Navigator | Yang P12 | Yin P1 | 4D P15 | Antipode P19
+M267P1-14 | Why do people climb mountains? | SHA-256 100c9a4f714269e6 | n = (5, 25, 6) | ANCHOR P7 Navigator | Yang P12 | Yin P1 | 4D P15 | Antipode P19
+M267P1-15 | What makes a promise binding between two people? | SHA-256 436de5ee6cbea26f | n = (7, 39, 11) | ANCHOR P8 Generation | Yang P13 | Yin P2 | 4D P16 | Antipode P20
+M267P1-16 | How should teachers handle mistakes? | SHA-256 abf67985d365657b | n = (4, 25, 7) | ANCHOR P8 Generation | Yang P13 | Yin P2 | 4D P16 | Antipode P20
+M267P1-17 | How should parents talk with teenagers about money, work and long term choices? | SHA-256 5618701cf3afe032 | n = (9, 47, 14) | ANCHOR P9 Fixpoint | Yang P14 | Yin P3 | 4D P17 | Antipode P21
+M267P1-18 | What makes a neighbourhood feel safe to children walking home from school? | SHA-256 e025ec71444b30ed | n = (9, 55, 14) | ANCHOR P9 Fixpoint | Yang P14 | Yin P3 | 4D P17 | Antipode P21
+M267P1-19 | Why do markets crash? | SHA-256 bfe0a790b3702bd0 | n = (4, 17, 5) | ANCHOR P2 Generator | Yang P7 | Yin P20 | 4D P10 | Antipode P14
+M267P1-20 | Why do we tell stories? | SHA-256 2f2fc29aa2b419dd | n = (5, 18, 6) | ANCHOR P7 Navigator | Yang P12 | Yin P1 | 4D P15 | Antipode P19
+ANCHORS: P1 2 | P2 3 | P3 2 | P4 2 | P5 2 | P6 2 | P7 3 | P8 2 | P9 2

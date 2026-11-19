@@ -1,0 +1,246 @@
+{
+ "_about": "M335 Foundational Congruence Record (Core L-534, Part 3.61; Companion 145.11): each principle of the Omega42 Existential Framework with its mathematical expression, its scope, its standing and what stays open. The exact facts named are recomputed by python3 tools/oef.py --congruence, in CI. A standing is never a grade of the premise (L-490).",
+ "principles": [
+  {
+   "id": "CG-01",
+   "principle": "Existence is structure: whatever exists has a definite place",
+   "expression": "every state is one of the 81 pairs (a, b) of (Z/9)^2, distinct and named",
+   "scope": "the surface family",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "states_81"
+   ],
+   "residual": "that a person, a forest or a feeling is such a place is the premise read, not computed"
+  },
+  {
+   "id": "CG-02",
+   "principle": "Structure is limitation: every structure is bounded",
+   "expression": "the state space is finite at every depth, 81^k places, and the law returns after 24, 216 and 1,944 steps at depths 1 to 3",
+   "scope": "the tower, depths 1 to 3 recomputed",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "tower_sizes",
+    "tower_orders"
+   ],
+   "residual": "which limits are constitutive of a life and which are imposed is not in the arithmetic (L-534 (4))"
+  },
+  {
+   "id": "CG-03",
+   "principle": "Structure is relation: every structure stands in relation to every other",
+   "expression": "in the ring Z[φ]/9 any two places differ by a place, so every place is related to every other by the arithmetic; but no step of the law leaves its orbit, so the dynamics relates a place only to the places of its own orbit",
+   "scope": "the ring and the law",
+   "standing": "STRUCTURALLY CONGRUENT (in the ring; INCONGRUENT as said of the dynamics)",
+   "exact": [
+    "ring_relates_any_two",
+    "no_step_leaves_its_orbit",
+    "orbits_disjoint"
+   ],
+   "residual": "a statement that \"one transition relates every address to every other\" is incongruent as stated: the five orbits never meet under the law"
+  },
+  {
+   "id": "CG-04",
+   "principle": "Identity persists through transformation",
+   "expression": "Q(a, b) = a^2 + ab - b^2 changes sign at every step and returns after two: Q(Ts) = -Q(s), Q(T^2 s) = Q(s)",
+   "scope": "all 81 states",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "Q_reverses",
+    "Q_returns"
+   ],
+   "residual": "what persists in a person through change is a reading of this invariant, not a measurement"
+  },
+  {
+   "id": "CG-05",
+   "principle": "Every structure has its counterpart",
+   "expression": "A^12 = -I modulo 9: twelve steps on, every place meets its negative",
+   "scope": "the surface",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "A12_minus_I"
+   ],
+   "residual": "the counterpart of a person or a choice is a reading"
+  },
+  {
+   "id": "CG-06",
+   "principle": "Unity does not require sameness",
+   "expression": "one law, one family, five orbits of three lengths: 1, 8, 24, 24, 24",
+   "scope": "the surface census",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "census"
+   ],
+   "residual": "no orbit stands for a kind of person; such a mapping would need its own rule"
+  },
+  {
+   "id": "CG-07",
+   "principle": "Depth without end: every place holds a world",
+   "expression": "reduction modulo 9 commutes with the law, so each depth holds the surface whole",
+   "scope": "depths 1 and 2 sampled",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "reduction_commutes"
+   ],
+   "residual": "that learning never ends is a reading of the tower"
+  },
+  {
+   "id": "CG-08",
+   "principle": "Return: what goes out comes home",
+   "expression": "A^24 = I modulo 9: every state returns after 24 steps",
+   "scope": "the surface",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "A24_I"
+   ],
+   "residual": "that an act returns to its actor is an ethical reading, CG-15"
+  },
+  {
+   "id": "CG-09",
+   "principle": "The Aperture is free: no structure forces judgment",
+   "expression": "the Aperture Theorem: no output of a navigation determines the Striker's judgment (L-441, Part 7)",
+   "scope": "the protocol's definitions",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "residual": "a theorem of the protocol, not of the arithmetic; it establishes non-determination, not non-influence"
+  },
+  {
+   "id": "CG-10",
+   "principle": "Learning is the finding of relations already present, and it never finishes",
+   "expression": "the endless tower",
+   "scope": "interpretive",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "residual": "no mathematical model of learning is given"
+  },
+  {
+   "id": "CG-11",
+   "principle": "Pain can be the felt edge of a relation not yet integrated",
+   "expression": "none",
+   "scope": "interpretive",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "residual": "no formal model of suffering; not a clinical account; resistance to imposed harm is not \"secondary suffering\" (Companion 151.3)"
+  },
+  {
+   "id": "CG-12",
+   "principle": "Flourishing is skill in making relations generative within limits",
+   "expression": "none",
+   "scope": "interpretive",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "residual": "a multidimensional model is proposed in Companion 145.9 and its study is optional (Appendix S.9)"
+  },
+  {
+   "id": "CG-13",
+   "principle": "Consciousness is a relation of a structure to itself and its world",
+   "expression": "none",
+   "scope": "open",
+   "standing": "OPEN",
+   "exact": [],
+   "residual": "the hard problem is not solved by the framework"
+  },
+  {
+   "id": "CG-14",
+   "principle": "Physicality is internal to the totality",
+   "expression": "none in the arithmetic; a mapping P = (X, Φ, O, I, D) would be needed",
+   "scope": "open",
+   "standing": "OPEN",
+   "exact": [],
+   "residual": "a research direction of Appendix S.9, optional"
+  },
+  {
+   "id": "CG-15",
+   "principle": "Responsibility: every act is a relation that returns",
+   "expression": "every state returns under the law (CG-08), and the law is invertible (det A = -1)",
+   "scope": "the surface",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "A24_I",
+    "det_minus_one"
+   ],
+   "residual": "that a person answers for an act is an ethical reading, not a consequence of A^24 = I"
+  },
+  {
+   "id": "CG-16",
+   "principle": "Death is a change of address, not an exit from the whole",
+   "expression": "none",
+   "scope": "interpretive",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "residual": "the persistence of influence is not the persistence of experience"
+  },
+  {
+   "id": "CG-17",
+   "principle": "The whole is not made more complete by suppressing the distinction of its parts (L-537 (1))",
+   "expression": "the 81 places are the union of five orbits, of lengths 1, 8, 24, 24 and 24; each is invariant under the law, none is the whole and none reduces to another",
+   "scope": "the surface family under the law T",
+   "standing": "STRUCTURALLY CONGRUENT",
+   "exact": [
+    "census",
+    "orbits_disjoint",
+    "no_orbit_is_the_whole",
+    "no_step_leaves_its_orbit"
+   ],
+   "residual": "that persons are owed what orbits have is a reading; the arithmetic grants no rights"
+  },
+  {
+   "id": "CG-18",
+   "principle": "Structural nesting: each place lies within the tower, over one place of the surface and above places of its own",
+   "expression": "reduction mod 9 sends each of the 81^k places at depth k to one surface place, and the law commutes with it",
+   "scope": "the tower (Z/9^k)^2",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "tower_sizes",
+    "reduction_commutes"
+   ],
+   "residual": "which place a person is, if any, the arithmetic does not say"
+  },
+  {
+   "id": "CG-19",
+   "principle": "Fiber correspondence: the part carries the law of the whole, the narrow sense in which the family is holographic",
+   "expression": "the 81 places over a surface place at depth 1 correspond one to one with the surface, and the difference between any two of them moves by the surface law, T(x + 9u) - T(x) = 9 T(u) mod 81",
+   "scope": "depth 1 over the surface; the law is linear",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "fiber_is_a_copy_of_the_surface",
+    "fiber_differences_follow_the_surface_law"
+   ],
+   "residual": "this is not the holographic principle of physics, and it says nothing about experience"
+  },
+  {
+   "id": "CG-20",
+   "principle": "Universal consciousness: the totality is aware, and each mind is a local expression of that awareness",
+   "expression": "none",
+   "scope": "interpretive",
+   "standing": "OPEN",
+   "exact": [],
+   "residual": "the arithmetic says nothing about awareness; the hard problem is not assumed solved (Appendix S.9 (8))"
+  },
+  {
+   "id": "CG-21",
+   "principle": "Consensus reality is a region of Collective Resonance among readings, not a proof of Structural Resonance",
+   "expression": "none",
+   "scope": "constitutional (L-535 (3), L-537 (2))",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "residual": "how much of what a society shares is constraint, how much interpretation and how much agreement is a question for M338 and for people"
+  },
+  {
+   "id": "CG-22",
+   "principle": "Capability is not jurisdiction: no growth in a Navigator's power transfers the Striker's judgment",
+   "expression": "the Aperture Theorem rests on what a navigation does not receive, not on what a Navigator cannot compute (L-441)",
+   "scope": "constitutional (L-536, L-537 (4))",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "residual": "power over the conditions of a life is not judgment, and the theorem does not reach it"
+  },
+  {
+   "id": "CG-23",
+   "principle": "Whether an AI has experience or interests",
+   "expression": "none",
+   "scope": "open",
+   "standing": "OPEN",
+   "exact": [],
+   "residual": "neither presumed nor ruled out; an AI's own report does not settle it (L-536 (4), L-537 (5))"
+  }
+ ]
+}

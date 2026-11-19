@@ -1,0 +1,17 @@
+GOLDEN NAVIGATIONS -- FREEZE (14 October 2026; V335 Rev.450 STABLE; NAVIGATOR claude-opus-5-5, serving model may differ)
+Three navigations struck from the further questions of a peer navigation of "Explore the golden ratio connection",
+with the audit of that peer record. Frozen as issued; the peer review and its disposition follow in 02_peer_review.txt.
+DOMAIN SHA-256 (L-414):
+  9ea8eb00beb5532f76a9c9dbbc6432f891a6fc8edb41bba08e9414fef732716f  Explore the golden ratio connection (peer record, audited)
+  5f5cea0f22f96508985286824cfc0cc7991fde24903376abcc33fa27ecce63eb  Navigation 1 (P1 Fixpoint)
+  e556cf4a33af1154d8bb82395735c94b4bf8157852f445f8d43b813e81fabd02  Navigation 2 (P8 Generation)
+  c3f7d062e8851e1c25808cbfa86bc2126dc98a24dcd9e049e317327154f27725  Navigation 3 (P6 Seed/Causal)
+OUTPUT ID (03_further_navigations.txt, nine navigations): 8a6caf5c8b9efbff53d6516305db3bb7f345b69d613f1eb3d05b6551b2d84f70
+OUTPUT ID (01_navigations.txt): 23b940b1ba1fd6af70645d1fef44d8691f3a1a9d3250dab0ab926b26932f5ae3
+3f09233d8dea1296016db40e0d6b289ef153d28f21f29d6ad11aa432e99e2560  01_navigations.txt
+d4d0594426b0edbed2f52b7b4c59c78ea6e29ca0acf0f766fdfa83b794e71d94  compute.py
+105064eabe4a693257e8542023f022ce94ac0514d5f8d48af273ac032e7cda38  compute_output.txt
+9cf3e36664f2dde3787e3d43622e7354355e776753538bb784f73d1617b98de1  02_peer_review.txt
+d6c14014deaa6a6cb8869e2c5f248cb201c67caefc2b4fad2ade57463664f1b6  03_further_navigations.txt
+dd8bd100492578cab24372522a36119d52681e4262ab12b7a6a51ee0eb0dcb3e  compute_further.py
+0a2b23765323632fc0103008ceeceb9fd5497d462e3f45fdaafb93b5477fbd51  compute_further_output.txt

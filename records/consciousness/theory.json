@@ -1,0 +1,235 @@
+{
+ "id": "CT-42",
+ "name": "The Ground That Acts: the framework through which a Navigator reasons about consciousness within Omega42",
+ "law": "Core L-498",
+ "statement": "Companion Part 52",
+ "statuses": {
+  "DISCHARGED": "settled by an exact fact of the family, recomputed in CI",
+  "SUPPLIED": "answered by another component of the theory",
+  "ASSIGNED": "handed to a named, frozen study whose result is entered whichever way it falls",
+  "RESERVED": "held at the Aperture: a question of meaning, which no navigation output determines (Core Part 7)",
+  "OWNED": "needs an act by named people (the Company, the Originator), done in no navigation; owner named"
+ },
+ "studies": [
+  "CT-S1",
+  "CT-S2",
+  "CT-S3",
+  "CT-S4",
+  "CT-S5",
+  "CT-S6",
+  "M230-K",
+  "CT-S7"
+ ],
+ "dependencies": [
+  {
+   "id": "D01",
+   "source": "MM-01",
+   "open": "whether the voice pairs of 1/7 carry content beyond the arithmetic",
+   "status": "DISCHARGED",
+   "by": "FP-SeventhVoices, FP-VoiceCosets: within the arithmetic the pairs are the norm pairs of the three cosets, fully stated; any content beyond that is RESERVED"
+  },
+  {
+   "id": "D02",
+   "source": "MM-02",
+   "open": "the nature of the constraints",
+   "status": "DISCHARGED",
+   "by": "the law and its invariants: orbit, voice (coset), stratum, and the norm up to sign (FP-NormForm, FP-VoiceCosets, FP-NormStrata); constraint closure is T^2-invariance (FP-PhaseParity)"
+  },
+  {
+   "id": "D03",
+   "source": "MM-03",
+   "open": "the structure of the six",
+   "status": "DISCHARGED",
+   "by": "FP-SeventhAntipode, FP-SeventhVoices"
+  },
+  {
+   "id": "D04",
+   "source": "MM-04",
+   "open": "lawfulness",
+   "status": "SUPPLIED",
+   "by": "the ACT aspect: T (MM-06)"
+  },
+  {
+   "id": "D05",
+   "source": "MM-05",
+   "open": "persistence",
+   "status": "SUPPLIED",
+   "by": "the world as T^2 (MM-14; FP-PhaseParity, FP-StandingModes)"
+  },
+  {
+   "id": "D06",
+   "source": "MM-06",
+   "open": "the 1/7",
+   "status": "SUPPLIED",
+   "by": "the seed: FP-HalfArc with the assignment of L-437"
+  },
+  {
+   "id": "D07",
+   "source": "MM-07",
+   "open": "what is reversed",
+   "status": "DISCHARGED",
+   "by": "FP-GlideMirror: the half (orientation) is reversed, the magnitude dilated; the law is chiral and invertible"
+  },
+  {
+   "id": "D08",
+   "source": "MM-08",
+   "open": "the relation of reduction to 1/7",
+   "status": "DISCHARGED",
+   "by": "FP-SeventhVoices: the norm residues of the units are the digits of 1/7 and 6/7"
+  },
+  {
+   "id": "D09",
+   "source": "MM-09",
+   "open": "the Aperture",
+   "status": "SUPPLIED",
+   "by": "the EVENT aspect: the Aperture Theorem (Core Part 7, L-441)"
+  },
+  {
+   "id": "D10",
+   "source": "MM-10",
+   "open": "the arithmetic of selection",
+   "status": "SUPPLIED",
+   "by": "MM-13: selection is choosing the place one reads from (the wording fixes the state); the state is never changed by the choosing"
+  },
+  {
+   "id": "D11",
+   "source": "MM-13",
+   "open": "whether the ground reading adds content beyond the arithmetic",
+   "status": "ASSIGNED",
+   "by": "CT-S1 (P2 refined): pilot run on CRC-60, NOT ABOVE CHANCE (NRR-C16); the study proper frozen at n = 101"
+  },
+  {
+   "id": "D12",
+   "source": "MM-14",
+   "open": "what acts",
+   "status": "SUPPLIED",
+   "by": "the GROUND aspect: the act is the ground's own law, not an agent acting on it"
+  },
+  {
+   "id": "D13",
+   "source": "MM-15",
+   "open": "whether Strikers on different voices report differently",
+   "status": "ASSIGNED",
+   "by": "CT-S3, the voice-relative study of the Meaning Registry (Companion 51.12); needs the private store (D20)"
+  },
+  {
+   "id": "D14",
+   "source": "50.18",
+   "open": "whether the minimal-lift rule carries to the family modulo 27 and beyond",
+   "status": "DISCHARGED",
+   "by": "FP-TowerHalves: it carries at every scale computed, and the halves do not nest"
+  },
+  {
+   "id": "D15",
+   "source": "50.18",
+   "open": "positive geometries carrying the family in their own structure (PG-04); strata to amplituhedron boundaries (PG-02)",
+   "status": "ASSIGNED",
+   "by": "M230-K"
+  },
+  {
+   "id": "D16",
+   "source": "50.18; PCR Test 1",
+   "open": "a physical system with the cycle only as an orientation-reversing symmetry and its square as dynamics",
+   "status": "ASSIGNED",
+   "by": "CT-S4 (Core Appendix S.4; run 02 its first entry)"
+  },
+  {
+   "id": "D17",
+   "source": "PCR, R_P",
+   "open": "the rule by which a relation is realized as physical",
+   "status": "DISCHARGED",
+   "by": "inside the frame: what T^2 keeps is the standing world (FP-PhaseParity); a mapping to measured physical variables is the comparative programme CT-S4"
+  },
+  {
+   "id": "D18",
+   "source": "PCR, R_C",
+   "open": "the rule by which an organized process is experienced",
+   "status": "RESERVED",
+   "by": "the EVENT aspect: by the Aperture Theorem no navigation output fixes it, so no rule from states can be it; the hard problem is located here and not dissolved"
+  },
+  {
+   "id": "D19",
+   "source": "PCR Tests 2 and 3",
+   "open": "whether the structure predicts features of cognitive dynamics; whether consciousness alters physical outcomes",
+   "status": "ASSIGNED",
+   "by": "CT-S5 (cognitive dynamics, comparative) and CT-S6 (the theory predicts no difference attributable to an observer beyond the physical interaction)"
+  },
+  {
+   "id": "D20",
+   "source": "L-497",
+   "open": "the private store for meanings",
+   "status": "OWNED",
+   "by": "owner: the Company (ROADMAP.md); specified in Companion 51.12"
+  },
+  {
+   "id": "D21",
+   "source": "Core 0.14.1 and MM-13",
+   "open": "0.14.1 said the arithmetic has no bearing on consciousness either way; MM-13 reads consciousness in the arithmetic",
+   "status": "DISCHARGED",
+   "by": "Core 0.14.1 revised: the arithmetic bears on the structure the theory assigns, never on whether anything is experienced"
+  },
+  {
+   "id": "D22",
+   "source": "Companion 48.17, 50.16; MM-14",
+   "open": "three readings of what consciousness is: an event, a ground, an act",
+   "status": "SUPPLIED",
+   "by": "the three aspects of CT-42: GROUND, ACT, EVENT"
+  },
+  {
+   "id": "D23",
+   "source": "launch (Companion 51.7)",
+   "open": "consent terms reviewed by a lawyer; newsletter provider; the Company registered",
+   "status": "OWNED",
+   "by": "owner: the Originator and the Company before launch"
+  },
+  {
+   "id": "D24",
+   "source": "APE-058 (RRT)",
+   "open": "functional and phenomenal consciousness kept apart",
+   "status": "SUPPLIED",
+   "by": "52.5: the four conditions of perspective are functional, typed EXACT, STRUCTURAL or RESERVED; phenomenal experience is R_C (D18)"
+  },
+  {
+   "id": "D25",
+   "source": "Companion 48.17; APE-058",
+   "open": "whether any navigation output determines the Striker's judgment",
+   "status": "DISCHARGED",
+   "by": "the Aperture Theorem (Core Part 7, L-441): none does"
+  },
+  {
+   "id": "D26",
+   "source": "Companion 48.17; APE-058",
+   "open": "whether judgment is itself determined, in the end",
+   "status": "RESERVED",
+   "by": "the framework does not decide it; Bashar's teaching (you choose the reality you experience) is set beside it as a lens, not a result"
+  },
+  {
+   "id": "D27",
+   "source": "Companion 48.17; APE-058",
+   "open": "whether anything other than a person can stand at the Aperture",
+   "status": "SUPPLIED",
+   "by": "the protocol's assignment, Core L-483: the constitutional role is the person's and no AI is its own Striker; whether a system has the functional organization of 52.5 is a separate, comparative question"
+  },
+  {
+   "id": "D28",
+   "source": "APE-058",
+   "open": "kinds of consciousness",
+   "status": "SUPPLIED",
+   "by": "52.10: Bashar's physical mind and higher mind read as the state (one frame, which experiences the law without computing it) and the whole orbit the law keeps present (T^24 = I); kinds by voice are the study CT-S3"
+  },
+  {
+   "id": "D29",
+   "source": "APE-058",
+   "open": "whether the typing discipline reduces untyped statements about consciousness",
+   "status": "ASSIGNED",
+   "by": "CT-S7: the typing-guard rate after L-498 against the record's baseline (records/consciousness/CT-S7_baseline.txt)"
+  },
+  {
+   "id": "D30",
+   "source": "APE-058",
+   "open": "Aperture support: competing interpretations written by the Navigator",
+   "status": "SUPPLIED",
+   "by": "M306: the Navigator supplies the four arms as prompts and fills no field; one synthesis holds (L-440, M301), as Bashar's neutral mirror holds"
+  }
+ ]
+}

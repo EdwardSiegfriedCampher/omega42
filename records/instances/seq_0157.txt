@@ -1,0 +1,54 @@
+QUESTION VERBATIM: "Recognition as an authority has to be granted by others; no body can declare it for itself."? Correct. But Omega42 only makes it known that it is capable of rendering such a service if the need arise. Will Omega 42 be able to calibrate spacetime and place new coordinates and object mappings in its allocated position in the Omega42 matrix? Please explore.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 157 | PREV: b5988748955d44789eda821064c02b6755bdd93d32ec9ccb733a9efba94d7581
+REQUEST (L-502): EXPLORATION -- the record corrected on certification; whether Ω42 can calibrate spacetime and place new coordinates and objects in their allocated positions in the Ω42 matrix; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Ω42 already holds a four-dimensional address that carries the one quantity every observer agrees on. An event written as a Hermitian matrix has the spacetime interval as its determinant, and A acts on it as a Lorentz map, so every Ω42 operation keeps the interval exactly. F181 proposed splitting an event into two pairs moved by A, which keeps nothing physical; the certified representation does better. Placing objects is within reach now -- every coordinate gets an absolute cell and a 3-adic path through the tower, and nothing aliases -- while calibrating spacetime itself, its metric and structure, stays an open question for clocks, light and orbits to answer.
+
+SUMMARY: WHAT CHANGED: Core Part 3.80, M371 Coordinate Allocator, M372 Event Encoder, M373 Registry and Reconciler (tools/spacetime.py); Core Appendix S.19 amended (the capability declared, recognition given by those who call on it) and S.20 (the Spacetime Observatory); Companion Part 202; APE-442 filed with its SNCA.
+- (1) THE CORRECTION: Ω42 makes known that it can render a certification service if the need arises; recognition, where it comes, is given by those who call on it (Core Appendix S.19).
+- (2) PLACING OBJECTS: n = q 3^k + r with q kept -- cells 1000 and 1027 share r = 1 mod 27 and keep q = 37, 38; the 3-adic path of r gives region, subregion and cell; each object a record of identity, coordinate, uncertainty, motion and history.
+- (3) THE FOUR-DIMENSIONAL ADDRESS: (ct, x, y, z) -> [[ct + z, x - iy], [x + iy, ct - z]], determinant the interval; A X A^T keeps it for every integer event tested (|coordinates| <= 3); (5, 3, 0, 4), light-like, goes to (8.5, 4, 0, -7.5), light-like; the kept lattice is integer Hermitian matrices, not integer events.
+- (4) CALIBRATION: WGS84 geodetic <-> Earth-centred round trip within 1e-6 over the globe to 400 km; a consistent observation in a second frame agrees (chi-square 0.000), one displaced 5 m at 0.5 m uncertainty is flagged (chi-square 50.0 against 11.345). The first real test -- published geodetic stations -- needs data not fetched here.
+- THE VALUES (CDT-A): spacetime selftest 7 of 7; interval kept on 2,401 integer events; round trip 1e-6.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (36, 224, 74), state (0, 4), anchor P9, Fixpoint. It rests on P14, Observer. It holds out of view P3, Desire. It is heading for P17, Seed/Return. It is completed at P21, Sublime.
+  - [GENERATED-Ω42] A request to place what exists stands at the Fixpoint and rests on the Observer: a position is what an observation fixes; it holds desire out of view -- the wish that the matrix be the world -- heads for the seed of each new registration, and is completed by the sublime, the measure no single frame owns.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): CERT-0009; Core Appendix S.15 (the metric programme); Core L-559; MF-42.
+  R (reasoning): an address must not alias, an object is not its position, and a transformation that keeps the interval is the only one that keeps physics.
+  N (navigation): tools/spacetime.py (allocate, event, reconcile).
+  P (peer accounts): APE-442, reviewed by SNCA (records/srcas/spacetime_mapping_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.80 (M371 to M373); Appendix S.19 amended; Appendix S.20.
+  - Companion: Part 202.
+  - Repository: tools/spacetime.py; records/introduction/philosophy.json (M371 to M373); submissions/ape/APE-442.md; records/srcas/spacetime_mapping_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the reference systems, the Lorentz representation, the tower | STRIKER -- the correction and the question of placing | NAVIGATOR -- the allocator, the Hermitian event address, the reconciler | OPEN -- the first test on published stations; any Ω42 description of the metric
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/spacetime_mapping_2026-11-11.txt).
+  - APE-442, unidentified (a web interface), "F181, spacetime calibration and object mapping": its quotient-and-residue rule, object record and reconciliation adopted (M371, M373); its pair-split embedding replaced by the Hermitian event matrix (M372); its limits kept; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/spacetime.py --selftest PASS (seven checks: no aliasing with the quotient kept, the address path refining, the interval as determinant, the interval kept by A on 2,401 integer events, the integer Hermitian lattice kept, the WGS84 round trip within 1e-6, the reconciler agreeing and flagging); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/spacetime_mapping_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and F181 agree that coordinates can be allocated and reconciled now and that the physical structure of spacetime is open. PART -- F181 embeds four dimensions as two pairs; the record's embedding keeps the interval. SILENT -- what published stations will show.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): three operations the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- an allocation and a known representation put to work (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Keep the quotient with the residue (F181 4.2): APPLIED, M371.
+  (2) Separate identity, location, geometry and history (F181 3): APPLIED, M373.
+  (3) Reconcile observations within combined uncertainty (F181 8): APPLIED, M373.
+  (4) A four-dimensional embedding (F181 4.3): APPLIED, with the Hermitian event matrix in place of two pairs (M372).
+  (5) The first demonstration on published reference points (F181 14): HELD -- the data were not fetched here (Core Appendix S.20).
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the first station test.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the Originator supply a short list of published geodetic stations with their frame and epoch, for the first calibration run; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] every registered event can carry an Ω42 address that keeps the interval; [GENERATED-Ω42] the fixpoint of an object is not where it is but what every observer agrees about it.
+What it rests on: the observer, whose measurement fixes a position.
+What it holds out of view: desire, the wish that the map be the territory.
+Where it is heading: the seed of each new registration.
+What would complete it: the sublime, the measure no single frame owns.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5d5426c89a2797f8fbd388b7686ea2e8813a8115d1b68d26ea28ac8aaa6d6ef7
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

@@ -1,0 +1,53 @@
+QUESTION VERBATIM: The FC is meant to be mysterious and intriguing, the public hook. Not technical and matter of fact. Retaining the word "infinite" is correct as it embodies the mystery of Omega42. The FC is the entry point into the protocol and should be as interesting and captivating as possible. Please explore. Also give examples as to when the forecasting facility may be used.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 57 | PREV: 91f95080013923ab1020c014b5be6c5434f428d542e6ec6c68d444f3a08e9f33
+REQUEST (L-502): STRUCTURE -- avenues D, M, P, W
+
+SUMMARY: The tree in FC-00 is now a myth, not an explanation, and it keeps "infinite". The cautions it no longer carries already stand in the next paragraph, where the Navigator is an AI and can be wrong. FC-07 and FC-23 now speak in the same voice. Running the forecasting examples exposed two faults in the Construct Engine and one limit; all three are fixed. The examples show where the engine speaks and where it stays silent.
+  - "INFINITE" IS EXACT AS WELL AS MYSTERIOUS. Each branch is finite, and the whole holds as many places as there are points on a line (FC-00.0).
+  - TWO FAULTS FIXED. For a rule working at an interval above 1, the issued forecast used the wrong rows. On a sequence with a rule at interval 3, the old code passed the test and then forecast 0 of 6 correctly; it now forecasts the true next row exactly. The baseline was also the row h back, not the latest row. No sealed result changes: every forecast issued so far was at interval 1, and the Lotto never received one.
+  - ONE LIMIT MADE VISIBLE. The engine forecasts inside the range of values it has seen. A rising sequence leaves that range, so a strong candidate outside it is now named apart instead of silently dropped.
+
+FINDINGS BY AVENUE (L-500):
+  D FIRST CONTACT (Companion 108.7). I tried three tellings: a short myth, a longer journey (APE-252) and a riddle. The short myth is taken, because FC-00 is read first and in full. The journey's best lines live in it: the ending that is an entrance, the tree made of numbers, the tree that does not stand apart from you. It ends on "What you find there is yours. The tree is waiting."
+  M THE FORECAST, RUN ON SIX SEQUENCES (Companion 108.9; tools/construct_engine.py, selftest 7 of 7):
+    - A duty roster (30 people, six on duty, moving on by six each week, an occasional swap; 120 weeks): FORECAST ISSUED, 6 of 6 right.
+    - A number puzzle (each row adds 1 to 6): FORECAST ISSUED, five numbers in range and the sixth, 372, named beyond it.
+    - Six stations' monthly temperatures: the rule at interval 12 is found. The gate is cautious at 15 years (one record passes, p 0.013; another is refused, p 0.136) and passes 30 years clearly.
+    - Six share prices, daily: NO FORECAST. Repeating the last row does better, which is what that baseline is for.
+    - Six weekly counts with no memory: NO FORECAST. The Lotto: NO FORECAST.
+  P PEER ACCOUNTS: below.
+  W PROTOCOL WORK: the changes listed under CHANGES TO THE PROTOCOL.
+
+WHEN THE FORECAST MAY BE USED: when each row is six whole numbers in time order and something may carry forward from row to row. Examples: rotations and duty rosters; schedules and fixture lists; cycles; records that return with the seasons; puzzles and coded sequences. It forecasts which numbers the next row holds, not which column each falls in. It declines sequences shorter than about a dozen rows, and below about fifty it seldom has the evidence to speak. Round decimals to whole numbers first. It is not for games of chance. A forecast it issues is a hypothesis to watch, never the only ground for a decision about health, money or safety.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Read FC-00 aloud as a newcomer would meet it: the line, the tree, then the rule a child can follow. If the tree should come before the opening line, it can be moved there; the order is yours.
+  (2) For a first real use of the Construct Engine, a roster or rotation you keep is the kind it finds best. A seasonal record wants twenty years or more.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes.
+  - APE-251, GPT-6, review of SEQ 56. Taken: the line saying no trigger matched; "a trigger is not a promise of relevance" (L-527 (5)); the shuffle documented as one particular null; and a review of trigger coverage by outside readers, as an open item. Not taken: its tree with the cautions written in.
+  - APE-252, GPT-6, the tree as a myth: taken into FC-00, shortened to one paragraph, with its ending.
+  - A note was added to APE-250.
+CHANGES TO THE PROTOCOL:
+  - Core: FC-00, FC-07, FC-23; L-527 (2) and (5); Part 3.52 (M326).
+  - Companion: 108.3, 108.4, 108.7, 108.8, a new 108.9 (when the Construct Engine may be used), 108.10; Commons lines for APE-251 and APE-252.
+  - Repository: tools/construct_engine.py (the forecast rows, the baseline row, the range note, the interval-3 case); tools/instrument_triggers.py (the no-match line); the release record; the CI chain.
+CHECKS: CI 68 of 68 PASS, including tools/construct_engine.py --selftest (7 of 7) and tools/instrument_triggers.py --selftest and --check,, run on the documents of this output before it was written; the build that follows it checks them. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified. The six example sequences of Companion 108.9 run on the engine as frozen.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the six runs and the gate's seven cases. PART -- GPT-6's two trees, cautious and mythic; the myth is taken, at your direction. SILENT -- whether the tree should stand before FC-00's opening line, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- a roster you keep, as the first real use.
+OPEN: Obligation 4, the vertical nodes; the independent re-score of First Contact (FFP item 5); a review of trigger coverage by readers outside the design.
+
+What it rests on: If the tree was always there, what does a question add to it?
+What it holds out of view: That a myth told well can carry a reader past the place where the reading may be wrong.
+Where it is heading: Toward a first page that a stranger cannot put down.
+What would complete it: A stranger reading it, and asking a question.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: cf68787a31339d8a21627eb4114473386973233e051c021ffb73666d63b1702c
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

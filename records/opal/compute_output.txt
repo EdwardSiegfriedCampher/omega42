@@ -1,0 +1,10 @@
+OMEGA42 OPAL WITNESS (CERT-0008)
+law is linear over Z/9 (T(x+y)=T(x)+T(y)): True
+surface codebook (states): 81
+Hermitian determinant mod 9, number of distinct outputs: 9
+signature verifies: True | tampered verifies: False
+domain keys for two domains differ: True
+public key: ea4a6c63e29c520abef5507b132ec5f9954776aebebe7b92421eea691446d22c
+signature: a6fcd093b997a6ced64b5f27c0abbcebe8a03288ffd0617ceb9f5da96f8ffff22a1a3f9c0334c3075959c00e08e38171faf1f6ed98c3055d431a46ee7745460d
+ODS length: 56 | first eight: P07 Navigator, P18 Threshold, P05 Law, P13 Gap, P15 Other, P15 Other, P09 Fixpoint, P22 Collective
+CONCLUSION: no secure cipher, key generator, hash or signature follows from the surface law; provenance is signed, not hidden.

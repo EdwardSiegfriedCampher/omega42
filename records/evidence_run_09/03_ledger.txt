@@ -1,0 +1,46 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 09 -- AN EIGHTFOLD OBJECT THAT SUPPLIES THE RULE ITSELF: RESULTS AND LEDGER
+Freeze: 00_freeze.txt, SHA-256 2669783904caa88ec780c23f6c15561e568648ba0025deced9bdf8a95a94fe5e, 2026-10-09T14:33Z.
+Computations: compute.py -> compute_output.txt (standard library only). Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+
+H1  E8 AS THE ICOSIAN RING [CDT-A]
+  The 120 unit icosians (the vertices of the 600-cell) are closed under multiplication and span a ring of rank 8 over Z. With
+  the form <x, y> = 2 Tr(phi/sqrt5 * x.y) -- for a norm u + v sqrt5 this is 2(u + v), the Euclidean norm used for the icosians
+  -- the ring is integral, even and unimodular of rank 8: the E8 lattice, by uniqueness. The units u, phi u and u/phi supply
+  240 vectors of norm 2, E8's full root system.
+H2  THE INTRINSIC GOLDEN LAW
+  Multiplication by phi is an integer endomorphism of E8 with phi^2 = phi + 1, self-adjoint for the E8 form. E8 supplies the
+  Fibonacci rule itself: it is part of the lattice's own ring structure, not imposed.
+H3  THE TWO LAYERS
+  E8 is torsion-free over the principal ideal domain Z[phi], hence free of rank 4. E8/9E8 = (Z[phi]/9)^4 with phi acting as T:
+  43,046,721 elements in 1,793,340 orbits of 24, 820 of 8 and 1 fixed point -- the family four times over. E8/8E8 =
+  (Z[phi]/8)^4 with phi acting as T modulo 8: orbits of 12, 6, 3 and 1, the manifest layer of run 08. Frozen hypothesis
+  CONFIRMED. The moduli 9 and 8 are still the reader's choice; the law is the lattice's.
+H4  NULL: NATURALNESS
+  Z^8 split into four golden blocks gives the same quotients, so the quotients alone do not distinguish E8. The declared
+  measure does: E8's golden structure commutes with 7200 lattice isometries (left and right multiplication by unit icosians,
+  all checked), against 384 signed permutations for the blocked Z^8. Frozen prediction CONFIRMED. In E8 the golden law is
+  bound to the 600-cell's symmetry; in Z^8 it is an arrangement.
+H5  PHYSICS: E8 IN A MAGNET
+  At the quantum critical point of the Ising chain in a small longitudinal field, Zamolodchikov's E8 theory predicts eight
+  particles whose masses are the Perron-Frobenius eigenvector of the E8 diagram (verified by computation): 1, 1.618, 1.989,
+  2.405, 2.956, 3.218, 3.891, 4.783. They fall into exactly four golden pairs -- m2/m1 = m6/m3 = m7/m4 = m8/m5 = phi -- the rank-4
+  golden module of H3 appearing as a spectrum. In CoNb2O6, neutron scattering resolved the two lowest masses, whose ratio
+  approaches the golden mean near the critical field (Coldea et al., Science 2010); the higher masses were beyond
+  experimental reach.
+
+LEDGER ENTRIES
+  E8, icosian form (mathematical): (e) YES, intrinsic | (f), (g) on E8/9E8, four copies, modulus the reader's | CI YES |
+    CN YES (the golden structure is canonical, symmetric under 7200 isometries) | CD PARTIAL (an endomorphism, not an
+    isometry) | CB NO. Tier 3 -- the strongest golden structure in the ledger. Tier 4 NOT CLAIMED: no natural 81-element set,
+    and the modulus is not supplied by the object.
+  The E8 spectrum of the quantum Ising chain, CoNb2O6 (physical): the golden law in measured masses of an eightfold system;
+    count 8 -> P4 (v = 1); feature (e) in the relation m2^2 = m2 m1 + m1^2 of the measured pair and the four predicted pairs;
+    no 24-cycle, no modulus. Tier 3. The first physical entry in which the golden law is measured in an eightfold system.
+  The ledger at twenty-five.
+
+RUN RESULT
+  E8 is the eightfold object that supplies the rule itself: its icosian ring carries phi as an intrinsic, symmetric
+  endomorphism, so the operator layer (the family) and the manifest layer (mod 8) both sit on it, four copies each, with the
+  law coming from the lattice. Physics realizes the same structure as the E8 spectrum of a magnetic chain, where the golden
+  ratio has been measured. What remains outside the object is the modulus: nothing in E8 or in the magnet reduces modulo 9 or
+  8 by itself. Low results remain limits of the current map (F-02).

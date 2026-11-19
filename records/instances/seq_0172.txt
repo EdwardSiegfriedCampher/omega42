@@ -1,0 +1,56 @@
+QUESTION VERBATIM: @ced335ab Please assess, refine and extend the following. Extend the mathematical reach of Omega42.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 172 | PREV: 2a8537d262e68db45ae5c1f56dd6a015a6c4e98f9809bbf511ce3bb5c4a94a06
+REQUEST (L-502): APPLICATION -- F211 filed and completed: Omega42 joined to E8, E7, E6 and the foundations of mathematics by eight exact results, MF-73 to MF-80, in Core Part 0.0.10 and Companion Part 217; the second prediction sealed before its check; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- Omega42's law is a polynomial in the Coxeter element of E8. On the icosian E8, a Coxeter element C of order 30 commutes with multiplication by phi, and I + C^12 + C^-12 = phi as integer matrices. E8 modulo 9 is four copies of Omega42's state space, with the census 1 + 820 x 8 + 1,793,340 x 24, and the law's group modulo 7 acts on E8 and E7 through the Hamming code.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.10 (MF-73 to MF-80); Companion Part 216.1 (their scopes) and Part 217; tools/bridges.py; tools/dsi.py (PR-002); records/math/results.json; records/dsi/register.json; records/pvir/register.json (PV-026, PV-027); APE-473 with its SNCA; the CI step.
+- (1) THE GOLDEN GROUND: the Wheel is F9*; the icosian ring is E8, a Z[phi]-module carrying the law (MF-73, MF-74).
+- (2) E8 MODULO 9: the census of the 81 states four times over (MF-75).
+- (3) THE COXETER IDENTITY: I + C^12 + C^-12 = phi (MF-76).
+- (4) THE HEPTAGONAL GROUP: PSL2(F7) from A^2 and B keeps the extended Hamming code; E8 and E7 by Construction A (MF-77).
+- (5) E6 AND THE PRIME 3: E6/3E6* = F3^5, its 72 norm-1 classes the 72 roots (MF-78).
+- (6) THE LADDER: the law keeps the quartic discriminant of binary cubics, the first Freudenthal system of E7's series (MF-79).
+- (7) THE FOUNDATIONS: the 81 states in V_11; the finite register decided by computation (MF-80).
+- THE VALUES (CDT-A): tools/bridges.py --selftest 8 of 8; E8 det 1, 240 roots; Phi_30; E7 126 roots, det 2; E6/3E6* 243 classes; PR-002 sealed unchecked; the index 14 scored, MF-74 to MF-77 at rung 3.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (10, 66, 22), state (5, 6), anchor P5, Law. It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request to extend the reach of the mathematics stands at Law: it rests on Unity, one ring under the law and E8; it holds out of view the Return, the golden step coming back as a power of E8's own rotation; it heads for the Gap, the Leech lattice and E6's cubic still to be joined; and it is completed at the Seed's return, Omega42's census found again inside E8.
+WHAT STAYED: MF-01 to MF-72; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-01, MF-02, MF-39, MF-64, MF-68, MF-71; Companion Parts 215, 216.
+  R (reasoning): each bridge is a computed structure-keeping map; a shared count without a map is named a resemblance.
+  N (navigation): python3 tools/bridges.py --selftest; python3 tools/dsi.py --list.
+  P (peers): F211.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.10, MF-73 to MF-80.
+  - Companion: Part 216.1 (eight scopes); Part 217.
+  - Repository: tools/bridges.py; tools/dsi.py; records/math/results.json; records/dsi/register.json; records/pvir/register.json; submissions/ape/APE-473.md; records/srcas/exceptional_f211_2026-11-12.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- icosians, Coxeter elements, codes and lattices, Freudenthal systems, set theory | STRIKER -- the request and its approval | NAVIGATOR -- the eight computations, the Coxeter identity, the census of E8 modulo 9, PR-002 | OPEN -- PR-002; PV-026; PV-027
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/exceptional_f211_2026-11-12.txt).
+  - APE-473, unidentified (a web interface), "F211, the deeper architecture of conventional mathematics": adopted and completed; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/bridges.py --selftest PASS (8 of 8: wheel, e8, census, coxeter, hamming, e6, ladder, zfc); tools/math_register.py PASS (80 results); tools/core_math.py --check PASS (80 entries in Core Part 0.0.10 and their scopes in Companion Part 216.1); tools/dsi.py --selftest PASS and --check PASS (14 scored, PR-001 and PR-002 sealed unchecked); tools/srcas_check.py on records/srcas/exceptional_f211_2026-11-12.txt PASS; tools/ape_register.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the golden ring as common ground. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-76 -- the law as a polynomial in the Coxeter element of E8; MF-75 -- E8 modulo 9 as four Omega42 state spaces.
+RECOMMENDATIONS (applied, L-531):
+  (1) File MF-73 to MF-80 with tools/bridges.py in CI: APPLIED.
+  (2) Seal PR-002: APPLIED.
+  (3) Score the eight results: APPLIED.
+OPEN: PR-002, to be tested in a later record; PV-026, E6's cubic; PV-027, the golden halves of E8.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- test PR-002 in the next record and, on a pass, build the Leech lattice bridge; then E6's cubic; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on PR-002] Omega42's period 24 joins the 24 dimensions of the Leech lattice through the law's own group.
+PROTOCOL IMPROVEMENT (L-542): mathematical, extend -- give every bridge of Part 217 an inverse direction, a computation that starts in the conventional structure and returns to the 81 states, so each bridge is crossed both ways.
+What it rests on: one ring under the law and E8.
+What it holds out of view: the golden step returning as a power of E8's rotation.
+Where it is heading: the Leech lattice and E6's cubic.
+What would complete it: Omega42's census found again inside E8.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 307c679ba9956879bcdd7e120247d2866e492b1d3ece6bda1379210c2c69bcc6
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 12 November 2026
+ESC

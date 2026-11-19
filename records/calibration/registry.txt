@@ -1,0 +1,37 @@
+======= M347 THE CALIBRATION REGISTRY (Core L-557) =======
+STATUS: E exact mathematical mapping | C calibratable against an independent reference | P proxy of the
+intended phenomenon | O open, no defensible correspondence. A mapping (into Ω42) is not a calibration (against a
+reference), and a calibration is not an explanation.
+
+CLASS A -- exact objects of the arithmetic
+  [E  ] integer pairs and modular states                     (a, b) in (Z/3^k)^2 | reference: exact arithmetic
+  [E  ] the Fibonacci recurrence and its powers              A, A^n = [[F(n-1),F(n)],[F(n),F(n+1)]] | reference: exact
+  [E  ] Pisano periods of every modulus                      ord_n(A) | reference: computed; prime classes MF-41
+  [E  ] the norm and its square                              N, Q = 2N, Q^2 | reference: exact (MF-39)
+  [E  ] divisibility depth                                   v_3(x) | reference: exact
+  [E  ] orbit censuses at every level                        (3^k+1)/2 orbits | reference: exact (MF-10)
+  [E  ] operation histories and the shear groups             words in A, B_r | reference: exact (MF-42, MF-43)
+  [E  ] the Lorentz representation                           X -> A X A^T on Hermitian 2x2 | reference: exact (CERT-0009)
+  [E  ] the joint space and its spectra                      (Z/m)^2 x M_2(Z/m) | reference: exact (MF-46, MF-47)
+
+CLASS B -- external objects with a reference
+  [C  ] periodic and cyclic signals                          a phase on a finite orbit | reference: period and phase error against an instrument
+  [C  ] repeated measurements of one quantity                a state sequence x_n | reference: repeatability, measurement error
+  [C  ] discrete dynamical systems                           a transition operator | reference: prediction error on held-out steps
+  [C  ] confidence statements of a Navigator or a person     confidence and outcome pairs | reference: ECE, Brier, against computed truth
+  [C  ] predictions sealed before the outcome (Return Log, M311) sealed expectation and outcome | reference: hit rate, Brier
+  [C  ] agreement between Navigators (SR-CAS)                the same coordinate, two readings | reference: inter-rater agreement
+
+CLASS C -- awareness-related observables
+  [P/C] perceptual detection                                 detection rate, d-prime | reference: stimulus present or absent
+  [C  ] metacognitive accuracy                               confidence against accuracy | reference: ECE, meta-d-prime
+  [P  ] attention                                            performance under load | reference: task measures
+  [P/C] working memory                                       recall over time | reference: task measures
+  [P/C] self-monitoring                                      error detection, self-correction | reference: known errors
+  [P  ] level of consciousness (clinical)                    an ordinal scale | reference: GCS, PCI, anaesthesia depth
+
+CLASS D -- the open targets
+  [O  ] subjective experience                                first-person reports kept as text | reference: none independent of report
+  [O  ] the qualitative character of experience              none | reference: none
+  [O  ] consciousness as such (ground, act, event, L-498)    the frame, not a measurement | reference: none
+======= END REGISTRY =======

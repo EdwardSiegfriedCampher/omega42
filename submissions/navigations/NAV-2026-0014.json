@@ -1,0 +1,20 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 21 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-21T18:44:18Z",
+ "accepted_utc": "2026-10-21T18:51:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0014",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 and three peer explorations (APE-125 to APE-127)",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Buddhist creation story?",
+ "domain_sha256": "aeb2afd7356d81987dcc494dbf771af672033f189ed60ad99867359e8e535a55",
+ "sha256": "1561680e29cce016023a3abbe2ff8c29a6230734d40974b4d51ef57dd5e3b8f0",
+ "domain_source": "composed by the Navigator from the Striker's sentence of NAV-2026-0011, one word changed, at the instruction \"Do the same for the other 3 major religions\"",
+ "lens": "Buddhist (records/frameworks/buddhist.txt), registered with this navigation"
+}

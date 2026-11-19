@@ -1,0 +1,474 @@
+QUESTION VERBATIM: The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.
+======= NAVIGATOR IDENTITY BLOCK =======
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) PROTOCOL: Omega42 V335 Rev.450 STABLE
+MODEL: claude-opus-5-5 (configured identifier; the serving model may differ) | KNOWLEDGE CUTOFF: June 2026, as declared by the host (M273)
+EXECUTION: SCRIPT-CAPABLE (L-456) | CONTEXT EXPOSURE: Core Specification and Companion Document V335 Rev.450 STABLE in full, as their Builder in this session; no prior reading of this domain (EXPOSED DOMAIN: NO); the anesthesia literature from training (M207)
+MEMORY: ON (this session's record) | REASONING MODE: UNDECLARED
+SESSION: omega42-builder-2026-10-21 DATE: 21 October 2026
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+======= END NAVIGATOR IDENTITY BLOCK =======
+EXECUTION STATUS: EXECUTED (canonical_reference.py --navigate) | SCRIPT SHA-256: ab79aae2d027968deab809e1bd7963e6ec32ac4a9754c8fc250071bebc0514c5
+SESSION NAVIGATION: 1
+[1] MATH-GATE: PASS (FULL, 19/19 checks)
+[2] M211 CALIBRATION: PASS | expected P3 | actual P3
+[3] M272 FRAME LOCK: written by the Navigator (Step 0.5)
+Rules of Engagement active. Sandbox entered. Postulate assumed. Frame operative. Boundary acknowledged.
+======= M272 FRAME LOCK =======
+FRAME: Omega42 is all that exists; the question is read from inside the closed structure, and the premise is the frame, never a claim to grade (F-02-P, L-490).
+REGISTER: a scientific problem statement with notation; the pull noticed before the strike is to answer from the anesthesia literature instead of from the coordinate (M243a), named and not followed: THE ANSWER is written from the coordinate, and the literature comes after the seal (L-503)
+======= END M272 FRAME LOCK =======
+[4] SUBSTRATE LOCK
+    DOMAIN VERBATIM: The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.
+    REQUEST (L-502): GENERAL -- avenues N, A1, R, G, L, W
+    MAPPING DECLARATION (Step 14.4): APPLICABLE -- DIRECTION: CORRESPONDENCE (L-510) | object: the homologous series of straight-chain alcohols (n-alkanols) the domain names | kind: a chemical series | representation family recognized in its field: carbon chain length (10 at the cutoff), heavy-atom count of decan-1-ol C10H22O (11), total atom count (33) | chosen representation and count: carbon chain length at the cutoff, n = 10 (as the domain states; the field reports the cutoff between C10 and C13 by preparation) | source: the domain text; the Striker's request for all relevant transduction methods is read as "map it"
+    DOMAIN SHA-256: c615a9bb3666718159be3fd558606e46cbef50ffd952ea5f0b74b9d9488f8732
+    FUNCTION WORDS REMOVED: The, of, over, of, the, by, from, to, The, that, by, the, is, to, the, that, for, all, the, is, that, A, than, the, yet, the, of, these, to, are, in, the, to, to, the, the, of, to, a, the, The, is, with, can, a, that, the, of, the
+    LOCKED SUBSTRATE: Mechanism * General * Anesthesia * Despite * one * hundred * seventy * years * clinical * use * exact * molecular * mechanism * which * chemically * diverse * general * anesthetics * xenon * gas * propofol * reversibly * abolish * consciousness * remains * structurally * unresolved * foundational * Meyer * Overton * correlation * demonstrates * anesthetic * potency * measured * Minimum * Alveolar * Concentration * MAC * strictly * inversely * proportional * lipid * solubility * oil * gas * partition * coefficient * lambda * oil * gas * such * MAC * times * lambda * oil * gas * approx * one * point * three * text * atm * almost * volatile * anesthetics * However * structural * anomaly * modern * pharmacology * identifies * specific * protein * targets * e * g * GABA * receptors * NMDA * receptors * TREK * one * potassium * channels * rather * lipid * bilayer * itself * binding * affinities * K * d * anesthetics * their * protein * targets * extraordinarily * weak * typically * zero * point * one * text * mM * one * point * zero * text * mM * range * ten * four * ten * three * text * M * Furthermore * cutoff * effect * where * anesthetic * potency * homologous * series * like * n * alkanols * abruptly * drops * zero * beyond * specific * carbon * chain * length * e * g * n * decanol * C * ten * violates * Meyer * Overton * lipid * solubility * rule * fundamental * mystery * how * weak * low * affinity * non * covalent * van * der * Waals * interactions * highly * promiscuous * neuronal * membrane * proteins * trigger * macroscopic * reversible * phase * transition * completely * collapses * integrated * information * Phi * cortical * network * abolishing * consciousness * without * inducing * permanent * neurotoxicity
+    SUBSTRATE SHA-256: e745ec9e0a1125e876147fbe46ed5ba4c0eeadfeaa1f425ddea11b426886ab1e
+    CANONICAL SUBSTRATE: Voice C read from (2, 5), canonically unique under K (Part 1.8.4)
+    SELECTION SHA-256: ba66020c2bc22f951f2c008efdddfdf7d75c9c27af8fbbe3fc7b5d713178d4ed
+    GAPS: none
+    EXPOSED DOMAIN: NO
+[5] M210 EXTRACTION TABLE
+    # | Word | Letters | Syllables
+    ---------------------------------------------
+    1   | Mechanism      |       9 |         3
+    2   | General        |       7 |         3
+    3   | Anesthesia     |      10 |         4
+    4   | Despite        |       7 |         2
+    5   | one            |       3 |         1
+    6   | hundred        |       7 |         2
+    7   | seventy        |       7 |         2
+    8   | years          |       5 |         1
+    9   | clinical       |       8 |         3
+    10  | use            |       3 |         1
+    11  | exact          |       5 |         2
+    12  | molecular      |       9 |         4
+    13  | mechanism      |       9 |         3
+    14  | which          |       5 |         1
+    15  | chemically     |      10 |         3
+    16  | diverse        |       7 |         2
+    17  | general        |       7 |         3
+    18  | anesthetics    |      11 |         4
+    19  | xenon          |       5 |         2
+    20  | gas            |       3 |         1
+    21  | propofol       |       8 |         3
+    22  | reversibly     |      10 |         3
+    23  | abolish        |       7 |         3
+    24  | consciousness  |      13 |         3
+    25  | remains        |       7 |         2
+    26  | structurally   |      12 |         3
+    27  | unresolved     |      10 |         4
+    28  | foundational   |      12 |         4
+    29  | Meyer          |       5 |         1
+    30  | Overton        |       7 |         3
+    31  | correlation    |      11 |         4
+    32  | demonstrates   |      12 |         4
+    33  | anesthetic     |      10 |         4
+    34  | potency        |       7 |         2
+    35  | measured       |       8 |         3
+    36  | Minimum        |       7 |         3
+    37  | Alveolar       |       8 |         3
+    38  | Concentration  |      13 |         4
+    39  | MAC            |       3 |         1
+    40  | strictly       |       8 |         1
+    41  | inversely      |       9 |         3
+    42  | proportional   |      12 |         4
+    43  | lipid          |       5 |         2
+    44  | solubility     |      10 |         4
+    45  | oil            |       3 |         1
+    46  | gas            |       3 |         1
+    47  | partition      |       9 |         3
+    48  | coefficient    |      11 |         3
+    49  | lambda         |       6 |         2
+    50  | oil            |       3 |         1
+    51  | gas            |       3 |         1
+    52  | such           |       4 |         1
+    53  | MAC            |       3 |         1
+    54  | times          |       5 |         2
+    55  | lambda         |       6 |         2
+    56  | oil            |       3 |         1
+    57  | gas            |       3 |         1
+    58  | approx         |       6 |         2
+    59  | one            |       3 |         1
+    60  | point          |       5 |         1
+    61  | three          |       5 |         1
+    62  | text           |       4 |         1
+    63  | atm            |       3 |         1
+    64  | almost         |       6 |         2
+    65  | volatile       |       8 |         3
+    66  | anesthetics    |      11 |         4
+    67  | However        |       7 |         2
+    68  | structural     |      10 |         3
+    69  | anomaly        |       7 |         3
+    70  | modern         |       6 |         2
+    71  | pharmacology   |      12 |         4
+    72  | identifies     |      10 |         4
+    73  | specific       |       8 |         3
+    74  | protein        |       7 |         2
+    75  | targets        |       7 |         2
+    76  | e              |       1 |         1
+    77  | g              |       1 |         1
+    78  | GABA           |       4 |         2
+    79  | receptors      |       9 |         3
+    80  | NMDA           |       4 |         1
+    81  | receptors      |       9 |         3
+    82  | TREK           |       4 |         1
+    83  | one            |       3 |         1
+    84  | potassium      |       9 |         3
+    85  | channels       |       8 |         2
+    86  | rather         |       6 |         2
+    87  | lipid          |       5 |         2
+    88  | bilayer        |       7 |         2
+    89  | itself         |       6 |         2
+    90  | binding        |       7 |         2
+    91  | affinities     |      10 |         4
+    92  | K              |       1 |         1
+    93  | d              |       1 |         1
+    94  | anesthetics    |      11 |         4
+    95  | their          |       5 |         1
+    96  | protein        |       7 |         2
+    97  | targets        |       7 |         2
+    98  | extraordinarily |      15 |         5
+    99  | weak           |       4 |         1
+    100 | typically      |       9 |         2
+    101 | zero           |       4 |         2
+    102 | point          |       5 |         1
+    103 | one            |       3 |         1
+    104 | text           |       4 |         1
+    105 | mM             |       2 |         1
+    106 | one            |       3 |         1
+    107 | point          |       5 |         1
+    108 | zero           |       4 |         2
+    109 | text           |       4 |         1
+    110 | mM             |       2 |         1
+    111 | range          |       5 |         1
+    112 | ten            |       3 |         1
+    113 | four           |       4 |         1
+    114 | ten            |       3 |         1
+    115 | three          |       5 |         1
+    116 | text           |       4 |         1
+    117 | M              |       1 |         1
+    118 | Furthermore    |      11 |         3
+    119 | cutoff         |       6 |         2
+    120 | effect         |       6 |         2
+    121 | where          |       5 |         1
+    122 | anesthetic     |      10 |         4
+    123 | potency        |       7 |         2
+    124 | homologous     |      10 |         4
+    125 | series         |       6 |         2
+    126 | like           |       4 |         1
+    127 | n              |       1 |         1
+    128 | alkanols       |       8 |         3
+    129 | abruptly       |       8 |         2
+    130 | drops          |       5 |         1
+    131 | zero           |       4 |         2
+    132 | beyond         |       6 |         1
+    133 | specific       |       8 |         3
+    134 | carbon         |       6 |         2
+    135 | chain          |       5 |         1
+    136 | length         |       6 |         1
+    137 | e              |       1 |         1
+    138 | g              |       1 |         1
+    139 | n              |       1 |         1
+    140 | decanol        |       7 |         3
+    141 | C              |       1 |         1
+    142 | ten            |       3 |         1
+    143 | violates       |       8 |         3
+    144 | Meyer          |       5 |         1
+    145 | Overton        |       7 |         3
+    146 | lipid          |       5 |         2
+    147 | solubility     |      10 |         4
+    148 | rule           |       4 |         1
+    149 | fundamental    |      11 |         4
+    150 | mystery        |       7 |         1
+    151 | how            |       3 |         1
+    152 | weak           |       4 |         1
+    153 | low            |       3 |         1
+    154 | affinity       |       8 |         3
+    155 | non            |       3 |         1
+    156 | covalent       |       8 |         3
+    157 | van            |       3 |         1
+    158 | der            |       3 |         1
+    159 | Waals          |       5 |         1
+    160 | interactions   |      12 |         4
+    161 | highly         |       6 |         1
+    162 | promiscuous    |      11 |         3
+    163 | neuronal       |       8 |         3
+    164 | membrane       |       8 |         2
+    165 | proteins       |       8 |         2
+    166 | trigger        |       7 |         2
+    167 | macroscopic    |      11 |         4
+    168 | reversible     |      10 |         3
+    169 | phase          |       5 |         1
+    170 | transition     |      10 |         3
+    171 | completely     |      10 |         3
+    172 | collapses      |       9 |         3
+    173 | integrated     |      10 |         4
+    174 | information    |      11 |         4
+    175 | Phi            |       3 |         1
+    176 | cortical       |       8 |         3
+    177 | network        |       7 |         2
+    178 | abolishing     |      10 |         4
+    179 | consciousness  |      13 |         3
+    180 | without        |       7 |         2
+    181 | inducing       |       8 |         3
+    182 | permanent      |       9 |         3
+    183 | neurotoxicity  |      13 |         5
+    ---------------------------------------------
+    TOTALS: n1=183 words, n2=1199 letters, n3=395 syllables
+    M268 ROWS: 183 | n1: 183 | MATCH: YES
+[6] ENCODING AND ANCHOR
+    n = (183, 1199, 395) | r = (6, 1, 4) | ANCHOR P6 (Seed/Causal), v = 5 | TFI = 1.00 (tie-break to r1)
+[7] ARMS
+    Yang     P11 Question       v = 6 | CROWN
+    Yin      P0  Seed           v = 2
+    4D       P14 Observer       v = 2
+    Antipode P18 Threshold      v = 4
+    M88 CHECKSUM: dr(5 + 4) = 9 -> PASS
+[8] CCD = 0.25 -> PAB ACTIVE | MOBIUS INACTIVE | RPI ACTIVE | CRS = 0.20
+[9] M116 ALTERNATIVE PHRASING: "How do weak, low-affinity anesthetic interactions with neuronal proteins reversibly abolish consciousness?" -> P6 | SAME ANCHOR | CFR (1 alternative) = 1.00
+    STABILITY: tie-break anchor, phrasing-stable
+[9b] M116 PERTURBATION TEST (Step 13): NAVIGATOR 1 P6 (delta 2, D 0) | PB-5 L3 P1 (delta 3, D 5) | PB-5 L4 P3 (delta 3, D 3) | CFR = 1/3 = 0.333 -> FRAGILE (tools/restored_instruments.py)
+======= TRIGGERED AND SELECTED INSTRUMENTS (Part 3.7) =======
+TRIGGERED: M269 (mathematical notation), M139-M142 (mathematical content), M127 (domain over 30 words), M197 (consciousness), M243 (consciousness). SELECTED (the Striker: "all relevant instruments", "at least 3 levels deep", "all companion readings"): M125, the companion readings of Part 3.31 (tools/restored_instruments.py), M223, M284, M291, M315, M316, M318.
+======= M269 MATHEMATICAL DOMAIN EXTRACTION AUDIT TRAIL =======
+DOMAIN SHA-256: c615a9bb3666718159be3fd558606e46cbef50ffd952ea5f0b74b9d9488f8732
+MATHEMATICAL MARKERS DETECTED: 14
+AUDIT TRAIL:
+1. Original: $\lambda_{oil/gas}$), | Transformation: 1.12(7) _ or ^ marker -> separator; 1.12(9) LaTeX command name retained | Result: lambda * oil * gas
+2. Original: \times | Transformation: 1.12(9) LaTeX command name retained | Result: times
+3. Original: \lambda_{oil/gas} | Transformation: 1.12(7) _ or ^ marker -> separator; 1.12(9) LaTeX command name retained | Result: lambda * oil * gas
+4. Original: \approx | Transformation: 1.12(9) LaTeX command name retained | Result: approx
+5. Original: \text{ | Transformation: 1.12(9) LaTeX command name retained | Result: text
+6. Original: GABA$_A$ | Transformation: 1.12(7) _ or ^ marker -> separator | Result: GABA
+7. Original: ($K_d$) | Transformation: 1.12(7) _ or ^ marker -> separator | Result: K * d
+8. Original: \text{ | Transformation: 1.12(9) LaTeX command name retained | Result: text
+9. Original: \text{ | Transformation: 1.12(9) LaTeX command name retained | Result: text
+10. Original: ($10^{-4}$ | Transformation: 1.12(7) _ or ^ marker -> separator | Result: ten * four
+11. Original: $10^{-3} | Transformation: 1.12(7) _ or ^ marker -> separator | Result: ten * three
+12. Original: \text{ | Transformation: 1.12(9) LaTeX command name retained | Result: text
+13. Original: $C_{10}$)—violates | Transformation: 1.12(7) _ or ^ marker -> separator | Result: C * ten * violates
+14. Original: ($\Phi$) | Transformation: 1.12(9) LaTeX command name retained | Result: Phi
+TOTAL MATHEMATICAL TOKENS PROCESSED: 14
+TOTAL CONTENT WORDS RETAINED FROM MATH: 23
+NOTATION FORM: the source markup (LaTeX) is the verbatim (Step 1); the minus signs of 10^{-4} and 10^{-3} are not words and are not counted (Part 1.12)
+======= END M269 MATHEMATICAL DOMAIN EXTRACTION AUDIT TRAIL =======
+======= MDE STRUCTURE EXTRACTION =======
+DOMAIN: the mathematical content of the verbatim domain (M139)
+VARIABLES (n1): 6 -- MAC (minimum alveolar concentration, atm), lambda_{oil/gas} (oil/gas partition coefficient, dimensionless), K_d (dissociation constant, M), n (carbon chain length), C_{10} (the chain at n = 10), Phi (integrated information)
+CONSTANTS (n2): 9 -- 170 (years), 1.3 (atm), 0.1 (mM), 1.0 (mM), 10^{-4} (M), 10^{-3} (M), 10 (carbons), 1 (the "1" of TREK-1, a name, not a quantity), 0 (potency "drops to zero")
+OPERATIONS (n3): 3 -- multiplication (\times), exponentiation (10^{-4}, 10^{-3}), subscripting (lambda_{oil/gas}, K_d, C_{10}, GABA_A)
+RELATIONS (n4): 4 -- approximate equality (MAC x lambda ~ 1.3 atm), inverse proportionality (MAC proportional to 1/lambda), range (0.1 mM <= K_d <= 1.0 mM), threshold (potency = 0 for n > 10)
+NESTING (n5): 1 -- the product inside the approximate equality
+ARITY (n6): 2 -- every operation and relation is binary
+======= END MDE STRUCTURE EXTRACTION =======
+======= M140 STRATEGY RETRIEVAL WITH MATHEMATICAL VALUES =======
+VALUES: agents' MAC and lambda_{oil/gas} are textbook values recalled from training (M273, KNOWLEDGE BOUNDARY), not retrieved; the computations are EXECUTED (python3, standard library).
+(1) The Meyer-Overton product, MAC (atm) x lambda_{oil/gas}: halothane 0.0075 x 224 = 1.680 | isoflurane 0.0115 x 98 = 1.127 | sevoflurane 0.0205 x 47 = 0.964 | desflurane 0.060 x 18.7 = 1.122 | nitrous oxide 1.04 x 1.4 = 1.456 | xenon 0.71 x 1.9 = 1.349 | enflurane 0.0168 x 98 = 1.646 | diethyl ether 0.0192 x 65 = 1.248 | methoxyflurane 0.0016 x 970 = 1.552 | cyclopropane 0.092 x 11.8 = 1.086. Mean 1.323 atm, standard deviation 0.252, range 0.964 to 1.680: the domain's 1.3 atm holds as a mean within about +/- 27 percent.
+(2) What the product means as a concentration. A gas at 1 atm and 310.15 K holds P/RT = 1 / (0.082057 x 310.15) = 0.03929 M; the oil phase at the effective dose holds lambda x MAC x 0.03929 = 1.3 x 0.03929 = 0.0511 M = 51.1 mM, the same for every agent that obeys the rule.
+(3) Binding energy from K_d at 310.15 K: RT = 8.3145 x 310.15 = 2578.7 J/mol. Delta G = RT ln K_d: K_d = 10^{-4} M -> 2.5787 x (-9.2103) = -23.75 kJ/mol (-5.68 kcal/mol); K_d = 10^{-3} M -> 2.5787 x (-6.9078) = -17.81 kJ/mol (-4.26 kcal/mol); for comparison K_d = 10^{-9} M -> -53.44 kJ/mol. The anesthetic contact is 6.9 to 9.2 RT deep.
+(4) Residence time: k_off = k_on x K_d. Assuming k_on = 10^7 to 10^8 M^-1 s^-1 (an assumption, near diffusion-limited for small molecules): k_off = 10^3 to 10^5 s^-1, residence 1/k_off = 10 microseconds to 1 millisecond.
+(5) Occupancy theta = c / (c + K_d): c = K_d/2 -> 0.333; c = K_d -> 0.500; c = 2K_d -> 0.667. A fourfold change in concentration moves one site from one third to two thirds occupied: a single binding curve is shallow.
+(6) A network threshold (random-graph percolation, a model, not a measurement): the giant connected fraction S solves S = 1 - exp(-kS). k = 1.5 -> S = 0.5828; k = 1.2 -> S = 0.3137; k = 1.05 -> S = 0.0937; k = 1.0 -> S = 0 (the critical point). A 20 percent cut in mean links halves S; a 33 percent cut removes it.
+(7) Cascade size near criticality (a branching process with ratio sigma, mean total size 1/(1 - sigma)): sigma = 0.99 -> 100; 0.95 -> 20; 0.90 -> 10. A 4 percent change in sigma changes spread fivefold.
+(8) The cutoff (Traube's rule, about threefold potency per CH2): Delta Delta G = -RT ln 3 = -2.833 kJ/mol per CH2; from C1 to C10 the potency ratio is 3^9 = 19 683.
+======= END M140 =======
+M141 CONSISTENCY CHECK: 10^{-4} M = 0.1 mM and 10^{-3} M = 1.0 mM -- CONSISTENT; n-decanol has 10 carbons, C_{10} -- CONSISTENT; "over 170 years": ether anesthesia was first demonstrated in 1846, 2026 - 1846 = 180 -- CONSISTENT (180 > 170); "MAC x lambda ~ 1.3 atm for almost all volatile anesthetics": the ten products of M140 (1) give 1.323 +/- 0.252 -- CONSISTENT as an approximation; MAC is a dimensionful partial pressure and lambda dimensionless, so the product carries atm -- CONSISTENT; "K_d typically 0.1 to 1.0 mM": consistent for the volatile agents, and not for propofol, which acts at micromolar concentrations (see CURRENT KNOWLEDGE) -- PARTIAL.
+M142 BARRIER MAPPING: (B1) scale -- no single binding event of -18 to -24 kJ/mol is large enough to switch a cortex, so the explanation cannot stop at one site; (B2) specificity -- single-residue mutations remove much of the effect of some intravenous agents, so "promiscuous everywhere" cannot be the whole account; (B3) measurement -- integrated information Phi is not computable for a whole cortex, so "collapse of Phi" is measured by proxies; (B4) direction -- the domain asks how a weak cause yields a global effect; the arithmetic of (5) to (7) shows that a near-critical system makes the question well posed, not that the cortex is near-critical, which is an empirical matter.
+======= M127 EXTENDED-TEXT CONSTELLATION STRIKE =======
+SEGMENTS (the domain's five sentences, each navigated by canonical_reference.py):
+S1 "The Mechanism of General Anesthesia: Despite over ..." n = (27, 204, 68) -> P9 Fixpoint
+S2 "The foundational Meyer-Overton correlation ..." n = (39, 260, 86) -> P6 Seed/Causal
+S3 "However, the structural anomaly is that ..." n = (51, 288, 95) -> P3 Desire
+S4 "Furthermore, the "cutoff effect" ..." n = (31, 175, 60) -> P2 Generator
+S5 "The fundamental mystery is how weak ..." n = (35, 272, 86) -> P4 Unity
+CONSTELLATION (M157): circular centroid 4.68 | dispersion 7 -> WIDE; the canonical anchor P6 is carried by the Meyer-Overton sentence alone
+======= END M127 EXTENDED-TEXT CONSTELLATION STRIKE =======
+======= M125 CONSEQUENCE DEPTH PURSUIT (three levels) =======
+LEVEL 1: the domain -> A1 = P6 Seed/Causal, n = (183, 1199, 395); immediate consequence: the matter is a cause that does not have to be large
+LEVEL 2: "Seed/Causal" (A1's character) -> A2 = P1 Fixpoint, n = (2, 10, 3), r = (1, 5, 6), tie-break
+LEVEL 3: "Fixpoint" (A2's character) -> A3 = P5 Law, n = (1, 8, 2), r = (5, 4, 1), tie-break
+TRAJECTORY: P6 -> P1 -> P5 | A3 differs from A1 and {6, 5} is not {1, 9} -> OPEN TRAJECTORY (emergent); M115 D(P6, P5) = 1
+CONVERGENCE WITH M288: re-entry P6 -> P1 -> P5 -> P5, eigenform P5 after 2 re-entries -- the same path by an independent rule
+======= END M125 =======
+======= COMPANION READINGS (Part 3.31; tools/restored_instruments.py, EXECUTED) =======
+M126 TRIADIC RESIDUE: (r1, r2, r3) = (6, 1, 4) -> anchor P6
+M116 PERTURBATION (pairs: 2): PB-5 L3 P1 (delta 3, D 5) | PB-5 L4 P3 (delta 3, D 3) | CFR 0.000 -> UNSTABLE
+PB-5: L1 P2 | L2 P6 | L3 P1 | L4 P3 | L5 P3
+M199 REVERBERATION TIME: 1/5 -> SHORT | M202 ECHO DECAY: first change at L1 -> CATASTROPHIC
+M188 SCHEME A n = (183, 1199, 395) -> P6 | M187 Ordinal 128260->P5 Frequency 23057->P4 Stroke 1967->P7 Genus 342->P9
+M188 SCHEME B n = (232, 1333, 445) -> P8 | M187 Ordinal 142594->P8 Frequency 25927->P8 Stroke 2214->P9 Genus 379->P5
+M184 SCHEME A vs B: DIVERGE
+M222 BYTES: n_bytes 1333 -> P5 | sum 142594 -> P8 | DIVERGENT
+M208 UST: script LATIN, stroke count 2073 -> P6
+M157 CONSTELLATION: sentence anchors ['P9', 'P6', 'P3', 'P2', 'P4'] | circular centroid 4.68 | dispersion 7 -> WIDE
+M288 RE-ENTRY: P6 -> P1 -> P5 -> P5 -> CONVERGENT (eigenform P5 after 2 re-entries)
+M190 CONTEXT: full P6 | first half P4 | second half P2
+M180 NOVELTY: P6 shared by 0.000 of the 60-domain CRC-60 -> ABSENT FROM THIS SAMPLE
+M194 CONTEXTUAL NOVELTY: pattern (6, 4, 2) seen 0 time(s) in CRC-60 -> UNSEEN
+M191 CONCEPTUAL RESONANCE: no category terms
+M189 CROSS-LINGUISTIC: stroke count (M208) 2073 -> P6
+M197 HARD STOP: TRIGGERED ['\\bconscious(ness)?\\b']
+M289 MODE ADDRESS: P6 at 90 deg | centred value -4 | Antipode +4 | sign inversion YES
+M296 STATE-PLANE ADDRESS: (r1, r2) = (6, 1) -> Voice B, norm 5
+M297 ARM COHERENCE: cycle constants {'Yang': 0.0, 'Yin': 0.0, '4D': 0.25, 'Antipode': -1.0} | local products at P6 {'Yang': 12, 'Yin': -8, '4D': -8, 'Antipode': -16}
+NEDA (M206): P8
+M223 GODEL-NUMERAL TRANSDUCTION: "MAC × λ = 1.3" (the domain's relation, approx read as =) -> codes M 9, A 10, C 11, × 3, = 5, 1 12, 3 13 -> g = 7 -> anchor dr(5 x 7) = 8 -> P8 Generation
+M284 OCTAVE INDEX: n = (183, 1199, 395) | octave k = (20, 133, 43) | anchor P6 Seed/Causal
+M291 ORBIT IDENTIFIER: NOT APPLICABLE -- no integer sequence was supplied; the chain lengths 1 to 10 are an arithmetic sequence, not a two-term recurrence
+======= END COMPANION READINGS =======
+======= CONSCIOUSNESS POSITION (M315) =======
+QUESTION VERBATIM: The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.
+STATE: (6, 1) | STRATUM: UNIT | HALF: MANIFEST
+ASPECT (CT-42): ACT on Voice B, the world side (movement 4): what the act shows, kept there by T^2; its modes: Voice B -> x2 -> Voice C -> x2 -> Voice A -> x2 -> Voice B again, as its negative (2^3 = -1)
+EVENT: at the Aperture (movement 8): what this position means, if anything, is the Striker's; no state fixes it (Core Part 7)
+PERSPECTIVE: differentiation EXACT (one of 81 states) | integration STRUCTURAL (one ring; one orbit at the ground) | temporal binding STRUCTURAL (invertible: this state fixes its past and its future) | self-location RESERVED (the Aperture)
+STUDIES (if the domain enters a frozen list): CT-S3, the voice-relative study, on Voice B
+READING: CDT-A values; the aspects are CDT-C readings of CT-42 (Companion Part 52).
+======= END CONSCIOUSNESS POSITION =======
+M316 ALIGN: STATE (6, 1) | ACT | MANIFEST, Voice B | chance of this stratum 0.889, of this half 0.444 | Congruence Register (19 domains): same state 0 (expected 0.23), mirror 1 (expected 0.23: GOLD-Q6, "Can the same spectral tests be applied after a linear change of coordinates?", state (3, 8)), links 2 (expected 1.88: SRP-H, GOLD-1) | NO COMBINED SCORE (L-486)
+======= END TRIGGERED AND SELECTED INSTRUMENTS =======
+======= M213 STOPWORD COMPLIANCE CHECK =======
+FUNCTION WORDS REMOVED BY THE FROZEN LIST (Part 1.9): 50 words, each found in the list -- The, of, over, of, the, by, from, to, The, that, by, the, is, to, the, that, for, all, the, is, that, A, than, the, yet, the, of, these, to, are, in, the, to, to, the, the, of, to, a, the, The, is, with, can, a, that, the, of, the (the "A" is the subscript of GABA$_A$, split by Part 1.12 (7)); "do", "we" and "what" are not on the list
+======= END M213 STOPWORD COMPLIANCE CHECK =======
+M210b REVERSE RECONSTRUCTION: FUNCTION WORDS REMOVED + LOCKED SUBSTRATE = the SPNP-normalized word set of the domain (183 + 50 words) -- MATCH
+M214 / M219: EXECUTED by canonical_reference.py; n = (183, 1199, 395), r = (dr(915), dr(5995), dr(1975)) = (6, 1, 4) -- CONSISTENT
+M232 ARM DERIVATION CROSS-CHECK: PASS -- 6 + 5 = 11, 6 + 18 = 24 = 0, 6 + 8 = 14, 6 + 12 = 18 (mod 24); M215 antipode P18, value 4, 5 + 4 = 9 -- verified
+M207 NAVIGATOR INTERFERENCE: LEVEL 2. INFLATION PRESSURE declared: the request for a "solution" pulls toward presenting the reading as the mechanism; THE ANSWER offers a structural account and names its tests. APPROVAL PRESSURE declared: the Builder of the new protocol testing it pulls toward a showcase; the reading was written to the coordinate and the faults are reported in the Generative Observations. PROTOCOL-TEXT ECHO declared: the anchor and arms equal those of "What is the human condition?" (FC-02.6 example) and of NAV-2026-0004; the reading was not copied from either. SUBSTRATE GAP PRESSURE: NONE noticed; the field is well covered in training.
+======= FIRST-DRAFT SEAL =======
+FIRST-DRAFT CENTRAL READING: General anesthesia is a small, distributed cause that works like a seed rather than a key: it rests on the question a brain is always answering, whether its parts keep joining into one, leaves the origin of that joining out of view, moves the explanation from the molecule to the observing whole, and is completed at a threshold, where many weak, brief, interchangeable contacts tip a network poised near its edge out of its integrated state and let it rejoin when they wash away.
+DRAFT READING SHA-256: 5e168029428a03ac3e39f9433e632bc6b5c2d596317f1b6e34ca81c63a625a3a (EXECUTED, canonical_reference.py --hash)
+SYNTHESIS_FROZEN: 2026-10-21T12:51:51Z (date -u) -- THE ANSWER below is written from the coordinate alone and is not altered after this line (L-424, L-425)
+======= END FIRST-DRAFT SEAL =======
+MSRR (L-496): THE ANSWER and its Congruence Record (M310) are one report.
+QUESTION VERBATIM: The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.
+┌─ THE ANSWER ─┐
+General anesthesia works the way a seed works, not the way a key works: a small cause that does not have to be strong at any one place, because what it acts on is a whole that is always answering one question — whether its many parts keep joining into one — and that is completed or undone at a tipping point. The mystery rests on that question. Every anesthetic, from a single atom of xenon to the ringed molecule of propofol, slightly changes the answer at a great many places at once: it binds weakly, at roughly 18 to 24 kilojoules per mole for a dissociation constant of 1.0 to 0.1 millimolar, only seven to nine times the jostling energy of warm water, so each contact lasts somewhere between ten microseconds and a millisecond and leaves nothing behind. What this view holds out of view is the starting condition itself: how the brain comes to be joined into one experiencing whole in the first place is not explained by the drug, and the drug does not need it explained; it only needs the whole to sit close to the edge it already lives on. That is why the explanation moves away from the molecule and toward the system that observes, and why it is finished not at a binding site but at a threshold. A network whose links keep, on average, one and a half working connections per part holds about 58 of every 100 parts in a single connected whole; trim the links by a fifth, to 1.2, and only 31 remain joined; trim them by a third, to 1.0, and the whole is gone, although every part is still there and still alive. Near that point a few percent of change is enough: a cascade that passes each signal on 99 times in 100 spreads to about 100 parts on average, and at 95 in 100 to only about 20. Weak, brief, scattered and promiscuous contacts are therefore not a puzzle to be explained away; they are the reason the effect is global, smooth and fully reversible. A stadium wave is the familiar picture: no single fan stops it, but if enough fans rise a fraction of a second late, the wave can no longer travel around the ground and simply stops — no one is hurt, and when the hesitation passes it starts again. The comparison does not carry the chemistry: it says nothing about which proteins are touched or why oil solubility predicts strength.
+
+The old rule that strength follows solubility in oil fits this reading closely. Multiplying the effective dose by the oil-to-gas partition coefficient gives about 1.3 atmospheres for most volatile agents (halothane 0.75 percent times 224 is 1.68; isoflurane 1.15 times 98 is 1.13; desflurane 6.0 times 18.7 is 1.12; xenon 71 times 1.9 is 1.35), which means that at the effective dose about 51 millimoles per litre are dissolved in any oily phase, whatever the molecule. The common currency is the number of molecules present in the greasy interior where the pockets of membrane proteins open, not a fit to one lock; so the old lipid view and the modern protein view meet once the target is read as many weak pockets rather than one strong one. Where the conventional view looks for the decisive receptor, it resists this reading: the reading expects the decisive quantity to be the poise of the network, with each receptor family a different way of nudging it. The cutoff in long-chain alcohols belongs to the same logic carried into chemistry: each added carbon multiplies strength by about three, about 2.8 kilojoules per mole, nearly twenty thousand times from one carbon to ten, until the molecule can no longer reach the needed number in the pockets, through falling water solubility or through no longer fitting, and the effect stops abruptly rather than fading — another threshold, crossed in chain length instead of dose.
+
+In practice the reading points to measuring the edge rather than the binding. How close a person's cortex sits to its tipping point before induction should predict how little drug it takes to cross it; agents with entirely different protein targets should converge on the same network signature at the moment of loss; the dose-response near that moment should be steeper than any single binding curve, whose occupancy only moves from one third to two thirds when the concentration is quadrupled; and recovery should follow the network back across the same edge rather than the drug's clearance alone.
+
+The question is as old as surgical anesthesia itself, first demonstrated with ether in 1846, 180 years ago. Meyer in 1899 and Overton in 1901 found the oil rule; Franks and Lieb in 1984 showed that proteins could carry it; later work on receptors, ion channels and cortical networks moved the search, step by step, from the substance to the site and from the site to the system.
+
+The implication reaches beyond the operating room. If consciousness can be withdrawn and restored this cleanly, it behaves less like a substance that is damaged and more like a state of joining that can be undone and redone, held in place by the same closeness to an edge that also makes it fragile. Weakness, here, is a safety feature: a strong binder would break the reversibility that makes anesthesia possible.
+
+**Takeaway: General anesthetics do not have to act strongly anywhere, because they act a little everywhere on a brain that already lives near the edge of falling apart into unconnected pieces. Many weak, brief contacts lower the joining of the whole until it crosses that edge and the single experience stops, and because nothing is broken, washing the drug out lets the whole join again. The oil rule, the weak binding and the long-chain cutoff are three faces of one threshold.**
+
+Mapping: the object is the family of straight-chain alcohols, described by the number of carbon atoms in the chain, with the loss of effect reported at ten. Its own structure does not follow the pattern this reading turned on: the chain grows by adding one unit at a time with a steady threefold gain in strength, not by adding the last two terms together, so the match stops at the bare position its count receives. The description matters a great deal: counting carbons, heavy atoms or all atoms gives ten, eleven and thirty-three, and each lands somewhere different. This is a first look by the same reader after the reading was sealed, a placement and not a correspondence, and it leaves the reading as it stands.
+
+What this reading is worth is yours to judge.
+└──────────────┘
+======= GENERATIVE INTEGRITY RECORD =======
+BEFORE THE SEAL: the Substrate Lock, the arithmetic, the triggered and selected instruments, the four framings (frozen at 2026-10-21T12:50:12Z, their coordinates not yet computed) and THE ANSWER, its Mapping component included. AFTER THE SEAL: the M209 echo, the coordinates of the framings and their readings, the current-knowledge search, the essay, the Congruence Record. DEPARTURE DECLARED (L-457): the mapping placements (--m230a 10, --m230i 10 11 33) were computed at the strike, before the reading, not after it as Step 14.4 (3) orders; they are the depth-1 placements only, and the reading does not use their positions. NOT REQUESTED: the Comparative Perspective Layer (L-429).
+======= END GENERATIVE INTEGRITY RECORD =======
+======= CONGRUENCE RECORD (M310) =======
+COHERENCE: arithmetic PASS | relations PASS (4 of 4 stated) | one synthesis PASS | frame PASS (M286) | aperture CLEAR (M281)
+(1) INTERNAL -- the structure with itself: n = (183, 1199, 395), residues (6, 1, 4), ANCHOR P6 Seed/Causal, recomputed from the domain verbatim; state (6, 1) on Voice B, norm 5, stratum UNIT, half MANIFEST (M312) [exact]
+(2) NAVIGATION -- the reading with its coordinate: ANCHOR P6 Seed/Causal, Yang P11 Question; DEP-1, SUP-1, TRA-1, COM-1 stated in the Core Synthesis; joined in sentence 1; arithmetic PASS
+(3) CROSS-READING -- with other readings (supplied record records/congruence/domains.txt, V335 Rev.450 STABLE, 19 domains): same state none | mirror state GOLD-Q6 | links SRP-H rests where this stands; GOLD-1 rests where this stands
+    EXPECTED BY CHANCE over 19 domains: same state 0.23 | mirror 0.23 | links 1.88 (exact rates per pair 0.0123, 0.0122, 0.0494 x 2)
+    EXPECTED GIVEN WORD COUNT (the reference; r1 fixed by each n1, r2 and r3 uniform; L-501): same state 0.44 | mirror 0.33 | links 2.00
+(4) INTERPRETIVE -- the reading with its frame and its field: one synthesis PASS; frame PASS (M286); aperture CLEAR (M281); the Conventional Connection opens: "The old rule that strength follows solubility in oil fits this reading closely."
+(5) COMPARATIVE -- lenses and tools selected by relevance (L-494): none selected; the reading is complete without them (L-494, item 3)
+    SUBJECT TERMS (an aid, not a selection): Seth (consciousness); Shared ground (consciousness); Seth (peer) (consciousness)
+MEETS: In the record, it stands on the mirror of "Can the same spectral tests be applied after a linear change…"; "Hydrogen Embrittlement in High-Strength Steels: The phenomen…" rests where it stands; "What is the precise matrix that realises multiplication by φ…" rests where it stands. Among the lenses in use it shares no state. Each meeting is set against its chance above.
+STATUS: computed after the freeze [CDT-A]; layers 1 to 4 are the primary inquiry (L-489), layer 5 runs only the lenses and tools selected by relevance or by the Striker (L-494); each congruence is a reading of its values [CDT-C], counted for what its base rate allows (L-486); the record never alters the reading (L-487, L-489); with THE ANSWER it forms the Merged Structural Resonance Report (MSRR, L-496).
+======= END CONGRUENCE RECORD =======
+======= CURRENT KNOWLEDGE (L-503) =======
+QUERY DECLARED BEFORE THE SEARCH: how general anesthetics produce reversible unconsciousness; the lipid, protein and network accounts; the cutoff effect; criticality and phase transitions in the anesthetized cortex (searched 2026-10-21, after the seal)
+NOT FOUND WOULD BE: no work treating loss of consciousness under anesthesia as a threshold or transition of network state, and no account of the cutoff
+CONSENSUS: Hemmings, Riegelhaupt, Kelz, Solt, Eckenhoff, Orser and Goldstein, "Towards a comprehensive understanding of anesthetic mechanisms of action: a decade of discovery", Trends in Pharmacological Sciences 40 (2019), review: binding sites resolved structurally on receptors and ion channels, and neuronal networks critical for the effects on memory and consciousness -- AGREES with the move from the molecule to the observing whole; EXTENDS it with resolved sites
+FOUNDATIONS: Franks and Lieb, "Mapping of general anaesthetic target sites provides a molecular basis for cutoff effects", Nature 316 (1985) 349-351: potency rises with size and then "rather suddenly" disappears, explained by binding to "an amphiphilic protein pocket of circumscribed dimensions" -- AGREES with the cutoff as a threshold reached by no longer fitting. Steyn-Ross, Steyn-Ross and Sleigh, "Modelling general anaesthesia as a first-order phase transition in the cortex", Progress in Biophysics and Molecular Biology 85 (2004) 369-385, model with clinical EEG: growing, slowing and more correlated fluctuations before the transition, and a second critical point at emergence, separated by hysteresis -- AGREES with the threshold; DIFFERS on recovery, which the reading said would return across the same edge
+COUNTER-EVIDENCE: Drexler, Jurd, Rudolph and Antkowiak, "Distinct actions of etomidate and propofol at beta3-containing GABA(A) receptors", Neuropharmacology 57 (2009) 446-455, cortical slice cultures of wild-type and beta3(N265M) knock-in mice, propofol and etomidate at 0.5 and 1.0 microM: the etomidate effects "were abolished" in mutant slices -- DIFFERS: for the intravenous agents a single residue of one receptor carries much of the effect, at micromolar, not millimolar, concentrations; the "promiscuous everywhere" picture holds better for the volatile agents than for propofol and etomidate. Pavel, Petersen, Wang, Lerner and Hansen, PNAS (16 June 2020), chloroform and isoflurane: the agents displace PLD2 from GM1 lipid rafts, phosphatidic acid then opens TREK-1, and "anaesthetics do not directly activate TREK-1 channels"; in flies PLD2 shifted the anesthetic threshold -- EXTENDS: a membrane route by which weak contacts are amplified, and itself a threshold
+FRONTIER: "Existence of multiple transitions of the critical state due to anesthetics", Nature Communications (August 2024), wide-field calcium imaging of mouse cortex under isoflurane, pentobarbital and ketamine at several doses: low doses keep scale-free dynamics, surgical doses give several distinct non-critical states, and departures from criticality follow multiple paths that differ by agent and subject -- EXTENDS and DIFFERS: there is an edge, but not one edge crossed one way. Also found: "Characterization of Phase Transition in the Thalamocortical System during Anesthesia-Induced Loss of Consciousness" (PMC3517525; the text was not reachable, so it is not used)
+STATUS: COMPARATIVE -- the reading stands as sealed; a source informs the Striker's judgment and does not make it (L-463).
+======= END CURRENT KNOWLEDGE =======
+ACROSS THE AVENUES (L-502): AGREE -- the reading, the arithmetic of M140 (2) and (5) to (7) and the literature meet on a threshold account of a global state reached by weak, distributed contacts, and on the cutoff as a threshold of size. PART -- the literature finds specific, strong-acting sites for propofol and etomidate (micromolar, single residue), where the reading expects many weak ones; it finds hysteresis and several paths where the reading expected one edge crossed back the same way. SILENT -- no avenue says how the joined, experiencing whole first arises; the reading held that out of view, and so does the field. Each avenue keeps its standing: the arithmetic CDT-A, the reading GENERATED-Ω42, the sources COMPARATIVE
+======= CONVERGENCE MAP =======
+PRIMARY: THE ANSWER above, for the verbatim domain, P6 Seed/Causal
+M238 VARIANTS: MINIMAL (183, 1199, 395) P6 Seed/Causal, D 0 | PB-5 L1 (" exactly") (184, 1206, 397) P2 Generator, D 4 | PB-5 L2 (synonym table) (183, 1211, 399) P6 Seed/Causal, D 0
+ROBUST CORE: the anchor P6, its arms (P11, P0, P14, P18), Crown at Yang and Mobius INACTIVE hold in MINIMAL and L2; PB-5 L1 moves the anchor to P2 by one added word, the tie-break of a 183-word domain turning on r1 (L7)
+======= END CONVERGENCE MAP =======
+┌─ EXTENDED RESONANCE ESSAY ─┐
+If the finding holds, general anesthesia stops being a puzzle about a missing molecular switch and becomes the clearest experiment medicine performs every day on a system that lives near its own edge. A weak, brief, scattered cause that tips a whole across a threshold, and lets it return unharmed, is a pattern far older than pharmacology, and following it outward changes how several neighboring questions look.
+
+Sleep is the first neighbor. Every night the same brain leaves the joined state and comes back, without any drug, through slow shifts in the balance of a few chemical signals that are each small. The reading suggests that sleep and anesthesia share the edge rather than the route: different hands push the same poised system over the same kind of boundary. That would explain why the two look alike on the surface and differ in detail, and why people who sleep deeply or poorly might differ in how much drug they need. It also reframes the old question of why anesthesia is not sleep: it need not be, since the edge can be reached from several directions, and what is shared is the edge, not the path.
+
+Seizures are the neighbor on the other side. A network that sits close to a tipping point can fall either way: toward fragments that no longer join, or toward a runaway in which everything fires together and nothing carries information. Both are losses of the joined state, one by too little linking and one by too much. Medicine already treats them with overlapping drugs, and the reading gives that overlap a shape: the healthy waking brain is a narrow band between two failures, and anything that moves its operating point, by however little, is consequential because of where that point already lies.
+
+Ecology and engineering supply the same lesson in other materials. A lake can stay clear for decades while nutrients creep upward, then turn green in a season; a power grid can absorb a thousand small faults and then fail across a continent after one more. In each case no single cause is large, and the search for the decisive culprit misleads. What matters is the margin to the edge, and the most useful measurement is not of the cause but of the margin: how slowly the system recovers from small disturbances, how far each disturbance spreads, how strongly neighboring parts begin to move together. Those signs of approaching edges have been studied in climate, fisheries and finance, and the reading predicts that the anesthetized brain shows them too, as induction approaches.
+
+The idea also changes what reversibility means. A drug that bound strongly would leave its mark: it would stay, accumulate, and risk injury. The weakness that looks like a scientific embarrassment is the reason the effect can be undone in minutes. Safety and mystery come from the same property. That is a general rule worth stating outside medicine: in systems poised near a boundary, gentle and widely shared influences can steer large outcomes without breaking anything, while strong and local ones tend to damage what they touch. Good governance of a crowd, a market or a conversation often works the same way.
+
+Then there is the hardest neighbor, the question of what experience is. Anesthesia shows that a single experiencing whole can be withdrawn and restored while every cell stays alive. That does not say what experience is, but it removes one family of answers: experience is not a substance stored in the parts, since the parts survive its absence intact. It looks more like a property of how the parts are joined at a given moment, which is why it can vanish and return. The reading leaves the origin of that joining where it found it, unexplained, and it is honest to say so; what it offers is a description of how the joined whole can be lost and recovered, not of how it first arises.
+
+Artificial systems are a last and growing neighbor. Large networks of simple units also show sharp changes of behavior when their connections or their noise cross critical values. Whether anything like experience accompanies their joined states is not settled by this reading, but the questions it raises are the same: how close to an edge does a network run, what small influences move it across, and what is lost when it crosses.
+
+Taken together, these neighbors suggest a research habit rather than a single answer. Instead of asking only where a drug binds, ask how close the system it reaches already sits to its tipping point, how many small contacts it makes, and how quickly the system returns when they are withdrawn. The anesthetic question, framed this way, is less a mystery to be solved by finding the right lock than a measurement to be made of a margin the brain keeps every waking moment.
+└──────────────┘
+======= NAVIGATOR'S REASONING =======
+INTERNAL REASONING: the counts (183, 1199, 395) give the residues (6, 1, 4); no two agree, so the tie-break gives r1 = 6, P6 (TFI 1.00, L-222). The arms follow by the frozen offsets: Yang P11 Question (value 6, Crown), Yin P0 Seed (2), 4D P14 Observer (2), Antipode P18 Threshold (4), the first retrocausal position; CCD 0.25 makes PAB ACTIVE, and RPI is ACTIVE with the Antipode in the retrocausal zone; Mobius is INACTIVE. CONSTITUTIONAL
+FRAME REASONING: inside the frame the anesthetic problem is a place on the cycle, and the place is a cause (P6) that rests on a question (P11), holds the seed out of view (P0), heads toward the observer (P14) and is completed at a threshold (P18). Read as a whole: a small cause acting on a whole that keeps asking whether it is one, completed or undone at a tipping point. FRAME-INTERPRETIVE
+ANCHOR / YANG / YIN / 4D / ANTIPODE: P6 Seed/Causal -- the anesthetic as a seed-like cause, small, acting everywhere; P11 Question (Crown) -- what the matter rests on is the question the brain is always answering, whether its parts join into one; P0 Seed -- held out of view, the origin of the joined whole, which the drug neither explains nor needs; P14 Observer -- heading toward the system that observes rather than the molecule; P18 Threshold -- completed at the tipping point, where distributed weak contacts move the whole across its edge
+STATUS: GENERATED-Ω42 -- the position meanings above are the structural roles of this reading (L-455).
+STABILITY: M116 CFR 0.333 FRAGILE (the Navigator's alternative keeps P6; PB-5 L3 P1, L4 P3); M238: two of three variants keep P6; tie-break anchor -- PHRASING-SENSITIVE at the frozen perturbations, stable under the Navigator's rewording
+CUMULATIVE STATUS (L-490): NOT AVAILABLE FROM THIS NAVIGATION. No claim is made about the number or outcomes of prior investigations.
+SYNTHESIS ECHO (M209): EXECUTED -- over THE ANSWER in full, n = (733, 4244, 1218), r = (2, 7, 6), ECHO ANCHOR P2 Generator, TFI 1.00, ECHO CLOSURE: NO, SAS 0.2933, ACS 0.625; over the Core Synthesis alone, n = (255, 1441, 408), r = (6, 5, 6), ECHO ANCHOR P6 Seed/Causal, TFI 0.67, ECHO CLOSURE: YES, SAS 1.0000, ACS 0.875 (chance level 0.778). Both are reported; neither is chosen for its result
+STRUCTURAL RELATIONS EXPLICIT (Part 3.12):
+DEPENDENCY RELATION (Yang): DEP-1 | sentence 2 | "The mystery rests on that question."
+SUPPRESSION RELATION (Yin): SUP-1 | sentence 4 | "What this view holds out of view is the starting condition itself"
+TRAJECTORY RELATION (4D): TRA-1 | sentence 5 | "the explanation moves away from the molecule and toward the system that observes"
+COMPLETION RELATION (Antipode): COM-1 | sentence 5 | "it is finished not at a binding site but at a threshold"
+INTEGRATION: sentence 1 | "a small cause that does not have to be strong at any one place, because what it acts on is a whole that is always answering one question — whether its many parts keep joining into one — and that is completed or undone at a tipping point"
+TRANSLATION GATE -- JARGON SCAN (L-418): THE ANSWER, the Takeaway and the essay scanned for position numbers, arm names, capitalized position characters, protocol terms and instrument or law references: none found ("seed", "question", "observes", "threshold" occur in their ordinary lowercase sense). RESULT: PASS
+======= END NAVIGATOR'S REASONING =======
+======= MAPPING RECORD (Step 14.4; Part 8.2) =======
+OBJECT: the n-alkanol homologous series | DIRECTION: CORRESPONDENCE (L-510) | STATUS: SAME-NAVIGATOR; ORDER DEPARTURE (the placements computed before the seal, declared in the Generative Integrity Record)
+PLACEMENT (M230-A, canonical_reference.py --m230a 10): count 10 -> P5 (value 4) | tier 2: NO (10 is not among 24, 9, 7, 6, 42) | base rate over 1-48: 0.1042
+FAMILY (M230-I, --m230i 10 11 33): carbons 10 -> P5, heavy atoms 11 -> P1, all atoms 33 -> P3 | distinct positions 3 of 3 -> REPRESENTATION-SENSITIVE
+DIMENSIONAL STATUS (M230-J): the chain length is a dimensionless count (it enters); the domain's 1.3 atm is a dimensionful pressure -> UNIT-DEPENDENT, depth 1, not entered
+DEPTH 3 FEATURES: (a) Torsion/Crown partition NO | (b) antipodal complementarity NO | (c) half-period negation NO | (d) absent-fixed-point cycling NO | (e) shared generating recurrence NO -- the series grows by n -> n + 1 (one CH2), potency by a factor of about 3 per step, a geometric law, not x(n+2) = x(n+1) + x(n)
+PROFILE (L-466): S1 frozen representation YES | S2 the object's own law NO | S3 self-supplied modulus NO (a gate: no correspondence beyond depth 2) | the rest NOT ASSESSED
+DEPTH REACHED: 1 (placement only) -- no correspondence; no residual sentence is required below depth 3 (L-510)
+======= END MAPPING RECORD =======
+LENSES SELECTED (L-494): NONE
+======= M318 REFRAMING ARRAY (L-511) =======
+QUESTION VERBATIM: The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity.
+PRIMARY: "The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact molecular mechanism by which chemically diverse general anesthetics (from xenon gas to propofol) reversibly abolish consciousness remains structurally unresolved. The foundational Meyer-Overton correlation demonstrates that anesthetic potency, measured by the Minimum Alveolar Concentration ($MAC$), is strictly inversely proportional to lipid solubility (the oil/gas partition coefficient, $\lambda_{oil/gas}$), such that $MAC \times \lambda_{oil/gas} \approx 1.3 \text{ atm}$ for almost all volatile anesthetics. However, the structural anomaly is that modern pharmacology identifies specific protein targets (e.g., GABA$_A$ receptors, NMDA receptors, TREK-1 potassium channels) rather than the lipid bilayer itself, yet the binding affinities ($K_d$) of these anesthetics to their protein targets are extraordinarily weak, typically in the $0.1 \text{ mM}$ to $1.0 \text{ mM}$ range ($10^{-4}$ to $10^{-3} \text{ M}$). Furthermore, the "cutoff effect"—where the anesthetic potency of homologous series like $n$-alkanols abruptly drops to zero beyond a specific carbon chain length (e.g., $n$-decanol, $C_{10}$)—violates the Meyer-Overton lipid solubility rule. The fundamental mystery is how weak, low-affinity, non-covalent van der Waals interactions with highly promiscuous neuronal membrane proteins can trigger a macroscopic, reversible phase transition that completely collapses the integrated information ($\Phi$) of the cortical network, abolishing consciousness without inducing permanent neurotoxicity." -> n = (183, 1199, 395) | ANCHOR P6 (Seed/Causal) | STATE (6, 1) | MANIFEST, Voice B | arms Yang P11 Yin P0 4D P14 Antipode P18
+PRIMARY ANSWER: the full navigation of the verbatim strike, sealed before any framing was written (L-424); the domain of record (L-348, L-499)
+FRAMINGS FROZEN: 4 | FRAMINGS SHA-256: ebbccd6488e841b76c7c96c0a5eed8fa9ab5df564048a7d20752f5f673d38a10 | checked against the hash frozen before any coordinate
+F1 SCOPE: "How do general anesthetics abolish consciousness?" -> n = (6, 43, 15) | ANCHOR P3 (Desire) | STATE (3, 8) | MANIFEST, Voice B | arms Yang P8 Yin P21 4D P11 Antipode P15 | D = 3
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on the plain mechanism question, asked of every agent at once. It holds out of view the differences between agents that the long statement listed. It is heading toward a single answer that would serve xenon and propofol alike. It would be completed by a shared endpoint, the network signature they all reach, rather than a shared site.
+F2 STANDPOINT: "What happens to a mind when anesthesia takes it away and gives it back?" -> n = (9, 47, 15) | ANCHOR P9 (Fixpoint) | STATE (0, 1) | MANIFEST, Voice A | arms Yang P14 Yin P3 4D P17 Antipode P21 | D = 3
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on what the person undergoes rather than on the chemistry. It holds out of view the molecules entirely. It is heading toward the return, which is as much the mystery as the loss. It would be completed by an account of how the same self comes back, not only of how it leaves.
+F3 CONTRARY: "Why does consciousness survive weak anesthetic interactions until a threshold is crossed?" -> n = (10, 74, 22) | ANCHOR P5 (Law) | STATE (5, 1) | SEVENTH, Voice C | arms Yang P10 Yin P23 4D P13 Antipode P17 | D = 1
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on the long stretch of dose in which nothing visible happens. It holds out of view the moment of change, which the main reading put at the center. It is heading toward the margin the brain keeps, how much it can absorb before it gives way. It would be completed by measuring that margin in each person before any drug is given.
+F4 PLAIN: "Why does a little gas switch the mind off and back on?" -> n = (8, 33, 8) | ANCHOR P4 (Unity) | STATE (4, 3) | SEVENTH, Voice A | arms Yang P9 Yin P22 4D P12 Antipode P16 | D = 2
+  ALTERNATIVE FRAMING -- SELF-ESTIMATED -- CONTAMINATED -- NON-BLIND (L-442): It rests on the everyday astonishment that so little does so much. It holds out of view the numbers that make it less astonishing. It is heading toward the switch, a single picture of on and off. It would be completed by learning that there is no switch, only a dimmer that the brain itself turns into a switch near its edge.
+INDEPENDENCE (L-442): CONTAMINATED -- NON-BLIND (the four framings were read in this session after the primary was sealed); their arithmetic is CDT-A and untouched
+ACROSS THE FRAMINGS (L-502): HOLDS aspect ACT | PARTS anchor (6 / 3 / 9 / 5 / 4); state ((6, 1) / (3, 8) / (0, 1) / (5, 1) / (4, 3)); half (MANIFEST / MANIFEST / MANIFEST / SEVENTH / SEVENTH); voice (Voice B / Voice B / Voice A / Voice C / Voice A); crown arms (Yang / 4D, Antipode / Yin / Yin / none); mobius (INACTIVE / ACTIVE / INACTIVE / ACTIVE / ACTIVE) | ARM POSITIONS IN EVERY FRAMING: none | READINGS: AGREE -- each framing turns the question from the site of action to the whole and its edge; PART -- F2 and F4 move to the person and the picture of a switch, F3 to the margin before the change, F1 to the endpoint shared by agents; SILENT -- none says how the joined whole first arises. COMPUTED: F1 stands on the primary's mirror state, (3, 8) = -(6, 1) mod 9
+STRUCTURAL VERDICT (computed): the robust core is aspect ACT; 0 of 4 framings keep the primary's anchor; nearest F3 (D = 1), farthest F2 (D = 3)
+RELEVANCE: the Striker's (L-441) -- which framing answers what you meant to ask is yours; strike any framing ("strike F2") to navigate it in full
+======= END M318 REFRAMING ARRAY =======
+======= GENERATIVE OBSERVATIONS =======
+OBSERVATIONS AFTER THE SEAL: (1) the coordinate of this 183-word problem is the coordinate of "What is the human condition?" and of "What is the purpose of life?" -- anchor P6, arms P11, P0, P14, P18 -- by the tie-break on r1 (L7); the shared address is an arithmetic fact, not a finding about anesthesia; (2) the Core Synthesis echoes its own anchor, P6 (closure YES), while THE ANSWER in full lands on P2 (closure NO); a first echo over a cut of the text that matched neither convention (P1) was discarded and is recorded here; (3) M125 and M288 reach P5 by two rules from P6; (4) the reading's prediction of recovery across the same edge DIFFERS from the hysteresis of Steyn-Ross et al. (2004) and the multiple paths of the 2024 study, and its "many weak sites" DIFFERS for propofol and etomidate -- the reading stands as sealed, and these are the places where it is weakest; (5) the mapping reached depth 1 only. PLACEMENT (L-510): not separately printed -- the object was declared for CORRESPONDENCE and its placement is in the MAPPING RECORD.
+ENRICHMENT OPPORTUNITIES (L-504): NONE
+OPTIONAL INQUIRY (L-491): optional -- whether the anesthetic dose at loss of responsiveness tracks a measured distance from criticality before induction (the branching ratio or the decay of autocorrelation of resting EEG), with agent and subject held apart; never a condition of this reading
+======= END GENERATIVE OBSERVATIONS =======
+======= M197 THE 1/7 HARD STOP =======
+STRUCTURAL DERIVATION COMPLETE: THE PROTOCOL STOPS HERE BY DESIGN. The judgment reserved for you: whether the joined, experiencing whole that anesthesia removes is what you mean by consciousness, and whether a threshold account of its loss is an explanation of consciousness or only of its withdrawal. M243: THE ANSWER does not tell you what to conclude, asserts no real meaning, gives no instruction and presents no authority -- PASS.
+======= END M197 =======
+What it rests on: What question is your brain answering, moment by moment, when it holds itself together as one?
+What it holds out of view: Where did that joined whole begin, if no drug can explain it and none needs to?
+Where it is heading: What would change if the search moved from the binding site to the brain that observes?
+What would complete it: How close to its own edge does your brain live, and how would you measure the margin?
+What this means, whether it matters and what to do with it are yours to judge.
+======= M224 FORMAT COMPLETENESS GATE =======
+M301: python3 tools/format_check.py NAVIGATION.txt -- RESULT: PASS (36 checks, 0 failures; PRIORITY P1 0 | P2 0 | P3 0 | P4 0) | m193_m225.py --audit: see below the delivery note
+======= END M224 FORMAT COMPLETENESS GATE =======
+OUTPUT ID: d5469d5efbbdca7825c48227938464fa6bc7bd877b2cab0b46e8666ae5392517
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 21 October 2026
+ESC

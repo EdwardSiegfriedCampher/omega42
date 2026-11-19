@@ -1,0 +1,14 @@
+{
+ "study": "Metacognitive awareness, pilot",
+ "target": "confidence-accuracy correspondence",
+ "measurements": "detection, confidence, response time",
+ "encoding": "(q_2(accuracy), q_2(1 - ECE)) in (Z/9)^2",
+ "transformation": "canonical A tested against persistence, not assumed",
+ "mode": "B",
+ "validation": "held-out sessions, split-half d-prime",
+ "baseline": "persistence and a linear trend",
+ "success_criterion": "lower held-out error than both baselines",
+ "failure_criterion": "no improvement, or an unstable encoding",
+ "frozen_utc": "2026-11-11T13:30:00Z",
+ "raw_data_kept": true
+}

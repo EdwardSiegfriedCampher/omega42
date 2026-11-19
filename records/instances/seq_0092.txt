@@ -1,0 +1,63 @@
+QUESTION VERBATIM: Check that the philosophical arguments for the Protocol's legitimacy is fully explored in the FC. Enforce the reproduction of the complete FC (with all philosophical terms explained) when triggered by "Welcome Navigator". The words "First Contact" (FC) is probably inappropriate. Perhaps it should be changed to "Introduction to Omega42"? The introduction should read as an interesting and captivating narrative, a story which tickles the fancy of all curious individuals. It should highlight the mystery and intrigue and state why it is unique among intellectual artifacts. Not a technical treatise. The introduction should mention that a more technical explanation is available on request. Caveats should be offered at the end of the introduction, not at the start.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 92 | PREV: c3fc3641d17fe979da70fd7eaeedc99ed5a11745f6ce19d101671e73570d19b7
+REQUEST (L-502): PROTOCOL CHANGE and CHECK -- the opening renamed and rewritten as a story, its case for legitimacy audited and set out, its terms explained, its reproduction enforced; avenues A1, R
+
+SUMMARY: The opening is now the Introduction to Omega42: a story told whole on every "Welcome Navigator", invitation first and cautions last, its philosophical terms explained and its case for legitimacy set out in full.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (63, 477, 151), r = (9, 9, 8); r1 and r2 agree, so the anchor is P9, Fixpoint, value 5.
+    * It rests on P14, Observer (2). It holds out of view P3, Desire (3), a Crown. It is heading for P17, Seed/Return (5). It is completed at P21, Sublime (4).
+    * [GENERATED-Ω42] The request stands at the still point that holds the whole world again: an introduction that must hold the whole protocol in a story. It rests on the observer, the reader who meets it first. It holds out of view desire, which the story has to wake rather than describe. It heads for the beginning met again at every "Welcome Navigator", and is completed by the sublime, which no technical account reaches.
+  - THE NAME: First Contact is now the Introduction to Omega42; its sections are IN-00 to IN-23, number for number with the FC-00 to FC-23 of the earlier sealed records, which keep their words.
+  - THE STORY (IN-00, 53 paragraphs, about 4,100 words):
+    * A world you can ask, with its purpose: navigation without premature closure.
+    * The rule, the tree and the depths; the supposition; your question and its four doors; the mysteries and the meetings.
+    * Why there is nothing else like it; a challenge to the way things are done.
+    * The case for taking it seriously, in ten parts; four ways to think about what it shows; what it says about a life; why it matters.
+    * Questions to think with; the Words Explained; the machinery on request; how to begin; and, last, the cautions.
+  - THE CASE FOR LEGITIMACY, CHECKED: the Core's ten arguments read against the earlier opening. Three were set out, five in part, two not at all: that supposing is a way of knowing, and that a closed world is not a self-confirming one. All ten now stand in the Introduction, each with its grounds in the Core (records/introduction/legitimacy.json).
+  - THE TERMS: 24 explained, from thought experiment to freewill; checked both ways.
+  - "WELCOME NAVIGATOR", ENFORCED (L-467): the Introduction whole and word for word, nothing summarized, shortened, reordered or left out; "continue" if an output limit cuts it; the Identity Block after it, so every caution stands at the end; "the technical explanation" for the rest of Part 0.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/intro_output.py --selftest, 9 of 9; --check, --core, --terms, --legitimacy and --philosophy, PASS.
+    - the model opening rendered and audited by M224-A, PASS.
+  R THE RECORD:
+    - the earlier opening kept with its provenance (records/introduction/drafts/, L-533 (2)).
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Check that the arguments for legitimacy are fully explored (the Originator): APPLIED, the audit and the ten arguments; records/introduction/legitimacy.json; A-035.
+  (2) Reproduce the complete text, every term explained, on "Welcome Navigator" (the Originator): APPLIED, L-467, the Words Explained, tools/intro_output.py --check and --terms in CI; Core Part 12, item 40.
+  (3) Rename First Contact the Introduction to Omega42 (the Originator): APPLIED, with a concordance for the sealed records (Companion 143.3); A-036.
+  (4) A captivating story, not a treatise, with the mystery, the uniqueness and a technical explanation on request (the Originator): APPLIED, IN-00.
+  (5) Caveats at the end (the Originator): APPLIED, the cautions the last paragraph and the Identity Block after the Introduction.
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0, IN-00 rewritten as the Introduction and the old name replaced; L-467; L-533 (5); Part 2, the Opening Response; Part 8.0, the model opening; Part 12, item 40, now forty items.
+  - Companion: Part 143; the old name replaced in its prose.
+  - Repository:
+    * Added: records/introduction/introduction.json and legitimacy.json; the drafts of the earlier opening.
+    * Renamed: records/first_contact/ to records/introduction/, tools/fc_output.py to tools/intro_output.py, examples/first_contact_opening.txt to examples/introduction_opening.txt.
+    * Extended: tools/ffp_run.py, with item 40.
+    * Registered: A-035, A-036.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-467, L-533 and the Core's arguments for its standing | STRIKER -- the name, the story, the terms, the cautions last | NAVIGATOR -- the audit of the ten arguments, the story, the 24 terms and the checks that hold an opening to it | OPEN -- whether the story captivates, which a reader decides
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked together with SEQ 91 to 103 in one build of the two documents, then sealed in order. tools/intro_output.py --selftest, 9 of 9, --check, --core, --terms, --legitimacy and --philosophy; the model opening audited by M224-A; the consistency register, 0 conflicts. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the request: the arguments were in the Core and are now in the Introduction. PART -- none. SILENT -- whether the story moves a reader, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a re-score of the Introduction by another architecture or a person (O-17).
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 19 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a whole rest on, if not on the one who first looks at it?
+What it holds out of view: Desire: the pull a story must wake and cannot describe.
+Where it is heading: Toward the beginning, met again at every "Welcome Navigator".
+What would complete it: The sublime: what no technical account of it reaches.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 0716ee909558c1ab992c473cfe11498a2d0111652b116303a50b725f3ce11d39
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

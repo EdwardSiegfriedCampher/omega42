@@ -1,0 +1,79 @@
+QUESTION VERBATIM: Please assess, refine and extend the following.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, three reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Three accounts came with the question. Their mathematics and their limits hold; each is refined and extended with a computed instrument. Sealed as SEQ 155.
+TRIGGER: receipt of three outputs with the Originator's message of 11 November 2026 (Part 6.2, automatic); none quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0155.txt.
+Outputs: T -- unidentified, a web interface (submissions/ape/APE-437.md); U -- the same (APE-438); V -- the same (APE-439).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): T -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- its mathematics right and its claims staged as mathematical, computational and technological [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: well staged; its central request supplied.
+FINDINGS -- INTERNAL:
+ [I] Confirmed: the group, its order, the strata, the closure, the ratio 75,920 at k = 6.
+ [I] Supplied: the advantage theorem for classification (M365).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The opportunity is not necessarily to make the computer faster. It may be to make the problem itself smaller."
+VERDICT: faithful; extended.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, T): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): U -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.80 -- four domains separated with care; its two-boundary model trivial for A alone [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.80 = 0.24
+SYNTHESIS: careful; refined and computed.
+FINDINGS -- INTERNAL:
+ [I] Adopted: the four domains (Core Appendix S.17).
+ [I] Refined and computed: two boundaries constrain a choice of history; the selection effect 0.657 against 0.500 (M366).
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Reversibility does not imply retrocausality."
+VERDICT: faithful; refined.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, U): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): V -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.84 -- its limits exact and its programme ordered by physical fidelity [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.84 = 0.252
+SYNTHESIS: sound; its Atlas begun.
+FINDINGS -- INTERNAL:
+ [I] Kept: its list of what is not established.
+ [I] Begun: the Atlas seed (M367), anomaly sums exactly 0, ΛCDM age 13.796 Gyr.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Every mapped structure must retain its original physical meaning."
+VERDICT: faithful; extended.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, V): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

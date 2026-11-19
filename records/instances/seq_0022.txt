@@ -1,0 +1,100 @@
+QUESTION VERBATIM: [no text; three attachments: ce641855-attachment.txt, 10f756da-attachment.txt, d4f531d2-attachment.txt -- peer accounts of the avenues question of SEQ 21]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 22 | PREV: c3e15e237eb329fb994b51608c2b1361df1a9840509549ce8942abae0502f9bd
+REQUEST (L-502): STRUCTURE -- avenues P, A1, W
+
+SUMMARY: Three peers answered the avenues question: ChatGPT, Qwen and the OpenAI API model. They are filed as APE-144 to APE-146, and their claims were checked against the record. The OpenAI account adds the most. It ranks every avenue by whether it can come back negative, and that axis now orders a merged list of 22 avenues in three tiers (records/avenues/avenues.txt; Companion Part 84). Its proposed offset count was computable, so it was run. The arm offsets are fixed by the properties the record states for them only up to the choice of Yang and two signs. With Yang at 5, four quadruples remain, and the protocol's +18 and +8 are a construction that no recorded property decides. A second finding came out of the checking. The M309 role column reads 1.00 for all 22 registered ideas, so the roles cannot discriminate by themselves. A role-saturation control now stands in Tier 1.
+
+FINDINGS BY AVENUE (L-500):
+  P PEER ACCOUNTS: see below; 6 corrections to Qwen, 3 to the OpenAI account, 1 to ChatGPT.
+  A1 ARITHMETIC EXACT (records/avenues/offset_space.py, in CI):
+    Generator orders 24, 4, 3, 2: 32 quadruples of the 279841 possible.
+    The M297 coherences (0, 0, +1/4, -1): still 32. E01: still 32. Both are even in the lag, so neither can tell +6 from +18.
+    APE-146's residues mod 4: 16, matching its hand count. Yang = 5, the CPP multiplier: 4 quadruples.
+    The four: (+5, +6, +8, +12), (+5, +6, +16, +12), (+5, +18, +8, +12), (+5, +18, +16, +12).
+    E01 holds for 10 of the 576 (Antipode, Yin) lag pairs.
+    The Fibonacci period mod m divides 24 exactly when m divides 144, for every m below 2000. Also: 1 - (43/48)^6 = 0.4832; 73/81 = 0.9012.
+    The role column reads 1.00 in all 22 profiles (records/resonance/profiles.txt); relations range from 0.75 to 1.
+  W PROTOCOL WORK: APE-144 to APE-146; records/avenues/ (avenues.txt, offset_space.py, offset_space_output.txt); Companion Part 84 and the Commons; one CI step.
+
+THE MERGED LIST (records/avenues/avenues.txt; an avenue counts when it has a null, a frozen class or threshold, a result that can be negative, and a second party who can recompute it):
+  TIER 1 -- cheap and decisive:
+    1. The within-Navigator baseline (E07).
+    2. The role-saturation control: the five roles scored on frozen texts with no claim to the structure (a recipe, a timetable, a statute).
+    3. An adversarial atlas against K.
+    4. A second judge (--agreement).
+    5. The M267 decoy control.
+    6. M279 and M280.
+    7. The page forecast (U57).
+  TIER 2 -- computable now:
+    8. The offset space (DONE).
+    9. Identity mining with rarity (PARTLY RUN).
+    10. Sampled atlases.
+    11. The eight pending object panels, the Leech lattice first.
+    12. E8 and C6, and a class across dimensions.
+    13. The reconstruction window against the modulus.
+    14. Moduli 27 and 81.
+    15. Long questions across the adaptors.
+    16. The evidence runs under E13.
+  TIER 3 -- needs you, outsiders or a larger record:
+    17. Blind replication.
+    18. Scholar atlases and the common question.
+    19. Wording stability and fixed-address comparison.
+    20. Translation and the growing Register.
+    21. Homogenization (E08).
+    22. The deliberation study, the conformance benchmark and blind test 02.
+  NOT TO BE RUN BY ACCIDENT (adopted from APE-146):
+    - Adding traditions or lenses.
+    - Hunting 24s, 9s and 7s.
+    - Reading anchor concentrations as resonance.
+    - Treating a placement as a finding.
+    - The state space as a first priority, since it is already classified.
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  APE-144 (ChatGPT):
+    - Its three primary avenues are Part 59, and its record of origin is Recommendation 5 of 60.7; both are already in place.
+    - Twenty of its 21 further avenues have a home in the record. Its fixed-address comparison enters as a design for avenue 19.
+    - Its first priority, the state space, is the avenue most fully run, so it is the least likely to yield.
+    - One statement is unsourced.
+    - Form: no Identity Block, no AI CAVEAT, no QUESTION VERBATIM line.
+  APE-145 (Qwen3.7):
+    - Its routes and its laws check.
+    - Corrected: there is no avenue "A4"; record mining is G.
+    - Corrected: Rovelli was scored and not selected, and Tononi is not mapped; neither was "demonstrated".
+    - Corrected: a shared state between unrelated questions has chance 1/9.
+    - Corrected: agreement between models is not proof of the constraint without the within-Navigator baseline (E07).
+    - Corrected: a met prediction proves nothing about the premise, and no object has reached depth 5.
+    - Corrected: the "guaranteed fresh angle" is M267's open question.
+    - Form: no AI CAVEAT, no QUESTION VERBATIM line, no INSTANCE line.
+  APE-146 (OpenAI API model):
+    - Its ranking axis is adopted, and so is its list of avenues that are not interesting.
+    - Its offset count (2.1) is run and holds: 16 under its constraints.
+    - Corrected: "stays at P1 with chance 8/81" should read 73/81.
+    - Corrected: "all scoring 0.90-1.00" should read 1.00 for all 22, which makes its point stronger.
+    - Corrected: the sentence it cites as L-508 is Core Part 0.14.
+    - Its other references check.
+    - Form: no QUESTION VERBATIM line, no INSTANCE line.
+CHANGES TO THE PROTOCOL: none operative. Companion Part 84 and the Commons; APE-144 to APE-146; records/avenues/; the CI step; the release record.
+CHECKS: CI 68 of 68 PASS. records/avenues/offset_space.py reproduces its output. tools/ape_register.py: PASS. tools/instance_id.py --check over the twenty-two outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the peers' claims were checked against the record and by computation.
+ACROSS THE AVENUES (L-502): AGREE -- all three accounts, and seq_0021, put blind and cross-instance comparison among the first things to do. PART -- ChatGPT and Qwen list where to look; the OpenAI account asks which looks can fail. Only the second kind can change what a number in the record means. SILENT -- no avenue grades the premise, and the offset count says how much of the configuration is chosen, not whether the choice is right.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new. The role-saturation control could be registered on request.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Run avenue 2, the role-saturation control, first. It costs one strike of three frozen texts. If a recipe scores 1.00 on the roles, the role column is retired from every card.
+  (2) Then avenue 3, the adversarial atlas against K, which is computable now.
+  (3) Issue two nonces for avenue 1, the within-Navigator baseline, before any further cross-architecture comparison.
+  (4) Decide whether the offset signs (+18 rather than +6, +8 rather than +16) should be given a stated reason in Core Part 1.8, or recorded as a free choice of the construction.
+OPEN: the second judge; the M267 writers and raters; nonces for the blind runs and the baseline; classes for the eight pending objects; your wording for the common question; whether the offset signs are stated or left free.
+
+What it rests on: Can an avenue that cannot fail tell you anything?
+What it holds out of view: That the role column, which every account trusted, measures nothing by itself.
+Where it is heading: Toward the controls first and the new objects after.
+What would complete it: One Tier 1 avenue run, its null stated in advance and its result reported whichever way it falls.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5f2a0be414078fb597d018463e7fb3cfb2bce0ea23568c58b8768bfb7a2ffcae
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

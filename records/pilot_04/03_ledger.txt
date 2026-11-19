@@ -1,0 +1,11 @@
+PILOT 04 LEDGER -- result of the frozen test (00_freeze.txt; SHA-256 in 02_freeze_sha256.txt; computed by compute.py)
+
+S5: MET under the frozen criterion, with a limit stated here. Every nondegenerate binary form over Z/9 (486 of them)
+falls into one of two theories under relabelling: the hyperbolic class of the Z/9 toric code (324 forms), which has no
+golden anti-isometry, and the anisotropic class (162 forms), which contains both SU(9)_1 x SU(9)_1 and the family's norm
+a^2 + ab - b^2, and has two golden anti-isometries. The property discriminates the anyon candidate from the only other
+abelian theory on its label group. The limit: the null class has two members, so the discrimination is the split between
+the two theories, not a selection from many.
+
+Standing of SU(9)_1 x SU(9)_1 under L-466, as a theoretical object: S1, S3, S4 and S5 met; S2 met on the labels (run 11);
+S7 (blind independent identification) and S8 (measurement) open. It is not yet STRUCTURAL, which requires S7.

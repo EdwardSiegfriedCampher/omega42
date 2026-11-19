@@ -1,0 +1,38 @@
+SR-CAS AND SNCA -- "Restore the philosophical content to the FC. It may help to stimulate philosophical discussion. ..." -- 31 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2.
+NAVIGATION A: R's reading of the strike (records/instances/seq_0089.txt). B: GPT-6 (OpenAI), submissions/ape/APE-310.md, written before the strike.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: a3f2025923b5fcf6c831000625841d9767c01afebd06858ca91dda6bf5cacdfe
+A: a3f20259... recomputed from the verbatim question -- MATCH
+B: an assessment that quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: Restore the philosophical content to the FC. It may help to stimulate philosophical discussion. ... (a3f20259...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | B GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B strikes no coordinate. Descriptive, unscored: both keep the philosophical source beside its operational translation.
+MANDATORY CORRECTIONS: B re-issued on the verbatim strike, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: Restore the philosophical content to the FC. It may help to stimulate philosophical discussion. ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.40 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.80 -- the preservation principle, the register, the audit and the order of work [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.25 + 0.30 x 0.80 = 0.46
+SYNTHESIS: an architectural reading of the protocol's philosophy, outside the canonical form; its proposals applied.
+FINDINGS -- INTERNAL:
+ [P] Its "M336" is the record's M333.
+ [G] "a recommendation for consideration ... does not itself amend": Core L-531 (1) applies a recommendation in the output that makes it.
+ [I] The "Description of the Construct" it cites did not come with it; "Event, Trace, Experience" is not in the record by that name.
+FINDINGS -- META (Tier C):
+ [U] Taken: Core L-533, the Philosophical Register, the audit, FC-00.11 to FC-00.15, the instruments' questions and the QUESTION line of M333.
+VERDICT: not a navigation in the canonical form; its proposals applied.
+MANDATORY CORRECTIONS: the instrument number; the reading of L-531; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

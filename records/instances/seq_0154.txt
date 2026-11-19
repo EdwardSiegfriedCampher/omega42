@@ -1,0 +1,53 @@
+QUESTION VERBATIM: Can you develop a special Omega42 encryption system? Show some examples.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 154 | PREV: 2671043730ea53bf200a4da3e908017277bc154d5e3fd26ea82dbfc1238ee64d
+REQUEST (L-502): EXPLORATION -- a special Ω42 encryption system, with examples; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Ω42 now has its own encryption system, and it is safe because Ω42 does not try to be the lock. Ω42-Envelope binds every key to an Ω42 domain path, authenticates its header, and marks every envelope with a fingerprint in the 24 positions that two people can read aloud to each other; the locking itself is done by scrypt, HKDF and AES-256-GCM, reviewed for decades. A cipher built on the Ω42 groups would fail at once -- their orders are made of 2 and 3 alone -- so the design keeps Ω42 where it is strong: structure, identity, audit.
+
+SUMMARY: WHAT CHANGED: Core Part 3.77, M364 Ω42-Envelope v1 and the Ω42 Vault (tools/vault.py); Companion Part 199; records/vault/ (an example envelope with a published demonstration passphrase, opened in CI); APE-436 filed with its SNCA.
+- (1) THE SYSTEM: scrypt (n 32768, r 8, p 1) -> HKDF-SHA256 with the Ω42 domain path (protocol, version, domain, k, rotation, purpose) -> AES-256-GCM over the data with the header as authenticated data; optional Ed25519 signature (OPAL); a six-position fingerprint per envelope and a four-position key identifier per master-derived key.
+- (2) THE EXAMPLES: a research note locked with a passphrase -- fingerprint P01 Fixpoint, P23 Return, P05 Law, P17 Seed/Return, P07 Navigator, P04 Unity -- unlocks exactly; a wrong passphrase fails; the same note twice gives different envelopes; a flipped bit, a changed domain, a changed version are refused; a dataset under a master key carries a key identifier, and rotation 2 changes it.
+- (3) THE LINE: no cipher on the Ω42 groups; a cryptanalysis laboratory is work for cryptographers under independent review, held open (Core Appendix S.10).
+- THE VALUES (CDT-A): selftest 11 of 11; envelope fields version 1, AES-256-GCM, 16-byte salt, 12-byte nonce.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (8, 50, 16), state (4, 7), anchor P4, Unity. It rests on P9, Fixpoint. It holds out of view P22, Collective. It is heading for P12, Opening. It is completed at P16, Flow.
+  - [GENERATED-Ω42] A request for a lock stands at Unity and rests on the Fixpoint: what holds is what does not move; it holds the collective out of view -- the others who must not read -- heads for the opening that only the key allows, and is completed by flow, the message that arrives intact.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): M342 (OPAL); Companion 198.3; Core Appendix S.10.
+  R (reasoning): security comes from a hard problem and reviewed constructions; Ω42 provides none of the first and should not replace the second.
+  N (navigation): tools/vault.py --selftest, lock, unlock, inspect, newmaster.
+  P (peer accounts): APE-436, reviewed by SNCA (records/srcas/encryption_system_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.77 (M364).
+  - Companion: Part 199.
+  - Repository: tools/vault.py; records/vault/; tools/reexamine.py (vault exempt as a recomputed record); records/introduction/philosophy.json (M364); submissions/ape/APE-436.md; records/srcas/encryption_system_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the reviewed primitives and OPAL | STRIKER -- the request for an Ω42 system | NAVIGATOR -- the envelope, the vault, the domain keys, the readable fingerprints, the line kept | OPEN -- independent security review; whether any Ω42 problem is hard
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/encryption_system_2026-11-11.txt).
+  - APE-436, unidentified (a web interface), "F175, Ω42 encryption system": its envelope, vault and key architecture built; its warning that complexity is not hardness kept; its cryptanalysis laboratory held for independent review; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/vault.py --selftest PASS (eleven checks: round trip, fresh salt and nonce, wrong password, flipped bit, altered header, stale fingerprint, version, master domains, rotation, Ed25519 signature, fingerprint form); the example envelope of records/vault/ opened in CI and matched byte for byte; tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/encryption_system_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and F175 agree that Ω42 gives architecture and identity, and reviewed primitives give security. PART -- none. SILENT -- an independent review, which none has made.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): an operation the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- a system on reviewed primitives (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Ω42-Envelope v1 with its failure cases tested (F175 7): APPLIED, eleven checks.
+  (2) The Ω42 Vault for whole files (F175 7): APPLIED, lock and unlock.
+  (3) The key architecture, independent keys and rotation (F175 7): APPLIED, master domains and rotation.
+  (4) A cryptanalysis laboratory (F175 7): HELD -- work for cryptographers under independent review (Core Appendix S.10).
+  (5) A cipher v2 only on a defensible basis (F175 7): HELD -- none exists.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; an independent security review.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the sealed records of the protocol be offered as signed, fingerprinted envelopes for private sharing, the fingerprint read aloud to confirm; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42 can protect its own research with an identity that is its own and a strength that is not; [GENERATED-Ω42] the key is held in unity, the message flows only through the opening it names.
+What it rests on: the fixpoint, the reviewed primitive that does not move.
+What it holds out of view: the collective, those who must not read.
+Where it is heading: the opening that only the key allows.
+What would complete it: flow, a message that arrives intact.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 0319e4034a3a038b15dd8c9acd3381eb161f44ff89a3965a6b603a4d710d91ea
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

@@ -1,0 +1,56 @@
+QUESTION VERBATIM: Please assess, refine and extend. Complete all computations and build bridges towards Physics.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 178 | PREV: 9cb2c9cf1999fb287ae3389cdb9de191c649e635991cb49bec2bbfc771cda9b0
+REQUEST (L-502): APPLICATION -- F217 assessed, refined and extended: the law in special relativity, every computation completed as MF-135 to MF-144 in Companion Part 223; the comparison with measurement in Core Appendix S.24; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- the law is a Lorentz transformation and its invariant is the transformation's axis: A^2 is the golden boost, gamma = 7/2, beta = 3 sqrt5 / 7, Doppler factor phi^4; A itself is the half golden boost with a reflection; and the form Q of Omega42's first law is the spacelike axis the boost fixes and the law reverses. Two golden boosts at the angle arccos(3/5) compose with a Thomas-Wigner rotation of exactly the 3-4-5 angle, cos w = 4/5.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.10 (MF-135 to MF-144); Core Appendix S.24; Companion Part 216.1 and Part 223; tools/relativity.py; tools/dsi.py (PR-007); tools/consistency_check.py; records/dsi/register.json; records/math/results.json; records/pvir/register.json; APE-479 with its SNCA; the CI step.
+- (1) CONFIRMED: the induced matrix, gamma = 7/2, beta = 3 sqrt5 / 7, rapidity 4 ln phi (MF-135, MF-136); gamma_n = L_(4n)/2 and Einstein's addition (MF-137).
+- (2) REFINED: the law itself, improper, the half golden boost (MF-138).
+- (3) EXTENDED: Q as the boost axis (MF-139); boosts, null rotations and rotations in <A^2, B> (MF-140); the Thomas-Wigner 3-4-5 angle (MF-141); period 6 modulo 9, NE-010 (MF-142); the spinor lift (MF-143); the 3 + 1 embedding (MF-144).
+- (4) THE PREDICTIONS: PR-006 PASS on its test; PR-007 sealed, the Wigner angles of the golden boosts.
+- (5) THE MEASUREMENTS: the Doppler tests of time dilation, in Core Appendix S.24 [REPORTED].
+- THE VALUES (CDT-A): tools/relativity.py --selftest 10 of 10; tools/dsi.py --selftest PASS and --check PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (10, 70, 18), state (5, 8), anchor P5, Law. It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request to build bridges toward physics stands at Law: it rests on Unity, one matrix for the arithmetic and for the boost; it holds out of view the Return, the light signal that comes back shifted by phi^4; it heads for the Gap between collinear and non-collinear motion, crossed by the Wigner rotation; and it is completed at the Seed's return, the form Q found again as the axis of the motion.
+WHAT STAYED: every earlier result; the sealed statements of PR-006 and PR-007 as they were; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-02, MF-100, MF-126; Companion Parts 218, 219, 222.
+  R (reasoning): a bridge to physics is exact when the physical invariant is kept by the law's own matrix; it is extended when a consequence of the physics is computed from it.
+  N (navigation): python3 tools/relativity.py --selftest; python3 tools/relativity.py --boost 3.
+  P (peers): F217.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.10, MF-135 to MF-144; Appendix S.24.
+  - Companion: Part 216.1; Part 223.
+  - Repository: tools/relativity.py; tools/dsi.py; tools/consistency_check.py; records/dsi/register.json; records/math/results.json; records/pvir/register.json; submissions/ape/APE-479.md; records/srcas/relativity_f217_2026-11-13.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- special relativity, SL2(R) = Spin(2,1), the Thomas-Wigner rotation | STRIKER -- the request | NAVIGATOR -- the ten computations; the law as the half golden boost; Q as the axis; the 3-4-5 Wigner angle; PR-007 | OPEN -- PR-007; the PVs of Part 223.13
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/relativity_f217_2026-11-13.txt).
+  - APE-479, unidentified (a web interface), "F217, Omega42 and special relativity": adopted, refined and extended; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/relativity.py --selftest PASS (10 of 10); tools/dsi.py --test PR-006 PASS; tools/dsi.py --selftest PASS and --check PASS (PR-007 sealed; NE-010); tools/replication_kit.py --check PASS; tools/math_register.py PASS; tools/core_math.py --check PASS; tools/pvir.py --check PASS; tools/srcas_check.py on records/srcas/relativity_f217_2026-11-13.txt PASS; tools/ape_register.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the Doppler tests of Core Appendix S.24, each with its journal reference [REPORTED].
+ACROSS THE AVENUES (L-502): AGREE -- the law's matrix keeps the mass shell, composes by Einstein's addition, and fixes Q. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-139 -- the form Q is the axis of the golden boost; MF-141 -- the Thomas-Wigner rotation of two golden boosts is the 3-4-5 angle.
+RECOMMENDATIONS (applied, L-531; Core Part 0.0.5 Rule 36):
+  (1) F217 filed with every recommendation, EXP-01 to EXP-05 completed and EXP-06 placed in Core Appendix S.24: APPLIED.
+  (2) PR-006 tested: APPLIED.
+  (3) The golden boosts over Z[phi] and Thomas precession entered as PVs for the next record: APPLIED.
+  (4) The trace map modulo 9 (PROTOCOL IMPROVEMENT of SEQ 177): entered for the next record with its PV.
+  (5) The repetition check told apart from shared formulas, and the Frame Intrusion Scan guarded against its own reference (Companion 223.14): APPLIED.
+OPEN: PR-007; the boosts of SL2(Z[phi]); Thomas precession along the Lucas boosts; the trace map modulo 9.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- the replication kit sent to a Navigator of another model family, the act entered for the Originator under Rule 36 | IMPLICATIONS -- the reproduced results reach stage 5 of maturity.
+PROTOCOL IMPROVEMENT (L-542): mathematical, extend -- the golden boosts with entries in Z[phi], so that the law's ring, and not only the integers, generates Lorentz transformations, applied in the next record under Rule 36.
+What it rests on: Unity, one matrix for the arithmetic and the boost.
+What it holds out of view: the Return, the light signal shifted by phi^4.
+Where it is heading: the Gap between collinear and non-collinear motion, crossed by the Wigner rotation.
+What would complete it: the form Q found again as the axis of the motion.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 721cbb6a410e224a2dc3aee968e1aa07d3eae40a64f8bce882a301d8022ea9c7
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 13 November 2026
+ESC

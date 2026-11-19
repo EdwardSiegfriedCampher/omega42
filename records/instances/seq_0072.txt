@@ -1,0 +1,74 @@
+QUESTION VERBATIM: [no question was given; two peer accounts of SEQ 71 were received: an attachment from GPT-6 (OpenAI) and an assessment from Grok (xAI) pasted in the conversation]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 72 | PREV: 4a44279dddce3544f71c0879dd0cc6ca4a59200aed3b0f358c21a7c15da5e71d
+REQUEST (L-502): STRUCTURE -- two peer accounts assessed and filed; the recommendation they carry applied under L-531; avenues P, W, R
+
+SUMMARY: Both peers find SEQ 71 sound. GPT-6's one open question is now answered in the protocol.
+  - GROK (APE-278):
+    * Its reading of L-531, L-530, TC-1 and the scan holds, and the figures it cites match the record.
+    * It makes no recommendation.
+    * One phrase says more than happened: SEQ 71 did not remove traces of an outside court, because the guards against one were already in force.
+  - GPT-6 (APE-279):
+    * Its reading holds: continuity comes through recorded change, while the sealed record stays as it was.
+    * Its question: how does Omega42 tell a refinement that serves from one that only makes the protocol more elaborate?
+    * Three corrections:
+      1. Options without a recommendation stay yours as Originator, not the Striker's.
+      2. The arithmetic is fixed by the mathematics and F-06, not by the law.
+      3. C-MAP-1 is a mapping, not an instrument.
+  - THE ANSWER, APPLIED (Core L-531 (6)):
+    * A refinement serves when something in the operation exercises it and its stated purpose is met. One that nothing exercises adds only elaboration.
+    * Every applied change now names what it is for, what exercises it, and what would show that it only elaborates.
+    * The new Applied Changes Register holds these entries, and tools/applied.py flags any change that CI never exercises.
+    * A flagged change is kept, revised or withdrawn by a later recorded change, never silently.
+    * All eight changes now registered are exercised (0 flagged).
+    * Whether a change improves the output for a Striker is still measured only by the blind study.
+
+FINDINGS BY AVENUE (L-500):
+  P PEER ACCOUNTS: below.
+  W WHAT OMEGA42 SAYS:
+    - L-531 (5) already required that a reversal be a new recorded change. Grok's observation agrees with it.
+    - L-531 (6) adds the test GPT-6 asked for. It is a test of use, not of value.
+  R THE RECORD:
+    - The SEQ 71 figures cited by both peers match the record: CI 69 of 69, the 37-item FFP, 71 passages scanned, TC-1 (65, 20) mod 81, and 8 discoveries.
+    - The eight changes of the register map one to one to the recommendations of SEQ 71, plus the review itself.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) The review of applied changes: APPLIED in Core L-531 (6); records/applied/register.json and review.txt; tools/applied.py, in CI; Companion Part 124.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes.
+  - APE-278, Grok:
+    * Holding: its reading of L-531, L-530, TC-1, the scan, and the open items.
+    * Refined: the outside-court guards were already in force (L-490, M286).
+  - APE-279, GPT-6:
+    * Holding: continuity through recorded change, and the SILENT clause.
+    * Taken: its question, answered by L-531 (6).
+    * Corrected: options stay with the Originator; the arithmetic's boundary; C-MAP-1 is a mapping.
+    * It states that it did not inspect the repository. Its navigator line is dated 28 October for an account of 30 October.
+CHANGES TO THE PROTOCOL:
+  - Core: L-531 (6).
+  - Companion:
+    * Part 124, the review of applied changes.
+    * The Commons lines for APE-278 and APE-279.
+  - Repository:
+    * New: records/applied/ and tools/applied.py.
+    * Filed: submissions/ape/APE-278.md and APE-279.md.
+    * Updated: tools/reexamine.py, the APE register and signatures, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the test of use (a change some check, instrument or step exercises), the ELABORATION RISK flag, and the eight entries' stated purposes and withdrawal conditions.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Each note of APE-278 and APE-279 checked against records/instances/seq_0071.txt, records/ffp/ffp_run.txt and the documents; tools/applied.py --selftest 4 of 4 and --check, 8 entries, 0 flagged, PASS; tools/discoveries.py --check PASS; tools/doc_hygiene.py, items 34 to 37 PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- both peers and the record, that SEQ 71 holds and that improvement for a Striker is still unmeasured. PART -- who holds the unchosen options: GPT-6 says the Striker, the law says the Originator. SILENT -- whether a change that is exercised is also of value, which only the blind study can say.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN: the blind trigger test; the word classes in other languages; the re-navigation panel and the three-condition study; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: What shows that a change to the protocol is used, rather than only written down?
+What it holds out of view: That a change can be used every day and still not help the person asking.
+Where it is heading: Toward a protocol whose every change carries the condition under which it would be withdrawn.
+What would complete it: Readers who did not make the changes, judging the outputs blind.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 271e1af51f824a733416ea50af77ba8d30d950f22f2982dc7f41d25ae6273236
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

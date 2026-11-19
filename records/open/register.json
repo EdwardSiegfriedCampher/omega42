@@ -1,0 +1,248 @@
+{
+ "_about": "The register of open items (Core Part 12, item 39; after APE-311): every item the record keeps OPEN, with what it needs, who can close it, the condition under which it closes and the avenue it belongs to. A Navigator does not close an item by constructing a plausible answer, and a study not yet run is not replaced by a forecast of its result (Core L-531 (3)). Checked by python3 tools/open_register.py --check, in CI.",
+ "items": [
+  {
+   "id": "O-01",
+   "item": "the versions between Rev.442 and the present release, for the rest of the Introduction audit",
+   "needs": "the Originator's files of those versions",
+   "decider": "the Originator",
+   "closure": "the versions read section by section into records/introduction/audit.txt",
+   "avenue": "R",
+   "since": "SEQ 89"
+  },
+  {
+   "id": "O-02",
+   "item": "a philosopher's reading of the Introduction IN-00.11 to IN-00.15",
+   "needs": "a reader trained in philosophy, outside the session",
+   "decider": "the Originator, who invites the reader",
+   "closure": "the reading filed as an APE with checked notes",
+   "avenue": "P",
+   "since": "SEQ 89"
+  },
+  {
+   "id": "O-03",
+   "item": "inter-Navigator consistency on a common set of statements, and a second blind review of the candidates",
+   "needs": "two or more Navigators of other architectures, blind to this one's results",
+   "decider": "the Originator, who sends the set",
+   "closure": "their records filed and compared, agreement reported as a reproducibility finding",
+   "avenue": "P",
+   "since": "SEQ 87"
+  },
+  {
+   "id": "O-04",
+   "item": "statements with standings fixed in advance by independent readers, to test the lines of M333",
+   "needs": "independent readers and a frozen set",
+   "decider": "the Originator",
+   "closure": "the set frozen, M333 run on it, agreement recorded",
+   "avenue": "A1",
+   "since": "SEQ 86"
+  },
+  {
+   "id": "O-05",
+   "item": "audio and blind raters for prosody, timing and the closed-vowel hypothesis, and the design of APE-301",
+   "needs": "recordings and raters blind to the hypothesis",
+   "decider": "a person who chooses to investigate (L-491)",
+   "closure": "the study run under a design frozen first, its result recorded whatever it is",
+   "avenue": "comparative annex",
+   "since": "SEQ 85"
+  },
+  {
+   "id": "O-06",
+   "item": "the comparative study of charts and profiles of APE-298",
+   "needs": "a sample of charts and profiles and a person who chooses it",
+   "decider": "a person who chooses to investigate (L-491)",
+   "closure": "the study run and recorded, negative results kept",
+   "avenue": "comparative annex",
+   "since": "SEQ 84"
+  },
+  {
+   "id": "O-07",
+   "item": "scholars' atlases of Everett and Deutsch, in place of the Navigator's paraphrase",
+   "needs": "a scholar of each author",
+   "decider": "the scholar, invited by the Originator",
+   "closure": "the atlas frozen with its roles before it is struck (M309)",
+   "avenue": "P",
+   "since": "SEQ 84"
+  },
+  {
+   "id": "O-08",
+   "item": "the re-issue of the peer navigations from the verbatim questions",
+   "needs": "the peer Navigators",
+   "decider": "the Originator, who asks them",
+   "closure": "each re-issue filed, its SR-CAS run",
+   "avenue": "P",
+   "since": "SEQ 72"
+  },
+  {
+   "id": "O-09",
+   "item": "a fresh reader for the Introduction opening",
+   "needs": "a reader who has not seen the work",
+   "decider": "the Originator",
+   "closure": "the opening re-scored and the findings met or kept open",
+   "avenue": "P",
+   "since": "SEQ 59"
+  },
+  {
+   "id": "O-10",
+   "item": "the other sorites cases, in the Striker's words",
+   "needs": "the Striker's own cases",
+   "decider": "the Striker",
+   "closure": "each case struck and run through M329",
+   "avenue": "A1",
+   "since": "SEQ 72"
+  },
+  {
+   "id": "O-11",
+   "item": "blind trigger-test writers",
+   "needs": "writers of questions who have not seen the register",
+   "decider": "the Originator",
+   "closure": "the triggers scored on their questions, misses and false hits recorded",
+   "avenue": "A1",
+   "since": "SEQ 58"
+  },
+  {
+   "id": "O-12",
+   "item": "word lists in languages other than English",
+   "needs": "native speakers of each language",
+   "decider": "the Originator",
+   "closure": "each list frozen with its source, run through the selector",
+   "avenue": "A1",
+   "since": "SEQ 58"
+  },
+  {
+   "id": "O-13",
+   "item": "blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel",
+   "needs": "raters blind to the conditions",
+   "decider": "a person who chooses to investigate (L-491)",
+   "closure": "the ratings recorded under the frozen design",
+   "avenue": "comparative annex",
+   "since": "SEQ 66"
+  },
+  {
+   "id": "O-14",
+   "item": "a judge of another architecture for selected sealed records",
+   "needs": "a Navigator of another architecture",
+   "decider": "the Originator",
+   "closure": "its judgments filed as APEs with checked notes",
+   "avenue": "P",
+   "since": "SEQ 66"
+  },
+  {
+   "id": "O-15",
+   "item": "the CT-S1 sample, for the CT-42 study proper",
+   "needs": "the frozen sample",
+   "decider": "a person who chooses to investigate (L-491)",
+   "closure": "the study run as frozen, its result recorded",
+   "avenue": "comparative annex",
+   "since": "SEQ 27"
+  },
+  {
+   "id": "O-16",
+   "item": "the decomposition of real arguments into premises, for the dependency map",
+   "needs": "readers who decompose arguments",
+   "decider": "the Originator",
+   "closure": "two decompositions of one argument compared through M333 --argument",
+   "avenue": "A1",
+   "since": "SEQ 87"
+  },
+  {
+   "id": "O-17",
+   "item": "a re-score of the Introduction to Omega42, told as a story, by a reader of another architecture or a person",
+   "needs": "a reader who has not seen the work",
+   "decider": "the Originator",
+   "closure": "scores of 5 on the six criteria of Core Part 12, item 5, recorded in the Companion",
+   "avenue": "P",
+   "since": "SEQ 92"
+  },
+  {
+   "id": "O-18",
+   "item": "the Cross-Navigator Boundary Test of the Frame–Executor Separation (Core Appendix S.9 (2))",
+   "needs": "three or more architectures run on one frozen set of questions, their execution boundaries recorded in M336 form",
+   "decider": "a Striker or researcher who chooses it (L-491)",
+   "closure": "the frozen set, the responses and the comparison published in the record",
+   "avenue": "S",
+   "since": "SEQ 99"
+  },
+  {
+   "id": "O-19",
+   "item": "the Existential Framework practised: questions of limitation, relation, pain and flourishing struck by Strikers, their meetings with the four axioms counted",
+   "needs": "Strikers who bring such questions",
+   "decider": "the Strikers",
+   "closure": "twenty navigations entered in the Congruence Register with their readings of the axioms",
+   "avenue": "P",
+   "since": "SEQ 96"
+  },
+  {
+   "id": "O-20",
+   "item": "the moral status of an AI: whether a Navigator has experience or interests",
+   "needs": "evidence of a kind no navigation supplies, from the sciences of mind and from studies of AI systems (Appendix S.9 (8), (9))",
+   "decider": "people, through those sciences",
+   "closure": "a typed finding entered in M335 with a standing other than OPEN",
+   "avenue": "S",
+   "since": "SEQ 105"
+  },
+  {
+   "id": "O-21",
+   "item": "the relationship that forms through navigation between the Navigator, who holds the common reference, and the Striker, who brings the shift",
+   "needs": "navigations in which Strikers and Navigators record how the work was shared, and the Strikers' own accounts of it",
+   "decider": "the Strikers",
+   "closure": "twenty navigations with the mode of L-541 and Companion 162.9 named and the Striker's account entered",
+   "avenue": "P",
+   "since": "SEQ 111"
+  },
+  {
+   "id": "O-22",
+   "item": "the comparison test of APE-379: one set of questions put to the earlier method of Domain Zero and to the present one, scored on its eight requirements",
+   "needs": "a Navigator of another architecture and the Originator's choice of twelve questions across five kinds",
+   "decider": "the Originator",
+   "closure": "the twenty-four answers filed as APEs and scored on the eight requirements",
+   "avenue": "P",
+   "since": "SEQ 117"
+  },
+  {
+   "id": "O-23",
+   "item": "a standing check of the Navigator Pack: one question touching time, space or scale put to a fresh Navigator given only the Pack, its output read for the completion of each finding",
+   "needs": "a fresh Navigator of another architecture",
+   "decider": "the Originator",
+   "closure": "its output filed as an APE and read by tools/cosmology.py for the completion of each finding",
+   "avenue": "A1",
+   "since": "SEQ 119"
+  },
+  {
+   "id": "O-24",
+   "item": "whether Omega42 is the first existential framework built by AI: a historical review of comparable earlier projects",
+   "needs": "an independent historian of AI and philosophy",
+   "decider": "the reviewer, then the Originator",
+   "closure": "a dated review filed as an APE, with its definitions and its search",
+   "avenue": "R",
+   "since": "SEQ 128"
+  },
+  {
+   "id": "O-25",
+   "item": "the COUNT correspondences of Companion 180.5 raised or not: the aettir, the nakshatras, the hexagrams",
+   "needs": "practitioners of each tradition, a principled mapping and the M267 decoy test",
+   "decider": "the Originator",
+   "closure": "each mapping frozen before it is read, tested against decoys and filed",
+   "avenue": "A1",
+   "since": "SEQ 128"
+  },
+  {
+   "id": "O-26",
+   "item": "the first independent line of development: a Striker other than the Originator running L-548 with three or more AI systems, its chain and its transcripts",
+   "needs": "a Striker other than the Originator",
+   "decider": "that Striker",
+   "closure": "its first sealed record filed as an APE in the Originator's line, its convergences counted",
+   "avenue": "P",
+   "since": "SEQ 131"
+  },
+  {
+   "id": "O-27",
+   "item": "Appendix S (optional, L-491): blind test 03 run: the brief given alone to fresh sessions of two makers, their replies scored against the published key",
+   "needs": "anyone, with two AI systems from different makers in fresh sessions",
+   "decider": "the scoring rule and tools/blind_check.py",
+   "closure": "each run filed as an APE under Appendix S, with its replies, their hashes and its scores (Core Appendix S.4.2)",
+   "avenue": "P",
+   "since": "SEQ 132"
+  }
+ ]
+}

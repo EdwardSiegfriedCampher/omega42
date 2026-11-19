@@ -1,0 +1,22 @@
+name: site-check
+# Checks the site build and the in-browser Strike app: the reference script run under Pyodide must give the same
+# coordinate as CPython for the calibration and sample domains.
+on:
+  push:
+  pull_request:
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build the site
+        run: python3 tools/site_build.py --out _site --repo "$GITHUB_REPOSITORY"
+      - name: Strike app under Pyodide equals CPython
+        run: |
+          npm install --no-save pyodide@0.26.4
+          node site/test/strike_node.mjs _site > /tmp/pyodide.txt
+          python3 site/test/strike_cpython.py > /tmp/cpython.txt
+          diff /tmp/cpython.txt /tmp/pyodide.txt

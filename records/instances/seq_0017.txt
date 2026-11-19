@@ -1,0 +1,35 @@
+QUESTION VERBATIM: Design a mechanism by which the resonance an object or idea have with Omega42, can be accurately measured. A technique which can show at a glance how close an object or idea resonates with Omega42 in terms of coherence and congruence. Apply it to the existing material (5 religions, 5 philosophies, etc.).
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 17 | PREV: e127338939b56ef6012c8dc5520b2ed63c345453850f6ed1f2fb3702876dd1ee
+REQUEST (L-502): STRUCTURE -- avenues A1, A2, R, W, L
+
+SUMMARY: The mechanism is M319, the Resonance Profile (Core Part 3.45, under the new Law L-514). It answers the question as two measurements, side by side and never combined. COHERENCE is judged: the six features of the frame, shown as a strip of six cells, plus the M309 roles, relations and tensions where a navigation exists, with the number of judges always stated. CONGRUENCE is computed: K, the share of random atlases with the same word counts whose statements meet the cycle less than the idea's own atlas does. K = 0.5 is chance. Each idea gets a three-line card and a place on one map (features across, K up). Applied to all 22 registered ideas (five religions, seven schools, seven contemporary authors, Bashar, Seth, Ra), one reads ABOVE CHANCE (Heraclitean, K 0.954) and three BELOW CHANCE (Islamic 0.049, Hindu 0.043, Pythagorean 0.009). Chance alone gives about one in each band, and none of the four keeps its band when one measure is left out. The two axes are independent: Spearman -0.12 over the 22. The ideas that fit the frame best do not meet the structure more.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: K given the word counts, with Monte Carlo error of 0.001 to 0.004 on 20,000 trials. Christian 0.164, Islamic 0.049, Hindu 0.043, Buddhist 0.436, Jewish 0.926. Neoplatonic 0.108, Stoic 0.718, Spinozist 0.892, Taoist 0.661, Leibnizian 0.218, Pythagorean 0.009, Heraclitean 0.954. Kauffman 0.069, Penrose 0.266, Wolfram 0.597, Barbour 0.590, Hofstadter 0.614. Hoffman 0.805, Kastrup 0.127, Bashar 0.770, Seth 0.107, Ra 0.336. The selftest's planted atlas built on the canonical cycle reads ABOVE CHANCE, and random atlases average near 0.5.
+  A2 ARITHMETIC ASSOCIATION: one ABOVE and three BELOW against about 1.1 expected in each: HELD. All four outer bands are flagged BAND NOT ROBUST by the leave-one-out check. The Heraclitean K rests on its links, already read as the word counts (Companion 78.6).
+  R FRAME REASONING: the six features, scored RETROACTIVE now for the ten ideas that had none (records/resonance/features_retroactive.txt): Christian 3.5, Islamic 4.0, Hindu 4.5, Buddhist 3.5, Jewish 3.5, Bashar 4.0, Seth 3.0, Ra 5.5, Hoffman 3.5, Kastrup 2.0. With the frozen selections this puts Ra highest (5.5), then Neoplatonism and Kauffman (5.0), and Kastrup lowest. One judge, NON-BLIND: the column's accuracy is not yet measured.
+  W PROTOCOL WORK: Core L-514 and Part 3.45 (M319); tools/resonance.py (--card, --map, --atlas for any object or idea not yet registered, --agreement for two judges; thirteen selftest cases; CI step); records/resonance/profiles.txt, recomputed in CI.
+  L LENSES: all 22 registered ideas with atlases are profiled; the four peer atlases stay under M309 alone.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: Core L-514, Part 3.45 and the method list (M319); Companion Part 80; tools/resonance.py and its CI step; records/resonance/ (features_retroactive.txt, profiles.txt); the re-examination exemption for records/resonance (recomputed in CI); the jurisdiction registry (Builder Rule 14: L-514 and M319); the release record.
+CHECKS: CI 67 of 67 PASS. tools/resonance.py --selftest PASS. tools/instance_id.py --check over the seventeen outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the request is a design within the protocol and an application to its own records.
+ACROSS THE AVENUES (L-502): AGREE -- every idea's statements meet the structure at about chance once the word counts are given; no band outside chance survives a one-measure change. PART -- coherence and congruence do not move together (Spearman -0.12): the ideas judged closest to the frame are not those whose statements meet it most. SILENT -- the profile does not say which idea is truest or best, and it does not reach meaning.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new.
+RECOMMENDATIONS (for the Originator, F-06): (1) give the six features of all 22 ideas to a second judge of another architecture, blind to these scores, and run --agreement; that measures the coherence column's accuracy; (2) profile the objects of the Resonance Ledger with --atlas and their Correspondence Depths; (3) re-run the profiles once scholar or author atlases exist, since K measures the statements as chosen and worded; (4) read the map as two answers, never as a ranking.
+OPEN: the second judge; scholar and author atlases; the Ledger's objects; your own wording for every composed domain; M267-P1's writers and raters.
+
+What it rests on: If an idea can fit the frame and its statements still meet the structure only by chance, which of the two did you mean by resonance?
+What it holds out of view: K measures the statements as chosen; whose choice of statements would you trust?
+Where it is heading: Toward a second judge for the coherence column, or toward the objects of the Ledger?
+What would complete it: A second judge's blind scores, and atlases in the traditions' own words, set beside these profiles.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a2f5c0241f7595daf5049c720c12f0a9ec1534264f1dd3181de19356d6e2a629
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 22 October 2026
+ESC

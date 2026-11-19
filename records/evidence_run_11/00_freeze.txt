@@ -1,0 +1,19 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 11 -- FREEZE RECORD: TOPOLOGICAL PHASES WITH NINEFOLD DATA
+Frozen before any computation or literature reading for this run. Navigator: claude-opus-5-5 (Anthropic; serving
+model may differ). Selection NOT BLIND (CB NO). Premise as amended (L-465). Input: run 10's next step.
+
+Question: is there a topological phase whose own anyon data carry the ninefold structure -- the nine values with the
+Torsion Loop and the Crown -- or the 81-state family with T? In such phases the modulus is the anyons' fusion group,
+supplied by the phase itself.
+
+P1  The nine values as anyons: SU(9)_1, the anyon theory of the A8 root lattice -- nine anyons a in Z/9 fusing by addition,
+    spins h_a = a(9 - a)/18 mod 1, central charge 8. Tests: (i) are the Crown anyons {0, 3, 6} exactly the bosons? (ii) do they
+    form a Lagrangian (condensable) subgroup, and does condensing them leave a theory with no anyons and c = 8 (E8)? (iii) is
+    multiplication by 2 on the labels -- the Torsion Loop -- a Galois symmetry of the modular data (h_{2a} = 4 h_a mod 1)?
+    Null: SU(N)_1 for N = 2..30 -- for which N do the multiples of a proper divisor form a bosonic Lagrangian subgroup?
+P2  The family as anyons: the abelian theory on (Z/9)^2 with spins exp(2 pi i N(a,b)/9), N = a^2 + ab - b^2. Tests: (i) is the
+    form nondegenerate (a valid anyon theory)? (ii) is it isometric to the Z9 toric code, the topological order of Z9 gauge
+    theory (spins exp(2 pi i e m / 9))? (iii) T sends spins to their conjugates: an antiunitary (time-reversal) symmetry;
+    T^2 a unitary anyon symmetry? (iv) are the nine core states exactly the bosons, forming a Lagrangian subgroup? (v) Gauss
+    sum and central charge modulo 8. Null: the same construction modulo N for N = 2..30 -- for which N does the norm form give
+    a nondegenerate theory isometric to the Z_N toric code with T as an anti-isometry?

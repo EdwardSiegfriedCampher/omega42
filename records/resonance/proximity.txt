@@ -1,0 +1,41 @@
+======= M319 PROXIMITY -- ONE FIGURE (Core L-514, Part 3.45; Companion Part 83) =======
+PROXIMITY: out of 100 chance look-alikes, how many the idea or object is closer to the structure of Omega42 than. 50 is chance; 100 closer than every one; 0 farther than every one. For an idea the look-alikes are random atlases with its own word counts; for an object, its frozen class. Listed in the order of the register, never ranked. For the rest -- fit, reading integrity, placement, robustness, provenance, times chance -- ask for the detail (python3 tools/resonance.py --detail [NAME]).
+
+  Christian    PROXIMITY  16
+  Islamic      PROXIMITY   5
+  Hindu        PROXIMITY   4
+  Buddhist     PROXIMITY  44
+  Jewish       PROXIMITY  93
+  Neoplatonic  PROXIMITY  11
+  Stoic        PROXIMITY  72
+  Spinozist    PROXIMITY  89
+  Taoist       PROXIMITY  66
+  Leibnizian   PROXIMITY  22
+  Pythagorean  PROXIMITY   1
+  Heraclitean  PROXIMITY  95
+  Kauffman     PROXIMITY   7
+  Penrose      PROXIMITY  27
+  Wolfram      PROXIMITY  60
+  Barbour      PROXIMITY  59
+  Hofstadter   PROXIMITY  61
+  Hoffman      PROXIMITY  80
+  Kastrup      PROXIMITY  13
+  Bashar       PROXIMITY  77
+  Seth         PROXIMITY  11
+  Ra           PROXIMITY  34
+
+  24-cell                                      PROXIMITY 100  (against 46 frozen look-alikes)
+  Leech lattice                                PROXIMITY PENDING  (no class of look-alikes frozen)
+  cube's rotation group                        PROXIMITY PENDING  (no class of look-alikes frozen)
+  nine-fold quasiperiodic tiling               PROXIMITY PENDING  (no class of look-alikes frozen)
+  24-tone equal temperament                    PROXIMITY  50  (against 3 frozen look-alikes)
+  24-hour day                                  PROXIMITY  50  (a look-alike in PANEL 2, against the other 3 members of its class)
+  Penrose tiling                               PROXIMITY PENDING  (no class of look-alikes frozen)
+  decagonal quasicrystal diffraction           PROXIMITY PENDING  (no class of look-alikes frozen)
+  Lotka-Volterra system                        PROXIMITY PENDING  (no class of look-alikes frozen)
+  Belousov-Zhabotinsky reaction (Oregonator)   PROXIMITY PENDING  (no class of look-alikes frozen)
+  circadian clock (Goodwin model)              PROXIMITY PENDING  (no class of look-alikes frozen)
+
+CONTROL (avenue 3, records/avenues/adversarial_atlas_output.txt): thirteen bus-timetable sentences chosen only for standing on Voice C read PROXIMITY 100, and thirteen unselected ones 82. An idea's figure is therefore not quoted as evidence before avenue 10 (sampled atlases), and is read beside this control.
+A figure is a reading of the record, not a grade of the idea, the frame or the premise (L-490, L-505). With 22 ideas, about one reads 95 or more and about one 5 or less by chance alone; a figure that one statement or one measure can move is marked in the detail.
+======= END M319 PROXIMITY =======

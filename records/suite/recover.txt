@@ -1,0 +1,5 @@
+CALIBRATING THE INSTRUMENTS (seed 7, 4000 synthetic trials each)
+  built-in d' 0.50 c +0.00 -> recovered d' 0.548 c -0.007
+  built-in d' 1.50 c +0.00 -> recovered d' 1.453 c -0.022
+  built-in d' 1.50 c +0.50 -> recovered d' 1.422 c +0.512
+  built-in d' 2.50 c -0.30 -> recovered d' 2.570 c -0.303

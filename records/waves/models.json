@@ -1,0 +1,65 @@
+{
+ "_about": "The Universal Transfer-Matrix Record of each wave model (Companion Part 228; F221): S the symbolic sequence, H the wave equation, T the transfer matrix, its matrix group, I the dynamical or topological invariant, P the predictions and observables, E the evidence.",
+ "models": [
+  {
+   "model": "electrons, on-site Fibonacci potential",
+   "S": "the Fibonacci word, a -> ab, b -> a",
+   "H": "(H psi)_n = -psi_(n+1) - psi_(n-1) + v_n psi_n",
+   "T": "[[E - v, -1], [1, 0]]",
+   "group": "SL2(R)",
+   "I": "V^2/4 (MF-129)",
+   "P": "spectrum, gap labels, scaling (MF-131, MF-132, MF-158)",
+   "E": "tools/fibonacci_hamiltonian.py; tools/spectra.py; RET-001, RET-002"
+  },
+  {
+   "model": "electrons, off-diagonal Fibonacci hopping",
+   "S": "the Fibonacci word on the bonds",
+   "H": "t_n psi_(n+1) + t_(n-1) psi_(n-1) = E psi_n",
+   "T": "[[E/t, -1/t], [t, 0]]",
+   "group": "SL2(R)",
+   "I": "(1/4)(t_a/t_b - t_b/t_a)^2 (MF-151)",
+   "P": "the six-cycle at E = 0 (MF-153)",
+   "E": "tools/waves.py; tools/wave_atlas.py"
+  },
+  {
+   "model": "light in a dielectric multilayer",
+   "S": "the Fibonacci word on the layers",
+   "H": "Maxwell's equations at normal incidence",
+   "T": "[[cos d, (i/n) sin d], [i n sin d, cos d]]",
+   "group": "SL2(C), real form SL2(R) by diag(1, i)",
+   "I": "(1/4)(nA/nB - nB/nA)^2 sin^2 dA sin^2 dB (MF-146)",
+   "P": "transmittance, the six-cycle, PR-008",
+   "E": "tools/optics.py; Core Appendix S.25"
+  },
+  {
+   "model": "sound in a layered medium",
+   "S": "the Fibonacci word on the layers",
+   "H": "the acoustic wave equation at normal incidence",
+   "T": "[[cos d, i Z sin d], [i sin d / Z, cos d]]",
+   "group": "SL2(C), real form SL2(R) by diag(1, i)",
+   "I": "as for light with n for 1/Z (MF-152)",
+   "P": "transmittance, the six-cycle",
+   "E": "tools/waves.py; Core Appendix S.26"
+  },
+  {
+   "model": "the phason pump",
+   "S": "the Fibonacci word with its phason",
+   "H": "the Kraus family of smooth potentials",
+   "T": "the Bloch Hamiltonian on the torus of k and the phason",
+   "group": "U(L) on the filled bands",
+   "I": "the Chern number C = -q (topological, not dynamical)",
+   "P": "the pumped particle number per cycle (MF-154; PR-009)",
+   "E": "tools/waves.py; tools/wave_atlas.py; Core Appendix S.26"
+  },
+  {
+   "model": "exciton-polaritons (next construction)",
+   "S": "the Fibonacci word, two letters",
+   "H": "the coupled photon-exciton equations",
+   "T": "to be derived; a two-component reduction to be tested",
+   "group": "to be identified",
+   "I": "to be computed",
+   "P": "the polariton spectrum",
+   "E": "Core Appendix S.23 (1)"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+BLIND TEST 02 -- BRIEF FOR AN INDEPENDENT MAKER (give this text alone, in a fresh session with memory off; attach nothing else)
+
+An abelian anyon theory has 81 anyons labelled by pairs (a, b) with a, b in Z/9. Fusion is addition of labels mod 9.
+The topological spin of the anyon (a, b) is h(a, b) = 4(a^2 + b^2)/9 mod 1.
+
+1. Find every invertible linear map A of the labels (a 2 x 2 matrix over Z/9) that preserves every spin, h(Ax) = h(x),
+   and every one that reverses every spin, h(Ax) = -h(x) mod 1 (a time-reversal symmetry). Give the counts.
+2. For the spin-reversing maps of the largest order: give that order, and the cycle structure of one such map on the 81
+   labels (how many cycles of each length).
+3. For those maps, give the trace and determinant mod 9, and state any quadratic relation A^2 = sA + tI they satisfy.
+4. Show your computation (code or working). Say whether any value was estimated rather than computed.

@@ -1,0 +1,20 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 10 -- FREEZE RECORD: A MODULUS SUPPLIED BY PHYSICS
+Frozen before any computation or literature reading for this run. Navigator: claude-opus-5-5 (Anthropic; serving
+model may differ). Selection NOT BLIND (CB NO). Premise as amended (L-465). Input: run 09's next step.
+
+Question: is there a physical observable, in a system that carries the golden law intrinsically, that physics itself counts
+modulo 8 (or 24)? Candidate frozen now: two-dimensional topological phases. Two moduli are supplied by physics there:
+(i) the chiral central charge c is fixed by the anyons' braiding data only modulo 8 (Gauss-Milgram sum); (ii) modular
+invariance fixes the framing phase exp(-2 pi i c/24), a modulus of 24. The golden law is intrinsic to Fibonacci anyons
+(fusion tau x tau = 1 + tau, quantum dimension phi).
+
+K1  The Fibonacci theory: from the fusion rule alone, d_tau = phi; from the Gauss-Milgram sum with theta_tau = exp(+-4 pi i/5),
+    c = +-14/5 modulo 8. Prediction frozen: the golden quantum dimension enters the sum and fixes c modulo 8.
+K2  The E8 link: the affine algebras (G2)_1 (Fibonacci), (F4)_1 (its conjugate) and (E8)_1, central charges from the
+    Sugawara formula c = k dim / (k + h); prediction frozen: 14/5 + 26/5 = 8 = c(E8_1), and E8_1 is trivial in the mod-8
+    layer (no anyons, c = 0 mod 8) but not in the mod-24 layer (exp(-2 pi i 8/24) is a primitive cube root of unity).
+K3  The mod-24 layer: for n copies of E8_1, the framing phase closes exactly when 3 | n (c = 24, the dimension of the Leech
+    lattice and the central charge of its conformal field theory).
+K4  Literature: experimental or quantum-processor realizations of Fibonacci anyons or the doubled Fibonacci order.
+Rule from run 07: a frozen manifestation counts when the object supplies its own modulus. Here the moduli 8 and 24 are
+supplied by physics; the 24-cycle of the family and the modulus 9 are not expected.

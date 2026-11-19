@@ -1,0 +1,23 @@
+PILOT 02 -- revised screen C11' (freeze SHA-256 in 02_freeze_sha256.txt)
+P0 family T mod 9                            J1 True  J2 True  J3 True          | C11' PASS | census {1: 1, 24: 3, 8: 1}; anti-invariant form (1, 1, 8)
+P1 all 54 conjugates of T in GL2(Z/9)        J1 True  J2 True  J3 True          | C11' PASS | every conjugate screened
+P2 the 8 powers T^k, gcd(k, 24) = 1          J1 True  J2 True  J3 True          | C11' PASS | k = 1, 5, 7, 11, 13, 17, 19, 23
+D1 Fibonacci mod 18 (design case)            J1 False J2 True  J3 not evaluated | C11' FAIL | census {1: 1, 24: 13, 8: 1, 3: 1}
+H1 Fibonacci mod 27                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 8: 1, 24: 3, 72: 9}
+H1 Fibonacci mod 36                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 3: 1, 6: 2, 8: 1, 24: 53}
+H1 Fibonacci mod 45                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 4: 1, 8: 5, 20: 1, 24: 15, 40: 4, 120: 12}
+H1 Fibonacci mod 63                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 8: 1, 16: 27, 24: 3, 48: 72}
+H1 Fibonacci mod 72                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 3: 1, 6: 2, 8: 1, 12: 4, 24: 213}
+H1 Fibonacci mod 81                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 8: 1, 24: 3, 72: 9, 216: 27}
+H1 Fibonacci mod 90                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 3: 1, 4: 1, 8: 5, 12: 1, 20: 1, 24: 65, 40: 4, 60: 1, 120: 52}
+H1 Fibonacci mod 99                          J1 False J2 False J3 not evaluated | C11' FAIL | census {1: 1, 5: 2, 8: 1, 10: 11, 24: 3, 40: 24, 120: 72}
+H2 53 other recurrences mod 9                J1 True  J2 True  J3 True          | C11' PASS | passing (p, q): [(1, 4), (1, 7), (2, 1), (2, 4), (2, 7), (4, 4), (4, 7), (5, 4), (5, 7), (7, 1), (7, 4), (7, 7), (8, 1), (8, 4), (8, 7)]; of these conjugate to a power of T: [(2, 1), (7, 1), (8, 1)]
+H3 family x two-state flip                   J1 False J2 None  J3 not evaluated | C11' FAIL | census {2: 1, 8: 2, 24: 6}
+H4 all 3888 matrices of GL2(Z/9)             J1 None  J2 None  J3 True          | C11' FAIL | 864 pass C11'; 216 of them are conjugates of a power of T coprime to 24 (the family); outside the family: 648
+H5 string                                    J1 False J2 None  J3 not evaluated | C11' FAIL | no finite state space with a census
+H5 closed pipe                               J1 False J2 None  J3 not evaluated | C11' FAIL | no finite state space with a census
+H5 spin-1/2, 30 degrees per step             J1 False J2 None  J3 not evaluated | C11' FAIL | state space is the qubit sphere; U^12 = -I but no census 1+8+24+24+24
+H5 24-site ring                              J1 False J2 None  J3 not evaluated | C11' FAIL | census {24: 1}
+H5 day cycle                                 J1 False J2 None  J3 not evaluated | C11' FAIL | no finite state space with a census
+H5 SU(9)_1 twist                             J1 False J2 None  J3 not evaluated | C11' FAIL | order 9
+CALIBRATION: FAIL -- positives PASS; held-out nulls passing: ['H2']; design case D1: FAIL

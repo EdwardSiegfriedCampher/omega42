@@ -1,0 +1,13 @@
+# An argument for M333 --argument (Core Part 3.59; Companion Part 138.4). P lines are premises, C lines conclusions;
+# "(given)" marks the argument's own assumption; "| from P1, P2 ; from P3" lists the routes to a conclusion.
+P1 (given): The law is T(a, b) = (b, a + b), read modulo 9.
+P2: T^24 = I (mod 9)
+P3: T^12 = I (mod 9)
+P4: T^12 = -I (mod 9)
+P5: This person missed three agreed deadlines in the last month.
+C1: Every state returns to itself after 24 steps. | from P1, P2
+C2: Every state returns to itself after 12 steps. | from P1, P3
+C3: Twelve steps carry every state to its mirror. | from P1, P3 ; from P1, P4
+C4: The mirror of the mirror is the start. | from C3
+C5: This person is unreliable. | from P5
+C6: The law has a mirror at half its period. | from P3

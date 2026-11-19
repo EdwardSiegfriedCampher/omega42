@@ -1,0 +1,305 @@
+======= M319 RESONANCE PROFILES (Core Part 3.45, L-514; Companion Part 80) =======
+Two answers, side by side and never combined: COHERENCE, judged against the frame (CDT-C); CONGRUENCE, computed against chance (CDT-A). 20000 trials per null; K = 0.5 is chance.
+
+CHRISTIAN    [CH] NAV-2026-0011
+  PROXIMITY 16 -- closer to the structure than 16 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.86 -- its statements meet the structure 0.86 times as often as chance (a chance atlas of this size lies between 0.72 and 1.29 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 60/60 | FIT 0.58 (R 1.00, L 0.75, T 3) | K 0.164 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (7, 8), n = (32, 196, 61) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 46 of 46 | audit 9 of 9 -- 60 of 60 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐●○●●○ 3.5/6 (0.58) RETROACTIVE | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.164 +/- 0.003 given word counts [---#------|---------] AT CHANCE | leave one measure out 0.05 to 0.40 (BAND NOT ROBUST) | uniform K 0.191 | HOME 1 SEEDS 1 LINKS 10 MIRRORS 0 of 13 statements | one statement left out 0.08 to 0.28
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen RETROACTIVE; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/christian.txt
+
+ISLAMIC      [IS] NAV-2026-0012
+  PROXIMITY 5 -- closer to the structure than 5 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.75 -- its statements meet the structure 0.75 times as often as chance (a chance atlas of this size lies between 0.75 and 1.27 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 59/59 | FIT 0.67 (R 1.00, L 0.875, T 3) | K 0.049 BELOW CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 6), n = (7, 48, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 45 of 45 | audit 9 of 9 -- 59 of 59 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐●○●●◐ 4/6 (0.67) RETROACTIVE | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.049 +/- 0.002 given word counts [#---------|---------] BELOW CHANCE | leave one measure out 0.01 to 0.26 (BAND NOT ROBUST) | uniform K 0.174 | HOME 5 SEEDS 0 LINKS 8 MIRRORS 0 of 14 statements | one statement left out 0.02 to 0.23 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen RETROACTIVE; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/islamic.txt
+
+HINDU        [HI] NAV-2026-0013
+  PROXIMITY 4 -- closer to the structure than 4 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.70 -- its statements meet the structure 0.70 times as often as chance (a chance atlas of this size lies between 0.70 and 1.39 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 59/59 | FIT 0.75 (R 1.00, L 0.75, T 3) | K 0.043 BELOW CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 5), n = (7, 46, 16) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 45 of 45 | audit 9 of 9 -- 59 of 59 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●●◐◐ 4.5/6 (0.75) RETROACTIVE | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.043 +/- 0.001 given word counts [#---------|---------] BELOW CHANCE | leave one measure out 0.04 to 0.10 (BAND NOT ROBUST) | uniform K 0.029 | HOME 3 SEEDS 0 LINKS 5 MIRRORS 0 of 13 statements | one statement left out 0.04 to 0.09 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen RETROACTIVE; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/hindu.txt
+
+BUDDHIST     [BU] NAV-2026-0014
+  PROXIMITY 44 -- closer to the structure than 44 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.97 -- its statements meet the structure 0.97 times as often as chance (a chance atlas of this size lies between 0.71 and 1.29 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 59/59 | FIT 0.58 (R 1.00, L 1, T 3) | K 0.436 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 2), n = (7, 49, 16) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 45 of 45 | audit 9 of 9 -- 59 of 59 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●○◐●●○ 3.5/6 (0.58) RETROACTIVE | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 1 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.436 +/- 0.004 given word counts [--------#-|---------] AT CHANCE | leave one measure out 0.26 to 0.61 | uniform K 0.647 | HOME 3 SEEDS 2 LINKS 10 MIRRORS 0 of 13 statements | one statement left out 0.21 to 0.58
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen RETROACTIVE; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/buddhist.txt
+
+JEWISH       [JE] NAV-2026-0015
+  PROXIMITY 93 -- closer to the structure than 93 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.24 -- its statements meet the structure 1.24 times as often as chance (a chance atlas of this size lies between 0.70 and 1.32 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 59/59 | FIT 0.58 (R 1.00, L 0.875, T 3) | K 0.926 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 1), n = (7, 47, 15) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 45 of 45 | audit 9 of 9 -- 59 of 59 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐●○◐●◐ 3.5/6 (0.58) RETROACTIVE | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.926 +/- 0.002 given word counts [----------|-------#-] AT CHANCE | leave one measure out 0.76 to 0.95 | uniform K 0.919 | HOME 5 SEEDS 1 LINKS 7 MIRRORS 3 of 13 statements | one statement left out 0.69 to 0.96 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen RETROACTIVE; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/jewish.txt
+
+NEOPLATONIC  [NE] NAV-2026-0016
+  PROXIMITY 11 -- closer to the structure than 11 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.64 -- its statements meet the structure 0.64 times as often as chance (a chance atlas of this size lies between 0.48 and 1.61 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 61/61 | FIT 0.83 (R 1.00, L 0.875, T 3) | K 0.108 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 6), n = (7, 57, 20) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 47 of 47 | audit 9 of 9 -- 61 of 61 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●●●●◐◐ 5/6 (0.83) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.108 +/- 0.002 given word counts [--#-------|---------] AT CHANCE | leave one measure out 0.10 to 0.18 | uniform K 0.066 | HOME 2 SEEDS 0 LINKS 2 MIRRORS 0 of 9 statements | one statement left out 0.05 to 0.20
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/neoplatonic.txt
+
+STOIC        [ST] NAV-2026-0017
+  PROXIMITY 72 -- closer to the structure than 72 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.23 -- its statements meet the structure 1.23 times as often as chance (a chance atlas of this size lies between 0.56 and 1.34 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 61/61 | FIT 0.75 (R 1.00, L 0.75, T 3) | K 0.718 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 3), n = (7, 51, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 47 of 47 | audit 9 of 9 -- 61 of 61 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●○●●●◐ 4.5/6 (0.75) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.718 +/- 0.003 given word counts [----------|---#-----] AT CHANCE | leave one measure out 0.39 to 0.82 | uniform K 0.820 | HOME 2 SEEDS 1 LINKS 8 MIRRORS 0 of 9 statements | one statement left out 0.39 to 0.85
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/stoic.txt
+
+SPINOZIST    [SP] NAV-2026-0018
+  PROXIMITY 89 -- closer to the structure than 89 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.60 -- its statements meet the structure 1.60 times as often as chance (a chance atlas of this size lies between 0.40 and 1.60 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P5 | RI 61/61 | FIT 0.75 (R 1.00, L 1, T 3) | K 0.892 AT CHANCE | IND C | J1
+  1 PLACEMENT: P5, state (8, 5), n = (7, 55, 19) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 47 of 47 | audit 9 of 9 -- 61 of 61 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●○●● 4.5/6 (0.75) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 1 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.892 +/- 0.002 given word counts [----------|------#--] AT CHANCE | leave one measure out 0.68 to 0.96 (BAND NOT ROBUST) | uniform K 0.698 | HOME 5 SEEDS 1 LINKS 2 MIRRORS 0 of 9 statements | one statement left out 0.61 to 0.96 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/spinozist.txt
+
+TAOIST       [TA] NAV-2026-0019
+  PROXIMITY 66 -- closer to the structure than 66 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.08 -- its statements meet the structure 1.08 times as often as chance (a chance atlas of this size lies between 0.62 and 1.55 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 61/61 | FIT 0.75 (R 1.00, L 1, T 3) | K 0.661 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 8), n = (7, 52, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 47 of 47 | audit 9 of 9 -- 61 of 61 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●●●●◐○ 4.5/6 (0.75) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 1 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.661 +/- 0.003 given word counts [----------|--#------] AT CHANCE | leave one measure out 0.02 to 0.91 (BAND NOT ROBUST) | uniform K 0.251 | HOME 1 SEEDS 0 LINKS 6 MIRRORS 0 of 9 statements | one statement left out 0.10 to 0.82
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/taoist.txt
+
+LEIBNIZIAN   [LE] NAV-2026-0020
+  PROXIMITY 22 -- closer to the structure than 22 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.76 -- its statements meet the structure 0.76 times as often as chance (a chance atlas of this size lies between 0.51 and 1.78 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 61/61 | FIT 0.75 (R 1.00, L 0.875, T 3) | K 0.218 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 1), n = (7, 56, 19) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 47 of 47 | audit 9 of 9 -- 61 of 61 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●●●○◐● 4.5/6 (0.75) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.218 +/- 0.003 given word counts [----#-----|---------] AT CHANCE | leave one measure out 0.17 to 0.38 | uniform K 0.157 | HOME 2 SEEDS 0 LINKS 1 MIRRORS 0 of 7 statements | one statement left out 0.09 to 0.38
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/leibnizian.txt
+
+PYTHAGOREAN  [PY] NAV-2026-0021
+  PROXIMITY 1 -- closer to the structure than 1 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.45 -- its statements meet the structure 0.45 times as often as chance (a chance atlas of this size lies between 0.60 and 1.50 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 65/65 | FIT 0.67 (R 1.00, L 0.75, T 3) | K 0.009 BELOW CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 6), n = (7, 57, 19) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 51 of 51 | audit 9 of 9 -- 65 of 65 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●◐○● 4/6 (0.67) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.009 +/- 0.001 given word counts [#---------|---------] BELOW CHANCE | leave one measure out 0.01 to 0.14 (BAND NOT ROBUST) | uniform K 0.030 | HOME 2 SEEDS 0 LINKS 1 MIRRORS 0 of 9 statements | one statement left out 0.00 to 0.16 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/pythagorean.txt
+
+HERACLITEAN  [HE] NAV-2026-0022
+  PROXIMITY 95 -- closer to the structure than 95 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.37 -- its statements meet the structure 1.37 times as often as chance (a chance atlas of this size lies between 0.72 and 1.30 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 65/65 | FIT 0.67 (R 1.00, L 0.75, T 3) | K 0.954 ABOVE CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 6), n = (7, 57, 20) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 51 of 51 | audit 9 of 9 -- 65 of 65 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●○●●○● 4/6 (0.67) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.954 +/- 0.001 given word counts [----------|--------#] ABOVE CHANCE | leave one measure out 0.86 to 0.98 (BAND NOT ROBUST) | uniform K 0.998 | HOME 2 SEEDS 1 LINKS 13 MIRRORS 3 of 10 statements | one statement left out 0.90 to 0.98 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/philosophy_selection.txt; atlas records/frameworks/heraclitean.txt
+
+KAUFFMAN     [KA] NAV-2026-0023
+  PROXIMITY 7 -- closer to the structure than 7 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.77 -- its statements meet the structure 0.77 times as often as chance (a chance atlas of this size lies between 0.60 and 1.38 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 66/66 | FIT 0.83 (R 1.00, L 0.875, T 3) | K 0.069 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 3), n = (7, 51, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 52 of 52 | audit 9 of 9 -- 66 of 66 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●●◐● 5/6 (0.83) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.069 +/- 0.002 given word counts [-#--------|---------] AT CHANCE | leave one measure out 0.01 to 0.32 (BAND NOT ROBUST) | uniform K 0.452 | HOME 1 SEEDS 0 LINKS 8 MIRRORS 0 of 9 statements | ATLAS PARAPHRASED | one statement left out 0.04 to 0.14 (BAND NOT ROBUST)
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/contemporary_selection.txt; atlas records/frameworks/kauffman.txt
+
+PENROSE      [PE] NAV-2026-0024
+  PROXIMITY 27 -- closer to the structure than 27 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.85 -- its statements meet the structure 0.85 times as often as chance (a chance atlas of this size lies between 0.49 and 1.46 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 66/66 | FIT 0.75 (R 1.00, L 0.75, T 3) | K 0.266 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 7), n = (7, 50, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 52 of 52 | audit 9 of 9 -- 66 of 66 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐◐◐●●● 4.5/6 (0.75) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.266 +/- 0.003 given word counts [-----#----|---------] AT CHANCE | leave one measure out 0.19 to 0.35 | uniform K 0.290 | HOME 2 SEEDS 0 LINKS 5 MIRRORS 0 of 9 statements | ATLAS PARAPHRASED | one statement left out 0.12 to 0.42
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/contemporary_selection.txt; atlas records/frameworks/penrose.txt
+
+WOLFRAM      [WO] NAV-2026-0025
+  PROXIMITY 60 -- closer to the structure than 60 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.13 -- its statements meet the structure 1.13 times as often as chance (a chance atlas of this size lies between 0.49 and 1.62 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 66/66 | FIT 0.67 (R 1.00, L 0.75, T 3) | K 0.597 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 7), n = (7, 50, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 52 of 52 | audit 9 of 9 -- 66 of 66 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●○◐● 4/6 (0.67) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.75 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.597 +/- 0.003 given word counts [----------|#--------] AT CHANCE | leave one measure out 0.34 to 0.77 | uniform K 0.378 | HOME 4 SEEDS 0 LINKS 3 MIRRORS 0 of 9 statements | ATLAS PARAPHRASED | one statement left out 0.47 to 0.66
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/contemporary_selection.txt; atlas records/frameworks/wolfram.txt
+
+BARBOUR      [BA] NAV-2026-0026
+  PROXIMITY 59 -- closer to the structure than 59 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.01 -- its statements meet the structure 1.01 times as often as chance (a chance atlas of this size lies between 0.25 and 2.02 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 66/66 | FIT 0.67 (R 1.00, L 0.875, T 3) | K 0.590 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 7), n = (7, 50, 17) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 52 of 52 | audit 9 of 9 -- 66 of 66 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●◐○● 4/6 (0.67) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.590 +/- 0.003 given word counts [----------|#--------] AT CHANCE | leave one measure out 0.47 to 0.70 | uniform K 0.212 | HOME 3 SEEDS 1 LINKS 0 MIRRORS 0 of 9 statements | ATLAS PARAPHRASED | one statement left out 0.41 to 0.69
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/contemporary_selection.txt; atlas records/frameworks/barbour.txt
+
+HOFSTADTER   [HO] NAV-2026-0027
+  PROXIMITY 61 -- closer to the structure than 61 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.14 -- its statements meet the structure 1.14 times as often as chance (a chance atlas of this size lies between 0.57 and 1.42 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE P8 | RI 66/66 | FIT 0.58 (R 1.00, L 0.875, T 3) | K 0.614 AT CHANCE | IND C | J1
+  1 PLACEMENT: P8, state (8, 4), n = (7, 53, 18) -- depth 1, universal, NOT A FINDING
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): M310 5 of 5 | format 52 of 52 | audit 9 of 9 -- 66 of 66 checks evaluated, recomputed now
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐○◐●◐● 3.5/6 (0.58) A PRIORI | ROLES 1.00 [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS 0.875 | TENSIONS 3
+  4 CONGRUENCE (computed, CDT-A): K 0.614 +/- 0.003 given word counts [----------|-#-------] AT CHANCE | leave one measure out 0.38 to 0.73 | uniform K 0.440 | HOME 3 SEEDS 0 LINKS 5 MIRRORS 0 of 9 statements | ATLAS PARAPHRASED | one statement left out 0.26 to 0.78
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles frozen before the atlas was struck; independence C (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/frameworks/contemporary_selection.txt; atlas records/frameworks/hofstadter.txt
+
+HOFFMAN      [HF] lens only (no navigation)
+  PROXIMITY 80 -- closer to the structure than 80 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.10 -- its statements meet the structure 1.10 times as often as chance (a chance atlas of this size lies between 0.55 and 1.65 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE -- | RI -- | FIT 0.58 | K 0.805 AT CHANCE | IND - | J1
+  1 PLACEMENT: NONE (no navigation; the atlas alone is profiled)
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): NOT APPLICABLE (no reading)
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐◐◐○●● 3.5/6 (0.58) RETROACTIVE | ROLES NOT RECORDED [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS NOT RECORDED | TENSIONS NOT RECORDED
+  4 CONGRUENCE (computed, CDT-A): K 0.805 +/- 0.003 given word counts [----------|-----#---] AT CHANCE | leave one measure out 0.60 to 0.92 | uniform K 0.577 | HOME 3 SEEDS 1 LINKS 2 MIRRORS 0 of 8 statements | ATLAS PARAPHRASED | one statement left out 0.33 to 0.86
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles NONE; independence - (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/hoffman.txt
+
+KASTRUP      [KS] lens only (no navigation)
+  PROXIMITY 13 -- closer to the structure than 13 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.80 -- its statements meet the structure 0.80 times as often as chance (a chance atlas of this size lies between 0.57 and 1.38 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE -- | RI -- | FIT 0.33 | K 0.127 AT CHANCE | IND - | J1
+  1 PLACEMENT: NONE (no navigation; the atlas alone is profiled)
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): NOT APPLICABLE (no reading)
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ○○●◐◐○ 2/6 (0.33) RETROACTIVE | ROLES NOT RECORDED [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS NOT RECORDED | TENSIONS NOT RECORDED
+  4 CONGRUENCE (computed, CDT-A): K 0.127 +/- 0.002 given word counts [--#-------|---------] AT CHANCE | leave one measure out 0.02 to 0.46 (BAND NOT ROBUST) | uniform K 0.407 | HOME 0 SEEDS 0 LINKS 7 MIRRORS 0 of 8 statements | ATLAS PARAPHRASED | one statement left out 0.13 to 0.19
+  5 PROVENANCE: atlas PARAPHRASED by the Navigator; roles NONE; independence - (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/kastrup.txt
+
+BASHAR       [BS] lens only (no navigation)
+  PROXIMITY 77 -- closer to the structure than 77 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 1.12 -- its statements meet the structure 1.12 times as often as chance (a chance atlas of this size lies between 0.71 and 1.30 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE -- | RI -- | FIT 0.67 | K 0.770 AT CHANCE | IND - | J1
+  1 PLACEMENT: NONE (no navigation; the atlas alone is profiled)
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): NOT APPLICABLE (no reading)
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●○●●●○ 4/6 (0.67) RETROACTIVE | ROLES NOT RECORDED [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS NOT RECORDED | TENSIONS NOT RECORDED
+  4 CONGRUENCE (computed, CDT-A): K 0.770 +/- 0.003 given word counts [----------|----#----] AT CHANCE | leave one measure out 0.58 to 0.91 | uniform K 0.839 | HOME 2 SEEDS 1 LINKS 13 MIRRORS 3 of 14 statements | one statement left out 0.42 to 0.85
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles NONE; independence - (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas tools/bashar_lens.py (the M308 atlas)
+
+SETH         [SE] lens only (no navigation)
+  PROXIMITY 11 -- closer to the structure than 11 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.70 -- its statements meet the structure 0.70 times as often as chance (a chance atlas of this size lies between 0.56 and 1.40 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE -- | RI -- | FIT 0.50 | K 0.107 AT CHANCE | IND - | J1
+  1 PLACEMENT: NONE (no navigation; the atlas alone is profiled)
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): NOT APPLICABLE (no reading)
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ◐○●◐●○ 3/6 (0.50) RETROACTIVE | ROLES NOT RECORDED [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS NOT RECORDED | TENSIONS NOT RECORDED
+  4 CONGRUENCE (computed, CDT-A): K 0.107 +/- 0.002 given word counts [--#-------|---------] AT CHANCE | leave one measure out 0.12 to 0.15 | uniform K 0.211 | HOME 1 SEEDS 0 LINKS 4 MIRRORS 0 of 8 statements | one statement left out 0.08 to 0.25
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles NONE; independence - (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/seth.txt
+
+RA           [RA] lens only (no navigation)
+  PROXIMITY 34 -- closer to the structure than 34 in 100 chance atlases with the same word counts (50 is chance); the one figure, congruence; the rows below on request
+  CONTROL: thirteen bus-timetable sentences chosen for Voice C read PROXIMITY 100, and thirteen unselected ones 82 (avenue 3, records/avenues/adversarial_atlas_output.txt); not quoted as evidence before avenue 10
+  TIMES CHANCE 0.87 -- its statements meet the structure 0.87 times as often as chance (a chance atlas of this size lies between 0.44 and 1.74 nine times in ten, so the same figure means more for one atlas than another)
+  GLANCE -- | RI -- | FIT 0.92 | K 0.336 AT CHANCE | IND - | J1
+  1 PLACEMENT: NONE (no navigation; the atlas alone is profiled)
+  2 READING INTEGRITY (computed checks of the reading, counted, never weighted): NOT APPLICABLE (no reading)
+  3 FIT (judged, CDT-C, 1 judge, NON-BLIND): FEATURES ●◐●●●● 5.5/6 (0.92) RETROACTIVE | ROLES NOT RECORDED [RETIRED as a measure: control texts reach 1.00, avenue 2] | RELATIONS NOT RECORDED | TENSIONS NOT RECORDED
+  4 CONGRUENCE (computed, CDT-A): K 0.336 +/- 0.003 given word counts [------#---|---------] AT CHANCE | leave one measure out 0.33 to 0.42 | uniform K 0.144 | HOME 2 SEEDS 0 LINKS 2 MIRRORS 0 of 8 statements | one statement left out 0.21 to 0.45
+  5 PROVENANCE: atlas QUOTED from the sources its first line names; roles NONE; independence - (B blind, S same Navigator, C contaminated, - none attempted); judges 1, agreement NOT MEASURED
+  SOURCES: features records/resonance/features_retroactive.txt; atlas records/frameworks/ra.txt
+
+MAP (M319): FEATURES share across, CONGRUENCE PERCENTILE K up; two axes side by side, never combined (L-514)
+ 1.0 |  .      .      .      .      .      .      .      .    HE       .      .      .      .    
+ 0.9 |  .      .      .      .      .      .      .    JE       .    SP       .      .      .    
+ 0.8 |  .      .      .      .      .      .      .    HF     BS       .      .      .      .    
+ 0.7 |  .      .      .      .      .      .      .      .      .    ST/TA    .      .      .    
+ 0.6 |  .      .      .      .      .      .      .    HO     WO/BA    .      .      .      .    
+ 0.5 |  -      -      -      -      -      -      -      -      -      -      -      -      -      <- chance (K = 0.5)
+ 0.4 |  .      .      .      .      .      .      .    BU       .      .      .      .      .    
+ 0.3 |  .      .      .      .      .      .      .      .      .    PE       .    RA       .    
+ 0.2 |  .      .      .      .      .      .      .    CH       .    LE       .      .      .    
+ 0.1 |  .      .      .      .    KS       .    SE       .      .      .    NE/KA    .      .    
+ 0.0 |  .      .      .      .      .      .      .      .    IS/PY  HI       .      .      .    
+     +-------------------------------------------------------------------------------------------
+      0.00   0.08   0.17   0.25   0.33   0.42   0.50   0.58   0.67   0.75   0.83   0.92   1.00   
+      FEATURES share of 6 (coherence, judged) -- codes: CH Christian, IS Islamic, HI Hindu, BU Buddhist, JE Jewish, NE Neoplatonic, ST Stoic, SP Spinozist, TA Taoist, LE Leibnizian, PY Pythagorean, HE Heraclitean, KA Kauffman, PE Penrose, WO Wolfram, BA Barbour, HO Hofstadter, HF Hoffman, KS Kastrup, BS Bashar, SE Seth, RA Ra
+
+OBJECTS (the Resonance Ledger, first pass; records/resonance/objects.txt): PROXIMITY | 1 PLACEMENT | 4 CONGRUENCE: DEPTH, MARGIN against a frozen class of look-alikes, TIMES ITS LOOK-ALIKES | 2 READING INTEGRITY: NOT APPLICABLE (no reading)
+  24-cell                                      P3 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY 100 | MARGIN 0.6198, p 0.0213, DISCRIMINATING, against 46 look-alikes (PANEL 3) | TIMES ITS LOOK-ALIKES 2.19
+  Leech lattice                                P3 -- depth 1, NOT A FINDING | DEPTH 2 | PROXIMITY PENDING (no class of look-alikes frozen)
+  cube's rotation group                        P3 -- depth 1, NOT A FINDING | DEPTH 2 | PROXIMITY PENDING (no class of look-alikes frozen)
+  nine-fold quasiperiodic tiling               P9 -- depth 1, NOT A FINDING | DEPTH 2 | PROXIMITY PENDING (no class of look-alikes frozen)
+  24-tone equal temperament                    P3 -- depth 1, NOT A FINDING | DEPTH 2 | PROXIMITY 50 | MARGIN 0.0000, p 1.0000, NONDISCRIMINATING, against 3 look-alikes (PANEL 2) | TIMES ITS LOOK-ALIKES 1.00
+  24-hour day                                  P3 -- depth 1, NOT A FINDING | DEPTH 2 | a look-alike of 24-tone equal temperament in PANEL 2 (a null of the same class)
+  Penrose tiling                               P7 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY PENDING (no class of look-alikes frozen)
+  decagonal quasicrystal diffraction           P5 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY PENDING (no class of look-alikes frozen)
+  Lotka-Volterra system                        P1 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY PENDING (no class of look-alikes frozen)
+  Belousov-Zhabotinsky reaction (Oregonator)   P6 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY PENDING (no class of look-alikes frozen)
+  circadian clock (Goodwin model)              P6 -- depth 1, NOT A FINDING | DEPTH 3 | PROXIMITY PENDING (no class of look-alikes frozen)
+  the 24-cell against the five regular 4-polytopes alone (PANEL 1): MARGIN 0.6429, p 0.1667, UNDERPOWERED -- superseded by PANEL 3, whose class is large enough to judge it
+  CALIBRATION (records/resonance/calibration.txt): 24-tone equal temperament returns Margin 0 as M230-E requires; the 24-cell outscores all 46 distinct Wythoffian uniform 4-polytopes (M 0.620, p 0.021, DISCRIMINATING); no uniform 4-polytope carries the signature of T itself
+
+FAMILY (L-514): 22 ideas; by chance alone about 1.1 fall ABOVE CHANCE and 1.1 BELOW CHANCE on the conditioned K; observed ABOVE 1 (Heraclitean), BELOW 3 (Islamic, Hindu, Pythagorean)
+ROBUSTNESS: of the 4 ideas outside the chance band, 0 keep their band when any one meeting measure is left out
+STATEMENT JACKKNIFE: of the 22 ideas, 15 keep their band whichever single statement is left out; 7 move -- a band that one statement can move is a property of the atlas as chosen (APE-141, control 3)
+THE TWO AXES: Spearman rank correlation of the features share with K over 22 ideas = -0.12 -- printed to show whether the two answers move together, never to merge them
+ACCURACY: coherence has one judge and no agreement measured (M300; --agreement); congruence is exact up to its Monte Carlo error, printed on each card, and measures the atlas as worded -- the Navigator's own words where the atlas is paraphrased
+READING: the profile says how an idea fits the frame and how its statements meet the structure; it does not grade the idea, the frame or the premise (L-490, L-505), and its corner is no verdict
+======= END M319 RESONANCE PROFILES =======

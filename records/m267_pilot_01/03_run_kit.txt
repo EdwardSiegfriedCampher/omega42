@@ -1,0 +1,10 @@
+M267 PILOT 01 -- THE RUN KIT, FROZEN BEFORE ANY READING WAS WRITTEN (23 October 2026)
+tools/m267_run.py carries out the freeze of 00_freeze.txt without changing it: it makes the 120 writer packets (2 writers x
+20 domains x 3 conditions, seed 267001 and 267002 for the two writers' orders), the one rater sheet of 40 triples (seed
+267002), and the frozen analysis (primary sign test, secondary comparisons, Kendall W, M209 echo, and the primary comparison in
+the two strata of Core Part 3.18, decoy displacement delta = 0 or != 0 mod 4; the size of each stratum is fixed by the sealed key and is
+reported with the result). Everything it derives
+from the sealed key goes to a folder outside the repository (Core Appendix R.4). Its selftest plants an effect in synthetic
+ratings and finds it, and finds none where none is planted; no synthetic result is a result of the pilot.
+SHA-256 of tools/m267_run.py as frozen: 4c2c6eabe79f6c9acac0208fc16d68f61132df772b82b305518e981e01e562e9
+STATUS: KIT FROZEN; WRITERS AND RATERS WAITING. The Builder and the Originator write and rate nothing (00_freeze.txt).

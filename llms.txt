@@ -1,0 +1,16 @@
+# Omega42
+
+> A thought experiment and a navigation protocol: one structure, any question, your judgment. The release of record is the pair of .docx documents in docs/; the editions below are renderings of them for AI readers.
+
+## Editions for AI readers
+
+- [Navigator Pack](ai/Omega42_Navigator_Pack.md): what a navigation needs, about 119 thousand tokens
+- [Core Specification, prose](ai/Omega42_Core_V335_Rev450.md): about 334 thousand tokens
+- [Companion Document, prose](ai/Omega42_Companion_V335_Rev450.md): about 498 thousand tokens
+- [The Omega42 Existential Framework](ai/Omega42_Existential_Framework.md): the philosophical framework, Companion Part 145
+- [Section manifest](ai/manifest.json): every section with its size and hash
+
+## The release of record
+
+- [Core Specification (.docx)](docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx)
+- [Companion Document (.docx)](docs/Omega42_Companion_Document_V335_Rev450_STABLE.docx)

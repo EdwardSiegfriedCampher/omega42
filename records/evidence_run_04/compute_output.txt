@@ -1,0 +1,18 @@
+Q2 -- THE FAMILY'S RING, MODULO 9
+Q2 T on (Z/9)^2 equals multiplication by phi on Z[phi]/9, state (a,b) = a + b*phi: True
+Q2 Z[phi] (golden, the family)    units 72 | non-units  9 | largest unit order 24 | roots of x^2 - x - 1: 2 | multiplication by a root (0, 1): cycle type [24, 24, 24, 8, 1] | {1, root} is a basis, so it is T in that basis: True
+Q2 Z[i] (square lattice)          units 72 | non-units  9 | largest unit order 24 | roots of x^2 - x - 1: 2 | multiplication by a root (5, 1): cycle type [24, 24, 24, 8, 1] | {1, root} is a basis, so it is T in that basis: True
+Q2 Z[omega] (hexagonal lattice)   units 54 | non-units 27 | largest unit order  6 | roots of x^2 - x - 1: 0
+Q2 Z[sqrt-2] (control)            units 36 | non-units 45 | largest unit order  6 | roots of x^2 - x - 1: 0
+Q3 -- SIX-STATE TORSION AND THE CROWN, MODULO 3
+Q3 Z/9: 6 units, Torsion Loop under x2: [1, 2, 4, 8, 7, 5] | cycle type of x2 on all 9: [6, 2, 1] | non-units {0,3,6} square to zero: True
+Q3 Z[phi] (golden, the family)    units 8, cyclic: True  | non-units 1, an ideal: True  with all products zero: True  | criterion met: False
+Q3 Z[i] (square lattice)          units 8, cyclic: True  | non-units 1, an ideal: True  with all products zero: True  | criterion met: False
+Q3 Z[omega] (hexagonal lattice)   units 6, cyclic: True  | non-units 3, an ideal: True  with all products zero: True  | a generator (0, 2) acts with cycle type [6, 2, 1] | criterion met: True
+Q3 Z[sqrt-2] (control)            units 4, cyclic: False | non-units 5, an ideal: False with all products zero: False | criterion met: False
+Q3 Z[omega]/3: the non-units are exactly the multiples of 1 - omega (the sqrt3 x sqrt3 sublattice classes): True
+Q1 -- PEER CLAIM: EVERY ORDER-24 ELEMENT OF Co0 HAS g^12 = -I
+Q1 generators preserve the Golay code (x->x+1, x->-1/x, delta): True
+Q1 element of M24 with cycle type [2, 4, 6, 12] found by a random walk on the generators; preserves the code: True
+Q1 with a Golay sign change of weight 12: order 24 | 12th power is -I: False | the 12th power negates 16 coordinates and fixes 8
+Q1 it preserves the Leech lattice on 3000 sampled vectors: True -> an element of order 24 in Co0 whose 12th power is an involution other than -I
