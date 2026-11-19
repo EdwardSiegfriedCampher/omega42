@@ -193,6 +193,14 @@
    "level": "B",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-23",
+   "title": "CA-23: The two layers of existence (the Originator's question and APE-502; 19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
   }
  ],
  "approval": {
@@ -226,9 +234,9 @@
    "REJECTED": 15,
    "REVISED": 4,
    "TESTABLE": 6,
-   "VERIFIED COMPUTATION": 39
+   "VERIFIED COMPUTATION": 41
   },
-  "stp_entries": 74,
+  "stp_entries": 76,
   "snca_reports": 57
  },
  "dimensions": {

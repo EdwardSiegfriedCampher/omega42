@@ -12,6 +12,7 @@
 | **5. Commercial applications** | The suite with the protocol as hub: Hosted Navigator, Batch and API, research workspace, Register explorer, journal and Return Log, navigation audit, lens studio, panels, cultural rendering, training; no obligatory submission (`COMMERCIAL.md`) | Terms and pricing set by the Company's Board, after consulting the Committee, before launch |
 | **5a. Certification** | The Certification Body; *Ω42 Compatible* audits with the Navigator Conformance Suite (Core M314), the register of certified systems (`CERTIFICATION.md`) | Practice set and suite built; the body follows the Company |
 | **5b. Releases** | Monthly stable releases with the release record, change levels A to C, immutable tags (`RELEASES.md`, `tools/release_manifest.py`) | Policy and manifest built; protected tags follow publication (`SETUP.md` step 12) |
+| **6b. Meaningful Existence Initiative** | The two layers of existence (Companion Part 233), the Choice Engine, four projects paired with the physics flagship (`research/philosophy/MEANINGFUL_EXISTENCE.md`) | Model and engine built; H-029 and H-030 verified; opening is ESC's decision (D-13) |
 | **6a. Physics Initiative** | The Common Mathematical Foundations Project on the Physical Mapping Register; milestones H-025 to H-027 (`research/physics/INITIATIVE.md`) | Programme written; milestones registered; opening is ESC's decision |
 | **6. Research programmes** | Studies across the research areas; the optional comparative programme of Appendix S, opened by contributors who choose it | Ongoing |
 

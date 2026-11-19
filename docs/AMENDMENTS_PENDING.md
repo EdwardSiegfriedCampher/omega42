@@ -164,7 +164,7 @@ Level: C
 - Adopted now (level B): research/physics/INITIATIVE.md, the Common Mathematical Foundations Project, with milestones H-025, H-026 and H-027 (TESTABLE).
 - Proposed for ESC (level C, Core Rule 37): add to each entry of the Physical Mapping Register the fields A (assumptions), F (fails if) and the recovery limit (the limit in which the established model returns, or "none known").
 - Open for ESC: whether the initiative opens now or waits for the reviewer pool; and which outward entry comes first (general relativity, lattice gauge theory or thermodynamics).
-- Added from APE-499: research/physics/INITIATIVE.md section 10 (tracks, gates G1 to G6, PHY identifiers, relation labels, observatory); tools/physics_bench.py and PHB-01 (run: 5 of 5, VERIFIED COMPUTATION, CONSTRUCTIONAL); H-028 (TESTABLE). Proposed for ESC with the opening: the physics material as Companion Part 233, not a second Companion.
+- Added from APE-499: research/physics/INITIATIVE.md section 10 (tracks, gates G1 to G6, PHY identifiers, relation labels, observatory); tools/physics_bench.py and PHB-01 (run: 5 of 5, VERIFIED COMPUTATION, CONSTRUCTIONAL); H-028 (TESTABLE). Proposed for ESC with the opening: the physics material as a Companion Part of its own (numbered at opening; Part 233 went to the two layers of existence, CA-23), not a second Companion.
 - Added from APE-500: research/physics/INITIATIVE.md section 11 (three groups, four subjects, qualification before speculation, a seven-dimension profile with no total, one Navigator with five capabilities, the revised first year); tools/relation_engine.py (relationship classification on two axes) with five worked records in records/physics/relations.json, checked in CI.
 - Added from APE-501: the thirteen-section dossier, three kinds of failure and the quantitative recovery test (section 12); H-024 to H-028 tightened before any run, with a contamination guard.
 
@@ -181,3 +181,11 @@ Level: B
 - records/corrections/register.json: the correction and learning register, 12 entries. Each records what was wrong, how it was found, why the checks missed it, the correction and the prevention.
 - RELEASES.md and the manifest: five separate dimensions (integrity, CI compliance, protocol compliance, scientific review, release approval) and three compatibility answers. The monthly cadence is a ceiling, not an obligation. The pre-push scan is widened.
 - docs/DECISIONS_PENDING.md: every open decision on its own (D-01 to D-12).
+
+## CA-23: The two layers of existence (the Originator's question and APE-502; 19 November 2026)
+Level: B
+- Companion Part 233 (233.1 to 233.9): the default layer as the law, which keeps every orbit; the meaningful layer as added terms, v(t+1) = T v(t) + c(t). Also: the channels of inheritance, each with its own evidence grade; definitions ME-01 to ME-07 (Companion, CDT-C, not Core terminology); meaning received and meaning created; what the model does not compute; implications for the Human Condition; open questions.
+- tools/choice_engine.py: the affine law, the inherited sum split exactly by channel, the effect and the cancelling term of a past choice; selftest in CI.
+- STP: H-029 (single choices change the orbit in 0.736, 0.910, 0.970, 0.990 of cases at 9, 27, 81 and 243) and H-030 (the unchanged share falls by about a third per power of 3; blind at 729: 0.0031 against the band 0.0027 to 0.0043), both VERIFIED COMPUTATION. The theorem behind H-030 is UNPROVEN.
+- research/philosophy/MEANINGFUL_EXISTENCE.md: the Meaningful Existence Initiative, with four projects and the case design; opening it is D-13.
+- The physics Companion Part, proposed with the opening of the Physics Initiative, is numbered at opening; Part 233 holds the two layers.

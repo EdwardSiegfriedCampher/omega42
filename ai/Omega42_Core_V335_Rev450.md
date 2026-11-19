@@ -3104,121 +3104,122 @@ R.1.16 tools/bridges.py — Omega42 and the exceptional structures of convention
 R.1.17 tools/build_lab.py — Build site/construct_x_lab.html from site/construct_x_lab.src.html.
 R.1.18 tools/calibrate.py — M347 Calibration Instrument (Core Part 3.73, L-553, L-557).
 R.1.19 tools/certify.py — the CERTIFICATE (Core L-550, Part 8.0.1 F13): Omega42 certifies, in its own terms, what its law establishes.
-R.1.20 tools/claimcheck.py — M323 Arithmetic Statement Check (EXACT; ADOPTED 23 October 2026 as a gate, Core Part 3.49; Companion Parts 93, 95 to 97).
-R.1.21 tools/conformance.py — M314 Navigator Conformance Suite (Core Part 3.40; CERTIFICATION.md).
-R.1.22 tools/congruence.py — M310 Congruence Record and the Congruence Register (Core Part 3.37, L-489).
-R.1.23 tools/consciousness.py — M315 Consciousness Position (Core Part 3.41, L-498; Companion Part 52), the instrument of CT-42,.
-R.1.24 tools/construct_backtest.py — Construct template backtest with a chance-level control (Appendix S, CA-04).
-R.1.25 tools/construct_core.py — Reference implementation of the Construct mechanism (precursor of Omega42).
-R.1.26 tools/construct_engine.py — M326 Construct Engine, the Originator's Construct as a general prediction assistant (Tier 3, ADOPTED.
-R.1.27 tools/construct_x.py — Construct X v2: reference implementation of the New Construct (Omega42 research instrument).
-R.1.28 tools/constructions.py — the quantized cat map, relativistic velocity addition, the Coxeter grading of E8's adjoint, Penrose inflation,.
-R.1.29 tools/core_economy.py — the Core grows only by what Omega42 is and does (Core Part 0.0.5 Rule 39; Companion Part 228).
-R.1.30 tools/core_math.py — the complete mathematical register in the Core (Core Part 0.0.10; Part 0.0.5 Rule 19).
-R.1.31 tools/core_sample.py — Extract the format sample of Core Part 8.5 from the Core Specification .docx, as plain text.
-R.1.32 tools/core_voice.py — the Core states what Omega42 is and does (Core Part 0.0.5 Rule 35; Companion Part 216).
-R.1.33 tools/cosmology.py — the exact layer of the Omega42 Cosmology (Companion Part 171).
-R.1.34 tools/curation_review.py — the curator's refining layer.
-R.1.35 tools/cymatics.py — M322 Cymatic View (SPECULATIVE, ADOPTED 23 October 2026; Companion Part 91): the family read as vibration.
-R.1.36 tools/d0lineage.py — the lineage of Domain Zero and its refusals (Core L-540 (7) and (8); Companion Part 165).
-R.1.37 tools/dashboard.py — the record in numbers (Core L-495; Companion 51.11). A display, not an instrument (Core M283).
-R.1.38 tools/depth_record.py — M324 Trajectory and Depth Record (Tier 3, ADOPTED 28 October 2026; Core Part 3.50, L-523, L-524).
-R.1.39 tools/discoveries.py — the Discovery Register (Core L-530; Companion Part 121).
-R.1.40 tools/doc_hygiene.py — the document hygiene checks of the Fit-for-Purpose run (Core Part 12, items 34 to 37).
-R.1.41 tools/dsi.py — the Discovery Significance Index (Companion Part 215.6, 215.7; Core Part 0.0.5 Rule 34; F210, APE-472).
-R.1.42 tools/echo_test.py — M325 Construct Echo Test (Tier 3, ADOPTED 28 October 2026; Core Part 3.51; Companion Part 105).
-R.1.43 tools/einstein.py — M378 Relativistic Kinematics (Core Part 3.85): what the Lorentz action of A (M344) does, in Einstein's.
-R.1.44 tools/encroachment.py — the scientific encroachment check (Core Part 12, item 38; Core L-490, L-491; Companion Part 141).
-R.1.45 tools/epr_run.py — executes the pre-registered tests M279 and M280 exactly as frozen in.
-R.1.46 tools/esoteric.py — the esoteric traditions read against the law (Companion Part 180; M218, M267, M289).
-R.1.47 tools/ffp_run.py — the Fit-for-Purpose run (Core Part 12): each of the forty checklist items mapped to its evidence,.
-R.1.48 tools/fibonacci_hamiltonian.py — the law in the physics of quasicrystals: the Fibonacci Hamiltonian, its trace map,.
-R.1.49 tools/fieldkit.py — M321 Field Kit (SPECULATIVE, ADOPTED 23 October 2026; Companion Part 90), an instrument for real-world situations,.
-R.1.50 tools/fields.py — Adinkras, supersymmetry and the mathematics of the fields of knowledge joined to Omega42.
-R.1.51 tools/format_check.py — M301 Format Conformance Check (Core Part 8.0, L-349).
-R.1.52 tools/foundations.py — the extended mathematical foundations of Omega42 (Core Part 0.0.8; Companion Part 174).
-R.1.53 tools/foundations_check.py — M376 Foundations Checker (Core Part 3.83; APE-449, F187): recomputes the results the foundations.
-R.1.54 tools/frame_audit.py — M286 Frame Intrusion Scan (Core Part 3.31), the lexical layer of FB-2.
-R.1.55 tools/framework_compare.py — M309 computed layer (Core Part 3.36): frozen statement atlases of philosophical or.
-R.1.56 tools/fsg.py — M346: the Fibonacci-shear group and the manuscript verifier (Core Part 3.72).
-R.1.57 tools/fullstatement.py — the Full Statement Law (Core L-543; Companion Part 170).
-R.1.58 tools/geometric.py — SEQ 122 recomputation (standard library only).
-R.1.59 tools/geometry_physics.py — Omega42 joined to geometry, topology, number theory, dynamics, combinatorics and mathematical physics.
-R.1.60 tools/giza_earth.py — the mapping of Omega42 to the Giza complex and to the Earth in the Solar System (Companion Part 166).
-R.1.61 tools/handshake.py — M375 Identity Handshake (Core Part 3.82; F188): how an implementation shows that it is Omega42.
-R.1.62 tools/history.py — How Omega42 was built: the history page for readers (Companion Part 120; Core Part 12, item 34).
-R.1.63 tools/hurwitz.py — M380 The Forty-Two Reading (Core Part 3.87): what the new mathematics says about the number 42.
-R.1.64 tools/independent_check.py — Independent second implementation of the Classic seed-row tests (Omega42 I-001).
-R.1.65 tools/instance_id.py — the Navigator Instance Identifier (Core L-513, Part 8.1; Companion Part 76).
-R.1.66 tools/instrument_triggers.py — M327 Instrument Selector (Core L-527, Part 3.53; Companion Part 108).
-R.1.67 tools/intro_output.py — the Introduction to Omega42, as every Navigator gives it on "Welcome Navigator" (Core Part 2, Opening Response; Part 0, IN-00; L-467, L-412, L-533).
-R.1.68 tools/judgment.py — the Judgment Boundary checks (Core L-541; Companion Part 164).
-R.1.69 tools/jurisdiction.py — Builder Rule 14 jurisdiction check (Core L-491, Part 0.0.5).
-R.1.70 tools/lexicon.py — the Omega42 Lexicon (Companion Part 211; records/lexicon/lexicon.json).
-R.1.71 tools/lite_view.py — the Striker-facing short view of a navigation, rendered from a full, audited one.
-R.1.72 tools/lorentz.py — M344 Relativistic Representation (Core Part 3.70, L-510): the golden matrix A, acting on the Hermitian.
-R.1.73 tools/m267_run.py — the run kit of the M267 pilot (M267-P1; records/m267_pilot_01/00_freeze.txt; Core Part 3.18).
-R.1.74 tools/manifestation.py — M312 Manifestation Phase (Core Part 3.38, L-492; Companion Part 50).
-R.1.75 tools/math_register.py — the register of the extended mathematical foundations (Core Part 0.0.8; records/math/results.json).
-R.1.76 tools/navcert.py — Navigator 2.0 and certification instruments (Core Part 3.79; APE-440, F179; APE-441, F180).
-R.1.77 tools/number_null.py — M341 Number-Resonance Null (Core Part 3.67, L-553, L-552): what a number presented as meaningful shares.
-R.1.78 tools/oef.py — the instruments of the Omega42 Existential Framework (Core L-534 to L-538; Companion Parts 144 to 159).
-R.1.79 tools/omega42_sdk.py — M363 the Ω42 SDK facade (Core Part 3.75; F174 11): one importable object over the verified engine.
-R.1.80 tools/omega_kit.py — the established-mathematics kit (Core Part 3.74): four instruments built only on proved results.
-R.1.81 tools/opal.py — M342 OPAL, the Omega42 Provenance and Authenticity Layer (Core Part 3.68, L-553).
-R.1.82 tools/open_register.py — the register of open items (Core Part 12, item 39; Core L-531 (3); Companion Part 141).
-R.1.83 tools/optics.py — the law in optics: light through a Fibonacci dielectric multilayer (Companion Part 224).
-R.1.84 tools/osl.py — the reference implementation of OmegaSL, the Omega42 Structural Language (Companion Part 214; Core Part 0.0.5 Rule 33).
-R.1.85 tools/output_form.py — the Output Forms Register (Core Part 8.0.1, L-549): one form for every output, whatever AI writes it.
-R.1.86 tools/output_id.py — the NAVIGATION OUTPUT ID (Core Part 8.1): the SHA-256 of a finished output, computed over.
-R.1.87 tools/own_first.py — the Independent Investigation Law (Core L-545; Builder Rule 17).
-R.1.88 tools/parallel_plan.py — M300 Parallel Execution Plan (Core L-485, Part 3.33).
-R.1.89 tools/phase.py — M331 Phase-Space Reading: a strike's state read as a point of the discrete phase space of one nine-level.
-R.1.90 tools/phonetic.py — M332 Phonetic Reading: the syllable vote in the anchor, the spoken form and the letter classes, printed beside the.
-R.1.91 tools/physics_bench.py — the PHB-01 known-answer benchmark.
-R.1.92 tools/physics_map.py — the Physical Mapping Register (Core Part 0.0.5 Rule 37; Companion Part 226; F219; APE-481).
-R.1.93 tools/powers.py — the powers of the law and their cycle structure, for mapping by derived symmetry (Core L-510 (Mapping.
-R.1.94 tools/primitives.py — the cognitive primitives in the law's arithmetic (Companion Part 215.3; Core Part 0.0.5 Rule 34).
-R.1.95 tools/prominence.py — M313 Tool Prominence Register (Core Part 3.39, L-494 item 4).
-R.1.96 tools/provenance.py — the Open Provenance Law (Core L-547; Companion Part 182): every AI transcript of the protocol's development.
-R.1.97 tools/pvir.py — the Protocol Vulnerability and Improvement Register (Core L-560 (4); Part 0.0.5 Rule 30; IMPROVE.md).
-R.1.98 tools/quantum.py — the law in quantum mechanics: the fusion of Fibonacci anyons, the 81 states as the phase space of a nine-level.
-R.1.99 tools/quantum_foundations.py — the quantum layer of Omega42 extended: the norm-fiber theorem and the simple spectrum, the explicit.
-R.1.100 tools/quasicrystal2d.py — the golden ring in two dimensions: the square Fibonacci Hamiltonian and the Penrose tiling.
-R.1.101 tools/question_finder.py — M340 Question Finder (Core Part 3.66, L-552): given an answer, the questions it may answer.
-R.1.102 tools/reexamine.py — checks the re-reading of prior investigations (Core L-490, L-491, Appendix S.5).
-R.1.103 tools/reframing_array.py — M318 Reframing Array and the arithmetic layer of M241 (Core Part 3.44, L-511, L-510; Companion Part 72).
-R.1.104 tools/relation_engine.py — relationship classification.
-R.1.105 tools/relativity.py — the law in special relativity: the boost of A^2, its Fibonacci-Lucas family, the Doppler factor phi^4,.
-R.1.106 tools/release_manifest.py — the release record.
-R.1.107 tools/replication_kit.py — the kit for an independent implementation of the mathematical register (Companion Part 220.12; stage 5 of maturity).
-R.1.108 tools/resgrade.py — M379 Resonance Grader (Core Part 3.86; F195): grades a proposed correspondence between the law and.
-R.1.109 tools/resonance.py — M319 Resonance Profile (Core Part 3.45, L-514; Companion Part 80).
-R.1.110 tools/restored_instruments.py — reference implementations of the instruments of Core Part 3.31, written for the.
-R.1.111 tools/scaffold.py — Scaffold view, the minimized-substrate configuration (Core Part 0.6.10, Part 8.0).
-R.1.112 tools/sce.py — M345 External-Theory Correspondence (Core Part 3.71, L-510, L-553): classify a proposed match between an Ω42.
-R.1.113 tools/sealed_keys.py — the state of every sealed key (Core Appendix R.4; Companion Part 183).
-R.1.114 tools/space_prob.py — the third space direction and the probability rule (Core L-544 (9), (10); Companion Part 173).
-R.1.115 tools/spacetime.py — the Ω42 Spacetime Coordinate Matrix (Core Part 3.80; APE-442, F181).
-R.1.116 tools/spectra.py — the trace map modulo 3^k, the scaling of the Fibonacci spectrum and the convergence of its gap labels.
-R.1.117 tools/spectral.py — M298 Spectral Profile (Core Part 3.32, 1.8.9): the frozen spectral definitions, computed two ways.
-R.1.118 tools/srcas_check.py — M224 for SR-CAS and SNCA output: the format that identifies Omega42 output (Core Part 6.1, 6.2, L-412, L-349).
-R.1.119 tools/srcas_run.py — the automatic trigger of SNCA and SR-CAS, run (Core Part 6.1, 6.2, L-549 (4), L-489).
-R.1.120 tools/srp_build.py — SR-CAS Replication Package builder (Core Part 8.2, L-348, L-415) with the format self-check (M301, Part 8.0).
-R.1.121 tools/standing.py — M333 Standing Record: a statement routed through the instruments that decide its standing within the frame,.
-R.1.122 tools/stp.py — Omega42 Speculation Test Protocol (CA-08): persistent register, pre-registration and test runner.
-R.1.123 tools/structures.py — E6's cubic norm kept by the law, the dashings of the E8 Adinkra, and the Structural Equivalence Tester.
-R.1.124 tools/suite.py — the Ω42 Instrument Suite (Core Part 3.75; APE-434, F173): one mathematical engine and seven instruments.
-R.1.125 tools/test_seed_pairs.py — STP tests H-001..H-004: polarity structure of the Construct's 26 seeds, read from the original workbook.
-R.1.126 tools/timestamp_check.py — chronology checks (CA-22).
-R.1.127 tools/tolerance.py — M329 Tolerance Chain Check (Core Part 3.55; Companion Part 125).
-R.1.128 tools/utility.py — M316 Congruence Utility (Core Part 3.42, L-500; Companion Part 54).
-R.1.129 tools/validation.py — the period pattern of the trace map, its linear part at the fixed point, the census modulo 243, the exact.
-R.1.130 tools/vault.py — M364 Ω42-Envelope v1 and the Ω42 Vault (Core Part 3.77; APE-436, F175; Core Appendix S.10).
-R.1.131 tools/wave_atlas.py — the Wave Engine resolved: the Chern number on the (k, phason) torus against the full gap label (p, q), the.
-R.1.132 tools/waves.py — the Omega42 Wave Dynamics Engine: one transfer-matrix engine for electrons, light and sound in Fibonacci.
-R.1.133 tools/wheel.py — M330 Aspect Wheel: the 24 positions read as a wheel of 15-degree steps (Core Part 3.56; Companion Part 134).
-R.1.134 tools/zero_tools.py — the zero instruments of Core Part 3.30 and the FB-8 and FB-9 scans of M243a.
+R.1.20 tools/choice_engine.py — the Choice Engine (Companion Part 233).
+R.1.21 tools/claimcheck.py — M323 Arithmetic Statement Check (EXACT; ADOPTED 23 October 2026 as a gate, Core Part 3.49; Companion Parts 93, 95 to 97).
+R.1.22 tools/conformance.py — M314 Navigator Conformance Suite (Core Part 3.40; CERTIFICATION.md).
+R.1.23 tools/congruence.py — M310 Congruence Record and the Congruence Register (Core Part 3.37, L-489).
+R.1.24 tools/consciousness.py — M315 Consciousness Position (Core Part 3.41, L-498; Companion Part 52), the instrument of CT-42,.
+R.1.25 tools/construct_backtest.py — Construct template backtest with a chance-level control (Appendix S, CA-04).
+R.1.26 tools/construct_core.py — Reference implementation of the Construct mechanism (precursor of Omega42).
+R.1.27 tools/construct_engine.py — M326 Construct Engine, the Originator's Construct as a general prediction assistant (Tier 3, ADOPTED.
+R.1.28 tools/construct_x.py — Construct X v2: reference implementation of the New Construct (Omega42 research instrument).
+R.1.29 tools/constructions.py — the quantized cat map, relativistic velocity addition, the Coxeter grading of E8's adjoint, Penrose inflation,.
+R.1.30 tools/core_economy.py — the Core grows only by what Omega42 is and does (Core Part 0.0.5 Rule 39; Companion Part 228).
+R.1.31 tools/core_math.py — the complete mathematical register in the Core (Core Part 0.0.10; Part 0.0.5 Rule 19).
+R.1.32 tools/core_sample.py — Extract the format sample of Core Part 8.5 from the Core Specification .docx, as plain text.
+R.1.33 tools/core_voice.py — the Core states what Omega42 is and does (Core Part 0.0.5 Rule 35; Companion Part 216).
+R.1.34 tools/cosmology.py — the exact layer of the Omega42 Cosmology (Companion Part 171).
+R.1.35 tools/curation_review.py — the curator's refining layer.
+R.1.36 tools/cymatics.py — M322 Cymatic View (SPECULATIVE, ADOPTED 23 October 2026; Companion Part 91): the family read as vibration.
+R.1.37 tools/d0lineage.py — the lineage of Domain Zero and its refusals (Core L-540 (7) and (8); Companion Part 165).
+R.1.38 tools/dashboard.py — the record in numbers (Core L-495; Companion 51.11). A display, not an instrument (Core M283).
+R.1.39 tools/depth_record.py — M324 Trajectory and Depth Record (Tier 3, ADOPTED 28 October 2026; Core Part 3.50, L-523, L-524).
+R.1.40 tools/discoveries.py — the Discovery Register (Core L-530; Companion Part 121).
+R.1.41 tools/doc_hygiene.py — the document hygiene checks of the Fit-for-Purpose run (Core Part 12, items 34 to 37).
+R.1.42 tools/dsi.py — the Discovery Significance Index (Companion Part 215.6, 215.7; Core Part 0.0.5 Rule 34; F210, APE-472).
+R.1.43 tools/echo_test.py — M325 Construct Echo Test (Tier 3, ADOPTED 28 October 2026; Core Part 3.51; Companion Part 105).
+R.1.44 tools/einstein.py — M378 Relativistic Kinematics (Core Part 3.85): what the Lorentz action of A (M344) does, in Einstein's.
+R.1.45 tools/encroachment.py — the scientific encroachment check (Core Part 12, item 38; Core L-490, L-491; Companion Part 141).
+R.1.46 tools/epr_run.py — executes the pre-registered tests M279 and M280 exactly as frozen in.
+R.1.47 tools/esoteric.py — the esoteric traditions read against the law (Companion Part 180; M218, M267, M289).
+R.1.48 tools/ffp_run.py — the Fit-for-Purpose run (Core Part 12): each of the forty checklist items mapped to its evidence,.
+R.1.49 tools/fibonacci_hamiltonian.py — the law in the physics of quasicrystals: the Fibonacci Hamiltonian, its trace map,.
+R.1.50 tools/fieldkit.py — M321 Field Kit (SPECULATIVE, ADOPTED 23 October 2026; Companion Part 90), an instrument for real-world situations,.
+R.1.51 tools/fields.py — Adinkras, supersymmetry and the mathematics of the fields of knowledge joined to Omega42.
+R.1.52 tools/format_check.py — M301 Format Conformance Check (Core Part 8.0, L-349).
+R.1.53 tools/foundations.py — the extended mathematical foundations of Omega42 (Core Part 0.0.8; Companion Part 174).
+R.1.54 tools/foundations_check.py — M376 Foundations Checker (Core Part 3.83; APE-449, F187): recomputes the results the foundations.
+R.1.55 tools/frame_audit.py — M286 Frame Intrusion Scan (Core Part 3.31), the lexical layer of FB-2.
+R.1.56 tools/framework_compare.py — M309 computed layer (Core Part 3.36): frozen statement atlases of philosophical or.
+R.1.57 tools/fsg.py — M346: the Fibonacci-shear group and the manuscript verifier (Core Part 3.72).
+R.1.58 tools/fullstatement.py — the Full Statement Law (Core L-543; Companion Part 170).
+R.1.59 tools/geometric.py — SEQ 122 recomputation (standard library only).
+R.1.60 tools/geometry_physics.py — Omega42 joined to geometry, topology, number theory, dynamics, combinatorics and mathematical physics.
+R.1.61 tools/giza_earth.py — the mapping of Omega42 to the Giza complex and to the Earth in the Solar System (Companion Part 166).
+R.1.62 tools/handshake.py — M375 Identity Handshake (Core Part 3.82; F188): how an implementation shows that it is Omega42.
+R.1.63 tools/history.py — How Omega42 was built: the history page for readers (Companion Part 120; Core Part 12, item 34).
+R.1.64 tools/hurwitz.py — M380 The Forty-Two Reading (Core Part 3.87): what the new mathematics says about the number 42.
+R.1.65 tools/independent_check.py — Independent second implementation of the Classic seed-row tests (Omega42 I-001).
+R.1.66 tools/instance_id.py — the Navigator Instance Identifier (Core L-513, Part 8.1; Companion Part 76).
+R.1.67 tools/instrument_triggers.py — M327 Instrument Selector (Core L-527, Part 3.53; Companion Part 108).
+R.1.68 tools/intro_output.py — the Introduction to Omega42, as every Navigator gives it on "Welcome Navigator" (Core Part 2, Opening Response; Part 0, IN-00; L-467, L-412, L-533).
+R.1.69 tools/judgment.py — the Judgment Boundary checks (Core L-541; Companion Part 164).
+R.1.70 tools/jurisdiction.py — Builder Rule 14 jurisdiction check (Core L-491, Part 0.0.5).
+R.1.71 tools/lexicon.py — the Omega42 Lexicon (Companion Part 211; records/lexicon/lexicon.json).
+R.1.72 tools/lite_view.py — the Striker-facing short view of a navigation, rendered from a full, audited one.
+R.1.73 tools/lorentz.py — M344 Relativistic Representation (Core Part 3.70, L-510): the golden matrix A, acting on the Hermitian.
+R.1.74 tools/m267_run.py — the run kit of the M267 pilot (M267-P1; records/m267_pilot_01/00_freeze.txt; Core Part 3.18).
+R.1.75 tools/manifestation.py — M312 Manifestation Phase (Core Part 3.38, L-492; Companion Part 50).
+R.1.76 tools/math_register.py — the register of the extended mathematical foundations (Core Part 0.0.8; records/math/results.json).
+R.1.77 tools/navcert.py — Navigator 2.0 and certification instruments (Core Part 3.79; APE-440, F179; APE-441, F180).
+R.1.78 tools/number_null.py — M341 Number-Resonance Null (Core Part 3.67, L-553, L-552): what a number presented as meaningful shares.
+R.1.79 tools/oef.py — the instruments of the Omega42 Existential Framework (Core L-534 to L-538; Companion Parts 144 to 159).
+R.1.80 tools/omega42_sdk.py — M363 the Ω42 SDK facade (Core Part 3.75; F174 11): one importable object over the verified engine.
+R.1.81 tools/omega_kit.py — the established-mathematics kit (Core Part 3.74): four instruments built only on proved results.
+R.1.82 tools/opal.py — M342 OPAL, the Omega42 Provenance and Authenticity Layer (Core Part 3.68, L-553).
+R.1.83 tools/open_register.py — the register of open items (Core Part 12, item 39; Core L-531 (3); Companion Part 141).
+R.1.84 tools/optics.py — the law in optics: light through a Fibonacci dielectric multilayer (Companion Part 224).
+R.1.85 tools/osl.py — the reference implementation of OmegaSL, the Omega42 Structural Language (Companion Part 214; Core Part 0.0.5 Rule 33).
+R.1.86 tools/output_form.py — the Output Forms Register (Core Part 8.0.1, L-549): one form for every output, whatever AI writes it.
+R.1.87 tools/output_id.py — the NAVIGATION OUTPUT ID (Core Part 8.1): the SHA-256 of a finished output, computed over.
+R.1.88 tools/own_first.py — the Independent Investigation Law (Core L-545; Builder Rule 17).
+R.1.89 tools/parallel_plan.py — M300 Parallel Execution Plan (Core L-485, Part 3.33).
+R.1.90 tools/phase.py — M331 Phase-Space Reading: a strike's state read as a point of the discrete phase space of one nine-level.
+R.1.91 tools/phonetic.py — M332 Phonetic Reading: the syllable vote in the anchor, the spoken form and the letter classes, printed beside the.
+R.1.92 tools/physics_bench.py — the PHB-01 known-answer benchmark.
+R.1.93 tools/physics_map.py — the Physical Mapping Register (Core Part 0.0.5 Rule 37; Companion Part 226; F219; APE-481).
+R.1.94 tools/powers.py — the powers of the law and their cycle structure, for mapping by derived symmetry (Core L-510 (Mapping.
+R.1.95 tools/primitives.py — the cognitive primitives in the law's arithmetic (Companion Part 215.3; Core Part 0.0.5 Rule 34).
+R.1.96 tools/prominence.py — M313 Tool Prominence Register (Core Part 3.39, L-494 item 4).
+R.1.97 tools/provenance.py — the Open Provenance Law (Core L-547; Companion Part 182): every AI transcript of the protocol's development.
+R.1.98 tools/pvir.py — the Protocol Vulnerability and Improvement Register (Core L-560 (4); Part 0.0.5 Rule 30; IMPROVE.md).
+R.1.99 tools/quantum.py — the law in quantum mechanics: the fusion of Fibonacci anyons, the 81 states as the phase space of a nine-level.
+R.1.100 tools/quantum_foundations.py — the quantum layer of Omega42 extended: the norm-fiber theorem and the simple spectrum, the explicit.
+R.1.101 tools/quasicrystal2d.py — the golden ring in two dimensions: the square Fibonacci Hamiltonian and the Penrose tiling.
+R.1.102 tools/question_finder.py — M340 Question Finder (Core Part 3.66, L-552): given an answer, the questions it may answer.
+R.1.103 tools/reexamine.py — checks the re-reading of prior investigations (Core L-490, L-491, Appendix S.5).
+R.1.104 tools/reframing_array.py — M318 Reframing Array and the arithmetic layer of M241 (Core Part 3.44, L-511, L-510; Companion Part 72).
+R.1.105 tools/relation_engine.py — relationship classification.
+R.1.106 tools/relativity.py — the law in special relativity: the boost of A^2, its Fibonacci-Lucas family, the Doppler factor phi^4,.
+R.1.107 tools/release_manifest.py — the release record.
+R.1.108 tools/replication_kit.py — the kit for an independent implementation of the mathematical register (Companion Part 220.12; stage 5 of maturity).
+R.1.109 tools/resgrade.py — M379 Resonance Grader (Core Part 3.86; F195): grades a proposed correspondence between the law and.
+R.1.110 tools/resonance.py — M319 Resonance Profile (Core Part 3.45, L-514; Companion Part 80).
+R.1.111 tools/restored_instruments.py — reference implementations of the instruments of Core Part 3.31, written for the.
+R.1.112 tools/scaffold.py — Scaffold view, the minimized-substrate configuration (Core Part 0.6.10, Part 8.0).
+R.1.113 tools/sce.py — M345 External-Theory Correspondence (Core Part 3.71, L-510, L-553): classify a proposed match between an Ω42.
+R.1.114 tools/sealed_keys.py — the state of every sealed key (Core Appendix R.4; Companion Part 183).
+R.1.115 tools/space_prob.py — the third space direction and the probability rule (Core L-544 (9), (10); Companion Part 173).
+R.1.116 tools/spacetime.py — the Ω42 Spacetime Coordinate Matrix (Core Part 3.80; APE-442, F181).
+R.1.117 tools/spectra.py — the trace map modulo 3^k, the scaling of the Fibonacci spectrum and the convergence of its gap labels.
+R.1.118 tools/spectral.py — M298 Spectral Profile (Core Part 3.32, 1.8.9): the frozen spectral definitions, computed two ways.
+R.1.119 tools/srcas_check.py — M224 for SR-CAS and SNCA output: the format that identifies Omega42 output (Core Part 6.1, 6.2, L-412, L-349).
+R.1.120 tools/srcas_run.py — the automatic trigger of SNCA and SR-CAS, run (Core Part 6.1, 6.2, L-549 (4), L-489).
+R.1.121 tools/srp_build.py — SR-CAS Replication Package builder (Core Part 8.2, L-348, L-415) with the format self-check (M301, Part 8.0).
+R.1.122 tools/standing.py — M333 Standing Record: a statement routed through the instruments that decide its standing within the frame,.
+R.1.123 tools/stp.py — Omega42 Speculation Test Protocol (CA-08): persistent register, pre-registration and test runner.
+R.1.124 tools/structures.py — E6's cubic norm kept by the law, the dashings of the E8 Adinkra, and the Structural Equivalence Tester.
+R.1.125 tools/suite.py — the Ω42 Instrument Suite (Core Part 3.75; APE-434, F173): one mathematical engine and seven instruments.
+R.1.126 tools/test_seed_pairs.py — STP tests H-001..H-004: polarity structure of the Construct's 26 seeds, read from the original workbook.
+R.1.127 tools/timestamp_check.py — chronology checks (CA-22).
+R.1.128 tools/tolerance.py — M329 Tolerance Chain Check (Core Part 3.55; Companion Part 125).
+R.1.129 tools/utility.py — M316 Congruence Utility (Core Part 3.42, L-500; Companion Part 54).
+R.1.130 tools/validation.py — the period pattern of the trace map, its linear part at the fixed point, the census modulo 243, the exact.
+R.1.131 tools/vault.py — M364 Ω42-Envelope v1 and the Ω42 Vault (Core Part 3.77; APE-436, F175; Core Appendix S.10).
+R.1.132 tools/wave_atlas.py — the Wave Engine resolved: the Chern number on the (k, phason) torus against the full gap label (p, q), the.
+R.1.133 tools/waves.py — the Omega42 Wave Dynamics Engine: one transfer-matrix engine for electrons, light and sound in Fibonacci.
+R.1.134 tools/wheel.py — M330 Aspect Wheel: the 24 positions read as a wheel of 15-degree steps (Core Part 3.56; Companion Part 134).
+R.1.135 tools/zero_tools.py — the zero instruments of Core Part 3.30 and the FB-8 and FB-9 scans of M243a.
 R.2 Data the tools read.
 R.2.1 records/congruence/domains.txt — the Congruence Register: every domain in the record, verbatim (read by tools/congruence.py, M310).
 R.2.2 records/srp/collatz_domain.txt — a long domain kept in its own file (SRP-C), read by the Register.

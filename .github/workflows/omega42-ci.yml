@@ -150,6 +150,7 @@ jobs:
           python3 tools/release_manifest.py --check
           python3 tools/physics_bench.py --selftest
           python3 tools/relation_engine.py --selftest
+          python3 tools/choice_engine.py --selftest
           python3 tools/relation_engine.py records/physics/relations.json | diff - records/physics/relations_classified.json
           python3 tools/timestamp_check.py --selftest
           python3 tools/timestamp_check.py

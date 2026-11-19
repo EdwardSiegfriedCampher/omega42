@@ -76,3 +76,9 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Recommendation (APE-501 section 7):** keep Rule 39 at 900 words, and aim for 830 to 850 words since the last seal. Never compress normative language to reach the number.
 - **Now:** 880 words since seq_0185. The next seal resets the count.
 - **Decision:** whether to adopt 850 as the working margin.
+
+## D-13 The Meaningful Existence Initiative
+- **Proposed change:** open the initiative (`research/philosophy/MEANINGFUL_EXISTENCE.md`), paired with the Common Mathematical Foundations Project. Projects A (channels and their evidence) and B (habit series with the Temporal Engine) can start now. The case design of project C needs consent, ethics review and family researchers.
+- **Also for ESC:** whether any of the definitions ME-01 to ME-07 (Companion 233.4) should enter Core Part 10.5. Until then they stay Companion terminology.
+- **Evidence:** H-029 and H-030 (VERIFIED COMPUTATION); the Choice Engine selftest.
+- **Normative:** no (level B), unless definitions enter the Core.

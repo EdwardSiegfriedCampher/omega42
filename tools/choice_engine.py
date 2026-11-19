@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+"""choice_engine.py -- the Choice Engine (Companion Part 233).
+The two layers of existence as one affine law on (Z/m)^2.
+
+  default layer      v -> T v,        T(a, b) = (b, a + b)       the law: it keeps every state on its orbit (Lambda fixed)
+  meaningful layer   v -> T v + c     c = an added term, a choice  only an added term can move a state to another orbit
+Solved:  v(t) = T^t v(0) + sum over s < t of T^(t-1-s) c(s)
+  v(0)      the starting state, given (the genetic channel)
+  the sum   every earlier choice, carried forward and transformed by the law (the inherited sum)
+Because T is linear, the inherited sum splits exactly into one part per channel of transmission. Each channel is tracked
+apart and carries its own evidence grade, so channels are never treated as interchangeable (Companion 233.3).
+The engine computes historical significance only; experiential and normative significance are not computed (233.6).
+
+    python3 tools/choice_engine.py --selftest
+    python3 tools/choice_engine.py --demo
+    python3 tools/choice_engine.py --orbit-change M [SAMPLES SEED]   share of single choices that change the orbit
+Standard library only.
+"""
+import json, os, random, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import construct_x as cx
+
+# Evidence grade of each channel for human transmission (Companion 233.3; sources there). Metadata, never computed.
+CHANNELS = {
+    "genetic": "established",
+    "epigenetic": "contested for transmission across human generations (Bird 2024)",
+    "behavioral": "established (social learning, developmental psychology)",
+    "cultural": "established (cultural evolution, gene-culture coevolution)",
+    "institutional": "established (history, economics, sociology)",
+    "personal": "the agent's own choices",
+}
+
+
+def T(v, m): return (v[1], (v[0] + v[1]) % m)
+def add(u, v, m): return ((u[0] + v[0]) % m, (u[1] + v[1]) % m)
+def neg(v, m): return ((-v[0]) % m, (-v[1]) % m)
+
+
+def T_pow(v, n, m):
+    for _ in range(n): v = T(v, m)
+    return v
+
+
+def run(v0, choices, steps, m):
+    """choices: {t: [(channel, c), ...]} applied after the law at step t. Returns the path, Lambda per step and channel parts."""
+    v = v0; part = {ch: (0, 0) for ch in CHANNELS}; part["genetic"] = v0
+    path, lams = [v0], [cx.lam(v0, m)]
+    for t in range(steps):
+        v = T(v, m); part = {ch: T(p, m) for ch, p in part.items()}
+        for ch, c in choices.get(t, []):
+            if ch not in CHANNELS: raise ValueError("unknown channel %s" % ch)
+            v = add(v, c, m); part[ch] = add(part[ch], c, m)
+        path.append(v); lams.append(cx.lam(v, m))
+    return {"path": path, "lambda": lams, "parts": part}
+
+
+def effect(c, s, t, m):
+    """The effect at time t of a choice c made at step s (applied after the law at s): T^(t-1-s) c."""
+    return T_pow(c, t - 1 - s, m)
+
+
+def cancelling_choice(c, s, t, m):
+    """The added term at step t that cancels, from t + 1 on, a choice c made at step s: minus its present form T^(t-s) c."""
+    return neg(T_pow(c, t - s, m), m)
+
+
+def orbit_change_share(m, samples=None, seed=29):
+    S = [(a, b) for a in range(m) for b in range(m)]
+    if samples is None:
+        pairs = ((v, o) for v in S for o in S if o != (0, 0)); n = len(S) * (len(S) - 1)
+    else:
+        rng = random.Random(seed); n = samples
+        pairs = (((rng.randrange(m), rng.randrange(m)), o) for o in
+                 iter(lambda: (rng.randrange(m), rng.randrange(m)), None))
+        pairs = ((v, o) for (v, o), _ in zip(((v, o) for v, o in pairs if o != (0, 0)), range(n)))
+    ch = sum(cx.lam(add(v, o, m), m) != cx.lam(v, m) for v, o in pairs)
+    return ch, n
+
+
+def selftest():
+    ok = []
+    for m in (9, 27):
+        S = [(a, b) for a in range(m) for b in range(m)]
+        ok.append(("the law keeps Lambda, mod %d" % m, all(cx.lam(T(v, m), m) == cx.lam(v, m) for v in S)))
+    m = 9; v0 = (1, 0)
+    base = run(v0, {}, 60, m)["path"]; ch = run(v0, {3: [("cultural", (0, 1))]}, 60, m)["path"]
+    gap = [add(b, neg(a, m), m) for a, b in zip(base, ch)]
+    ok.append(("a one-time choice never fades", all(g != (0, 0) for g in gap[4:])))
+    ok.append(("its gap returns with the period 24 (mod 9)", gap[4] == gap[28] == gap[52] and all(gap[4] != gap[4 + k] for k in range(1, 24))))
+    ok.append(("effect() matches the run", all(gap[t] == effect((0, 1), 3, t, m) for t in range(4, 60))))
+    c = cancelling_choice((0, 1), 3, 20, m)
+    fixed = run(v0, {3: [("cultural", (0, 1))], 20: [("personal", c)]}, 60, m)["path"]
+    ok.append(("the cancelling choice restores the unchosen path", fixed[21:] == base[21:] and fixed[20] != base[20]))
+    r = run((2, 5), {1: [("behavioral", (1, 1))], 4: [("cultural", (0, 2)), ("epigenetic", (1, 0))], 7: [("personal", (3, 3))]}, 30, m)
+    tot = (0, 0)
+    for p in r["parts"].values(): tot = add(tot, p, m)
+    ok.append(("the channel parts sum exactly to the state", tot == r["path"][-1]))
+    try:
+        run(v0, {0: [("fate", (1, 0))]}, 2, m); ok.append(("an unknown channel is refused", False))
+    except ValueError:
+        ok.append(("an unknown channel is refused", True))
+    ch9, n9 = orbit_change_share(9); ch27, n27 = orbit_change_share(27)
+    ok.append(("orbit-change share 4768/6480 (mod 9) and 482992/530712 (mod 27)", (ch9, n9, ch27, n27) == (4768, 6480, 482992, 530712)))
+    for name, good in ok: print(("  ok   " if good else "  FAIL ") + name)
+    good = all(g for _, g in ok); print("CHOICE ENGINE SELFTEST:", "PASS" if good else "FAIL"); return good
+
+
+def demo():
+    m = 9; v0 = (1, 0)
+    choices = {2: [("cultural", (0, 1))], 10: [("behavioral", (2, 0))], 30: [("personal", cancelling_choice((0, 1), 2, 30, m))]}
+    r = run(v0, choices, 48, m)
+    print(json.dumps({"lambda_path": [list(x) for x in r["lambda"][::4]], "parts_at_end": {k: list(v) for k, v in r["parts"].items()},
+                      "channel_grades": CHANNELS}, indent=1))
+
+
+if __name__ == "__main__":
+    a = sys.argv[1:]
+    if a == ["--selftest"]: sys.exit(0 if selftest() else 1)
+    if a == ["--demo"]: demo(); sys.exit(0)
+    if a and a[0] == "--orbit-change":
+        m = int(a[1]); smp = int(a[2]) if len(a) > 2 else None; sd = int(a[3]) if len(a) > 3 else 29
+        c, n = orbit_change_share(m, smp, sd); print(json.dumps({"m": m, "changed": c, "of": n, "share": round(c / n, 6)})); sys.exit(0)
+    print(__doc__)

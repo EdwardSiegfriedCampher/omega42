@@ -1,6 +1,17 @@
 {
  "items": [
   {
+   "id": "APE-502",
+   "kind": "ape",
+   "title": "Meaningful existence: a second layer in Omega42",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-502.md",
+   "text_sha256": "33cd67b4a78a8dc3f7d36a91797e67ccd7d5cbedfda4f3956e2c02b684fc6671",
+   "area_source": "declared"
+  },
+  {
    "id": "APE-501",
    "kind": "ape",
    "title": "Assessment of the Omega42 update and the decisions before ESC",

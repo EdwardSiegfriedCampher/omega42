@@ -7,6 +7,10 @@ Metaphysics of a closed totality, the INSIDE, truth within the frame, epistemolo
 - What follows for metaphysics if a finite structure is all that exists?
 - How does truth within a frame relate to other accounts of truth?
 
+## The Meaningful Existence Initiative
+
+The two layers of existence, structure and meaningful existence, and the programme that studies them: `MEANINGFUL_EXISTENCE.md` (Companion Part 233; `tools/choice_engine.py`).
+
 ## Instruments
 
 L-470, L-455, M243

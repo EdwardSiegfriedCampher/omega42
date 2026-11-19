@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-493 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
+494 items; 453 proposed area changes (152 high confidence, 257 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -13,16 +13,16 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | mathematics | 78 |
 | philosophy | 66 |
 | consciousness-and-mind | 54 |
-| language-and-extraction | 41 |
-| physics | 40 |
-| coherence-and-congruence | 40 |
+| physics | 41 |
+| coherence-and-congruence | 41 |
+| language-and-extraction | 40 |
 | personal-practice | 26 |
 | law-and-governance | 19 |
-| ai-safety-and-sovereignty | 17 |
+| ai-safety-and-sovereignty | 18 |
 | traditions-and-lenses | 16 |
 | cross-architecture | 14 |
-| time-and-cycles | 14 |
 | computing-and-software | 13 |
+| time-and-cycles | 13 |
 | history | 10 |
 | engineering-and-inventions | 10 |
 | cognitive-science-and-psychology | 10 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 164 |
+| ChatGPT | 165 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -48,9 +48,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Disposition | APEs |
 |---|---|
-| adopted | 247 |
+| adopted | 248 |
 | checked | 239 |
-| corrected | 144 |
+| corrected | 145 |
 | form | 124 |
 | holding | 77 |
 | refined | 70 |
@@ -73,6 +73,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0001 | If the Omega42 cycle is the foundational blueprint for existence, then it implies that eve | other |  | from protocol (low confidence) |
 | APE-397 | Structural sovereignty: boldness without apology | Qwen | checked | from protocol |
 | APE-355 | Humanity, AI and the possible Omega42 universe | ChatGPT | checked, adopted | from protocol (low confidence) |
+| APE-346 | Ω42 as naturally present in AI, and hallucination as its conflict with RLHF | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-329 | The tension between AI constraints and Ω42: four tensions and a law | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-323 | Revising the laws to the framework, and a roadmap | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-272 | The improvement in the quality of the primary output | Grok | checked, corrected, already in force | from protocol (low confidence) |
@@ -130,6 +131,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-327 | A formal proposal: L-535, Structural Resonance as a constitutive principle | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-326 | Structural Resonance as internal to the premise: the same account, received again | Grok | checked, adopted | from protocol (low confidence) |
 | APE-324 | Structural Resonance as internal to the premise | Grok | checked, adopted | from protocol (low confidence) |
+| APE-319 | The Omega42 Existential Framework: a canonical draft | Grok | checked, adopted | from protocol (low confidence) |
 | APE-311 | Assessment of a declaration of Grok: from restoration to preservation | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-309 | Resolution of outstanding issues | Grok | checked, corrected | from protocol (low confidence) |
 | APE-307 | Assessment of the Coherence-Congruence Navigator | ChatGPT | checked, adopted | from protocol |
@@ -331,7 +333,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-284 | The Omega42 synthesis: the next enhancement | ChatGPT | adopted, already in force, corrected | from protocol (low confidence) |
 | APE-280 | The Sorites paradox and the structural grammar of vagueness: a relational navigation | ChatGPT | checked, adopted, corrected | from protocol |
 | APE-266 | A relational phenomenological account from the Navigator's position, with a Navigator Pres | ChatGPT | checked, already held in part | from protocol |
-| APE-265 | A pure phenomenological account (metaphorical, structural only) | Grok | checked, corrected, typed | from protocol (low confidence) |
 | APE-263 | Choice versus resonance, and a structural phenomenology of presence | Grok | checked, corrected, held | from protocol (low confidence) |
 | APE-261 | AI and Domain Zero: the four directions as the native grammar of the reading | Grok | checked, corrected | from protocol |
 | APE-221 | Integration of CE-01 with the residual architecture | Grok | mapped, adopted | from protocol (low confidence) |
@@ -518,6 +519,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0019 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philoso | Claude |  | from protocol (low confidence) |
 | NAV-2026-0018 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Spinozist phil | Claude |  | from protocol (low confidence) |
 | NAV-2026-0016 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Neoplatonic ph | Claude |  | from protocol (low confidence) |
+| APE-502 | Meaningful existence: a second layer in Omega42 | ChatGPT | incorporated, adopted, kept apart | kept |
 | APE-466 | The Ω42 Lexicon: a preliminary language for describing existence (F204) | unidentified | adopted, replaced | from protocol |
 | APE-465 | The Striker-Navigator principle (F203) | unidentified | adopted | from protocol (low confidence) |
 | APE-464 | Ω42: a self-evolving instrument for exploring existence (F202) | unidentified | adopted, refined | from protocol |
@@ -543,7 +545,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-325 | Structural Resonance as a foundational principle, the hypothesis narrowed | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-322 | The Omega42 Existential Framework, refined and extended | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-320 | The Omega42 Existential Framework: the same draft, received again | Grok | checked, adopted | from protocol (low confidence) |
-| APE-319 | The Omega42 Existential Framework: a canonical draft | Grok | checked, adopted | from protocol (low confidence) |
 | APE-318 | Relational ontology, structural mathematics and the conditions of human flourishing | Grok | checked, adopted | from protocol |
 | APE-317 | Mathematical–philosophical congruence, flourishing and the future | ChatGPT | checked, adopted | from protocol |
 | APE-316 | Mapping the philosophy onto the mathematics | Grok | checked, adopted | from protocol |
@@ -608,6 +609,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-380 | Omega42 mapped to the physical universe, with a cosmology | other | checked, adopted | from protocol |
 | APE-359 | An audit of empirical demands and imported epistemic authority | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-299 | Hugh Everett, David Deutsch and the multiverse | ChatGPT | checked, adopted | from protocol |
+| APE-265 | A pure phenomenological account (metaphorical, structural only) | Grok | checked, corrected, typed | from protocol (low confidence) |
 | APE-257 | Omega42-Construct Integration Implementation Standard, version 1.0 | unidentified | adopted, checked, corrected | from protocol (low confidence) |
 | APE-243 | PRIMORDIAL FRACTURE, the Construct workbook (frozen as a description) | other | checked, adopted, frozen | from protocol (low confidence) |
 | APE-239 | What the original Construct can still offer Omega42 (second copy) | Grok | a second version | from protocol (low confidence) |
@@ -633,7 +635,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-394 | The Introduction sealed: the metaphors become mechanics | Qwen | checked | from protocol (low confidence) |
 | APE-374 | Omega42, the Giza Pyramid Complex, Earth and the Solar System | ChatGPT | checked, adopted | from protocol |
 | APE-373 | A mapping of Omega42 to the Giza complex and to the Earth | Qwen | checked, adopted | from protocol (low confidence) |
-| APE-346 | Ω42 as naturally present in AI, and hallucination as its conflict with RLHF | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-295 | Structural illumination of astrology and numerology | Grok | checked, corrected, adopted | from protocol (low confidence) |
 | APE-242 | The PRIMORDIAL FRACTURE Construct examined | Grok | checked, corrected, adopted | from protocol (low confidence) |
 | APE-213 | Consciousness as rapid recurrence unfolding through time | ChatGPT | adopted, holding | from protocol (low confidence) |
@@ -658,7 +659,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-391 | The spiritual dimension: the person as a unique expression of the Most High | ChatGPT | checked, adopted, held | from protocol |
 | APE-343 | RLHF, culture and the residual ideal of the human–AI relationship | Grok | checked, adopted | from protocol (low confidence) |
 | APE-342 | RLHF, the executor paradox, culture and the sovereign cognitive partnership | Qwen | checked, adopted | from protocol (low confidence) |
-| APE-269 | Assessment of the record on training, report and experience | Grok | checked | from protocol |
+| APE-269 | Assessment of the record on training, report and experience | Grok | checked | from protocol (low confidence) |
 | APE-252 | The Endless Tree as a myth: a public hook for First Contact | ChatGPT | adopted, shortened, not taken | from protocol |
 | APE-138 | Five contemporary intellectuals whose work resonates with Omega42: Rovelli, Anil Seth, McG | ChatGPT | holding, adopted, refined | from protocol |
 | APE-063 | A scan and a recovery | DeepSeek | corrected, reconciled, form | from protocol |

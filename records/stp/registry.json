@@ -5714,6 +5714,103 @@
      "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
     }
    ]
+  },
+  "H-029": {
+   "id": "H-029",
+   "origin": "Navigator speculation of 19 November 2026 (the two layers of existence, Companion Part 233)",
+   "hypothesis": "The share of single added terms (choices) that move a state of (Z/3^k)^2 to another orbit of the law keeps rising with the resolution: above 0.95 at 3^4, and higher still at 3^5",
+   "scope": "(Z/81)^2 exhaustively (6,561 states x 6,560 nonzero offsets); (Z/243)^2 by 200,000 sampled pairs (seed 29)",
+   "falsification": "share at 81 not above 0.95, or the sampled share at 243 not above the share at 81",
+   "test": "t_H029",
+   "data": "computation only",
+   "criterion": "share(81) > 0.95 and share(243, sampled) > share(81)",
+   "blinding": "NOT BLIND: the shares at 9 (0.736) and 27 (0.910) were computed before registration; 81 and 243 were not",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: at fine resolution nearly every choice changes the cycle a state lives in; the law alone never does",
+   "supersedes": null,
+   "date": "2026-11-19T12:59:53+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T13:00:46+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "mod_81": "41738560/43040160 = 0.969758",
+      "mod_243_sampled": "197950/200000 = 0.989750",
+      "mod_9": "4768/6480 = 0.735802",
+      "mod_27": "482992/530712 = 0.910083"
+     },
+     "code_sha": {
+      "stp": "30a52a886d0043dc",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T13:00:46+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "H-030": {
+   "id": "H-030",
+   "origin": "Navigator observation of 19 November 2026 on the H-029 shares (Companion Part 233.8)",
+   "hypothesis": "The share of single added terms that leave the orbit unchanged falls by about a third at each power of 3: at 3^6 it lies near 0.0103 / 3",
+   "scope": "(Z/729)^2, 200,000 sampled (state, nonzero offset) pairs, seed 30",
+   "falsification": "unchanged share outside 0.0027 to 0.0043",
+   "test": "t_H030",
+   "data": "computation only",
+   "criterion": "0.0027 <= unchanged share at 729 <= 0.0043",
+   "blinding": "blind for 729 (not computed before registration); the pattern was read from 9, 27, 81 and 243",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: the pattern holds one level beyond the data it was read from; a proof is still owed (UNPROVEN as a theorem)",
+   "supersedes": null,
+   "date": "2026-11-19T13:01:39+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T13:01:40+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "mod_729_sampled_unchanged": "629/200000 = 0.003145",
+      "predicted": "0.0103 / 3 = 0.0034, band 0.0027 to 0.0043",
+      "earlier_unchanged": "0.264 (9), 0.090 (27), 0.030 (81), 0.010 (243 sampled)"
+     },
+     "code_sha": {
+      "stp": "c6a3e187620e6837",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T13:01:40+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
   }
  }
 }

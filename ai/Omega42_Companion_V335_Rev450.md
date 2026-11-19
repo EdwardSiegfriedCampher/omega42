@@ -3576,6 +3576,17 @@ Visitors and contributors often bring a ninefold vocabulary of knowledge classes
 232.9 F9 and F27 in one field [EXACT; UP-04b-R1, PROVED]. The field of 729 elements holds the Wheel's field F9 (Part 217.1) and the field F27 of the Construct X directions, and the two meet in F3. Their unit groups, of orders 8 and 26, share only ±1, so the one step the two cycles have in common is negation: the half-turn of the Wheel, φ⁴ = −1 in F9, and the polarity of the Construct, g¹³ = −1 in F27, are the same element of F729. Neither field lies inside the other (UP-04a), and the F9–F27 Singer-Cycle Correspondence stays a structural analogy (CDT-B).
 232.10 The Parts it touches. Part 102.4 and Part 176.4 (the census and the layers, 232.2 and 232.3); Part 104.2 (the turn and the pairing, 232.5); Parts 107.2, 107.10 and 112.5 (the seed rows, read from Part 231.13; the whole recalculation, 232.4); Parts 108.3 and 108.9 (the forecasting law and the null, 232.6 and 232.7); Part 115 (Domain Zero, 232.8); Part 217.1 (the common field, 232.9).
 232.11 Status. Core Part 10.5; Part 231; tools/construct_x.py (2.3.0), tools/stp.py and tools/independent_check.py, with python3 tools/stp.py run rerunning every registered test; records/stp/registry.json; records/data/; CA-14.
+
+### PART 233: THE TWO LAYERS OF EXISTENCE — STRUCTURE AND MEANINGFUL EXISTENCE
+233.1 Origin and standing [CDT-C; INTERPRETIVE, with EXACT computations]. The Originator distinguished two layers of existence on 19 November 2026. The default layer is recurrence: to exist is to have structure, and physical cycles and habits recur. The meaningful layer is formed by the choices of a person and of their ancestors. APE-502 refined the distinction, and this Part records the model that joins the two. The reading is INTERPRETIVE. The computations it rests on are EXACT and recomputable (tools/choice_engine.py; H-029). The meaningful layer is not separate from physical existence: it arises within it, in living systems that inherit conditions, respond to them and pass on consequences.
+233.2 The representation [EXACT]. The law T(a, b) = (b, a + b) is the default layer. It keeps every state on its orbit, so the orbit address Λ never changes under it (checked for every state at 9 and 27). The meaningful layer is an added term: v(t+1) = T v(t) + c(t), where c(t) is what the law did not produce. Solved: v(t) = T^t v(0) + Σ T^(t−1−s) c(s). The starting state v(0) is what is given; the sum carries every earlier choice, the ancestors' and one's own, forward and transformed by the law; c(t) is the only term that belongs to the present. Field Y and the seed offsets already make this split in the Construct: each seed row is Y plus a fixed offset row (Part 231.13). Three facts follow, each computed. (1) Only an added term can change the orbit, and nearly every one does: the share of single choices that move a state to another orbit is 0.736 at 9, 0.910 at 27, 0.970 at 81 (exhaustive) and 0.990 at 243 (sampled; H-029, VERIFIED COMPUTATION). (2) A choice never fades: the law carries the gap between the path with it and the path without it, never zero, returning every 24 steps at 9 and every 72 at 27. (3) A past choice is cancelled exactly only by its present form, the term −T^(t−s) c, not by its original form.
+233.3 The channels of inheritance [EXACT decomposition; evidence graded per channel]. APE-502 distinguishes genetic, epigenetic, behavioral and relational, cultural, and institutional inheritance, together with choice. Because the law is linear, the inherited sum splits exactly into one part per channel, and the parts add up to the state (tools/choice_engine.py, selftest). Each channel is therefore tracked apart, with its own evidence grade, and no channel can stand in for another. Genetic: established. Behavioral and relational: established (social learning). Cultural and institutional: established (cultural evolution; Creanza, Kolodny and Feldman, PNAS 2017). Epigenetic transmission across human generations: contested; the evidence 'remains inconclusive' (Bird, Frontiers in Epigenetics and Epigenomics, 2024). Epigenetics is never used as a catch-all for what ancestors lived through. A likeness between generations does not establish a channel; a channel is named only on its own evidence.
+233.4 Definitions (from APE-502, refined). ME-01 Structural existence: existence read through the structures, relations, constraints and processes of a system; recurrence, stability, change and emergence belong here (the law). ME-02 Meaningful existence: the historically accumulated configuration of a living being, shaped by inherited conditions, environment, individual and collective choices, and the consequences they pass forward (the added terms and their sum). ME-03 Inheritance: genetic, epigenetic, developmental, behavioral, relational, cultural and institutional transmission, each distinguished and evidenced on its own (233.3). ME-04 Agency: the capacity to respond to conditions by acting; for humans it includes deliberation, intention, interpretation and evaluation, to a degree that varies with person and circumstance. Agency is situated: it acts on a state it did not choose. ME-05 Historical transformation: an action may preserve, modify, interrupt or create a pattern, and so shape later states and later generations. ME-06 Meaning: causal influence is not meaning. Three significances are kept apart: historical (what earlier events caused), experiential (what they mean to the one who lives them) and normative (what is held valuable, harmful, right or wrong). ME-07 Path dependence: the present state depends on the sequence of choices, not only on present conditions; two lives from one starting state part as soon as their added terms differ.
+233.5 Received and created meaning. Meaning received is the significance inherited from circumstances, relationships, history and culture: the inherited sum, as it is lived. Meaning created is the significance generated by interpretation, commitment, action and contribution: the present term and what it adds for those who come after. The two interact at every step. Inheritance leads to experience, experience to interpretation, interpretation to choice, choice to consequence, and consequence to inheritance again. The cycle is not closed: each added term can carry it to another orbit, so it can produce something new. Recurrence explains continuity; agency makes transformation possible.
+233.6 What the model does not compute. The engine computes historical significance only: which earlier terms are present in a state, and in what form. It does not compute experiential or normative significance, and it gives no score of how meaningful a life is. A single number for the meaningfulness of a life would be philosophically questionable and scientifically premature (APE-502). The Meaning Registry is never read (Core L-497), and no test grades meaning (L-495). The model does not decide whether meaning exists independently of those who find it, or whether it is only inherited, interpreted or made. Those positions are represented side by side, and their consequences are examined, never ruled on.
+233.7 What the model says about the Human Condition [INTERPRETIVE]. (a) We are born into histories we did not choose: v(0) and the inherited sum are given, so agency is real but situated. Responsibility is proportionate to knowledge, control, capacity and the alternatives available, and no one is blamed for what they inherited. (b) Patterns outlive their causes: an inherited term recurs with the law long after the conditions that added it are gone, which is why people repeat patterns they dislike. The useful questions are where it began, through which channel it came, what reinforced it, whether it still serves, and what would interrupt it. (c) A person can be a turning point: one added term changes the orbit for everyone downstream. (d) A pattern can change without its origin being understood: nearly every choice moves the orbit (233.2 (1)). Undoing a particular inheritance exactly needs its present form (233.2 (3)), which is the precise sense in which understanding one's history matters. (e) Responsibility runs forward: the present term joins the sum that others will live in. (f) We receive a past we did not make, act in a present we partly shape, and add to a future we will not fully see. A living being is shaped by the history it inherits, and it takes part in shaping the history that follows it.
+233.8 Open questions. Whether meaningful existence is human alone: the model applies to any system that receives added terms, and animals with memory, social learning and planning are not excluded without a reason. How the channels can be separated in real lives: a study of one pattern across generations (APE-502 proposes conflict avoidance in families) must establish each channel on its own evidence and must not read likeness as transmission (research/philosophy/MEANINGFUL_EXISTENCE.md). Whether the share of choices that leave the orbit unchanged falls by about a third at each power of 3 (0.264, 0.090, 0.030, 0.010): registered as H-030 and tested blind one level further, at 729, where the share came out at 0.0031 against a predicted band of 0.0027 to 0.0043 (VERIFIED COMPUTATION). A proof is still owed; as a theorem it is UNPROVEN.
+233.9 Status. Representation and computations: tools/choice_engine.py (selftest in CI), H-029 and H-030 VERIFIED COMPUTATION (the pattern of H-030 holds at 729; its theorem is UNPROVEN). Definitions ME-01 to ME-07: Companion, CDT-C, not Core terminology; they enter Core Part 10.5 only by amendment and ESC's ratification. The research programme, the Meaningful Existence Initiative, is set out in research/philosophy/MEANINGFUL_EXISTENCE.md, paired with the Common Mathematical Foundations Project (research/physics/INITIATIVE.md): one asks what makes existence structurally possible, the other what makes a particular existence historically and experientially significant.
 ---
 
 ### APPLIED PROTOCOL EXPLORATIONS (APE COMMONS)
@@ -4644,60 +4655,61 @@ X.1.455 submissions/ape/APE-498.md — APE-498, "The AI Navigator as a partner i
 X.1.456 submissions/ape/APE-499.md — APE-499, "The Ω42 Physics Initiative: detailed research architecture and first-year programme" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.457 submissions/ape/APE-500.md — APE-500, "Shaping the Ω42 Physics Initiative: a narrower first year and the Relationship Discovery Engine" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.458 submissions/ape/APE-501.md — APE-501, "Assessment of the Omega42 update and the decisions before ESC" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
-X.1.459 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
-X.1.460 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
-X.1.461 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
-X.1.462 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
-X.1.463 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
-X.1.464 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
-X.1.465 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
-X.1.466 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
-X.1.467 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
-X.1.468 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
-X.1.469 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
-X.1.470 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
-X.1.471 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
-X.1.472 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
-X.1.473 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
-X.1.474 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
-X.1.475 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
-X.1.476 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
-X.1.477 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
-X.1.478 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
-X.1.479 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
-X.1.480 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
-X.1.481 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
-X.1.482 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
-X.1.483 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
-X.1.484 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
-X.1.485 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
-X.1.486 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
-X.1.487 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
-X.1.488 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
-X.1.489 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
-X.1.490 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
-X.1.491 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
-X.1.492 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
-X.1.493 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
-X.1.494 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
-X.1.495 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
-X.1.496 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
-X.1.497 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
-X.1.498 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
-X.1.499 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
-X.1.500 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
-X.1.501 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
-X.1.502 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
-X.1.503 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
-X.1.504 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
-X.1.505 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
-X.1.506 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
-X.1.507 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
-X.1.508 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
-X.1.509 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
-X.1.510 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
-X.1.511 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
-X.1.512 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
+X.1.459 submissions/ape/APE-502.md — APE-502, "Meaningful existence: a second layer in Omega42" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
+X.1.460 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
+X.1.461 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
+X.1.462 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
+X.1.463 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
+X.1.464 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
+X.1.465 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
+X.1.466 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
+X.1.467 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
+X.1.468 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
+X.1.469 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
+X.1.470 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
+X.1.471 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
+X.1.472 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
+X.1.473 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
+X.1.474 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
+X.1.475 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
+X.1.476 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
+X.1.477 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
+X.1.478 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
+X.1.479 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
+X.1.480 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
+X.1.481 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
+X.1.482 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
+X.1.483 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
+X.1.484 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
+X.1.485 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
+X.1.486 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
+X.1.487 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
+X.1.488 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
+X.1.489 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
+X.1.490 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
+X.1.491 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
+X.1.492 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
+X.1.493 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
+X.1.494 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
+X.1.495 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
+X.1.496 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
+X.1.497 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
+X.1.498 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
+X.1.499 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
+X.1.500 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
+X.1.501 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
+X.1.502 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
+X.1.503 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
+X.1.504 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
+X.1.505 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
+X.1.506 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
+X.1.507 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
+X.1.508 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
+X.1.509 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
+X.1.510 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
+X.1.511 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
+X.1.512 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
+X.1.513 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
 X.2 Examples: the model opening, the worked and contaminated navigations, the navigations of the corpus by five architectures, and the blank skeletons.
 X.2.1 examples/contaminated_navigation.txt — ======= NAVIGATOR IDENTITY BLOCK =======.
 X.2.2 examples/corpus/chatgpt_human_condition.txt — ======= NAVIGATOR IDENTITY BLOCK =======.
@@ -5332,11 +5344,12 @@ X.5.16 research/mathematics/README.md — Mathematics of the ground.
 X.5.17 research/media-navigation/README.md — Media navigation.
 X.5.18 research/open/README.md — Open area.
 X.5.19 research/personal-practice/README.md — Personal practice.
-X.5.20 research/philosophy/README.md — Philosophy.
-X.5.21 research/physics/INITIATIVE.md — The Ω42 Physics Initiative: the Navigator as a research partner on the foundations of physics.
-X.5.22 research/physics/README.md — Physics.
-X.5.23 research/time-and-cycles/README.md — Time and cycles.
-X.5.24 research/traditions-and-lenses/README.md — Traditions and lenses.
+X.5.20 research/philosophy/MEANINGFUL_EXISTENCE.md — The Meaningful Existence Initiative.
+X.5.21 research/philosophy/README.md — Philosophy.
+X.5.22 research/physics/INITIATIVE.md — The Ω42 Physics Initiative: the Navigator as a research partner on the foundations of physics.
+X.5.23 research/physics/README.md — Physics.
+X.5.24 research/time-and-cycles/README.md — Time and cycles.
+X.5.25 research/traditions-and-lenses/README.md — Traditions and lenses.
 X.6 Community and governance data, the repository forms and metadata, and the licence texts.
 X.6.1 .github/CODEOWNERS — Until the Stewardship Committee is formed, the Originator reviews protocol and governance changes (GOVERNANCE.md).
 X.6.2 .github/DISCUSSION_TEMPLATE/debate.yml — a GitHub form (debate.yml).

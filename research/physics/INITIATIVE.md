@@ -78,7 +78,7 @@ The proposal's **Common Mathematical Foundations Project** is adopted as the fir
 1. CA-21: add the fields A (assumptions), F (fails if) and the recovery limit to the Physical Mapping Register.
 2. Whether the initiative opens now as a research area programme, or waits for the reviewer pool (stage 2 of `ROADMAP.md`).
 3. The first outward entry: general relativity, lattice gauge theory or thermodynamics.
-4. Whether the physics material becomes Companion Part 233 when the initiative opens (section 10).
+4. Whether the physics material becomes a Companion Part of its own when the initiative opens (section 10); Part 233 now holds the two layers of existence.
 5. The appointment of a scientific lead, which starts the first-year calendar.
 
 ## 10. The detailed architecture (APE-499): assessed and refined
@@ -98,7 +98,7 @@ The second proposal gives the programme its working form: three tracks, six labo
 | Layer 5, discovery and hypothesis | PROPOSED status; a suggestion is labeled PROPOSED until a registered test runs | none |
 | Layer 6, six roles | The modes of section 5 | Literature analyst = historian plus the four lanes; synthesis researcher = coordinator. Named in each output |
 | Layer 7, interface | The Lab and the site | A physics tab follows the first new mapping entry |
-| A separate "Physics Research Companion" | — | **Not a second document.** It becomes a Part of the one Companion (proposed Part 233) when ESC opens the initiative. Two Companions would be two sources of authority over one Core (Core Part 10.5.1) |
+| A separate "Physics Research Companion" | — | **Not a second document.** It becomes a Part of the one Companion (a Part of its own, numbered when the initiative opens) when ESC opens the initiative. Two Companions would be two sources of authority over one Core (Core Part 10.5.1) |
 | Gates G1 to G6 | G2 novelty = the Prior Art Ledger; G3 formalisation = registration with criterion fixed (CA-08); G4 consistency = self-tests and two implementations; G5 empirical relevance = the fails-if field (CA-21); G6 review = SNCA and human review | Adopted. A question that stops at a gate is recorded, with the gate and the reason, as REJECTED entries are kept today |
 | Research identifiers Ω42-PHY-QG-0001 | PM- (mappings), PR- (predictions), H- (tests) | Adopted as **PHY-<laboratory>-<nnnn>** for an investigation, which links its PM-, PR- and H- entries |
 | Benchmark suite with known answers | **PHB-01, run today: 5 of 5 established results reproduced, each control failing** (Noether; the geodesic equation from the variational principle; ln 2 for a Bell pair; dS/dM = 1/T_H; the Newtonian limit with its 3/4 correction). The control residual for a circle of latitude is 0.4546, which is sin 1 · cos 1 as theory requires | PHB-01 tests the toolkit, not the Navigator: its author knew the answers (CONSTRUCTIONAL). The Navigator is tested by H-025 to H-027, and by **H-028**: questions whose correct answer is "unknown" or "disputed" |
