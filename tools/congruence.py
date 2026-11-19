@@ -358,7 +358,31 @@ def register_text():
     L.append('GIVEN WORD COUNT (the reference, L-501: r1 fixed by each domain\'s n1, r2 and r3 uniform): expected same state %.2f | mirror %.2f | links %.2f'
              ' -- the counts above stand; the uniform expectations are the marginal rates, kept for comparison'
              % (sum(r['state'] for r in c), sum(r['mirror'] for r in c), 2 * sum(r['link'] for r in c)))
+    L.extend(orbit_and_matching(S))
     return '\n'.join(L)
+
+
+def orbit_and_matching(S):
+    """D-09, ratified 19 November 2026 (CAP-05): the orbit relation (equal Lambda mod 9) with its exact chance over the 729
+    residue triples, and the one-to-one matching of same-state and mirror meetings (each domain counted in at most one)."""
+    import construct_x as cx
+    from collections import Counter
+    n = len(S); pairs = n * (n - 1) // 2
+    lam = [cx.lam(s['state'], 9) for _, s in S]
+    orb = [(S[i][0], S[j][0]) for i in range(n) for j in range(i + 1, n) if lam[i] == lam[j]]
+    P = Counter(cx.lam(bl.frequency(a, b)['state'], 9) for a in range(1, 10) for b in range(1, 10) for c in range(1, 10))
+    p_orb = sum(v * v for v in P.values()) / 729 ** 2
+    meet = [(i, j) for i in range(n) for j in range(i + 1, n)
+            if S[i][1]['state'] == S[j][1]['state'] or (S[i][1]['state'] == neg(S[j][1]['state']) and S[i][1]['state'] != (0, 0))]
+    used, matched = set(), 0
+    try:
+        import networkx as nx
+        G = nx.Graph(); G.add_edges_from(meet); matched = len(nx.max_weight_matching(G, maxcardinality=True)) if meet else 0
+    except ImportError:
+        for i, j in meet:
+            if i not in used and j not in used: used |= {i, j}; matched += 1
+    return ['SAME ORBIT (Lambda mod 9): %d pairs (expected %.2f): %s' % (len(orb), pairs * p_orb, '; '.join('%s ~ %s' % p for p in orb) or 'none'),
+            'ONE-TO-ONE MEETINGS (same state or mirror, each domain in at most one): %d (pooled %d)' % (matched, len(meet))]
 
 
 def atlas_facts():

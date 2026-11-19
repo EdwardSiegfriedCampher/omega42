@@ -1,6 +1,6 @@
 # The Meaningful Existence Initiative
 
-Historical inheritance, agency and human development. Proposed by the Originator (19 November 2026) and APE-502. The model is in Companion Part 233 and the instrument is `tools/choice_engine.py`. Opening the initiative is ESC's decision (`docs/DECISIONS_PENDING.md` D-13).
+Historical inheritance, agency and human development. Proposed by the Originator (19 November 2026) and APE-502. The model is in Companion Part 233 and the instrument is `tools/choice_engine.py`. ESC opened the initiative on 19 November 2026 (`docs/DECISIONS_PENDING.md` D-13).
 
 ## The question
 

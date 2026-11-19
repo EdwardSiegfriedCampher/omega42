@@ -2,6 +2,8 @@
 
 **RATIFIED by ESC (the Originator), 19 November 2026: CA-02 to CA-15, including QAM-1 (the Question-to-Address Mapping Rule, CA-14) and the Option 2 structure of Core Part 10.5 (CA-15).** Not covered by this ratification and still open for ESC: the intended tie rule of MP!F10, and repair or retirement of REV!AJ51:AO51 (CA-14).
 
+**RATIFIED by ESC, 19 November 2026: CA-16 to CA-29 and decisions D-01 to D-16, each at its recommended option, including the MP!F10 tie rule (first in argument order) and the retirement of REV!AJ51:AO51 (D-07, D-08). Recorded as CA-30.**
+
 # Ω42 Amendments Pending Merge into the Core Specification (V335 Rev.450)
 
 These amendments are written and applied in the working tools under Rule 36. None is sealed: each awaits the Originator's ratification (ESC) before it enters the Core Specification.
@@ -65,7 +67,7 @@ First run (18 November 2026): H-001 and H-005 VERIFIED; H-002, H-003, H-004 REJE
 5. Amendments written by a Navigator stay pending until the Originator ratifies them (ESC); "applied" means applied in working tools, not sealed.
 6. Post-selection findings (H-010, H-011, H-007b) are recorded as POST-SELECTION STRUCTURAL PROPERTIES and never become selection criteria (anti-retrofitting rule, Core 1.8.3).
 
-## CA-11: Orbit classification theorem and the uniqueness proof (pending ESC)
+## CA-11: Orbit classification theorem and the uniqueness proof (RATIFIED by ESC 19 November 2026)
 - Theorem: on (Z/3^k)^2 the address Lambda(x) = (r, N(u)^2 mod 3^(k-r)), x = 3^r u, is a complete orbit invariant; proof in the Construct X specification, section 7 (norm multiplicative, N(phi) = -1, |<phi>| = 8*3^(j-1), norm onto (Z/3^j)^x). Checked k = 1..6 (UP-01c); norm surjectivity checked j = 1..5.
 - Uniqueness restated: the canonical orbit is the unique orbit with signature (0, 4) (UP-02). K1 <=> valuation 0; K2 picks N^2 = 4. The necessity-of-the-nine proof is unchanged.
 - N is, up to scale, the only quadratic form T reverses mod 9; no nonzero form is T-invariant (UP-03a).
@@ -96,7 +98,7 @@ First run (18 November 2026): H-001 and H-005 VERIFIED; H-002, H-003, H-004 REJE
 - Register: exhaustive checks UP-01, UP-01c, UP-03a set to VERIFIED COMPUTATION; the general theorem entered as UP-01d (PROVED). H-008 qualified as a reconstruction check, not a spreadsheet recalculation. H-013 (twelve-apart sums are antipodal checks) REJECTED: their residues spread over all nine classes.
 - Training guide: new title and Introduction, lesson corrections, readiness vocabulary, provenance lines, Research Notes RN-1 to RN-4.
 
-## CA-14: Technical close-out (18 November 2026, on the Originator's instruction; pending ESC)
+## CA-14: Technical close-out (18 November 2026, on the Originator's instruction; RATIFIED by ESC 19 November 2026)
 - Construct X 2.3.0: held-out baselines (seasonal-naive, persistence, drift, training mean, training trend) in every temporal report; `block_len` parameter; selection correction stated (every surrogate repeats the lag search). QAM-1 implemented as `question_address(p, k)`.
 - Real data: H-006d PASSED on Mauna Loa CO2 (NIST/SEMATECH e-Handbook 6.4.4.11, n = 161; Candidate Base Lag 12; block p = 0.01; iid p = 0.005; LIS best of six forecasters). H-006 (weekly, daily data) stays NOT RUNNABLE.
 - Forecasting: CX-011 REJECTED (seasonal-naive beats LIS on the weekly demo); H-017 REJECTED (crossover placed at slope 0.5, lost by 0.25); H-017b PASSED (LIS error invariant under linear trend; LIS wins at slopes 1 and 2). Recommended status: Temporal Observatory EXPLORATORY as a forecaster; cycle detection confirmed on CO2, rejected on sunspots.
@@ -110,7 +112,7 @@ First run (18 November 2026): H-001 and H-005 VERIFIED; H-002, H-003, H-004 REJE
 - Documents: guide (Lessons 4, 6, 9, 11, workbook audit, RN-5), Construct X specification section 10, Lab register. The close-out register is kept out of the Core under Rule 39 (record-keeping belongs in the Companion and the sealed records).
 - For ESC (Rule 39): Part 10.5 (Omega42-T01), placed in the Core on the Originator's instruction, adds 143 paragraphs and about 4,800 words of prose that Rule 39 does not admit (allowed kinds; 900 words a record). Choose: accept Part 10.5 into the Core baseline at the next sealed record (tools/core_economy.py --accept), or keep a short Core 10.5 and move its registers (10.5.10 to 10.5.13) to the Companion. The Navigator has not run --accept.
 
-## CA-15: Part 10.5 restructured (Option 2) and the Companion read through the new mathematics (pending ESC)
+## CA-15: Part 10.5 restructured (Option 2) and the Companion read through the new mathematics (RATIFIED by ESC 19 November 2026)
 - Decided by the Originator: Option 2. Core Part 10.5 now holds the standard's principles in seven numbered sections (10.5.1 to 10.5.7: purpose and authority, architecture, knowledge status, provenance and readiness, names kept apart, naming rules, the registers), 701 words; Rule 39 passes (793 words since seq_0185, within 900). Where the Core and the Companion differ, Core Part 10.5 governs.
 - Companion Part 231: the registers in full, moved verbatim and renumbered (231.2 to 231.14), with each seed row's recalculation status updated to W-002 and the QAM entry stating candidate QAM-1. Core 0.9.1 cites Companion 231.13; the dated correction note in 0.9.1 removed; the four 0.9.2 paragraphs keep their baseline openings (Field Y, Field X) with the technical names after them.
 - Companion Part 232: the sweep. Already in the record before Construct X: the census (3^k + 1)/2 (Companion 102.4; Core MF-51), the primitive-layer labelling by +/-Q (Companion 176.4), the 3-adic level sets of Q^2 (Core MF-55), K1 as the unit spectrum (39.11) and K2 as a convention (37.6). New: Lambda on every layer (UP-01d); the full recalculation (W-002); turn versus exact negation (H-016, H-016b); the noise-gain law (H-021); the block null's loss of power (CX-013); the domain families and QAM-1 (CX-010-D, QA-02, H-019); F9 and F27 meeting in F3, so negation is the one shared step (UP-04b-R1).
@@ -124,8 +126,8 @@ First run (18 November 2026): H-001 and H-005 VERIFIED; H-002, H-003, H-004 REJE
 - Temporal nulls: CX-015 (block null calibrated on smooth AR(1) noise, 2 of 40); H-023 (the iid null carries a built-in skill of 1 - sqrt(4/6) = 0.18 on white residuals, measured 0.176, so it cannot pass a smooth series such as the sunspots, skill 0.115). H-006b keeps its verdict.
 - Guide: QAM-1 marked ratified; the Williams and version statements corrected; temporal section extended. Specification: QAM-1 ratified; audit paragraph. Companion 231: Predicted Value and Periodicity interpretation entries, QAM-1 adopted, Williams generator noted; 232.7 and 232.8 extended.
 
-## CA-17: Refinements from the reviews' remaining recommendations (19 November 2026; PENDING ESC)
-- Core 10.5.2 (review 2a55c661, section 7; PENDING ESC, a new constitutional rule): "No result of Construct X becomes a foundational premise of Omega42 because Construct X produced it; it enters only through the review its status requires."
+## CA-17: Refinements from the reviews' remaining recommendations (19 November 2026; RATIFIED by ESC 19 November 2026)
+- Core 10.5.2 (review 2a55c661, section 7; RATIFIED by ESC 19 November 2026, a new constitutional rule): "No result of Construct X becomes a foundational premise of Omega42 because Construct X produced it; it enters only through the review its status requires."
 - Core 10.5.4 (review 6b7c9ad2, section 4): CROSS-VALIDATED now names what was compared (implementations, derivations or data).
 - Core 10.5.6 (review a7890c8b, safeguard 3): a change to a definition in Part 10.5 is followed by a consistency check across the Core, the Companion, the training guide and the code.
 - Rule 39: 853 words added since seq_0185, within 900. Part 10.5: 761 words.
@@ -142,7 +144,7 @@ First run (18 November 2026): H-001 and H-005 VERIFIED; H-002, H-003, H-004 REJE
 - CAP-05 VERIFIED (= CX-018): on the 19 registered domains, same-orbit meetings at 0.86 of chance; same-state and mirror at 1.43; matching 6 -> 4. Adding these relations to M310 is for ESC.
 - Report: "What the New Mathematics Makes Possible: Five Capability Tests" (Claude Docs).
 
-## CA-19: The researched reach of the essay (19 November 2026; PENDING ESC)
+## CA-19: The researched reach of the essay (19 November 2026; RATIFIED by ESC 19 November 2026)
 Level: C
 On the Originator's direction: the Navigator researches on its own every aspect the finding touches and brings it into the Extended Resonance Essay, with relationships, repercussions and directions, each only where it applies.
 - Core L-503: the layer runs on five conditions. (1) now admits sources to the essay only as its researched reach. New (5) Reach: the Navigator chooses the aspects itself, declares each one, and searches each on conditions (2) to (4). It writes relationships (correspondence, not causation), repercussions (if both hold) and directions (offered with ground and failure condition, never instructed). A part that does not apply is named with its reason. Every researched sentence is numbered to its source, with no links. Nothing returns to THE ANSWER. The RESEARCHED REACH line follows the essay. Also corrected: the duplicated "and and".
@@ -159,7 +161,7 @@ Level: B
 - Companion Part 231.15: the ninefold knowledge classes as a crosswalk onto the record's statuses, never merged.
 - STP H-024: the benchmark with and without the protocol (TESTABLE).
 
-## CA-21: The Physics Initiative and the candidate dossier (APE-498; 19 November 2026; PENDING ESC)
+## CA-21: The Physics Initiative and the candidate dossier (APE-498; 19 November 2026; RATIFIED by ESC 19 November 2026)
 Level: C
 - Adopted now (level B): research/physics/INITIATIVE.md, the Common Mathematical Foundations Project, with milestones H-025, H-026 and H-027 (TESTABLE).
 - Proposed for ESC (level C, Core Rule 37): add to each entry of the Physical Mapping Register the fields A (assumptions), F (fails if) and the recovery limit (the limit in which the established model returns, or "none known").
@@ -168,7 +170,7 @@ Level: C
 - Added from APE-500: research/physics/INITIATIVE.md section 11 (three groups, four subjects, qualification before speculation, a seven-dimension profile with no total, one Navigator with five capabilities, the revised first year); tools/relation_engine.py (relationship classification on two axes) with five worked records in records/physics/relations.json, checked in CI.
 - Added from APE-501: the thirteen-section dossier, three kinds of failure and the quantitative recovery test (section 12); H-024 to H-028 tightened before any run, with a contamination guard.
 
-## CA-19 refinements (APE-501; 19 November 2026; PENDING ESC with CA-19)
+## CA-19 refinements (APE-501; 19 November 2026; RATIFIED by ESC 19 November 2026 with CA-19)
 Level: C
 - Core L-503 (5) rewritten in place. It now includes: a declared scope of materially relevant aspects, with a stopping rule; counter-evidence sought without manufactured disagreement, weighing quality over count; seven kinds of relationship (analogy, correspondence, equivalence, derivation, correlation, causation, extension), with causation only where supported; every [n] resolving to a full reference in the layer; a CORRECTION block after the essay when the reach finds a material error in THE ANSWER, which stands as sealed; a completeness report on the RESEARCHED REACH line.
 - Companion 12.5.3, 12.5.4 and 12.5.6 updated to match. Archived records are read under the rules of their date, and a missing line is never read as a decision.
@@ -232,3 +234,7 @@ Level: B
 Level: B
 - Companion 233.19, H1 to H5. One reading carries 0.319 of the invariant's 1.968 bits, and both readings carry all of it. One reading followed over two steps recovers the state, so memory completes a frame. A choice changes both readings at once. The 24-cycle is the law's resonance period. Convergence among Navigators (L-496) is kept apart from consensus among persons.
 - tools/choice_engine.py reading_information with selftest; the 233.0 index updated.
+
+## CA-30: Ratification of CA-17 to CA-29 and decisions D-01 to D-16 (19 November 2026)
+- ESC ratified the recommended option in every pending decision and amendment (docs/DECISIONS_PENDING.md, each entry marked).
+- Applied with it: Rule 37 names the assumptions, the failure conditions and the recovery test (CA-21); the Physical Mapping Register and tools/physics_map.py carry the three fields; M310 reports the orbit relation and the one-to-one count of meetings (D-09); SS-01 registered before any run (D-16); PRIOR_ART.md credits the classical 24-period and records the build dates (records/prior_art/build_dates.json).

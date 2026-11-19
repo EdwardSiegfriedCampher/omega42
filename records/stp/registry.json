@@ -6092,6 +6092,23 @@
      "reason": "run outcome PASS"
     }
    ]
+  },
+  "SS-01": {
+   "id": "SS-01",
+   "origin": "proposal O42-PEP-2026-002 (Structural Spectrum, 7 Sep 2026); ESC decision D-16 (4), ratified 19 Nov 2026",
+   "hypothesis": "The companion readings (Scheme B, ordinal sum, frequency weight, stroke count, genus sum, NEDA) carry information about a domain that its canonical anchor does not: over pairs of paraphrases of one question, the companions agree within a pair more often than across pairs, beyond what the anchor's agreement explains",
+   "scope": "English domains; the companion readings as specified in the proposal",
+   "falsification": "within-pair agreement of the companions no higher than across-pair agreement given the anchor (one-sided binomial p >= 0.05)",
+   "test": null,
+   "data": "a corpus of 50 paraphrase pairs, written and frozen by a person before any reading is computed",
+   "criterion": "one-sided binomial p < 0.05 on within-pair agreement given the anchor",
+   "blinding": "BLIND: the corpus is frozen before the companions are computed",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "on pass, the Structural Spectrum may be proposed as a default block; on fail, the companions stay optional",
+   "date": "2026-11-19T18:32:01+00:00",
+   "runs": [],
+   "status": "UNPROVEN"
   }
  }
 }

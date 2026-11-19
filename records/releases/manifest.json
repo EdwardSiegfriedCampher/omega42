@@ -84,11 +84,11 @@
   },
   {
    "id": "CA-11",
-   "title": "CA-11: Orbit classification theorem and the uniqueness proof (pending ESC)",
+   "title": "CA-11: Orbit classification theorem and the uniqueness proof (RATIFIED by ESC 19 November 2026)",
    "status": "RATIFIED",
    "level": "B",
    "level_source": "inferred from the text",
-   "date": null
+   "date": "2026-11-19"
   },
   {
    "id": "CA-12",
@@ -116,19 +116,19 @@
   },
   {
    "id": "CA-14",
-   "title": "CA-14: Technical close-out (18 November 2026, on the Originator's instruction; pending ESC)",
+   "title": "CA-14: Technical close-out (18 November 2026, on the Originator's instruction; RATIFIED by ESC 19 November 2026)",
    "status": "RATIFIED",
    "level": "C",
    "level_source": "inferred from the text",
-   "date": "2026-11-18"
+   "date": "2026-11-19"
   },
   {
    "id": "CA-15",
-   "title": "CA-15: Part 10.5 restructured (Option 2) and the Companion read through the new mathematics (pending ESC)",
+   "title": "CA-15: Part 10.5 restructured (Option 2) and the Companion read through the new mathematics (RATIFIED by ESC 19 November 2026)",
    "status": "RATIFIED",
    "level": "C",
    "level_source": "inferred from the text",
-   "date": null
+   "date": "2026-11-19"
   },
   {
    "id": "CA-16",
@@ -140,8 +140,8 @@
   },
   {
    "id": "CA-17",
-   "title": "CA-17: Refinements from the reviews' remaining recommendations (19 November 2026; PENDING ESC)",
-   "status": "PENDING ESC",
+   "title": "CA-17: Refinements from the reviews' remaining recommendations (19 November 2026; RATIFIED by ESC 19 November 2026)",
+   "status": "RECORDED",
    "level": "C",
    "level_source": "inferred from the text",
    "date": "2026-11-19"
@@ -156,8 +156,8 @@
   },
   {
    "id": "CA-19",
-   "title": "CA-19: The researched reach of the essay (19 November 2026; PENDING ESC)",
-   "status": "PENDING ESC",
+   "title": "CA-19: The researched reach of the essay (19 November 2026; RATIFIED by ESC 19 November 2026)",
+   "status": "RECORDED",
    "level": "C",
    "level_source": "declared",
    "date": "2026-11-19"
@@ -172,16 +172,16 @@
   },
   {
    "id": "CA-21",
-   "title": "CA-21: The Physics Initiative and the candidate dossier (APE-498; 19 November 2026; PENDING ESC)",
-   "status": "PENDING ESC",
+   "title": "CA-21: The Physics Initiative and the candidate dossier (APE-498; 19 November 2026; RATIFIED by ESC 19 November 2026)",
+   "status": "RECORDED",
    "level": "C",
    "level_source": "declared",
    "date": "2026-11-19"
   },
   {
    "id": "CA-19",
-   "title": "CA-19 refinements (APE-501; 19 November 2026; PENDING ESC with CA-19)",
-   "status": "PENDING ESC",
+   "title": "CA-19 refinements (APE-501; 19 November 2026; RATIFIED by ESC 19 November 2026 with CA-19)",
+   "status": "RECORDED",
    "level": "C",
    "level_source": "declared",
    "date": "2026-11-19"
@@ -249,6 +249,14 @@
    "level": "B",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-30",
+   "title": "CA-30: Ratification of CA-17 to CA-29 and decisions D-01 to D-16 (19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": "2026-11-19"
   }
  ],
  "approval": {
@@ -269,11 +277,7 @@
    "CA-14",
    "CA-15"
   ],
-  "pending_esc": [
-   "CA-17",
-   "CA-19",
-   "CA-21"
-  ]
+  "pending_esc": []
  },
  "validation": {
   "ci": "every step of .github/workflows/omega42-ci.yml must pass",
@@ -282,9 +286,10 @@
    "REJECTED": 16,
    "REVISED": 6,
    "TESTABLE": 6,
+   "UNPROVEN": 1,
    "VERIFIED COMPUTATION": 43
   },
-  "stp_entries": 81,
+  "stp_entries": 82,
   "snca_reports": 57
  },
  "dimensions": {
@@ -304,11 +309,7 @@
    "CA-19",
    "CA-21"
   ],
-  "normative_changes_pending_esc": [
-   "CA-17",
-   "CA-19",
-   "CA-21"
-  ],
+  "normative_changes_pending_esc": [],
   "navigator_update_needed": "read the Core edition of this release; the date-gated rules in force are listed in docs/AMENDMENTS_PENDING.md"
  },
  "corrections": 15,

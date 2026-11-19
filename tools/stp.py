@@ -1437,6 +1437,10 @@ PRE = [
       scope="as RC-01-R1", falsification="as RC-01-R1, with growth judged as more than tenfold in 40 steps (the bound gives at least 1.118^40 = 87)", test="t_RC01R2", data="computation only",
       criterion="all five checks hold, growth threshold tenfold in 40 steps", blinding="NOT BLIND: the defect of RC-01-R1 was seen before registration", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
       consequence="supersedes RC-01-R1, whose threshold was a test-design defect", supersedes="RC-01-R1"),
+ dict(id="SS-01", origin="proposal O42-PEP-2026-002 (Structural Spectrum, 7 Sep 2026); ESC decision D-16 (4), ratified 19 Nov 2026", hypothesis="The companion readings (Scheme B, ordinal sum, frequency weight, stroke count, genus sum, NEDA) carry information about a domain that its canonical anchor does not: over pairs of paraphrases of one question, the companions agree within a pair more often than across pairs, beyond what the anchor's agreement explains",
+      scope="English domains; the companion readings as specified in the proposal", falsification="within-pair agreement of the companions no higher than across-pair agreement given the anchor (one-sided binomial p >= 0.05)", test=None, data="a corpus of 50 paraphrase pairs, written and frozen by a person before any reading is computed",
+      criterion="one-sided binomial p < 0.05 on within-pair agreement given the anchor", blinding="BLIND: the corpus is frozen before the companions are computed", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="on pass, the Structural Spectrum may be proposed as a default block; on fail, the companions stay optional"),
 ]
 FIRST_RUN = {  # results of the 18 Nov 2026 first run, kept as history
  "H-001": "PASS", "H-002": "FAIL", "H-003": "FAIL", "H-004": "FAIL (reported 7 of 9; script duplicated H-002)", "H-005": "PASS"}

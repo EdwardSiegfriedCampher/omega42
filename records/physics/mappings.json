@@ -88,7 +88,10 @@
     "measurements": "Core Appendix S.23",
     "predictions": "PR-006, PR-010, PR-011"
    },
-   "map": "domain: the Fibonacci Hamiltonian (H psi)_n = -psi_(n+1) - psi_(n-1) + v_n psi_n, v_n = V on a, 0 on b; codomain: the law as the substitution matrix; the transfer matrices as the law of the words in SL2; the gaps labeled in Z + Z phi"
+   "map": "domain: the Fibonacci Hamiltonian (H psi)_n = -psi_(n+1) - psi_(n-1) + v_n psi_n, v_n = V on a, 0 on b; codomain: the law as the substitution matrix; the transfer matrices as the law of the words in SL2; the gaps labeled in Z + Z phi",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-002",
@@ -120,7 +123,10 @@
     "measurements": "Core Appendix S.25",
     "predictions": "PR-008"
    },
-   "map": "domain: thin-film transfer matrices [[cos d, (i/n) sin d], [i n sin d, cos d]], transmittance 4/|m11 + m12 + m21 + m22|^2; codomain: the same word and trace map; the six-cycle at the quarter wave"
+   "map": "domain: thin-film transfer matrices [[cos d, (i/n) sin d], [i n sin d, cos d]], transmittance 4/|m11 + m12 + m21 + m22|^2; codomain: the same word and trace map; the six-cycle at the quarter wave",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-003",
@@ -151,7 +157,10 @@
     "recompute": "python3 tools/waves.py --selftest",
     "measurements": "Core Appendix S.26"
    },
-   "map": "domain: acoustic transfer matrices [[cos, i Z sin], [i sin/Z, cos]]; codomain: the optical engine with the index n for the impedance Z, by M(1/n) = J M(n) J"
+   "map": "domain: acoustic transfer matrices [[cos, i Z sin], [i sin/Z, cos]]; codomain: the optical engine with the index n for the impedance Z, by M(1/n) = J M(n) J",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-004",
@@ -175,7 +184,10 @@
     "measurements": "Core Appendix S.26; Core Appendix S.27",
     "predictions": "PR-009"
    },
-   "map": "domain: the Kraus family of smooth potentials tending to the Fibonacci potential; the Chern number of a pump; codomain: the gap label n in Z + Z phi as the pumped charge"
+   "map": "domain: the Kraus family of smooth potentials tending to the Fibonacci potential; the Chern number of a pump; codomain: the gap label n in Z + Z phi as the pumped charge",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-005",
@@ -239,7 +251,10 @@
     "measurements": "Core Appendix S.24",
     "predictions": "PR-007"
    },
-   "map": "domain: special relativity: the mass shell t^2 - x^2 - y^2 = 1 and the Lorentz group SO+(2,1), SO+(3,1); codomain: the law acting by congruence X -> A X A^T; A^2 the golden boost; Q its axis"
+   "map": "domain: special relativity: the mass shell t^2 - x^2 - y^2 = 1 and the Lorentz group SO+(2,1), SO+(3,1); codomain: the law acting by congruence X -> A X A^T; A^2 the golden boost; Q its axis",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-006",
@@ -257,7 +272,10 @@
    "evidence": {
     "recompute": "python3 tools/quasicrystal2d.py --selftest"
    },
-   "map": "domain: the separable Hamiltonian H_x + H_y on the product of two Fibonacci chains; codomain: the sum set of the chain's spectrum with itself"
+   "map": "domain: the separable Hamiltonian H_x + H_y on the product of two Fibonacci chains; codomain: the sum set of the chain's spectrum with itself",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-007",
@@ -283,7 +301,10 @@
    "evidence": {
     "recompute": "python3 tools/quasicrystal2d.py --selftest"
    },
-   "map": "domain: the vertex model, hopping along the edges of the rhombus tiling; codomain: the pentagrid of the golden ring; the zero-energy density 81 - 50 phi in Z[phi]"
+   "map": "domain: the vertex model, hopping along the edges of the rhombus tiling; codomain: the pentagrid of the golden ring; the zero-energy density 81 - 50 phi in Z[phi]",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-008",
@@ -302,7 +323,10 @@
     "recompute": "python3 tools/geometry_physics.py --selftest",
     "measurements": "Core Appendix S.22"
    },
-   "map": "domain: the Ising chain in a transverse field and its E8 spectrum; codomain: the E8 masses and their golden ratio (MF-90)"
+   "map": "domain: the Ising chain in a transverse field and its E8 spectrum; codomain: the E8 masses and their golden ratio (MF-90)",
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-009",
@@ -325,7 +349,10 @@
    "evidence": {
     "recompute": "python3 tools/validation.py --selftest",
     "predictions": "PR-012, PR-013"
-   }
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-010",
@@ -349,7 +376,10 @@
     "recompute": "python3 tools/quantum.py --selftest",
     "measurements": "Core Appendix S.28",
     "predictions": "PR-003"
-   }
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-011",
@@ -416,7 +446,10 @@
    "evidence": {
     "recompute": "python3 tools/quantum.py --selftest",
     "predictions": "PR-015"
-   }
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   },
   {
    "id": "PM-012",
@@ -435,7 +468,10 @@
    "evidence": {
     "recompute": "python3 tools/quantum_foundations.py --selftest",
     "measurements": "Core Appendix S.29"
-   }
+   },
+   "assumptions": "not yet stated",
+   "fails_if": "not yet stated",
+   "recovery": "not yet stated"
   }
  ]
 }

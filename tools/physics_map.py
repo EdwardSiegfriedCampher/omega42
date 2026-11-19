@@ -8,6 +8,9 @@ Every application of Omega42 to a physical system is one entry B = (P, M, Phi, I
   I  what the map preserves, and what it leaves aside
   R  the results, each in the register of Core Part 0.0.10, each with its class
   E  the evidence: the recompute commands, the replication returns and the measurements of Core Appendix S
+and the dossier fields of CA-21 (ratified 19 November 2026): A the assumptions, F what would make the entry fail
+(mathematical, physical, explanatory), and the recovery test (the limit in which the established theory returns, or none known).
+An entry made before CA-21 carries the value 'not yet stated' until a physicist states it.
 The seven classes of a result: established mathematical result; independently reproduced result; new structural
 correspondence; new computational result; candidate theorem; physical prediction; experimentally supported result.
 
@@ -22,6 +25,7 @@ MATH = os.path.join(REPO, 'records', 'math', 'results.json')
 CLASSES = ('established mathematical result', 'independently reproduced result', 'new structural correspondence', 'new computational result',
            'candidate theorem', 'physical prediction', 'experimentally supported result')
 FIELDS = ('id', 'system', 'model', 'representation', 'map', 'preserves', 'leaves_aside', 'results', 'evidence')   # map: its domain and codomain (Rule 38)
+DOSSIER = ('assumptions', 'fails_if', 'recovery')   # CA-21
 def problems(d, ids):
     P = []; seen = set()
     for e in d.get('entries', []):
@@ -30,6 +34,8 @@ def problems(d, ids):
         seen.add(tag)
         for f in FIELDS:
             if not e.get(f): P.append('%s: %s missing' % (tag, f))
+        for f in DOSSIER:
+            if f not in e: P.append('%s: %s missing (CA-21)' % (tag, f))
         for r in e.get('results', []):
             if r.get('mf') not in ids: P.append('%s: %s not in the mathematical register' % (tag, r.get('mf')))
             if r.get('class') not in CLASSES: P.append('%s: %s class %r' % (tag, r.get('mf'), r.get('class')))
@@ -38,7 +44,7 @@ def problems(d, ids):
     return P
 def selftest(ids):
     good = {'entries': [{'id': 'PM-001', 'system': 's', 'model': 'm', 'representation': 'r', 'map': 'domain d; codomain c', 'preserves': 'p', 'leaves_aside': 'l',
-                         'results': [{'mf': 'MF-01', 'class': CLASSES[0]}], 'evidence': {'recompute': 'c'}}]}
+                         'results': [{'mf': 'MF-01', 'class': CLASSES[0]}], 'evidence': {'recompute': 'c'}, 'assumptions': 'a', 'fails_if': 'f', 'recovery': 'none known'}]}
     bad = json.loads(json.dumps(good)); bad['entries'][0]['results'][0]['class'] = 'a discovery'
     miss = json.loads(json.dumps(good)); del miss['entries'][0]['leaves_aside']
     return problems(good, {'MF-01'}) == [] and problems(bad, {'MF-01'}) != [] and problems(miss, {'MF-01'}) != []

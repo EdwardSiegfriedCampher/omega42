@@ -2,19 +2,19 @@
  "_about": "The sections of the AI reading editions (Companion Part 142): heading, characters, estimated tokens (characters / 4) and SHA-256 of the section text; rendered from docs/*.docx by tools/ai_edition.py.",
  "editions": {
   "Omega42_Core_V335_Rev450.md": {
-   "chars": 1338412,
-   "tokens_est": 334603,
-   "sha256": "73af8143fd1c751ffec7d03fef1df1debcca9dca5e06fa9b55747780607373c5"
+   "chars": 1338644,
+   "tokens_est": 334661,
+   "sha256": "5fcfdeff93f57d1a75be8851a22f0773d4fd1ddb9750525b1c480b03186d3d75"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1992512,
-   "tokens_est": 498128,
-   "sha256": "4706247e141ab81a8cbb22cd633b9598b007e31326523926c236c2d7d1fcdb35"
+   "chars": 1992588,
+   "tokens_est": 498147,
+   "sha256": "309bd791401c557aa94ced2ae3aa978bc94dde90dcbc7305ea3c86bb8a006f09"
   },
   "Omega42_Navigator_Pack.md": {
-   "chars": 477727,
-   "tokens_est": 119432,
-   "sha256": "ab5528209586efc0ae5b26a74d2590fdaba55c8c16dac24950321b9c03f87afe"
+   "chars": 477959,
+   "tokens_est": 119490,
+   "sha256": "f99db6e05e90d9780eaa1e28d0d7cae4534de4650bf35ce7f0fa3b0093126916"
   },
   "Omega42_Existential_Framework.md": {
    "chars": 27882,
@@ -82,9 +82,9 @@
   {
    "doc": "Core",
    "heading": "PART 0.0.5: RULES FOR FUTURE PROTOCOL BUILDERS",
-   "chars": 24635,
-   "tokens_est": 6159,
-   "sha256": "4597eedabdfe52ad42ee7ba9da45dc89618fba6c3df60bd3469e3b94f66a1fc9"
+   "chars": 24867,
+   "tokens_est": 6217,
+   "sha256": "3dda1dcabae581ef33999d77cbff1149e19ff07fe1b9f1a268fc6e8fe3d95522"
   },
   {
    "doc": "Core",
@@ -5318,9 +5318,9 @@
   {
    "doc": "Companion",
    "heading": "APPENDIX X: EVERYTHING ELSE IN THE RELEASE [REFERENCE — Core L-493]",
-   "chars": 178941,
-   "tokens_est": 44735,
-   "sha256": "2eb45e2862447e59835aacc4b6ca4a8268bd8569f2527d5f70f9089b18be6233"
+   "chars": 179017,
+   "tokens_est": 44754,
+   "sha256": "d16a13cd5e82b93b5f9b64dc1a298d7f84a98fbba19f9d19333e5a7762407100"
   }
  ]
 }

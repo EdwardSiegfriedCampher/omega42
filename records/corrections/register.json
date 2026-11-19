@@ -97,7 +97,7 @@
    "what_was_wrong": "APE-045 to APE-047 record accepted_utc 2026-10-16T06:49:58Z, earlier than their disclosed_utc (08:00 to 08:02Z).",
    "how_detected": "The first run of tools/timestamp_check.py.",
    "why_checks_missed_it": "No check compared the two fields.",
-   "correction": "Not corrected: which time is wrong cannot be recovered from the record. Held for ESC; the check reports these three as known.",
+   "correction": "Not corrected: which time is wrong cannot be recovered from the record. ESC confirmed the records as they stand (D-11, 19 November 2026); the check reports these three as known.",
    "prevention": "tools/timestamp_check.py rule 3 (order), with this entry named as the known exception."
   },
   {

@@ -47,3 +47,12 @@ The Ω42 Company owns no patent rights and never asks contributors to assign any
 ## Licence
 
 Disclosures are published under CC BY 4.0 and code under Apache-2.0, whose patent grant means a contributor licenses any of their own patent claims that the contributed code practises (`LICENSES.md`).
+
+## Acknowledged prior art
+
+Ω42 asserts priority only for what it adds. Two results it builds on were public before it (ESC decision D-16, 19 November 2026):
+
+- **The 24-step period.** The Fibonacci numbers repeat modulo 9 with period 24, a case of the Pisano periods studied in classical number theory (D. D. Wall, "Fibonacci series modulo m", *American Mathematical Monthly* 67, 1960).
+- **The 24-step pattern of digital roots.** The repeating digital roots of the Fibonacci numbers appear in the published problem literature (*American Mathematical Monthly*, problem 10974) and on public sites such as goldennumber.net.
+
+The creation dates of the formal builds, from the Originator's private archive, are kept in `records/prior_art/build_dates.json` as evidence of when each build existed. The public date of a build is its first commit or release in this repository.

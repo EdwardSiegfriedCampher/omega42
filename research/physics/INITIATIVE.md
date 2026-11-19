@@ -25,17 +25,17 @@ The proposal's central distinction is right, and the record already enforces it:
 
 ## 4. Refinement: the candidate dossier
 
-The proposal's seven-part dossier maps onto the mapping entry with two fields added. Adding them changes Core Rule 37 (level C, `RELEASES.md` §3), so it is proposed as CA-21 and held for ESC.
+The proposal's seven-part dossier maps onto the mapping entry with two fields added. Adding them changes Core Rule 37 (level C, `RELEASES.md` §3), ESC ratified it as CA-21 on 19 November 2026.
 
 | Dossier part | Field of B | Status |
 |---|---|---|
-| 1. Foundational assumptions | **A, assumptions**: what the map takes as given | proposed (CA-21) |
+| 1. Foundational assumptions | **A, assumptions**: what the map takes as given | in place (CA-21) |
 | 2. Mathematical formulation | M and Φ | in place |
 | 3. Relation to established physics | M, I (preserves) | in place |
 | 4. Consistency requirements | E (recompute commands, self-tests) | in place |
-| 5. Recovery of known physics | I, with a new line: the limit in which M is recovered, or "none known" | proposed (CA-21) |
+| 5. Recovery of known physics | I, with a new line: the limit in which M is recovered, or "none known" | in place (CA-21) |
 | 6. Novel predictions | R, class "physical prediction", with its sealed PR entry | in place |
-| 7. Failure conditions | **F, fails if**: the result or measurement that would show the map wrong | proposed (CA-21) |
+| 7. Failure conditions | **F, fails if**: the result or measurement that would show the map wrong | in place (CA-21) |
 
 ## 5. Refinement: the research roles
 
@@ -140,6 +140,6 @@ The fourth review assessed the update as a whole: CA-19, CA-21, the opening, the
 
 - **CA-19 (the researched reach).** All four refinements are now in Core L-503 (5) and Companion 12.5.3 to 12.5.6: research limited to materially relevant aspects, with a declared scope and a stopping rule; counter-evidence sought without false balance; seven named kinds of relationship, with causation stated only where supported; and a CORRECTION block when the reach finds an error in THE ANSWER, which stays as sealed beside it. Every [n] must resolve to a full reference in the layer, and the line must report its completeness. The format check enforces both. Archived records are read under the rules of their date.
 - **CA-21 (the dossier).** The dossier standard has thirteen sections: question, hypothesis, definitions, assumptions, formulation, derivation, relation to existing physics, recovery, failure conditions, predictions and tests, evidence and provenance, independent criticism, current assessment. Failure is kept in three kinds: mathematical, physical and explanatory. The recovery test is quantitative: equations, parameter regime, approximation and tolerance, stated by a physicist, never asserted by the Navigator. A section that does not apply is named as such, never filled with invented content. The Core change stays pending ESC (`docs/DECISIONS_PENDING.md` D-02).
-- **Opening.** The Founding Research Pilot can open now. The Reviewed Research Programme waits for at least two independent external reviewers from different institutions (D-03).
+- **Opening.** ESC opened the Founding Research Pilot on 19 November 2026; the first project is symmetry and conservation, then general relativity (D-03, D-04). The Reviewed Research Programme waits for at least two independent external reviewers from different institutions (D-03).
 - **Benchmarks.** H-024 to H-028 were tightened before any run: matched access and length, measures fixed in advance, mixed item types, varied and subtle planted errors, and a contamination guard (held-out items, a separate administrator, scores sealed until the end). "I cannot establish this" counts as correct where the evidence is insufficient.
 - **What CI does not show.** Passing CI does not show that the researched reach improves answers, that the Navigator's physics is reliable, or that the thresholds are adequate. Those are H-024 to H-028, and the release record keeps the two apart (`records/releases/manifest.json`, dimensions).
