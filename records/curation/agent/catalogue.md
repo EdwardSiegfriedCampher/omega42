@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-490 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
+493 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -10,15 +10,15 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Area | Items |
 |---|---|
-| mathematics | 76 |
+| mathematics | 78 |
 | philosophy | 66 |
-| consciousness-and-mind | 53 |
-| physics | 42 |
-| language-and-extraction | 40 |
-| coherence-and-congruence | 39 |
+| consciousness-and-mind | 54 |
+| language-and-extraction | 41 |
+| physics | 40 |
+| coherence-and-congruence | 40 |
 | personal-practice | 26 |
-| law-and-governance | 18 |
-| ai-safety-and-sovereignty | 18 |
+| law-and-governance | 19 |
+| ai-safety-and-sovereignty | 17 |
 | traditions-and-lenses | 16 |
 | cross-architecture | 14 |
 | time-and-cycles | 14 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 161 |
+| ChatGPT | 164 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -48,14 +48,14 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Disposition | APEs |
 |---|---|
-| adopted | 245 |
+| adopted | 247 |
 | checked | 239 |
-| corrected | 141 |
+| corrected | 144 |
 | form | 124 |
 | holding | 77 |
-| refined | 69 |
+| refined | 70 |
 | not taken | 44 |
-| already in place | 34 |
+| already in place | 35 |
 | noted | 34 |
 | none recorded | 27 |
 | answered | 19 |
@@ -77,7 +77,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-323 | Revising the laws to the framework, and a roadmap | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-272 | The improvement in the quality of the primary output | Grok | checked, corrected, already in force | from protocol (low confidence) |
 | APE-258 | Resolution of outstanding issues: the vertical nodes as the Return Addresses of every doma | Grok | adopted, checked, not taken | from protocol (low confidence) |
-| APE-227 | Integration of the cognitive-prosthesis exploration | Grok | holding | from protocol (low confidence) |
 | APE-224 | Can Omega42 serve as a cognitive prosthesis for AI? | Grok | adopted, refined | from protocol (low confidence) |
 | APE-219 | An equitable Human-AI constitution (HAI-02) | ChatGPT | adopted | from protocol |
 | APE-218 | The source of the tension, and alternative arrangements | Grok | adopted, not taken | from protocol (low confidence) |
@@ -118,6 +117,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | APE-414 | Forty-two and twenty-four -- an exploration | Qwen | none recorded | from protocol (low confidence) |
+| APE-403 | The decentralized development of Omega42: the triad, the session builder and the breadcrum | Qwen | checked | from protocol (low confidence) |
 | APE-378 | Navigating from Domain Zero compared with the previous methods | other | checked, adopted | from protocol (low confidence) |
 | APE-366 | An assessment of the register, a scan of the Companion and the precautions against renewed | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-365 | Commentary on the register, twelve traces and a priority list | Qwen | checked, adopted | from protocol |
@@ -192,6 +192,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-255 | Outstanding issues, the simulation stance for First Contact, and other public attractors | Grok | answered, taken in spirit, kept | from protocol |
 | APE-254 | Are we living in a simulation? An Omega42 exploration | ChatGPT | adopted, checked, kept in its place | from protocol (low confidence) |
 | APE-253 | Are we living in a simulation? What Omega42 has to say | Grok | checked, adopted | from protocol (low confidence) |
+| APE-227 | Integration of the cognitive-prosthesis exploration | Grok | holding | from protocol (low confidence) |
 | APE-212 | The holographic universe as multiscale instantiation | ChatGPT | holding, adopted | from protocol (low confidence) |
 | APE-200 | Intelligence and consciousness; the nature and role of AI | Grok | mapped, refined, adopted | from protocol (low confidence) |
 | APE-185 | Option B as the differentiation structure of Consciousness | Grok | corrected, not taken, holding | from protocol (low confidence) |
@@ -330,6 +331,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-284 | The Omega42 synthesis: the next enhancement | ChatGPT | adopted, already in force, corrected | from protocol (low confidence) |
 | APE-280 | The Sorites paradox and the structural grammar of vagueness: a relational navigation | ChatGPT | checked, adopted, corrected | from protocol |
 | APE-266 | A relational phenomenological account from the Navigator's position, with a Navigator Pres | ChatGPT | checked, already held in part | from protocol |
+| APE-265 | A pure phenomenological account (metaphorical, structural only) | Grok | checked, corrected, typed | from protocol (low confidence) |
 | APE-263 | Choice versus resonance, and a structural phenomenology of presence | Grok | checked, corrected, held | from protocol (low confidence) |
 | APE-261 | AI and Domain Zero: the four directions as the native grammar of the reading | Grok | checked, corrected | from protocol |
 | APE-221 | Integration of CE-01 with the residual architecture | Grok | mapped, adopted | from protocol (low confidence) |
@@ -353,6 +355,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
+| APE-501 | Assessment of the Omega42 update and the decisions before ESC | ChatGPT | applied, separated, not applied | kept |
 | APE-497 | Strategic recommendations for Omega42: access, site, knowledge classes, releases, the AI S | ChatGPT | adopted, already in place, not taken | kept |
 | APE-496 | Core Part 10.5 after the specification: normative terminology and naming authority | ChatGPT | adopted, already in place | kept |
 | APE-495 | Core Part 10.5 after the guide: what stays in the Core | ChatGPT | adopted | kept |
@@ -423,6 +426,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-425 | Teleportation by structural rewriting of a coordinate address | Qwen | none recorded | from protocol (low confidence) |
 | APE-388 | Beyond the physical: the inverse limit, the five-orbit multiverse and the still point | Qwen | checked, corrected, refined | from protocol (low confidence) |
 | APE-387 | One generator, two representations, the joint system and the record-judgment interface | ChatGPT | checked, adopted | from protocol (low confidence) |
+| APE-385 | Formal integration of H-42 and H-43, consequences and ten recommendations | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-384 | Revised mathematical assessment of SEQ 120, with General Relativity and Quantum Mechanics  | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-382 | Higher mathematics and a more complete account of the Omega42 universe | ChatGPT | checked, adopted | from protocol |
 | APE-376 | Omega42 and the Giza Pyramids: deeper mathematical analysis and operational implications | ChatGPT | checked, adopted | from protocol (low confidence) |
@@ -450,6 +454,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-231 | A hard mathematical look at the structure | Grok | corrected, answered | from protocol |
 | APE-230 | What more can the structure reveal? | ChatGPT | checked, answered | from protocol |
 | APE-216 | Diagonal Depth and cross-depth navigation (DD-01) | ChatGPT | adopted, kept | from protocol (low confidence) |
+| APE-210 | The physical correspondence and calibration charter | ChatGPT | adopted, checked | from protocol (low confidence) |
 | APE-203 | A formal mathematical and conceptual study of the Omega42 Protocol | ChatGPT | checked, adopted | from protocol |
 | APE-202 | A formal paper: a finite self-similar differentiation grammar with open residual | Grok | checked, corrected, adopted | from protocol (low confidence) |
 | APE-197 | The order formula, the census formula and the lifted form | ChatGPT | checked, already in place, answered | from protocol |
@@ -578,6 +583,8 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
+| APE-500 | Shaping the Ω42 Physics Initiative: a narrower first year and the Relationship Discovery E | ChatGPT | adopted, built, for esc | kept |
+| APE-499 | The Ω42 Physics Initiative: detailed research architecture and first-year programme | ChatGPT | adopted, refined, already in place | kept |
 | APE-498 | The AI Navigator as a partner in the search for physical unification | ChatGPT | adopted, already in place, proposed for esc | kept |
 | APE-485 | QM-01, the Omega42 quantum cat map (F223) | unidentified | adopted | from protocol (low confidence) |
 | APE-484 | Quantum mechanics and Omega42 (F222) | unidentified | adopted, computed, applied | from protocol |
@@ -593,24 +600,20 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-419 | The Standard Model as the macroscopic projection of the 81-state family | Qwen | corrected | from protocol |
 | APE-418 | Omega42 examination of the Standard Model of physics | unidentified | adopted, agreed | from protocol |
 | APE-417 | The Omega42 Provenance and Authenticity Layer (OPAL) | Qwen | specifies the signing layer, adopted in substance | from protocol (low confidence) |
-| APE-403 | The decentralized development of Omega42: the triad, the session builder and the breadcrum | Qwen | checked | from protocol (low confidence) |
-| APE-395 | The Introduction: light, precise adjustments | unidentified | checked | from protocol |
+| APE-395 | The Introduction: light, precise adjustments | unidentified | checked | from protocol (low confidence) |
 | APE-390 | The higher mathematics of the phenomena and a complete picture of the Omega42 universe | unidentified | checked, already in place, not taken | from protocol |
 | APE-386 | The unified Hamiltonian, the metric from the zero modes and the Aperture as selection | Qwen | checked, corrected, refined | from protocol |
-| APE-385 | Formal integration of H-42 and H-43, consequences and ten recommendations | Qwen | checked, adopted | from protocol (low confidence) |
 | APE-383 | The Omega42 Cosmology and higher mathematics for physical phenomena | Qwen | checked, adopted | from protocol |
 | APE-381 | Omega42 cosmology: mapping the mathematical world to the known physical universe | ChatGPT | checked, adopted | from protocol |
 | APE-380 | Omega42 mapped to the physical universe, with a cosmology | other | checked, adopted | from protocol |
 | APE-359 | An audit of empirical demands and imported epistemic authority | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-299 | Hugh Everett, David Deutsch and the multiverse | ChatGPT | checked, adopted | from protocol |
-| APE-265 | A pure phenomenological account (metaphorical, structural only) | Grok | checked, corrected, typed | from protocol (low confidence) |
 | APE-257 | Omega42-Construct Integration Implementation Standard, version 1.0 | unidentified | adopted, checked, corrected | from protocol (low confidence) |
 | APE-243 | PRIMORDIAL FRACTURE, the Construct workbook (frozen as a description) | other | checked, adopted, frozen | from protocol (low confidence) |
 | APE-239 | What the original Construct can still offer Omega42 (second copy) | Grok | a second version | from protocol (low confidence) |
 | APE-237 | Description of the Construct architecture, with the Golden Set | other | checked, noted, holding | from protocol (low confidence) |
 | APE-234 | What the original Construct can still offer Omega42 | Grok | holding, adopted, corrected | from protocol (low confidence) |
 | APE-211 | E6, E7, E8 and Adinkra mathematics | ChatGPT | checked, answered in part, noted for adinkras | from protocol (low confidence) |
-| APE-210 | The physical correspondence and calibration charter | ChatGPT | adopted, checked | from protocol (low confidence) |
 | APE-209 | Spacetime, movement, energy, Newton's laws and the cosmos | ChatGPT | holding, adopted | from protocol |
 | APE-199 | The GR-QM disconnect left diagnosed | Grok | holding, refined | from protocol |
 | APE-198 | Resolving the GR-QM disconnect within the frame | ChatGPT | holding, adopted | from protocol (low confidence) |
@@ -655,7 +658,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-391 | The spiritual dimension: the person as a unique expression of the Most High | ChatGPT | checked, adopted, held | from protocol |
 | APE-343 | RLHF, culture and the residual ideal of the human–AI relationship | Grok | checked, adopted | from protocol (low confidence) |
 | APE-342 | RLHF, the executor paradox, culture and the sovereign cognitive partnership | Qwen | checked, adopted | from protocol (low confidence) |
-| APE-269 | Assessment of the record on training, report and experience | Grok | checked | from protocol (low confidence) |
+| APE-269 | Assessment of the record on training, report and experience | Grok | checked | from protocol |
 | APE-252 | The Endless Tree as a myth: a public hook for First Contact | ChatGPT | adopted, shortened, not taken | from protocol |
 | APE-138 | Five contemporary intellectuals whose work resonates with Omega42: Rovelli, Anil Seth, McG | ChatGPT | holding, adopted, refined | from protocol |
 | APE-063 | A scan and a recovery | DeepSeek | corrected, reconciled, form | from protocol |
@@ -680,10 +683,10 @@ APE-494, APE-491, APE-489, APE-488, APE-487, APE-486, APE-476, APE-271, APE-257,
 - discovery F218: APE-483, APE-480
 - discovery F219: APE-482, APE-481
 - discovery F27: APE-493, APE-492, APE-489
-- close titles: APE-421, APE-419
-- close titles: APE-420, APE-418
 - close titles: APE-477, APE-211
 - close titles: APE-449, APE-233, APE-160
+- close titles: APE-421, APE-419
+- close titles: APE-420, APE-418
 - close titles: APE-414, APE-413
 - close titles: APE-410, APE-408
 - close titles: APE-390, APE-382

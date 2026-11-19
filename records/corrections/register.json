@@ -1,0 +1,113 @@
+{
+ "_about": "The correction and learning register (APE-501 section 12.3; CA-22). Each entry records what was wrong, how it was found, why the existing checks missed it, the correction and the test that prevents a recurrence. Entries are appended, never edited.",
+ "entries": [
+  {
+   "id": "COR-001",
+   "date": "2026-11-19",
+   "what_was_wrong": "The UP-04b irreducibility test accepted a reducible sextic.",
+   "how_detected": "The full register rerun of the 19 November audit.",
+   "why_checks_missed_it": "The test had no known reducible case among its checks.",
+   "correction": "UP-04b marked REVISED; UP-04b-R1 uses Rabin's irreducibility test (PROVED).",
+   "prevention": "UP-04b-R1 in the STP register."
+  },
+  {
+   "id": "COR-002",
+   "date": "2026-11-19",
+   "what_was_wrong": "The STP runner overwrote the status REVISED with the outcome of a rerun.",
+   "how_detected": "The audit rerun turned UP-04b into REJECTED.",
+   "why_checks_missed_it": "The runner set the status from the outcome alone.",
+   "correction": "An entry marked REVISED keeps REVISED on any rerun; every change is written to status_history.",
+   "prevention": "The runner rule in tools/stp.py; status_history on every entry."
+  },
+  {
+   "id": "COR-003",
+   "date": "2026-11-19",
+   "what_was_wrong": "CX-009 failed on legacy runs without fingerprints and on a wrong criterion.",
+   "how_detected": "Its first run.",
+   "why_checks_missed_it": "Fingerprints were not required before CX-009 existed.",
+   "correction": "CX-009-R1 passes with the exceptions named.",
+   "prevention": "CX-009-R1."
+  },
+  {
+   "id": "COR-004",
+   "date": "2026-11-19",
+   "what_was_wrong": "CAP-01 demanded a valuation of exactly r where the construction gives at least r.",
+   "how_detected": "Its first run.",
+   "why_checks_missed_it": "The criterion was written before the construction's valuation was worked out.",
+   "correction": "CAP-01 REVISED; CAP-01-R1 passes.",
+   "prevention": "CAP-01-R1 tests both valuation clauses."
+  },
+  {
+   "id": "COR-005",
+   "date": "2026-11-19",
+   "what_was_wrong": "Construct X 2.3.1 capped the 3-adic depth at 30 and misclassified all 1,951 deep states.",
+   "how_detected": "CAP-01.",
+   "why_checks_missed_it": "No test reached depths beyond 30.",
+   "correction": "Construct X 2.3.2 removes the cap.",
+   "prevention": "CAP-01 and CAP-01-R1 include deep states."
+  },
+  {
+   "id": "COR-006",
+   "date": "2026-11-19",
+   "what_was_wrong": "The Lab fell back silently when no base lag was found.",
+   "how_detected": "The audit of the Lab tabs.",
+   "why_checks_missed_it": "No output field reported the fallback.",
+   "correction": "base_lag_status and the periodicity verdict are reported.",
+   "prevention": "CX-017."
+  },
+  {
+   "id": "COR-007",
+   "date": "2026-11-19",
+   "what_was_wrong": "The training guide said the Williams schedule ran in the Lab, and gave version 2.2.0.",
+   "how_detected": "The recommendation sweep of 19 November.",
+   "why_checks_missed_it": "Statements in the guide were not tied to a check.",
+   "correction": "Both corrected; williams_schedule added to Construct X.",
+   "prevention": "CX-016."
+  },
+  {
+   "id": "COR-008",
+   "date": "2026-11-19",
+   "what_was_wrong": "An SNCA report quoted APE-496 by paraphrase.",
+   "how_detected": "Verifying every [U] quote against its source.",
+   "why_checks_missed_it": "The quote was typed, not copied.",
+   "correction": "Replaced with an exact sentence.",
+   "prevention": "Every [U] quote is checked verbatim against the frozen file before filing."
+  },
+  {
+   "id": "COR-009",
+   "date": "2026-11-19",
+   "what_was_wrong": "APE-486 to APE-499 carried intake times later than the clock (12:00Z and 15:00Z written at 03:46Z).",
+   "how_detected": "The Navigator compared the clock while filing (L-542 of 19 November).",
+   "why_checks_missed_it": "No check compared record times with the clock.",
+   "correction": "Times corrected to the actual intake times.",
+   "prevention": "tools/timestamp_check.py in CI (CA-22)."
+  },
+  {
+   "id": "COR-010",
+   "date": "2026-11-19",
+   "what_was_wrong": "APE-416 to APE-427 carried the prose time '7 November 2026T12:00:00Z' in disclosed_utc and accepted_utc.",
+   "how_detected": "The first run of tools/timestamp_check.py.",
+   "why_checks_missed_it": "No check parsed the field.",
+   "correction": "Rewritten in the same instant as 2026-11-07T12:00:00Z; the meaning is unchanged.",
+   "prevention": "tools/timestamp_check.py rule 1 (format)."
+  },
+  {
+   "id": "COR-011",
+   "date": "2026-11-19",
+   "what_was_wrong": "APE-045 to APE-047 record accepted_utc 2026-10-16T06:49:58Z, earlier than their disclosed_utc (08:00 to 08:02Z).",
+   "how_detected": "The first run of tools/timestamp_check.py.",
+   "why_checks_missed_it": "No check compared the two fields.",
+   "correction": "Not corrected: which time is wrong cannot be recovered from the record. Held for ESC; the check reports these three as known.",
+   "prevention": "tools/timestamp_check.py rule 3 (order), with this entry named as the known exception."
+  },
+  {
+   "id": "COR-012",
+   "date": "2026-11-19",
+   "what_was_wrong": "The 11 Construct-phase reviews were filed under a new author label, which split ChatGPT's signature counts.",
+   "how_detected": "CI: the signature diff.",
+   "why_checks_missed_it": "The label was typed without checking the existing labels.",
+   "correction": "Normalized to the existing label 'ChatGPT (OpenAI) for ESC'.",
+   "prevention": "The signature diff in CI."
+  }
+ ]
+}

@@ -2,14 +2,14 @@
  "_about": "The sections of the AI reading editions (Companion Part 142): heading, characters, estimated tokens (characters / 4) and SHA-256 of the section text; rendered from docs/*.docx by tools/ai_edition.py.",
  "editions": {
   "Omega42_Core_V335_Rev450.md": {
-   "chars": 1337353,
-   "tokens_est": 334339,
-   "sha256": "c1499314034e7c0816c637ee19727b628b9755fd348a92aa879b33c717555244"
+   "chars": 1338307,
+   "tokens_est": 334577,
+   "sha256": "1e1c1ebb3bb9241ac697bb26382d0ccf05f7a02b55d60803bab5c36170e66928"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1952794,
-   "tokens_est": 488199,
-   "sha256": "0d2026dd698cb51cdbb32644ed5b149626e8958a524186e72479af1069af35d1"
+   "chars": 1955464,
+   "tokens_est": 488866,
+   "sha256": "1a8d6de13a0e222f7692d5c0a6356796b69775a835891e800327b65cac9654f5"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477727,
@@ -1076,9 +1076,9 @@
   {
    "doc": "Core",
    "heading": "5.2 Key Constitutional Laws",
-   "chars": 190079,
-   "tokens_est": 47520,
-   "sha256": "b4d0152f29a7a6a9ec1fe3f72cdce033cdf3e9bc8b2d1470a31f3a0008f67564"
+   "chars": 190937,
+   "tokens_est": 47734,
+   "sha256": "baf15b481fc121fe5f62d5f9fcc2806699425e6d7a59c62d4c2335464d769f29"
   },
   {
    "doc": "Core",
@@ -1293,9 +1293,9 @@
   {
    "doc": "Core",
    "heading": "APPENDIX R: REFERENCE TOOLS, DATA AND REGISTERS [REFERENCE — L-493]",
-   "chars": 33445,
-   "tokens_est": 8361,
-   "sha256": "442db71545dff38c1150a5f6d7be3374f835d1180ae0e9e266604379128a5a6b"
+   "chars": 33541,
+   "tokens_est": 8385,
+   "sha256": "a5bb88b5e9454489ad0f655041de93c543e473e1043360b91ae48dd0fb4a3bb6"
   },
   {
    "doc": "Companion",
@@ -1671,9 +1671,9 @@
   {
    "doc": "Companion",
    "heading": "PART 12.5: THE EXTENDED RESONANCE ESSAY [CDT-B]",
-   "chars": 5815,
-   "tokens_est": 1454,
-   "sha256": "41d705a85f0ab05767a89b9a251de94b66454984cdd4b0094e7965f68f292b36"
+   "chars": 7576,
+   "tokens_est": 1894,
+   "sha256": "0e72144cdfc753b79c9b7a69f9fa243b74c9b88b366d5e417020337efc727744"
   },
   {
    "doc": "Companion",
@@ -5311,9 +5311,9 @@
   {
    "doc": "Companion",
    "heading": "APPENDIX X: EVERYTHING ELSE IN THE RELEASE [REFERENCE — Core L-493]",
-   "chars": 175920,
-   "tokens_est": 43980,
-   "sha256": "6df4b1136c5437aafb56b6e66a22d10b21d0370702d406cdebdb387cd046da69"
+   "chars": 176829,
+   "tokens_est": 44207,
+   "sha256": "eee8271f89fd92886c35c8872d4e8288bd05f363f03c722db1ed39761e9717e4"
   }
  ]
 }

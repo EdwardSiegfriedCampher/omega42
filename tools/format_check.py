@@ -171,6 +171,14 @@ def reach_checks(text, add):
         body = e.group(1) if e else ''
         add(bool(re.search(r'\[\d+\]', body)), 'the researched reach numbers its sources, as [3] (L-503 (5))')
         add(not re.search(r'https?://', body), 'no link inside the essay (L-503 (5))')
+        blk = text[re.search(r'^=+ CURRENT KNOWLEDGE \(L-503\) =+', text, re.M).start():] if layer else ''
+        listed = set(re.findall(r'^\s*\[(\d+)\] \S', blk, re.M))
+        missing = sorted(set(re.findall(r'\[(\d+)\]', body)) - listed, key=int)
+        add(not missing, 'every source number of the reach resolves to a full reference [n] in the layer (L-503 (5))', 'unresolved: %s' % ', '.join(missing))
+        line = text[m.start():text.find('\n', m.start()) if text.find('\n', m.start()) > 0 else len(text)]
+        add(bool(re.search(r'investigated', line)), 'the WRITTEN line gives its completeness: investigated, not investigated, without evidence (L-503 (5))')
+    elif m.group(1) == 'NOT APPLICABLE':
+        add(bool(re.search(r'NOT APPLICABLE\s*(?:--|\(|:)\s*\S', text[m.start():m.start() + 400])), 'NOT APPLICABLE names its reason (L-503 (5))')
     elif ck:
         add(m.group(1) == ck.group(1), 'the RESEARCHED REACH line takes the layer status (L-503 (5))', 'layer %s, reach %s' % (ck.group(1), m.group(1)))
 
@@ -621,15 +629,19 @@ def selftest():
     def rc(txt):
         o = []; reach_checks(txt, lambda ok, item, note='': o.append(ok)); return o
     ess = '\u250c\u2500 EXTENDED RESONANCE ESSAY \u2500\u2510\n%s\n\u2514\u2500\u2500\u2518\n'
-    ckb = '======= CURRENT KNOWLEDGE (L-503) =======\nQUERY: q | NOT FOUND: n\n======= END CURRENT KNOWLEDGE =======\n'
+    ckb = '======= CURRENT KNOWLEDGE (L-503) =======\nQUERY: q | NOT FOUND: n\n[1] A. Author, Title, Journal 2025; opened 20 November 2026\n======= END CURRENT KNOWLEDGE =======\n'
     n20 = 'SESSION: 1 DATE: 20 November 2026\n'
     cases.update({
         'reach: a navigation dated from 20 November without the RESEARCHED REACH line fails (L-503 (5))': (None, False in rc(n20 + ckb + ess % 'Essay [1].')),
-        'reach: a WRITTEN reach with numbered sources passes': (None, all(rc(n20 + ckb + ess % 'Essay [1].' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships\n'))),
-        'reach: a WRITTEN reach without a source number fails': (None, False in rc(n20 + ckb + ess % 'Essay.' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships\n')),
-        'reach: a link inside the essay fails': (None, False in rc(n20 + ckb + ess % 'Essay [1] https://x.org.' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships\n')),
+        'reach: a WRITTEN reach with numbered sources passes': (None, all(rc(n20 + ckb + ess % 'Essay [1].' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships | investigated 2, not investigated 1\n'))),
+        'reach: a WRITTEN reach without a source number fails': (None, False in rc(n20 + ckb + ess % 'Essay.' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships | investigated 2, not investigated 1\n')),
+        'reach: a link inside the essay fails': (None, False in rc(n20 + ckb + ess % 'Essay [1] https://x.org.' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships | investigated 2, not investigated 1\n')),
         'reach: WRITTEN without the layer fails': (None, False in rc(n20 + 'CURRENT KNOWLEDGE (L-503): DECLINED\n' + ess % 'Essay [1].' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- x\n')),
         'reach: the layer status carried passes': (None, all(rc(n20 + 'CURRENT KNOWLEDGE (L-503): DECLINED\n' + ess % 'Essay.' + 'RESEARCHED REACH (L-503 (5)): DECLINED\n'))),
+        'reach: a source number with no full reference in the layer fails': (None, False in rc(n20 + ckb + ess % 'Essay [2].' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships | investigated 2\n')),
+        'reach: a WRITTEN line without its completeness fails': (None, False in rc(n20 + ckb + ess % 'Essay [1].' + 'RESEARCHED REACH (L-503 (5)): WRITTEN -- relationships\n')),
+        'reach: NOT APPLICABLE without a reason fails': (None, False in rc(n20 + ckb + ess % 'Essay.' + 'RESEARCHED REACH (L-503 (5)): NOT APPLICABLE\n')),
+        'reach: NOT APPLICABLE with its reason passes': (None, all(rc(n20 + ckb + ess % 'Essay.' + 'RESEARCHED REACH (L-503 (5)): NOT APPLICABLE -- a question of arithmetic\n'))),
         'reach: a navigation dated 19 November is not asked for it': (None, rc(n20.replace('20 November', '19 November') + ess % 'Essay.') == []),
     })
     def fr(txt):
@@ -884,7 +896,7 @@ def skeleton(q=None, alt=None, session=1, date=None, declared=None):
           'ACROSS THE AVENUES (L-502): ' + _f('where the avenues agree, where they part and where they are silent, each with its standing; no combined verdict'),
           '======= CONVERGENCE MAP =======', _f('Step 14.2'), '======= END CONVERGENCE MAP =======',
           '┌─ EXTENDED RESONANCE ESSAY ─┐', _f('the one synthesis carried outward (Step 14.3); where the layer is written, closing with the researched reach, each researched sentence numbered to its source, as [3]'), '└──────────────┘',
-          'RESEARCHED REACH (L-503 (5)): ' + _f('WRITTEN -- the parts written | the parts NOT APPLICABLE, each with its reason | aspects searched, nothing found for -- or the layer status'),
+          'RESEARCHED REACH (L-503 (5)): ' + _f('WRITTEN -- the parts written | the parts NOT APPLICABLE, each with its reason | investigated, not investigated, without evidence | main uncertainty -- or NOT APPLICABLE -- reason -- or the layer status; then, if the reach found an error in THE ANSWER, a CORRECTION block'),
           "======= NAVIGATOR'S REASONING =======",
           'INTERNAL REASONING: ' + _f('why the result follows from the rules and arithmetic; CONSTITUTIONAL'),
           'FRAME REASONING: ' + _f('why it is meaningful within the frame; FRAME-INTERPRETIVE'),

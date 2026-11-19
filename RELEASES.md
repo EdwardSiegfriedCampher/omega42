@@ -8,7 +8,7 @@ The repository is the public source of truth. The Navigator interprets the proto
 |---|---|
 | Continuous | Intake. Submissions, corrections, questions, examples and proposals arrive through the issue forms (`CONTRIBUTING.md`). |
 | Weekly | Curation. The curator baseline and its agent layer sort what arrived (`agents/curator/SPEC.md`). The register, the catalogue and the open findings are refreshed in a pull request. |
-| Monthly | Stable release. Approved changes enter the Core, the Companion, the records and the Navigator pack together, under one release tag. |
+| Monthly | Stable release, when there is an approved change to release. Approved changes enter the Core, the Companion, the records and the Navigator pack together, under one release tag. The cadence is a ceiling on how often the stable text changes, not an obligation to change it; experiments wait in DEV. |
 | Quarterly | Major review. Architecture, terminology (Ω42-T01), validation standards and governance are read as a whole. |
 | As required | Urgent correction. A serious error, a security problem or a misleading normative statement is corrected in a patch release, with its own record. |
 
@@ -44,7 +44,12 @@ The git tag repeats the name in a form git accepts, for example `v335-rev450`. T
 5. the validation report: the CI result (every step must pass), the Speculation Test Protocol register by status (`records/stp/registry.json`) and the reports of `records/srcas/`;
 6. the compatibility statement between the Core and the Companion: the Companion elaborates the Core and never modifies it (Core Part 10.5.1);
 7. the checksums (`SHA256SUMS`) and the fixed release tag;
-8. the record of human approval: each amendment with its status, RATIFIED by ESC or PENDING ESC.
+8. the record of human approval: each amendment with its status, RATIFIED by ESC or PENDING ESC;
+9. five separate dimensions: integrity, CI compliance, protocol compliance, scientific review and release approval. A release that is technically valid is not thereby correct in content, and passing CI is not scientific review;
+10. answers to three questions: is it compatible with the previous release, has a normative rule changed, and does a Navigator or a record need updating;
+11. the count of entries in the correction and learning register (`records/corrections/register.json`).
+
+Before a push or a release, a person checks the target repository and branch, reads the full change list, and runs the scan for names, email addresses, access tokens, private paths and unpublished personal material. The full CI then runs on the exact commit. An AI maintainer prepares the change and never authorizes its own publication.
 
 ## 5. How a Navigator names its release
 

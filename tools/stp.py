@@ -912,6 +912,12 @@ def t_CAP04():
                                "training_error_predicts_held_out_winner": round(by_train / N, 3)}
 
 
+def t_PHB01():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import physics_bench as pb
+    r = pb.run()
+    return r["passed"] == 5, {k: v for k, v in r.items()}
+
+
 def t_CAP05():
     import congruence as cg
     reg = cg.load_register()
@@ -1051,7 +1057,7 @@ TESTS = {"H-013": t_H013, "H-014": t_H014, "OP-01a": t_OP01a, "OP-01b": t_OP01b,
          "H-005": t_H005, "H-007a": t_H007a, "H-007b": t_H007b, "H-008": t_H008, "CX-001": t_CX001,
          "CX-002": t_CX002, "CX-004": t_CX004, "CX-005": t_CX005, "CX-006": t_CX006, "CX-007": t_CX007,
          "H-006b": t_H006b, "H-006c": t_H006c, "H-016": t_H016, "H-016b": t_H016b, "W-001": t_W001,
-         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
+         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
          "CX-012b": t_CX012b, "H-006d": t_H006d, "I-001": t_I001}
 
 # ------------------------------------------------------------------ pre-registration
@@ -1304,6 +1310,10 @@ PRE = [
       scope="as CAP-01", falsification="any disagreement, a slow classification, a changed label, or a valuation below r or wrong for a primitive quotient", test="t_CAP01R1", data="generated (seeds 101, 7)",
       criterion="0 disagreements; < 5 s; labels invariant; both valuation clauses hold", blinding="NOT BLIND: written after CAP-01's run", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
       consequence="as CAP-01", supersedes="CAP-01"),
+ dict(id="PHB-01", origin="Physics Initiative (APE-499): the known-answer benchmark, first computational part", hypothesis="The toolkit reproduces five established results (Noether's link between rotation invariance and angular momentum; the geodesic equation from the variational principle; the entanglement entropy ln 2 of a Bell pair; the black-hole first law dS/dM = 1/T_H; the Newtonian limit of relativistic kinetic energy with its (3/4)(v/c)^2 correction), and each paired control fails",
+      scope="tools/physics_bench.py, five results, each with a control", falsification="any result outside its tolerance, or any control that passes", test="t_PHB01", data="none (computation only)",
+      criterion="B1 drift < 1e-9 and control > 1e-3; B2 residual < 1e-4 and control > 0.1; B3 |S - ln 2| < 1e-12 and product < 1e-12; B4 rel. error < 1e-6 and control > 0.5; B5 correction ratio within 1e-2 of 1 at c = 100, 1000 and control off by > 0.4; all five", blinding="NOT BLIND: the answers are textbook results known to the author (CONSTRUCTIONAL, Core Part 3.18)", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="the toolkit is fit for the reproduction milestone; it says nothing about the Navigator finding results it was not told (H-025)", supersedes=None),
 ]
 FIRST_RUN = {  # results of the 18 Nov 2026 first run, kept as history
  "H-001": "PASS", "H-002": "FAIL", "H-003": "FAIL", "H-004": "FAIL (reported 7 of 9; script duplicated H-002)", "H-005": "PASS"}

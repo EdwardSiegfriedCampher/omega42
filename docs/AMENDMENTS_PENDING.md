@@ -164,3 +164,20 @@ Level: C
 - Adopted now (level B): research/physics/INITIATIVE.md, the Common Mathematical Foundations Project, with milestones H-025, H-026 and H-027 (TESTABLE).
 - Proposed for ESC (level C, Core Rule 37): add to each entry of the Physical Mapping Register the fields A (assumptions), F (fails if) and the recovery limit (the limit in which the established model returns, or "none known").
 - Open for ESC: whether the initiative opens now or waits for the reviewer pool; and which outward entry comes first (general relativity, lattice gauge theory or thermodynamics).
+- Added from APE-499: research/physics/INITIATIVE.md section 10 (tracks, gates G1 to G6, PHY identifiers, relation labels, observatory); tools/physics_bench.py and PHB-01 (run: 5 of 5, VERIFIED COMPUTATION, CONSTRUCTIONAL); H-028 (TESTABLE). Proposed for ESC with the opening: the physics material as Companion Part 233, not a second Companion.
+- Added from APE-500: research/physics/INITIATIVE.md section 11 (three groups, four subjects, qualification before speculation, a seven-dimension profile with no total, one Navigator with five capabilities, the revised first year); tools/relation_engine.py (relationship classification on two axes) with five worked records in records/physics/relations.json, checked in CI.
+- Added from APE-501: the thirteen-section dossier, three kinds of failure and the quantitative recovery test (section 12); H-024 to H-028 tightened before any run, with a contamination guard.
+
+## CA-19 refinements (APE-501; 19 November 2026; PENDING ESC with CA-19)
+Level: C
+- Core L-503 (5) rewritten in place. It now includes: a declared scope of materially relevant aspects, with a stopping rule; counter-evidence sought without manufactured disagreement, weighing quality over count; seven kinds of relationship (analogy, correspondence, equivalence, derivation, correlation, causation, extension), with causation only where supported; every [n] resolving to a full reference in the layer; a CORRECTION block after the essay when the reach finds a material error in THE ANSWER, which stands as sealed; a completeness report on the RESEARCHED REACH line.
+- Companion 12.5.3, 12.5.4 and 12.5.6 updated to match. Archived records are read under the rules of their date, and a missing line is never read as a decision.
+- tools/format_check.py: unresolved source numbers, a WRITTEN line without completeness, and NOT APPLICABLE without a reason all fail. 4 new selftests (15 in all for the reach).
+
+## CA-22: Chronology checks and the correction register (APE-501; 19 November 2026)
+Level: B
+- tools/timestamp_check.py in CI (L-542 of 19 November). It checks format (YYYY-MM-DDTHH:MM:SSZ), no future times against the runner's clock with a 300-second tolerance, and acceptance not before disclosure, with 10 selftests. Event time (disclosed_utc) and import time (accepted_utc) stay distinct.
+- First run: 12 records with a prose time, repaired (COR-010); 3 reversed records, APE-045 to APE-047, held for ESC (COR-011).
+- records/corrections/register.json: the correction and learning register, 12 entries. Each records what was wrong, how it was found, why the checks missed it, the correction and the prevention.
+- RELEASES.md and the manifest: five separate dimensions (integrity, CI compliance, protocol compliance, scientific review, release approval) and three compatibility answers. The monthly cadence is a ceiling, not an obligation. The pre-push scan is widened.
+- docs/DECISIONS_PENDING.md: every open decision on its own (D-01 to D-12).

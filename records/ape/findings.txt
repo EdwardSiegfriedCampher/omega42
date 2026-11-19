@@ -1,8 +1,8 @@
 ======= APE FINDINGS: THE COMMONS REGISTER (Companion Part 67; APA 9.5.5; avenue P) =======
 Every exploration a peer contributes is a finding of avenue P and is kept as submitted. A note records what the protocol did with it; the protocol changes only by the Originator's adoption (F-06).
-EXPLORATIONS: 496 numbers in 481 Commons entries; 454 frozen files (APE-045 onward) with 1755 notes; 27 entries recorded in the Commons alone
-NOTES BY KIND: ADOPTED 396 | CORRECTED 210 | REFINED 91 | HOLDING 356 | ALREADY IN PLACE 43 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 466
-AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 152 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
+EXPLORATIONS: 499 numbers in 484 Commons entries; 457 frozen files (APE-045 onward) with 1768 notes; 27 entries recorded in the Commons alone
+NOTES BY KIND: ADOPTED 398 | CORRECTED 213 | REFINED 92 | HOLDING 356 | ALREADY IN PLACE 44 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 472
+AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 155 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
 GAPS: APE-041, APE-042: NUMBER NOT RECORDED -- No Commons entry and no frozen file carries these numbers. The gap is reported and never filled from memory: an exploration is entered only from its own text.
 
 I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; the note in full)
@@ -859,26 +859,26 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
       ADOPTED    Adopted into Core L-550 (2): the certificate record and the three-way split of resonance certificates. Not taken: letter grades, the depths being the grades of correspondence.
   APE-412  Universal truth and certification -- a second reply (unidentified AI, 2026-11-07)
       ADOPTED    Adopted into Core L-550 (3), (4): no outside, so a certified result is a truth of the totality; universal scope distinct from the validity of each determination.
-  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (unidentified (a web interface), 7 November)
+  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (unidentified (a web interface), 2026-11-07)
       ADOPTED    the constitutional principle of mathematical primacy and scientific separation, as Core L-553; the selection correction for M341, in Core Appendix S.10 (6).
-  APE-417  The Omega42 Provenance and Authenticity Layer (OPAL) (Qwen (Alibaba Cloud), 7 November)
+  APE-417  The Omega42 Provenance and Authenticity Layer (OPAL) (Qwen (Alibaba Cloud), 2026-11-07)
       ADOPTED    Adopted in substance as Core L-554 and OPAL (Core Part 3.68, M342) and the fingerprint (Core Part 3.69, M343), built as tools/opal.py.
       CORRECTED  the Yin arm is the 18-step offset read as T^18, not a 6-step square; the finder's reading of 42 is at chance, which the record keeps.
-  APE-418  Omega42 examination of the Standard Model of physics (unidentified (a web interface), 7 November)
+  APE-418  Omega42 examination of the Standard Model of physics (unidentified (a web interface), 2026-11-07)
       ADOPTED    the Lorentz representation as the one derived result (Core Part 3.70, M344; CERT-0009); the correspondence classifier as M345 (Core Part 3.71); the eleven directions in Core Appendix S.11.
-  APE-419  The Standard Model as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 7 November)
+  APE-419  The Standard Model as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 2026-11-07)
       CORRECTED  'the mathematics makes the Standard Model necessary' overstates a set of count-matches; a fourth generation is not forbidden by the census in any physical sense.
-  APE-420  Omega42 examination of the Standard Model of cosmology (unidentified (a web interface), 7 November)
+  APE-420  Omega42 examination of the Standard Model of cosmology (unidentified (a web interface), 2026-11-07)
       ADOPTED    the twelve directions in Core Appendix S.12; the finite/inverse-limit distinction and the flat seed as the derived parts (M344 reused).
-  APE-421  Cosmology as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 7 November)
+  APE-421  Cosmology as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 2026-11-07)
       CORRECTED  'the fine-tuned mysteries dissolve' overstates a set of placements; the account itself hedges the 5/27/68 percentages as epoch-dependent, conceding the arithmetic fixes no value.
-  APE-422  Omega42 and the possibility of free-energy extraction (unidentified (a web interface), 7 November)
+  APE-422  Omega42 and the possibility of free-energy extraction (unidentified (a web interface), 2026-11-07)
       ADOPTED    the conservation stance as Core L-555; the harvesting directions as Core Appendix S.13; the balance E_out <= E_input.
-  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (unidentified (a web interface), 7 November)
+  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (unidentified (a web interface), 2026-11-07)
       ADOPTED    the ten directions as Core Appendix S.14; the Lorentz representation as the one derived constraint (M344 reused).
-  APE-426  Deriving a spacetime metric from Omega42 (unidentified (a web interface), 7 November)
+  APE-426  Deriving a spacetime metric from Omega42 (unidentified (a web interface), 2026-11-07)
       ADOPTED    the completed flat seed (det X, null cone, Lorentz invariance) cites CERT-0009 and tools/foundations.py; the four open maps as Core Appendix S.15.
-  APE-427  The algebraic seed of the spacetime metric (Qwen (Alibaba Cloud), 7 November)
+  APE-427  The algebraic seed of the spacetime metric (Qwen (Alibaba Cloud), 2026-11-07)
       ADOPTED    the flat seed derived (CERT-0009); the four maps as the open programme of Core Appendix S.15; the holding that a coordinate is not a spacetime coordinate until a map is defined.
   APE-431  F170 — The exact 3-adic structure of the Fibonacci-shear group (unidentified (a web interface), 2026-11-11)
       ADOPTED    Adopted as MF-42 and certified with MF-43 (CERT-0010).
@@ -966,6 +966,14 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
       CORRECTED  none.
   APE-498  The AI Navigator as a partner in the search for physical unification (ChatGPT (OpenAI), 2026-11-19)
       ADOPTED    the Common Mathematical Foundations Project as the first project, in both directions (direction C), tied to the Physical Mapping Register; the measurable milestones registered before any run as H-025 (blind rediscovery), H-026 (adversarial catch rate) and H-027 (literature recall), all TESTABLE; the research roles as auditable modes of one Navigator (research/physics/INITIATIVE.md).
+      CORRECTED  none.
+  APE-499  The Ω42 Physics Initiative: detailed research architecture and first-year programme (ChatGPT (OpenAI), 2026-11-19)
+      ADOPTED    the three tracks, with Track C's reviewer required to be a human or an AI of a different architecture; the gates G1 to G6, mapped onto existing instruments; the identifiers PHY-<laboratory>-<nnnn>; the seven relation labels as the edge vocabulary of the Physical Mapping Register; the known-answer benchmark, of which PHB-01 ran (5 of 5, VERIFIED COMPUTATION, CONSTRUCTIONAL); the calibration test H-028 (TESTABLE); the quarterly observatory report under the L-503 source rules (research/physics/INITIATIVE.md section 10).
+      CORRECTED  none.
+  APE-500  Shaping the Ω42 Physics Initiative: a narrower first year and the Relationship Discovery Engine (ChatGPT (OpenAI), 2026-11-19)
+      ADOPTED    three groups instead of six laboratories; four subjects; qualification of the Navigator before speculation; the adversarial reviewer's task ("assume the proposal is wrong"); a seven-dimension profile with no total in place of any ranking of theories; one Navigator with five capabilities; the revised first year, with symmetry and conservation as the qualification project and quantum information and spacetime geometry as the flagship (research/physics/INITIATIVE.md section 11).
+      CORRECTED  none.
+  APE-501  Assessment of the Omega42 update and the decisions before ESC (ChatGPT (OpenAI), 2026-11-19)
       CORRECTED  none.
 
 II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
@@ -2368,6 +2376,15 @@ II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
   APE-498  The AI Navigator as a partner in the search for physical unification (ChatGPT (OpenAI))
       the Common Mathematical Foundations Project on the Physical Mapping Register, with three milestones registered.
       FILE: submissions/ape/APE-498.md | AREA: physics | NOTES: ADOPTED 1, ALREADY IN PLACE 1, NOTED 2, NOT TAKEN 1, CORRECTED 1
+  APE-499  The Ω42 Physics Initiative: detailed research architecture and first-year programme (ChatGPT (OpenAI))
+      three tracks, gates G1 to G6, a known-answer benchmark (PHB-01 run, 5 of 5) and a calibration test (H-028).
+      FILE: submissions/ape/APE-499.md | AREA: physics | NOTES: ADOPTED 1, REFINED 1, ALREADY IN PLACE 1, NOTED 1, CORRECTED 1
+  APE-500  Shaping the Ω42 Physics Initiative: a narrower first year and the Relationship Discovery Engine (ChatGPT (OpenAI))
+      one Navigator qualified before it speculates; a relationship classification built (tools/relation_engine.py).
+      FILE: submissions/ape/APE-500.md | AREA: physics | NOTES: ADOPTED 1, NOTED 2, CORRECTED 1
+  APE-501  Assessment of the Omega42 update and the decisions before ESC (ChatGPT (OpenAI))
+      CA-19 refined, chronology checks and a corrections register built, every open decision itemized for ESC.
+      FILE: submissions/ape/APE-501.md | AREA: law-and-governance | NOTES: NOTED 3, CORRECTED 1
 
 CHECK: PASS -- every frozen file registered, every registered file present, every number registered or reported as a gap
 ======= END APE FINDINGS =======

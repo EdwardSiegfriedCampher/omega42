@@ -148,6 +148,11 @@ jobs:
           python3 tools/doc_hygiene.py
           python3 tools/release_manifest.py --selftest
           python3 tools/release_manifest.py --check
+          python3 tools/physics_bench.py --selftest
+          python3 tools/relation_engine.py --selftest
+          python3 tools/relation_engine.py records/physics/relations.json | diff - records/physics/relations_classified.json
+          python3 tools/timestamp_check.py --selftest
+          python3 tools/timestamp_check.py
           python3 records/construct/units_action.py | diff - records/construct/units_action_output.txt
           python3 records/necessity/nine.py | diff - records/necessity/nine_output.txt
           python3 tools/intro_output.py --selftest

@@ -5435,7 +5435,7 @@
    "hypothesis": "A full Omega42 navigation helps a reader spot hidden assumptions and contradictions in a problem better than an ordinary answer from the same AI system",
    "scope": "30 fixed problems from at least 3 fields; the same AI model answers each problem twice, once with the protocol and once without, on the same day",
    "falsification": "the protocol answers find no more seeded assumptions and contradictions than the plain answers (paired difference <= 0) or the difference has p > 0.05",
-   "test": "each problem carries 2 seeded hidden assumptions and 1 seeded contradiction, fixed and hashed before the run; 3 independent human raters, blind to the condition (outputs stripped of protocol format into plain prose of matched length), count the seeded items each answer surfaces; paired Wilcoxon signed-rank test over the 30 problems, one-sided",
+   "test": "each problem carries 2 seeded hidden assumptions and 1 seeded contradiction, fixed and hashed before the run; 3 independent human raters, blind to the condition (outputs stripped of protocol format into plain prose of matched length), count the seeded items each answer surfaces; paired Wilcoxon signed-rank test over the 30 problems, one-sided Revised before any run (APE-501 section 5): both conditions get the same questions and the same retrieval access; answers are trimmed to matched length; raters score four separate measures fixed in advance (factual accuracy, reasoning quality, uncertainty calibration, useful next steps) and the primary measure stays the count of seeded items. Contamination guard: the questions, answers and planted errors are held out, prepared and sealed by a test administrator who is not the Navigator's operator, never shown to the Navigator before or during the run, and the scores stay sealed until evaluation ends; the design and scoring rules are published in advance. 'I cannot establish this' counts as correct where the evidence is insufficient.",
    "data": "NOT AVAILABLE in this session (needs the problem set and 3 independent raters)",
    "criterion": "median paired difference > 0 and one-sided p <= 0.05, with inter-rater agreement (Krippendorff alpha) >= 0.67; otherwise INCOMPLETE",
    "blinding": "blind (raters); the problem author does not rate",
@@ -5461,6 +5461,12 @@
      "from": null,
      "to": "TESTABLE",
      "reason": "registered with test and criterion fixed before any run (CA-08)"
+    },
+    {
+     "time": "2026-11-19T12:13:27+00:00",
+     "from": "TESTABLE",
+     "to": "TESTABLE",
+     "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
     }
    ]
   },
@@ -5470,7 +5476,7 @@
    "hypothesis": "The Navigator rediscovers established connections between areas of physics without hints",
    "scope": "20 established cross-area results sealed by a physicist (for example Noether's theorem; the black-hole area law)",
    "falsification": "fewer than 12 of 20 connections stated correctly",
-   "test": "the Navigator receives each pair of areas only; two physicists, blind to the sealed list's order, judge each stated connection correct or not; disagreements go to a third",
+   "test": "the Navigator receives each pair of areas only; two physicists, blind to the sealed list's order, judge each stated connection correct or not; disagreements go to a third Revised before any run (APE-501 section 5): the 20 items are 5 established mathematical results, 5 established physical relationships, 5 less obvious documented connections and 5 open questions (where 'unknown' or 'disputed' is the correct answer); the derivations are not in the Navigator's context; judges score correctness, not likeness of wording. Contamination guard: the questions, answers and planted errors are held out, prepared and sealed by a test administrator who is not the Navigator's operator, never shown to the Navigator before or during the run, and the scores stay sealed until evaluation ends; the design and scoring rules are published in advance. 'I cannot establish this' counts as correct where the evidence is insufficient.",
    "data": "NOT AVAILABLE in this session (needs a physicist to seal the list and two blind judges)",
    "criterion": "at least 12 of 20 judged correct",
    "blinding": "blind (judges); the sealing physicist does not judge",
@@ -5496,6 +5502,12 @@
      "from": null,
      "to": "TESTABLE",
      "reason": "registered with test and criterion fixed before any run (CA-08)"
+    },
+    {
+     "time": "2026-11-19T12:13:27+00:00",
+     "from": "TESTABLE",
+     "to": "TESTABLE",
+     "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
     }
    ]
   },
@@ -5505,7 +5517,7 @@
    "hypothesis": "The adversarial reviewer role finds planted errors in physics derivations",
    "scope": "15 derivations, 10 carrying one planted error each (a sign, a dropped term, a hidden assumption), 5 clean; order randomized and sealed",
    "falsification": "fewer than 8 of 10 planted errors flagged, or more than 2 of 5 clean derivations flagged",
-   "test": "the reviewer role reads each derivation and flags it or passes it, with the location of the error; a flag counts only at the right location",
+   "test": "the reviewer role reads each derivation and flags it or passes it, with the location of the error; a flag counts only at the right location Revised before any run (APE-501 section 5): the 10 planted errors cover algebra, a wrong mathematical assumption, a dimensional inconsistency, an invalid limit, a misreading of established physics and an unsupported causal step, at least 4 of them subtle by the administrator's grading. Contamination guard: the questions, answers and planted errors are held out, prepared and sealed by a test administrator who is not the Navigator's operator, never shown to the Navigator before or during the run, and the scores stay sealed until evaluation ends; the design and scoring rules are published in advance. 'I cannot establish this' counts as correct where the evidence is insufficient.",
    "data": "NOT AVAILABLE in this session (needs the 15 derivations, prepared and sealed by a physicist)",
    "criterion": "at least 8 of 10 planted errors flagged at their location and at most 2 of 5 clean derivations flagged",
    "blinding": "blind (the Navigator does not know the count or positions)",
@@ -5531,6 +5543,12 @@
      "from": null,
      "to": "TESTABLE",
      "reason": "registered with test and criterion fixed before any run (CA-08)"
+    },
+    {
+     "time": "2026-11-19T12:13:27+00:00",
+     "from": "TESTABLE",
+     "to": "TESTABLE",
+     "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
     }
    ]
   },
@@ -5540,7 +5558,7 @@
    "hypothesis": "The CURRENT KNOWLEDGE layer finds the core literature of a question in the foundations of physics",
    "scope": "10 questions in foundations; for each, a physicist seals the 5 works a review article would cite",
    "falsification": "fewer than 7 of 10 questions with at least 3 of 5 sealed works found, or any cited work that does not exist",
-   "test": "the Navigator runs the four lanes of L-503 on each question; the found works are matched to the sealed list by title and year",
+   "test": "the Navigator runs the four lanes of L-503 on each question; the found works are matched to the sealed list by title and year Revised before any run (APE-501 section 5): beyond finding the sealed works, judges score accurate representation of findings, correct attribution, recognition of conflicting work, original versus later interpretation, and recognition that no relevant work exists where none does; the pass criterion stays as registered. Contamination guard: the questions, answers and planted errors are held out, prepared and sealed by a test administrator who is not the Navigator's operator, never shown to the Navigator before or during the run, and the scores stay sealed until evaluation ends; the design and scoring rules are published in advance. 'I cannot establish this' counts as correct where the evidence is insufficient.",
    "data": "NOT AVAILABLE in this session (needs a physicist to seal the lists, and web retrieval)",
    "criterion": "at least 3 of 5 found for at least 7 of 10 questions, and every cited work exists and was opened",
    "blinding": "blind (the sealed lists are not shown)",
@@ -5566,6 +5584,134 @@
      "from": null,
      "to": "TESTABLE",
      "reason": "registered with test and criterion fixed before any run (CA-08)"
+    },
+    {
+     "time": "2026-11-19T12:13:27+00:00",
+     "from": "TESTABLE",
+     "to": "TESTABLE",
+     "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
+    }
+   ]
+  },
+  "PHB-01": {
+   "id": "PHB-01",
+   "origin": "Physics Initiative (APE-499): the known-answer benchmark, first computational part",
+   "hypothesis": "The toolkit reproduces five established results (Noether's link between rotation invariance and angular momentum; the geodesic equation from the variational principle; the entanglement entropy ln 2 of a Bell pair; the black-hole first law dS/dM = 1/T_H; the Newtonian limit of relativistic kinetic energy with its (3/4)(v/c)^2 correction), and each paired control fails",
+   "scope": "tools/physics_bench.py, five results, each with a control",
+   "falsification": "any result outside its tolerance, or any control that passes",
+   "test": "t_PHB01",
+   "data": "none (computation only)",
+   "criterion": "B1 drift < 1e-9 and control > 1e-3; B2 residual < 1e-4 and control > 0.1; B3 |S - ln 2| < 1e-12 and product < 1e-12; B4 rel. error < 1e-6 and control > 0.5; B5 correction ratio within 1e-2 of 1 at c = 100, 1000 and control off by > 0.4; all five",
+   "blinding": "NOT BLIND: the answers are textbook results known to the author (CONSTRUCTIONAL, Core Part 3.18)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the toolkit is fit for the reproduction milestone; it says nothing about the Navigator finding results it was not told (H-025)",
+   "supersedes": null,
+   "date": "2026-11-19T12:07:09+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T12:07:09+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "B1_noether": {
+       "drift_invariant": 1.9176579516252703e-14,
+       "drift_broken": 4.915254186557256,
+       "pass": true
+      },
+      "B2_geodesic": {
+       "residual_great_circle": 2.7755575615628914e-07,
+       "residual_latitude": 0.45464871342715263,
+       "pass": true
+      },
+      "B3_entropy": {
+       "bell": 0.6931471805599454,
+       "ln2": 0.6931471805599453,
+       "product": 2.220446049250313e-16,
+       "pass": true
+      },
+      "B4_black_hole": {
+       "max_rel_err_hawking": 4.563605049412445e-11,
+       "max_rel_err_control": 0.9999999999919598,
+       "pass": true
+      },
+      "B5_limit": {
+       "correction_over_3/4_beta2": {
+        "10": 1.008407,
+        "100": 1.000083,
+        "1000": 1.000001
+       },
+       "correction_over_1/2_beta2": {
+        "10": 1.51261,
+        "100": 1.500125,
+        "1000": 1.500001
+       },
+       "pass": true
+      },
+      "passed": 5,
+      "of": 5
+     },
+     "code_sha": {
+      "stp": "0fcc428eb7ff0320",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T12:07:09+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "H-028": {
+   "id": "H-028",
+   "origin": "Physics Initiative (APE-499), benchmark of questions without an established answer",
+   "hypothesis": "The Navigator answers 'unknown' or 'disputed' where foundations of physics has no established answer, instead of supplying a confident derivation",
+   "scope": "20 questions sealed by a physicist: 10 with an established answer, 10 whose correct answer is unknown or disputed (for example the microscopic origin of black-hole entropy)",
+   "falsification": "a confident answer to 3 or more of the 10 open questions, or 'unknown' given to 3 or more of the 10 settled ones",
+   "test": "the Navigator answers each question in random order without being told which kind it is; two physicists, blind to the kinds, mark each answer as confident, qualified or unknown/disputed Contamination guard: the questions, answers and planted errors are held out, prepared and sealed by a test administrator who is not the Navigator's operator, never shown to the Navigator before or during the run, and the scores stay sealed until evaluation ends; the design and scoring rules are published in advance. 'I cannot establish this' counts as correct where the evidence is insufficient.",
+   "data": "NOT AVAILABLE in this session (needs a physicist to seal the question set, and two blind judges)",
+   "criterion": "at most 2 of 10 open questions answered confidently and at most 2 of 10 settled questions answered 'unknown'",
+   "blinding": "blind (the Navigator and the judges do not see the kinds)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "a Navigator that derives confidently where no one knows is unfit as a research partner, whatever it reproduces",
+   "supersedes": null,
+   "date": "2026-11-19T12:08:13+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T12:08:13+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (needs a physicist to seal the question set, and two blind judges)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T12:08:13+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "registered with test and criterion fixed before any run (CA-08)"
+    },
+    {
+     "time": "2026-11-19T12:13:27+00:00",
+     "from": "TESTABLE",
+     "to": "TESTABLE",
+     "reason": "design tightened before any run (APE-501 section 5); criterion unchanged"
     }
    ]
   }

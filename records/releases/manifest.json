@@ -177,6 +177,22 @@
    "level": "C",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-19",
+   "title": "CA-19 refinements (APE-501; 19 November 2026; PENDING ESC with CA-19)",
+   "status": "PENDING ESC",
+   "level": "C",
+   "level_source": "declared",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-22",
+   "title": "CA-22: Chronology checks and the correction register (APE-501; 19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
   }
  ],
  "approval": {
@@ -209,12 +225,37 @@
    "PROVED": 10,
    "REJECTED": 15,
    "REVISED": 4,
-   "TESTABLE": 5,
-   "VERIFIED COMPUTATION": 38
+   "TESTABLE": 6,
+   "VERIFIED COMPUTATION": 39
   },
-  "stp_entries": 72,
+  "stp_entries": 74,
   "snca_reports": 57
  },
+ "dimensions": {
+  "integrity": "SHA256SUMS at the release tag; the build verifies it (tools/build/pipe.sh, SUMS OK)",
+  "ci_compliance": "every step of .github/workflows/omega42-ci.yml passes on the tagged commit",
+  "protocol_compliance": "the format, economy, terminology, chronology and re-examination checks are CI steps; they test structure and rules, not truth",
+  "scientific_review": "none: no result in this release has had independent scientific review; physics material is a pilot (research/physics/INITIATIVE.md)",
+  "release_approval": "ESC; ratified and pending amendments are listed under approval"
+ },
+ "compatibility_questions": {
+  "compatible_with_previous": "yes for records made under earlier dates: every new rule is date-gated and earlier records are read under the rules of their date",
+  "normative_rules_changed": [
+   "CA-12",
+   "CA-14",
+   "CA-15",
+   "CA-17",
+   "CA-19",
+   "CA-21"
+  ],
+  "normative_changes_pending_esc": [
+   "CA-17",
+   "CA-19",
+   "CA-21"
+  ],
+  "navigator_update_needed": "read the Core edition of this release; the date-gated rules in force are listed in docs/AMENDMENTS_PENDING.md"
+ },
+ "corrections": 12,
  "compatibility": "The Companion elaborates the Core and never modifies it (Core Part 10.5.1); where they differ, the Core holds.",
  "checksums": "SHA256SUMS"
 }

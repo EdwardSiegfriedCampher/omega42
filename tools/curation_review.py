@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""curation_review.py -- the curator's refining layer (agents/curator/SPEC.md, "What the agent adds", items 1 and 3).
+"""curation_review.py -- the curator's refining layer.
+See agents/curator/SPEC.md, "What the agent adds", items 1 and 3.
 
 Reads the deterministic baseline (records/curation/index.json, built by tools/curator.py) and the frozen texts, and
 writes PROPOSALS beside it, never over it:

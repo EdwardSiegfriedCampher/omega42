@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""release_manifest.py -- the release record of Omega42 (RELEASES.md section 4).
+"""release_manifest.py -- the release record.
+See RELEASES.md section 4.
 
 Builds records/releases/manifest.json from the repository as it stands:
   version and channel (from the Core edition in ai/), the date of the latest amendment, the amendment register with each
@@ -61,6 +62,18 @@ def build():
                          'pending_esc': sorted({a['id'] for a in am if a['status'] == 'PENDING ESC'})},
             'validation': {'ci': 'every step of .github/workflows/omega42-ci.yml must pass', 'stp_by_status': dict(sorted(stp.items())),
                            'stp_entries': len(reg), 'snca_reports': len(snca)},
+            'dimensions': {   # kept apart: a technically valid release is not thereby correct in content (APE-501 section 7)
+                'integrity': 'SHA256SUMS at the release tag; the build verifies it (tools/build/pipe.sh, SUMS OK)',
+                'ci_compliance': 'every step of .github/workflows/omega42-ci.yml passes on the tagged commit',
+                'protocol_compliance': 'the format, economy, terminology, chronology and re-examination checks are CI steps; they test structure and rules, not truth',
+                'scientific_review': 'none: no result in this release has had independent scientific review; physics material is a pilot (research/physics/INITIATIVE.md)',
+                'release_approval': 'ESC; ratified and pending amendments are listed under approval'},
+            'compatibility_questions': {
+                'compatible_with_previous': 'yes for records made under earlier dates: every new rule is date-gated and earlier records are read under the rules of their date',
+                'normative_rules_changed': sorted({a['id'] for a in am if a['level'] == 'C'}),
+                'normative_changes_pending_esc': sorted({a['id'] for a in am if a['level'] == 'C' and a['status'] == 'PENDING ESC'}),
+                'navigator_update_needed': 'read the Core edition of this release; the date-gated rules in force are listed in docs/AMENDMENTS_PENDING.md'},
+            'corrections': len(json.load(open(os.path.join(R, 'records', 'corrections', 'register.json'), encoding='utf8'))['entries']) if os.path.exists(os.path.join(R, 'records', 'corrections', 'register.json')) else 0,
             'compatibility': 'The Companion elaborates the Core and never modifies it (Core Part 10.5.1); where they differ, the Core holds.',
             'checksums': 'SHA256SUMS'}
 
