@@ -220,3 +220,10 @@ Level: B
 Level: B
 - Companion 233.17: ME-05 taken in, with five interacting dimensions, internalization, purpose with five origins, and spiritual experience without a presupposed metaphysics. Purpose and agency in the law: a controlling direction reaches all 81 states in two steps; a direction of norm divisible by 3 stays within 9 states however long one persists.
 - tools/choice_engine.py: reachable_count with selftest. Project F of the Meaningful Existence Initiative. APE-507 with SNCA Z22.
+
+## CA-28: Corrections from review and the integrated program (APE-508, APE-509; 19 November 2026)
+Level: B
+- Companion 233.0: an index of Part 233, with each entry's kind (definition, derivation, computation, hypothesis, reading, program) and its scope: confined to its model until a registered empirical test supports more.
+- Companion 233.12 M1: N named as the algebraic norm, an indefinite quadratic form. 233.15 RC2 corrected with its eigenvector exception. STP: RC-01 and RC-01-R1 REVISED; RC-01-R2 VERIFIED COMPUTATION. COR-014 and COR-015.
+- Companion 233.18 and project G: ME-06, the integrated program, with three-axis consensus, the Human Possibility Space and Profile, out-of-sample benchmarks and safeguards.
+- APE-508 and APE-509 with SNCA Z23 and Z24.

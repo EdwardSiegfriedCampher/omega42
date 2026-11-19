@@ -977,6 +977,42 @@ def t_RC01():
                                                           "agreement_by_one_added_term": "yes (choice_engine selftest)"}
 
 
+def t_RC01R1():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import choice_engine as ce
+    from fractions import Fraction as Fr
+    noscalar = not any(ce.scalar_consensus_ever(9, k) for k in range(9))
+    radius = ce.real_consensus_radius()
+    rational_singular = [str(x) for x in (Fr(n, d) for d in range(1, 60) for n in range(-180, 181)) if x * x - x - 1 == 0]
+    grows = []
+    for pull in (Fr(-1), Fr(1, 2), Fr(1), Fr(2)):
+        d0 = (Fr(1), Fr(0)); d = d0
+        for _ in range(40): d = (d[1] - pull * d[0], d[0] + d[1] - pull * d[1])
+        grows.append(abs(d[0]) + abs(d[1]) > 1000)
+    phi = (1 + 5 ** 0.5) / 2; sneg = -1 / phi; v = (1.0, -1 / phi)
+    vanish = abs(v[1] - sneg * v[0]) < 1e-12 and abs(v[0] + v[1] - sneg * v[1]) < 1e-12
+    ok = noscalar and abs(radius - 5 ** 0.5 / 2) < 1e-4 and not rational_singular and all(grows) and vanish
+    return ok, {"mod_9_agreement": "never" if noscalar else "found", "least_real_radius": round(radius, 4), "rational_pulls_making_T_minus_s_singular": rational_singular,
+                "rational_difference_grows_beyond_1000_in_40_steps_for_pulls_-1_1/2_1_2": grows, "real_eigen_difference_vanishes_at_s=-1/phi": vanish}
+
+
+def t_RC01R2():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import choice_engine as ce
+    from fractions import Fraction as Fr
+    noscalar = not any(ce.scalar_consensus_ever(9, k) for k in range(9))
+    radius = ce.real_consensus_radius()
+    rational_singular = [str(x) for x in (Fr(n, d) for d in range(1, 60) for n in range(-180, 181)) if x * x - x - 1 == 0]
+    grows = []
+    for pull in (Fr(-1), Fr(1, 2), Fr(1), Fr(2)):
+        d = (Fr(1), Fr(0))
+        for _ in range(40): d = (d[1] - pull * d[0], d[0] + d[1] - pull * d[1])
+        grows.append(abs(d[0]) + abs(d[1]) > 10)
+    phi = (1 + 5 ** 0.5) / 2; sneg = -1 / phi; v = (1.0, -1 / phi)
+    vanish = abs(v[1] - sneg * v[0]) < 1e-12 and abs(v[0] + v[1] - sneg * v[1]) < 1e-12
+    ok = noscalar and abs(radius - 5 ** 0.5 / 2) < 1e-4 and not rational_singular and all(grows) and vanish
+    return ok, {"mod_9_agreement": "never" if noscalar else "found", "least_real_radius": round(radius, 4), "rational_pulls_making_T_minus_s_singular": rational_singular,
+                "rational_difference_grows_beyond_10x_in_40_steps_for_pulls_-1_1/2_1_2": grows, "real_eigen_difference_vanishes_at_s=-1/phi": vanish}
+
+
 def t_CAP05():
     import congruence as cg
     reg = cg.load_register()
@@ -1116,7 +1152,7 @@ TESTS = {"H-013": t_H013, "H-014": t_H014, "OP-01a": t_OP01a, "OP-01b": t_OP01b,
          "H-005": t_H005, "H-007a": t_H007a, "H-007b": t_H007b, "H-008": t_H008, "CX-001": t_CX001,
          "CX-002": t_CX002, "CX-004": t_CX004, "CX-005": t_CX005, "CX-006": t_CX006, "CX-007": t_CX007,
          "H-006b": t_H006b, "H-006c": t_H006c, "H-016": t_H016, "H-016b": t_H016b, "W-001": t_W001,
-         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "AR-01": t_AR01, "TR-01": t_TR01, "RC-01": t_RC01, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
+         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "AR-01": t_AR01, "TR-01": t_TR01, "RC-01": t_RC01, "RC-01-R1": t_RC01R1, "RC-01-R2": t_RC01R2, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
          "CX-012b": t_CX012b, "H-006d": t_H006d, "I-001": t_I001}
 
 # ------------------------------------------------------------------ pre-registration
@@ -1393,6 +1429,14 @@ PRE = [
       scope="(Z/9)^2, every pair of distinct states, every k, 72 steps; the reals, pull 2a in [-3, 3]", falsification="any pair that agrees, or a real pull with spectral radius below 1", test="t_RC01", data="computation only",
       criterion="no agreement mod 9 and least radius = sqrt(5)/2 within 1e-4", blinding="NOT BLIND: computed before registration; recorded reproducibly", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
       consequence="if passed: agreement between persons who each follow the law needs a choice aimed at their difference, or influence shaped by the law itself; averaging alone never yields it", supersedes=None),
+ dict(id="RC-01-R1", origin="APE-508: the review of RC-01's wording (19 November 2026)", hypothesis="Persons who each follow the law do not reach agreement by symmetric scalar influence alone: modulo 9 never, for any influence; over the reals no pull contracts both modes (the least spectral radius of T - s is sqrt(5)/2), no rational pull makes T - s singular, so a nonzero difference with rational coordinates never vanishes and eventually grows; a real difference lying on the contracting eigenvector can shrink, and vanishes when s = -1/phi or phi",
+      scope="as RC-01, with the real-number statement corrected", falsification="any agreement mod 9; a pull with radius below sqrt(5)/2; a rational pull making T - s singular; a rational difference that does not grow; or the eigenvector exception failing", test="t_RC01R1", data="computation only",
+      criterion="all five checks hold", blinding="NOT BLIND: computed before registration", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="supersedes RC-01, whose wording said every difference grows; the corrected statement keeps the exception", supersedes="RC-01"),
+ dict(id="RC-01-R2", origin="RC-01-R1 test-design defect: its growth threshold (1,000 in 40 steps) exceeds what the bound gives at pull 1/2 (1.118^40 = 87)", hypothesis="As RC-01-R1: no agreement by symmetric scalar influence mod 9; over the reals no pull contracts both modes (least radius sqrt(5)/2); no rational pull makes T - s singular, so a nonzero rational difference never vanishes and grows; a real difference on the contracting eigenvector can shrink, and vanishes at s = -1/phi or phi",
+      scope="as RC-01-R1", falsification="as RC-01-R1, with growth judged as more than tenfold in 40 steps (the bound gives at least 1.118^40 = 87)", test="t_RC01R2", data="computation only",
+      criterion="all five checks hold, growth threshold tenfold in 40 steps", blinding="NOT BLIND: the defect of RC-01-R1 was seen before registration", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="supersedes RC-01-R1, whose threshold was a test-design defect", supersedes="RC-01-R1"),
 ]
 FIRST_RUN = {  # results of the 18 Nov 2026 first run, kept as history
  "H-001": "PASS", "H-002": "FAIL", "H-003": "FAIL", "H-004": "FAIL (reported 7 of 9; script duplicated H-002)", "H-005": "PASS"}

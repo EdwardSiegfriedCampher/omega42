@@ -117,6 +117,24 @@
    "why_checks_missed_it": "Nothing was missed: the check introduced by COR-009 caught the error before the record was committed.",
    "correction": "Times moved to the actual intake times.",
    "prevention": "tools/timestamp_check.py in CI; the Navigator reads the clock before writing an intake time."
+  },
+  {
+   "id": "COR-014",
+   "date": "2026-11-19",
+   "what_was_wrong": "The Navigator's answer and RC-01 stated that over the reals every difference between two coupled persons grows by at least sqrt(5)/2 per step; a real difference on the contracting eigenvector can shrink, and vanishes at s = -1/phi or phi. The answer also called N's value the 'size' of the difference.",
+   "how_detected": "External review (APE-508).",
+   "why_checks_missed_it": "The test checked the least spectral radius, which is correct, not the wording of the hypothesis, which overstated it.",
+   "correction": "Companion 233.15 RC2 and 233.12 M1 corrected; RC-01 marked REVISED; RC-01-R2 registered and verified.",
+   "prevention": "A hypothesis's wording is checked against what its criterion tests before registration."
+  },
+  {
+   "id": "COR-015",
+   "date": "2026-11-19",
+   "what_was_wrong": "RC-01-R1 required a rational difference to grow beyond 1,000 in 40 steps; at pull 1/2 the bound gives 1.118^40 = 87, so the test failed although the statement holds.",
+   "how_detected": "Its own run (REJECTED).",
+   "why_checks_missed_it": "The threshold was chosen before computing what the bound guarantees.",
+   "correction": "RC-01-R1 marked REVISED; RC-01-R2 registered with a tenfold threshold derived from the bound, and verified.",
+   "prevention": "A numerical threshold is derived from the stated bound, never chosen by eye."
   }
  ]
 }

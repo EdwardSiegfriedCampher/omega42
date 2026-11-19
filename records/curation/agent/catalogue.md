@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-499 items; 453 proposed area changes (152 high confidence, 257 low); 50 threads.
+501 items; 453 proposed area changes (151 high confidence, 258 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -10,18 +10,18 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Area | Items |
 |---|---|
-| mathematics | 78 |
-| philosophy | 71 |
-| consciousness-and-mind | 54 |
+| mathematics | 77 |
+| philosophy | 72 |
+| consciousness-and-mind | 55 |
 | physics | 41 |
 | coherence-and-congruence | 41 |
 | language-and-extraction | 40 |
 | personal-practice | 26 |
-| law-and-governance | 19 |
-| ai-safety-and-sovereignty | 18 |
+| law-and-governance | 20 |
+| ai-safety-and-sovereignty | 17 |
 | traditions-and-lenses | 16 |
+| computing-and-software | 14 |
 | cross-architecture | 14 |
-| computing-and-software | 13 |
 | time-and-cycles | 13 |
 | cognitive-science-and-psychology | 11 |
 | history | 10 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 170 |
+| ChatGPT | 172 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -48,9 +48,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Disposition | APEs |
 |---|---|
-| adopted | 250 |
+| adopted | 251 |
 | checked | 239 |
-| corrected | 150 |
+| corrected | 151 |
 | form | 124 |
 | holding | 77 |
 | refined | 70 |
@@ -83,7 +83,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-218 | The source of the tension, and alternative arrangements | Grok | adopted, not taken | from protocol (low confidence) |
 | APE-194 | Assessment of the irreducibility analysis | Grok | already resolved, kept | from protocol (low confidence) |
 | APE-104 | The protocol's capabilities, implications and potential, read by itself | Qwen | checked, corrected, form | from navigation (low confidence) |
-| APE-099 | The Navigator's own presentation: cartographer, not merchant | Qwen | checked, corrected, not taken | from protocol (low confidence) |
 | APE-097 | The Aperture Theorem and the MSRR as the innovation | Qwen | checked, corrected, form | from protocol (low confidence) |
 | APE-088 | No claims, only reporting: a defence against the skeptic | unidentified | quotations checked, corrected, not taken | from protocol (low confidence) |
 | APE-083 | The live Navigator and the ecosystem | Qwen | holding, corrected, not taken | from protocol (low confidence) |
@@ -177,12 +176,14 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-146 | Rule 4 discussion: the avenues ranked by whether they can come back negative | ChatGPT | adopted, checked, corrected | from protocol (low confidence) |
 | APE-109 | Optional features and the one-sentence offer | Qwen | corrected, not taken, already in place | from protocol |
 | APE-108 | Making the optional features known to the Striker | Claude | checked, refined, form | from protocol (low confidence) |
+| APE-099 | The Navigator's own presentation: cartographer, not merchant | Qwen | checked, corrected, not taken | from protocol (low confidence) |
 
 ### consciousness-and-mind
 
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0010 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol |
+| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0006 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | Claude |  | from protocol (low confidence) |
 | APE-460 | Could Ω42 become the standard for AI reasoning? (F198) | unidentified | adopted, refined, extended | from protocol (low confidence) |
 | APE-434 | F173 — The Ω42 Instrument Suite | unidentified | corrected | from protocol |
@@ -356,6 +357,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
+| APE-508 | Assessment of relational reality, inner experience and prediction (review of the Navigator | ChatGPT | applied, recorded, corrected in the review | kept |
 | APE-501 | Assessment of the Omega42 update and the decisions before ESC | ChatGPT | applied, separated, not applied | kept |
 | APE-497 | Strategic recommendations for Omega42: access, site, knowledge classes, releases, the AI S | ChatGPT | adopted, already in place, not taken | kept |
 | APE-496 | Core Part 10.5 after the specification: normative terminology and naming authority | ChatGPT | adopted, already in place | kept |
@@ -391,7 +393,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0011 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Christian crea | Claude |  | from protocol |
-| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0008 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0007 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | APE-493 | Ω42 technical close-out | ChatGPT | adopted, corrected, already in place | kept |
@@ -519,6 +520,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0019 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philoso | Claude |  | from protocol (low confidence) |
 | NAV-2026-0018 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Spinozist phil | Claude |  | from protocol (low confidence) |
 | NAV-2026-0016 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Neoplatonic ph | Claude |  | from protocol (low confidence) |
+| APE-509 | ME-06: Integrated human existence and future dynamics (proposed Companion 233.18) | ChatGPT | adopted, corrected | kept |
 | APE-507 | ME-05: The inner human system: consciousness, meaning and purpose | ChatGPT | adopted, computed in the law, corrected | kept |
 | APE-506 | ME-04: Relational reality and the dynamics of human futures | ChatGPT | adopted, corrected | kept |
 | APE-505 | ME-03: A mathematical measure of transformability | ChatGPT | incorporated, kept, corrected | kept |
@@ -557,7 +559,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-314 | Existence, limitation and relation as one fact | Grok | checked, adopted | from protocol (low confidence) |
 | APE-313 | Nothing, emergence, and a branch that occupies the Residual | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-249 | Omega42: The Lighthouse, Not the Destination (a metaphor for First Contact) | ChatGPT | not chosen, adopted, answered | from protocol (low confidence) |
-| APE-229 | CE-01: a theory of cognitive existence and Human-AI reciprocity | ChatGPT | adopted, holding | from protocol |
+| APE-229 | CE-01: a theory of cognitive existence and Human-AI reciprocity | ChatGPT | adopted, holding | from protocol (low confidence) |
 | APE-228 | The most complete residual theory of cognitive existence | Grok | mapped, holding | from protocol (low confidence) |
 | APE-225 | Omega42 as a cognitive prosthesis: implications for the Human Condition | ChatGPT | adopted | from protocol |
 | APE-223 | The most coherent model, and SKT-01 (second copy) | ChatGPT | a second version | from protocol |

@@ -5961,10 +5961,132 @@
      "reviewer": null
     }
    ],
-   "status": "VERIFIED COMPUTATION",
+   "status": "REVISED",
    "status_history": [
     {
      "time": "2026-11-19T15:01:24+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    },
+    {
+     "time": "2026-11-19T17:07:03+00:00",
+     "from": "VERIFIED COMPUTATION",
+     "to": "REVISED",
+     "reason": "its wording overstated the real-number result (every difference grows); superseded by RC-01-R1 (APE-508)"
+    }
+   ]
+  },
+  "RC-01-R1": {
+   "id": "RC-01-R1",
+   "origin": "APE-508: the review of RC-01's wording (19 November 2026)",
+   "hypothesis": "Persons who each follow the law do not reach agreement by symmetric scalar influence alone: modulo 9 never, for any influence; over the reals no pull contracts both modes (the least spectral radius of T - s is sqrt(5)/2), no rational pull makes T - s singular, so a nonzero difference with rational coordinates never vanishes and eventually grows; a real difference lying on the contracting eigenvector can shrink, and vanishes when s = -1/phi or phi",
+   "scope": "as RC-01, with the real-number statement corrected",
+   "falsification": "any agreement mod 9; a pull with radius below sqrt(5)/2; a rational pull making T - s singular; a rational difference that does not grow; or the eigenvector exception failing",
+   "test": "t_RC01R1",
+   "data": "computation only",
+   "criterion": "all five checks hold",
+   "blinding": "NOT BLIND: computed before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "supersedes RC-01, whose wording said every difference grows; the corrected statement keeps the exception",
+   "supersedes": "RC-01",
+   "date": "2026-11-19T17:07:03+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T17:07:05+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "mod_9_agreement": "never",
+      "least_real_radius": 1.118,
+      "rational_pulls_making_T_minus_s_singular": [],
+      "rational_difference_grows_beyond_1000_in_40_steps_for_pulls_-1_1/2_1_2": [
+       true,
+       false,
+       true,
+       true
+      ],
+      "real_eigen_difference_vanishes_at_s=-1/phi": true
+     },
+     "code_sha": {
+      "stp": "a5945f985b788d40",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "REVISED",
+   "status_history": [
+    {
+     "time": "2026-11-19T17:07:05+00:00",
+     "from": "UNPROVEN",
+     "to": "REJECTED",
+     "reason": "run outcome FAIL"
+    },
+    {
+     "time": "2026-11-19T17:07:25+00:00",
+     "from": "REJECTED",
+     "to": "REVISED",
+     "reason": "test-design defect: growth threshold 1,000 in 40 steps exceeds the bound at pull 1/2 (87); superseded by RC-01-R2"
+    }
+   ]
+  },
+  "RC-01-R2": {
+   "id": "RC-01-R2",
+   "origin": "RC-01-R1 test-design defect: its growth threshold (1,000 in 40 steps) exceeds what the bound gives at pull 1/2 (1.118^40 = 87)",
+   "hypothesis": "As RC-01-R1: no agreement by symmetric scalar influence mod 9; over the reals no pull contracts both modes (least radius sqrt(5)/2); no rational pull makes T - s singular, so a nonzero rational difference never vanishes and grows; a real difference on the contracting eigenvector can shrink, and vanishes at s = -1/phi or phi",
+   "scope": "as RC-01-R1",
+   "falsification": "as RC-01-R1, with growth judged as more than tenfold in 40 steps (the bound gives at least 1.118^40 = 87)",
+   "test": "t_RC01R2",
+   "data": "computation only",
+   "criterion": "all five checks hold, growth threshold tenfold in 40 steps",
+   "blinding": "NOT BLIND: the defect of RC-01-R1 was seen before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "supersedes RC-01-R1, whose threshold was a test-design defect",
+   "supersedes": "RC-01-R1",
+   "date": "2026-11-19T17:07:25+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T17:07:27+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "mod_9_agreement": "never",
+      "least_real_radius": 1.118,
+      "rational_pulls_making_T_minus_s_singular": [],
+      "rational_difference_grows_beyond_10x_in_40_steps_for_pulls_-1_1/2_1_2": [
+       true,
+       true,
+       true,
+       true
+      ],
+      "real_eigen_difference_vanishes_at_s=-1/phi": true
+     },
+     "code_sha": {
+      "stp": "569c567c33d3ac98",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T17:07:27+00:00",
      "from": "UNPROVEN",
      "to": "VERIFIED COMPUTATION",
      "reason": "run outcome PASS"

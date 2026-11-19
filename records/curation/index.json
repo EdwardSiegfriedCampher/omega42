@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "id": "APE-509",
+   "kind": "ape",
+   "title": "ME-06: Integrated human existence and future dynamics (proposed Companion 233.18)",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-509.md",
+   "text_sha256": "1083ed9f5815cd6b060314007ffac2d21a38e17625edcacb706e3e3717e3b5c1",
+   "area_source": "declared"
+  },
+  {
+   "id": "APE-508",
+   "kind": "ape",
+   "title": "Assessment of relational reality, inner experience and prediction (review of the Navigator's answer of 19 November)",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "law-and-governance",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-508.md",
+   "text_sha256": "4e35beacb231fecad52a1c7d49595153f7a2a008ca39fb7eff35b2b11733d163",
+   "area_source": "declared"
+  },
+  {
    "id": "APE-507",
    "kind": "ape",
    "title": "ME-05: The inner human system: consciousness, meaning and purpose",

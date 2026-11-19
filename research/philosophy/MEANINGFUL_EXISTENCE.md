@@ -74,3 +74,15 @@ A first test of ME-04 against the law is therefore registrable: do real belief-a
 Adopted as project F. It holds the five interacting dimensions (psychological, emotional, intellectual, spiritual or existential, purpose), the internalization loop between consensus and person, purpose as dynamic with its five origins, and spiritual experience studied without presupposing a metaphysics. Hypotheses H-ME21 to H-ME26 are registered with data before any run. The ethical limits are the program's own: understand possibilities and constraints, never label persons as defective, prescribe a worldview or manipulate belief, and keep prediction probabilistic, transparent and private.
 
 The law gives the purpose and agency table an exact form (Companion 233.17). With one controlling direction, all 81 states are reachable in two steps. With a direction of norm divisible by 3, the reachable world stays 9 states however long one persists. Agency sets the size of the reachable world; purpose sets the economy of the path within it.
+
+## ME-06 (APE-509): integrated human existence, project G
+
+The integrating milestone of projects A to F (Companion 233.18). It holds:
+- a state-space architecture over persons and the collective, run as five interacting processes;
+- consensus measured on three axes (acceptance, stability, evidential validity), with acceptance recorded at four levels;
+- the Human Possibility Space, read as possible, reachable, practically accessible, probable and desirable, never merged, and the Human Possibility Profile;
+- prediction judged only out of sample, against simple baselines, with calibration and generalization reported.
+
+The experiments are staged: individual history; relationships and consensus (ME-04/E1, the first public test); agency and purpose; inner experience; integration. Hypotheses H-ME27 to H-ME39 are registered with data and criteria before any run.
+
+APE-508's review was applied (Companion 233.0, 233.12 M1, 233.15; STP RC-01-R2). The mathematical results of Part 233 hold for their model, and carrying them to human life is a reading until a registered empirical test supports it.
