@@ -7,9 +7,9 @@
    "sha256": "61b343973c6100daaed3f916c0735fce3749c4f99c9b5d2d3b55885eb2ddf3f2"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1964471,
-   "tokens_est": 491118,
-   "sha256": "e4ed5dd47a336049095867bf71d3ecca34b350006bce89eafc41c864b437ae70"
+   "chars": 1967269,
+   "tokens_est": 491818,
+   "sha256": "7c501d50509d84828ce12cd66e5544d1e6adc5a733cf1183be5f8d7b39f05aad"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477727,
@@ -5199,9 +5199,9 @@
   {
    "doc": "Companion",
    "heading": "PART 233: THE TWO LAYERS OF EXISTENCE — STRUCTURE AND MEANINGFUL EXISTENCE",
-   "chars": 8666,
-   "tokens_est": 2167,
-   "sha256": "15325f859b3488346a641560872b7416f8ffed0484822eedd8e98d6725e36230"
+   "chars": 11213,
+   "tokens_est": 2803,
+   "sha256": "704932c948aa002ad55c0d1c4116b740cabf96c42b83f06d45c3a97bbb41e8b5"
   },
   {
    "doc": "Companion",
@@ -5318,9 +5318,9 @@
   {
    "doc": "Companion",
    "heading": "APPENDIX X: EVERYTHING ELSE IN THE RELEASE [REFERENCE — Core L-493]",
-   "chars": 177094,
-   "tokens_est": 44274,
-   "sha256": "51116ffa818f35d3fd95b015287fc4e43fb44e1f3d9abc702559e7658aae6a39"
+   "chars": 177345,
+   "tokens_est": 44336,
+   "sha256": "8d1a65c318c867867a9d9fe9a1083149c42e3f5809b464f1e7d95ff7f663861e"
   }
  ]
 }

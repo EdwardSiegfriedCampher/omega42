@@ -82,3 +82,9 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Also for ESC:** whether any of the definitions ME-01 to ME-07 (Companion 233.4) should enter Core Part 10.5. Until then they stay Companion terminology.
 - **Evidence:** H-029 and H-030 (VERIFIED COMPUTATION); the Choice Engine selftest.
 - **Normative:** no (level B), unless definitions enter the Core.
+
+## D-14 The Drive archive
+- **Facts:** a search of the Originator's Google Drive found at least 3,617 items of Ω42 material: 112 version labels from V333 Rev.7 to V336 Rev.2, and 3,575 items read-only through the connector (`docs/ARCHIVE_POLICY.md`; `records/archive/drive_register.json`).
+- **Applied (level B):** the originals are not edited. A metadata register with names withheld and no identifiers or links. The concordance (`docs/ARCHIVE_CONCORDANCE.md`). AR-01, which recomputed the archive's arithmetic: 6 of 9 statements hold, so the hypothesis that all hold is REJECTED.
+- **For ESC:** (1) whether to publish selected historical builds, marked HISTORICAL, one family at a time; suggested first are V333 Rev.387, V335 Rev.442, V336 Rev.2 and the Philosophical Foundations documents; (2) whether the creation dates of formal builds enter the Prior Art Ledger; (3) whether the predictions P1 to P5 and I1 to I5 of the V336 Companion are registered in the STP register; (4) which navigations and syntheses (class D) to submit to the navigation archive.
+- **Normative:** no.

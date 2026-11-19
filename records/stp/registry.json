@@ -5811,6 +5811,62 @@
      "reason": "run outcome PASS"
     }
    ]
+  },
+  "AR-01": {
+   "id": "AR-01",
+   "origin": "The Drive archive read through the current record (docs/ARCHIVE_CONCORDANCE.md, 19 November 2026)",
+   "hypothesis": "Every arithmetic statement checked in the heads of the archive (the V336 Rev.1 Companion and the formal discovery document of December 2025) recomputes as stated",
+   "scope": "nine statements: five from the V336 Rev.1 Companion, four from the formal discovery document",
+   "falsification": "any statement that does not recompute as stated",
+   "test": "t_AR01",
+   "data": "the statements as quoted in docs/ARCHIVE_CONCORDANCE.md",
+   "criterion": "9 of 9 recompute",
+   "blinding": "NOT BLIND: the statements were recomputed while reading, before registration; this entry records the recomputation reproducibly",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the archive's arithmetic is sorted into what carries forward and what does not; a failed statement is corrected in the concordance, never in the original",
+   "supersedes": null,
+   "date": "2026-11-19T13:30:08+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T13:30:08+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "held": 6,
+      "of": 9,
+      "failed": [
+       "C6 Planck frequency / (27 phi) = 42 Hz [formal discovery document]",
+       "C7 3.23 x 10^9 has digit sum 23 -> 5 [formal discovery document]",
+       "C8 18 is a Fibonacci number ('324 = 18^2, square of reduced Fibonacci') [formal discovery document]"
+      ],
+      "values": {
+       "C6": "1.236e+42 Hz",
+       "C7": "3,230,000,000 mod 9 = 8"
+      }
+     },
+     "code_sha": {
+      "stp": "f840351520bb475d",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T13:30:08+00:00",
+     "from": "UNPROVEN",
+     "to": "REJECTED",
+     "reason": "run outcome FAIL"
+    }
+   ]
   }
  }
 }

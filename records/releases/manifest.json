@@ -201,6 +201,14 @@
    "level": "B",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-24",
+   "title": "CA-24: The Drive archive and the Companion read-back (19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
   }
  ],
  "approval": {
@@ -231,12 +239,12 @@
   "ci": "every step of .github/workflows/omega42-ci.yml must pass",
   "stp_by_status": {
    "PROVED": 10,
-   "REJECTED": 15,
+   "REJECTED": 16,
    "REVISED": 4,
    "TESTABLE": 6,
    "VERIFIED COMPUTATION": 41
   },
-  "stp_entries": 76,
+  "stp_entries": 77,
   "snca_reports": 57
  },
  "dimensions": {

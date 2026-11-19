@@ -109,6 +109,9 @@ def build(out, repo):
         c = json.load(open(cat, encoding='utf-8'))
         api['catalogue.json'] = dict(summary=c['summary'], threads=c['threads'], proposed_new_areas=c.get('proposed_new_areas', []),
                                      items=[{k: r[k] for k in ('id', 'kind', 'title', 'by', 'chamber', 'declared_area', 'proposed_area', 'reason', 'changed', 'disposition', 'path')} for r in c['items']])
+    arc = os.path.join(ROOT, 'records', 'archive', 'drive_register.json')
+    if os.path.exists(arc):
+        api['archive.json'] = json.load(open(arc, encoding='utf-8'))   # the archive register (docs/ARCHIVE_POLICY.md)
     man = os.path.join(ROOT, 'records', 'releases', 'manifest.json')
     if os.path.exists(man):
         api['release.json'] = json.load(open(man, encoding='utf-8'))   # the release record (RELEASES.md)

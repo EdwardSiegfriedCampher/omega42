@@ -519,3 +519,13 @@ named above. It describes these records and no others.
 - **Now:** the block null is a proposal for new studies, with one real-data pass; H-006b keeps the rule it was registered under.
 - **Does not decide:** forecasting skill in general; any series not tested.
 - **Open:** daily data with a known weekly cycle; long-memory series.
+
+### RX-36 The Drive archive
+- **Record:** `records/archive/`
+- **Question:** what the Originator's earlier Ω42 documents hold that the current record must carry forward, supersede or correct (docs/ARCHIVE_CONCORDANCE.md).
+- **Jurisdiction:** C
+- **Found:** at least 3,617 items, with 112 version labels from V333 Rev.7 to V336 Rev.2. The heads were read against V335 Rev.450. AR-01 recomputed nine arithmetic statements; six hold.
+- **Then:** "Empirically validated, theoretically grounded, reproducible"
+- **Now:** the archive is the dated build history. Its arithmetic is sorted by recomputation, its other statements by the current status rules, and the originals stay as they were.
+- **Does not decide:** which historical builds are published (D-14); anything in the documents not yet read.
+- **Open:** the Linguistic Universe, geometry, Torus and Klein protocols; the Construct descriptions; 1,294 unsorted titles.

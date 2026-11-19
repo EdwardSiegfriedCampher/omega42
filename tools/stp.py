@@ -935,6 +935,33 @@ def t_H030():
                                       "earlier_unchanged": "0.264 (9), 0.090 (27), 0.030 (81), 0.010 (243 sampled)"}
 
 
+def t_AR01():
+    """Arithmetic statements in the archive heads (docs/ARCHIVE_CONCORDANCE.md), each recomputed."""
+    import math
+    m = 9; T = lambda v: (v[1], (v[0] + v[1]) % m)
+    def orbit_len(v):
+        s, n = T(v), 1
+        while s != v: s, n = T(s), n + 1
+        return n
+    rem, r = [], 1
+    for _ in range(6): r = r * 10 % 7; rem.append(r)
+    phi = (1 + 5 ** 0.5) / 2
+    checks = {
+        "C1 (2, 5) lies on a 24-cycle mod 9 [V336 Companion]": orbit_len((2, 5)) == 24,
+        "C2 the digits of 1/7 are the units mod 9 [V336 Companion]": sorted({1, 4, 2, 8, 5, 7}) == [u for u in range(1, 9) if math.gcd(u, 9) == 1],
+        "C3 the remainders of 1/7 are the nonzero residues mod 7 [V336 Companion]": sorted(rem) == list(range(1, 7)),
+        "C4 168 = 24 x 7 [V336 Companion]": 24 * 7 == 168,
+        "C5 chance of an anchor in {3, 6, 9} is 1/3 [V336 Companion I3]": abs(3 / 9 - 1 / 3) < 1e-12,
+        "C6 Planck frequency / (27 phi) = 42 Hz [formal discovery document]": abs(5.4e43 / (27 * phi) - 42) / 42 < 0.1,
+        "C7 3.23 x 10^9 has digit sum 23 -> 5 [formal discovery document]": 3230000000 % 9 == 5,
+        "C8 18 is a Fibonacci number ('324 = 18^2, square of reduced Fibonacci') [formal discovery document]": 18 in (1, 2, 3, 5, 8, 13, 21, 34),
+        "C9 324 = 0 mod 27 and mod 9 [formal discovery document]": 324 % 27 == 0 and 324 % 9 == 0,
+    }
+    failed = [k for k, v in checks.items() if not v]
+    return not failed, {"held": sum(checks.values()), "of": len(checks), "failed": failed,
+                        "values": {"C6": "%.3e Hz" % (5.4e43 / (27 * phi)), "C7": "3,230,000,000 mod 9 = %d" % (3230000000 % 9)}}
+
+
 def t_CAP05():
     import congruence as cg
     reg = cg.load_register()
@@ -1074,7 +1101,7 @@ TESTS = {"H-013": t_H013, "H-014": t_H014, "OP-01a": t_OP01a, "OP-01b": t_OP01b,
          "H-005": t_H005, "H-007a": t_H007a, "H-007b": t_H007b, "H-008": t_H008, "CX-001": t_CX001,
          "CX-002": t_CX002, "CX-004": t_CX004, "CX-005": t_CX005, "CX-006": t_CX006, "CX-007": t_CX007,
          "H-006b": t_H006b, "H-006c": t_H006c, "H-016": t_H016, "H-016b": t_H016b, "W-001": t_W001,
-         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
+         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "AR-01": t_AR01, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
          "CX-012b": t_CX012b, "H-006d": t_H006d, "I-001": t_I001}
 
 # ------------------------------------------------------------------ pre-registration
@@ -1339,6 +1366,10 @@ PRE = [
       scope="(Z/729)^2, 200,000 sampled (state, nonzero offset) pairs, seed 30", falsification="unchanged share outside 0.0027 to 0.0043", test="t_H030", data="computation only",
       criterion="0.0027 <= unchanged share at 729 <= 0.0043", blinding="blind for 729 (not computed before registration); the pattern was read from 9, 27, 81 and 243", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
       consequence="if passed: the pattern holds one level beyond the data it was read from; a proof is still owed (UNPROVEN as a theorem)", supersedes=None),
+ dict(id="AR-01", origin="The Drive archive read through the current record (docs/ARCHIVE_CONCORDANCE.md, 19 November 2026)", hypothesis="Every arithmetic statement checked in the heads of the archive (the V336 Rev.1 Companion and the formal discovery document of December 2025) recomputes as stated",
+      scope="nine statements: five from the V336 Rev.1 Companion, four from the formal discovery document", falsification="any statement that does not recompute as stated", test="t_AR01", data="the statements as quoted in docs/ARCHIVE_CONCORDANCE.md",
+      criterion="9 of 9 recompute", blinding="NOT BLIND: the statements were recomputed while reading, before registration; this entry records the recomputation reproducibly", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="the archive's arithmetic is sorted into what carries forward and what does not; a failed statement is corrected in the concordance, never in the original", supersedes=None),
 ]
 FIRST_RUN = {  # results of the 18 Nov 2026 first run, kept as history
  "H-001": "PASS", "H-002": "FAIL", "H-003": "FAIL", "H-004": "FAIL (reported 7 of 9; script duplicated H-002)", "H-005": "PASS"}

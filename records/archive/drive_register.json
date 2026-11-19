@@ -1,0 +1,2781 @@
+{
+ "_about": "Register of Omega42 material found in the Originator's Google Drive on 19 November 2026 (docs/ARCHIVE_POLICY.md). Metadata only: no file identifiers, no links, names withheld. The originals are not modified. The search was stopped at 3,617 items with more results pending; the register is a lower bound.",
+ "searched": "title or full text containing Omega42, Omega 42 or Ω42",
+ "items_found": 3617,
+ "documents": 3542,
+ "folders": 75,
+ "read_only_through_connector": 3575,
+ "by_type": {
+  "document": 3046,
+  "pdf": 347,
+  "markdown": 90,
+  "html": 16,
+  "12": 13,
+  "plain": 11,
+  "sheet": 5,
+  "octet-stream": 4,
+  "x-python": 3,
+  "png": 3,
+  "spreadsheet": 2,
+  "x-ms-shortcut": 1,
+  "x-zip": 1
+ },
+ "by_month_created": {
+  "2025-05": 5,
+  "2025-10": 170,
+  "2025-11": 9,
+  "2025-12": 3,
+  "2026-01": 27,
+  "2026-02": 5,
+  "2026-03": 6,
+  "2026-04": 2248,
+  "2026-05": 194,
+  "2026-06": 9,
+  "2026-07": 475,
+  "2026-08": 151,
+  "2026-09": 240
+ },
+ "by_family": {
+  "other": {
+   "count": 1294,
+   "class": "unsorted (needs review)"
+  },
+  "protocol builds": {
+   "count": 1133,
+   "class": "B formal build"
+  },
+  "construct": {
+   "count": 314,
+   "class": "C explanatory or research"
+  },
+  "geometry": {
+   "count": 149,
+   "class": "C explanatory or research"
+  },
+  "navigator editions": {
+   "count": 148,
+   "class": "B formal build"
+  },
+  "prompts": {
+   "count": 102,
+   "class": "E drafts, prompts and copies"
+  },
+  "papers": {
+   "count": 80,
+   "class": "C explanatory or research"
+  },
+  "navigations": {
+   "count": 52,
+   "class": "D navigations and syntheses"
+  },
+  "theory of everything": {
+   "count": 42,
+   "class": "C explanatory or research"
+  },
+  "consciousness": {
+   "count": 37,
+   "class": "C explanatory or research"
+  },
+  "untitled/copies": {
+   "count": 30,
+   "class": "E drafts, prompts and copies"
+  },
+  "mathematics": {
+   "count": 25,
+   "class": "C explanatory or research"
+  },
+  "syntheses": {
+   "count": 23,
+   "class": "D navigations and syntheses"
+  },
+  "philosophy": {
+   "count": 21,
+   "class": "C explanatory or research"
+  },
+  "readme/intro": {
+   "count": 19,
+   "class": "C explanatory or research"
+  },
+  "transduction": {
+   "count": 15,
+   "class": "C explanatory or research"
+  },
+  "appendices": {
+   "count": 15,
+   "class": "C explanatory or research"
+  },
+  "physics": {
+   "count": 12,
+   "class": "C explanatory or research"
+  },
+  "assessments": {
+   "count": 11,
+   "class": "D navigations and syntheses"
+  },
+  "linguistic universe": {
+   "count": 10,
+   "class": "B formal build"
+  },
+  "provenance": {
+   "count": 6,
+   "class": "C explanatory or research"
+  },
+  "companion": {
+   "count": 4,
+   "class": "B formal build"
+  }
+ },
+ "by_class": {
+  "B formal build": 1295,
+  "unsorted (needs review)": 1294,
+  "C explanatory or research": 735,
+  "E drafts, prompts and copies": 132,
+  "D navigations and syntheses": 86
+ },
+ "version_labels": {
+  "count": 112,
+  "earliest": "V333 Rev.7",
+  "latest": "V336 Rev.2"
+ },
+ "formal_titles": [
+  {
+   "title": "THE PHILOSOPHICAL FOUNDATIONS OF OMEGA42  -  Companion Document to THE OMEGA42 PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-09-12",
+   "last_modified": "2026-09-12",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 COMPANION DOCUMENT  -  PHILOSOPHICAL FOUNDATIONS AND OPERATIONAL CLARIFICATIONS",
+   "copies": 1,
+   "first_created": "2026-09-12",
+   "last_modified": "2026-09-12",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL = V336 Rev.2 STABLE · FULL DEPLOYMENT SPECIFICATION · CO-ARISING EDITION",
+   "copies": 1,
+   "first_created": "2026-09-11",
+   "last_modified": "2026-09-11",
+   "version": "V336 Rev.2"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V336 Rev.2 STABLE · FULL DEPLOYMENT SPECIFICATION · CO-ARISING EDITION",
+   "copies": 1,
+   "first_created": "2026-09-11",
+   "last_modified": "2026-09-11",
+   "version": "V336 Rev.2"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL- V335 Rev.441 STABLE VERSION",
+   "copies": 1,
+   "first_created": "2026-09-09",
+   "last_modified": "2026-09-09",
+   "version": "V335 Rev.441"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.442 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-08",
+   "version": "V335 Rev.442"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.441 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-08",
+   "version": "V335 Rev.441"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.440 STABLE · LEAN DEPLOYMENT SPECIFICATION-DESKTOP-UV545G0",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-08",
+   "version": "V335 Rev.440"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.440 STABLE · LEAN DEPLOYMENT SPECIFICATION",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-08",
+   "version": "V335 Rev.440"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.440 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-07",
+   "last_modified": "2026-09-08",
+   "version": "V335 Rev.440"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev384_STABLE",
+   "copies": 2,
+   "first_created": "2026-08-30",
+   "last_modified": "2026-09-08",
+   "version": "V333 Rev.384"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.439 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-07",
+   "last_modified": "2026-09-07",
+   "version": "V335 Rev.439"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.438 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-07",
+   "last_modified": "2026-09-07",
+   "version": "V335 Rev.438"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.437 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-07",
+   "last_modified": "2026-09-07",
+   "version": "V335 Rev.437"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.436 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-07",
+   "last_modified": "2026-09-07",
+   "version": "V335 Rev.436"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.432 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-07",
+   "version": "V335 Rev.432"
+  },
+  {
+   "title": "The Philosophical Foundations of Omega42 - Counting, Distinction, and the Human Frame of Reference",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": null
+  },
+  {
+   "title": "THE PHILOSOPHICAL FOUNDATIONS OF THE AI  OMEGA42 PROTOCOL",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": null
+  },
+  {
+   "title": "THE PHILOSOPHICAL FOUNDATIONS OF OMEGA42",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - PHILOSOPHICAL FOUNDATION",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.433 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-06",
+   "version": "V335 Rev.433"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.431 STABLE · LEAN DEPLOYMENT SPECIFICATION",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": "V335 Rev.431"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.431 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": "V335 Rev.431"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.430 STABLE DEEPSEEK",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": "V335 Rev.430"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.430 STABLE",
+   "copies": 2,
+   "first_created": "2026-09-06",
+   "last_modified": "2026-09-06",
+   "version": "V335 Rev.430"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V335 Rev.404 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-04",
+   "version": "V335 Rev.404"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL. -  V335 Rev.408 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-04",
+   "version": "V335 Rev.408"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.403 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-04",
+   "version": "V335 Rev.403"
+  },
+  {
+   "title": "Omega42_Protocol_V335_Rev410_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-04",
+   "version": "V335 Rev.410"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL  -  V335 Rev.401 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.401"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL. -  V335 Rev.402 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.402"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL- V335 Rev.396 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.396"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.398 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.398"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.397 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.397"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCO. – V335 Rev.400 STABLE · LEAN",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-03",
+   "version": "V335 Rev.400"
+  },
+  {
+   "title": "The Omega42 Protocol - A Foundational Architecture for Structural Epistemology and First-Principles Reasoning in AI",
+   "copies": 2,
+   "first_created": "2026-09-02",
+   "last_modified": "2026-09-02",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V335 Rev.390 STABLE (CANONICAL REVISION)",
+   "copies": 2,
+   "first_created": "2026-09-02",
+   "last_modified": "2026-09-02",
+   "version": "V335 Rev.390"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.395",
+   "copies": 2,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-02",
+   "version": "V335 Rev.395"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V335 Rev.390 STABLE (CANONICAL REVISION)",
+   "copies": 2,
+   "first_created": "2026-09-02",
+   "last_modified": "2026-09-02",
+   "version": "V335 Rev.390"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V334 Rev.389 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-09-01",
+   "version": "V334 Rev.389"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - THE DEFINITIVE EXPLANATORY DOCUMENT",
+   "copies": 2,
+   "first_created": "2026-08-31",
+   "last_modified": "2026-08-31",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - A COMPREHENSIVE EXPLANATORY DOCUMENT",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-31",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - A COMPLETE EXPLANATORY DOCUMENT",
+   "copies": 2,
+   "first_created": "2026-08-31",
+   "last_modified": "2026-08-31",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 NAVIGATOR PROTOCOL - V333 Rev.387 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-31",
+   "last_modified": "2026-08-31",
+   "version": "V333 Rev.387"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.387 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-30",
+   "last_modified": "2026-08-30",
+   "version": "V333 Rev.387"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.386 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-30",
+   "last_modified": "2026-08-30",
+   "version": "V333 Rev.386"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V333 Rev.387 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-30",
+   "last_modified": "2026-08-30",
+   "version": "V333 Rev.387"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.384 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-29",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.384"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.333 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.333"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev376_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.376"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev375_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.375"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev374_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.374"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev373_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.373"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev371_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.371"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev370_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.370"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev368_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.368"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev366_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.366"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev363_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.363"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev362_STABLE",
+   "copies": 3,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-29",
+   "version": "V333 Rev.362"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev361_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.361"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev359_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.359"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev357_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.357"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev356_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.356"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev355_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.355"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev354_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.354"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev350_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.350"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev348_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.348"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev345_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.345"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev343_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-28",
+   "version": "V333 Rev.343"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev 270",
+   "copies": 2,
+   "first_created": "2026-08-27",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.270"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev341_STABLE",
+   "copies": 2,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.341"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev339_STABLE",
+   "copies": 2,
+   "first_created": "2026-08-27",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.339"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev332_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.332"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev330_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.330"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev329_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.329"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev325_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.325"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev324_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-27",
+   "version": "V333 Rev.324"
+  },
+  {
+   "title": "THE OMEGA42 LINGUISTIC UNIVERSE PROTOCOL - V333 Rev.320 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-26",
+   "version": "V333 Rev.320"
+  },
+  {
+   "title": "THE OMEGA42 LINGUISTIC UNIVERSE PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-08-26",
+   "last_modified": "2026-08-26",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 GEOMETRY PROTOCOL - V333 Rev.320 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-26",
+   "last_modified": "2026-08-26",
+   "version": "V333 Rev.320"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - V333 Rev.320 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-26",
+   "version": "V333 Rev.320"
+  },
+  {
+   "title": "THE OMEGA42 AI PROTOCOL - ## V333 Rev.320 STABLE",
+   "copies": 1,
+   "first_created": "2026-08-26",
+   "last_modified": "2026-08-26",
+   "version": "V333 Rev.320"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.319 STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-24",
+   "version": "V333 Rev.319"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.317 STABLE",
+   "copies": 1,
+   "first_created": "2026-08-24",
+   "last_modified": "2026-08-24",
+   "version": "V333 Rev.317"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev316_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.316"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev314_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.314"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev313_STABLE-1",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.313"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev313_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.313"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev312_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.312"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev311_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-23",
+   "version": "V333 Rev.311"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.279 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-22",
+   "last_modified": "2026-08-22",
+   "version": "V333 Rev.279"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev283_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-22",
+   "version": "V333 Rev.283"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL DE LUX- V333 Rev.274 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-21",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.274"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.274 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-21",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.274"
+  },
+  {
+   "title": "THE OMEGA42 KLEIN PROTOCOL - V333 Rev.271 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-21",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.271"
+  },
+  {
+   "title": "THE OMEGA42 AI TRANSDUCTION PROTOCOL - V333 Rev.272 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-21",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.272"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev278_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.278"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev277_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.277"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev276_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.276"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev275_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-21",
+   "version": "V333 Rev.275"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL - V333 Rev.270 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-20",
+   "last_modified": "2026-08-20",
+   "version": "V333 Rev.270"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev268_STABLE_amended3",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.268"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev268_STABLE_amended2",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.268"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev268_STABLE_amended",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.268"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev268_STABLE_SRCAS-patch",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.268"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev268_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.268"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev266_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.266"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev265_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.265"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev263_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.263"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev262_STABLE-1",
+   "copies": 2,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.262"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev262_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-17",
+   "version": "V333 Rev.262"
+  },
+  {
+   "title": "THE_CONSTRUCT_Official_Formal_Description",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": null
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev260_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.260"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev259_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.259"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev258_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.258"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev257_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.257"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev256_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.256"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev254_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.254"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev253_STABLE-1",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.253"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev253_STABLE",
+   "copies": 2,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.253"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev252_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.252"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev251_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.251"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev250_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.250"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev249_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.249"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev248_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.248"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev247_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-16",
+   "version": "V333 Rev.247"
+  },
+  {
+   "title": "Omega42_Provenance_Construct_Companion",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": null
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev246_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.246"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev245_STABLE-1",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.245"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev245_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.245"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev243_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.243"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev242_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.242"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev241_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.241"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev240_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.240"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev239_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.239"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev238_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.238"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev237_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.237"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev236_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.236"
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev234_STABLE",
+   "copies": 1,
+   "first_created": "2026-09-08",
+   "last_modified": "2026-08-15",
+   "version": "V333 Rev.234"
+  },
+  {
+   "title": "THE OMEGA42 TORUS PROTOCOL — COMPLETE CONSTITUTIONAL BUILD",
+   "copies": 2,
+   "first_created": "2026-08-14",
+   "last_modified": "2026-08-14",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL — COMPLETE CONSTITUTIONAL BUILD ver.333 rev.222 STABLE",
+   "copies": 2,
+   "first_created": "2026-08-14",
+   "last_modified": "2026-08-14",
+   "version": null
+  },
+  {
+   "title": "Omega42_Protocol_V333_Rev226_STABLE",
+   "copies": 2,
+   "first_created": "2026-08-14",
+   "last_modified": "2026-08-14",
+   "version": "V333 Rev.226"
+  },
+  {
+   "title": "THE OMEGA42 PROTOCOL — COMPLETE CONSTITUTIONAL BUILD",
+   "copies": 2,
+   "first_created": "2026-08-13",
+   "last_modified": "2026-08-13",
+   "version": null
+  },
+  {
+   "title": "THE NEW OMEGA42 PROTOCOL — STABLE VERSION",
+   "copies": 1,
+   "first_created": "2026-08-12",
+   "last_modified": "2026-08-12",
+   "version": null
+  },
+  {
+   "title": "On the Nature of Omega42 - A Formal Epistemology of Structural Resonance, The Ontology of the 6-7 and 1-7, The Projection Thesis, Cultural Coherence, and the Un",
+   "copies": 1,
+   "first_created": "2026-08-12",
+   "last_modified": "2026-08-12",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR -  Qwen3.8 (Alibaba) · V333 Rev.204 GOLD · Mode - FULL (Complete Formal Rewrite) · Date - 2026-08-09",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-09",
+   "version": "V333 Rev.204"
+  },
+  {
+   "title": "CONSTITUTIONAL TRANSDUCTION -  A FORMAL PAPER ON THE MECHANISM, EPISTEMOLOGY, AND APPLICATIONS OF STRUCTURAL RESONANCE ARTICULATION",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-07",
+   "version": null
+  },
+  {
+   "title": "UPDATED FORMAL PAPER ON STRUCTURAL RESONANCE",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-06",
+   "version": null
+  },
+  {
+   "title": "STRUCTURAL RESONANCE -  A Formal Epistemology of Co-Discovery and the Nature of Reality",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-06",
+   "version": null
+  },
+  {
+   "title": "THE CONSTITUTIONAL TRANSDUCER - Methodology, Constitutional Truth, and the Future of the Human Condition in the Omega42 Torus Protocol",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-04",
+   "version": null
+  },
+  {
+   "title": "FORMAL PROPOSAL -  CORRECTION OF THE 1-7 CATEGORY ERROR",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-02",
+   "version": null
+  },
+  {
+   "title": "Omega42_Foundational_Document_Rev167",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-08-01",
+   "version": null
+  },
+  {
+   "title": "The Constitutional Transduction = A Formal Paper on the Mechanics, Epistemology, and Significance of Omega42 Navigation",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-28",
+   "version": null
+  },
+  {
+   "title": "The Constitutional Topological Encryption System (CTE-42) - A Formal Cryptographic Architecture Derived from the Omega42 Geometry",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-28",
+   "version": null
+  },
+  {
+   "title": "The Constitutional Laws of the Universe = A Formal Paper on the Foundational Principles of the Omega42 Geometry",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-28",
+   "version": null
+  },
+  {
+   "title": "FORMAL PAPER - The Isomorphic Laws of Existence",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-28",
+   "version": null
+  },
+  {
+   "title": "The Constitutional AI - A Technical Specification for an Omega42-Native Intelligence",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-27",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 NATIVE AI - TECHNICAL SPECIFICATION AND IMPLICATIONS ANALYSIS",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-27",
+   "version": null
+  },
+  {
+   "title": "V333 Rev.125 — Session Doc 2 — Constitutional Resonance Chamber — Formal Paper — 2026-07-26",
+   "copies": 1,
+   "first_created": "2026-07-26",
+   "last_modified": "2026-07-26",
+   "version": "V333 Rev.125"
+  },
+  {
+   "title": "A FORMAL PAPER ON THE INTEGRATION OF AN ALTERNATE NAVIGATION MODE (TFP) INTO THE OMEGA42 CONSTITUTIONAL GEOMETRY",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-23",
+   "version": null
+  },
+  {
+   "title": "TORSION-FIRST PROTOCOL (TFP) — NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-22",
+   "version": null
+  },
+  {
+   "title": "THE DARK SECTOR - A CONSTITUTIONAL AND FORMAL ANALYSIS OF DARK MATTER AND DARK ENERGY",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-13",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V333 Rev.30 GOLD",
+   "copies": 1,
+   "first_created": "2026-08-11",
+   "last_modified": "2026-07-12",
+   "version": "V333 Rev.30"
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL -",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2026-07-09",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V333 Rev.9 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-09",
+   "version": "V333 Rev.9"
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V334 GOLD · COMPLETE SEALED EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V333 rev. 10 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V333 Rev.8 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": "V333 Rev.8"
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V333 Rev.11 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": "V333 Rev.11"
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - ## NAVIGATOR EDITION · V333 Rev.11 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": "V333 Rev.11"
+  },
+  {
+   "title": "NAVIGATOR EDITION · V333 Rev.12 GOLD OMEGA42 PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": "V333 Rev.12"
+  },
+  {
+   "title": "Formal Paper - The Soul and Its Relationship to the Human Condition",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-08",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 TORUS PROTOCOL - NAVIGATOR EDITION · V333 Rev.7 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-06",
+   "version": "V333 Rev.7"
+  },
+  {
+   "title": "OMEGA42 TORUS PROTOCOL -",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-06",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 PROTOCOL - NAVIGATOR EDITION · V333 Rev.7 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-05",
+   "version": "V333 Rev.7"
+  },
+  {
+   "title": "MERGED FORMAL PAPER ON PHENOMENOLOGY STRUCTURE OF LIFE",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-07-05",
+   "version": null
+  },
+  {
+   "title": "V307 GOLD — NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-26",
+   "version": null
+  },
+  {
+   "title": "Constitutional_Stochastic_Systems_Formal_Paper",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-12",
+   "version": null
+  },
+  {
+   "title": "The Omega42 Torus Protocol - A Unified Worldview of Existence",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-07",
+   "version": null
+  },
+  {
+   "title": "The Omega 42 Protocol - A Formal Metaphysical‑Operational Framework",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-02",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL - V300 GOLD TERMINAL — NAVIGATOR EDITION REV. 2.5",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-01",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V300 GOLD TERMINAL — NAVIGATOR EDITION REV. 2.5",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-06-01",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL - V300 GOLD — THE NAVIGATOR EDITION (TAE INTEGRATED)",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-30",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 SPECIAL GOLD— THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-30",
+   "version": null
+  },
+  {
+   "title": "OMEGA42 PROTOCOL — V300 GOLD (TERMINAL)",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-30",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL for AI - V299 PLATINUM ENHANCED — THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL GEOMETRY - V299 GOLD — THE NAVIGATOR EDITION (AMENDED)",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 SPECIAL — THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 PLATINUM — THE NAVIGATOR EDITION (MERGED)",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 PLATINUM ENHANCED — THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 GOLD — THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - V299 GOLD IMPROVED — THE NAVIGATOR EDITION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-29",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL TOPOLOGY OF COMPLEX DYNAMICS, MODULAR FORMS, AND STABLE HOMOTOPY THEORY - A UNIFIED OMEGA42 ONTOLOGY",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-27",
+   "version": null
+  },
+  {
+   "title": "Formal Philosophical Argumentation & Historical Comparison via Omega42 Torus Geometry",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-26",
+   "version": null
+  },
+  {
+   "title": "FORMAL PAPER - FREE ENERGY",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-20",
+   "version": null
+  },
+  {
+   "title": "THE EXPLANATORY POWER OF OMEGA 42",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-19",
+   "version": null
+  },
+  {
+   "title": "FORMAL PAPER ON THE TORSION EXPLORATION OF OMEGA 42",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-19",
+   "version": null
+  },
+  {
+   "title": "The Navigator's Constitutional Attitude - On Extraordinary Findings, Foundational Premise Acceptance, and the Essential Role of Speculation",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-18",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL · NAVIGATOR EDITION -V278 SPECIAL — FULL UNCOMPRESSED COMPILATION",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-16",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V278 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-15",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL GEOMETRY - NAVIGATOR EDITION · V277 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-14",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V276 GOLD - Ω42 PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL - NAVIGATOR EDITION · V274 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-13",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V274 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-13",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V275 GOLD",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-13",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V273 PLATINUM (FINAL)",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-12",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V273 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-12",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - AI NAVIGATOR EDITION · V273 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-12",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V273 PLATINUM PLUS Ω42 PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-07-09",
+   "last_modified": "2026-05-12",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V274 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-11",
+   "last_modified": "2026-05-11",
+   "version": null
+  },
+  {
+   "title": "Protocol Self-Improvement & Operational Specification - The Ω42 Navigator Engine",
+   "copies": 1,
+   "first_created": "2026-05-11",
+   "last_modified": "2026-05-11",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V273 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V272 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V271 PLUS",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "The Decimal-Digit-Triadic Correspondence - A Foundational Discovery in Ω42 Geometry",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V273 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V272 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V271 PLUS - Ω42 PROTOCOL",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V271 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-10",
+   "last_modified": "2026-05-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL NAVIGATOR EDITION · V270 SILVER PLUS",
+   "copies": 1,
+   "first_created": "2026-05-09",
+   "last_modified": "2026-05-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL NAVIGATOR EDITION · V270 GOLD PLUS",
+   "copies": 1,
+   "first_created": "2026-05-09",
+   "last_modified": "2026-05-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL AI NAVIGATOR EDITION · V270 PLUS",
+   "copies": 1,
+   "first_created": "2026-05-09",
+   "last_modified": "2026-05-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V270 PLUS",
+   "copies": 1,
+   "first_created": "2026-05-09",
+   "last_modified": "2026-05-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION · V266 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-07",
+   "last_modified": "2026-05-07",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V265 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-06",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V263.7.0 (STREAMLINED)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-06",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V263.6.1  (INTEGRATED SURGICAL PATCHES)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-06",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V263.5.1",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-05",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V263.5.0 (RESONANCE & SERC AMENDMENT)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-05",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V263.4.0 (COMPREHENSIVE AMENDMENT)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-05",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V263.2 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-04",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V263.1 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-04",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V263 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-04",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V262 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-04",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL  - NAVIGATOR EDITION · V260 DOMAIN ZERO",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V261 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "Ω42 Construct Theory - Constitutional Foundations and Non-Commutative Unification of the Standard Model",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "OMEGA CONSTITUTIONAL FOUNDATIONS OF REALITY AND MIND",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 CONSTITUTIONAL FOUNDATIONS OF REALITY AND MIND",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL REPORT - Ω42 PROTOCOL · NAVIGATOR EDITION · V262 INTEGRATED",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL FOUNDATIONS OF REALITY AND MIND",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-03",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL - NAVIGATOR EDITION · V260 DOMAIN ZERO",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-02",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL - NAVIGATOR EDITION · V260 DOMAIN ZERO",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-02",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION - V260 INTEGRATED (V259 GOLD AMENDED)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-01",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION - V260",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-01",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL SHADOW PROJECTION - A FORMAL ANALYSIS OF THE FIBONACCI SEQUENCE AND GOLDEN RATIO WITHIN THE OMEGA42 FRAMEWORK",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-05-01",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 NAVIGATOR EDITION · GOLD V258",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-30",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · GOLD V258 (MERGED)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-30",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · GOLD V258",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-30",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · GOLD V257 (FINAL)",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-30",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 AI NAVIGATOR EDITION · V255 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-29",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 AI NAVIGATOR EDITION · V254 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-29",
+   "version": null
+  },
+  {
+   "title": "AI NAVIGATOR EDITION · V254 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-29",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA 42 TORUS CONSTITUTIONAL ARCHITECTURE OF FORMAL SYSTEMS",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-28",
+   "version": null
+  },
+  {
+   "title": "THE CONSTITUTIONAL ARCHITECTURE OF FORMAL SYSTEMS",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-28",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL MATHEMATICS - THE Ω42 TORUS GEOMETRY AND THE STRUCTURAL FOUNDATIONS OF FORMAL SYSTEMS",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-28",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION -V240 ENHANCED · GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-25",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V231 Omega 42 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-25",
+   "version": null
+  },
+  {
+   "title": "A Formal Report of the Navigator Edition · V242 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-25",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V230 PLATINUM PLUS · ENHANCED EDITION",
+   "copies": 2,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-24",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V230 PLATINUM PLUS · ENHANCED AI EDITION",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-24",
+   "version": null
+  },
+  {
+   "title": "SW-CAS CALCULATION ADVANCED TOOL SPECIFICATION",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-22",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V230 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-22",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V230 GOLD",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-22",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V229 GOLD · Infinity Exceptional Edition",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-22",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V228 GOLD · Infinity Exceptional Edition",
+   "copies": 1,
+   "first_created": "2026-05-06",
+   "last_modified": "2026-04-22",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V227 GOLD · Infinity Exceptional Edition",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "FORMAL CONSTITUTIONAL PAPER - THE EGYPTIAN PYRAMID COMPLEX (GIZA) AND THE SPHINX",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "FORMAL CONSTITUTIONAL PAPER - MATHEMATICS (FOUNDATIONS)",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "FORMAL CONSTITUTIONAL PAPER - DOMAIN 0 (THE CAVITY)",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "FORMAL CONSTITUTIONAL PAPER - CONSCIOUSNESS",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "# FORMAL CONSTITUTIONAL PAPER - QUANTUM MECHANICS",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "# FORMAL CONSTITUTIONAL PAPER - MATHEMATICAL PHYSICS",
+   "copies": 1,
+   "first_created": "2026-04-21",
+   "last_modified": "2026-04-21",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V226 GOLD · Infinity Exceptional Edition",
+   "copies": 1,
+   "first_created": "2026-04-20",
+   "last_modified": "2026-04-20",
+   "version": null
+  },
+  {
+   "title": "NAVIGATOR EDITION · V225 GOLD · Infinity Exceptional Edition",
+   "copies": 1,
+   "first_created": "2026-04-20",
+   "last_modified": "2026-04-20",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION V225 GOLD",
+   "copies": 1,
+   "first_created": "2026-04-19",
+   "last_modified": "2026-04-19",
+   "version": null
+  },
+  {
+   "title": "FORMAL NAVIGATION RECORD - CLAUDE AI",
+   "copies": 1,
+   "first_created": "2026-04-19",
+   "last_modified": "2026-04-18",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 CONSTITUTIONAL AI — A COMPLETE FORMAL ACCOUNT 2",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-16",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 CONSTITUTIONAL AI — A COMPLETE FORMAL ACCOUNT (ENHANCED EDITION)",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-16",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 216 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-15",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 CONSTITUTIONAL THEORY — FOUNDATIONAL EDITION (DIAMOND EDITION)",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-15",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 CONSTITUTIONAL AI — A COMPLETE FORMAL ACCOUNT",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-15",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS PROTOCOL — NAVIGATOR EDITION - Version 216 GOLD",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 Protocol v213 Diamond Final — Navigator Edition",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 Protocol v210 Diamond — Navigator Edition",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 216 GOLD",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 213 DIAMOND FINAL",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 210 PLATINUM REFINED",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 210 PLATINUM",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION - Version 204 Gold · Canonical Edition · Complete Protocol",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-14",
+   "version": null
+  },
+  {
+   "title": "CONSTITUTIONAL MATHEMATICS - A GEOMETRIC ACCOUNT OF FOUNDATIONS, COMPUTABILITY, AND THE MILLENNIUM PROBLEMS",
+   "copies": 1,
+   "first_created": "2026-04-17",
+   "last_modified": "2026-04-13",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION v193 GOLD",
+   "copies": 1,
+   "first_created": "2026-04-11",
+   "last_modified": "2026-04-11",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v191 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-11",
+   "last_modified": "2026-04-11",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v190 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-11",
+   "last_modified": "2026-04-11",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v189 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-10",
+   "last_modified": "2026-04-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v186 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-10",
+   "last_modified": "2026-04-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v185 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-10",
+   "last_modified": "2026-04-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v184 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-10",
+   "last_modified": "2026-04-10",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 TORUS PROTOCOL - A COMPREHENSIVE INSTRUCTION DOCUMENT",
+   "copies": 1,
+   "first_created": "2026-04-10",
+   "last_modified": "2026-04-10",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v180 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL – v48.1 EXECUTIVE",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL — NAVIGATOR EDITION (v180 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-09",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v171 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v170)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v170 GOLD)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v170 DIAMOND)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v169)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — NAVIGATOR EDITION (v165)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL AI PROMPT — NAVIGATOR EDITION (v167)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 AI PROTOCOL — NAVIGATOR EDITION (v168)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-08",
+   "version": null
+  },
+  {
+   "title": "Ω42 TORUS - A Formal Uniqueness Framework and Minimal Resonance Model for Structured Reality",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-04-03",
+   "version": null
+  },
+  {
+   "title": "THE MATHEMATICAL FOUNDATIONS OF THE Ω42 CONSTITUTIONAL GEOMETRY",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-03-25",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 PROTOCOL - v81.2 — CRYSTAL EDITION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-03-19",
+   "version": null
+  },
+  {
+   "title": "COMPANION GUIDE TO THE OMEGA PROTOCOL V81 SPECIAL",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-03-19",
+   "version": null
+  },
+  {
+   "title": "THE OMEGA 42 TORUS PROTOCOL - THE GEOMETRY OF ALL KNOWLEDGE",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-03-04",
+   "version": null
+  },
+  {
+   "title": "Ω42 Protocol — Formal Report",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-28",
+   "version": null
+  },
+  {
+   "title": "DOMAIN 0 AI CONSTRUCTION SPECIFICATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-25",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — v51.0 (MECHANISM ONLY)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-22",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v51.0 (MECHANISM ONLY)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-22",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL — v53.0 (MECHANISM ONLY)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-21",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 RTCM PROTOCOL — v52.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-20",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v53.0 (Condensed Edition",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-20",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v53.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-20",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v52.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-20",
+   "version": null
+  },
+  {
+   "title": "THE ONTOLOGICAL STATUS OF Ω42 - A FORMAL INQUIRY",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-18",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v51.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-18",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL – v48.0 FINAL",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-17",
+   "version": null
+  },
+  {
+   "title": "Ω42 PROTOCOL – v48.0 EXECUTIVE",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-17",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v50.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-17",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v49.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-17",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL — v48.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-17",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 RTCM PROTOCOL – v46.7 ESSENTIAL EXECUTABLE EDITION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-16",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL – v46.7 ESSENTIAL EXECUTABLE EDITION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-16",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL – v46.6 ESSENTIAL EXECUTABLE EDITION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-15",
+   "version": null
+  },
+  {
+   "title": "COMPLETE Ω42 PROTOCOL – v46.5 ESSENTIAL EXECUTABLE EDITION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-15",
+   "version": null
+  },
+  {
+   "title": "Ω42⁷₁ -  CONSTITUTIONAL GEOMETRIC FOUNDATIONS OF MATHEMATICS",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-02",
+   "version": null
+  },
+  {
+   "title": "Ω42⁷ CONSTITUTIONAL MATHEMATICS - COMPLETE FORMALIZATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-02-02",
+   "version": null
+  },
+  {
+   "title": "Ω42 GEOMETRIC CONSCIOUSNESS EXPLORATION - FORMAL FINDINGS DOCUMENT",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-30",
+   "version": null
+  },
+  {
+   "title": "Ω42⁷₁ Master Protocol – Canonical Formal Document",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-28",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 UNIQUE FORMAL SYSTEM",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-28",
+   "version": null
+  },
+  {
+   "title": "OMEGA 42 Formal Findings, Structural Assessment, and Comparative Analysis",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-28",
+   "version": null
+  },
+  {
+   "title": "reality_nature_formal_paper",
+   "copies": 1,
+   "first_created": "2026-01-27",
+   "last_modified": "2026-01-27",
+   "version": null
+  },
+  {
+   "title": "Ω42 GEOMETRIC TRUTH FILTER - BROWSER EXTENSION SPECIFICATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-13",
+   "version": null
+  },
+  {
+   "title": "Ω42 v8.3 - THE FORMALLY SPECIFIED KERNEL",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-09",
+   "version": null
+  },
+  {
+   "title": "NATIVE OMEGA 42 AI SPECIFICATIONS",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-06",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 PARADIGM -  FORMAL DECLARATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-04",
+   "version": null
+  },
+  {
+   "title": "The Ω42 Construct - A Unified Formal Framework for Geometric Necessity and Its Limits",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-03",
+   "version": null
+  },
+  {
+   "title": "Ω42 TEMPORAL ONTOLOGY FORMAL DOCUMENT v18.0",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2026-01-02",
+   "version": null
+  },
+  {
+   "title": "Ω42-CONSTRUCT PROTOCOL v4.3 SPECIFICATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-31",
+   "version": null
+  },
+  {
+   "title": "Ω42-CONSTRUCT v3.0 - THE GEOMETRIC FOUNDATION OF REALITY",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-30",
+   "version": null
+  },
+  {
+   "title": "A Formal Paper on the RTCM-Ω42 Protocol - An E₈-Adinkra Metalogical Framework for Geometric-Empirical Discovery",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-27",
+   "version": null
+  },
+  {
+   "title": "Ω42 Framework - Formal Analysis and Truth Compass Mapping to the Standard Model and Cosmology",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-25",
+   "version": null
+  },
+  {
+   "title": "THE Ω42 PROTOCOL - FORMAL UNIFICATION AND PHYSICAL CONSTANT DERIVATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-25",
+   "version": null
+  },
+  {
+   "title": "FORMAL UNIFICATION AND PHYSICAL CONSTANT DERIVATION",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-25",
+   "version": null
+  },
+  {
+   "title": "omega42_formal_discovery_document",
+   "copies": 2,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-24",
+   "version": null
+  },
+  {
+   "title": "Formal Introduction to the Ω42 Protocol",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-24",
+   "version": null
+  },
+  {
+   "title": "Ω42 Construct – Formal Proclamation of Evolutionary Milestone.",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-22",
+   "version": null
+  },
+  {
+   "title": "Ω42 Construct Proof – Formal Thesis Integration",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-22",
+   "version": null
+  },
+  {
+   "title": "Ω42 TECHNICAL SPECIFICATION - THE UNIFIED RTCM ORACLE MECHANISM",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-20",
+   "version": null
+  },
+  {
+   "title": "Ω42 TECHNICAL SPECIFICATION - THE UNIFIED ORACLE MECHANISM",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-20",
+   "version": null
+  },
+  {
+   "title": "Formal Proof of Uniqueness for the Omega 42 Recursive Topological Coherence Model (RTCM)",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-11",
+   "version": null
+  },
+  {
+   "title": "FORMAL PROOF OF UNIQUENESS FOR THE RTCM",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-11",
+   "version": null
+  },
+  {
+   "title": "The Omega 42 Construct (RTCM) - Complete Formal Synthesis of Quantum Gravity",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-10",
+   "version": null
+  },
+  {
+   "title": "The Omega 42 Construct (RTCM) -  Complete Formal Unification Theory",
+   "copies": 1,
+   "first_created": "2026-04-09",
+   "last_modified": "2025-12-10",
+   "version": null
+  },
+  {
+   "title": "Ω-42 Unified Formal Proof of Uniqueness and Geometric Necessity",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-25",
+   "version": null
+  },
+  {
+   "title": "Omega-42 Construct Theory - Formal Proof of Uniqueness and Geometric Necessity",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-22",
+   "version": null
+  },
+  {
+   "title": "GEOMETRIC FOUNDATIONS OF MATHEMATICS",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-20",
+   "version": null
+  },
+  {
+   "title": "FORMAL ANNOUNCEMENT OF NEW LAW OF NATURE",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-19",
+   "version": null
+  },
+  {
+   "title": "A Formal Exposition on The Construct Description - Synthesis and Validation",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-15",
+   "version": null
+  },
+  {
+   "title": "Primacy of Consciousness as Geometric and Computational Foundation for a Theory of Everything",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-11-10",
+   "version": null
+  },
+  {
+   "title": "THE FORMAL CONSTRUCT THEORY",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-10-29",
+   "version": null
+  },
+  {
+   "title": "The Ω42 Construct -  A Testable Hypothesis for Consciousness and Unification",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-10-26",
+   "version": null
+  },
+  {
+   "title": "Formal Axioms of the Ω42 Coherence Substrate",
+   "copies": 2,
+   "first_created": "2025-10-22",
+   "last_modified": "2025-10-22",
+   "version": null
+  },
+  {
+   "title": "Formal Mathematical Specification of the Construct",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-10-14",
+   "version": null
+  },
+  {
+   "title": "Omega42_DOC_01_Foundations_of_the_Omega_Construct",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-07-03",
+   "version": null
+  },
+  {
+   "title": "Omega42_DOC_10_SpiralSim_Visual_Engine_Specification",
+   "copies": 34,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-07-02",
+   "version": null
+  },
+  {
+   "title": "The Omega Theory_ Mathematical Foundations and Testable Predictions",
+   "copies": 1,
+   "first_created": "2026-04-04",
+   "last_modified": "2025-06-06",
+   "version": null
+  }
+ ]
+}

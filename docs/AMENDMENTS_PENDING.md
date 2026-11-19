@@ -189,3 +189,12 @@ Level: B
 - STP: H-029 (single choices change the orbit in 0.736, 0.910, 0.970, 0.990 of cases at 9, 27, 81 and 243) and H-030 (the unchanged share falls by about a third per power of 3; blind at 729: 0.0031 against the band 0.0027 to 0.0043), both VERIFIED COMPUTATION. The theorem behind H-030 is UNPROVEN.
 - research/philosophy/MEANINGFUL_EXISTENCE.md: the Meaningful Existence Initiative, with four projects and the case design; opening it is D-13.
 - The physics Companion Part, proposed with the opening of the Physics Initiative, is numbered at opening; Part 233 holds the two layers.
+
+## CA-24: The Drive archive and the Companion read-back (19 November 2026)
+Level: B
+- Companion 233.10 and 233.11: the two layers and the instruments of 19 November read back across Parts 0.5.2a, 9, 33.7, 50.4, 52.10, 116, 189.2, 216 and 226.
+- docs/ARCHIVE_POLICY.md: the originals stay untouched; five classes; what goes to GitHub and to the site.
+- records/archive/drive_register.json: metadata only, names withheld, no identifiers or links.
+- docs/ARCHIVE_CONCORDANCE.md: the V336 line (absorbed; its invariant restated as Λ; one lattice statement corrected); the Definitive Explanatory Document (superseded in part); the formal discovery document of December 2025 (historical and private; 3 arithmetic statements do not recompute); the build line (absorbed).
+- STP AR-01: 6 of 9 archive statements recompute, so the hypothesis that all do is REJECTED. The failures are corrected in the concordance, never in the originals.
+- D-14 for ESC.
