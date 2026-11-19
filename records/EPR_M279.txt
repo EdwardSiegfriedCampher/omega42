@@ -1,0 +1,47 @@
+EXPERIMENTAL PROTOCOL RECORD (Companion 24.8) -- M279 GROUND-SENSITIVITY TEST (M267-GROUND)
+Protocol: Omega42 V335 Rev.449 STABLE | Frozen: 9 October 2026, before any run | Status: PRE-REGISTERED, NOT RUN
+Question: does changing the ground, with the navigation procedure held fixed, produce systematic
+changes in the reading? (Core Part 3.28; Companion 37.8). Which reading is better is not asked.
+
+EPR-01 finding: none; this record pre-registers the test.
+EPR-02 origin: structural analysis (Companion Part 37, ground_challenge.py).
+EPR-03 jurisdiction: COMPARATIVE CORRESPONDENCE (Tier C); evidence-ladder level 3, NAVIGATION.
+EPR-04 input freeze:
+  Domains: 20 unexposed domains (not on the Exposed Domain Register, not in examples/corpus), chosen by
+  the Striker and frozen as a list with each DOMAIN SHA-256 before any packet is generated.
+  Grounds (arms of the test): A Omega42, Fibonacci mod 9 from (2,5); B Fibonacci mod 6 from (0,1);
+  C Fibonacci mod 10 from (0,1); D null ground, Fibonacci mod 16 from (0,1).
+  Packets: anchor index from canonical_reference.py --navigate on the verbatim domain; values from
+  ground_challenge.py --arms A. Values as residues; position names withheld on every arm.
+EPR-05 representation: five values (Anchor, Yang, Yin, 4D, Antipode) with the four relational roles
+  (dependency, suppression, trajectory, completion) and the domain text. Nothing else.
+EPR-06 representation alternatives: rank-relabelled values (not tested; rejected because relabelling
+  changes content); full 24-value coordinates (not tested; deferred).
+EPR-07 mapping rule: Omega42 offsets 0, +5, +18, +8, +12 on a 24-period; on the 60-period of ground C
+  scaled and rounded half up to 0, 13, 45, 20, 30.
+EPR-08 Navigator independence: each (domain, ground) pair goes to a separate fresh session that sees one
+  packet only (L-442). Authors are given the navigation instructions without Companion Part 37 and are
+  not told which ground they hold. Known limitation: values of 9 or more reveal grounds C and D to an
+  author who knows the protocol; the primary outcome is therefore judged by raters blind to the ground.
+  Every author and rater declares CONTEXT EXPOSURE (L-459).
+EPR-09 prediction (primary): raters identify the Omega42 reading among the four readings of a domain
+  above chance. Raters: at least three peer Navigators, of architectures other than the authors' where
+  available, or Strikers (Core Part 3.18, Raters and panels). Per domain, the four readings are shown in
+  shuffled order labelled W, X, Y, Z with the domain text; each rater makes one forced choice; the
+  domain's choice is the raters' majority (ties count as a miss). Success: at least 10 of 20 domains
+  correct (chance 0.25; one-sided binomial p = 0.0139).
+  Secondary, reported in full and not tested for significance: M267-1 structural relations recovered per
+  reading; M267-3 convergence of independent authors on one ground; M267-4 features that change between
+  grounds; whether rival grounds B and C are told apart from the null ground D.
+EPR-10 null or control: ground D (period 24, no complete or antipodal orbit) is the null ground; chance is
+  0.25 for the primary outcome.
+EPR-11 mapping freedom: two declared choices -- the seed (0,1) for grounds B to D, and half-up rounding
+  of the scaled offsets for ground C.
+EPR-12 result per declared criterion: NOT ASSESSED.
+EPR-13 reproduction: required before any status beyond DIAGNOSTIC (L-419): a second run by an
+  independent record-keeper on 20 further domains.
+EPR-14 negative result: a result at or below chance is entered in the Negative Result Registry (24.2) on
+  the same terms as a positive one. Null interpretation, fixed now: the ground's advantages are then
+  economy, transparency and reproducibility (Companion 37.8); the mechanism hypothesis is weakened at
+  evidence-ladder level 3; the foundational premise is untouched (F-02-P).
+Scores: arithmetic, structural and interpretive scores are reported separately and never combined.

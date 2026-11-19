@@ -1,0 +1,19 @@
+body:
+- type: input
+  attributes:
+    label: Reading
+    description: ID or link of the navigation (for example NAV-2026-0003).
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What it opened for you
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Where it fell short
+    description: ''
+  validations:
+    required: false

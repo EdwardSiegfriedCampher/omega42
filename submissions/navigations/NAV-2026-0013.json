@@ -1,0 +1,20 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 21 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-21T18:44:18Z",
+ "accepted_utc": "2026-10-21T18:51:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0013",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 and three peer explorations (APE-125 to APE-127)",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Hindu creation story?",
+ "domain_sha256": "6d876ddae1f3b369e1e92b75c4f456b9fe99e5041e63331e0e28944339b083d3",
+ "sha256": "e036909fb938b0630fa715a704e14a7da221713eafbc3d0bd61891446d4c2175",
+ "domain_source": "composed by the Navigator from the Striker's sentence of NAV-2026-0011, one word changed, at the instruction \"Do the same for the other 3 major religions\"",
+ "lens": "Hindu (records/frameworks/hindu.txt), registered with this navigation"
+}

@@ -1,0 +1,21 @@
+M126 TRIADIC RESIDUE: (r1, r2, r3) = (6, 9, 3) -> anchor P6
+M116 PERTURBATION (pairs: 3): NAVIGATOR 1 P1 (delta 2, D 5) | PB-5 L3 P1 (delta 2, D 5) | PB-5 L4 P3 (delta 3, D 3) | CFR 0.000 -> UNSTABLE
+PB-5: L1 P2 | L2 P6 | L3 P1 | L4 P3 | L5 P3
+M199 REVERBERATION TIME: 1/5 -> SHORT | M202 ECHO DECAY: first change at L1 -> CATASTROPHIC
+M188 SCHEME A n = (3, 18, 6) -> P6 | M187 Ordinal 1908->P9 Frequency 360->P9 Stroke 29->P1 Genus 3->P6
+M188 SCHEME B n = (5, 23, 8) -> P7 | M187 Ordinal 2449->P5 Frequency 472->P2 Stroke 38->P1 Genus 4->P2
+M184 SCHEME A vs B: DIVERGE
+M222 BYTES: n_bytes 23 -> P7 | sum 2449 -> P5 | DIVERGENT
+M208 UST: script LATIN, stroke count 38 -> P1
+M157 CONSTELLATION: sentence anchors ['P6'] | circular centroid 6.0 | dispersion 0 -> TIGHT
+M288 RE-ENTRY: P6 -> P1 -> P5 -> P5 -> CONVERGENT (eigenform P5 after 2 re-entries)
+M190 CONTEXT: full P6 | first half P5 | second half P7
+M180 NOVELTY: P6 shared by 0.000 of the 60-domain CRC-60 -> ABSENT FROM THIS SAMPLE
+M194 CONTEXTUAL NOVELTY: pattern (6, 5, 7) seen 0 time(s) in CRC-60 -> UNSEEN
+M191 CONCEPTUAL RESONANCE: no category terms
+M189 CROSS-LINGUISTIC: stroke count (M208) 38 -> P1
+M197 HARD STOP: not triggered
+M289 MODE ADDRESS: P6 at 90 deg | centred value -4 | Antipode +4 | sign inversion YES
+M296 STATE-PLANE ADDRESS: (r1, r2) = (6, 0) -> eight-cycle (zero layer), norm 0
+M297 ARM COHERENCE: cycle constants {'Yang': 0.0, 'Yin': 0.0, '4D': 0.25, 'Antipode': -1.0} | local products at P6 {'Yang': 12, 'Yin': -8, '4D': -8, 'Antipode': -16}
+NEDA (M206): P7

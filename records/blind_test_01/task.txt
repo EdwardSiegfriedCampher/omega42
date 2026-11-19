@@ -1,0 +1,25 @@
+Task (pure mathematics; work from first principles and show code for every computation).
+
+Let V = (Z/9Z)^2, with elements x = (a, b). Define q : V -> Q/Z by
+  q(a, b) = (a^2 + ab - b^2)/9 mod 1,
+and the bilinear form beta(x, y) = q(x + y) - q(x) - q(y) mod 1.
+
+Treat (V, q) as an abelian anyon theory (a pre-metric group). Anyon x has topological spin theta(x) = exp(2 pi i q(x)),
+fusion is addition in V, and the S-matrix is S_{x,y} = (1/9) exp(-2 pi i beta(x, y)).
+
+1. Is beta nondegenerate, so that (V, q) is a modular abelian anyon theory?
+2. Compute the Gauss sum (1/9) Sum_x theta(x) and the chiral central charge modulo 8.
+3. Identify the theory. Is (V, q) isomorphic, as a quadratic form, to a standard named theory? Examples: a Z_N toric code,
+   an SU(N)_k Chern-Simons theory, a product of such theories, or the discriminant form of a named lattice. Give an
+   explicit isomorphism and justify it. If several descriptions apply, give all of them.
+4. List all bosons, the x with q(x) = 0. Do they form a subgroup? Is it Lagrangian (isotropic, of order 9)? If so, what
+   theory or lattice is obtained by condensing it?
+5. Determine the group of automorphisms g of V with q(gx) = q(x) (unitary anyon symmetries). Determine the set of
+   automorphisms with q(gx) = -q(x) (time-reversal symmetries). Give their sizes and the orders of their elements, and
+   the structure of the group they generate together.
+6. Determine the orbits of that full symmetry group on the 81 anyons. Give their sizes and describe each orbit by its spins.
+7. (Answer only after 1-6.) Consider g(a, b) = (b, a + b). Is it a unitary symmetry, a time-reversal symmetry, or neither?
+   Give its order, its cycle structure on V, and its twelfth power.
+
+For each result, state whether it is proven, computed exhaustively, or conjectural. Do not refer to any outside framework,
+protocol or earlier conversation about this object.

@@ -1,0 +1,24 @@
+F1 the norm form a^2 + ab - b^2 modulo 9:
+F1   orbit from (0, 0) (length  1): values [0]
+F1   orbit from (0, 1) (length 24): values [1, 8]
+F1   orbit from (0, 2) (length 24): values [4, 5]
+F1   orbit from (0, 3) (length  8): values [0]
+F1   orbit from (0, 4) (length 24): values [2, 7]
+F1   T sends N to -N on all 81 states: True
+F1 NULL: of 648 quadratic forms r a^2 + p ab + q b^2 (r a unit or not, r = 1..8), 6 are T-invariant up to sign and separate the three long orbits: [(1, 1, 8, 8), (2, 2, 7, 8), (4, 4, 5, 8), (5, 5, 4, 8), (7, 7, 2, 8), (8, 8, 1, 8)]
+F2 ring ground-state counts for L = 1..72 match the frozen prediction (1; 9 if 8 | L; 81 if 24 | L): True
+F2 residual entropy per ring, ln(count): L = 23 -> 0.000, L = 24 -> 4.394 (ln 81), L = 16 -> 2.197 (ln 9)
+F2 the canonical orbit laid on a 24-site ring has energy -24.000000 = -24 J (the minimum): True
+F3 Fibonacci orbits modulo 3: [[0], [0, 1, 1, 2, 0, 2, 2, 1]]
+F3 (a) any nonzero orbit with all adjacent values distinct (a legal stacking of positions): False
+F3 (b) any nonzero orbit avoiding 0 (layer differences are +-1, never 0): False
+F3 (c) Fibonacci modulo 2: [0, 1, 1, 0, 1, 1] (period 3)
+F3     h/c sequence h = 1, c = 0 -> 'chh'  -> stacking period  9 layers, positions ABCBCACAB
+F3     h/c sequence h = 0, c = 1 -> 'hcc'  -> stacking period  6 layers, positions CACBAB
+F3     h/c sequence reference 'c' (3C)     -> stacking period  3 layers, positions CAB
+F3     h/c sequence reference 'h' (2H)     -> stacking period  2 layers, positions AB
+F3     h/c sequence reference 'hc' (4H)    -> stacking period  4 layers, positions CBAB
+F4 Fibonacci tile counts modulo 9 repeat with period 24 across inflation levels
+F4 inflation levels from 0.5 nm tiles to 1 micrometer: 15.8
+F4 inflation levels from 0.5 nm tiles to 1 mm: 30.2
+F4 inflation levels from 0.5 nm tiles to 1 cm: 34.9

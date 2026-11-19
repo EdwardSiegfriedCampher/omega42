@@ -1,0 +1,2 @@
+M360 INVARIANT SENTINEL nav_states.csv | 3 states mod 3^1 | declared group <A>
+  no flags: every step is a step of the declared group

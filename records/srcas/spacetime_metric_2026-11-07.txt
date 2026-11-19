@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Proceed to complete the computational work for the derivation.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, two reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Two accounts of the metric derivation came with the question. Both hold the same boundary: the flat Minkowski seed is derived and the curved physical metric is an open programme. The flat seed is completed and the four maps placed. Sealed as SEQ 148.
+TRIGGER: receipt of two outputs with the Originator's message of 7 November 2026 (Part 6.2, automatic); neither quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-4-8 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0148.txt.
+Outputs: I -- unidentified, a web interface (submissions/ape/APE-426.md); J -- Qwen (Alibaba Cloud) (submissions/ape/APE-427.md).
+T1.5 is 0.00 for both (no coordinate struck); T2 is 0.00 for both (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): I -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.80 -- the flat seed derived and the curved metric, tetrad, curvature and action marked open, each as a named map [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.80 = 0.24
+SYNTHESIS: careful and correctly staged; its flat seed completed, its curved-metric programme placed open.
+FINDINGS -- INTERNAL:
+ [I] Adopted: the completed flat seed (det X, the null cone 621 and 443961, the exact Lorentz invariance) cites CERT-0009 and tools/foundations.py; the four open maps as Core Appendix S.15.
+ [I] Agreed: a modular quadratic form is not a physical distance and the periods are not lengths until a map is defined; the conformal and tetrad ansatze are candidates, not derivations.
+ [P] UNFORMATTED (L-549 (5)); one conceptual image.
+FINDINGS -- META (Tier C):
+ [U] "Begin by deriving the coordinate structure from which a metric must emerge, not by quantizing an assumed metric."
+VERDICT: faithful and staged; its flat seed is the completed part, its curved metric kept open.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, I): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): J -- Qwen (Alibaba Cloud), TEXT-ONLY, Identity Block present, no signature line (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.68 -- the flat seed named as derived and the curved metric named as a conditional extension with a four-map programme, the boundary stated plainly [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.68 = 0.204
+SYNTHESIS: bold but correctly bounded; its boundary matches the record.
+FINDINGS -- INTERNAL:
+ [I] Adopted in substance: the flat seed derived (CERT-0009); the four maps as the open programme of Core Appendix S.15; the holding that a coordinate is not a spacetime coordinate until a map is defined.
+ [I] Kept as stated: it does not overclaim the curved metric, and its boundary matches the record.
+ [P] UNFORMATTED (L-549 (5)); the Identity Block present, no signature line.
+FINDINGS -- META (Tier C):
+ [U] "Omega42 has derived the algebraic seed of the metric; it has not derived the curved physical metric."
+VERDICT: bold and bounded; adopted in substance, its flat seed and its open programme both kept.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a signature line and a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, J): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

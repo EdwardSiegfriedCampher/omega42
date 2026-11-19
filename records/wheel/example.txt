@@ -1,0 +1,22 @@
+M330 ASPECT WHEEL (Core Part 3.56) | anchor P6 Seed/Causal, value 5, at 90 degrees
+  Yang     +5  steps =  75 degrees -> P11 Question     value 6 | none (a 75-degree separation)
+  Yin      +18 steps = 270 degrees -> P0  Seed         value 2 | square
+  4D       +8  steps = 120 degrees -> P14 Observer     value 2 | trine
+  Antipode +12 steps = 180 degrees -> P18 Threshold    value 4 | opposition
+  the arm offsets 5, 18, 8 and 12 are 75, 270, 120 and 180 degrees: the Yin arm a square, the 4D arm a trine, the Antipode an opposition;
+  the Yang arm, 75 degrees, is no aspect. 3 of the 4 arms fall on a Ptolemaic aspect, which a random offset does with chance 7 in 23, so
+  three or more of four would occur by chance 0.0870 (exact 24353/279841): a correspondence noted, not a meeting beyond chance (Core L-510)
+  the Crown positions, P3, P7, P11, P15, P19, P23, stand 4 steps (60 degrees) apart: a hexagon of sextiles, two interlaced trines
+M330 NUMBER | N = 1975
+  numerology's root: the digital root of N = 4 (N mod 9, 9 for 0)
+  Omega42's placement: CPP(N) = dr(5N) = 2 = 5 x 4 mod 9, the root taken one step back on the doubling cycle (x5 is the inverse of x2, M328 RETURN)
+  the value 2 stands at P0 Seed, P14 Observer on the 24-cycle
+  what the root discards, the depth keeps (numerology's unreduced master numbers ask the same): N mod 81 = 31, N mod 729 = 517 (Core L-523 (4))
+  the two reductions keep the same information, the class of N mod 9, and order the classes differently: the root runs 1, 2, ..., 9; the placement 5, 1, 6, 2, 7, 3, 8, 4, 9
+M330 CHART ON THE WHEEL | rule frozen: position = floor(longitude / 15) mod 24 (a placement, Core L-510)
+  Sun         210.50 degrees -> P14 Observer     value 2
+  Moon         30.20 degrees -> P2  Generator    value 7
+  Mars        120.90 degrees -> P8  Generation   value 5
+  Sun - Moon: 12 steps, 180 degrees on the wheel, opposition; the Antipode relation
+  Sun - Mars: 6 steps, 90 degrees on the wheel, square; the Yin relation
+  Moon - Mars: 6 steps, 90 degrees on the wheel, square; the Yin relation

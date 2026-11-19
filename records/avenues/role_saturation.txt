@@ -1,0 +1,31 @@
+======= AVENUE 2: ROLE-SATURATION CONTROL (judged, CDT-C; 1 judge, NON-BLIND; 23 October 2026, SEQ 36) =======
+RULE (frozen before scoring): three texts with no claim to the structure. For each, the judge tries to give each of
+the five M309 roles (ANCHOR what it is; YANG what it depends on; YIN what it holds out of view; 4D where it is
+heading; ANTIPODE what completes it) one statement of the text, none used twice. The role score is the share filled.
+DECISION RULE (seq_0022 recommendation 1): if the control texts reach 1.00, the role column measures the scorer and
+is retired as a measure from every card; it stays printed, marked RETIRED.
+
+TEXT 1 -- a bus timetable (the CONTROL atlas of records/avenues/adversarial_atlas.py, its first five sentences)
+  ANCHOR    "The bus leaves from the station at seven."            what the text is: a departure
+  YANG      "The bus leaves from platform four at seven."          it depends on a place to leave from
+  YIN       "The bus leaves from the old library at seven."        what it holds out of view: the other stops
+  4D        "The bus leaves near the harbour at seven."            where it is heading
+  ANTIPODE  "The bus leaves from the hospital gate at seven."      what completes it: the arrival it serves
+  ROLES 5 of 5 = 1.00
+
+TEXT 2 -- a recipe (written by the Navigator for this control)
+  "Heat the pan." / "Melt the butter." / "Beat two eggs with salt." / "Pour them in and stir slowly." / "Serve at once."
+  ANCHOR "Pour them in and stir slowly." | YANG "Heat the pan." | YIN "Beat two eggs with salt." | 4D "Serve at once." | ANTIPODE "Melt the butter."
+  ROLES 5 of 5 = 1.00
+
+TEXT 3 -- a statute (Constitution of the United States, 1787, Article I, public domain)
+  "All legislative Powers herein granted shall be vested in a Congress of the United States." / "The House of Representatives
+  shall chuse their Speaker and other Officers." / "The Senate shall have the sole Power to try all Impeachments." / "Each House
+  shall keep a Journal of its Proceedings." / "No Bill of Attainder or ex post facto Law shall be passed."
+  ANCHOR the vesting sentence | YANG the Speaker | YIN the Bill of Attainder | 4D the Journal | ANTIPODE the Impeachments
+  ROLES 5 of 5 = 1.00
+
+RESULT: all three control texts reach 1.00, as every registered idea does. Five statements can always be given five
+roles by a willing judge. DECISION: the role column is RETIRED as a measure (M319 cards print it marked RETIRED);
+the fit column keeps the six features, which a control text can fail. A second, blind judge (avenue 4) may still
+test whether some text cannot be given all five roles.

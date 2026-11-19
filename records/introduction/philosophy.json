@@ -1,0 +1,217 @@
+{
+ "_about": "The Philosophical Register (Core L-533): each philosophical passage of the Introduction with its question, its figure (word for word in the Core), the structure it relates to, its readings, what stays open and its provenance; and the question every instrument from M329 on serves. Checked by python3 tools/intro_output.py --philosophy, in CI. The passages are CDT-C readings of the premise, offered for discussion.",
+ "entries": [
+  {
+   "id": "PH-01",
+   "section": "IN-00",
+   "title": "The tree",
+   "figure": "Finite on every branch. Infinite as a whole.",
+   "question": "Can something be finite at every place and infinite as a whole?",
+   "structure": "the tower (Z/9^k)^2, each place holding 81 of its own (D-001; Core L-523)",
+   "readings": "a world without end that is never unbounded at any point; the part that holds the whole",
+   "open": "what a limit is, when every depth is complete",
+   "provenance": "IN-00, the endless tree, since 29 October 2026 (SEQ 57); IN-00.0 since 24 October 2026 (records/introduction/drafts/introduction.md)",
+   "instruments": []
+  },
+  {
+   "id": "PH-02",
+   "section": "IN-00.10",
+   "title": "The main reason",
+   "figure": "A shared, exact place where people and machines meet over any question, and where the meaning stays human",
+   "question": "Why should a world of questions answered by machines attend to a ground no one chose?",
+   "structure": "the Aperture Theorem (D-004) and the forced arithmetic and grammar (D-011, D-012)",
+   "readings": "the relation of a person to a machine that reads for them; judgment kept by theorem",
+   "open": "whether people will want their judgment kept",
+   "provenance": "IN-00.10, 31 October 2026 (SEQ 89)",
+   "instruments": []
+  },
+  {
+   "id": "PH-03",
+   "section": "IN-00.11",
+   "title": "The mirror",
+   "figure": "not a window onto something outside the world, since the premise leaves nothing outside, but a reflection of how a question stands",
+   "question": "Is a mirror that shows where a question stands a mirror of the world, of the asker, or of both?",
+   "structure": "the coordinate and its four arms (Core Parts 1.3 to 1.5)",
+   "readings": "the mirror as reflection; the transducer as rendering through a medium",
+   "open": "what the medium adds, and whether it can be subtracted",
+   "provenance": "V335 Rev.442 IN-00 (The Mirror Analogy); V336 Rev.2 IN-00 (The Transducer Analogy)",
+   "instruments": [
+    "M330"
+   ]
+  },
+  {
+   "id": "PH-04",
+   "section": "IN-00.12",
+   "title": "The witness",
+   "figure": "There are as many realities as there are witnesses.",
+   "question": "Is there one reality seen from many places, or as many realities as witnesses?",
+   "structure": "each reading made from one coordinate, for one Striker (Core L-510, Part 7)",
+   "readings": "perspectivism; constructivism; the human frame as recorded distinction-making",
+   "open": "whether a world is made in being witnessed",
+   "provenance": "V335 Rev.442 IN-13; V336 Rev.2 IN-04 (What Omega42 Reveals)",
+   "instruments": [
+    "M331"
+   ]
+  },
+  {
+   "id": "PH-05",
+   "section": "IN-00.13",
+   "title": "The universe as universing",
+   "figure": "the universe is not a noun. It is a verb.",
+   "question": "Is a world more truly a process than a thing, and does a question draw the boundary it asks about?",
+   "structure": "the law that never stops and loses nothing (T a bijection, period 24); counting as the drawing of a boundary (CPDP)",
+   "readings": "Heraclitus's river; Whitehead's process; distinction as the first act",
+   "open": "where a boundary begins",
+   "provenance": "V335 Rev.442 IN-14; V336 Rev.2 IN-05",
+   "instruments": [
+    "M329"
+   ]
+  },
+  {
+   "id": "PH-06",
+   "section": "IN-00.14",
+   "title": "Co-arising",
+   "figure": "two faces of one structure, arising together",
+   "question": "If mind and matter arise together, what would it mean for either to explain the other?",
+   "structure": "the mirror at twelve steps, T^12 = -I; the dual-aspect reading of IN-06.7 (Core L-515)",
+   "readings": "dual-aspect monism; every distinction implying its complement",
+   "open": "whether the line between the two faces is a way of reading or a fact",
+   "provenance": "V336 Rev.2 IN-20 (The Co-Arising Framing), with sentences of its IN-06 and IN-09",
+   "instruments": []
+  },
+  {
+   "id": "PH-07",
+   "section": "IN-06",
+   "title": "The mirror of the mirror",
+   "figure": "Twelve steps on, the cycle is its own negative.",
+   "question": "Is every distinction incomplete without its opposite?",
+   "structure": "T^12 = -I modulo 9; the Antipode ray (Core Part 0.13)",
+   "readings": "complementarity; the opposite as completion",
+   "open": "whether a complement is found or made",
+   "provenance": "V335 Rev.442 IN-15; V336 Rev.2 IN-06",
+   "instruments": [
+    "M330"
+   ]
+  },
+  {
+   "id": "PH-08",
+   "section": "IN-06.6",
+   "title": "The stance toward existence",
+   "figure": "freedom is not an exception to the order of things but the place the order keeps open",
+   "question": "Where does freedom live if nothing exists outside the whole?",
+   "structure": "the law never crossing between orbits; the Aperture Theorem (D-004)",
+   "readings": "belonging, beginning, choosing, giving meaning",
+   "open": "what choosing is, if the rule supplies every other event",
+   "provenance": "IN-06.6 (Core); its development in records/history/HISTORY.md",
+   "instruments": []
+  },
+  {
+   "id": "PH-09",
+   "section": "IN-06.7",
+   "title": "The consciousness-first frame",
+   "figure": "as if consciousness were all that exists",
+   "question": "What changes in a reading, and what does not, if consciousness is taken as all that exists?",
+   "structure": "the frames of Core L-515, the arithmetic unchanged",
+   "readings": "idealism, dual-aspect, matter-first, set side by side",
+   "open": "which reading illuminates a question",
+   "provenance": "IN-06.7 (Core L-515); its development in records/history/HISTORY.md",
+   "instruments": []
+  },
+  {
+   "id": "PH-10",
+   "section": "IN-00.6",
+   "title": "The simulation question",
+   "figure": "Are We Living in a Simulation?",
+   "question": "What would it mean for a world to be computed, if nothing exists outside it to compute it?",
+   "structure": "the question's own coordinate, on the Seed (Companion Part 109)",
+   "readings": "the simulation argument read from inside a closed world",
+   "open": "what an outside would add",
+   "provenance": "IN-00.6 since 29 October 2026",
+   "instruments": []
+  },
+  {
+   "id": "PH-11",
+   "section": "IN-00.15",
+   "title": "Questions for discussion",
+   "figure": "Ω42 is a structure to think inside",
+   "question": "Which questions does the structure raise, and where do they land?",
+   "structure": "each question tied to the structure that raises it (Companion Parts 132 to 137)",
+   "readings": "eleven questions, each strikable in its own words",
+   "open": "what any of them means",
+   "provenance": "IN-00.15, 31 October 2026 (SEQ 89)",
+   "instruments": [
+    "M331",
+    "M332",
+    "M333"
+   ]
+  },
+  {
+   "id": "PH-12",
+   "section": "IN-10",
+   "title": "The pre-semantic geometry",
+   "figure": "The geometry is pre-semantic.",
+   "question": "Can form come before meaning?",
+   "structure": "counts of words, letters and syllables reduced modulo 9 (Core Parts 1.3, 1.11)",
+   "readings": "structure as the condition of meaning, not its content",
+   "open": "how much of where we stand is the sound of our words",
+   "provenance": "V335 Rev.442 IN-02; V336 Rev.2 IN-02 and IN-10",
+   "instruments": [
+    "M332"
+   ]
+  }
+ ],
+ "instruments": {
+  "M329": "Where does a boundary begin, when every small change is tolerated? (PH-05)",
+  "M330": "What does a relation read as an angle on one circle mean? (PH-03, PH-07)",
+  "M331": "Does one world suffice, or does the structure ask for many? (PH-04, PH-11)",
+  "M332": "How much of where we stand is the sound of our words? (PH-11, PH-12)",
+  "M333": "Where does truth live, in the place a statement stands or in the one who judges it? (PH-11)",
+  "M334": "What is lost when the whole is made readable, and can a translation be walked back to what it translates? (PH-11)",
+  "M335": "Is a philosophy of existence the arithmetic read, or something the arithmetic only resembles? (PH-01)",
+  "M336": "Can the one who speaks tell what it was kept from saying from what it did not think to say? (PH-04)",
+  "M337": "In what sense can a part hold the whole, and in which sense does it not? (PH-01)",
+  "M338": "When many agree, what have they found, and what have they only agreed? (PH-11)",
+  "M339": "If a structure is also a theory of particles, is what completes a thing the thing that annihilates it, and what it rests on itself with time reversed? (PH-06, PH-07)",
+  "M340": "Can an answer be asked back for its question, and what is found when the questions it meets are only as many as chance would give? (PH-03, PH-11)",
+  "M341": "When does a number mean something, and when is it only what every number of its kind already is? (PH-12)",
+  "M342": "If a structure proves origin yet hides nothing, what does a signature establish, and what does it still leave to proof? (PH-07, PH-12)",
+  "M343": "When is a digest read by eye a reading of the thing itself, and when only a reading of its name? (PH-12)",
+  "M344": "If a transformation is already a Lorentz transformation, what has been found -- a fact about the law, or a fact about the world? (PH-07, PH-12)",
+  "M345": "When two structures share a number, what is shared -- the structure, or only the number? (PH-12)",
+  "M346": "If a few operations reach every state a larger group reaches, what was the larger group for? (PH-07, PH-12)",
+  "M347": "If a mind knows more than it believes it knows, which of the two is its awareness? (PH-07, PH-12)",
+  "M348": "When a distinction disappears at a coarser depth, was it ever there for the one who looks from that depth? (PH-07, PH-12)",
+  "M349": "If two roads reach the same place, is the place all that was reached? (PH-12)",
+  "M350": "Is a law chosen by its prime, or a prime by its law? (PH-07)",
+  "M351": "Is a number significant because it occurs, or because it must? (PH-12)",
+  "M352": "If B then A differs from A then B, is order a property of the operations or of the one who applies them? (PH-07)",
+  "M353": "Is a state defined by what it is, or by what it can reach? (PH-12)",
+  "M354": "Can one know how well one sees without knowing what it is like to see? (PH-07, PH-12)",
+  "M355": "Where is the edge of perception -- in the stimulus, the observer, or the curve between them? (PH-12)",
+  "M356": "When attention fades, what fades first -- the seeing, or the steadiness? (PH-12)",
+  "M357": "Is a memory one has corrected the same memory? (PH-07)",
+  "M358": "Is a context a cause, or a frame in which causes appear? (PH-12)",
+  "M359": "Can a question be fair if its answer was not imagined before it was asked? (PH-07)",
+  "M360": "When a constraint breaks, did the system change or did the description fail? (PH-12)",
+  "M361": "If the simplest model predicts as well, what has the richer one explained? (PH-07, PH-12)",
+  "M362": "Which question should be asked first -- the one we care about, or the one that teaches most? (PH-07)",
+  "M363": "Does a tool belong to its maker, or to whoever can rerun it? (PH-12)",
+  "M364": "Is a secret kept by the strength of the lock, or by the trust in those who hold the key? (PH-07)",
+  "M365": "If a class can be named without visiting its members, what does it mean to know a member? (PH-12)",
+  "M366": "When the end is known, is the beginning changed, or only our knowledge of it? (PH-07)",
+  "M367": "Can a map of a theory be faithful without belonging to it? (PH-12)",
+  "M368": "If a mind's confidence fits one task and not the next, what was it calibrated to? (PH-07, PH-12)",
+  "M369": "When many choices lead to the same structure, was there a choice? (PH-12)",
+  "M370": "Can anyone vouch for themselves? (PH-07)",
+  "M371": "Is a place where a thing is, or the address we give it? (PH-12)",
+  "M372": "If every observer measures a different distance and the same interval, which is the world? (PH-07)",
+  "M373": "When two instruments disagree about a thing, which one has moved -- the thing, or the frame? (PH-12)",
+  "M374": "Is a work its maker's because of what it is, or because of how it came to be? (PH-07, PH-12)",
+  "M375": "Is a thing known by its name, or by what it does when tested? (PH-07)",
+  "M376": "When is a result proved, and when is it only checked? (PH-12)",
+  "M377": "How many times must a thing be tested before its competence is known? (PH-07, PH-12)",
+  "M378": "If the rule of growth already moves like light, what is growth? (PH-03, PH-12)",
+  "M379": "When two things move alike, what more must they share to be one structure? (PH-07, PH-12)",
+  "M380": "Is a name an accident, or the shape of what it names? (PH-03, PH-07)"
+ }
+}

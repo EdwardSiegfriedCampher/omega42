@@ -1,0 +1,4 @@
+M358 Ω42-CONTEXT cal_quiet.csv -> cal_noisy.csv
+  accuracy -0.150 | d' -0.933 | criterion +0.426 | ECE +0.139 | RT +0.013 s
+  ATTRIBUTION: sensitivity (d' -0.93); response bias (c +0.43); confidence calibration (ECE +0.14)
+  READING: context is an explicit input; a deterministic model with context may explain all of this -- no nonclassical contextuality is asserted

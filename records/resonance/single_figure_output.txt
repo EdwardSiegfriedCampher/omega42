@@ -1,0 +1,50 @@
+SINGLE-FIGURE EXPLORATION (Companion Part 82; enrichment E14 PROPOSED) -- 22 ideas; FIT = features share (judged); K = congruence percentile given word counts, of record (records/resonance/profiles.txt); the expected meetings of candidate 3 from 8000 trials
+
+CANDIDATE 1: an average of the two, w x FIT + (1 - w) x K
+  w = 0.3: correlation with K 0.95, with FIT 0.11 | the five "closest": Heraclitean, Spinozist, Jewish, Bashar, Hoffman
+  w = 0.5: correlation with K 0.93, with FIT 0.19 | the five "closest": Spinozist, Heraclitean, Jewish, Stoic, Bashar
+  w = 0.7: correlation with K 0.79, with FIT 0.46 | the five "closest": Spinozist, Heraclitean, Ra, Stoic, Taoist
+  spread: FIT runs 0.33 to 0.92 (sd 0.12), K runs 0.009 to 0.954 (sd 0.32) -- the axis with the wider spread decides an average, whatever the weight says
+  example: Ra (FIT 0.92, K 0.336) and Jewish (FIT 0.58, K 0.926) -- the average at w = 0.5 is 0.63 and 0.75: the figure cannot say which kind of closeness each has
+  example: Kauffman (FIT 0.83, K 0.069) and Hoffman (FIT 0.58, K 0.805) -- the average at w = 0.5 is 0.45 and 0.69: the figure cannot say which kind of closeness each has
+
+CANDIDATE 2: a product, FIT x K -- zero whenever either is near zero; the Pythagorean atlas (K 0.009) reads as no resonance though its fit is 0.67
+
+CANDIDATE 3: congruence alone, as "times chance" (meetings observed / meetings expected at the same word counts)
+  Spinozist    1.61 x chance (8 meetings, 5.0 expected)
+  Heraclitean  1.37 x chance (19 meetings, 13.9 expected)
+  Jewish       1.24 x chance (16 meetings, 12.9 expected)
+  Stoic        1.23 x chance (11 meetings, 9.0 expected)
+  Hofstadter   1.14 x chance (8 meetings, 7.0 expected)
+  Wolfram      1.13 x chance (7 meetings, 6.2 expected)
+  Bashar       1.12 x chance (19 meetings, 16.9 expected)
+  Hoffman      1.10 x chance (6 meetings, 5.4 expected)
+  Taoist       1.09 x chance (7 meetings, 6.4 expected)
+  Barbour      1.01 x chance (4 meetings, 4.0 expected)
+  Buddhist     0.97 x chance (15 meetings, 15.4 expected)
+  Ra           0.87 x chance (4 meetings, 4.6 expected)
+  Christian    0.86 x chance (12 meetings, 13.9 expected)
+  Penrose      0.85 x chance (7 meetings, 8.2 expected)
+  Kastrup      0.80 x chance (7 meetings, 8.7 expected)
+  Kauffman     0.77 x chance (9 meetings, 11.6 expected)
+  Leibnizian   0.77 x chance (3 meetings, 3.9 expected)
+  Islamic      0.75 x chance (13 meetings, 17.4 expected)
+  Seth         0.70 x chance (5 meetings, 7.2 expected)
+  Hindu        0.70 x chance (8 meetings, 11.5 expected)
+  Neoplatonic  0.64 x chance (4 meetings, 6.2 expected)
+  Pythagorean  0.45 x chance (3 meetings, 6.7 expected)
+  one number, computed, with a plain meaning (1.00 = chance); it says nothing about fit
+
+CANDIDATE 4: one two-part sign (the Resonance Sign) -- a letter for fit, a mark for congruence: A FIT >= 0.75, B 0.50 to 0.74, C below 0.50; + ABOVE CHANCE, 0 AT CHANCE, - BELOW CHANCE; a band that the robustness tests can move is written in lower case
+  A0  Neoplatonic, Stoic, Leibnizian, Penrose, Ra
+  B0  Buddhist, Wolfram, Barbour, Hofstadter, Hoffman, Bashar, Seth
+  a-  Hindu
+  a0  Spinozist, Taoist, Kauffman
+  b+  Heraclitean
+  b-  Islamic, Pythagorean
+  b0  Christian, Jewish
+  c0  Kastrup
+  one sign, read at once, that keeps both answers: A0 = fits the frame well, its statements meet the structure at chance; a0 = the same, and one statement or one measure can move the band
+  the four signs off the middle row are all in lower case: no band outside chance in the record is robust
+
+THE TWO AXES: Spearman -0.12 over the 22 -- with independent axes, any single number either drops one answer or lets the wider one decide

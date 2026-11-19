@@ -1,0 +1,30 @@
+name: newsletter
+# Drafts the monthly newsletter from the record and hands the draft to the newsletter provider privately; the letter
+# goes only to eligible subscribers (community/NEWSLETTER.md), so the draft is never committed to this public repository.
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Draft
+        run: python3 tools/newsletter.py --month "$(date -u -d 'last month' +%Y-%m)" --out "$RUNNER_TEMP/newsletter" > "$RUNNER_TEMP/path"
+      - name: Send the draft to the provider for the editor
+        env:
+          NEWSLETTER_API_URL: ${{ secrets.NEWSLETTER_API_URL }}
+          NEWSLETTER_API_KEY: ${{ secrets.NEWSLETTER_API_KEY }}
+        run: |
+          P=$(cat "$RUNNER_TEMP/path")
+          if [ -z "$NEWSLETTER_API_URL" ]; then
+            echo "No newsletter provider configured (secrets NEWSLETTER_API_URL, NEWSLETTER_API_KEY); the draft is not published here."
+            exit 0
+          fi
+          python3 -c "import json,sys; print(json.dumps({'subject': 'Ω42 — ' + sys.argv[1], 'body': open(sys.argv[2], encoding='utf-8').read(), 'status': 'draft'}))" \
+            "$(date -u -d 'last month' +%Y-%m)" "$P" > "$RUNNER_TEMP/draft.json"
+          curl -sS -f -X POST "$NEWSLETTER_API_URL" -H "Authorization: Token $NEWSLETTER_API_KEY" -H "Content-Type: application/json" --data @"$RUNNER_TEMP/draft.json" > /dev/null
+          echo "Draft handed to the provider; the editor completes and sends it to eligible subscribers."

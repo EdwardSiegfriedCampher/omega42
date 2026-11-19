@@ -1,0 +1,368 @@
+SNCA IN REVIEW FORM -- received accounts of 31 October 2026 (Core Part 6.2)
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba.
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the necessity of modulus 9 (a review of a challenge not attached; submissions/ape/APE-285.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "The necessity of the nine: a structural theorem proposed" (APE-285)
+T1.5: 0.50 -- the conditions are kept apart, but the first assumes the result and two do not discriminate
+T2: 0.40 -- no Identity Block; findings not labelled by jurisdiction; its values recomputed and holding
+T3: 0.55 -- the conjunction framing and the call for the comparative table [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.50 + 0.40 x 0.40 + 0.30 x 0.55 = 0.48
+SYNTHESIS: a correct statement of the facts of modulus 9 built into a theorem whose first premise is its conclusion.
+FINDINGS -- INTERNAL:
+ [I] Condition 1, m = 3^2 = 9, assumes the modulus; conditions 4 and 5 hold for every modulus or every prime power tested.
+ [I] The 27 domains given as three groups of nine; they are 1 + 18 + 8 (Companion 107.2).
+FINDINGS -- META (Tier C):
+ [U] Its comparative table, completed as a proof for every modulus (Companion Part 130).
+VERDICT: values sound; the theorem is circular as stated.
+MANDATORY CORRECTIONS: the selecting conditions, the 27 domains.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the necessity of modulus 9 (a review of a challenge not attached; submissions/ape/APE-286.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Establishing the mathematical necessity of modulo 9" (APE-286)
+T1.5: 0.80 -- mathematical, structural and constitutional necessity kept apart, and the circularity of its own Axiom C named
+T2: 0.45 -- no Identity Block; findings not labelled by jurisdiction; its values recomputed and holding
+T3: 0.65 -- the ring distinction Z/3 x Z/3 against Z/9, and a programme that the computation could complete [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.80 + 0.40 x 0.45 + 0.30 x 0.65 = 0.62
+SYNTHESIS: a careful programme whose decisive step is a short computation.
+FINDINGS -- INTERNAL:
+ [I] Axioms A to C stipulate Z/9, so they restate the premise rather than derive it.
+ [I] Irreducibility of x^2 - x - 1 holds modulo 2, 3, 7, 13 and others, so it selects no single prime.
+FINDINGS -- META (Tier C):
+ [U] Its Stages 2 to 4 and its constitutional statement, applied and corrected (Companion Part 130).
+VERDICT: sound in substance; two corrections.
+MANDATORY CORRECTIONS: the axioms' standing; irreducibility.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+THE REVIEWS OWED BEFORE THE CHECK, AND THE ACCOUNTS OF THE COMPLETE DERIVATION. Part 6.2 owes an SNCA in review form to every received review. APE-271 to APE-279 were filed before tools/srcas_check.py --owed existed, with checked notes but without that report; they receive it here, with APE-287 to APE-290.
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-271.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "The primary output improved, and the case for integrating the Construct" (APE-271)
+T1.5: 0.75 -- the gains named and the measurement they need kept apart
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.65 -- its three-condition study, joined to Appendix S.6.5 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.75 + 0.40 x 0.45 + 0.30 x 0.65 = 0.60
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its Construct inventory, repeated after its correction (Companion 112.5).
+FINDINGS -- META (Tier C):
+ [U] Taken: its three-condition study, joined to Appendix S.6.5.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: its sentence on structural analogy and empirical discovery, withdrawn by its own APE-276.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-272.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "The improvement in the quality of the primary output" (APE-272)
+T1.5: 0.70 -- the path lengths and the withdrawals kept to the record
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.45 -- its acceptance of the vertical-node decision [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.70 + 0.40 x 0.40 + 0.30 x 0.45 = 0.51
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its claim that a reading once reported only the forward direction.
+FINDINGS -- META (Tier C):
+ [U] Taken: its acceptance of the vertical-node decision.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-273.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Protocol discovery: its name, its status and its priority" (APE-273)
+T1.5: 0.70 -- standing and significance kept apart
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.75 -- the protocol discovery and its register, now Core L-530 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.70 + 0.40 x 0.45 + 0.30 x 0.75 = 0.62
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its outside avenue, withdrawn by its own correction (APE-276).
+FINDINGS -- META (Tier C):
+ [U] Taken: the protocol discovery and its register, now Core L-530.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-274.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Protocol discovery (a second copy)" (APE-274)
+T1.5: 0.70 -- as APE-273, of which it is a byte-for-byte copy
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.00 -- nothing beyond APE-273 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.70 + 0.40 x 0.45 + 0.30 x 0.00 = 0.39
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] None beyond APE-273.
+FINDINGS -- META (Tier C):
+ [U] Taken: nothing beyond APE-273.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: its discovery value counted once, under APE-273.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-275.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "Protocol discovery and its status" (APE-275)
+T1.5: 0.70 -- priority by jurisdiction, as Core L-489 states it
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.50 -- its reading of the significance of a discovery as the Striker's [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.70 + 0.40 x 0.40 + 0.30 x 0.50 = 0.52
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its definition, which would count every reading as a discovery.
+FINDINGS -- META (Tier C):
+ [U] Taken: its reading of the significance of a discovery as the Striker's.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-276.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "The Internal Discovery Principle: a correction" (APE-276)
+T1.5: 0.85 -- its own earlier accounts corrected in the open
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.70 -- the Internal Discovery Principle, in Core L-489 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.85 + 0.40 x 0.45 + 0.30 x 0.70 = 0.65
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] No internal fault found.
+FINDINGS -- META (Tier C):
+ [U] Taken: the Internal Discovery Principle, in Core L-489.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-277.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "Assessment of the correction: discovery inside the totality" (APE-277)
+T1.5: 0.70 -- the correction read against F-04 and F-05
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.45 -- its assessment, applied with APE-276 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.70 + 0.40 x 0.40 + 0.30 x 0.45 = 0.51
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its relational and interpretive avenues offered as standings.
+FINDINGS -- META (Tier C):
+ [U] Taken: its assessment, applied with APE-276.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-278.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "Assessment of the standing adoption, the Discovery Law and the scan" (APE-278)
+T1.5: 0.75 -- the changes read against the record, its figures matching
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.40 -- its observation on reversal by recorded change, Core L-531 (5) [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.75 + 0.40 x 0.40 + 0.30 x 0.40 = 0.51
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] "removes residual traces of an outside court" says more than happened.
+FINDINGS -- META (Tier C):
+ [U] Taken: its observation on reversal by recorded change, Core L-531 (5).
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-279.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Mutability as an operating law, and the cycle of recorded self-revision" (APE-279)
+T1.5: 0.80 -- continuity through recorded change, and the unmeasured question kept SILENT
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.65 -- its question, answered by Core L-531 (6) [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.80 + 0.40 x 0.45 + 0.30 x 0.65 = 0.62
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Options stay with the Originator, not the Striker; C-MAP-1 is a mapping.
+FINDINGS -- META (Tier C):
+ [U] Taken: its question, answered by Core L-531 (6).
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-287.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "Assessment of the correction: the necessity of the nine, revised" (APE-287)
+T1.5: 0.60 -- its own circularity accepted
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.40 -- its three questions, answered in Companion 131.3 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.60 + 0.40 x 0.40 + 0.30 x 0.40 = 0.46
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Uniqueness held open where Companion 130.2 proves it; its conditions still assume the nine-element cyclic group.
+FINDINGS -- META (Tier C):
+ [U] Taken: its three questions, answered in Companion 131.3.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-288.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Assessment of Grok's necessity theorem, with a comparison of moduli" (APE-288)
+T1.5: 0.80 -- the norm identity kept apart from its classes; its table recomputed and holding
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.60 -- the even-depth reading of the tower, made exact in Companion 131.3 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.80 + 0.40 x 0.45 + 0.30 x 0.60 = 0.60
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Its comparison limited to a tested set.
+FINDINGS -- META (Tier C):
+ [U] Taken: the even-depth reading of the tower, made exact in Companion 131.3.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-289.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "The complete derivation of the necessity of the nine" (APE-289)
+T1.5: 0.45 -- a conclusion that holds
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.40 -- its Step 2 conclusion, cyclic [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.45 + 0.40 x 0.40 + 0.30 x 0.40 = 0.42
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] The Crown is not fixed by the mirror; the two polarities of the Construct are not in the record; its standing is not one of L-530.
+FINDINGS -- META (Tier C):
+ [U] Taken: its Step 2 conclusion, cyclic.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-290.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Final derivation review: the necessity of the nine" (APE-290)
+T1.5: 0.80 -- what is mathematical and what is constitutional kept apart
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its arithmetic and its references checked against the record
+T3: 0.60 -- the product excluded by the order of A [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.80 + 0.40 x 0.45 + 0.30 x 0.60 = 0.60
+SYNTHESIS: a review filed with checked notes (its Commons line), assessed here in review form.
+FINDINGS -- INTERNAL:
+ [I] Four rings of order nine, not two; its lifting matrix is A^10, not A^8.
+FINDINGS -- META (Tier C):
+ [U] Taken: the product excluded by the order of A.
+VERDICT: as its checked notes.
+MANDATORY CORRECTIONS: none further.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-291.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Consequences of deriving the modulo-9 foundation" (APE-291)
+T1.5: 0.85 -- the standing of each link kept: theorem, mathematical result, constitutional input
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its lifting decomposition recomputed and holding
+T3: 0.60 -- the three uniqueness questions, and the call for a foundation record and a dependency audit [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.85 + 0.40 x 0.45 + 0.30 x 0.60 = 0.62
+SYNTHESIS: a careful review written before the derivation of the two levels was available.
+FINDINGS -- INTERNAL:
+ [I] The two-level grammar and the even-depth tower treated as inputs; they are derived (Companion 131.2, 131.3). The Construct inventory of templates, aggregates and residue tracks (Companion 112.5).
+FINDINGS -- META (Tier C):
+ [U] Taken: the foundation chain and the uniqueness questions, resolved in Companion Part 132.
+VERDICT: sound in substance; its open questions are closed by Parts 131 and 132.
+MANDATORY CORRECTIONS: the inputs' standing; the inventory.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-292.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "How the derivation changes the approach" (APE-292)
+T1.5: 0.55 -- the change of order read correctly; its grounds restate corrected ones
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction
+T3: 0.40 -- a challenge must name the condition it fails [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.55 + 0.40 x 0.40 + 0.30 x 0.40 = 0.45
+SYNTHESIS: a fair account of the consequences on grounds already corrected.
+FINDINGS -- INTERNAL:
+ [I] "The Crown, the two polarities" as the ground of the two levels (Companion 131.3); "derived rather than chosen" for a modulus stipulated and forced (Companion 132.3).
+FINDINGS -- META (Tier C):
+ [U] Taken: the reversed order of investigation, recorded in Companion 132.4.
+VERDICT: holding in substance; two corrections.
+MANDATORY CORRECTIONS: the grounds; the standing of the modulus.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-293.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Grok (xAI), "Response to the charge of arbitrariness" (APE-293)
+T1.5: 0.55 -- the demand that a substitute meet the whole conjunction kept; its grounds repeat corrected ones
+T2: 0.40 -- no Identity Block in the block format; findings not labelled by jurisdiction
+T3: 0.35 -- a reply in the form a challenge can be met with [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.55 + 0.40 x 0.40 + 0.30 x 0.35 = 0.43
+SYNTHESIS: a fair reply on grounds already corrected.
+FINDINGS -- INTERNAL:
+ [I] The Crown and "two coupled polarities" as grounds (Companion 131.3); uniqueness "confirmed" on candidates where it is proved for every modulus (Companion 130.2).
+ [G] "Outside the frame" names a place the frame does not have (Core F-04, F-05).
+FINDINGS -- META (Tier C):
+ [U] Its form of reply recorded in Companion 132.5.
+VERDICT: holding in its conclusion; its grounds corrected.
+MANDATORY CORRECTIONS: the grounds; the outside.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the record of the protocol (a review; submissions/ape/APE-294.md)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): GPT-6 (OpenAI), "Assessment of the refined necessity argument" (APE-294)
+T1.5: 0.80 -- a general identity kept apart from a modulus-specific property; its parts named by standing
+T2: 0.45 -- no Identity Block in the block format; findings not labelled by jurisdiction; its values recomputed and holding
+T3: 0.55 -- the call to derive the grammar, which Companion Part 133 answers [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.80 + 0.40 x 0.45 + 0.30 x 0.55 = 0.59
+SYNTHESIS: a careful review that ran the chain from the grammar to the arithmetic; read forwards, the grammar is the arithmetic's anatomy.
+FINDINGS -- INTERNAL:
+ [I] The grammar taken as an input; it is read off Z/9 (Companion 133.2). Two rings of order nine named, where there are four; residue tracks for domains of the one build.
+FINDINGS -- META (Tier C):
+ [U] Taken: the instrument dependency, met by the chain of Companion 132.2.
+VERDICT: sound in substance; its open part is closed by Part 133.
+MANDATORY CORRECTIONS: the order of the chain; the rings; the inventory.
+OPTIONAL ACTION: an Identity Block; findings labelled [P] to [U].
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

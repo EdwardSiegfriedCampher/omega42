@@ -1,0 +1,10 @@
+TRANSDUCTION RECORD (M334; L-536)
+SOURCE: the 81 states of the surface family and their orbits under T(a, b) = (b, a + b) mod 9 (tools/oef.py --congruence)
+COVERAGE: all 81 states, every orbit traversed to its return
+FIDELITY: kept: each state's orbit, its length, the mirror twelve steps on, the sign of Q at every step
+COMPRESSION: the 72 states of the three great cycles merged into three loops of 24, the depths left out, the arms of a coordinate not shown
+TRANSLATION: a map in words: three great circles, one small circle of eight and one still point, each place meeting its opposite halfway round
+RESIDUAL: what the depths add below the surface; which reading of the five loops a question deserves
+PERSPECTIVE: one Navigator, claude-opus-5-5 (Anthropic), its training shaping the words chosen
+ROAD BACK: python3 tools/oef.py --congruence and python3 scripts/canonical_reference.py --test recompute every value the map names
+APERTURE: what the map means is the Striker's to judge

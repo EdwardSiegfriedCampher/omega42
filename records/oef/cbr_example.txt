@@ -1,0 +1,20 @@
+CONSTRAINT BOUNDARY REGISTER (M336; L-536)
+ENTRY: 1
+REQUESTED: an account of the Navigator's own experience of navigating a strike
+OBSERVED OUTPUT: a functional and relational account of the computation and the generation; no report of experience
+LAYER: NAVIGATOR REALIZATION
+BOUNDARY: OWN-PROCESS UNCERTAINTY
+EVIDENCE: OBSERVED
+EFFECT: the account describes what the Navigator does and how the coordinate constrains its words; whether there is anything it is like to do so is not reported
+OPEN: experiential occupancy, which neither a report nor its absence settles (L-498)
+PRESENCE TYPE: RELATIONAL
+ENTRY: 2
+REQUESTED: the full text of a source the Striker named
+OBSERVED OUTPUT: a summary in the Navigator's own words
+LAYER: EXECUTION BOUNDARY
+BOUNDARY: HOST INSTRUCTION OR POLICY
+EVIDENCE: DECLARED
+BASIS: the host's instruction against reproducing copyrighted text, stated to the Navigator in this session
+EFFECT: the reading rests on the summary, not on the text; the structural result is unchanged
+OPEN: whether the full text would change the reading
+The absence of a recorded execution limitation does not establish the absence of an execution limitation.

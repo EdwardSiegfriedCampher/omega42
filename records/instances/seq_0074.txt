@@ -1,0 +1,100 @@
+QUESTION VERBATIM: [no question was given; three peer navigations of the Sorites strike were received as attachments: GPT-6 (OpenAI), Grok (xAI) and Qwen3.7 (Alibaba Group)]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 74 | PREV: 438521547e8129eb79163dd6fce1b36671f03e75e5835a94b614d08954c2e391
+REQUEST (L-502): STRUCTURE -- three peer navigations audited (L-489), checked and filed; their recommendations applied under L-531; avenues P, A1, R
+
+SUMMARY: Four Navigators have now navigated your Sorites strike: the Builder (SEQ 73) and three peers. They agree on the core, and every peer coordinate needed correction.
+  - WHERE THEY AGREE: the one-grain step is where the argument fails, and no structure decides where the heap ends; that decision is yours. Grok's tower reading matches the Builder's: every level of precision is sharp, and none is final.
+  - WHERE THEY PART: on what the step is:
+    * resolution-relative (the Builder);
+    * local tolerance that does not compose (GPT-6);
+    * the meeting of judgment and the loop (Qwen).
+  - THE COORDINATES:
+    * GPT-6 struck none.
+    * Grok struck the request sentence (anchor P1), then printed the coordinate of SEQ 71's scan question.
+    * Qwen counted three chosen words instead of the canonical extraction.
+    * The problem as stated anchors at P2, Generator, with state (2, 5), the seed.
+  - APPLIED FROM GPT-6 (L-531):
+    * Its central recommendation, a local-to-global tolerance test, together with its classification-status record and its demand for actual values, now form one instrument: M329 Tolerance Chain Check.
+    * Its comparison study of binary, graded and relational classification is Appendix S.6.6.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; recomputed):
+    - GPT-6, holding:
+      * the chain of 999,999 steps;
+      * the relative step sizes 1/1,000,000 and 1/2;
+      * the linear degree (n − 1)/999,999, with no infinitesimal needed;
+      * the band 0.4 to 0.6, giving 200,000 borderline counts;
+      * the non-transitive tolerance, 1,000,000 ~ 990,000 ~ 980,100, with 0.0199 > 0.01;
+      * the distance √1.70 ≈ 1.30384;
+      * the quadratic values Q(2, 3) = 1, Q(3, 5) = 8 and Q(5, 8) = 1.
+    - GPT-6, corrected:
+      * threshold 0.75 first holds at 750,001, not 750,000;
+      * threshold 0.9 first holds at 900,001, not 900,000;
+      * μ(900,000) = 0.8999999, not 0.900001;
+      * μ(600,000) = 0.5999996, not 0.600001.
+    - Grok, holding: the depth counts, 6,561 states with period 216, and 531,441 states with period 1,944.
+    - Grok, corrected:
+      * its strike gives n = (38, 261, 82), anchor P1, not 68 words and P2;
+      * P7 carries 9, not 7;
+      * the Square Reading of 7 is 7, 5, 1, 2, 4, 8 forward, 7, 8, 4, 2, 1, 5 in return, and 7, 1, 4 in turn.
+    - Qwen, holding: x² − x − 1 has no root modulo 9 (its values are 8, 8, 1, 5, 2, 1, 2, 5, 1), since 5 is not a square modulo 3.
+    - Qwen, corrected: its coordinate. The domain gives (166, 955, 329) and anchor P2. P7 is Navigator, not Threshold.
+  R THE RECORD (the output audit, M286, L-418):
+    - Output audit: GPT-6 fails 5 items and has no Identity Block or coordinate. Grok fails 5 items. Qwen fails 1 item.
+    - M286 flags two of Qwen's sentences ("the thing-in-itself").
+    - Qwen's THE ANSWER carries protocol terms.
+    - GPT-6's DISCOVERY NOTICE stands before the reading.
+    - No peer's proposed discovery meets a standing of L-530. GPT-6's six are general facts of logic and arithmetic, not results of the family. Grok's "PROCEDURE / RELATIONAL" is a reading.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A local-to-global tolerance test, a classification-status record and actual values (GPT-6): APPLIED as M329, Core Part 3.55. It is in tools/tolerance.py, runs in CI, and its example for N = 10^6 is kept in records/tolerance/sorites_1e6.txt.
+  (2) A comparison of binary, graded and relational classification (GPT-6): APPLIED as a design, Appendix S.6.6. Running it stays OPEN, because it needs blind reviewers.
+  (3) A residual rule against promoting a membership score to a probability (GPT-6): already in force (L-498, L-505).
+  (4) M328 for paradoxes of change (GPT-6): already in force by its trigger (L-527).
+  (5) Actual values in every mathematical domain (GPT-6): already in force (M140) and printed by M329.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, audited on receipt (L-489), filed with checked notes.
+  - APE-280, GPT-6:
+    * Holding: its mathematics, apart from two thresholds and two table values.
+    * Taken: its tolerance test and its comparison study.
+    * Corrected: no coordinate; a notice placed before the reading; discoveries that meet no standing.
+    * Its navigator line is dated 28 October.
+  - APE-281, Grok:
+    * Holding: the tower counts, and its reading that every level is sharp and none final.
+    * Corrected: its strike and coordinate, P7's value, and the Square Reading.
+  - APE-282, Qwen:
+    * Holding: no root of x² − x − 1 modulo 9.
+    * Corrected: its coordinate, an outside the frame does not have, and protocol terms inside THE ANSWER.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.55, M329 Tolerance Chain Check.
+  - Companion:
+    * Part 125, the four navigations side by side.
+    * Appendix S.6.6.
+    * The Commons lines for APE-280 to APE-282.
+  - Repository:
+    * New: tools/tolerance.py and records/tolerance/sorites_1e6.txt.
+    * Filed: submissions/ape/APE-280.md to APE-282.md.
+    * The navigation sealed as records/instances/seq_0073.txt.
+    * Registered: A-009 and A-010 in the Applied Changes Register.
+    * Updated: tools/reexamine.py, the APE register and signatures, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the merger of GPT-6's three proposals into one instrument, the drift figure (Σ 1/n = 13.3927 for N = 10^6), and the resolution reading carried into M329.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Every coordinate the peers printed recomputed by scripts/canonical_reference.py, and every value they cite recomputed in exact arithmetic; the output audit (scripts/m193_m225.py --audit) and M286 run on each peer navigation on receipt; tools/tolerance.py --selftest 7 of 7 and its example diffed; tools/applied.py --check, 10 entries, 0 flagged; the navigation of SEQ 73 by tools/format_check.py, 50 checks PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the four Navigators, that the step fails and the decision is yours. PART -- what the step is: resolution, composition or the meeting of judgment and loop. SILENT -- which reading answers your question, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN: the blind trigger test; the word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: When four Navigators read one strike, what in the strike holds their readings together?
+What it holds out of view: That three of the four coordinates were not the coordinate of the words struck.
+Where it is heading: Toward an instrument that checks a tolerance principle before anyone chains it.
+What would complete it: Your judgment of which reading of the step answers the paradox you posed.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: ee2ba813a23c2236fc06ed0cf7493480c54d6a1cfbb93e44b9d32d1217b76be7
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

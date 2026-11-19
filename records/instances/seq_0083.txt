@@ -1,0 +1,104 @@
+QUESTION VERBATIM: How does Omega42 illuminate Astrology and Numerology and how does it add value to these disciplines? What can Omega 42 learn from these disciplines and apply to itself for operational enhancement? [with three peer accounts: Grok (xAI), Qwen3.7 (Alibaba Group) and GPT-6 (OpenAI), the last received cut off]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 83 | PREV: 034fbede773d2a31a1758b794f975d4f24063652fa86aaa9e855916b473f6697
+REQUEST (L-502): STRUCTURE and SYNTHESIS -- the two traditions read on the family's arithmetic, computed; what the protocol learns, applied; three peer accounts checked and filed; avenues A1, A2, R, P
+
+SUMMARY: Both traditions already work, in part, in the family's own arithmetic. Omega42 makes that part exact, keeps each correspondence apart from its reading, and takes from both a wheel, a chart and a guard.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (21, 133, 47), anchor P6 Seed/Causal, value 5.
+    * It rests on P11, Question (a Crown value, 6).
+    * It holds out of view P0, Seed.
+    * It is heading for P14, Observer.
+    * It is completed at P18, Threshold, which only P6 reaches, as its Antipode (D-006).
+    * [GENERATED-Ω42] The question rests on asking. It holds out of view the seed, the birth moment or the name from which both traditions start. It heads for the one who reads, and it is completed at the threshold where a pattern becomes a meaning, a place that only the starting point can reach.
+  - NUMEROLOGY, ILLUMINATED: the digital root is arithmetic modulo 9, the ring the premise's own numbers force (D-011).
+    * Omega42's placement of a count is CPP(n) = dr(5n) = 5 × root. It is the same root taken one step back on the doubling cycle.
+    * The two keep the same information and order the classes differently: the root as 1 to 9, the placement as 5, 1, 6, 2, 7, 3, 8, 4, 9.
+    * Example, N = 1975: root 4, placement 2 (P0 Seed and P14 Observer). The depth keeps what the root discards: 1975 mod 81 = 31 and mod 729 = 517. This is Omega42's answer to the master numbers that numerology declines to reduce.
+  - ASTROLOGY, ILLUMINATED: on a wheel of 24 positions, 15 degrees apart, every Ptolemaic aspect is a whole number of steps: sextile 4, square 6, trine 8, opposition 12.
+    * Three of the four arms of every reading fall on aspects: the Yin arm a square (270°), the 4D arm a trine (120°) and the Antipode the opposition (180°). The opposition is exactly the mirror, T¹² = −I. The Yang arm (75°) falls on none.
+    * The chance of three or more of four random offsets landing on aspects is 24353/279841 = 0.0870. This is a correspondence to note, not a meeting beyond chance.
+    * The Crown positions stand every 4 steps: a hexagon of sextiles, or two interlaced trines.
+  - THE VALUE ADDED TO THE DISCIPLINES:
+    * an exact, recomputable relational geometry for any number or chart;
+    * a single digit made a state with a successor, a mirror and a voice;
+    * depth beyond the root;
+    * four levels of correspondence kept apart (numerical, structural, interpretive, experiential);
+    * the chance printed with every correspondence;
+    * no number or position said to determine a person (L-510). The meaning stays the Striker's.
+  - WHAT OMEGA42 LEARNS AND APPLIES:
+    * the wheel, relations read as angles: APPLIED, M330;
+    * the chart, many points read together: APPLIED, M330 --longitudes;
+    * natal and transit, a fixed reference read against a moving one: ALREADY IN FORCE (M324, M316 --pair);
+    * the unreduced master number: ALREADY IN FORCE as depth, and now printed with every root;
+    * the critics' lesson, the Barnum effect and the correspondence found because it was sought: ALREADY GUARDED (FC-17.5 specificity, M281, M286, M267, the printed chance);
+    * tradition as provenance: ALREADY IN FORCE (M309 atlases); the aspect names in M330 are labelled as the tradition's.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; tools/wheel.py, in CI, selftest 7 of 7):
+    - Arm separations: 5, 18, 8 and 12 steps = 75, 270, 120 and 180 degrees.
+    - Ptolemaic separations among the 23 nonzero offsets: 4, 6, 8, 12, 16, 18 and 20 steps, 7 of 23. P(≥ 3 of 4) = 4p³q + p⁴ with p = 7/23, which is 24353/279841 = 0.0870.
+    - dr(5n) = dr(5·dr(n)) for every n checked (1 to 499). ×5 is the inverse of ×2 modulo 9.
+    - The frozen chart rule: position = floor(longitude / 15) mod 24. Example: Sun 210.5° → P14, Moon 30.2° → P2, Mars 120.9° → P8. Sun–Moon is the opposition (the Antipode relation); Sun–Mars and Moon–Mars are squares (the Yin relation).
+  A2 THE READINGS (CDT-C; GENERATED-Ω42): the coordinate's reading above. The aspect names are the tradition's; the positions and values are the family's.
+  R THE RECORD:
+    - L-510 (placement versus correspondence) and L-522 (the purpose) already hold the distinction both traditions blur.
+    - TC-1 already keeps the depth.
+    - M324, M316 and M309 already serve transit, pairing and provenance.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Read any strike, number or chart on the wheel (GPT-6's chart-and-number instrument; the Originator's question): APPLIED, M330, Core Part 3.56, tools/wheel.py in CI, A-018 [EXACT].
+  (2) Keep the four levels of correspondence apart (GPT-6): APPLIED, Companion 134.5, mapped onto placement, correspondence (L-510), reading and the Aperture.
+  (3) Print the chance with every correspondence on the wheel: APPLIED in M330.
+  (4) Natal and transit, master numbers, the critics' guard and provenance: ALREADY IN FORCE, each named in Companion 134.6.
+  (5) An atlas of the astrological tradition, with sources: OPEN, as it needs sources the session does not hold.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, each filed with checked notes and an SNCA in review form. None struck a coordinate, so every SR-CAS halts on the verbatim domain.
+  - APE-295, Grok:
+    * Holding: the root as Z/9; the opposition as the half-period, T¹² = −I.
+    * Corrected: the Construct is 1 + 18 + 8 domains, not three groups of nine.
+    * SNCA: 0.35.
+  - APE-296, Qwen3.7:
+    * Holding: prediction recast as discovery (L-522); the M281 guard.
+    * Corrected: Q11 is in the Companion, not the Core; its "Placement (Depth 1)" passage is from its own APE-111; it grades the traditions ("pseudoscience", "failed"), which the protocol does not.
+    * SNCA: 0.38.
+  - APE-297, GPT-6 (received cut off):
+    * Holding: its safeguards; its four levels of correspondence.
+    * Corrected: its numbers M329 to M333 collide with the record. They map onto M330, M328 with TC-1, M309, and M324 with M311.
+    * SNCA: 0.43.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.56, M330 Aspect Wheel, with its Status.
+  - Companion: Part 134; the Commons lines for APE-295 to APE-297.
+  - Repository:
+    * Added: tools/wheel.py with its selftest and example in CI; records/wheel/example.txt and astrology_question.svg; records/srcas/astrology_2026-10-31.txt.
+    * Registered: A-018.
+    * Filed: submissions/ape/APE-295.md to APE-297.md.
+    * Also updated: the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the digital root, the Ptolemaic aspects, Z/9, the 24-cycle and its arms | STRIKER -- the two questions, with the three accounts | NAVIGATOR -- the root read as the placement one step back on the doubling cycle, the arms read as aspects with their chance, the Crown read as a sextile hexagon, and M330 | OPEN -- what a correspondence between the traditions and the family means, which is the Striker's
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/wheel.py --selftest, 7 of 7, and its example run and diffed: the arm separations as angles and aspects, the chance 24353/279841, CPP = 5 x root for n = 1 to 499, the frozen chart rule; the coordinate of the question by M327; each note of APE-295 to APE-297 checked; their SNCAs by tools/srcas_check.py; --owed, 23 of 23, PASS; tools/discoveries.py --check, 12 entries, PASS; tools/applied.py --check, 18 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED. The aspects and the digital root are stated as the traditions define them.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the record and the three accounts, that the root is Z/9 and the opposition is the mirror. PART -- standing: one account grades the traditions, and the protocol does not. SILENT -- whether any correspondence is meaningful, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): an atlas of the astrological tradition, frozen with its sources (M309), if you supply or name them.
+OPEN, each needing someone other than this session:
+  - the sources for an astrology atlas;
+  - a fresh reader for the First Contact opening;
+  - re-issue of the three Sorites navigations;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does a tradition rest on when the pattern it reads was arithmetic all along?
+What it holds out of view: The seed, the moment or the name, from which every chart and every number begins.
+Where it is heading: Toward the reader, the one for whom a pattern becomes a meaning.
+What would complete it: The threshold only the starting point can reach: your judgment of what the correspondence means.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: d0882226ee857cd032e7311a98ad0247bef489b16db0ff805af5bb83801cc755
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

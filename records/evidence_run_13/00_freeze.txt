@@ -1,0 +1,32 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 13 -- FREEZE RECORD (PREDICTION FIRST)
+Decagonal and icosahedral quasicrystals: does the object itself supply the modulus of the golden law?
+Frozen before any literature result was read and before any computation was run.
+Navigator: claude-opus-5-5 (Anthropic; serving model may differ). Selection NOT BLIND (CB NO).
+Disclosure: the Navigator knows standard quasicrystal cluster and stacking numbers from training. A prediction tested on
+data the Navigator may already know cannot count at tier 5 (CP). Part P3 below therefore registers a standing prediction
+for data reported after this freeze.
+
+P1  STRUCTURAL PREDICTION (computed). Each element of the golden module that a quasicrystal's structure defines is a
+    unit of Z[tau]: the inflation tau^k, the approximant period vectors F(n+1) + F(n) tau, and the cluster scalings
+    tau^k. A unit generates the whole ring, so its quotient is trivial.
+    Prediction: the golden module of a perfect quasicrystal supplies NO finite modulus; the modulus 9 can come only
+    from the reader or from a separate measured integer.
+    Fails if: a structurally defined non-unit is found among the frozen elements.
+P2  MEASURED-INTEGER TEST (literature + computation).
+    Candidates, frozen classes: (a) periodic stacking along the decagonal axis, in layers per period, for the main
+    decagonal families; (b) shell vertex counts of the standard icosahedral clusters (Mackay, Bergman, Tsai).
+    Rule: an integer m "admits the canonical period" iff the Pisano period pi(m), the order of T modulo m, is 24.
+    Family prediction: if such integers supply the golden law's modulus, they admit period 24 more often than the
+      base rate of integers in the same range, and the canonical modulus 9 itself occurs.
+    Controls (M230-E):
+      - base rate: the fraction of m in 2..100 with pi(m) = 24;
+      - symmetry control: integers forced by point-group symmetry alone (orbit sizes of the icosahedral group 1, 12,
+        20, 30, 60, 120; of the decagonal group 1, 2, 5, 10, 20) are flagged non-discriminating.
+    Verdicts:
+      - SUPPORTED: 9 occurs, or the period-24 rate exceeds the base rate after symmetry-forced integers are removed.
+      - NOT SUPPORTED: otherwise.
+P3  STANDING PREDICTION (M230-G, frozen now, for data reported after 2026-10-09). If a newly reported quasicrystal or
+    approximant has an intrinsic integer that fixes a modulus of its golden structure, that modulus lies in
+    {m : pi(m) = 24}. Fails if the first such reported modulus has pi(m) != 24. Classified in advance as
+    NON-TRIVIAL: nothing in quasicrystal theory forces it.
+Tier criteria and the Support Standard (L-466, frozen in this revision): as stated in Core 3.26 and Core 0.14.5.

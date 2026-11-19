@@ -1,0 +1,94 @@
+NEGATIVE RESULT REGISTRY -- CORRESPONDENCE ENTRIES (Companion 24.2; Evidence Mandate, L-464)
+Each entry records a clean low or negative result of the correspondence programme, with its source record.
+Entries are never deleted; a later result that changes an entry is added as a new line referring to it.
+
+NRR-C01  2026-10-05  Microtubules (13-protofilament lattice): correspondence at tier 1, indistinguishable from null; the
+         Fibonacci feature closed (3-start helix). Core Part 3.27, first run.
+NRR-C02  2026-10-09  Golden-field cat map: no cat map over Q(sqrt5) independent of T carries the canonical 24-orbit; A = T^2
+         has cycle type (12^6, 4^2, 1); every golden-polynomial matrix in GL(2,Z/9) is conjugate to T or to -T = T^13.
+         records/evidence_run_03/03_ledger.txt, Q1.
+NRR-C03  2026-10-09  24-fold order in matter: no experimental observation found; 24-fold quasicrystalline order reported in
+         simulations of self-assembling soft-matter models only. records/evidence_run_01 (E1) and records/evidence_run_02
+         (E6).
+NRR-C04  2026-10-09  Spectral pattern of V^2 at N = 9 (missing k = 3, 6, 9): unique among odd N from 3 to 27, but by a
+         criterion taken from N = 9 itself; post-selection, not counted. The pattern follows from the family's cycle structure
+         (records/evidence_run_12, R3b). records/evidence_run_03/03_ledger.txt, Q2.
+NRR-C05  2026-10-09  Eisenstein integers modulo 9 (hexagonal lattice) and Z[sqrt-2]/9: neither carries the 81-state family
+         (no root of x^2 - x - 1; 54 and 36 units). Z[i]/3, Z[phi]/3 and Z[sqrt-2]/3: none carries the Torsion/Crown
+         partition. records/evidence_run_04/03_ledger.txt, Q2 and Q3.
+NRR-C06  2026-10-09  Square lattice 3 x 3 torus under 90-degree rotation (4, 4, 1) and triangular N x N tori, N != 3: none
+         carries the nine-value Torsion/Crown action. Cube rotation group S4 and the cyclic group of order 24: neither acts
+         faithfully and linearly on the family's nine-state core. records/evidence_run_05/03_ledger.txt.
+NRR-C07  2026-10-09  Leech lattice, family quotient: two copies of the family with T exact under an order-24 symmetry, but
+         identical on the cubic lattice Z^24 -- not distinguishing; Leech stays tier 2. 24-cell order-12 symmetry: quotient
+         by the golden relation trivial; only the nine-state core under T^2. records/evidence_run_06/03_ledger.txt.
+NRR-C08  2026-10-09  Close-packed stacking: the law modulo 3 cannot govern layer positions (it has equal neighbors) or layer
+         differences (it contains 0); the h/c sequence can follow it only modulo 2, which selects nothing beyond period 3.
+         Quasicrystal hierarchy: the period 24 of F(n) modulo 9 is supplied by the reader. records/evidence_run_07/03_ledger.txt.
+NRR-C09  2026-10-09  Operator/manifestor pair: under the frozen criteria (8, 9) is one of 19 qualifying coprime pairs, not
+         singled out; the mod-8 layer alone has no half-period negation and no orbit separation by the norm form.
+         records/evidence_run_08/03_ledger.txt.
+NRR-C10  2026-10-09  E8 quotients: the family arises on E8/9E8 and on the blocked Z^8 alike (non-discriminating; only the
+         symmetry of the golden structure distinguishes E8); in E8 and in the E8 spectrum of CoNb2O6 the moduli 9 and 8 are
+         not supplied by the object. records/evidence_run_09/03_ledger.txt.
+NRR-C11  2026-10-09  Topological phases: the family's 24-cycle and the modulus 9 do not appear in the Fibonacci theory or in
+         E8_1; the period-24 framing phase is a numerical resonance only. records/evidence_run_10/03_ledger.txt.
+NRR-C12  2026-10-09  The family's anyon theory is not the Z9 toric code nor SU(9)_1 x conj(SU(9)_1); among SU(N)_1, N = 2..30,
+         only N = 9 and 25 have a bosonic Lagrangian subgroup; the golden form modulo odd N <= 29 has a Lagrangian boson set
+         only at N = 9. records/evidence_run_11/03_ledger.txt.
+NRR-C13  2026-10-09  Planar quasicrystal modules modulo 3 (8-, 10-, 12-fold; 81 states each): no golden element of order 24
+         (characteristic 3 gives order 8); the family's full symmetry group (j r j = r^11) is no planar point group, so no
+         24-fold planar pattern carries it. records/evidence_run_12/03_ledger.txt, R1.
+NRR-C14  2026-10-09  Quasicrystals: the golden module supplies no finite modulus (inflation, cluster scaling and approximant
+         periods are units of Z[tau]); measured cluster and stacking integers do not include 9, and their period-24 rate
+         (1 of 5, inferred) is not distinguishable from the base rate (P = 0.38). records/evidence_run_13/03_ledger.txt.
+NRR-C15  2026-10-14  The spectrum of multiplication by phi does not separate the three long orbits: multiplication by the
+         units 1 + 3phi and 2 + 5phi commutes with phi and carries the orbit of (1, 1) onto those of (1, 3) and (2, 5), so
+         period, half-period negation and frequencies coincide; discrimination needs the integer lift of the values, and
+         is post-selection recognition (L-423). records/golden_navigations/compute.py, item 4.
+NRR-C16  2026-10-17  CT-S1 pilot (P2 refined, MM-13): of the 20 meaning-and-value domains of CRC-60, 2 lie on the core
+         (expected 1.98, P = 0.601) and 7 in the seventh half (expected 8.89, P = 0.859): not above chance on either
+         measure, under a protocol frozen before any state was computed (SHA-256 ca917c5e...). All 60 domains lean to the
+         manifest half (40 of 60). records/consciousness/CT-S1_pilot.txt.
+NRR-C17  2026-10-18  The canonical extraction on non-Latin text: a question written in a non-Latin script yields no counted
+         word and lands on the still point (0, 0) at P9 -- "Что такое сознание?", "什么是意识？", "ما هو الوعي؟" and
+         "의식이란 무엇인가?" alike -- indistinguishable from a NULL STRIKE (L-468). Under the frozen rules the extraction
+         reaches Latin script only. Resolution: routing and adaptors (Core L-501, Part 3.43); KO-HANGUL-1 the first.
+
+NRR-C18  2026-10-23  Experiential spectrum placement (Companion Part 89): Plutchik's four pairs of opposite emotions, struck as
+         "What is X?" under a protocol frozen before any state was computed (SHA-256 7e282c44...): 2 of 4 pairs in opposite
+         halves (chance 0.4938 per pair given r1 = 1; P(>= 2 of 4) = 0.6782), 0 of 4 as antipodes. Not above chance. The form
+         "What is X?" fixes r1 = 1, and the antipode of (1, b) has r1 = 8, so in this form no pair can stand as antipodes:
+         the wording decides which relations are possible. records/consciousness/levels_output.txt.
+NRR-C19  2026-10-23  Vibration modes and the law (Companion Part 92; APE-162's Pattern-to-State Mapper): an ideal square
+         membrane's first 200 modes by frequency, (m, n) mapped to (m mod 9, n mod 9). Listed with both members of each
+         degenerate pair, 8 of 199 steps follow T (chance 2.46, p 0.0044), and 7 of the 8 are the artefact (m, 9) -> (9, m),
+         since T(a, 0) = (0, a). Listed one mode per frequency class, 3 of 199 (p 0.4809): at chance. The mapping rule, not
+         the membrane, made the first result. records/cymatics/examples_output.txt.
+NRR-C20  2026-10-23  The Navigator's own overstatement (SEQ 34; Companion 96.6), found by APE-170: "the 81-state family
+         exists exactly where 1 x 1 = 1" and "without a 1 that is the identity, the return cannot be stated". In the ring
+         (Z/9, +, 2xy), 1(*)1 = 2 holds with identity 5; the law uses only +, so the family and T^24 = I are unchanged. The family
+         is lost only in the collapse. "Nothing new arises" holds for rings on the family's addition and for the affine form,
+         not for every operation: truncated addition min(x + y, 8) is new. tools/claimcheck.py --ring.
+NRR-C21  2026-10-23  Two controls of M319 (avenues 2 and 3; Companion Part 98). PROXIMITY: thirteen bus-timetable sentences
+         chosen only for standing on Voice C read 100, and thirteen unselected template sentences 82, so the figure can be
+         raised by choosing statements (records/avenues/adversarial_atlas_output.txt). ROLES: a timetable, a recipe and a
+         statute each fill all five M309 roles, 1.00, as every registered idea does (records/avenues/role_saturation.txt).
+         Both are entered in L-521: PROXIMITY is not quoted as evidence before avenue 10, and the role column is retired.
+NRR-C22  2026-10-23  The Navigator's own error (SEQ 36), found by the FFP run of SEQ 37: SEQ 36's CHECKS line states "CI 68 of
+         68 PASS" and "SHA256SUMS verified", but the build that ran on it reported the consistency register FAIL (Companion
+         98.2 cited "Parts 3.47 to 3.49" and "Part 8.0" without "Core"; 98.8 used "very"), and SHA256SUMS was last written
+         before it. A CHECKS line is written after the run it reports, never before. Fixed in Companion Part 99.
+NRR-C23  2026-10-23  The cube-group panel (avenue 11), run under its frozen rule: the rotation group of the cube and octahedron,
+         S4, scores 0.2 on the five frozen features of the law's group (order-3 element only), the lowest of the 15 groups
+         of order 24, each built and checked from its table; PROXIMITY 0. Its order, 24, is shared by the whole class and
+         carries no further resemblance. records/resonance/cube_group_panel_output.txt.
+NRR-C24  2026-10-24  The Navigator's own error, found at the Originator's request (L-491; M286 TRIAL): SEQ 36 to SEQ 38 and
+         Companion Parts 98 and 99 framed optional comparative studies as a trial of the protocol -- M267 called "the decisive
+         test", the coordinate's standing made to wait on it, the protocol's potential graded "low on the present record" by
+         comparative results. Ten sentences of the three sealed outputs are kept as written (L-520). The Companion and Core
+         prose is retyped: comparative studies stay optional in Appendix S, each in its own scope, and none decides the
+         protocol, its premise, its coordinate or its readings. M286 now flags the pattern (TRIAL).
+READING NOTE 2026-10-16 (Core L-490, L-491; records/reexamination/REEXAMINATION.md RX-27). Entries above are kept as
+written. Their "tier n" reads Congruence Depth n. Each entry describes where the structure was not found in one
+representation. No entry is a failure of Omega42 or a judgment on its premise, which no comparison grades.

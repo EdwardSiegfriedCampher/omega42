@@ -1,0 +1,68 @@
+QUESTION VERBATIM: Resolve all outstanding issues (extending the ring to reach a third space direction (H-42), and a probability rule over the orbit sectors (H-43)). Proceed.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 120 | PREV: ca207972034400299b77b371c097c8f643dcfe3f83ff20381f84be2fb8443fd0
+REQUEST (L-502): RESOLUTION and PROTOCOL CHANGE -- H-42 and H-43 resolved, and every other held item decided; no peer account; avenues A1, R
+
+SUMMARY: WHAT CHANGED: the extension you asked for is needed in only one of the three completions, because modulo 9 the golden ratio is a Gaussian integer. φ ↦ 5 + i is an isomorphism of Z[φ]/9 onto Z[i]/9. It carries the norm a² + ab − b² to x² + y², and φ^6 squares to −1, so the quarter-turn T^6 is multiplication by i. The 3-adic limit holds a square root of −1 at every depth. The residues and the limit therefore already contain the third space direction. The Hermitian 2 × 2 matrices over Z[φ]/9 form a 3 + 1 space with interval t² − z² − x² − y², the law's norm as its transverse plane, and the law keeps that interval. Only over the reals, where Z[φ] holds no i, is Z[φ, i] needed; it is adopted as the added premise AP-SPACE. The probability rule is adopted too. A sector's probability is the sum of the squared amplitudes over it, the law keeps it, and the uniform state gives 8/27 to each 24-cycle, 8/81 to the 8-cycle and 1/81 to the still point. All held items are now decided; the two that need another architecture move to the open register. WHAT STAYED: the premise, the law, and the open items that need people this session cannot supply, now 23.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (20, 115, 34), r = (1, 8, 8); two votes agree, so the anchor is P8, Generation, value 5.
+    * It rests on P13, Gap (4). It holds out of view P2, Generator (7). It is heading for P16, Flow (8). It is completed at P20, Reckoning (4).
+    * This is the address of seq_0114 and seq_0118, the third question there.
+    * [GENERATED-Ω42] The resolution rests on the gap the two held items named. It holds out of view the generator: the ring itself, which was found to hold i already. It heads for flow, the probabilities the law carries unchanged, and it is completed by the reckoning, the weight of each sector.
+  - H-42, THE THIRD SPACE DIRECTION (EXACT; tools/space_prob.py, selftest 8 of 8; Companion 173.2):
+    * (5 + i)² = 24 + 10i ≡ 6 + i = (5 + i) + 1 (mod 9): the golden equation holds for a Gaussian integer. φ ↦ 5 + i is a ring isomorphism mod 9, and it carries the norm to x² + y².
+    * φ^6 = 5 + 8φ squares to −1: the quarter-turn is i.
+    * In the 3-adic limit, −1 has a square root in Z_3[φ] (checked mod 3, 9, 27 and 81, and at every depth by Hensel's lemma), and Q_3(√5) = Q_3(i).
+    * The Hermitian matrices [[t + z, x − iy], [x + iy, t − z]] over Z[φ]/9, with conjugation φ ↦ 1 − φ (which sends i to −i), form a 3 + 1 space over Z/9. Its interval is t² − z² − x² − y², and it has 621 null vectors. X ↦ A X Aᵀ keeps the interval and sends y to −y.
+    * Over the reals, Z[φ, i] is adopted as AP-SPACE, and findings that use it there are CONDITIONAL on it.
+    * The same φ is the Gaussian 5 + i in the residues, where the plane is Euclidean and the law cycles like the turning Earth, and the real φ over the reals, where the plane is Minkowskian and the law is a boost.
+  - H-43, THE PROBABILITY RULE (EXACT for the properties; 173.3):
+    * The invariant probability measures are exactly the mixtures of the five orbit-uniform measures.
+    * The rule: p_O = Σ over O of |ψ_x|². U_T keeps every sector, and so keeps every p_O.
+    * The time average of |ψ_x|² over a period equals its orbit average.
+    * Uniform weights: 8/27, 8/27, 8/27, 8/81, 1/81. In the limit, the Haar measure is invariant.
+    * The rule supplies no measurement and no collapse; the Aperture stays your judgment (L-441).
+  - THE OTHER ITEMS (173.4):
+    * H-41 (the comparison test) moves to the open register as O-22, and H-46 (the Pack check) as O-23; each needs a Navigator of another architecture.
+    * H-44 is decided as disposed.
+    * Every item of records/frame/held.json now carries your decision.
+    * The 23 open items stay open, each with what it needs.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/space_prob.py --selftest 8 of 8; tools/cosmology.py --selftest 13 of 13; tools/judgment.py --held, every entry decided, PASS; tools/open_register.py 23 items.
+  R THE RECORD:
+    - L-441, L-544 (1) to (8), DC-25, MATH-51; Companion Parts 171 and 172.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) The third space direction (the Originator, H-42): APPLIED, L-544 (9), within Z[φ] in the residues and the limit, and with AP-SPACE over the reals; A-069.
+  (2) A probability rule over the orbit sectors (the Originator, H-43): APPLIED, L-544 (10); A-069.
+  (3) Resolve all outstanding issues (the Originator): APPLIED, every held item decided; O-22 and O-23 opened.
+PEER ACCOUNTS (P; APA 9.5.5): none attached.
+CHANGES TO THE PROTOCOL:
+  - Core: L-544 (9) and (10); Part 0.0.7.6.
+  - Companion: Part 173.
+  - Repository:
+    * Added: tools/space_prob.py.
+    * Extended: records/frame/held.json (all decided); records/open/register.json (O-22, O-23); CI.
+    * Registered: A-069.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Z[φ], its completions and the tower | STRIKER -- the resolution of H-42 and H-43, and AP-SPACE | NAVIGATOR -- the Gaussian form of φ mod 9, the 3 + 1 Hermitian space, the conjugation, the rule's properties, the decisions' dispositions | OPEN -- the 23 open items, and what AP-SPACE means, which is yours
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/space_prob.py --selftest 8 of 8; tools/cosmology.py --selftest 13 of 13; tools/judgment.py --held 47 entries, PASS; tools/open_register.py 23 items. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the new clauses: each is computed by a tool in CI. PART -- none. SILENT -- what the Euclidean and the Minkowskian readings of one φ mean, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the 3 + 1 Hermitian space read at depth 2 (mod 81) and its null cone counted, the law's action on it compared with the depth-1 action.
+DISCOVERY NOTICE (L-530): the Gaussian form of φ mod 9 follows from (5 + i)² ≡ (5 + i) + 1 and 5² + 1 ≡ −1 (mod 9), and from standard algebraic number theory; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 23 items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the depth-2 Hermitian space of the enrichment line be computed by tools/space_prob.py, to test whether the law's action on the 3 + 1 space lifts unchanged through the tower; it rests on L-544 (2) and (9); APPLIED as the next computation to be added, HELD FOR THE ORIGINATOR as to its place in the record (H-47) | IMPLICATIONS -- [CONDITIONAL on F-02] in the residues and the 3-adic limit the law carries a Euclidean plane and a 3 + 1 interval of its own, so the three space directions and time are present there without any addition to the family; over the reals they rest on AP-SPACE. [CONDITIONAL on the rule of L-544 (10)] the weight of each orbit sector is conserved, and the still point carries 1/81 of a uniform state. Neither implies that physical space is this space or that physical probabilities are these. [GENERATED-Ω42] What was asked to be added was found already inside: the same golden ratio is a rotation in the residues and a boost in the reals.
+
+What it rests on: What does a resolution rest on, if not on the gap the held items named?
+What it holds out of view: The generator: the ring, which already held i.
+Where it is heading: Toward flow: probabilities the law carries unchanged.
+What would complete it: The reckoning: the weight of each sector.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 6814d99f9185bb3d7e1b97f0911c307cd27f7903acf902f2dc0da02a005c2eb5
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 6 November 2026
+ESC

@@ -1,0 +1,62 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 04 -- RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 a8326bf8f7ea527f8d1e774d95e3b2d39c874928c9430c530c4ca0f3b5e00e41, 2026-10-09T13:09Z.
+Computations: compute.py -> compute_output.txt. Selection NOT BLIND (CB NO). CDT-A for computations; COMPARATIVE for correspondences.
+Premise (Core F-02, L-465): the canonical 24-cycle and its 81-state family are
+ALL THAT EXISTS. Family-level features (f) and (g) were declared in the freeze before computing.
+
+Q1  PEER CLAIM CHECKED: "every element of order 24 in Co0 has g^12 = -I" (Claude peer review of run 03) -- NOT UPHELD.
+  Constructed: Conway's generator delta (x -> x^3/9 on residues, 9x^3 on non-residues) with x -> x+1 and x -> -1/x, all
+  preserving the Golay code; a random walk found an element of M24 with cycle type (2, 4, 6, 12); with a Golay sign change
+  of weight 12 it gives a signed permutation of order 24 that preserves the Leech lattice (3000 sampled vectors) and whose
+  12th power negates 16 coordinates and fixes 8 -- an involution other than -I. The peer's argument assumed -I is the only
+  involution of Co0; Co0 has many. (For the element of run 03, with odd sign parity on both 12-cycles, g^12 = -I does hold;
+  and with cycle type 12^2 no Golay word has odd parity on one cycle and even on the other, since all Golay weights are even.)
+  Not adopted either: the peer's move of the Leech lattice to tier 3 -- run 03's null control (Z^24 carries the same
+  frame symmetry) stands.
+
+Q2  THE FAMILY'S RING, AND THE SQUARE LATTICE
+  Computed: T on (Z/9)^2 is multiplication by phi on Z[phi]/9 (state (a,b) = a + b phi): the family is a ring of 81
+  elements -- 72 units in the three voices, 9 non-units in the eight-cycle and the fixed point.
+  The Gaussian integers modulo 9, Z[i]/9 -- the arithmetic of the square lattice -- form the same ring: 72 units, 9
+  non-units, largest unit order 24, and x^2 = x + 1 has two roots there (5 + i and its partner). Multiplication by 5 + i has
+  cycle type (24, 24, 24, 8, 1) on the 81 elements, and in the basis {1, 5 + i} it is T exactly. Reason (standard algebra):
+  for every quadratic ring in which 3 stays prime, reduction modulo 9 gives the same ring, the Galois ring of order 81 and
+  characteristic 9; the golden ring and the Gaussian ring are two of them.
+  Controls (M230-E): the Eisenstein integers modulo 9 (hexagonal lattice; 3 ramifies) have 54 units, largest unit order 6,
+  no root of x^2 - x - 1; Z[sqrt-2]/9 (3 splits) has 36 units and no root. Neither carries the family.
+  Square lattice profile: C24 YES | CG YES (an element obeying x^2 = x + 1) | CT YES (T, in an adapted basis) | CC YES |
+    CA YES | (f) YES | (g) YES | CN PARTIAL (reduction modulo 9 and a choice of root and basis) | CI YES (the Gaussian
+    integers are defined without Omega42) | CD NO (multiplication by 5 + i is a rotation-dilation of the lattice, not one
+    of its symmetries) | CP NONE | CB NO
+  Tier: 3 counted (mathematical object). The full identity of the family holds by a theorem of algebra -- recorded as
+    FORMAL and not counted as physical evidence. What it shows: the family is not peculiar to the golden field; it is the
+    unique ring that the square lattice and the golden field share modulo 9.
+
+Q3  SIX-STATE TORSION AND THE CROWN: THE HEXAGONAL LATTICE (Companion 25.2b, item 6)
+  Computed: Z/9 has 6 units cycled by x2 as the Torsion Loop 1 -> 2 -> 4 -> 8 -> 7 -> 5, and the non-units {0, 3, 6} --
+  the Crown -- square to zero; x2 acts on the nine values with cycle type (6, 2, 1).
+  The Eisenstein integers modulo 3, Z[omega]/3 -- the hexagonal (triangular) lattice reduced to a 3 x 3 cell -- meet the
+  frozen criterion in full: 6 units forming a cyclic group, a 3-element ideal of non-units whose products are all zero,
+  and a generator acting with cycle type (6, 2, 1). The three non-units are exactly the classes of the sublattice
+  (1 - omega)Z[omega], the sqrt3 x sqrt3 sublattice.
+  Controls: Z[i]/3 and Z[phi]/3 are fields of 9 elements (8 units, cycle type (8, 1)); Z[sqrt-2]/3 has 4 units, not cyclic,
+  and no nilpotent ideal. Only the hexagonal lattice carries the Torsion/Crown partition among the four.
+  Hexagonal lattice profile: (a) YES | C1/7 YES (six-state torsion with a three-element collapsing set) | C24 NO | CG NO |
+    CT NO | CN PARTIAL (reduction modulo 3) | CI YES | CD NO | CP NONE | CB NO
+  Tier: 3 (feature a). Not a ring isomorphism (Z/9 has characteristic 9, Z[omega]/3 characteristic 3); the shared
+    structure is the partition and its dynamics.
+
+RUN RESULT
+  Three objects entered (the square lattice, the hexagonal lattice, the control Z[sqrt-2]); the ledger at nineteen.
+  The two basic lattices of the plane each carry one layer of the family: the square lattice, reduced modulo 9, carries
+  the whole 81-state family with T; the hexagonal lattice, reduced modulo 3, carries the nine-value Torsion/Crown
+  structure. The control carries neither. Both results are mathematical; their physical reading is open.
+  Entries of runs 01-03 under the family premise: tiers as recorded. Membership in the family does not count by itself (every
+  pair of integers reduces to a state); what counts is following the law, so the sunflower pairs (Voice A, Voice B) stay
+  at tier 3 through feature (e), and the cat map, T^2, still splits each orbit of the family in two.
+  Next: the Leech lattice as an Eisenstein lattice, whose reduction modulo the prime above 3 involves Z[omega]/3 -- the ring
+  carrying the Torsion/Crown partition; the 24-cell honeycomb (item 1).
+
+CLASS LEVEL: the square-lattice and hexagonal-lattice results are CLASS-LEVEL tier 3. Every quadratic
+ring in which 3 stays prime gives the family modulo 9, so the square lattice is one instance of a class; Z/9 and Z[omega]/3
+belong to a small class of nine-element rings sharing the Torsion/Crown partition. Tiers unchanged.

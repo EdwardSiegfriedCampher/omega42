@@ -1,0 +1,22 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 06 -- FREEZE RECORD
+Frozen before any computation for this run. Navigator: claude-opus-5-5 (Anthropic; serving model may differ).
+Selection NOT BLIND (CB NO). Premise as amended (L-465). Inputs: run 05's lead (the Leech lattice over the Eisenstein
+integers) and three peer reports on run 04 (Grok, Claude, Qwen).
+
+Note on the Eisenstein lead, recorded before computing: reduction of an Eisenstein lattice modulo 3 always yields modules
+over Z[omega]/3, the ring that carries the Torsion/Crown partition, so that test cannot discriminate the Leech lattice from
+the hexagonal lattice, E^12 or any other Eisenstein lattice. The run therefore asks a sharper question.
+
+Q1  Half-period negation and the family. Algebra to check: phi^12 = -1 in Z[phi]/9, so x^12 + 1 lies in the ideal
+    (9, x^2 - x - 1); while neither Phi8 = x^4 + 1 nor Phi24 = x^8 - x^4 + 1 does. Consequence to test: for any lattice L
+    with an automorphism g such that g^12 = -I, the quotient L / (9L + (g^2 - g - 1)L) is a module over Z[phi]/9 on which g
+    acts as T. Prediction, frozen: for g whose module structure is cyclic over Z[x]/(x^12 + 1) the quotient is a free
+    module (Z[phi]/9)^r and g acts on it with the family's cycle type in every copy; where the module splits into its Phi8
+    and Phi24 parts, only the nine-state core (a field of 9 elements) survives.
+Q2  The Leech lattice versus the cubic lattice Z^24 with the same order-24 element of run 03 (two signed 12-cycles,
+    g^12 = -I): compute both quotients, their sizes and the cycle type of g. Does the Leech lattice differ from Z^24?
+Q3  Other symmetries: the order-24 element of run 04 (cycle type 2, 4, 6, 12; g^12 not -I); the 24-cell's order-12 symmetry
+    x -> u x i on the Hurwitz quaternions (u of order 6), with c^6 = -I, against the cat map's relation x^2 - 3x + 1
+    (expected: c projects to T^2) and against x^2 - x - 1.
+Peer items to resolve: the version number (all three recommend Rev.450; the Originator decides); class-level labelling
+of the square- and hexagonal-lattice results (Claude peer review).

@@ -1,0 +1,11 @@
+LAR-1 -- EDGE-SHARING, FROM THE PATENT'S TEXT (23 October 2026; US 11,117,065 B2, read at Google Patents)
+SOURCED (quoted): "each substantially pentangular planar surface joined along two adjacent edges" (Example 1); "The planar
+  pentagonal surfaces"; "point 310 may be joined to point 315, point 320 may be joined to point 325", "point 330 may be joined
+  to point 335, and point 340 may be joined to point 345" "to form a six-sided 3-D geometric structure 300 shown in FIG. 3B,
+  referred to herein as a Lynchpin"; "four pyramidal inner spaces 350, 355, 360, and 366".
+COMPUTED [EXACT]: six faces with two shared edges each give 6 x 2 / 2 = 6 shared edges and 6 x 5 - 2 x 6 = 18 free edges; the
+  surface is therefore open (M323 --faces 6 5: a closed solid of six pentagons is impossible). The face-adjacency graph is
+  2-regular on six nodes, so it is either one 6-cycle (automorphism group of order 12) or two 3-cycles (order 72). The four
+  point pairings joining two structures (FIGS. 3A-3B) fit two 3-cycles joined at vertices; the text alone does not decide it.
+STATUS: EDGE-SHARING STATED, TWO CANDIDATE GRAPHS (both kept, as LAR-1 requires). PLACEMENT: waits for a MAPPING rule stated
+  and frozen before any coordinate is computed (LAR-1, L-517), and for the figures to choose between the two graphs.

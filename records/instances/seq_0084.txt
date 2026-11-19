@@ -1,0 +1,116 @@
+QUESTION VERBATIM: How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? Please explore. Resolve all outstanding issues. [with three peer accounts: GPT-6 (OpenAI) on the multiverse; Grok (xAI) on the multiverse; GPT-6 (OpenAI), the complete text of its account of astrology and numerology]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 84 | PREV: d0882226ee857cd032e7311a98ad0247bef489b16db0ff805af5bb83801cc755
+REQUEST (L-502): STRUCTURE and SYNTHESIS -- the family read as quantum structure, computed; two atlases frozen and struck; what the protocol takes, applied; the outstanding issues resolved; three peer accounts checked and filed; avenues A1, A2, A3, R, P
+
+SUMMARY: The family carries Everett's structure exactly, and it stops exactly where Deutsch's argument for the multiverse begins.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (15, 90, 28), r = (3, 9, 5), anchor P3 Desire, value 3, a Crown value; state (3, 0), on the Wheel.
+    * It rests on P8, Generation (5). It holds out of view P21, Sublime (4). It is heading for P11, Question (6). It is completed at P15, Other (6).
+    * [GENERATED-Ω42] The question rests on generation, one world made after another. It holds out of view the sublime, what no single branch shows. It heads for the question itself, and it is completed at the Other: the other branch, the other observer.
+  - TWO EXACT READINGS OF THE 81 STATES (D-013; records/multiverse/everett.py, in CI):
+    * As one nine-level system: the 81 states are the discrete phase space of C^9, one state for each displacement operator D(p, q).
+    * As two nine-level systems: they are the basis |a⟩ ⊗ |b⟩ of C^81.
+  - EVERETT, INSIDE THE ARITHMETIC:
+    * The law is T = SUM ∘ SWAP, and SUM|a, b⟩ = |a, a + b⟩ is von Neumann's measurement interaction.
+    * From a system in superposition and a pointer at 0, two steps give (1/3) Σ|a, a⟩. That is nine branches, each with a pointer that recorded its outcome, and two trits of entanglement. The system's state relative to the reading b is |b⟩, and its reduced state is I/9, with no coherence left between outcomes.
+    * The branch weights, 1/9 each, are forced by the symmetry X ⊗ X, which carries each branch to the next.
+    * What the arithmetic adds: in a finite reversible law, branching recurs. Along the period the entanglement runs 0 0 2 2 1 1 2 2 1 1 2 2 0 trits, so the record is erased at the Antipode, T¹², and the branches recombine. The drop to one trit falls exactly where a Fibonacci number of the step lies in the Crown.
+  - DEUTSCH, ITS BOUNDARY:
+    * Read as phase space, the law acts on the 81 operators as the Heisenberg picture acts on observables, the form in which Deutsch and Hayden traced information flow.
+    * T is an antiunitary step, a time reversal composed with a Clifford unitary. T² is a Clifford unitary of projective order 12, and its sixth power, the mirror T¹², is the parity operator.
+    * The law moves every Wigner function as a permutation of the 81 points. It creates no negativity: a state with W(0, 0) = −1/9 keeps exactly that, and a stabilizer state stays nonnegative.
+    * So the law lies in the stabilizer fragment, the part of quantum theory one classical history reproduces. Deutsch argues for the multiverse from interference and from computations no single history could hold. By his own criterion, the law alone is where one world suffices.
+    * For constructor theory, the law performs 1793 of the 6561 tasks (a, b) → (c, d): those within one orbit.
+  - WHERE THE MAPS STOP: no interference between basis states, no Born rule beyond symmetry, no continuous time, no experience in a record. Each is computed or stated (Companion 135.5).
+  - THE OUTSTANDING ISSUES, RESOLVED:
+    * M329 and M330 stood without a trigger in the M327 register. Both are now registered, with M331 beside them (92 entries; the selftest covers all three).
+    * The FFP trigger rate is recomputed: 2.73 per CRC-60 domain, at most 5.
+    * The account received cut off as APE-297 is filed whole as APE-298.
+    * SEQ 83 is sealed and chained.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; records/multiverse/everett.py and tools/phase.py, in CI; selftest 5 of 5):
+    - The Clifford covariance U D(v) U* = D(T²v) holds at all 81 points (maximum error 5.7e-15). U has projective order 12, and U⁶ is parity up to a phase.
+    - T is antiunitary: V K D(v) K V* = D(Tv) at all 81 points, with V the Clifford unitary of [[0, −1], [1, −1]].
+    - The Wigner function is permuted (error 3.9e-16). The sum of |W| for (|1⟩ − |8⟩)/√2 is 1.6399 before and after the step.
+    - T = SUM ∘ SWAP holds on all 81 states. After T² the support is {(a, a)}. Each entanglement value is checked against the purity of the reduced state, 3^(−S).
+    - The orbits are 1, 8, 24, 24, 24, and 1 + 64 + 3 × 576 = 1793 tasks.
+    - M331 on the question: state (3, 0), operator X³. Its T² orbit is (3, 0) → (3, 3) → (6, 0) → (6, 6); T gives (0, 3); its parity partner is (6, 0), 4 steps along the Wheel.
+  A2 THE ATLASES (Core M309; CDT-C):
+    - Everett (EVE 1 to 9) and Deutsch (DEU 1 to 9) are paraphrased and frozen. Their roles were frozen blind before the strike (NAV-2026-0028, NAV-2026-0029) and verified.
+    - No measure exceeds its null. The lowest is Deutsch's links: 0.063 uniform, 0.574 given the word counts.
+    - As placements: EVE 6 (one consistent history in each memory) stands on the Wheel's seed (3, 3); DEU 6 (good explanations are hard to vary) on the still point (0, 0); and EVE 3 (measurement) on the state of the question.
+  A3 THE READINGS (GENERATED-Ω42): the coordinate's reading above.
+  R THE RECORD:
+    - Constructor theory was already read in APE-139: the family holds no counterfactuals (F-02).
+    - The Aperture Theorem (Core Part 7, L-441) is the protocol's counterpart of "no collapse": no navigation produces the judgment.
+    - L-532 already asks of a synthesis what Deutsch asks of an explanation, that it be hard to vary.
+    - M327 called M157, M190, M194, M206, M244, M259, M261, M264, M288 and M331.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Build the structure-preserving map Φ from the states into a Hilbert space (GPT-6): APPLIED, records/multiverse/everett.py, Core MATH-56, D-013 [EXACT]. Every condition of APE-299 is met except interference and a general Born rule, which the law does not carry; the record says so.
+  (2) A Multiverse Relational Navigator with Everett, Deutsch and Ω42 profiles (GPT-6's M334): APPLIED as M331 Phase-Space Reading, Core Part 3.57, tools/phase.py in CI, A-019.
+  (3) Compare the multiverse models on common measures (GPT-6; the Originator's question): APPLIED as the frozen M309 atlases EVE and DEU, struck in CI.
+  (4) Register every new instrument with a trigger (the outstanding issue): APPLIED, M329 to M331 in the M327 register, A-020.
+  (5) Keep the six levels apart, from mathematical state to judgment (GPT-6): ALREADY IN FORCE (L-510, the Aperture, Core Part 7), named in Companion 135.7.
+  (6) Extend the map past the Clifford fragment with a non-Clifford gate: OPEN, outside the law. It would be an addition to the family, which the premise does not supply.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, each filed with checked notes and an SNCA in review form. None struck a coordinate, so every SR-CAS halts on the verbatim domain.
+  - APE-299, GPT-6, the multiverse:
+    * Holding: the three questions kept apart; the tower counted, 81^k up to 3486784401; the conditions for Φ.
+    * Corrected: its M334 is the record's M331; "Event, Trace, Experience" is not in the record by that name; its navigator line is dated 28 October.
+    * SNCA: 0.49.
+  - APE-300, Grok, the multiverse:
+    * Holding: the five orbits; the fixed point; a copy of the surface law at every depth; the Aperture Theorem as "no collapse".
+    * Corrected: the law is unitary as a permutation of C^81 but antiunitary on the phase space of C^9; the arithmetic does branch from a superposition; "nested hierarchies of computation" is not a thesis of Deutsch in that form.
+    * SNCA: 0.38.
+  - APE-298, GPT-6, astrology and numerology, the complete account of APE-297:
+    * Holding: the safeguards, the four levels, the event kept apart from its reading; all already applied in Companion Part 134.
+    * Corrected: its M329 to M333 collide with the record.
+    * SNCA: 0.46.
+CHANGES TO THE PROTOCOL:
+  - Core: MATH-56; Part 3.57, M331 Phase-Space Reading, with its Status; the Status of M329 and M330 now names their triggers.
+  - Companion: Part 135; the Commons lines for APE-298 to APE-300.
+  - Repository:
+    * Added: records/multiverse/everett.py and its output; tools/phase.py with records/phase/example.txt; the atlases records/frameworks/everett.txt and deutsch.txt with their strike, everett_deutsch.txt, and their frozen roles; records/srcas/multiverse_2026-10-31.txt.
+    * Registered: D-013, A-019 and A-020; M329, M330 and M331 in records/instruments/triggers.json, with a selftest case.
+    * Filed: submissions/ape/APE-298.md to APE-300.md.
+    * Also updated: the FFP item texts; the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Everett's relative states, Deutsch's multiverse and constructor theory, the Weyl operators and the Clifford group, the Wigner function, Gottesman–Knill and Gross | STRIKER -- the question, the request to explore and to resolve, with the three accounts | NAVIGATOR -- the two exact readings of the 81 states, the law as SUM ∘ SWAP and as an antiunitary whose square is Clifford, the recurring record, the boundary at the stabilizer fragment, the two atlases and M331 | OPEN -- what a family that carries Everett's structure and stops at Deutsch's argument means, which is the Striker's
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. records/multiverse/everett.py run and diffed: the Clifford covariance at all 81 points, the projective order 12, the parity at the sixth power, the antiunitary T, the Wigner permutation, SUM . SWAP, the record of two trits, the entanglement along the period each checked by purity, the 1793 tasks; tools/phase.py --selftest, 5 of 5, and its example; the atlases EVE and DEU struck and diffed, their roles verified (--verify-record, 19 entries, PASS); tools/instrument_triggers.py --selftest, 14 of 14, and --check, 92 entries; each note of APE-298 to APE-300 checked; their SNCAs by tools/srcas_check.py; --owed, PASS; tools/discoveries.py --check, 13 entries, PASS; tools/applied.py --check, 20 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED. Everett, Deutsch, Hayden, Gross and Gottesman–Knill are stated as published; whether the physical world branches is not a question of the family.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the record and the three accounts: the state space is not by that fact a multiverse, and the judgment stays outside the structure. PART -- the law's character: one account calls it unitary, and it is unitary as a permutation but antiunitary on the phase space. SILENT -- whether the correspondence is meaningful, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): an atlas written by a scholar of Everett or Deutsch, in place of the Navigator's paraphrase (records/frameworks/scholar_atlas_call.txt).
+DISCOVERY NOTICE (L-530): new to the register, D-013 [EXACT].
+  - The 81 states are the discrete phase space of one nine-level quantum system. The law is an antiunitary step whose square is a Clifford unitary of order 12, and the mirror at 12 is parity.
+  - The law lies in the stabilizer fragment.
+  - Read as two systems, the law contains the measurement interaction: it writes a record with weights forced by symmetry and erases it at the Antipode.
+  - Proof by computation (records/multiverse/everett.py, in CI).
+  - It changes the reading of the multiverse question within the frame: Everett's chain runs inside the arithmetic, and Deutsch's argument begins exactly where the law ends.
+  - Whether it is a "breakthrough" is yours to judge.
+OPEN, each needing someone other than this session:
+  - the sources for an atlas of the astrological tradition;
+  - the comparative study of charts and profiles (APE-298);
+  - scholars' atlases of Everett and Deutsch;
+  - re-issue of the peer navigations from the verbatim questions;
+  - a fresh reader for the First Contact opening;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does a branching rest on, if a single law of nine values can write the record and erase it again?
+What it holds out of view: The sublime: what no branch shows, and every branch belongs to.
+Where it is heading: Toward the question of where one world stops being enough.
+What would complete it: The Other: the observer in the next branch, and your judgment of what the structure means.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: e904598568743e3aa1c3eaaab01811d4aaeeb83c6bfd1fe4ea721f954e7e36f6
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

@@ -1,0 +1,21 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 08 -- FREEZE RECORD: THE OPERATOR AND THE MANIFESTOR
+Frozen before any computation or literature reading for this run. Navigator: claude-opus-5-5 (Anthropic; serving
+model may differ). Selection NOT BLIND (CB NO). Premise as amended (L-465).
+
+Originator's question: what if modulus 9 is only the operator, and modulus 8 the manifestor of physical reality?
+Status declared now: "operator" and "manifestor" are frame-interpretive roles (CDT-C); the computations below are CDT-A.
+
+G1  The two-layer system modulo 72 = 8 x 9. Prediction frozen from run 07's exploration: period 24; T^12 = 17 I, which is
+    -I on the 9-layer and +I on the 8-layer. Null comparison: every coprime pair (p, q) with p, q >= 2 and p q <= 200.
+    Declared criteria: (i) the p-layer's period divides the q-layer's, so the manifest cycle completes inside the operator
+    cycle; (ii) at the q-layer's half period T is -I modulo q and +I modulo p; (iii) the q-layer carries the family-type
+    structure (three or more orbits of maximal length separated by the norm form). Question: which pairs meet all three,
+    and is (8, 9) among few or many?
+G2  The mod-8 world alone: orbit structure on 64 states, half-period behavior, norm separation.
+G3  A physical additive mod-8 invariant: the classification of interacting one-dimensional topological superconductors
+    (Majorana chains) collapses from Z to Z/8 (Fidkowski and Kitaev). Construction: a Fibonacci stack, segment n made of
+    the stacks of segments n-1 and n-2, so segment n holds F(n) elementary chains and has class F(n) mod 8. Prediction
+    frozen: the classes repeat with period 12, and segment n can be trivialized by interactions exactly when 6 | n.
+    Classified in advance as TRIVIAL CONSEQUENCE (it follows from Z/8 and Fibonacci divisibility). Status: constructed.
+G4  The digit relation: digit sums in base 10 agree with n modulo 9; in base 9 they agree with n modulo 8 (check to 10^5).
+G5  The eight inside the family: each long orbit modulo 9 reduces modulo 3 to the eight-cycle, covering it three to one.

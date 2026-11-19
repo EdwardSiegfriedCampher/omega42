@@ -1,0 +1,29 @@
+=== 1. Exact algebra over Q(sqrt 5) ===
+phi^2 = phi + 1 and 1/phi = phi - 1                                                                  PASS
+T Z1 = phi Z1 and T Z2 = (-1/phi) Z2: the rows of Z are the eigenvectors of T                        PASS
+det Z = sqrt 5 > 0, so Z is admissible data for A(2,1,1)                                             PASS
+N(Z1) = N(Z2) = 0 and 2 B(Z1, Z2) = -5, so N(c1 Z1 + c2 Z2) = -5 c1 c2 identically                   PASS
+on 80 exact points: in the image of G>0(1,2) (c1 c2 > 0) exactly when N < 0 -- A(2,1,1)(Z) = the golden arc PASS
+T on (c1, c2) is diag(phi, -1/phi): one entry negative, outside the positive torus                   PASS
+T^2 on (c1, c2) is diag(phi^2, 1/phi^2): both positive, inside the positive torus                    PASS
+T^2 multiplies c2/c1 by phi^-4, a positive constant: d log(c2/c1) is preserved exactly               PASS
+T multiplies c2/c1 by -phi^-2, a negative constant: the arc goes onto its complement                 PASS
+=== 2. The 81 states, by union-find ===
+orbit sizes 24, 24, 24, 8, 1                                                                         PASS
+N = 0 mod 9 exactly on the nine states with a = b = 0 mod 3                                          PASS
+the other 72 states have unit norm (no state has norm 3 or 6)                                        PASS
+the nine norm-zero states are the eight-cycle and the fixed state                                    PASS
+norm-negation identity N(Ts) = -N(s) mod 9 on all 81 states                                          PASS
+T^12 = -I on every state, T^24 = I                                                                   PASS
+=== 3. The twisted cyclic shift sigma on G>0(2, 12) ===
+sigma^12 = -I as a 12 x 12 matrix (the lift)                                                         PASS
+order of sigma on matrix representatives is 24                                                       PASS
+M is a point of G>0(2,12) and every M sigma^j stays positive                                         PASS
+M sigma^j spans the same plane as M exactly for j = 12 and 24: order 12 on points of Gr(2,12)        PASS
+=== 4. PG-05, minimal lifts by solving N(a, b) = n ===
+every one of the 80 nonzero states has a least lift norm of one sign only                            PASS
+least |N| is 1 on Voice A, 4 on Voice B, 11 on Voice C, 9 on the core                                PASS
+half SEVENTH <-> positive least norm, MANIFEST <-> negative, on all 72 unit states                   PASS
+on the core, residual norm 1 mod 3 <-> positive least norm, 2 <-> negative (AXIS +/-)                PASS
+T reverses the sign of the least norm on all 80: the arcs are exchanged as the halves are            PASS
+INDEPENDENT CHECK: PASS

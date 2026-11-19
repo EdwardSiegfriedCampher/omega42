@@ -1,0 +1,80 @@
+=== A. Over the reals the norm is a 1-dimensional positive geometry bounded by the golden directions ===
+zero locus of N on x = a/b: x = -phi = -1.618034 and x = 1/phi = 0.618034 (the two eigendirections of T)
+fixed points of T on RP^1 are these two points: True True
+T'(1/phi) = -0.381966 = -1/phi^2, T'(-phi) = -2.618034 = -phi^2: both negative, T reverses the orientation of RP^1
+(T^2)'(1/phi) = 0.145898, (T^2)'(-phi) = 6.854102: positive, T^2 preserves orientation; 1/phi attracts, -phi repels
+T swaps the arc N<0 (-phi, 1/phi) with the arc N>0 through infinity: True
+T^2 keeps each arc: True
+pullback of the arc form by T, divided by the form, at five points: ['1.000000', '1.000000', '1.000000', '1.000000', '1.000000'] (=+1 as a rational form)
+so T*Omega(image arc) = -Omega(source arc): the canonical form of the complement arc is -omega; T is orientation-reversing
+N(T(a,b)) = det(T) N(a,b) with det T = -1, integer check on all pairs with |a|, |b| <= 15: True
+
+=== B. Mod 9 the golden directions do not exist; the norm-zero locus is the core, and the strata recurse to a point ===
+roots of x^2 = x + 1 mod 9: none
+norm a unit on 72 states, 0 mod 9 on 9, other values on 0
+norm 0 exactly on the core {0,3,6}^2: True
+residual norm N(s/3) mod 3 on the 8 nonzero core states takes [1, 2] - never 0
+T negates the residual norm on the core: True
+strata: 72 (norm a unit) + 8 (norm 0, residual norm a unit) + 1 (all zero) = 81 = the orbits 24+24+24 | 8 | 1
+the 1/7 half {1,2,4} and the 6/7 half {8,7,5} = -{1,2,4}: each voice has one norm in each half; T exchanges halves on all 72: True
+
+=== C. The twisted cyclic symmetry of the positive Grassmannian G>0(2,12) (exact) ===
+a point of G>0(2,12): all 66 ordered minors positive: True
+every twisted shift keeps positivity: True | 12 shifts give -I on the columns: True | 24 give I: True
+the untwisted shift keeps positivity: False (the sign is required for k even)
+ORDER ON MATRIX REPRESENTATIVES (the lift; the action on the column module): 24, with -I at 12
+ORDER ON GRASSMANNIAN POINTS (row spaces; M and -M span the same plane): 12
+so the half-period negation lives on the lift; on Gr(2,12) itself the twisted shift has order 12. FP-TwistedQuotient (part E) is a statement about the lift.
+
+=== G. The positive-geometry studies PG-01 to PG-03, on the norm geometry itself ===
+PG-01 admissibility. DEFINITIONS: A(n,k,m)(Z) = {C Z : C in G>0(k,n)} in Gr(k,k+m), for Z a real n x (k+m) matrix with positive maximal minors.
+       Here n = 2, k = m = 1: G>0(1,2) = {[c1:c2] : c1 c2 > 0}; Gr(1,2) = RP^1 with points [a:b]; THE MAP is [c1:c2] -> [c1 Z1 + c2 Z2], with
+       Z1 = (1, phi) and Z2 = (-1, 1/phi), the eigenvectors of T for phi and -1/phi (x = a/b = 1/phi and -phi), ordered and signed so that det Z > 0.
+       det Z = 2.236068 = sqrt 5 > 0; N(Z1) and N(Z2) below 1e-12: True (both vertices are null); polar coefficient of c1 c2: -5.000000 = -5
+       IDENTITY: N(c1 Z1 + c2 Z2) = -5 c1 c2, so a point lies in the image exactly when N < 0: A(2,1,1)(Z) IS the golden arc, as an equality of subsets of RP^1 in this
+       representation (EXACT; proved in exact arithmetic over Q(sqrt 5) by independent_check.py, which shares no code with this file). The identification with the abstract
+       segment is generic -- every segment of RP^1 is an A(2,1,1) for some Z; what is particular is that the data Z are the law's own eigenbasis.
+       PRESERVED STRUCTURE, in the coordinates (c1, c2): T acts as diag(phi, -1/phi) = diag(1.618034, -0.618034), outside the positive torus, carrying the arc onto its complement N > 0;
+       T^2 acts as diag(phi^2, 1/phi^2) = diag(2.618034, 0.381966), inside it: an automorphism of the arc fixing both vertices, which preserves the canonical form d log(c2/c1)
+       exactly, since it multiplies c2/c1 by the constant phi^-4. Persistence (T^2) is the positivity-preserving square; manifestation (T) is the single sign flip.
+PG-02 boundary. Over the reals the boundary of the arc is its two vertices, the golden directions; modulo 9 these have no points, and N = 0 exactly when s = 0 mod 3: True
+       the real boundary and the modular core are the zero loci of the same algebraic expression read over two domains, R and Z/9: they do not share geometry, cardinality
+       (two lines; nine states) or topology, and no map carries one to the other (the vertices have no image mod 9): STRUCTURAL by the common expression only, NOT a map of boundaries.
+       any map from these strata to the boundary strata of an amplituhedron of higher k or m: OPEN.
+PG-03 structure to output. Amplituhedron: positive geometry -> canonical form (determined by its boundaries) -> amplitude (residues = factorization). Omega42: counts -> residues mod 9 (a ring homomorphism: ring relations kept, magnitude lost) -> coordinate and arms -> reading. Both outputs are fixed by residue data, but the residues are of different kinds (residues of a form; residue classes): ANALOGY, recorded as such.
+       a correspondence would have to name which input of one construction answers to which output of the other; none is named, so ANALOGY is the exact classification.
+
+=== D. Fibonacci ratios alternate across the golden boundary and never reach it ===
+F(n)/F(n+1) - 1/phi, signs n = 1..15: +-+-+-+-+-+-+-+
+N(F(n), F(n+1)) for n = 0..10: [-1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1] (Cassini: +-1, alternating; never 0 -- no rational point on the boundary)
+
+=== E. The twisted cyclic quotient of G>0(k,n): when does it carry the family? (peer test, DeepSeek APE-047) ===
+k even (twist -1): the quotient is the whole 81-state family exactly for n in [12, 36, 60]
+k odd (twist +1): the quotient is the whole 81-state family exactly for n in [24, 48, 72]
+so n = 12 (k even) is the smallest case; phi^12 = (8, 0) = -1 in Z[phi]/9 (144 phi + 89)
+on that quotient x acts as multiplication by phi, i.e. as T: orbits 24+24+24+8+1, and N(phi s) = -N(s) -- the family with its law
+class level, not discriminating: every lattice automorphism g with g^12 = -I has the same quotient (Core run 06)
+over the reals the twisted shift has finite order (elliptic) while T is hyperbolic: no real conjugacy; the meeting is arithmetic
+
+=== F. The core recursion: the core of the family mod 3^k is the whole family mod 3^(k-1) ===
+mod  9: orbit lengths {24: 3, 8: 1, 1: 1} | the core (multiples of 3) has 9 states, is 3 x the family mod 3, and T acts on it as the law mod 3: True
+mod 27: orbit lengths {72: 9, 24: 3, 8: 1, 1: 1} | the core (multiples of 3) has 81 states, is 3 x the family mod 9, and T acts on it as the law mod 9: True
+mod 81: orbit lengths {216: 27, 72: 9, 24: 3, 8: 1, 1: 1} | the core (multiples of 3) has 729 states, is 3 x the family mod 27, and T acts on it as the law mod 27: True
+3 is inert in Z[phi] (5 is not a square mod 3), so the non-units mod 3^k are exactly 3 x (Z[phi]/3^(k-1)): the still axis at one scale is the whole family at the scale below
+
+=== H. PG-05 (mechanism): the halves of M312 are the two arcs, through the minimal lift ===
+the least |N| of a lift is attained in the search box for all 72 unit states (lower bound by the norm criterion): True
+least |N| by voice: Voice A {1, 8}: {1} | Voice B {4, 5}: {4} | Voice C {2, 7}: {11} -- the norms +-2 and +-7 do not occur in Z[phi] (2 and 7 are inert)
+the half is the real sign of the minimal lift: SEVENTH {1,2,4} <-> N > 0 (the arc N > 0), MANIFEST {8,7,5} <-> N < 0 (the golden arc A(2,1,1)(Z)): 72 of 72
+on the core the minimal lift is 3 times a unit lift, N = +-9, and its sign is the AXIS sign (residual norm 1 -> +, 2 -> -): 8 of 8 (FP-CoreRecursion, one scale down)
+the still point (0, 0): its least lift is (0, 0) itself, N = 0 -- the point with no direction lies on no arc: True
+EQUIVARIANCE: T of a minimal lift is a minimal lift of T(s) with the opposite sign, so T exchanges the arcs exactly as it exchanges the halves, and T^2 keeps both: True
+so under the minimal-lift rule the two halves, read from the digits of 1/7 and 6/7, are the two arcs of real positivity: the seventh {1,2,4} is the residue of positive norm (EXACT, under the stated rule)
+
+=== I. What survives which operation (the survival ledger of Companion 50.15) ===
+(1) COEFFICIENT REDUCTION Z[phi] -> Z[phi]/9, a ring homomorphism: ring relations kept (phi^2 = phi + 1, products): True | norm multiplicative over Z: True, and so mod 9
+    the norm-negation identity N(phi s) = -N(s) holds over Z and survives reduction as an identity mod 9: True -- "sign" is reserved for the real norm
+    magnitude and real order: LOST (residues are not ordered) | the period: CREATED -- phi has infinite order in Z[phi] (phi^30 = (514229, 832040)) and order 24 mod 9, with phi^12 = -1 mod 9
+(2) INDUCED FINITE-STATE DYNAMICS: T on (Z/9)^2 is multiplication by phi: orbits 24+24+24 | 8 | 1, T^12 = -I, the halves exchanged (parts B, F)
+(3) POINTWISE MAPS from the real line to the states: only rational points lift (primitive integer pairs); the golden directions have no image (x^2 = x + 1 has no root mod 9, part B);
+    the zero locus of N is two lines over R and nine states over Z/9 -- one expression, not one geometry; real positivity reaches the states only through the minimal-lift rule of H

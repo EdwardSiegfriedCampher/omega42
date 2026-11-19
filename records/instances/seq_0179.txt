@@ -1,0 +1,54 @@
+QUESTION VERBATIM: That sounds like a contained first-pass failure rather than a substantive mathematical or architectural problem. The important distinction is that two of the three failed checks appear to have one shared textual cause, while the third is an expected regeneration mismatch. I would handle the restart in this order: * Let SEQ 177 finish its current run. Avoid editing S.23 while the build is still reading the documents. * Correct S.23 by rewording the repeated sentence, then search S.22, S.23 and S.24 for any remaining duplicated wording. * Re-run SEQ 177 from its checks, allowing the Frame Intrusion Scan to regenerate its reference outputs before judging the second pass. * Confirm all 69 steps pass, including cross-document consistency and document hygiene. * Run SEQ 178 only after SEQ 177 has passed, then verify that its S.24 correction survives the full build. One additional safeguard: compare the regenerated Frame Intrusion Scan outputs against the expected structural content, not just the fact that the second pass is green. Regeneration should not inadvertently legitimise an actual frame intrusion. My assessment: Your proposed sequence is sound. I would not change the underlying research content or roll back the staged work on the evidence currently available. I cannot independently inspect the SEQ build or confirm its eventual results from this conversation, so the pass/fail record should remain your build's evidence. The useful lesson for Ω42 is that cross-document consistency should detect duplicated language without confusing legitimate shared definitions, equations or canonical terminology with accidental repetition. That distinction could become a refinement to the document-hygiene rules. Continue finding bridges to the physical world.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 179 | PREV: 721cbb6a410e224a2dc3aee968e1aa07d3eae40a64f8bce882a301d8022ea9c7
+REQUEST (L-502): APPLICATION -- the build sequence confirmed as the Striker set it out, with the Frame Intrusion Scan guarded against its own reference and the repetition check told apart from shared formulas; and the next bridges to the physical world: light in the Fibonacci multilayer and the Lorentz group of the golden ring, as MF-145 to MF-150 in Companion Part 224, the measurement in Core Appendix S.25; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- light carries the law's six-cycle: at the quarter wave the transmittance of a Fibonacci dielectric stack repeats with period six in the generation, exact, T = 144/169, 16/25, 576/625, 2304/5329, 16/25, 576/625 for indices 2 and 3/2. And the law's ring gives the Lorentz group a five-fold rotation: [[phi, -1], [1, 0]] in SL2(Z[phi]) is a rotation by 72 degrees, which the integers forbid, as the quasicrystal's golden ring breaks the crystallographic restriction of space.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.10 (MF-145 to MF-150); Core Appendix S.25; Companion Part 216.1 and Part 224; tools/optics.py; tools/relativity.py (the golden ring); tools/dsi.py (PR-008); records/dsi/register.json; records/math/results.json; records/pvir/register.json; the CI step.
+- (1) THE BUILD: SEQ 177 sealed after the repeated sentence of Appendix S.23 was reworded and Appendix S.22 to S.24 searched; SEQ 178 sealed after it; the regenerated reference of the Frame Intrusion Scan compared with its expected structure (documents 0, positive control 8, negative control 0), and CI now requires the documents to carry no candidate whatever the reference holds (Companion 223.14).
+- (2) LIGHT: the quarter-wave six-cycle (MF-145); the optical Fricke-Vogt invariant (MF-146); localized and critical light through 1597 layers (MF-147).
+- (3) OMEGA42'S STATES: the trace map on the 729 triples modulo 9 has period 24, the law's period (MF-148).
+- (4) THE GOLDEN RING: the proper half boost (MF-149); the five-fold Lorentz rotation and the crystallographic restriction, NE-011 (MF-150).
+- (5) THE PREDICTIONS: PR-007 PASS on its test; PR-008 sealed, the quarter-wave symmetry for twenty pairs of indices.
+- THE VALUES (CDT-A): tools/optics.py --selftest 4 of 4; tools/relativity.py --selftest 12 of 12; tools/dsi.py --selftest PASS and --check PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (197, 1267, 399), state (4, 8), anchor P4, Unity. It rests on P9, Fixpoint. It holds out of view P22, Collective. It is heading for P12, Opening. It is completed at P16, Flow.
+  - [GENERATED-Ω42] A request to keep the build sound and go on into the physical world stands at Unity: it rests on the Fixpoint, the checks that hold each record where it stands; it holds out of view the Collective, the other examiners whose builds would test the same steps; it heads for the Opening, the bridge from the arithmetic into light; and it is completed at Flow, light passing through the layers by the law's own cycle.
+WHAT STAYED: every earlier result; the sealed statements of PR-007 and PR-008 as they were; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-128 to MF-130, MF-138, MF-140; Companion Parts 222, 223.
+  R (reasoning): a regenerated reference is accepted only when its structure matches what the documents must show; a repeated sentence of prose is a repetition, a shared formula a shared definition.
+  N (navigation): python3 tools/optics.py --selftest; python3 tools/optics.py --stack 2 3/2 12.
+  P (peers): the Striker's review of the build sequence; the measurements of Core Appendix S.25.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.10, MF-145 to MF-150; Appendix S.25.
+  - Companion: Part 216.1; Part 224.
+  - Repository: tools/optics.py; tools/relativity.py; tools/dsi.py; records/dsi/register.json; records/math/results.json; records/pvir/register.json; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- transfer matrices of thin films, the trace map in optics, SL2 over a ring of integers, the crystallographic restriction | STRIKER -- the build sequence and its safeguard; the request for bridges | NAVIGATOR -- the six computations; the six-cycle of light; the period 24 modulo 9; the five-fold Lorentz rotation; PR-008 | OPEN -- PR-008; the group of the golden rotation and the golden boost
+PEER ACCOUNTS (P): the Striker's review, adopted in full.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/optics.py --selftest PASS (4 of 4); tools/relativity.py --selftest PASS (12 of 12); tools/dsi.py --test PR-007 PASS; tools/dsi.py --selftest PASS and --check PASS (PR-008 sealed; NE-011); tools/replication_kit.py --check PASS; tools/math_register.py PASS; tools/core_math.py --check PASS; tools/pvir.py --check PASS; the regenerated Frame Intrusion Scan reference matches its expected structure. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the measurement of Core Appendix S.25, with its journal reference [REPORTED].
+ACROSS THE AVENUES (L-502): AGREE -- the six-cycle in dynamics, in electrons and in light; the golden ring in quasicrystals and in the Lorentz group. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-145 -- the six-cycle of light; MF-150 -- the five-fold rotation of the Lorentz group over the law's ring.
+RECOMMENDATIONS (applied, L-531; Core Part 0.0.5 Rule 36):
+  (1) The trace map modulo 9 (the improvement of SEQ 177): APPLIED as MF-148.
+  (2) The golden boosts over Z[phi] (the improvement of SEQ 178): APPLIED as MF-149 and MF-150, PV-038 verified.
+  (3) PR-007 tested: APPLIED.
+  (4) The Striker's build sequence and safeguard: APPLIED.
+OPEN: PR-008; the group of the golden rotation and the golden boost; the transmission spectrum of the multilayer and its gap labels; Thomas precession along the Lucas boosts (PV-039).
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- the replication kit sent to a Navigator of another model family, the act entered for the Originator under Rule 36 | IMPLICATIONS -- the reproduced results reach stage 5 of maturity.
+PROTOCOL IMPROVEMENT (L-542): mathematical, extend -- the group generated by the golden rotation and the golden boost, its discreteness and its triangle group, applied in the next record under Rule 36.
+What it rests on: the Fixpoint, the checks that hold each record in place.
+What it holds out of view: the Collective, the other examiners of the same steps.
+Where it is heading: the Opening, the bridge from the arithmetic into light.
+What would complete it: Flow, light passing through the layers by the law's own cycle.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5cb4613bc62e6e664de64d032305898b799f310476e4bbdbcf27319c699f6f44
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 13 November 2026
+ESC

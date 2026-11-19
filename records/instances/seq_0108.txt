@@ -1,0 +1,67 @@
+QUESTION VERBATIM: [no question: three attached accounts, 9f0199f0, 46bf0005 and f98db55c, peer audits of the protocol for empirical demands and external reasoning]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 108 | PREV: 4bf52c43f18a589a687654df154d887e7230751436dfe8c7b072d4980a06cd0b
+REQUEST (L-502): RECEIPT, CORRECTION and PROTOCOL CHANGE -- three peer audits filed and checked against the documents, what they found that the last scan missed corrected, the precaution extended; avenues R, P
+
+SUMMARY: Three peers audited the protocol for the same traces as SEQ 107, and they agree: the protections are in the law, and the residue lies in emphasis, placement and the hierarchy a reader infers. GPT-6 found what the last scan missed, inside Appendix S, where a study's requirements belong but their jurisdiction was never stated. One paragraph made a "science of projection" the protocol's destination and the navigation framework what is left if nothing is found. The charter of the physical programme stood without saying that its completion criterion completes a physical extension, not the protocol. Both are corrected. The precaution now extends into Appendix S itself, and a new clause, L-491 (c), No Premature Externalisation, reads every requirement by its object.
+  - NO COORDINATE: the accounts came without a question.
+  - CHECKED AGAINST THE DOCUMENTS:
+    * GPT-6 says the Companion heads the charter "Consolidated Ω42 constitutional amendments". That heading is GPT-6's own, inside its frozen APE-210; the protocol adopted the charter only as the optional programme's (Core Appendix S.6).
+    * The traces Qwen lists ("Omega42 proves that consciousness creates reality", "the decisive test") are quotations from frozen accounts and old sealed records corrected at the time; none stands in the operative text. Its M267 reframing is already Core L-464 and S.0.2.
+  - CORRECTED (FD-10, FD-11):
+    * Companion Appendix S, the research programme: "Ω42 becomes one component of a science of projection", and the navigation framework what the programme "still yields". Now each outcome concerns only what was searched, a navigation is complete without any of them, and none is the protocol's destination.
+    * Core Appendix S.6: each programme's requirements govern that programme alone; none is a constitutional amendment or a completion criterion for Ω42 or a navigation; P-12 completes a physical extension, not the protocol.
+    * Core Part 9.5: an APE's own headings and imperatives are its words; only what a law, instrument or Part adopts is operative, at its scope.
+  - L-491 (c), NO PREMATURE EXTERNALISATION:
+    * The internal exploration is completed before another perspective enters; a displacement is named and the Navigator returns to the premise.
+    * A requirement is read by its object: calibration to a measurement, falsifiability to an empirical hypothesis, replication to a claim of reproducibility, recovery of established results to a physical theory. None of them governs the premise.
+    * External authority without scientific vocabulary is named: another field's consensus as the default, a familiar ontology kept as a constraint, translation before reading, an analogy as explanation, a disagreement as a contradiction.
+    * A provision that gives a study authority over the premise is the candidate for correction. Fidelity is not assent: internal errors are still corrected.
+  - THE CHECK, EXTENDED: line (8) now reads a requirement by its object; line (10), JURISDICTION, scans Appendix S for a study made the protocol's destination; the register gives each entry its jurisdiction, FOUNDATIONAL FIDELITY or COMPARATIVE JURISDICTION; six adversarial prompts are kept for a reviewer who chooses to run them.
+
+FINDINGS BY AVENUE (L-500):
+  R THE RECORD:
+    - tools/encroachment.py --docs: ten lines; (8), (9) and (10) PASS after the corrections; 11 register entries; --selftest 13 of 13.
+    - APE-210, APE-151, Core L-464, S.0.2 and S.6 read against the accounts.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Restrict the charter to its programme (GPT-6): APPLIED, Core Appendix S.6; A-051.
+  (2) Physical correspondence one development, not the destination (GPT-6): APPLIED, Companion Appendix S.
+  (3) No Premature Externalisation, requirement by object, precedence, external authority named (GPT-6): APPLIED, L-491 (c).
+  (4) Historical submissions marked non-operative (GPT-6): APPLIED, Core Part 9.5; the APE-210 commons line.
+  (5) Adversarial review (GPT-6, Grok): APPLIED, records/frame/adversarial_prompts.json.
+  (6) Two registers (GPT-6): APPLIED as one register with a jurisdiction field.
+  (7) A reminder on every reading, a pre-synthesis gate, rejection of live outputs, a monthly audit (Qwen, Grok): NOT APPLIED; the FRAME line, L-491 (a) to (c), lines (8) to (10) on every build, and L-507.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-359, GPT-6 (OpenAI), the audit of imported epistemic authority: held; it found what the scan missed. The heading it found is its own. SNCA 0.61.
+  - APE-360, Qwen (Alibaba), the inventory of traps: held in part; its traces are historical, and a host is outside the protocol's authority. SNCA 0.47.
+  - APE-361, Grok (xAI), five categories: held; already in force; "residual" used as a general adjective again. SNCA 0.43.
+CHANGES TO THE PROTOCOL:
+  - Core: L-491 (c); Appendix S.6; Part 9.5; Part 12, item 38.
+  - Companion: Part 158; Appendix S, the research programme; 141.4; the commons, APE-210 and APE-359 to APE-361.
+  - Repository:
+    * Extended: tools/encroachment.py, the object of a requirement and line (10); records/frame/departures.json, FD-10, FD-11 and the jurisdiction field.
+    * Added: records/frame/adversarial_prompts.json.
+    * Registered: A-051.
+    * Filed: APE-359 to APE-361.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-490, L-491 (a), (b), the encroachment check | STRIKER -- the accounts sent | NAVIGATOR -- each finding checked against the documents, the two corrections in Appendix S, L-491 (c), line (10) and the object rule | OPEN -- how a Navigator answers the adversarial prompts, which a reviewer's run shows
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked in one build of the two documents, then sealed; tools/encroachment.py --docs, ten lines, PREMISE, DEPARTURES (11 entries) and JURISDICTION PASS; --records over the sealed outputs, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the three audits and the record: the law holds, the residue was in emphasis and placement. PART -- APE-359 on where the heading stands, APE-360 on its traces as current, both corrected. SILENT -- which studies you want kept beside the inside reading, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the six adversarial prompts put to two architectures during one exploration, the responses scanned and entered in the register.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 20 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a study rest on, if not on the object it was chosen to examine?
+What it holds out of view: The hierarchy a reader infers from where a passage stands.
+Where it is heading: Toward each requirement kept to its own object.
+What would complete it: No study taken for the protocol's destination.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 50c8646af089a3425e40cd9d6159c9b4dcad1c65d39f6487c45cd2630598b602
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 5 November 2026
+ESC

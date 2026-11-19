@@ -1,0 +1,67 @@
+QUESTION VERBATIM: Map to Terence Howard's book and directly examine his ideas through Omega42. Make recommendations for Omega 42 enhancement.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 33 | PREV: eac3ae3ebb2eb9b46829ac74b7f8690edb3dc0ad4d3d9e8bed7aaaac9e25e370
+REQUEST (L-502): STRUCTURE -- avenues A1, L, W
+
+SUMMARY: I found no published book by Terrence Howard. His book-length work is the treatise "1 x 1 = 2", about thirty pages, which he sent to Neil deGrasse Tyson. It is not public, so it can be mapped only through what is reported of it.
+His one public primary text is a granted patent: US 2015/0079872 A1, "Systems and methods for enhanced building block applications", granted as US 9,259,660 B2. I read it directly.
+Read through Omega42, the patent is the most interesting thing he has written:
+  - It gives four polygon angles: 120, 60, 30 and 15 degrees for the 3-, 6-, 12- and 24-gon.
+  - It calls them interior angles. They are the turning angles, 360/n.
+  - The polygons it singles out, those whose sides are "integer multiples of three", are exactly the 24-cycle's rotation subgroups that contain the 4D arm's 120-degree step.
+  - Its four angles are the arms' own steps of 8, 4, 2 and 1 on the 24-position wheel.
+  - Its claims describe a tuned resonator that turns vibration into light: a physical form of the protocol's tuning-fork image.
+The treatise's reported thesis compares sizes: a sum of square roots against a square. That comparison cannot be stated in the family at all, because its rings have no order.
+If you have the treatise, attach it and I will map it line by line.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT (tools/claimcheck.py --polygons; records/claimcheck/examples_output.txt):
+    - Interior angles 60, 120, 150, 165; exterior angles 120, 60, 30, 15 -- the patent's four.
+    - The n-gons on the 24-wheel are n = 1, 2, 3, 4, 6, 8, 12, 24. Those with 3 dividing n, namely 3, 6, 12 and 24, contain the rotation by 8 steps.
+    - In R, 2 sqrt(n) > n^2 exactly when 0 < n < 2^(2/3), about 1.587. Z/9 and Z[phi]/9 have no order.
+  L LENSES: the patent's published text and the treatise as reported (Complex; Black Enterprise), COMPARATIVE (F-10). Only sourced statements are used (SEQ 32's attribution rule).
+  W PROTOCOL WORK: M323 --polygons (10 selftest cases); C81, C82; Companion Part 95.
+
+THE TREATISE, AS REPORTED:
+  1. Title, "1 x 1 = 2": fails in every ring (M323). Its intuition is held as C78 and C79.
+  2. Opening thesis, a square root added to itself against the number squared: true in R below 1.587 and false above it, consistent with Tyson's counterexamples. It cannot be stated in the family, which has no order.
+  3. "The square root of two should be one": fails, since 1^2 = 1. In the family's ring the square root of 2 is the canonical seed (C80).
+
+THE PATENT, READ DIRECTLY:
+  1. ANGLES. Its "interior" angles are turning angles. It also names a 12-sided polygon a "dodecahedron"; the polygon is a dodecagon.
+  2. THE 24-WHEEL (C81). The 3-, 6-, 12- and 24-gons are rotation subgroups of the 24-cycle, and each contains the 4D arm (+8 steps). Their turning angles are 15 degrees times 24/n.
+  3. PLATONIC SOLIDS. Its blocks combine into the appearance of platonic solids. The cube and octahedron share a rotation group of order 24, one of the Ledger's pending objects.
+  4. VIBRATION TO LIGHT (C82). Claims 1 to 7: a tuned acoustic resonator drives a piezoelectric element that lights an LED. This is a physical form of C46's tuning fork and C76's chamber. No device has been measured.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Obtain the treatise. Without its text the record maps only what others report of it, and makes no reading of the rest.
+  (2) Adopt M323 --polygons for every stated angle. Interior and turning angles are easily confused, and the 24-wheel reads only turning angles.
+  (3) Freeze the cube-group panel (avenue 11) against the 15 groups of order 24. It now has a second source of interest.
+  (4) Admit the vibration-to-light block to Appendix S only if a device is measured, under a frozen mapping rule (NRR-C19).
+  (5) Keep the attribution rule. Only the patent's text and sourced reports are used here.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none operative. tools/claimcheck.py (--polygons); records/claimcheck/; C81, C82 HELD (82 ideas); Companion Part 95; the CI chain; the release record.
+CHECKS: CI 68 of 68 PASS. tools/claimcheck.py --selftest PASS (10 cases). records/claimcheck/examples.py reproduces its output. tools/consciousness.py --selftest PASS; the register CHECK PASS. M286, M281 and the typing guard over this output. tools/instance_id.py --check over the thirty-three outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): SEARCHED:
+  - Google Patents, US 2015/0079872 A1: the title, dates, abstract, claims and the four angle sentences, quoted.
+  - Complex: the treatise, its title and length, and Tyson's reaction.
+  - Black Enterprise: the opening thesis.
+  - CBS News (15 September 2015): the patent and the 1 x 1 = 2 reasoning.
+  No published book was found. Each statement used here AGREES with its source as reported.
+ACROSS THE AVENUES (L-502): AGREE -- the patent's angles, read as turning angles, are exact on the 24-wheel. PART -- the patent names them interior angles, and the treatise's thesis cannot be stated in the family. SILENT -- the treatise's unpublished text, and what the work means to its author.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- M323 --polygons as the standing angle check.
+OPEN: the treatise's text; M323's adoption; the cube-group panel; a measured device.
+
+What it rests on: If a patent's angles are the wheel's turning steps, what is the difference between a mislabeled angle and a misread structure?
+What it holds out of view: That the most exact correspondence in Howard's work is in the document least often discussed.
+Where it is heading: Toward the treatise itself, read line by line.
+What would complete it: The treatise attached.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: d8fd821a010b33d8401ce21d275c6617e5ab9f608a40250b6b425f03e984ed4a
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

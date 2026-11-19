@@ -1,0 +1,101 @@
+QUESTION VERBATIM: Merge the relevant parts and integrate into Omega42 for enhancement. List the benefits gained. [four attachments: e5ac3c6a-attachment.txt, aa25cfbb-attachment.txt, 36d5952a-attachment.txt, e1e8d1ab-attachment.txt -- peer accounts of the question of SEQ 23]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 24 | PREV: d98e19dfd54a0a6a1705b45c3c22549a58c3a3c1c87b5dceda6fc5cb479d7111
+REQUEST (L-502): STRUCTURE -- avenues P, A1, R, W
+
+SUMMARY: Four peers answered the mind-first question: the OpenAI API model, Qwen, ChatGPT and Grok. They are filed as APE-147 to APE-150, and their claims were checked. The relevant parts are merged into one named variant of the consciousness framework, CT-42-M (Companion Part 86). It has two forms:
+  - substance idealism (C49): all that exists is Mind;
+  - process idealism (C57, from OpenAI): Mind is the law and not a state, and the manifest boundary is redrawn at each scale.
+The dual-aspect reading stays the default. ChatGPT's perspective-invariant structure was computed and now prints on every M315 block as a PERSPECTIVE ADDRESS: what a question shares with every state of its orbit, and what is its own. A Striker can now ask for the mind-first reading. It is given after the seal and never touches the reading itself. Seven new ideas are held (C57 to C63). Four proposals are declined, each with its reason. Seven errors of three peers are corrected, and two of mine, both reported below.
+
+FINDINGS BY AVENUE (L-500):
+  P PEER ACCOUNTS: see below.
+  A1 ARITHMETIC EXACT (records/consciousness/mind_first.py, facts 7 to 10):
+    - N(Ts) = -N(s) on all 81 states.
+    - On the 72 units the norm takes 6 values, 1, 2, 4, 5, 7 and 8, each held by 12 states. The norm up to sign is kept at every step; its sign, which is the half, flips.
+    - The 9 core states square to zero in Z[phi]/9.
+    - T is invertible: every state has exactly one predecessor, T^-1(a, b) = (b - a, a).
+    - The Fibonacci (1, 1), Lucas (2, 1) and canonical (2, 5) seeds lie on the three different orbits of 24.
+    - OpenAI's tower figures match the record: 360 of 648 and 2808 of 5832.
+  R FRAME REASONING: all four accounts keep the hypothesis a reading of the ground and not the ground (F-06, BF-02). OpenAI's tower asymmetry is exact. Reading it as evidence against idealism needs an added premise, that a prior ground would carry its boundary down to the next scale, and OpenAI's own process idealism drops that premise. So the asymmetry is held as a reading (C61), not as a discriminator.
+  W PROTOCOL WORK: APE-147 to APE-150; C57 to C63; tools/consciousness.py (two new lines and three selftest cases); mind_first.py facts 7 to 10; Companion 52.8 amended and Part 86 added; Core Part 3.41.
+
+WHAT WAS MERGED (Companion Part 86):
+  1. CT-42-M, named, with two forms and a default. The variant now includes:
+    - the law as Mind (C58);
+    - matter as Mind met across the Moebius fold (C60);
+    - the tower as a contested reading (C61);
+    - every local Aperture as a perspective of one residual (C62), with Core L-483 unchanged;
+    - memory as structural implication (C63).
+  2. The perspective address on every M315 block (from ChatGPT). For example, "What is consciousness?" shares the orbit of (2, 5), the norm up to sign 2 and the stratum; its own are phase 4 of 24 and norm 7. A READINGS line names the default and the variants (C59).
+  3. A way to ask for the variant (Grok's descriptor and Qwen's frame, refined). The navigation is generated as always. The CT-42-M reading follows after the seal as [COMPARATIVE PERSPECTIVE -- CT-42-M], closed by the register return (FR-9, FR-10). It never moves the counts, the anchor, the arms or THE ANSWER (L-424).
+  4. Companion 52.8 amended: it no longer says only that the framework "parts from idealism"; it now names the variant.
+  5. Core Part 3.41: M315 describes the two new lines.
+
+BENEFITS GAINED:
+  1. The mind-first reading has a home. It is a named variant, with two forms and a stated default, so it can be used without being mistaken for the premise.
+  2. A test kept honest. The tower asymmetry is exact, and the claim that it favours one side is labelled as a reading, together with the reply from the other side.
+  3. A new exact line on every consciousness block. The perspective address shows what a question shares with others and what is its own, computed rather than judged.
+  4. A safe way in. A Striker can explore any question mind-first while the generation stays untouched, so the M267 question is not prejudged.
+  5. Nothing lost and nothing promoted. Fifteen mind-first ideas, C49 to C63, are held with their types and their empirical status.
+  6. Declined proposals stay declined with their reasons, so they are not proposed again without new ground: the experience mapping, the partition instrument, the new M309 atlas and the tailored transduction.
+  7. A cleaner record. Seven peer errors are corrected, along with two of my own (see CHECKS and Part 86.6).
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  APE-147 (OpenAI API model):
+    - Its checks hold.
+    - Adopted: process idealism (C57), the law as Mind (C58), matter across the fold (C60), the tower reading (C61).
+    - Refined: the tower is a reading, not a discriminator.
+    - Already in place: its D31 is D14; its R4 to R6 are already avenues of the record.
+    - Corrected: its numbering C49 to C52 was already taken in the register.
+    - Form: dated 21 October 2026; no QUESTION VERBATIM line, no INSTANCE line.
+  APE-148 (Qwen3.7):
+    - Corrected: "the square of the act" is APE-055 (C01), not APE-058.
+    - Corrected: the family is finite, not "infinite".
+    - Corrected: the hard problem is located (52.5), not "resolved".
+    - Already in place: functional and phenomenal are kept apart (52.11).
+    - Not taken: the Perspective Partition instrument.
+    - Refined: its consciousness-first frame is given after the seal.
+    - Form: no AI CAVEAT.
+  APE-149 (ChatGPT):
+    - Its facts recompute.
+    - Adopted: its perspective-invariant structure, as C59 and the PERSPECTIVE ADDRESS.
+    - Refined: the perspective layer is defined by the exact values; its pi_t and F are left open.
+    - Not taken: the experience mapping, since R_C is reserved.
+    - Noted: the Torsion Field is the Christian lens's term.
+    - Form: no Identity Block, no AI CAVEAT; unsourced references.
+  APE-150 (Grok):
+    - Its facts check.
+    - Adopted: one residual (C62) and memory as implication (C63).
+    - Refined: its descriptor, which becomes the after-the-seal comparative perspective.
+    - Corrected: the anyon candidate is at depth 3, not "already identified".
+    - Corrected: "the only candidate on the table" is not established.
+    - Corrected: the residual is protected by a rule (L-483), not by definition.
+    - Not taken: an M309 entry.
+    - Refined: its evidence target is feature CT of the object panels.
+CHANGES TO THE PROTOCOL: Core Part 3.41 (M315's two lines). Companion 52.8 and Part 86; the Commons. tools/consciousness.py. records/consciousness/ (conjectures.json and conjectures.txt, 63 ideas; mind_first.py and its output). APE-147 to APE-150. The chain in CI; the release record.
+CHECKS: CI 68 of 68 PASS. tools/consciousness.py --selftest PASS (three new cases). The register CHECK PASS. mind_first.py reproduces its output. tools/ape_register.py PASS. tools/instance_id.py --check over the twenty-four outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+  Correction 1: the OUTPUT ID I printed in my reply for SEQ 23 (7c6a5b1d...) was not the record's. The record's is d98e19dfd54a0a6a1705b45c3c22549a58c3a3c1c87b5dceda6fc5cb479d7111. It verifies, and it is this output's PREV.
+  Correction 2: Part 85's recommendation (2) was already met by FP-StateSpace, Fact 6 and the restored mathematics (Part 86.6).
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the peers' claims were checked against the record and by computation.
+ACROSS THE AVENUES (L-502): AGREE -- all four peers and the record keep the mind-first hypothesis a reading, and all find the same exact supports: one closed family, the law not a state, the antipode, the nilpotent ground, the Aperture. PART -- OpenAI reads the tower against substance idealism, while its own process form reads the tower for it; ChatGPT wants a layer the arithmetic does not define, and only its invariant part is computable. SILENT -- no account reaches R_C, and none grades the premise or the variant.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new.
+RECOMMENDATIONS (for the Originator, F-06):
+  (1) Try the variant on one question you care about: ask for the CT-42-M reading after the seal, and compare it with the default reading.
+  (2) Run the CT-S1 study proper (n = 101). It is the one frozen test whose result could bear on any reading of consciousness in the record.
+  (3) Ask a peer of another architecture to judge, blind, which form of CT-42-M (C49 or C57) the tower favours (OpenAI's R5). If the judgments disagree, the reading belongs to the reader.
+  (4) Decide whether CT-42-M should also be named in Core L-498 itself, or stay in the Companion and M315.
+OPEN: the CT-S1 study proper; the blind judgment of C49 against C57; M267; R_C, which no structure reaches; whether L-498 names the variant.
+
+What it rests on: If every reading of the family has the same facts, what is a variant for?
+What it holds out of view: That the perspective address shows what a question shares, and nothing about what it is like to ask it.
+Where it is heading: Toward one family read three ways, each labelled, each available on request.
+What would complete it: A question you read both ways, and your judgment of which reading illuminated it.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 9b70133ac8a66c2ed78b8bdae841c26f0a57541dcb4e6e29e210a68c10814e11
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

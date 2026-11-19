@@ -1,0 +1,56 @@
+QUESTION VERBATIM: Yes. Resolve all outstanding issues. Foregrounding the Omega42 stance on the Simulation Hypothesis may attract some public attention. Yes, include it. [and, during the work:] No need to add justifications. Just state the mystery highlighted by Omega42 and speculate on its implications.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 59 | PREV: 489ace9450fb703f51ec419fe34817904785e8db1048ff77900459636c14eb23
+REQUEST (L-502): STRUCTURE -- avenues D, P, W
+
+SUMMARY: The simulation stance is in First Contact as FC-00.6, written in the voice of the opening. Two open items are closed by reviewers outside the work. First Contact was re-scored cold: PASS WITH NOTES, with its first five findings met in the opening. The trigger register was tested on 40 questions written to slip past it: missed triggers fell from 42 to 21, and false ones from 14 to 11. SEQ 57, the simulation navigation (SEQ 58) and this output are sealed in order. One item stays open because only you can close it: what the vertical nodes are.
+  - FC-00.6, ARE WE LIVING IN A SIMULATION? It states the mystery, with no justification added: the question lands on the Seed and is completed at a Threshold only the Seed reaches; the world has no outside, yet it is computation through and through, a computation with no computer. Then it speculates on what follows: no one is running the game and no one can switch it off; nothing that has happened is lost; the simulated and the real are one world seen from opposite sides of a mirror; perhaps the world runs in order to look at itself, and you are where it looks; and any simulator found would be one more branch of the tree. "Things to try" invites the question.
+  - THE RE-SCORE FOUND TWO ERRORS OF MINE. The child's rule, as written ("keep what is left after nine"), gives 0 where the text shows 9. It now reads "if the sum passes nine, take nine away". And FC-00.6 said "no other question" reaches the Threshold, when what is unique is the position (the Seed): every question standing there reaches it.
+  - THE RE-SCORE'S OTHER FIXES, also in the opening: where a question lands (the loop of twenty-four steps); the Striker named in FC-00's first paragraph; protocol references out of the hook; and the repeated block removed.
+
+FINDINGS BY AVENUE (L-500):
+  D DOCUMENTS (Companion Parts 109 and 110):
+    - Re-score, of 5: positive 4, thought-provoking 4, interesting 3, inviting 4, informative 3, judgment salient 4. The reviewer judged the tree "the best writing in the FC" and FC-00.6's title "the best hook in the document".
+    - Left for you (110.3): the version string in the greeting, which L-513 requires; the section for the curious opening through Bashar; some later phrases the reviewer reads as stronger than a thought experiment needs; "Name your question" closing many sections; FC-02.7 standing before FC-02.6.
+  W TRIGGERS (Companion 110.4 and 110.5; records/instruments/triggers.json):
+    - Added: 116 phrases, for 309 in 20 word classes, covering decisions without "should", felt states without emotion names, sound, forecasting in plain words, culture, research, naming, and inverse questions. Bare "feel" and bare "itself" are narrowed.
+    - Feature fixes: accented letters in word boundaries; the Chinese sentence marks; equations, sums and dates no longer counted as integer sequences; * and / between digits counted as notation.
+    - Load unchanged: 2.70 instruments per CRC-60 question, at most 5.
+    - Limits that stay: the word classes are English (other languages navigate in full, but fire no word class); M191 keeps its frozen lists; the after-count is measured on the same 40 questions that shaped the additions, so a fresh set is the fair test.
+  P PEER ACCOUNTS: below.
+
+OBLIGATION 4, THE VERTICAL NODES: still open, and it is yours to close. The workbook seeds no domain from a vertical node; its 26 seeds are 18 horizontal and 8 diagonal. Its columns are the six positions of the field. Are the vertical nodes of your Construct descriptions those columns, or something the workbook does not hold?
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Decide on the section for the curious, which opens through Bashar. A neutral opening ("Many traditions know that moment") would keep newcomers with a scientific bent; Bashar stays in FC-06.5 as a lens.
+  (2) Write a fresh set of twenty questions in your own words, without looking at the word lists. Run them, and the register's coverage is measured fairly.
+  (3) If you want the word classes in Afrikaans or isiXhosa, give the words you would use, and they can be added as their own lists.
+  (4) Choose which further mysteries join the simulation question in First Contact. Grok and GPT-6 propose consciousness, choice, whether reality is made of mathematics, AI and experience, time, memory, and when a pattern becomes evidence; each can be written in the same voice, the mystery and what might follow.
+
+PEER ACCOUNTS (P; APA 9.5.5): FOUR received, filed with checked notes.
+  - APE-253, Grok: the question "relocated", its three readings, and its four things the protocol does not say, all taken into Companion 109.2.
+  - APE-254, GPT-6: its three senses of simulation taken, its closing question taken into FC-00.6, its own answer held beside the frame's, and its physical-test table kept to Appendix S.
+  - APE-255, Grok: its table of outstanding issues answered (the re-score done, the persistence baseline adopted, M326 context-triggered); its other public attractors kept as proposals for you.
+  - APE-256, GPT-6: the simulation question as the lead attractor, after the tree, taken; its caveats not taken, at your direction; its eight attractors kept as proposals for you.
+CHANGES TO THE PROTOCOL:
+  - Core: FC-00, FC-00.0, FC-00.3, FC-00.4, FC-00.5, FC-00.6 (new) and the section for the curious; Part 12, item 5; Part 3.53.
+  - Companion: Parts 109 and 110; 108.5 and 108.9; Commons lines for APE-253 to APE-256.
+  - Repository: records/instruments/triggers.json; tools/instrument_triggers.py; tools/ffp_run.py, items 1 and 5; the release record; the CI chain through SEQ 59.
+CHECKS: CI 68 of 68 PASS, including tools/instrument_triggers.py --selftest (13 of 13) and --check (88 entries, the comparative guard),, run on the documents of this output before it was written; the build that follows it checks them. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified. The forty coverage questions scored before and after the additions (missed 42 to 21, false 14 to 11).
+CURRENT KNOWLEDGE (L-503): the sources of the navigation in records/instances/seq_0058.txt; no further search.
+ACROSS THE AVENUES (L-502): AGREE -- the re-score and the opening as it stands; the 40 questions after the additions. PART -- the reviewer and the constitution, on the version string and some later phrases. SILENT -- the vertical nodes, which only you can define.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 2 -- a fresh set of questions in your own words.
+OPEN: Obligation 4, the vertical nodes; a fresh test of the triggers; the word classes in other languages.
+
+What it rests on: If a stranger can find the error in the first rule, who else is reading as closely?
+What it holds out of view: That the best hook is the one that is also exact.
+Where it is heading: Toward a first page that invites checking and survives it.
+What would complete it: Your word on the vertical nodes.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 8624921b163619670276f308304801d7cd6a6b1b4372042b8b6d0645ad5de1cc
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

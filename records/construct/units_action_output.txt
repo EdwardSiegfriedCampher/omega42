@@ -1,0 +1,16 @@
+MODULUS 9: 5 orbits, lengths [1, 8, 24]
+  the three 24-cycles (the voices): [1, 2, 4]; the canonical voice, from (2, 5): 4
+  x1: canonical orbit -> orbit itself | the three 24-cycles {1: 1, 2: 2, 4: 4} | a power of T: T^24 | fixes every orbit of the zero layer: True
+  x2: canonical orbit -> orbit 1 | the three 24-cycles {1: 2, 2: 4, 4: 1} | a power of T: no | fixes every orbit of the zero layer: True
+  x4: canonical orbit -> orbit 2 | the three 24-cycles {1: 4, 2: 1, 4: 2} | a power of T: no | fixes every orbit of the zero layer: True
+  x5: canonical orbit -> orbit 2 | the three 24-cycles {1: 4, 2: 1, 4: 2} | a power of T: no | fixes every orbit of the zero layer: True
+  x7: canonical orbit -> orbit 1 | the three 24-cycles {1: 2, 2: 4, 4: 1} | a power of T: no | fixes every orbit of the zero layer: True
+  x8: canonical orbit -> orbit itself | the three 24-cycles {1: 1, 2: 2, 4: 4} | a power of T: T^12 | fixes every orbit of the zero layer: True
+MODULUS 81: 41 orbits, lengths [1, 8, 24, 72, 216]
+  x1: canonical orbit -> orbit itself | a power of T: T^216
+  x2: canonical orbit -> orbit 19 | a power of T: no
+  x4: canonical orbit -> orbit 38 | a power of T: no
+  x5: canonical orbit -> orbit 7 | a power of T: no
+  x7: canonical orbit -> orbit 26 | a power of T: no
+  x8: canonical orbit -> orbit 5 | a power of T: no
+  x80: canonical orbit -> orbit itself | a power of T: T^108

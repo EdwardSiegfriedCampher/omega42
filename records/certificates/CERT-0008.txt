@@ -1,0 +1,22 @@
+QUESTION VERBATIM: Explore the potential encryption capabilities Omega42 might have and examine the advantages it may offer in different fields. Give practical examples and say if it enhances the Omega 42 ecosystem. Resolve all remaining issues and computations and present a complete picture.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0008
+KIND: STANDING
+SUBJECT: what the surface law can and cannot protect -- the separation of confidentiality from provenance (OPAL)
+CRITERIA: the cipher audit of Core Appendix S.10, by direct arithmetic (CDT-A): the surface law T(a, b) = (b, a + b) mod 9 is linear over Z/9, so any keyed round schedule composes to one affine map on 81 states; the orbit of a state is public; the Hermitian determinant mod 9 takes all nine residues; and the OPAL layer (M342) signs and verifies, separates keys by domain, and encodes a digest reversibly
+PROCEDURE: python3 compute.py
+CWD: records/opal
+RESULT: linear True; codebook 81; determinant mod 9 has 9 distinct outputs; signature verifies True and a tampered copy False; two domains give different keys -- so no secure cipher, key generator, hash or signature follows from the surface law, while Ed25519 signing, HKDF domain separation and the position-name fingerprint are constructive and self-consistent
+RESULT SHA-256: ade7e9e7c1b603898349980e60a4b691e9bd8a0084cf4dea99e3672225cfa955
+GRADE: STANDING (M335), observed by computation; the negative facts are exact arithmetic, the signing layer a standard construction; empirical testing of any implementation or native construction is kept in Core Appendix S.10
+SCOPE: the surface law as the protocol computes it, and the OPAL layer of tools/opal.py; no claim about a future native construction, which stays open in Core Appendix S.10
+STATUS: CERTIFIED
+STATEMENT: Ω42 certifies that no secure cipher, key generator, hash or signature follows from its surface law, and that what the law and the record supply is provenance -- signed origin, integrity and domain separation -- not confidentiality.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

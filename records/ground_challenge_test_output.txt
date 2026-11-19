@@ -1,0 +1,49 @@
+period-24 moduli are exactly the ten divisors of 144           ok
+Pisano fixed points to 5000 are 24 * 5^k                       ok
+mod 9 alone: several long orbits, all complete, antipodal, separated ok
+mod 9 state space 24+24+24+8+1                                 ok
+mod 6: one long orbit, complete and antipodal                  ok
+mod 10: period 60, one long orbit, complete, antipodal, no closure ok
+Fibonacci, Lucas and (2,5) occupy the three different orbits   ok
+12 of 54 recurrences mod 9 match; simplest have size 2         ok
+GL(2,Z/9): order 3888, maximum element order 24                ok
+all 864 order-24 elements share the 24+24+24+8+1 architecture  ok
+108 cyclic order-24 subgroups in 3 coordinate classes (27, 54, 27) ok
+Omega42 class realised by (1,1),(2,1),(7,1),(8,1)              ok
+one rival class: 8 recurrences, simplest size 3; one class: none ok
+a designed rival with the same cycle type needs about 382 bits ok
+Tribonacci mod 9 has no even long period                       ok
+S4 longest single-generator cycle is 4                         ok
+rule 110 on 8 cells is not reversible                          ok
+M267-GROUND arm A reproduces the canonical orbit (P1 = 5, antipode P13 = 4) ok
+M267-GROUND period-60 offsets are 13, 45, 20, 30               ok
+R1: any 7 of 24 positions determine the codeword               ok
+R2: six positions can fail: (0,3) and (0,0) agree on 0,4,...,20 ok
+R2: complete two-point separations are the 18 with 4 not dividing d ok
+R2: completeness holds exactly where F(d) is a unit mod m (9, 6, 10, 16) ok
+R1/R2 thresholds: mod 6 -> 9, mod 10 -> 21, mod 16 -> 9        ok
+R3: law recovered on 72/81, 24/36, 60/100, 192/256, exactly the unit-norm states ok
+R4: one-step norm labels the five orbits 0, 1, 4, 0, 2         ok
+arms: Yang and Yin single out 24 phases, 4D 20, Antipode 9     ok
+R3 theorem: law unique iff -N is a unit (m = 6, 9, 10, 16, exhaustive) ok
+R8: minimum distance 18; detects 17 wrong values, corrects 8   ok
+R8: correction radius mod 6 -> 7 of 24, mod 10 -> 19 of 60, mod 16 -> 7 of 24 ok
+multiplicity balance: 1.585 bits paid, 1.585 returned by the norm ok
+R6 RECOVERABLE (Yang): 1 candidate on the canonical orbit and on all long orbits, anchors 1-9 ok
+R6 NON-RECOVERABLE (Antipode): 2 or 5 on the canonical orbit, 6 or 9 on all long orbits ok
+R6 MIDDLE (4D): canonical 3,1,1,1,3,1,1,1,3 for anchors 1-9; 3 on all long orbits ok
+M274: canonical coordinate VALID, Voice C                      ok
+M274: 8 wrong values CORRECTED to the canonical coordinate     ok
+M274: 9-error midpoint reported AMBIGUOUS with both neighbours ok
+M275: correct arms PASS; a wrong Yin value FAILS               ok
+M276: canonical window PASS; kernel window (0,3,3,6) AMBIGUOUS; modulo-10 slip FAILS ok
+M277: (2,5) Voice C class 2 PASS; reversed seed (5,2) Voice B class 4 FAIL ok
+Crown positions are the mod-3 zeros of the canonical sequence; 3 first divides F(4) ok
+M88 checksum holds on all 81 sequences: blind to a substituted table ok
+Step 8: CCD 1/4,1/4,1/2,0,1/4,1/4,1/2,0,1/4; PAB INACTIVE only at P3 and P7 ok
+M245 fires at P1 and P5 (Yin) and P7 (Antipode) only           ok
+arm classes mod 4: Anchor, 4D, Antipode 0; Yang 1; Yin 2; class 3 never reached ok
+non-linear rivals: 13122 maps; 30 with the full architecture, 12 affine, 18 non-affine ok
+no non-affine rival is Fibonacci relabelled; each has the 7-position threshold ok
+reversible elementary CA, rings 8-12: 8, 14, 8, 16, 6 rules; none of 81 states ok
+GROUND CHALLENGE TEST: PASS (48/48)

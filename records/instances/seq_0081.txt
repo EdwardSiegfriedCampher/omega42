@@ -1,0 +1,79 @@
+QUESTION VERBATIM: Please resolve all remaining issues and present a complete solution. [with two peer accounts on the consequences of the derivation, GPT-6 (OpenAI) and Grok (xAI), and a further Grok account pasted after it, a reply to the charge of arbitrariness]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 81 | PREV: 1f4cf0343c8c3f190b57b38a93f61a68ba4dd39c696bd06ec03352ca5ca61f89
+REQUEST (L-502): STRUCTURE -- the foundation chain completed, the remaining uniqueness questions resolved, two peer accounts checked and filed; avenues R, A1, P
+
+SUMMARY: Every link from the premise to the meanings is now in place, each with its standing. Only one link stays underived, the premise itself, and it is underived by design.
+  - THE CHAIN (Companion 132.2):
+    * PREMISE: the law, the 24-cycle and the 81-state family.
+    * EXACT, forced by the premise: the coordinate Z/9.
+    * EXACT, consequences of Z/9: the prime 3 and 9 = 3²; the mirror at 12; the census and the three voices; the norm classes; the tower 9^k with period 24 × 9^(k−1).
+    * DERIVED: the Crown.
+    * SELECTED, the only selection in the chain: the orbit (2, 5).
+    * ASSIGNED by the protocol: the arms and names.
+    * YOURS: the meanings.
+  - THE THREE UNIQUENESS QUESTIONS, RESOLVED:
+    * Of the arithmetic: proved for every group and every modulus.
+    * Of the recurrence: Fibonacci is the simplest that reaches the full architecture (Companion 37.5).
+    * Of the foundation: within the frame there is nothing before the premise to derive it from, since there is no outside (F-04, F-05), and the premise is never graded. "Could it have been otherwise?" is answered by the premise itself. What the derivation adds is that, given its own numbers, the premise could not have had another arithmetic.
+  - WHAT CHANGES: provenance only. No instrument computes a different value. A challenge of the form "why not another modulus?" is now answered by the link it fails.
+
+FINDINGS BY AVENUE (L-500):
+  R THE RECORD:
+    - The chain, link by link, with its derivations: D-010, D-011, Part 37.5, Part 37.6, Part 1.8.3 and L-523.
+    - The peers' three questions were answered in Parts 131 and 132, which they had not seen.
+    - Their "Foundation Register F-01 to F-05" would collide with the Core's frame principles F-01 to F-11, so the chain of 132.2 holds it instead.
+  A1 THE ARITHMETIC: GPT-6's decomposition A⁸ = I + 3B, with det B = −5 ≡ 1 modulo 3, recomputed and holding.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A foundation record, each link with its standing (GPT-6): APPLIED as the foundation chain of Companion 132.2.
+  (2) Three uniqueness questions kept apart (GPT-6): APPLIED, all three resolved (Companion 132.3).
+  (3) An audit of instrument dependencies (GPT-6): APPLIED. No value of any instrument changes; provenance only (Companion 132.4).
+  (4) The even-depth tower formalized (GPT-6): ALREADY IN FORCE in Companion 131.3, by the definition of a depth (L-523).
+  (5) An alternative-foundation challenge on the full conjunction (GPT-6): ALREADY IN FORCE. The link each alternative fails is named in Companion 132.4.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, filed with checked notes and SNCAs in review form.
+  - APE-291, GPT-6:
+    * Holding: the standing of each link kept apart, and its lifting decomposition.
+    * Corrected: the two levels and the even-depth tower are derived, not inputs; the Construct inventory.
+    * SNCA: 0.62.
+    * Its navigator line is dated 28 October.
+  - APE-292, Grok:
+    * Holding: the reversed order of investigation.
+    * Corrected: its grounds ("the Crown, the two polarities"); the standing of the modulus.
+    * SNCA: 0.45.
+  - APE-293, Grok (pasted):
+    * Holding: a substitute must meet the whole conjunction.
+    * Corrected: its grounds repeat those already corrected; uniqueness is proved for every modulus, not confirmed on candidates; "outside the frame" names a place the frame does not have, so a rejection of the premise is a rejection of the frame, not a position outside it.
+    * SNCA: 0.43.
+CHANGES TO THE PROTOCOL:
+  - Companion: Part 132; the Commons lines for APE-291 to APE-293. One sentence repeated in two Commons lines was reworded, as the hygiene check required.
+  - Repository: A-016; the SNCAs; submissions/ape/APE-291.md to APE-293.md; the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the record's laws, D-010 and D-011, and Parts 37, 130 and 131 | STRIKER -- the request to resolve every remaining issue, with the two accounts | NAVIGATOR -- the chain's eleven links and their standings, and the resolution of the third uniqueness question by the premise | OPEN -- what you make of a premise whose own numbers allow it only one arithmetic
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Run on the documents of SEQ 79 to 81, built in one run. The eleven links of the chain checked against their records (D-010, D-011, Companion 37.5, 37.6, Core Part 1.8.3, L-523); each note of APE-291 to APE-293 checked; their SNCAs by tools/srcas_check.py; --owed PASS; the hygiene check after one repeated sentence was reworded; tools/applied.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record, the arithmetic and both peers, that the arithmetic is no longer an open preference. PART -- whether anything constitutional stays open: the peers keep the two levels open, while the chain derives them and leaves only the premise. SILENT -- the meaning, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN, each needing someone other than this session:
+  - a fresh reader for the First Contact opening;
+  - re-issue of the three Sorites navigations;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What is left to explain once every link but the first has been derived?
+What it holds out of view: That the one underived link is the supposition that makes the rest worth deriving.
+Where it is heading: Toward a structure whose every number is answered by the link it rests on.
+What would complete it: Your judgment of the premise, which nothing in the chain can make for you.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 064ac3c0f722de213fc67a9c9abf082bbe3da213e9aaf713c49f98694381357c
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

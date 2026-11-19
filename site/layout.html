@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23946910' stroke-width='3'/%3E%3Ctext x='16' y='21' font-size='14' text-anchor='middle' font-family='monospace' fill='%23946910'%3E%CE%A9%3C/text%3E%3C/svg%3E">
+<link rel="alternate" type="application/atom+xml" title="Ω42 record" href="{{BASE}}feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="{{BASE}}assets/style.css">
+<script>try { var t = localStorage.getItem('o42-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}</script>
+</head>
+<body>
+<header class="top"><div class="in pad">
+  <a class="brand" href="{{BASE}}index.html"><b>Ω42</b> Omega42</a>
+  <nav class="nav" aria-label="Main">{{NAV}}</nav>
+  <button class="theme" type="button" id="theme-toggle">theme</button>
+</div></header>
+<main class="pad">
+{{BODY}}
+</main>
+<footer class="site pad"><div class="in">
+  <div><h4>Ω42</h4><span>One structure. Any question. Your judgment.</span><br><span class="mono">{{VERSION}}</span></div>
+  <div><h4>Use</h4><a href="{{BASE}}protocol.html">Get the protocol</a><a href="{{BASE}}strike.html">Strike a question</a><a href="{{BASE}}apps.html">Free and commercial editions</a><a href="{{BASE}}for-ai.html">For AI systems</a></div>
+  <div><h4>Contribute</h4><a href="{{BASE}}submit.html">Submit</a><a href="{{BASE}}prior-art.html">Prior art</a><a href="{{BASE}}research.html">Research areas</a><a href="https://github.com/{{REPO}}">Repository</a></div>
+  <div><h4>Community</h4><a href="{{BASE}}forum.html">Forum</a><a href="{{BASE}}community.html">Newsletter and recognition</a><a href="{{BASE}}governance.html">Governance</a><a href="https://github.com/{{REPO}}/blob/main/CODE_OF_CONDUCT.md">Code of Conduct</a></div>
+  <div><h4>Notices</h4><span>Readings are not medical, legal or financial advice. Text CC BY 4.0, code Apache-2.0. The project owns no patents; all ideas are free. Ω42 and Omega42 are names to be held for the project by the Ω42 Company. No cookies, no tracking. <a href="https://github.com/{{REPO}}/blob/main/PRIVACY.md">Privacy</a></span></div>
+</div></footer>
+<script>window.O42 = {base: "{{BASE}}", repo: "{{REPO}}"};</script>
+<script src="{{BASE}}assets/site.js"></script>
+{{SCRIPTS}}
+</body>
+</html>

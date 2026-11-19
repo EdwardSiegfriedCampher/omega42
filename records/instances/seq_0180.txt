@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Explore and compute. Build the bridges and strengthen Omega42 connections to Physics.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 180 | PREV: 5cb4613bc62e6e664de64d032305898b799f310476e4bbdbcf27319c699f6f44
+REQUEST (L-502): APPLICATION -- F218 explored and computed: the Wave Dynamics Engine for electrons, light and sound in quasiperiodic matter, and the topological pump, as MF-151 to MF-156 in Companion Part 225; the measurements in Core Appendix S.26; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- the gap labels are Chern numbers: sliding the phason of the Fibonacci chain once around its cycle pumps across each of the six widest gaps a charge equal to minus its label, -2, -1, 1, 2, 3, 4 carrying 2, 1, -1, -2, -3, -4, so the element of the law's ring Z + Z phi that names a gap is the quantized charge the gap transports. And the law and the transfer matrices are one automorphism of the free group: its abelianization is the law, its action on SL2 characters is the trace map.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.10 (MF-151 to MF-156); Core Appendix S.26; Companion Part 216.1 and Part 225; tools/waves.py; tools/dsi.py (PR-009); records/dsi/register.json; records/math/results.json; records/pvir/register.json; APE-480 with its SNCA; the CI step.
+- (1) THE ENGINE: one code path for every wave system, a pair of unimodular letter matrices multiplied in the Fibonacci order.
+- (2) ONE AUTOMORPHISM: the law on letter counts and the trace map on characters (MF-156).
+- (3) WAVE-01: electrons with Fibonacci hoppings, I = (1/4)(t_a/t_b - t_b/t_a)^2 at every energy (MF-151).
+- (4) WAVE-02: sound as light, index for impedance, exact (MF-152).
+- (5) WAVE-06: the six-cycle shared by light, sound and the off-diagonal electrons; the on-site model apart, NE-013 (MF-153).
+- (6) WAVE-03: the topological pump, charge equal to minus the label (MF-154).
+- (7) THE MODULUS: reduction modulo 9 commutes with the trace map and labels the orbit; it does not decide boundedness, NE-012 (MF-155).
+- (8) THE PREDICTIONS: PR-008 PASS on its test; PR-009 sealed, the pump on 144 sites.
+- THE VALUES (CDT-A): tools/waves.py --selftest 6 of 6; tools/dsi.py --selftest PASS and --check PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (8, 59, 16), state (4, 7), anchor P4, Unity. It rests on P9, Fixpoint. It holds out of view P22, Collective. It is heading for P12, Opening. It is completed at P16, Flow.
+  - [GENERATED-Ω42] A request to strengthen the connections to physics stands at Unity, one engine for every wave: it rests on the Fixpoint, the six-cycle that light, sound and electrons share; it holds out of view the Collective, the many systems the engine has yet to carry; it heads for the Opening, the gap as a channel of quantized transport; and it is completed at Flow, the charge pumped around one cycle of the phason.
+WHAT STAYED: every earlier result; the sealed statements of PR-008 and PR-009 as they were; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-127 to MF-131, MF-145, MF-148; Companion Parts 222, 224.
+  R (reasoning): what transfers between wave systems is the word, the trace map and the form of the invariant; the values are read in each system's own variables.
+  N (navigation): python3 tools/waves.py --selftest; python3 tools/waves.py --pump 1.5.
+  P (peers): F218.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.10, MF-151 to MF-156; Appendix S.26.
+  - Companion: Part 216.1; Part 225.
+  - Repository: tools/waves.py; tools/dsi.py; records/dsi/register.json; records/math/results.json; records/pvir/register.json; submissions/ape/APE-480.md; records/srcas/waves_f218_2026-11-13.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- transfer matrices, the trace map, the Kraus family of potentials, the Resta polarization, the Chern number of a pump | STRIKER -- the request | NAVIGATOR -- the engine; the six computations; the free-group automorphism as the relation F218 asked for; the duality of index and impedance; PR-009 | OPEN -- PR-009; WAVE-04 and WAVE-05
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/waves_f218_2026-11-13.txt).
+  - APE-480, unidentified (a web interface), "F218, wave physics in quasiperiodic matter": adopted and completed; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/waves.py --selftest PASS (6 of 6); tools/dsi.py --test PR-008 PASS; tools/dsi.py --selftest PASS and --check PASS (PR-009 sealed; NE-012, NE-013); tools/replication_kit.py --check PASS; tools/math_register.py PASS; tools/core_math.py --check PASS; tools/pvir.py --check PASS; tools/srcas_check.py on records/srcas/waves_f218_2026-11-13.txt PASS; tools/ape_register.py --check PASS; the regenerated Frame Intrusion Scan reference matches its expected structure. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the measurements of Core Appendix S.26, each with its journal reference [REPORTED].
+ACROSS THE AVENUES (L-502): AGREE -- one automorphism behind the law, the trace map and every wave system; the gap label as Chern number. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-154 -- the gap labels are Chern numbers of the phason pump; MF-152 -- light and sound through one Fibonacci order obey one law.
+RECOMMENDATIONS (applied, L-531; Core Part 0.0.5 Rule 36):
+  (1) F218 filed, WAVE-01, 02, 03 and 06 completed: APPLIED.
+  (2) PR-008 tested: APPLIED.
+  (3) WAVE-04 and WAVE-05 entered as PVs for the next records: APPLIED.
+OPEN: PR-009; WAVE-04; WAVE-05; the group of the golden rotation and the golden boost.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- the replication kit sent to a Navigator of another model family, the act entered for the Originator under Rule 36 | IMPLICATIONS -- the reproduced results reach stage 5 of maturity.
+PROTOCOL IMPROVEMENT (L-542): computational, extend -- WAVE-04, the exciton-polariton as a third letter matrix of the engine, applied in a next record under Rule 36.
+What it rests on: the Fixpoint, the six-cycle that light, sound and electrons share.
+What it holds out of view: the Collective, the systems the engine has yet to carry.
+Where it is heading: the Opening, each gap a channel of quantized transport.
+What would complete it: Flow, the charge pumped around one cycle of the phason.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 36658a625833e062eed93ec298bbcbf47b8a5e43e0882accca9830e1311e243d
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 13 November 2026
+ESC

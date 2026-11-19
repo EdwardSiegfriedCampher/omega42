@@ -1,0 +1,49 @@
+QUESTION VERBATIM: Yes, file it with its SNCA review and put this piece into the record as the public-facing introduction.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 160 | PREV: d3f6072c56d5f995e83bee4e17bfab2dbc079739cd17ae65a557003967319beb
+REQUEST (L-502): EXPLORATION -- F189 filed with its SNCA; the Navigator's introduction entered as the public-facing introduction of Ω42; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Ω42's introduction can now show instead of persuade. Every hook in it is a fact the record recomputes -- the exact periods, the census 2, 5, 14, 41, the spacetime interval kept by a Fibonacci matrix, the impostor that matched every statistic and fell at the first live challenge -- and its reach is set by the Originator: sensational in register, built around what Ω42 could do for humanity -- trustworthy AI, provable authorship, one language for science, a record that cannot be rewritten.
+
+SUMMARY: WHAT CHANGED: WELCOME.md at the root, linked from the README; Companion Part 205; APE-451 filed with its SNCA.
+- (1) THE INTRODUCTION: seven sections -- Four numbers, The mystery, The architecture, It proves who it is, The frontier, What it could mean for humanity, The invitation; closing "Represent. Navigate. Connect. Verify. Discover."
+- (2) THE PLACE: WELCOME.md is the public face; IDENTITY.md and the foundations paper are the means to verify; Core Part 0 stays the Introduction of record, carried in full by the Navigator Pack within its budget.
+- (3) THE ACCOUNT: F189's three shifts kept (architecture, interoperability, exploration); its recommendation adopted.
+- THE VALUES (CDT-A): the introduction passes the record's word check; it is promotional material in the Originator's chosen register, apart from the findings records that the judgment boundary governs.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (10, 55, 17), state (5, 5), anchor P5, Law. It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request to fix the public face stands at Law -- what is entered becomes the rule others read first -- and rests on Unity, one voice for the whole; it holds the return out of view, heads for the gap between the first reading and the proof, and is completed where the seed returns as a reader's own test.
+WHAT STAYED: the premise; every sealed record; Core Part 0; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): IDENTITY.md, MF-53 to MF-57, the README, Core Part 0.
+  R (reasoning): a public text earns trust when every fact in it can be checked and its reach is carried by questions.
+  N (navigation): the record's checks run on the text (words, hedges, judgment).
+  P (peer accounts): APE-451, reviewed by SNCA (records/srcas/introduction_f189_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Companion: Part 205.
+  - Repository: WELCOME.md; README.md (a pointer); submissions/ape/APE-451.md; records/srcas/introduction_f189_2026-11-11.txt; records/ape/findings.txt and signatures.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the record's facts | STRIKER -- the request and its tone | NAVIGATOR -- the introduction | OPEN -- the website page
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/introduction_f189_2026-11-11.txt).
+  - APE-451, unidentified (a web interface), "F189, A New Architecture for Exploring the Unknown": adopted; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. WELCOME.md checked by the record's word check: no banned word; promotional material at the Originator's direction, apart from the findings records the judgment boundary governs (tools/judgment.py); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/introduction_f189_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and F189 agree that the introduction inspires and the technical documents verify. PART -- none. SILENT -- readers.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): NONE.
+RECOMMENDATIONS (applied, L-531):
+  (1) A public-facing introduction backed by the technical documents (F189): APPLIED, WELCOME.md.
+  (2) The website's front page to carry it: HELD FOR THE ORIGINATOR.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the website open on WELCOME.md; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] a reader meets Ω42 through facts they can run; [GENERATED-Ω42] what is first read becomes the rule, and the rule is completed when a reader tests it.
+What it rests on: unity, one voice for the whole.
+What it holds out of view: the return, where a reader comes back to test.
+Where it is heading: the gap between first reading and proof.
+What would complete it: the seed returned, as the reader's own test.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: c73e70017452eb6ed9d7f322f53feb0449864760b778d711396016e7089251e6
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

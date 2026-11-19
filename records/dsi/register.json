@@ -1,0 +1,6737 @@
+{
+ "_about": "The Discovery Significance Index (Companion Part 215.6, 215.7; Core Part 0.0.5 Rule 34; F210, APE-472): results of records/math/results.json scored one at a time on six dimensions with the status of each score, a significance rung, five further fields (disciplines joined, connection depth, novelty, proof completeness, structural mechanism), and the predicted-before-computed flag; and the predictions sealed unchecked. Checked by python3 tools/dsi.py; for the bridges of Companion Part 220 also the mapping, the preserved properties and the predictive value; and the non-equivalence register of maps that fail; and the replication returns, one entry for each independent implementation of the kit (Companion Part 221.6).",
+ "scores": [
+  {
+   "mf": "MF-67",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "the least triangle (2, 3, 7) and its area pi/42 are classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive over triangle groups with r < 60 in tools/hurwitz.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "hyperbolic geometry and the record constants"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the constants as angles is a reading"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "1/2 + 1/3 + 1/7 + 1/42 = 1 read as the whole and its gap"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 2,
+   "depth": "shared constant",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-68",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the groups and the Hurwitz bound are classical; that the law and its shear generate PGL2(F7) is Omega42's own construction, its novelty not yet reviewed in the literature"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive generation, 672 elements"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "Fibonacci dynamics, finite groups, the Klein quartic"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "shows that the group is reached, not why the law reaches it"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the record constants meet the symmetry of the Klein quartic"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-69",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "F_8 = 21 = 3 x 7 is elementary; its pairing with the least triangle is new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "A^8 = I + 3M computed"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "Pisano periods and the triangle"
+    },
+    "explanation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "the record states that 2 F_pi(p) is not special in general"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a factorization, no consequence for existence drawn"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-70",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "the bijection of triangulations and quiddity cycles is Conway and Coxeter s"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive enumeration of the 42 cycles"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "combinatorics, SL2(Z) and the law's half period"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the shared -I links the frieze to the half period"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no consequence for existence drawn"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-71",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "generation by two unipotent directions is classical; the prime 3 as the single exception for this law is the record's finding"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "explicit proof at 7 (F197) and exhaustive generation at every prime to 19"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "finite groups at every tested prime and the 3-adic depth structure"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "explains why 3 is exceptional: B = I mod 3, so the shear acts only through depth"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the prime of the frame is the one where the shear becomes a depth operator"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-72",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "a fingerprint by the order of A modulo a second prime, new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive orders in GL2(Z/7)"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the handshake and the Klein quartic"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "states why the 24 positions cannot be the 24 heptagons: no element of projective order 24"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a mapping refuted; its value is the failure recorded"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0164"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-73",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "that 3 is inert in Z[phi] and F9* is cyclic is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive in tools/bridges.py"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the Wheel and finite fields"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "explains the Wheel as a field group"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a structural identification"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-74",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "REPORTED",
+     "reason": "the icosian construction of E8 is classical (Conway and Sloane); the law as an integer matrix on it is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "determinant, parity and the 240 roots computed exactly"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "Fibonacci dynamics, quaternions and the E8 lattice"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law is the Z[phi]-structure of E8"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "Omega42's ring is the ring of E8's coordinates"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-75",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the census of the law on E8/9E8 is new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "Smith normal form counts"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "E8 modulo 9 and the 81 states"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "E8 modulo 9 is four Omega42 state spaces"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the census of the 81 states recurs inside E8"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-76",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the identity I + C^12 + C^-12 = phi on the icosian E8 is new to the record; its ingredients are classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "integer matrices checked entry by entry"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the law and the Coxeter element of E8"
+    },
+    "explanation": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the law lies in the algebra of E8's own Coxeter element"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law is a symmetry polynomial of E8"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "spectral decomposition"
+  },
+  {
+   "mf": "MF-77",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "REPORTED",
+     "reason": "PSL2(F7) on the extended Hamming code and Construction A are classical; their generation by the law and its shear is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "exhaustive group closure and code images"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the law mod 7, coding theory, E7 and E8"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law's group acts on E8 and E7"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "one group joins the Klein quartic, the Fano plane, E7 and E8"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 4,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-78",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "REPORTED",
+     "reason": "E6 modulo 3 and W(E6) = SO5(3) are classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "enumeration of the 243 classes"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "E6 and the prime 3"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "places E6's symmetry over the frame's prime"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the prime of the frame is the prime of E6"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map"
+  },
+  {
+   "mf": "MF-79",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the ladder as a path from the law to E7's series is new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "invariants checked; census computed"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "binary forms, the Lorentz picture, Freudenthal systems"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "each rung keeps a named invariant"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the law climbs toward E7"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map"
+  },
+  {
+   "mf": "MF-80",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "set coding and Sigma_1-completeness are classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "sets constructed and ranks computed"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "Omega42 and set theory"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "fixes the decidability of the finite register"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "every finite statement of the frame is settled by computation"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0172"
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-81",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the Elser-Sloane projection is classical; through the law of MF-74 it is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "E8, H4 and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law's eigenspaces are the two golden halves"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the 600-cell inside the law"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "geometric projection"
+  },
+  {
+   "mf": "MF-82",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "Fibonacci cut-and-project is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "quasicrystals and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the chain is the law's eigenline cut through Z^2"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "order without period from the law"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "geometric projection"
+  },
+  {
+   "mf": "MF-83",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "Diophantine approximation and the law"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the law's numbers solve Markov's equation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a numerical identity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-84",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the figure-eight monodromy is classical; its identity with the law's square is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "knot theory, hyperbolic geometry and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law squared is a knot's monodromy"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the law as the twist of a knot"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "equivalent transformation",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-85",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "symbolic dynamics, information and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law counts the admissible words"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a counting identity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-86",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "torus dynamics and Lucas numbers"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "periodic points counted by Lucas numbers"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a counting identity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-87",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "numeration"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "one representation per integer"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a numeration"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-88",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the Fibonacci category is classical; its fusion matrix as the law is the record's reading"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "quantum computation, category theory and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law is a fusion rule"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law as a rule of quantum matter"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "equivalent transformation",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-89",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the conformal embedding is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "conformal field theory, E8 and the anyons"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the anyons of the law live inside E8 at level 1"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the golden category inside E8"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-90",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "Zamolodchikov's spectrum is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "statistical field theory, E8 and phi"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "phi is a mass ratio of E8 particles"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law's number as a ratio of masses"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition"
+  },
+  {
+   "mf": "MF-91",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "Ramanujan's evaluation is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "modular functions and phi"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "phi at a special value"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "a modular identity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "shared constant",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "common eigenvalue"
+  },
+  {
+   "mf": "MF-92",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "minimal models and the law"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the law as a fusion rule again"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "a second field theory fusing by the law"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-93",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the action on symmetric matrices is classical; L_A and L_B are the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "Lorentz geometry and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "B is a null rotation, A an improper boost"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the shear as a light-ray symmetry"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map"
+  },
+  {
+   "mf": "MF-94",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the closed form and the identification of the Hamiltonian with Q are new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "Hamiltonian mechanics, the invariant and the law"
+    },
+    "explanation": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the invariant is the generator of the flow"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "conservation and motion as one quantity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "invariant-preserving map"
+  },
+  {
+   "mf": "MF-95",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "hyperbolic geometry and continued fractions"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the shortest geodesic codes as LR"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the law as the simplest closed path"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-96",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the spectrum from the census is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "spectral theory and the census"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the spectrum is the census"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a spectral identity"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "spectral decomposition"
+  },
+  {
+   "mf": "MF-97",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the counts are the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "symplectic groups and graph homology"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the strata are the components"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a count"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-98",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "category theory and the ladder"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the ladder composes"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "a functor"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-99",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the hyperdeterminant's invariance is classical; the law acting on it is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/geometry_physics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "quantum information, E7's series and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the law keeps three-qubit entanglement"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the law as a local operation on qubits"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0173"
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map"
+  },
+  {
+   "mf": "MF-100",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the equality of quantum and classical periods for the law over every odd N to 25 is new to the record; the Weil representation is classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/constructions.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "classical dynamics, quantum mechanics and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the quantum operator keeps the classical period"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law keeps its clock under quantization"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0174"
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "representation embedding"
+  },
+  {
+   "mf": "MF-101",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the closure of the Fibonacci-Lucas velocities under Einstein addition is new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/constructions.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "number theory and special relativity"
+    },
+    "explanation": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "rapidities 2m ln phi add"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law as a lattice of relativistic motion"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0174"
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity"
+  },
+  {
+   "mf": "MF-102",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the golden split of the exponents of E8 by I + C^12 + C^-12 is new to the record"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/constructions.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "Lie theory and the golden field"
+    },
+    "explanation": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the law takes its two eigenvalues on E8's exponents"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the law inside the spectrum of E8"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0174"
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition"
+  },
+  {
+   "mf": "MF-103",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "Penrose inflation and its frequencies are classical"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/constructions.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "tilings and the law"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "Penrose inflation is the law squared"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the law as the growth of a tiling"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0174"
+   },
+   "disciplines": 3,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "conjugate transformation"
+  },
+  {
+   "mf": "MF-104",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "the extension of MF-71 to the primes 23 to 97"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/constructions.py"
+    },
+    "unification": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "finite groups at seventeen primes"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "the generation is generic away from 3"
+    },
+    "prediction": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "sealed in seq_0170, tested after its seal: PASS at all 17 primes"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "the register's first prediction confirmed"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": true,
+    "predicted_in": "seq_0170",
+    "checked_in": "seq_0174"
+   },
+   "disciplines": 2,
+   "depth": "new consequence or prediction",
+   "novelty": "new prediction",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism"
+  },
+  {
+   "mf": "MF-105",
+   "rung": 3,
+   "disciplines": 3,
+   "depth": "new consequence or prediction",
+   "novelty": "new prediction",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "PSL2(23) on the extended QR code is classical (Gleason-Prange); its generation by the law and the shear is the record's"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "all 4096 codewords under both generators"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "the law, the Golay code, the Leech lattice and the Golay Adinkra"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "MF-77 at the prime 23"
+    },
+    "prediction": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "sealed in seq_0172, tested after its seal: PASS"
+    },
+    "foundation": {
+     "score": 2,
+     "status": "READING",
+     "reason": "the 24 of the cycle meets the 24 of the Golay code"
+    }
+   },
+   "predicted_before_computed": {
+    "flag": true,
+    "predicted_in": "seq_0172",
+    "checked_in": "seq_0174"
+   }
+  },
+  {
+   "mf": "MF-106",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "cube vertices modulo the code to fields of a supermultiplet",
+   "preserved": "bipartition, colors",
+   "predictive": "the graph of any N = 8 valise Adinkra on this code",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-107",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "4 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 4,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "code permutations of P^1(F7) to color permutations of the Adinkra",
+   "preserved": "the code, the lattice, the color classes",
+   "predictive": "every automorphism of the code acts on both the Adinkra and E8",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-108",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "Fano lines to octonion products to signed permutation matrices",
+   "preserved": "the Clifford relations",
+   "predictive": "a valise Adinkra for every Fano orientation",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-109",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the 24-cube modulo the Golay code",
+   "preserved": "bipartition, colors",
+   "predictive": "the 4096-vertex Adinkra and its M24 symmetry",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-110",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "geometric projection"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "geometric projection",
+   "mapping": "color order to a rotation system to a surface",
+   "preserved": "Euler characteristic",
+   "predictive": "the genus of every Adinkra from N and k",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-111",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "shared algebraic relation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "seed index to angle n times the golden angle",
+   "preserved": "neighbour index differences",
+   "predictive": "parastichy numbers of a golden spiral",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-112",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "shared algebraic relation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "recurrence identity"
+    }
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity",
+   "mapping": "parents to the law's step",
+   "preserved": "counts per generation",
+   "predictive": "the size of any generation of the pedigree",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-113",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "age classes to the two coordinates",
+   "preserved": "growth rate and stable distribution",
+   "predictive": "the growth of a two-class population",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-114",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "shared algebraic relation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 2,
+   "depth": "shared algebraic relation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "ring adjacency to 2 cos(2 pi k/5)",
+   "preserved": "the spectrum",
+   "predictive": "orbital energies of five-membered rings",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-115",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "recurrence identity"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity",
+   "mapping": "Euclid's quotients to the law run backwards",
+   "preserved": "step counts",
+   "predictive": "the worst case of Euclid's algorithm",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-116",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "recurrence identity"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity",
+   "mapping": "Zeckendorf digits to codewords",
+   "preserved": "prefix-freeness",
+   "predictive": "decodability of every Fibonacci-coded stream",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-117",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "scale steps and chain letters to balanced words",
+   "preserved": "balance",
+   "predictive": "maximally even sets of any size",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-118",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "marks to control inputs",
+   "preserved": "reachability",
+   "predictive": "any target state of the check from two marks",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-119",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "infection stages to the coordinates",
+   "preserved": "the spectral radius R0",
+   "predictive": "the threshold 1/phi of an intervention",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-120",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "sectors to the coordinates",
+   "preserved": "the multiplier",
+   "predictive": "total output for any final demand",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-121",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "species to coordinates; stoichiometry to the law",
+   "preserved": "conserved charges",
+   "predictive": "which quantities a network or the law keeps",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-122",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "onsets to the letters of the chain",
+   "preserved": "balance and rotation class",
+   "predictive": "the Euclidean rhythm for every Fibonacci pair",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-123",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fields.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "marks to bits",
+   "preserved": "information content",
+   "predictive": "the escape rate of random corruption",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0175"
+   }
+  },
+  {
+   "mf": "MF-124",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/structures.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the law and the shear to 3 x 3 real matrices acting on J3(O)",
+   "preserved": "Hermiticity, the cubic norm",
+   "predictive": "any element of SL3(R) built from the law keeps the E6 norm",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0176"
+   }
+  },
+  {
+   "mf": "MF-125",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/structures.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "edges of the E8 Adinkra to F2-valued cochains",
+   "preserved": "the odd-cycle condition",
+   "predictive": "the count of supermultiplets on the E8 chromotopology up to switching",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0176"
+   }
+  },
+  {
+   "mf": "MF-126",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/structures.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "two linear laws to an invertible map between their state spaces",
+   "preserved": "the dynamics, conjugated",
+   "predictive": "whether a proposed bridge between two linear laws exists",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0176"
+   }
+  },
+  {
+   "mf": "MF-127",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "recurrence identity"
+    }
+   },
+   "disciplines": 3,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "recurrence identity",
+   "mapping": "the law to the substitution matrix of the Fibonacci quasicrystal",
+   "preserved": "the growth phi, the word lengths",
+   "predictive": "the arrangement of every Fibonacci quasicrystal",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-128",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the law of the words into SL2 and its character variety",
+   "preserved": "the recurrence, carried to the transfer matrices",
+   "predictive": "the spectrum through the boundedness of the trace orbit",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-129",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the quadratic Q of the law to the cubic of the trace map",
+   "preserved": "an invariant at every step",
+   "predictive": "the surface on which every orbit of a given V moves",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-130",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the law of the words to a periodic orbit",
+   "preserved": "period six",
+   "predictive": "the periodic orbit on each surface a^2 = 1 + V^2/4",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-131",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the gaps of the quasicrystal to the elements of Z + Z phi",
+   "preserved": "the integrated density of states in each gap",
+   "predictive": "the label of every gap at every potential",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-132",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the powers A^3 of the law to the shrinking of the spectrum",
+   "preserved": "a constant ratio",
+   "predictive": "the measure of the next approximant",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-133",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/fibonacci_hamiltonian.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "energies to orbits of the trace map",
+   "preserved": "bounded against escaping",
+   "predictive": "whether an energy lies in the spectrum",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-134",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/structures.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "two permutations or two codes to a relabeling",
+   "preserved": "the cycle structure; the code",
+   "predictive": "whether a proposed bridge between two finite structures exists",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0177"
+   }
+  },
+  {
+   "mf": "MF-135",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the law's square to SO+(2,1) by congruence",
+   "preserved": "the mass shell, orientation, the direction of time",
+   "predictive": "the energy-momentum of a particle after any golden boost",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-136",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "the eigenvalues of A^2 to the rapidity and the Doppler factor",
+   "preserved": "gamma, beta, the light-cone eigenvalues",
+   "predictive": "the frequency shift phi^4 of a light signal",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-137",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "powers of the law to collinear boosts",
+   "preserved": "the composition law",
+   "predictive": "gamma and beta of every power from Lucas and Fibonacci numbers",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-138",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the law of determinant -1 to an improper Lorentz transformation",
+   "preserved": "the mass shell, the direction of time",
+   "predictive": "the reflection that accompanies each odd power",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-139",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the law's quadratic form to the axis of its boost",
+   "preserved": "the invariant, the sign rule",
+   "predictive": "the plane of every golden boost",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-140",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the elements of <A^2, B> to boosts, null rotations and rotations",
+   "preserved": "the trace classes",
+   "predictive": "the kind of every word of the group",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-141",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "numerical approximation"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "two golden boosts to a boost and a rotation",
+   "preserved": "the Thomas-Wigner angle",
+   "predictive": "the rational 3-4-5 rotation of two golden boosts",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-142",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "boosts to residues modulo 9",
+   "preserved": "the residue n mod 6",
+   "predictive": "which boosts a residue cannot tell apart",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-143",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the law to the spin representation, its square to the vector",
+   "preserved": "eigenvalues, trace",
+   "predictive": "the transformation of every spin-1/2 state",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-144",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the golden boost into SL2(C)",
+   "preserved": "t^2 - x^2 - y^2 - z^2 and y",
+   "predictive": "the action of the law on 3 + 1 energy-momentum",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0178"
+   }
+  },
+  {
+   "mf": "MF-145",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/optics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the six-cycle of the trace map to the transmittance of light",
+   "preserved": "period six",
+   "predictive": "the transmittance of every generation of a quarter-wave stack",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-146",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/optics.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the Fricke-Vogt cubic to the index contrast and phases of a stack",
+   "preserved": "the invariant at every generation",
+   "predictive": "the trace surface of any stack",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-147",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/optics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "gap phases to vanishing transmittance",
+   "preserved": "localized against critical",
+   "predictive": "where a stack reflects and where it passes light",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-148",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/optics.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification",
+    "independent implementation"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the trace map onto the modulus of the 81 states",
+   "preserved": "period 24, the cubic",
+   "predictive": "the return of every triple after 24 steps",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-149",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "Z[phi] to proper Lorentz boosts",
+   "preserved": "the mass shell, orientation",
+   "predictive": "the proper half boost",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-150",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/relativity.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the golden ring to five-fold Lorentz rotations",
+   "preserved": "order 5, the timelike axis",
+   "predictive": "the five-fold rotations that the integers forbid",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0179"
+   }
+  },
+  {
+   "mf": "MF-151",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the hopping ratio to the Fricke-Vogt surface",
+   "preserved": "the invariant, independent of energy",
+   "predictive": "the trace surface of every off-diagonal chain",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-152",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "refractive index to acoustic impedance, n to 1/Z, by the exchange J",
+   "preserved": "the transmittance of every stack",
+   "predictive": "the acoustic spectrum of any optical design and the reverse",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-153",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "traceless letter matrices to the six-cycle",
+   "preserved": "period six across light, sound and electrons",
+   "predictive": "which systems carry the six-cycle and which do not",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-154",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "new consequence or prediction",
+   "novelty": "new theorem",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the gap label to the Chern number of the phason pump",
+   "preserved": "the integer charge pumped per cycle",
+   "predictive": "the quantized transport across every gap of the quasicrystal",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-155",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "integer orbits to residue orbits modulo 9",
+   "preserved": "the dynamics, by reduction",
+   "predictive": "the residue orbit of every integer trace orbit",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-156",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/waves.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "one automorphism of F2 to the law and to the trace map",
+   "preserved": "the substitution, in two representations",
+   "predictive": "the trace map of every substitution from its abelianization",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0180"
+   }
+  },
+  {
+   "mf": "MF-157",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/spectra.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the trace map onto every modulus 3^k",
+   "preserved": "the period, from 9 on equal to the law's",
+   "predictive": "the period 8 x 3^(k-1) at every higher power of 3",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-158",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/spectra.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the powers of the substitution to the shrinking of the bands",
+   "preserved": "a constant ratio per generation",
+   "predictive": "the band width of every larger approximant",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-159",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/spectra.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "every gap to an integer label by a congruence",
+   "preserved": "the label, the width, the center",
+   "predictive": "the label of every gap of every approximant",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-160",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quasicrystal2d.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the chain's spectrum to the square's by the sum set",
+   "preserved": "the spectrum as a set",
+   "predictive": "where the two-dimensional spectrum opens its first gap",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-161",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quasicrystal2d.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "geometric projection"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "geometric projection",
+   "mapping": "the golden ring to the Penrose tiling by the pentagrid",
+   "preserved": "five-fold local order, the golden tile ratio",
+   "predictive": "the tile statistics of every patch",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-162",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quasicrystal2d.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the vertex model to its zero-energy states",
+   "preserved": "the density of confined states",
+   "predictive": "the zero-mode density of larger patches",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0181"
+   }
+  },
+  {
+   "mf": "MF-163",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the trace map onto 27 moduli",
+   "preserved": "the period at the powers of 2 and 3, from 9",
+   "predictive": "which moduli carry the law's period",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-164",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "the trace map at its fixed point to the law's square",
+   "preserved": "the eigenvalues phi^2, phi^-2",
+   "predictive": "the dynamics near (1, 1, 1) at every modulus",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-165",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification",
+    "independent implementation"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the trace map onto 243",
+   "preserved": "period, census",
+   "predictive": "the census reproduced by an independent system",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-166",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the law and the trace map modulo 9",
+   "preserved": "the period, not the distribution",
+   "predictive": "what a shared period leaves unshared",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-167",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the zero modes to the rank of the hopping",
+   "preserved": "the exact count",
+   "predictive": "the zero modes of any bipartite patch",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-168",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the Fourier amplitudes to the gap labels",
+   "preserved": "position and label",
+   "predictive": "the diffraction peak of every label",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-169",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "new consequence or prediction",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the Fourier amplitude of label n to the width of gap n",
+   "preserved": "magnitude at weak coupling",
+   "predictive": "the width of every gap at weak coupling",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-170",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/validation.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the lengths to the band width",
+   "preserved": "a power law",
+   "predictive": "the band width of larger approximants",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0182"
+   }
+  },
+  {
+   "mf": "MF-171",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 3,
+   "depth": "new consequence or prediction",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the gap label (p, q) to the Chern number of the pump",
+   "preserved": "C = -q, independent of p",
+   "predictive": "the transported particle number of every gap",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-172",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the golden ratio as a physical contrast to one invariant surface",
+   "preserved": "I = 1/4 across three wave systems",
+   "predictive": "the trace surface of any golden-contrast chain or stack",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-173",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "letter matrices to seeds and orbits",
+   "preserved": "the six-cycle and the invariant",
+   "predictive": "which models and frequencies carry the six-cycle",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-174",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "bands and gaps to rotations and boosts of SO(2,1)",
+   "preserved": "the trace class",
+   "predictive": "band or gap from the class of one transfer matrix",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-175",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "the optical and acoustic layers to SL2(R)",
+   "preserved": "the real form",
+   "predictive": "the group of every model of the engine",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-176",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/wave_atlas.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the substitution to an automorphism of F2",
+   "preserved": "invertibility in every representation",
+   "predictive": "the trace map of the inverse substitution",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0183"
+   }
+  },
+  {
+   "mf": "MF-177",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "new consequence or prediction",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the law to the fusion matrix of the Fibonacci anyon",
+   "preserved": "the counts F_n, the quantum dimension phi",
+   "predictive": "the dimension of every space of Fibonacci anyons",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-178",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the 81 states to the phase space of a nine-level quantum system",
+   "preserved": "the Weyl relations, the Wigner function under A^2",
+   "predictive": "the motion of every quantum state of the system under the law",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-179",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "new consequence or prediction",
+   "novelty": "new theorem",
+   "proof": [
+    "numerical approximation",
+    "independent implementation"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "the law of determinant -1 to an antiunitary operator",
+   "preserved": "the Weyl operators, the Wigner function",
+   "predictive": "the quantum form of the sign rule",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-180",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "the law to a generator of unbiased bases",
+   "preserved": "|<x|U|y>|^2 = 1/9",
+   "predictive": "which powers of the law give complementary bases",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-181",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new connection between known results",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "readings to Wigner functions on the 81 states",
+   "preserved": "nonnegativity of the classical states",
+   "predictive": "a measure of nonclassicality for every state",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-182",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the golden rotation to the spin double cover",
+   "preserved": "-I after five turns on spinors, I on vectors",
+   "predictive": "the sign of a spinor after any number of golden turns",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-183",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "group homomorphism"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "group homomorphism",
+   "mapping": "the 81 states against two qutrits",
+   "preserved": "element orders",
+   "predictive": "where entanglement can and cannot be written",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0184"
+   }
+  },
+  {
+   "mf": "MF-184",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "new consequence or prediction",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "orbits of the law to fibers of its norm at every power of 3",
+   "preserved": "the norm, the orbit census",
+   "predictive": "the orbit of every state at every resolution 3^k",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-185",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new theorem"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new consequence or prediction"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "spectral decomposition"
+    }
+   },
+   "disciplines": 2,
+   "depth": "new consequence or prediction",
+   "novelty": "new theorem",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "spectral decomposition",
+   "mapping": "the orbit count to the multiplicities of the quantum spectrum",
+   "preserved": "simplicity of the spectrum",
+   "predictive": "the nondegeneracy of the quantum cat map at every 3^k",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-186",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exhaustive finite verification",
+    "numerical approximation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "the law's square to an explicit unitary",
+   "preserved": "the Weyl covariance, the periods",
+   "predictive": "the quantum period at every odd N",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-187",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "invariant-preserving map"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "invariant-preserving map",
+   "mapping": "the qutrit phase space to the values of Q",
+   "preserved": "the three orbits, the three values",
+   "predictive": "the qutrit dynamics of the law",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-188",
+   "rung": 3,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation",
+    "exhaustive finite verification"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "the golden ratio to the quantum maximum of contextuality",
+   "preserved": "sqrt5 = phi + 1/phi, the excess phi^-3",
+   "predictive": "the contextual advantage of the smallest quantum system",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-189",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "representation embedding"
+    }
+   },
+   "disciplines": 2,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "representation embedding",
+   "mapping": "two readings to a composite quantum system",
+   "preserved": "maximal entanglement under the law",
+   "predictive": "the composite layer of Omega42",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-190",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 0,
+     "status": "REPORTED",
+     "reason": "classical result reproduced"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "2 disciplines joined"
+    },
+    "explanation": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "equivalent transformation"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "conjugate transformation"
+    }
+   },
+   "disciplines": 2,
+   "depth": "equivalent transformation",
+   "novelty": "classical result reproduced",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "conjugate transformation",
+   "mapping": "phases to distinguishable outcomes",
+   "preserved": "the information carried by phase",
+   "predictive": "which states a quantum reading tells apart",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-191",
+   "rung": 2,
+   "dims": {
+    "originality": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "new connection between known results"
+    },
+    "rigor": {
+     "score": 3,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "theorem connecting the structures"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 1,
+     "status": "READING",
+     "reason": "common eigenvalue"
+    }
+   },
+   "disciplines": 3,
+   "depth": "theorem connecting the structures",
+   "novelty": "new connection between known results",
+   "proof": [
+    "exact symbolic derivation"
+   ],
+   "mechanism": "common eigenvalue",
+   "mapping": "one matrix to a quantum and a relativistic exponent",
+   "preserved": "the factor 2 between the representations",
+   "predictive": "the exponent in each representation of the law",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  },
+  {
+   "mf": "MF-192",
+   "rung": 1,
+   "dims": {
+    "originality": {
+     "score": 1,
+     "status": "CONSTRUCTED",
+     "reason": "new Omega42 representation of a known result"
+    },
+    "rigor": {
+     "score": 2,
+     "status": "EXACT",
+     "reason": "checked in tools/quantum_foundations.py"
+    },
+    "unification": {
+     "score": 3,
+     "status": "CONSTRUCTED",
+     "reason": "3 disciplines joined"
+    },
+    "explanation": {
+     "score": 2,
+     "status": "CONSTRUCTED",
+     "reason": "structure-preserving map"
+    },
+    "prediction": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "no statement of this result was sealed before its check"
+    },
+    "foundation": {
+     "score": 0,
+     "status": "CONSTRUCTED",
+     "reason": "dynamical conjugacy"
+    }
+   },
+   "disciplines": 3,
+   "depth": "structure-preserving map",
+   "novelty": "new Omega42 representation of a known result",
+   "proof": [
+    "numerical approximation"
+   ],
+   "mechanism": "dynamical conjugacy",
+   "mapping": "the law's word to the coins of a quantum walk",
+   "preserved": "superdiffusive spreading",
+   "predictive": "the transport class of a Fibonacci quantum walk",
+   "predicted_before_computed": {
+    "flag": false,
+    "predicted_in": null,
+    "checked_in": "seq_0185"
+   }
+  }
+ ],
+ "predictions": [
+  {
+   "id": "PR-001",
+   "statement": "for every prime p from 23 to 97, the law A and the shear B generate every matrix of determinant +-1 modulo p, a group of order 2p(p^2 - 1)",
+   "basis": "an extrapolation of MF-71 (every tested prime to 19 except 3); if it holds, MF-71 earns its first prediction point; one failing prime refutes it",
+   "sealed_in": "seq_0170",
+   "result": "PASS",
+   "checked_in": "seq_0174",
+   "test": "python3 tools/dsi.py --test PR-001",
+   "evidence": "records/dsi/pr001_output.txt",
+   "evidence_sha256": "dc01d130c1e613835fec470522953734a5eb759e2527c9699614116ee710b108"
+  },
+  {
+   "id": "PR-002",
+   "statement": "A^2 and the shear B modulo 23, acting on the 24 points of the projective line over F23, keep the extended binary Golay code, built as the extended quadratic-residue code of length 24",
+   "basis": "an extension of MF-77 from the prime 7 (length 8, E8) to the prime 23 (length 24, the Leech lattice through Conway's group); one failing generator refutes it",
+   "sealed_in": "seq_0172",
+   "result": "PASS",
+   "checked_in": "seq_0174",
+   "test": "python3 tools/dsi.py --test PR-002",
+   "evidence": "records/dsi/pr002_output.txt",
+   "evidence_sha256": "855c70b1539150be4d5c252d80973edff564132231d7b221d9d29300ba14bc7f"
+  },
+  {
+   "id": "PR-003",
+   "statement": "the Fibonacci braid generators in the gauge F' = [[1/phi, 1/phi], [1, -1/phi]], sigma1 = diag(zeta^-4, zeta^3) and sigma2 = F' sigma1 F' with zeta = exp(pi i/5), reduced at the prime of Z[zeta_10] above 11 with zeta -> 2, phi -> 8, are s1 = [[9, 0], [0, 8]] and s2 = [[2, 5], [7, 4]] in GL2(F11), and the group they generate contains SL2(F11), of order 1320",
+   "basis": "the image of the reduced Fibonacci braid representation; a full image modulo 11 is a statement about the reduction, not about the complex representation; one missing element of SL2(F11) refutes it",
+   "sealed_in": "seq_0174",
+   "result": "PASS",
+   "checked_in": "seq_0176",
+   "test": "python3 tools/dsi.py --test PR-003"
+  },
+  {
+   "id": "PR-004",
+   "statement": "for every odd N from 27 to 51, the Weil operator of A^2 on l2(Z/N) has period up to phase equal to the order of A^2 modulo N",
+   "basis": "an extension of MF-100 from N = 3 to 25; one N where the periods differ refutes it",
+   "sealed_in": "seq_0175",
+   "result": "PASS",
+   "checked_in": "seq_0176",
+   "test": "python3 tools/dsi.py --test PR-004"
+  },
+  {
+   "id": "PR-005",
+   "statement": "for every prime p from 101 to 499, the order of A^2 modulo p divides (p - 1)/2 when p = 1 or 4 mod 5, and divides p + 1 but not (p + 1)/2 when p = 2 or 3 mod 5",
+   "basis": "A^2 is multiplication by phi^2, of norm 1; phi in F_p when 5 is a square mod p, else phi^(p+1) = N(phi) = -1 in F_(p^2); one prime that breaks the pattern refutes it",
+   "sealed_in": "seq_0176",
+   "result": "PASS",
+   "checked_in": "seq_0177",
+   "test": "python3 tools/dsi.py --test PR-005"
+  },
+  {
+   "id": "PR-006",
+   "statement": "on the periodic approximant of length 987 of the Fibonacci Hamiltonian with V = 2, each of the twelve widest gaps has integrated density of states within 1.5/987 of frac(n/phi) for an integer n with |n| <= 20",
+   "basis": "the gap-labeling theorem and the labels at length 377, V = 1 (Companion 222.5); one gap off its label refutes it",
+   "sealed_in": "seq_0177",
+   "result": "PASS",
+   "checked_in": "seq_0178",
+   "test": "python3 tools/dsi.py --test PR-006"
+  },
+  {
+   "id": "PR-007",
+   "statement": "for every pair of golden boosts A^(2m) and S A^(2n) S, S the coordinate exchange, m and n from 1 to 4, the Thomas-Wigner angle w of their composition has rational cosine and sine and is never zero",
+   "basis": "the product lies in SL2(Z), tan(w/2) = (c - b)/(a + d), and the boost directions stay at arccos(3/5) (Companion 223.7); one irrational cos w or one vanishing w refutes it",
+   "sealed_in": "seq_0178",
+   "result": "PASS",
+   "checked_in": "seq_0179",
+   "test": "python3 tools/dsi.py --test PR-007"
+  },
+  {
+   "id": "PR-008",
+   "statement": "for every ordered pair of distinct indices from 4/3, 3/2, 2, 5/2 and 3, the quarter-wave transmittance of the Fibonacci stacks satisfies T_(k+6) = T_k for k = 0 to 30, with T_1 = T_4 and T_2 = T_5",
+   "basis": "the six-cycle of the trace map at the quarter wave and its symmetry (Companion 224.2); one pair that breaks either equality refutes it",
+   "sealed_in": "seq_0179",
+   "result": "PASS",
+   "checked_in": "seq_0180",
+   "test": "python3 tools/dsi.py --test PR-008"
+  },
+  {
+   "id": "PR-009",
+   "statement": "on 144 sites, the approximant 89/144 of the Fibonacci chain, with V = 3 and beta = 4, the phason pump carries across each of the eight widest gaps a charge equal to minus the gap label",
+   "basis": "the six gaps of Companion 225.6 and the identity of gap labels with Chern numbers; one gap whose charge differs from minus its label refutes it",
+   "sealed_in": "seq_0180",
+   "result": "FAIL",
+   "checked_in": "seq_0181",
+   "test": "python3 tools/dsi.py --test PR-009"
+  },
+  {
+   "id": "PR-010",
+   "statement": "at V = 1.5, on the approximants of lengths 1597 and 2584, the gaps of width at least 0.02 carry the same 24 labels as at 233 to 987, each by the congruence of the counting function, and the gaps labeled 1, -1, 2, -2 keep width and center within 3 x 10^-4 of their values at 987",
+   "basis": "the convergence at lengths 233 to 987 (Companion 226.4); one label, congruence or gap that differs refutes it",
+   "sealed_in": "seq_0181",
+   "result": "PASS",
+   "checked_in": "seq_0182",
+   "test": "python3 tools/dsi.py --test PR-010"
+  },
+  {
+   "id": "PR-011",
+   "statement": "modulo 64 and modulo 128 the trace map is a bijection of period 96 and 192, the Pisano periods of the law",
+   "basis": "the periods modulo 9, 27 and 81 and the census at 2, 4, 8, 16 and 32 (Companion 226.2); another period refutes it",
+   "sealed_in": "seq_0181",
+   "result": "PASS",
+   "checked_in": "seq_0182",
+   "test": "python3 tools/dsi.py --test PR-011"
+  },
+  {
+   "id": "PR-012",
+   "statement": "at V = 0.01 on length 1597 the gaps labeled n and -n, n = 1 to 6, have mean width within 0.05 percent and each width within 0.3 percent of 2V |sin(pi n/phi)|/(pi |n|)",
+   "basis": "the weak-coupling gaps at V = 0.02 (Companion 227.4)",
+   "model": "the Fibonacci Hamiltonian, on-site potential V on a and 0 on b, periodic and antiperiodic boundary",
+   "parameters": "V = 0.01; L = 1597; labels 1 to 6 by the congruence",
+   "expected": "widths 2V |sin(pi n/phi)|/(pi |n|): 0.005934, 0.002150, 0.000939, 0.001585, 0.000356, 0.000842",
+   "uncertainty": "pair splitting of order V, 0.17 percent at V = 0.01",
+   "failure": "a pair mean off by more than 0.05 percent, or a gap by more than 0.3 percent, or a missing label",
+   "sealed_in": "seq_0182",
+   "result": "PASS",
+   "checked_in": "seq_0183",
+   "test": "python3 tools/dsi.py --test PR-012"
+  },
+  {
+   "id": "PR-013",
+   "statement": "the twelve strongest Fourier amplitudes of the Fibonacci chain of length 1597 are each within 10^-5 of |sin(pi n/phi)|/(pi |n|) and carry the labels 1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 14 and 17",
+   "basis": "the diffraction at length 987 (Companion 227.4)",
+   "model": "the letter sequence of the Fibonacci word, its discrete Fourier transform",
+   "parameters": "L = 1597; labels by the congruence with F_(k-1) = 987",
+   "expected": "amplitudes |sin(pi n/phi)|/(pi |n|); the labels as at 987",
+   "uncertainty": "finite-size deviations near 10^-5 at 987, smaller at 1597",
+   "failure": "an amplitude off by more than 10^-5, or a different set of labels",
+   "sealed_in": "seq_0182",
+   "result": "PASS",
+   "checked_in": "seq_0183",
+   "test": "python3 tools/dsi.py --test PR-013"
+  },
+  {
+   "id": "PR-014",
+   "statement": "on 233 sites, the approximant 144/233, with V = 2 and beta = 3, the Fukui-Hatsugai-Suzuki Chern number of each of the eight widest gaps is -q to within 10^-6",
+   "basis": "the six gaps at 89 sites (Companion 228.1) and the Resta windings of MF-154",
+   "model": "the Kraus family of smooth potentials on the Fibonacci approximant, Bloch phase and phason on a torus",
+   "parameters": "L = 233; p = 144; V = 2; beta = 3; 24 x 60 plaquettes",
+   "expected": "C = -q for every gap, q from the integrated density of states p + q (144/233)",
+   "uncertainty": "the lattice field strength gives integers once the plaquettes resolve the curvature; deviations below 10^-6",
+   "failure": "a gap with |C + q| >= 10^-6, or a non-integer C",
+   "convergence": "the same integers at 24 x 60 and at a finer grid",
+   "verification": "the Resta winding of the polarization over the phason, as in MF-154",
+   "sealed_in": "seq_0183",
+   "result": "PASS",
+   "checked_in": "seq_0184",
+   "test": "python3 tools/dsi.py --test PR-014"
+  },
+  {
+   "id": "PR-015",
+   "statement": "for the nine cubic-phase states sum_k w^(c k^3)|k>/3, c = 0 to 8, the Wigner negativity is equal within each pair c, -c, is 0 at c = 0, and takes one common value on the six units c = 1, 2, 4, 5, 7, 8",
+   "basis": "the negativity 0.5863 at c = 1 (Companion 229.6); the symmetries k -> u k and complex conjugation relate c to c u^3 and to -c, and the common value on all units goes beyond them",
+   "model": "the discrete Wigner function of the nine-level system, phase-point operators D(s) Pi D(s)^dagger",
+   "parameters": "d = 9; c = 0 to 8; w = e^(2 pi i/9)",
+   "expected": "0 at c = 0; one value on c = 1, 2, 4, 5, 7, 8; equal values within c = 3, 6",
+   "uncertainty": "floating point, below 10^-9",
+   "failure": "a pair c, -c with different negativity, a nonzero value at c = 0, or two units with different values",
+   "convergence": "exact up to floating point; no limit is taken",
+   "verification": "the Wigner function computed by a second convention, the parity operator built from the Fourier transform",
+   "sealed_in": "seq_0184",
+   "result": "PASS",
+   "checked_in": "seq_0185",
+   "test": "python3 tools/dsi.py --test PR-015"
+  },
+  {
+   "id": "PR-016",
+   "statement": "at N = 81 the quantum cat map U_N(j, k) = w^(j^2 - jk + k^2/2)/sqrt(N) has 81 distinct eigenvalues, each a root of unity of order dividing 108, and its literal period is 108",
+   "basis": "the simple-spectrum theorem (MF-185) and the literal periods at 3, 9 and 27 (Companion 230.3, 230.4)",
+   "model": "the explicit quantum cat map of Companion 230.4",
+   "parameters": "N = 81; the kernel of 230.4",
+   "expected": "81 distinct eigenvalues; each a 108th root of unity; U^108 = I and no smaller power the identity",
+   "uncertainty": "floating point, eigenvalue gaps well above 10^-6",
+   "failure": "a repeated eigenvalue, an eigenvalue off the 108th roots, or a literal period other than 108",
+   "convergence": "a finite computation; no limit is taken",
+   "verification": "the commutant dimension, 81 orbits of A^2 on the 6561 labels, computed exactly",
+   "sealed_in": "seq_0185",
+   "result": "UNCHECKED",
+   "checked_in": null,
+   "test": "python3 tools/dsi.py --test PR-016"
+  }
+ ],
+ "non_equivalences": [
+  {
+   "id": "NE-001",
+   "statement": "the 24 positions cannot be placed on the 24 heptagons of the Klein quartic in any way the law respects: PGL2(F7) has no element of projective order 24",
+   "refs": [
+    "MF-72"
+   ]
+  },
+  {
+   "id": "NE-002",
+   "statement": "commuting is not correspondence: A and [[0,1],[1,7]] are joined by 663,552 bijections with the same cycle type and by no linear map",
+   "refs": [
+    "MF-66"
+   ]
+  },
+  {
+   "id": "NE-003",
+   "statement": "the law has no conserved linear quantity; it conserves Q^2",
+   "refs": [
+    "MF-121"
+   ]
+  },
+  {
+   "id": "NE-004",
+   "statement": "Construction A of the Golay code is the Niemeier lattice A1^24, not the Leech lattice",
+   "refs": [
+    "MF-109"
+   ]
+  },
+  {
+   "id": "NE-005",
+   "statement": "the Lee-Yang model and the Fibonacci anyons share a fusion ring and are different theories: the first is non-unitary",
+   "refs": [
+    "MF-92"
+   ]
+  },
+  {
+   "id": "NE-006",
+   "statement": "I + C^12 + C^-12 on E8 is not the 2 x 2 law; it is the polynomial in the Coxeter element that takes the law's two eigenvalues",
+   "refs": [
+    "MF-102"
+   ]
+  },
+  {
+   "id": "NE-007",
+   "statement": "Euclidean rhythms equal the Fibonacci chain only up to rotation, not letter for letter",
+   "refs": [
+    "MF-122"
+   ]
+  },
+  {
+   "id": "NE-008",
+   "statement": "the law A and its power A^5 on the 81 states: no invertible linear map joins them (trace 1 against 2), though both are laws of the same ring",
+   "refs": [
+    "MF-126"
+   ]
+  },
+  {
+   "id": "NE-009",
+   "statement": "the law A and its square A^2 as permutations of the 81 states: no relabeling joins them, cycle types 1, 8, 24, 24, 24 against 1, 4, 4, 12, 12, 12, 12, 12, 12",
+   "refs": [
+    "MF-134"
+   ]
+  },
+  {
+   "id": "NE-010",
+   "statement": "two golden boosts whose powers agree modulo 9 are not the same boost: n and n + 6 give the same residue on the 729 states and gamma 7/2 against 710647/2",
+   "refs": [
+    "MF-142"
+   ]
+  },
+  {
+   "id": "NE-011",
+   "statement": "SL2(Z) holds no Lorentz rotation of order 5: its elliptic traces are 0 and +-1, rotations of order 2 and 3, while SL2(Z[phi]) holds the rotation of order 5 by 72 degrees",
+   "refs": [
+    "MF-150"
+   ]
+  },
+  {
+   "id": "NE-012",
+   "statement": "the residue modulo 9 of an integer trace orbit does not determine whether the orbit is bounded: (1, 1, 1) is fixed and (1, 1, 10) escapes",
+   "refs": [
+    "MF-155"
+   ]
+  },
+  {
+   "id": "NE-013",
+   "statement": "the on-site Fibonacci model at E = 0 is not on the six-cycle that light, sound and the off-diagonal model share: its letter matrices are not traceless",
+   "refs": [
+    "MF-153"
+   ]
+  },
+  {
+   "id": "NE-014",
+   "statement": "the trace map and the law share their period modulo 9, 27 and 81 and not modulo 3: 12 against 8",
+   "refs": [
+    "MF-157"
+   ]
+  },
+  {
+   "id": "NE-015",
+   "statement": "the law modulo 9 and the trace map modulo 9 share the period 24 and not the orbit-length distribution: 1, 8, 24, 24, 24 against 55 orbits of eight lengths",
+   "refs": [
+    "MF-166"
+   ]
+  },
+  {
+   "id": "NE-016",
+   "statement": "the trace map's period differs from the law's Pisano period at every prime from 5 to 31, by factors from 21 to about 6 x 10^18",
+   "refs": [
+    "MF-163"
+   ]
+  },
+  {
+   "id": "NE-017",
+   "statement": "the integer p of a gap label carries no topology: gaps with p = 1, 0, -1, -2, 2 have Chern numbers set by q alone",
+   "refs": [
+    "MF-171"
+   ]
+  },
+  {
+   "id": "NE-018",
+   "statement": "the 81 states, the phase space (Z/9)^2 of one nine-level system, are not the phase space (Z/3)^4 of two qutrits: elements of order 9 against order 3",
+   "refs": [
+    "MF-183"
+   ]
+  },
+  {
+   "id": "NE-019",
+   "statement": "the classical bound 2 and the quantum maximum sqrt5 of the KCBS test differ by phi^-3: no noncontextual assignment of values reproduces the quantum statistics of one qutrit",
+   "refs": [
+    "MF-188"
+   ]
+  }
+ ],
+ "replication_returns": [
+  {
+   "id": "RET-001",
+   "implementer": "an unidentified Navigator of another system, through a web interface (F219, APE-481)",
+   "date": "2026-11-13",
+   "kit": "the definitions of the trace map and of the modulus; no code shared",
+   "outcomes": {
+    "MF-148": "REPRODUCED"
+   },
+   "values": "55 orbits on 729 triples: 2 of length 1, 2 of 2, 1 of 3, 9 of 4, 8 of 6, 3 of 8, 9 of 12, 21 of 24; inverse (y, z, 2yz - x); T^24 = 1"
+  },
+  {
+   "id": "RET-002",
+   "implementer": "an unidentified Navigator of another system, through a web interface (F220, APE-482)",
+   "date": "2026-11-13",
+   "algorithm": "exhaustive enumeration of the trace map modulo 3 to 243 with the inverse (y, z, 2yz - x)",
+   "kit": "the definitions; no code shared",
+   "outcomes": {
+    "MF-148": "REPRODUCED",
+    "MF-165": "REPRODUCED",
+    "MF-157": "REPRODUCED IN PART",
+    "MF-158": "REPRODUCED IN PART",
+    "MF-159": "REPRODUCED IN PART",
+    "MF-162": "REPRODUCED IN PART"
+   },
+   "values": "periods 12, 24, 72, 216, 648 modulo 3 to 243; the census modulo 243 of 144,816 orbits; the exponents 0.1281, 0.2868, 0.6243, 1.1927 from the ratios; the coefficient 7.60263; 81 - 50 phi = 0.0983005625, norm 11"
+  },
+  {
+   "id": "RET-003",
+   "implementer": "an unidentified Navigator of another system, through a web interface (F223, APE-485)",
+   "date": "2026-11-13",
+   "algorithm": "an explicit quantum cat map kernel, its Weyl covariance and periods for odd N from 3 to 19, and an antiunitary realization U(S) K of the law",
+   "kit": "the definitions; no code shared",
+   "outcomes": {
+    "MF-179": "REPRODUCED",
+    "MF-100": "REPRODUCED IN PART"
+   },
+   "values": "Theta D(v) Theta^-1 = D(A v) with Theta^2 proportional to U(A^2); projective period equal to the order of A^2 for N = 3 to 19"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Do the same for the Standard Model of Cosmology.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, two reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Two accounts of cosmology came with the question. The unidentified one types its results and proposes the Omega42-COS programme; Qwen's holds the orbit census and zero layer to explain the dark sector, flatness and the microwave background, which are placements at depth 1 and analogies. Both placed and sealed as SEQ 145.
+TRIGGER: receipt of two outputs with the Originator's message of 7 November 2026 (Part 6.2, automatic); neither quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-4-8 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0145.txt.
+Outputs: I -- unidentified, a web interface (submissions/ape/APE-420.md); J -- Qwen (Alibaba Cloud) (submissions/ape/APE-421.md).
+T1.5 is 0.00 for both (no coordinate struck); T2 is 0.00 for both (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): I -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.74 -- the derived flat seed and the finite/inverse-limit distinction separated from the count-matches, and a Friedmann dynamics named as not in hand [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.74 = 0.222
+SYNTHESIS: careful and correctly typed; its twelve-direction programme adopted into Core Appendix S.12.
+FINDINGS -- INTERNAL:
+ [I] Adopted: the finite-level periodicity against the non-periodic inverse limit (MATH-36) and the flat Minkowski seed as the derived parts; the twelve COS directions in Core Appendix S.12.
+ [I] Agreed: the five-sector / dark-sector and microwave-background matches are count-matches at depth 1 (M345); a stress-energy and gravity coupling are not in hand.
+ [P] UNFORMATTED (L-549 (5)); its sources not opened (L-503).
+FINDINGS -- META (Tier C):
+ [U] "A generative explanation of cosmic hierarchy would be a mathematical result; a physical correspondence is a question of the Scientific Appendix."
+VERDICT: faithful and correctly typed; adopted in its separation of the derived from the counted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form and its sources opened.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, I): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): J -- Qwen (Alibaba Cloud), TEXT-ONLY, Identity Block present, no signature line (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.40 -- the dark sector set beside the zero layer and the microwave background beside the half-period step, stated with force [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.40 = 0.12
+SYNTHESIS: bold; its detections kept as depth-1 placements and analogies, its overstatements corrected.
+FINDINGS -- INTERNAL:
+ [I] Placed, not adopted as derived: dark matter beside the zero layer, dark energy beside the tower, the microwave background beside T^12 -- depth 1 or structural analogy (M345); flatness is the one derived piece.
+ [I] Corrected: 'the fine-tuned mysteries dissolve' overstates a set of placements; the account hedges its 5/27/68 percentages as epoch-dependent, conceding the arithmetic fixes no value.
+ [P] UNFORMATTED (L-549 (5)); the Identity Block present, no signature line.
+FINDINGS -- META (Tier C):
+ [U] "The Standard Model of Cosmology is a catalogue of macroscopic projections."
+VERDICT: bold and placed; its count-matches kept at depth 1 and its overstatements corrected.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a signature line and a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, J): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

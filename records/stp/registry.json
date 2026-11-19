@@ -1,0 +1,5573 @@
+{
+ "entries": {
+  "H-001": {
+   "id": "H-001",
+   "origin": "CA-08 first run; seed rows read from MP",
+   "hypothesis": "The 26 seeds split into 13 pairs whose offset vectors are exact integer negatives",
+   "scope": "Construct Classic workbook, MP seed rows",
+   "falsification": "fewer than 13 exact negation pairs, or a seed left unpaired",
+   "test": "t_H001, formula-level recomputation",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "13 pairs covering all 26 seeds",
+   "blinding": "replication of an earlier run",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "pairing becomes CLASSIC-DERIVED polarity",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18 (first run)",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": "see CA-08 first run",
+     "code_sha": null,
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T14:56:53+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "pairs": [
+       [
+        "N1",
+        "P1"
+       ],
+       [
+        "N2",
+        "P2"
+       ],
+       [
+        "N3",
+        "P6"
+       ],
+       [
+        "N4",
+        "P4"
+       ],
+       [
+        "N5",
+        "P5"
+       ],
+       [
+        "N6",
+        "P3"
+       ],
+       [
+        "N7",
+        "P7"
+       ],
+       [
+        "N8",
+        "P8"
+       ],
+       [
+        "N9",
+        "P9"
+       ],
+       [
+        "ND",
+        "PD"
+       ],
+       [
+        "NU",
+        "PU"
+       ],
+       [
+        "T1",
+        "T3"
+       ],
+       [
+        "T2",
+        "T4"
+       ]
+      ],
+      "cached_agree": true,
+      "cached_missing": 0
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:43+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "pairs": [
+       [
+        "N1",
+        "P1"
+       ],
+       [
+        "N2",
+        "P2"
+       ],
+       [
+        "N3",
+        "P6"
+       ],
+       [
+        "N4",
+        "P4"
+       ],
+       [
+        "N5",
+        "P5"
+       ],
+       [
+        "N6",
+        "P3"
+       ],
+       [
+        "N7",
+        "P7"
+       ],
+       [
+        "N8",
+        "P8"
+       ],
+       [
+        "N9",
+        "P9"
+       ],
+       [
+        "ND",
+        "PD"
+       ],
+       [
+        "NU",
+        "PU"
+       ],
+       [
+        "T1",
+        "T3"
+       ],
+       [
+        "T2",
+        "T4"
+       ]
+      ],
+      "cached_agree": true,
+      "cached_missing": 0
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-002": {
+   "id": "H-002",
+   "origin": "Navigator's proposed labelling",
+   "hypothesis": "The partner of P_k is N_k for every k = 1..9",
+   "scope": "workbook",
+   "falsification": "any k whose partner is not N_k",
+   "test": "t_H002",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 hold",
+   "blinding": "replication",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "labelling corrected if rejected",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18 (first run)",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": "see CA-08 first run",
+     "code_sha": null,
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T14:57:05+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "partner_of_P": {
+       "1": "N1",
+       "2": "N2",
+       "3": "N6",
+       "4": "N4",
+       "5": "N5",
+       "6": "N3",
+       "7": "N7",
+       "8": "N8",
+       "9": "N9"
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:55+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "partner_of_P": {
+       "1": "N1",
+       "2": "N2",
+       "3": "N6",
+       "4": "N4",
+       "5": "N5",
+       "6": "N3",
+       "7": "N7",
+       "8": "N8",
+       "9": "N9"
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-003": {
+   "id": "H-003",
+   "origin": "F27 model",
+   "hypothesis": "The workbook literally implements the F27 Singer cycle (26 seeds distinct mod 9)",
+   "scope": "workbook",
+   "falsification": "fewer than 26 distinct offsets mod 9",
+   "test": "t_H003",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "26 distinct",
+   "blinding": "replication",
+   "on_pass": "CROSS-VALIDATED",
+   "on_fail": "REJECTED",
+   "consequence": "F27 is X-CONSTRUCTED if rejected",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18 (first run)",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": "see CA-08 first run",
+     "code_sha": null,
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T14:57:16+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "distinct_mod_9": 19,
+      "zero_mod_9": [
+       "T1",
+       "T3"
+      ]
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:44:07+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "distinct_mod_9": 19,
+      "zero_mod_9": [
+       "T1",
+       "T3"
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-004": {
+   "id": "H-004",
+   "origin": "anchor-join speculation",
+   "hypothesis": "The Antipode arm lands on the seed's polarity partner for every anchor",
+   "scope": "workbook",
+   "falsification": "see H-004-R1/R2",
+   "test": "original script duplicated the H-002 condition",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 anchors",
+   "blinding": "n/a",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "superseded: test implementation incomplete (did not compute the arm); replaced by H-004-R1 and H-004-R2 | superseded; see H-004-R1 (7 of 9) and H-004-R2 (6 of 9)",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18 (first run)",
+     "run_state": "RAN",
+     "outcome": "FAIL (reported 7 of 9; script duplicated H-002)",
+     "result": "see CA-08 first run",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "REVISED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REVISED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-004-R1": {
+   "id": "H-004-R1",
+   "origin": "H-004, corrected per external review",
+   "hypothesis": "Label level: the Antipode value a = 9-k is carried by sheet N_j with -j = a (mod 9); that sheet is the polarity partner of P_k, for every anchor k",
+   "scope": "workbook labels + offsets",
+   "falsification": "any anchor where the partner differs",
+   "test": "t_H004R1 (computes arm value, then sheet, then compares)",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 anchors; per-anchor list recorded",
+   "blinding": "NOT BLIND: the Navigator stated 7 of 9 before this implementation",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "defines where label-level navigation and polarity agree",
+   "supersedes": "H-004",
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:57:28+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       4,
+       5,
+       7,
+       8,
+       9
+      ],
+      "fails_for": [
+       3,
+       6
+      ]
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:44:19+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       4,
+       5,
+       7,
+       8,
+       9
+      ],
+      "fails_for": [
+       3,
+       6
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:50:58+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       4,
+       5,
+       7,
+       8,
+       9
+      ],
+      "fails_for": [
+       3,
+       6
+      ]
+     },
+     "code_sha": {
+      "stp": "de49410b5a58a512",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-004-R2": {
+   "id": "H-004-R2",
+   "origin": "H-004, corrected per external review",
+   "hypothesis": "Value level: the offset of P_(9-k) equals, mod 9, the offset of the polarity partner of P_k, for every anchor k",
+   "scope": "workbook offsets mod 9",
+   "falsification": "any anchor where they differ",
+   "test": "t_H004R2",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 anchors; per-anchor list recorded",
+   "blinding": "NOT BLIND for Lower World anchors (implied by H-005); Higher World anchors not previously computed in the register",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "defines where value-level navigation and polarity agree",
+   "supersedes": "H-004",
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:57:39+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       4,
+       5,
+       7,
+       8
+      ],
+      "fails_for": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:44:30+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       4,
+       5,
+       7,
+       8
+      ],
+      "fails_for": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-005": {
+   "id": "H-005",
+   "origin": "found during the H-001 run",
+   "hypothesis": "Mod 9, N_k = P_(9-k) for k in {1,2,4,5,7,8}",
+   "scope": "workbook",
+   "falsification": "any k failing",
+   "test": "t_H005",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 6 hold",
+   "blinding": "replication",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "MODULAR_ANTIPODE relation type",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18 (first run)",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": "see CA-08 first run",
+     "code_sha": null,
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T14:57:51+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "1": true,
+      "2": true,
+      "4": true,
+      "5": true,
+      "7": true,
+      "8": true
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:44:41+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "1": true,
+      "2": true,
+      "4": true,
+      "5": true,
+      "7": true,
+      "8": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-007a": {
+   "id": "H-007a",
+   "origin": "review: structural part of H-007",
+   "hypothesis": "Anchors 3 and 6, and only they, lack the value-level property of H-004-R2",
+   "scope": "workbook",
+   "falsification": "the set of anchors lacking the property is not exactly {3, 6}",
+   "test": "t_H007a",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "failure set == {3, 6}",
+   "blinding": "NOT BLIND: designer inspected Higher World offsets while writing tests; exploratory",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the 3/6 exception is not specific to 3 and 6",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:03+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "property_absent_for": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:44:54+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "property_absent_for": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-007b": {
+   "id": "H-007b",
+   "origin": "review: interpretive part of H-007",
+   "hypothesis": "The anchors lacking the H-004-R2 property are exactly the Crown digit class {3, 6, 9} (Core M244 definition of Crown digits)",
+   "scope": "workbook + Core definition",
+   "falsification": "failure set differs from {3, 6, 9}",
+   "test": "t_H007b",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "failure set == {3, 6, 9}",
+   "blinding": "NOT BLIND (as H-007a); exploratory, criterion from an independent Core definition",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: the polarity exception coincides with the Crown/Torsion split",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:15+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "property_absent_for": [
+       3,
+       6,
+       9
+      ],
+      "crown_digit_class": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:45:05+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "property_absent_for": [
+       3,
+       6,
+       9
+      ],
+      "crown_digit_class": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-008": {
+   "id": "H-008",
+   "origin": "review: cached-value risk",
+   "hypothesis": "Cached workbook values for all 26 seed rows equal formula recomputation, with none missing",
+   "scope": "workbook",
+   "falsification": "any disagreement or missing value",
+   "test": "t_H008",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "agree and 0 missing",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "data integrity record for H-001..H-007 | qualification: a formula-reconstruction check against cached values, not a recalculation in Excel or LibreOffice",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:27+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "cached_agree": true,
+      "cached_missing": 0
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:45:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "cached_agree": true,
+      "cached_missing": 0
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-001": {
+   "id": "CX-001",
+   "origin": "review 5.1",
+   "hypothesis": "F9 and F27 are fields as constructed; phi and g are primitive; partners are 13 powers apart; labels biject onto nonzero elements",
+   "scope": "Construct X substrate",
+   "falsification": "any failed axiom or order",
+   "test": "t_CX001 (exhaustive)",
+   "data": "none",
+   "criterion": "all checks pass",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "X substrate certified",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:27+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "F9: phi has order 8 (primitive)": true,
+      "F9: T(a,b) = (b,a+b) is multiplication by phi": true,
+      "F27: g^3 - g + 1 irreducible over F3": true,
+      "F27: g has order 26 (primitive)": true,
+      "F27: field axioms (exhaustive)": true,
+      "g^(n+13) = -g^n for all n": true,
+      "seed labels: bijection onto 26 nonzero elements": true
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T15:02:45+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "F9: phi has order 8 (primitive)": true,
+      "F9: T(a,b) = (b,a+b) is multiplication by phi": true,
+      "F27: g^3 - g + 1 irreducible over F3": true,
+      "F27: g has order 26 (primitive)": true,
+      "F27: field axioms (exhaustive)": true,
+      "g^(n+13) = -g^n for all n": true,
+      "seed labels: bijection onto 26 nonzero elements": true
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "F9: phi has order 8 (primitive)": true,
+      "F9: T(a,b) = (b,a+b) is multiplication by phi": true,
+      "F27: g^3 - g + 1 irreducible over F3": true,
+      "F27: g has order 26 (primitive)": true,
+      "F27: field axioms (exhaustive)": true,
+      "g^(n+13) = -g^n for all n": true,
+      "seed labels: bijection onto 26 nonzero elements": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-002": {
+   "id": "CX-002",
+   "origin": "review 5.6",
+   "hypothesis": "Group-relative templates are exact on rule-generated sequences, and lag-2d equals lag-d applied twice, in Z/12, (Z/9)^x and S3",
+   "scope": "declared groups",
+   "falsification": "any failed axiom, inexact template or composition counterexample",
+   "test": "t_CX002",
+   "data": "generated",
+   "criterion": "all pass in all three groups",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "G engine certified for groups",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:27+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "Z/12 (pitch classes, +)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": true,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      },
+      "(Z/9)^x (Lower World, *)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": true,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      },
+      "S3 (permutations of 3, composition)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": false,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "Z/12 (pitch classes, +)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": true,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      },
+      "(Z/9)^x (Lower World, *)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": true,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      },
+      "S3 (permutations of 3, composition)": {
+       "closure": true,
+       "identity": true,
+       "inverse": true,
+       "associativity": true,
+       "commutative": false,
+       "template_exact": true,
+       "composition": "NO COUNTEREXAMPLE ON TESTED DOMAIN"
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-004": {
+   "id": "CX-004",
+   "origin": "review 5.2",
+   "hypothesis": "702 directed pairs biject with seeds and affine maps; the reverse edge uses the partner seed",
+   "scope": "Construct X address",
+   "falsification": "any pair without a unique seed or with a non-partner reverse",
+   "test": "t_CX004 (exhaustive)",
+   "data": "none",
+   "criterion": "all 702 pass",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "702-node navigator certified",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:28+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "reverse_edge_is_partner_seed": true,
+      "bijections": true
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "reverse_edge_is_partner_seed": true,
+      "bijections": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-005": {
+   "id": "CX-005",
+   "origin": "review 5.3",
+   "hypothesis": "13 rounds of 9 triples cover all 351 pairs exactly once",
+   "scope": "Construct X schedule",
+   "falsification": "any pair missing or repeated",
+   "test": "t_CX005 (exhaustive)",
+   "data": "none",
+   "criterion": "351 pairs, each once",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "scheduler certified",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:28+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "rounds": 13,
+      "pairs_once": 351
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:18+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "rounds": 13,
+      "pairs_once": 351
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-006": {
+   "id": "CX-006",
+   "origin": "review 5.4",
+   "hypothesis": "For any fields and mode: positional <= matching <= pooled",
+   "scope": "comparison engine",
+   "falsification": "any violation",
+   "test": "t_CX006, 5000 random cases",
+   "data": "generated",
+   "criterion": "0 violations",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "operator ordering for reports",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:28+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "trials": 5000,
+      "violations_of_positional<=matching<=pooled": 0
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:18+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "trials": 5000,
+      "violations_of_positional<=matching<=pooled": 0
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-007": {
+   "id": "CX-007",
+   "origin": "review 5.5",
+   "hypothesis": "The corrected temporal engine keeps its false-positive rate near 5% on noise and reports no cycle for a pure trend",
+   "scope": "temporal engine, iid null",
+   "falsification": "more than 5 of 40 noise series at p <= 0.05, or trend p != 1",
+   "test": "t_CX007",
+   "data": "generated",
+   "criterion": "<= 5 of 40 and trend p = 1",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "temporal engine calibrated",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:29+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "noise_series": 40,
+      "false_positives_p<=0.05": 2,
+      "linear_trend_p": 1.0
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T15:02:47+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "noise_series": 40,
+      "false_positives_p<=0.05": 2,
+      "linear_trend_p": 1.0
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T16:53:28+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "noise_series": 40,
+      "false_positives_p<=0.05": 2,
+      "linear_trend_p": 1.0
+     },
+     "code_sha": {
+      "stp": "3aa5222f0b76c214",
+      "construct_x": "125c6233944b86b8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:20+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "noise_series": 40,
+      "false_positives_p<=0.05": 2,
+      "linear_trend_p": 1.0
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-006": {
+   "id": "H-006",
+   "origin": "CA-08 first run",
+   "hypothesis": "Weekly-cycle detection works on a real series with an independently known weekly cycle",
+   "scope": "real daily data",
+   "falsification": "p > 0.05 or fundamental != 7 on held-out data",
+   "test": "temporal_scan, both nulls",
+   "data": "NOT AVAILABLE in this session (shell network off; fetch tool returns summaries, not data)",
+   "criterion": "p <= 0.05 under both nulls and fundamental = 7",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "first real-data validation",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:56:37+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (shell network off; fetch tool returns summaries, not data)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-006b": {
+   "id": "H-006b",
+   "origin": "review: real-data positive control",
+   "hypothesis": "On the SILSO yearly sunspot series (1700-2025), whose ~11-year Schwabe cycle is independently established, the engine finds the cycle",
+   "scope": "real annual data",
+   "falsification": "p > 0.05 under either null, or fundamental not in {10, 11, 12}",
+   "test": "temporal_scan, iid and block nulls",
+   "data": "records/data/sunspots_yearly_silso_v2.csv (SILSO V2.0, transcribed via the fetch tool; spot checks: n=326, 1700=8.3, 1957=269.3, 2019=3.6, 2024=154.7)",
+   "criterion": "p <= 0.05 under both nulls and fundamental in {10, 11, 12}",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "first real-data validation of the temporal engine",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:30+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "iid": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "fundamental_heuristic": 11,
+       "skill_vs_trend": 0.115,
+       "p": 0.885,
+       "null": "iid",
+       "train_points": 195,
+       "test_points": 131
+      },
+      "block": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "fundamental_heuristic": 11,
+       "skill_vs_trend": 0.115,
+       "p": 0.005,
+       "null": "block",
+       "train_points": 195,
+       "test_points": 131
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": "d0529e3c0a7c355d"
+    },
+    {
+     "time": "2026-11-18T15:02:48+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "iid": {
+       "best": 11,
+       "family": [
+        11
+       ],
+       "fundamental_heuristic": 11,
+       "skill_vs_trend": 0.115,
+       "p": 0.885,
+       "null": "iid",
+       "train_points": 195,
+       "test_points": 131
+      },
+      "block": {
+       "best": 11,
+       "family": [
+        11
+       ],
+       "fundamental_heuristic": 11,
+       "skill_vs_trend": 0.115,
+       "p": 0.005,
+       "null": "block",
+       "train_points": 195,
+       "test_points": 131
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": "d0529e3c0a7c355d"
+    },
+    {
+     "time": "2026-11-18T16:53:29+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "iid": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "candidate_base_lag": 11,
+       "fundamental_heuristic": 11,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.115,
+       "p": 0.885,
+       "null": "iid",
+       "train_points": 195,
+       "test_points": 131
+      },
+      "block": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "candidate_base_lag": 11,
+       "fundamental_heuristic": 11,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.115,
+       "p": 0.005,
+       "null": "block",
+       "train_points": 195,
+       "test_points": 131
+      }
+     },
+     "code_sha": {
+      "stp": "3aa5222f0b76c214",
+      "construct_x": "125c6233944b86b8"
+     },
+     "data_sha": "d0529e3c0a7c355d"
+    },
+    {
+     "time": "2026-11-19T00:45:20+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "iid": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "candidate_base_lag": 11,
+       "fundamental_heuristic": 11,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.115,
+       "p": 0.885,
+       "null": "iid",
+       "train_points": 195,
+       "test_points": 131,
+       "block_len": null,
+       "baselines": {
+        "lis": 25.7608,
+        "seasonal_naive": 33.2431,
+        "persistence": 30.9231,
+        "drift": 29.1146,
+        "train_mean": 53.8856,
+        "train_trend": 56.1303,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      },
+      "block": {
+       "best": 11,
+       "family": [
+        10,
+        11,
+        12
+       ],
+       "candidate_base_lag": 11,
+       "fundamental_heuristic": 11,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.115,
+       "p": 0.005,
+       "null": "block",
+       "train_points": 195,
+       "test_points": 131,
+       "block_len": 24,
+       "baselines": {
+        "lis": 25.7608,
+        "seasonal_naive": 33.2431,
+        "persistence": 30.9231,
+        "drift": 29.1146,
+        "train_mean": 53.8856,
+        "train_trend": 56.1303,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "d0529e3c0a7c355d"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-006c": {
+   "id": "H-006c",
+   "origin": "review: negative control",
+   "hypothesis": "On the first 400 decimal digits of pi, where no cycle is expected, the engine reports no structure",
+   "scope": "real (non-simulated) sequence",
+   "falsification": "p <= 0.05 under either null",
+   "test": "temporal_scan, iid and block nulls",
+   "data": "pi digits computed by spigot",
+   "criterion": "p > 0.05 under both nulls",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "engine does not invent cycles in patternless data",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:31+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "first_digits": [
+       3,
+       1,
+       4,
+       1,
+       5,
+       9,
+       2,
+       6,
+       5,
+       3
+      ],
+      "iid": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "fundamental_heuristic": 17,
+       "skill_vs_trend": 0.204,
+       "p": 0.45,
+       "null": "iid",
+       "train_points": 240,
+       "test_points": 160
+      },
+      "block": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "fundamental_heuristic": 17,
+       "skill_vs_trend": 0.204,
+       "p": 0.58,
+       "null": "block",
+       "train_points": 240,
+       "test_points": 160
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "4f6b25485c494349"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T15:02:49+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "first_digits": [
+       3,
+       1,
+       4,
+       1,
+       5,
+       9,
+       2,
+       6,
+       5,
+       3
+      ],
+      "iid": {
+       "best": 17,
+       "family": [
+        17,
+        22
+       ],
+       "fundamental_heuristic": 17,
+       "skill_vs_trend": 0.204,
+       "p": 0.45,
+       "null": "iid",
+       "train_points": 240,
+       "test_points": 160
+      },
+      "block": {
+       "best": 17,
+       "family": [
+        17,
+        22
+       ],
+       "fundamental_heuristic": 17,
+       "skill_vs_trend": 0.204,
+       "p": 0.58,
+       "null": "block",
+       "train_points": 240,
+       "test_points": 160
+      }
+     },
+     "code_sha": {
+      "stp": "33cc18458225a1c5",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T16:53:30+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "first_digits": [
+       3,
+       1,
+       4,
+       1,
+       5,
+       9,
+       2,
+       6,
+       5,
+       3
+      ],
+      "iid": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "candidate_base_lag": 17,
+       "fundamental_heuristic": 17,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.204,
+       "p": 0.45,
+       "null": "iid",
+       "train_points": 240,
+       "test_points": 160
+      },
+      "block": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "candidate_base_lag": 17,
+       "fundamental_heuristic": 17,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.204,
+       "p": 0.58,
+       "null": "block",
+       "train_points": 240,
+       "test_points": 160
+      }
+     },
+     "code_sha": {
+      "stp": "3aa5222f0b76c214",
+      "construct_x": "125c6233944b86b8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:45:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "first_digits": [
+       3,
+       1,
+       4,
+       1,
+       5,
+       9,
+       2,
+       6,
+       5,
+       3
+      ],
+      "iid": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "candidate_base_lag": 17,
+       "fundamental_heuristic": 17,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.204,
+       "p": 0.45,
+       "null": "iid",
+       "train_points": 240,
+       "test_points": 160,
+       "block_len": null,
+       "baselines": {
+        "lis": 4.9371,
+        "seasonal_naive": 3.2264,
+        "persistence": 3.5472,
+        "drift": 6.2013,
+        "train_mean": 2.4954,
+        "train_trend": 2.484,
+        "best_forecaster": "train_trend",
+        "lis_beats_all_baselines": false
+       }
+      },
+      "block": {
+       "best": 17,
+       "family": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24
+       ],
+       "candidate_base_lag": 17,
+       "fundamental_heuristic": 17,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.204,
+       "p": 0.58,
+       "null": "block",
+       "train_points": 240,
+       "test_points": 160,
+       "block_len": 24,
+       "baselines": {
+        "lis": 4.9371,
+        "seasonal_naive": 3.2264,
+        "persistence": 3.5472,
+        "drift": 6.2013,
+        "train_mean": 2.4954,
+        "train_trend": 2.484,
+        "best_forecaster": "train_trend",
+        "lis_beats_all_baselines": false
+       }
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-010": {
+   "id": "CX-010",
+   "origin": "review 9",
+   "hypothesis": "The 27 domains contain families related by shared invariants under polarity, transposition or affine maps",
+   "scope": "Construct X + Classic domain outputs",
+   "falsification": "no shared invariant beyond those forced by construction",
+   "test": "to be defined: invariant list, transformations, domain outputs",
+   "data": "not yet defined",
+   "criterion": "to be fixed before any run",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "structural resonance engine",
+   "supersedes": null,
+   "date": "2026-11-18T14:56:37+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:56:37+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "not yet defined",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "REVISED",
+   "revision_note": "Defined at close-out and run as CX-010-D (VERIFIED COMPUTATION); this entry kept as the undefined original.",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REVISED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-006d": {
+   "id": "H-006d",
+   "origin": "diagnosis of H-006b: the iid null builds white-noise surrogates, which beat the lag-1 baseline by construction (residual variance 4s^2 vs 6s^2), so smooth real series look weak against them",
+   "hypothesis": "With the block null as the primary test, the engine detects an independently known cycle in a real series it has not been tuned on",
+   "scope": "a real series NOT used in H-006b (sunspots excluded)",
+   "falsification": "block-null p > 0.05 or fundamental outside the known period +/- 1",
+   "test": "temporal_scan(null='block'); iid null reported but not decisive",
+   "data": "records/data/mauna_loa_co2_monthly_nist_1974_1987.csv (NIST/SEMATECH e-Handbook of Statistical Methods 6.4.4.11, Mauna Loa monthly CO2, May 1974 - Sep 1987, n = 161; transcribed twice through the fetch tool, both copies identical; known cycle 12 months; never used to tune the engine). Selected 18 Nov 2026 before any run.",
+   "criterion": "block p <= 0.05 and fundamental within known period +/- 1",
+   "blinding": "blind (new data required)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed, the block null becomes the engine's default",
+   "supersedes": null,
+   "date": "2026-11-18T14:58:51+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T14:58:51+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "needs a new real series",
+     "code_sha": null,
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-18T17:30:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "block": {
+       "best": 12,
+       "family": [
+        12,
+        24
+       ],
+       "candidate_base_lag": 12,
+       "fundamental_heuristic": 12,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.64,
+       "p": 0.01,
+       "null": "block",
+       "train_points": 96,
+       "test_points": 65,
+       "block_len": 24,
+       "baselines": {
+        "lis": 0.3178,
+        "seasonal_naive": 1.3555,
+        "persistence": 1.1786,
+        "drift": 0.8836,
+        "train_mean": 9.6817,
+        "train_trend": 1.9043,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      },
+      "iid_transition_report": {
+       "best": 12,
+       "family": [
+        12,
+        24
+       ],
+       "candidate_base_lag": 12,
+       "fundamental_heuristic": 12,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.64,
+       "p": 0.005,
+       "null": "iid",
+       "train_points": 96,
+       "test_points": 65,
+       "block_len": null,
+       "baselines": {
+        "lis": 0.3178,
+        "seasonal_naive": 1.3555,
+        "persistence": 1.1786,
+        "drift": 0.8836,
+        "train_mean": 9.6817,
+        "train_trend": 1.9043,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      }
+     },
+     "code_sha": {
+      "stp": "71c4067a4bc6029f",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": "f35679702a63179f"
+    },
+    {
+     "time": "2026-11-19T00:46:48+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "block": {
+       "best": 12,
+       "family": [
+        12,
+        24
+       ],
+       "candidate_base_lag": 12,
+       "fundamental_heuristic": 12,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.64,
+       "p": 0.01,
+       "null": "block",
+       "train_points": 96,
+       "test_points": 65,
+       "block_len": 24,
+       "baselines": {
+        "lis": 0.3178,
+        "seasonal_naive": 1.3555,
+        "persistence": 1.1786,
+        "drift": 0.8836,
+        "train_mean": 9.6817,
+        "train_trend": 1.9043,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      },
+      "iid_transition_report": {
+       "best": 12,
+       "family": [
+        12,
+        24
+       ],
+       "candidate_base_lag": 12,
+       "fundamental_heuristic": 12,
+       "family_tol": 0.15,
+       "skill_vs_trend": 0.64,
+       "p": 0.005,
+       "null": "iid",
+       "train_points": 96,
+       "test_points": 65,
+       "block_len": null,
+       "baselines": {
+        "lis": 0.3178,
+        "seasonal_naive": 1.3555,
+        "persistence": 1.1786,
+        "drift": 0.8836,
+        "train_mean": 9.6817,
+        "train_trend": 1.9043,
+        "best_forecaster": "lis",
+        "lis_beats_all_baselines": true
+       }
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "f35679702a63179f"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "criterion_note": "known period = 12, so candidate base lag in {11, 12, 13}; iid result reported for the transition, not part of the criterion",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-010": {
+   "id": "H-010",
+   "origin": "uniqueness review: the Construct's two worlds",
+   "hypothesis": "Among all moduli 3..2000 with period 24 and the mirror A^12 = -I, the Construct's two-world split (non-units form an additive ideal) holds for 9 alone",
+   "scope": "moduli 3..2000 (the proof of Companion 130.2 shows only 6, 9, 18 qualify for every m)",
+   "falsification": "the split holds for 6 or 18, or fails for 9",
+   "test": "t_H010 (exhaustive)",
+   "data": "none",
+   "criterion": "split holds exactly for {9}",
+   "blinding": "NOT BLIND: equivalent to 'one prime' (Z/m local iff m a prime power), expected by theory",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "POST-SELECTION STRUCTURAL PROPERTY of the necessity proof (anti-retrofitting rule): an equivalent reading of condition (3), never a new selection criterion",
+   "supersedes": null,
+   "date": "2026-11-18T16:03:12+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:03:12+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "moduli_with_period_24_and_mirror": [
+       6,
+       9,
+       18
+      ],
+      "two_world_split_holds_for": [
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "fef1e76ae1e8ba42",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "moduli_with_period_24_and_mirror": [
+       6,
+       9,
+       18
+      ],
+      "two_world_split_holds_for": [
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-011": {
+   "id": "H-011",
+   "origin": "uniqueness review: the Construct's generator",
+   "hypothesis": "In the workbook, the offset row of P_k is (2/k) times the doubling circuit mod 9, for k in {1,2,4,5,7,8}",
+   "scope": "workbook",
+   "falsification": "any k failing",
+   "test": "t_H011",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 6 hold",
+   "blinding": "NOT BLIND: pattern seen while reading offsets",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "POST-SELECTION corroboration of K2: the Construct's own engine is the generator 2",
+   "supersedes": null,
+   "date": "2026-11-18T16:03:12+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:03:23+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "P_k_offset_equals_(2/k)*doubling_circuit": {
+       "1": true,
+       "2": true,
+       "4": true,
+       "5": true,
+       "7": true,
+       "8": true
+      }
+     },
+     "code_sha": {
+      "stp": "fef1e76ae1e8ba42",
+      "construct_x": "5ec6ef86acce1be8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "P_k_offset_equals_(2/k)*doubling_circuit": {
+       "1": true,
+       "2": true,
+       "4": true,
+       "5": true,
+       "7": true,
+       "8": true
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "OP-01a": {
+   "id": "OP-01a",
+   "origin": "review OP-01",
+   "hypothesis": "Construct X keeps residues 0-8 internally; display (0 shown as 9) is a bijection that round-trips, and the Core's digital root equals display of the residue for every n >= 1",
+   "scope": "Construct X; n up to 100000",
+   "falsification": "any failed round trip or any n where they differ",
+   "test": "t_OP01a",
+   "data": "none",
+   "criterion": "all hold",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "representation separated from arithmetic",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:41+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "display_bijection": true,
+      "digital_root_equals_display_of_residue_n<=100000": true
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:13+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "display_bijection": true,
+      "digital_root_equals_display_of_residue_n<=100000": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "OP-01b": {
+   "id": "OP-01b",
+   "origin": "review OP-01",
+   "hypothesis": "In the original workbook, every formula that does arithmetic on a displayed value (0 shown as 9) is reduced mod 9 again, directly or by every formula downstream",
+   "scope": "all formulas of the workbook",
+   "falsification": "any arithmetic use of a displayed value that is never reduced",
+   "test": "t_OP01b (static formula audit, one level downstream)",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "zero unreduced arithmetic uses",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the listed cells need a review: a shown 9 may be counted as nine rather than zero",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:48+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "display_cells": 27227,
+      "formulas": 105092,
+      "display_or_mod": 56,
+      "plain_copy": 221,
+      "no_arithmetic": 83,
+      "arithmetic_reduced_downstream": 407,
+      "arithmetic_unreduced": 616,
+      "examples": [
+       "MP!Y345",
+       "MP!Y357",
+       "MP!Y240",
+       "MP!Y252",
+       "MP!Y144",
+       "MP!Y366",
+       "MP!Y378",
+       "MP!Y230"
+      ]
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:20+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "display_cells": 27227,
+      "formulas": 105092,
+      "display_or_mod": 56,
+      "plain_copy": 221,
+      "no_arithmetic": 83,
+      "arithmetic_reduced_downstream": 407,
+      "arithmetic_unreduced": 616,
+      "examples": [
+       "MP!Y236",
+       "MP!Y248",
+       "MP!Y315",
+       "MP!Y327",
+       "MP!Y419",
+       "MP!Y431",
+       "MP!Y292",
+       "MP!Y304"
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-01": {
+   "id": "UP-01",
+   "origin": "review UP-01",
+   "hypothesis": "On (Z/9)^2 the pair (Q^2, period), Q = 2N, is constant on each orbit and separates all 5 orbits",
+   "scope": "81 states",
+   "falsification": "an orbit with two signatures or two orbits sharing one",
+   "test": "t_UP01 (exhaustive)",
+   "data": "none",
+   "criterion": "complete classifier",
+   "blinding": "NOT BLIND: reported by the review",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "finite orbit classifier mod 9 | status set to VERIFIED COMPUTATION on review (18 Nov 2026): an exhaustive program check is not by itself a proof",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:48+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "orbits": 5,
+      "constant_on_orbits": true,
+      "distinct_signatures": true
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:20+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "orbits": 5,
+      "constant_on_orbits": true,
+      "distinct_signatures": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-01b": {
+   "id": "UP-01b",
+   "origin": "extension of UP-01",
+   "hypothesis": "(Q^2, period) stays a complete orbit classifier on (Z/27)^2",
+   "scope": "729 states, 14 orbits",
+   "falsification": "two orbits sharing a signature",
+   "test": "t_UP01b (exhaustive)",
+   "data": "none",
+   "criterion": "complete classifier",
+   "blinding": "NOT BLIND: the Navigator expected failure (the three r = 1 orbits all have N^2 = 0 mod 27)",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the classifier needs the 3-adic valuation (the Core's Lambda address)",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:48+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "orbits": 14,
+      "constant_on_orbits": true,
+      "distinct_signatures": false
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:20+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "orbits": 14,
+      "constant_on_orbits": true,
+      "distinct_signatures": false
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-01c": {
+   "id": "UP-01c",
+   "origin": "Core orbit address Lambda",
+   "hypothesis": "Lambda(x) = (r, N(u)^2 mod 3^(k-r)), x = 3^r u, is a complete orbit classifier on (Z/3^k)^2 for every k (proof in CA-11); checked for k = 1..6",
+   "scope": "up to 531441 states",
+   "falsification": "any k where Lambda fails",
+   "test": "t_UP01c (exhaustive)",
+   "data": "none",
+   "criterion": "complete for k = 1..6",
+   "blinding": "NOT BLIND: k <= 5 was run before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "classification architecture for the uniqueness proof | status set to VERIFIED COMPUTATION on review (18 Nov 2026): an exhaustive program check is not by itself a proof",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:49+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "Lambda_complete_for_m": {
+       "3": true,
+       "9": true,
+       "27": true,
+       "81": true,
+       "243": true,
+       "729": true
+      }
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "Lambda_complete_for_m": {
+       "3": true,
+       "9": true,
+       "27": true,
+       "81": true,
+       "243": true,
+       "729": true
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-02": {
+   "id": "UP-02",
+   "origin": "review UP-02",
+   "hypothesis": "The canonical orbit is exactly the set of states whose Lambda signature equals that of the seed (2, 5)",
+   "scope": "81 states",
+   "falsification": "the signature class differs from the orbit",
+   "test": "t_UP02 (exhaustive)",
+   "data": "none",
+   "criterion": "class == orbit",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "K-uniqueness restated as a classification statement",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:49+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "signature_of_(2,5)": [
+       0,
+       4
+      ],
+      "states_with_it": 24,
+      "orbit_size": 24
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "signature_of_(2,5)": [
+       0,
+       4
+      ],
+      "states_with_it": 24,
+      "orbit_size": 24
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-03a": {
+   "id": "UP-03a",
+   "origin": "review UP-03 (invariant discovery)",
+   "hypothesis": "Mod 9, the only quadratic form invariant under T is 0, and the anti-invariant forms are exactly the multiples k*N",
+   "scope": "all 729 forms c1 a^2 + c2 ab + c3 b^2 mod 9",
+   "falsification": "any other invariant or anti-invariant form",
+   "test": "t_UP03a (exhaustive)",
+   "data": "none",
+   "criterion": "invariant = {0}; anti-invariant = {kN}",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "N is the unique quadratic witness of the mirror, up to scale | status set to VERIFIED COMPUTATION on review (18 Nov 2026): an exhaustive program check is not by itself a proof",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:49+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "invariant_forms": [
+       [
+        0,
+        0,
+        0
+       ]
+      ],
+      "anti_invariant_forms": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        1,
+        1,
+        8
+       ],
+       [
+        2,
+        2,
+        7
+       ],
+       [
+        3,
+        3,
+        6
+       ],
+       [
+        4,
+        4,
+        5
+       ],
+       [
+        5,
+        5,
+        4
+       ],
+       [
+        6,
+        6,
+        3
+       ],
+       [
+        7,
+        7,
+        2
+       ],
+       [
+        8,
+        8,
+        1
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "invariant_forms": [
+       [
+        0,
+        0,
+        0
+       ]
+      ],
+      "anti_invariant_forms": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        1,
+        1,
+        8
+       ],
+       [
+        2,
+        2,
+        7
+       ],
+       [
+        3,
+        3,
+        6
+       ],
+       [
+        4,
+        4,
+        5
+       ],
+       [
+        5,
+        5,
+        4
+       ],
+       [
+        6,
+        6,
+        3
+       ],
+       [
+        7,
+        7,
+        2
+       ],
+       [
+        8,
+        8,
+        1
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-04a": {
+   "id": "UP-04a",
+   "origin": "review UP-04",
+   "hypothesis": "No additive surjection (Z/9)^2 -> F3^3 exists, and F9 is not a subfield of F27, so Omega42's 81 states and Construct X's 27 points have no structure-preserving link of these two kinds",
+   "scope": "additive homomorphisms; subfields",
+   "falsification": "a surjective additive map, or a 9-element subfield of F27",
+   "test": "t_UP04a (exhaustive + subfield lattice)",
+   "data": "none",
+   "criterion": "no surjection and no embedding",
+   "blinding": "blind",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "the Omega42-Construct X link stays analogical (Singer cycles in dimensions 2 and 3), CDT-B",
+   "supersedes": null,
+   "date": "2026-11-18T16:13:36+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:13:49+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "largest_additive_image": 9,
+      "F27_subfield_sizes": [
+       3,
+       27
+      ]
+     },
+     "code_sha": {
+      "stp": "b37e1380a6a19561",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:43:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "largest_additive_image": 9,
+      "F27_subfield_sizes": [
+       3,
+       27
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-014": {
+   "id": "H-014",
+   "origin": "terminology work: Core 0.9.1 states N_k = Y - k and P_k = Y + k",
+   "hypothesis": "Entrywise, every P-seed row is Y + (k, k, k, k, k, k) and every N-seed row is Y - (k, ..., k), as Core 0.9.1 reads",
+   "scope": "workbook MP seed rows",
+   "falsification": "any k where the offset row is not constant k",
+   "test": "t_H014",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 k hold",
+   "blinding": "NOT BLIND: H-011 had already shown the Lower World offsets are (2/k) x doubling circuit",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, Core 0.9.1 needs a corrected formula for ESC to ratify; the Navigator does not change it",
+   "supersedes": null,
+   "date": "2026-11-18T16:23:29+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:23:39+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "P_k = Y + k and N_k = Y - k entrywise holds for": []
+     },
+     "code_sha": {
+      "stp": "e7036c8b4d1035ab",
+      "construct_x": "ee83afa3e8a408bc"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:13+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "P_k = Y + k and N_k = Y - k entrywise holds for": []
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-013": {
+   "id": "H-013",
+   "origin": "speculation on OP-01b: the twelve-apart sums may be a hand-built check of the antipodal rule",
+   "hypothesis": "Every workbook sum of two displayed roots taken twelve rows apart reduces mod 9 to residue 0 (displayed 9)",
+   "scope": "workbook, all sheets",
+   "falsification": "any such sum with a nonzero residue mod 9",
+   "test": "t_H013",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all residues 0",
+   "blinding": "blind (the values were not inspected mod 9 before registration)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed, the sums read as antipodal checks; if rejected, they are not",
+   "supersedes": null,
+   "date": "2026-11-18T16:53:16+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T16:53:26+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "twelve_apart_sums": 300,
+      "residues_mod_9": {
+       "0": 44,
+       "1": 36,
+       "2": 45,
+       "3": 39,
+       "4": 32,
+       "5": 29,
+       "6": 32,
+       "7": 19,
+       "8": 24
+      }
+     },
+     "code_sha": {
+      "stp": "3aa5222f0b76c214",
+      "construct_x": "125c6233944b86b8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:43:01+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "twelve_apart_sums": 300,
+      "residues_mod_9": {
+       "0": 44,
+       "1": 36,
+       "2": 45,
+       "3": 39,
+       "4": 32,
+       "5": 29,
+       "6": 32,
+       "7": 19,
+       "8": 24
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-01d": {
+   "id": "UP-01d",
+   "origin": "review: separate the general theorem from its enumerations",
+   "hypothesis": "Complete Omega42 Orbit Signature Theorem: on (Z/3^k)^2, nonzero states share a T-orbit iff they share Lambda = (r, N(u)^2 mod 3^(k-r)); zero is a separate fixed orbit",
+   "scope": "every k >= 1",
+   "falsification": "an error in the proof (training guide RN-3; specification section 7)",
+   "test": "mathematical proof: valuation, order lifting of phi, norm multiplicativity, norm surjectivity, counting",
+   "data": "none",
+   "criterion": "proof checked step by step",
+   "blinding": "n/a",
+   "on_pass": "PROVED",
+   "on_fail": "REVISED",
+   "consequence": "general statement behind UP-01c",
+   "supersedes": null,
+   "date": "2026-11-18T17:00:50+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:00:50+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": "proof written out (RN-3); steps 3 and 5 checked numerically for j = 1..5",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-016": {
+   "id": "H-016",
+   "origin": "close-out review: 'direct N/P polarity at anchors 3 and 6'",
+   "hypothesis": "For every k = 1..9, the negated offset of N_k is a cyclic rotation of the offset of P_k (direct pairing up to rotation)",
+   "scope": "workbook seed offsets",
+   "falsification": "any k where -N_k is not a rotation of P_k",
+   "test": "t_H016",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 k hold",
+   "blinding": "NOT BLIND: offsets inspected before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "reconciles the review's direct pairing with H-001's exact (crossed) pairing: two different relations",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:28:10+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "fails_for": []
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:45:33+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "holds_for": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9
+      ],
+      "fails_for": []
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-016b": {
+   "id": "H-016b",
+   "origin": "Navigator speculation on H-016",
+   "hypothesis": "Rotation-negation does not single out a partner in the Higher World (each of N3, N6, N9 is a rotation-negation of each of P3, P6, P9), while in the Lower World it relates no P_a to N_b with a != b",
+   "scope": "workbook seed offsets",
+   "falsification": "a Higher World pair that is not related, or any Lower World cross relation",
+   "test": "t_H016b",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all 9 Higher World combinations related and 0 Lower World cross relations",
+   "blinding": "NOT BLIND: offsets inspected before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: only exact positional negation (H-001) fixes the Higher World partners; the crossed pairing P3-N6, P6-N3 is the workbook's own",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:28:21+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "higher_world_all_9_related": true,
+      "lower_world_cross_relations": [
+       "P1~N2",
+       "P1~N4",
+       "P1~N5",
+       "P1~N7",
+       "P1~N8",
+       "P2~N1",
+       "P2~N4",
+       "P2~N5",
+       "P2~N7",
+       "P2~N8",
+       "P4~N1",
+       "P4~N2",
+       "P4~N5",
+       "P4~N7",
+       "P4~N8",
+       "P5~N1",
+       "P5~N2",
+       "P5~N4",
+       "P5~N7",
+       "P5~N8",
+       "P7~N1",
+       "P7~N2",
+       "P7~N4",
+       "P7~N5",
+       "P7~N8",
+       "P8~N1",
+       "P8~N2",
+       "P8~N4",
+       "P8~N5",
+       "P8~N7"
+      ]
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:45:45+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "higher_world_all_9_related": true,
+      "lower_world_cross_relations": [
+       "P1~N2",
+       "P1~N4",
+       "P1~N5",
+       "P1~N7",
+       "P1~N8",
+       "P2~N1",
+       "P2~N4",
+       "P2~N5",
+       "P2~N7",
+       "P2~N8",
+       "P4~N1",
+       "P4~N2",
+       "P4~N5",
+       "P4~N7",
+       "P4~N8",
+       "P5~N1",
+       "P5~N2",
+       "P5~N4",
+       "P5~N7",
+       "P5~N8",
+       "P7~N1",
+       "P7~N2",
+       "P7~N4",
+       "P7~N5",
+       "P7~N8",
+       "P8~N1",
+       "P8~N2",
+       "P8~N4",
+       "P8~N5",
+       "P8~N7"
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "W-001": {
+   "id": "W-001",
+   "origin": "close-out review section 3 (workbook errors)",
+   "hypothesis": "The workbook has 29 sheets, 167 formula cells without cached values, 7 #DIV/0! at MP!R74:X74 and 16 #REF! at P9!T90:AA91, and no formula outside those two blocks depends on them",
+   "scope": "all formulas",
+   "falsification": "any count differs or any dependent exists",
+   "test": "t_W001 (static dependency scan)",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "all counts as stated and zero dependents",
+   "blinding": "replication of the review's counts; the dependency part is new",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed, both error blocks are isolated: they cannot affect any other workbook output",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:30:37+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "sheets": 29,
+      "formula_cells_openpyxl": 105092,
+      "no_cached_value": 167,
+      "errors": {
+       "#DIV/0!": 7,
+       "#REF!": 16
+      },
+      "error_cells": {
+       "#DIV/0!": [
+        "MP!R74",
+        "MP!S74",
+        "MP!T74",
+        "MP!U74",
+        "MP!V74",
+        "MP!W74",
+        "MP!X74"
+       ],
+       "#REF!": [
+        "P9!T90",
+        "P9!U90",
+        "P9!V90",
+        "P9!W90",
+        "P9!X90",
+        "P9!Y90",
+        "P9!Z90",
+        "P9!AA90",
+        "P9!T91",
+        "P9!U91",
+        "P9!V91",
+        "P9!W91",
+        "P9!X91",
+        "P9!Y91",
+        "P9!Z91",
+        "P9!AA91"
+       ]
+      },
+      "dependents_outside_error_blocks": []
+     },
+     "code_sha": {
+      "stp": "71c4067a4bc6029f",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:46:02+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "sheets": 29,
+      "formula_cells_openpyxl": 105092,
+      "no_cached_value": 167,
+      "errors": {
+       "#DIV/0!": 7,
+       "#REF!": 16
+      },
+      "error_cells": {
+       "#DIV/0!": [
+        "MP!R74",
+        "MP!S74",
+        "MP!T74",
+        "MP!U74",
+        "MP!V74",
+        "MP!W74",
+        "MP!X74"
+       ],
+       "#REF!": [
+        "P9!T90",
+        "P9!U90",
+        "P9!V90",
+        "P9!W90",
+        "P9!X90",
+        "P9!Y90",
+        "P9!Z90",
+        "P9!AA90",
+        "P9!T91",
+        "P9!U91",
+        "P9!V91",
+        "P9!W91",
+        "P9!X91",
+        "P9!Y91",
+        "P9!Z91",
+        "P9!AA91"
+       ]
+      },
+      "dependents_outside_error_blocks": []
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-04b": {
+   "id": "UP-04b",
+   "origin": "close-out review: F9 and F27 in a common overfield",
+   "hypothesis": "F729 contains exactly one subfield of order 9 and one of order 27, they meet in F3, and Construct X's F9 (phi^2 = phi + 1) and F27 (g^3 = g - 1) both embed as fields",
+   "scope": "F729 built as F3[x]/(sextic)",
+   "falsification": "wrong subfield sizes or intersection, or a failed embedding",
+   "test": "t_UP04b (exhaustive)",
+   "data": "none",
+   "criterion": "9, 27, intersection 3, both embeddings multiplicative on all pairs",
+   "blinding": "blind (expected by theory)",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "F9-F27 Singer-Cycle Correspondence gains a common overfield; UP-04a stands (no embedding of one in the other)",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:29:39+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "is_field": false,
+      "subfield_9": 81,
+      "subfield_27": 243,
+      "intersection": 27,
+      "phi_roots": 0,
+      "g_roots": 0,
+      "F9_embeds": false,
+      "F27_embeds": false
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:02+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "is_field": false,
+      "subfield_9": 81,
+      "subfield_27": 243,
+      "intersection": 27,
+      "phi_roots": 0,
+      "g_roots": 0,
+      "F9_embeds": false,
+      "F27_embeds": false
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "is_field": false,
+      "subfield_9": 81,
+      "subfield_27": 243,
+      "intersection": 27,
+      "phi_roots": 0,
+      "g_roots": 0,
+      "F9_embeds": false,
+      "F27_embeds": false
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:50:47+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       0,
+       1
+      ],
+      "is_field": false,
+      "subfield_9": 81,
+      "subfield_27": 243,
+      "intersection": 27,
+      "phi_roots": 0,
+      "g_roots": 0,
+      "F9_embeds": false,
+      "F27_embeds": false
+     },
+     "code_sha": {
+      "stp": "de49410b5a58a512",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "REVISED",
+   "revision_note": "Run 1 FAIL is a test-implementation defect, not a mathematical result: the irreducibility check (x^729 = x, x^3, x^9, x^27 != x) accepts reducible sextics with factor degrees 1+2+3; the program itself then reported is_field = false. Superseded by UP-04b-R1.",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": "REJECTED",
+     "to": "REVISED",
+     "reason": "audit 19 Nov 2026: the rerun of a superseded entry had overwritten REVISED (runner defect, fixed); superseded by UP-04b-R1"
+    }
+   ]
+  },
+  "UP-01e": {
+   "id": "UP-01e",
+   "origin": "close-out review: orbit-count law",
+   "hypothesis": "On (Z/3^k)^2 there are (3^k + 1)/2 orbits of T: one fixed zero state and 3^(j-1) orbits of length 8*3^(j-1) for j = 1..k",
+   "scope": "k = 1..6 exhaustive; proof as corollary of UP-01d",
+   "falsification": "any k with a different count or length profile",
+   "test": "t_UP01e",
+   "data": "none",
+   "criterion": "all k = 1..6 match",
+   "blinding": "NOT BLIND: k = 2, 3, 5 counts known",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "depth-tower table follows from a formula",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:28:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "1": {
+       "orbits": 2,
+       "formula": 2,
+       "lengths_match": true
+      },
+      "2": {
+       "orbits": 5,
+       "formula": 5,
+       "lengths_match": true
+      },
+      "3": {
+       "orbits": 14,
+       "formula": 14,
+       "lengths_match": true
+      },
+      "4": {
+       "orbits": 41,
+       "formula": 41,
+       "lengths_match": true
+      },
+      "5": {
+       "orbits": 122,
+       "formula": 122,
+       "lengths_match": true
+      },
+      "6": {
+       "orbits": 365,
+       "formula": 365,
+       "lengths_match": true
+      }
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:33+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "1": {
+       "orbits": 2,
+       "formula": 2,
+       "lengths_match": true
+      },
+      "2": {
+       "orbits": 5,
+       "formula": 5,
+       "lengths_match": true
+      },
+      "3": {
+       "orbits": 14,
+       "formula": 14,
+       "lengths_match": true
+      },
+      "4": {
+       "orbits": 41,
+       "formula": 41,
+       "lengths_match": true
+      },
+      "5": {
+       "orbits": 122,
+       "formula": 122,
+       "lengths_match": true
+      },
+      "6": {
+       "orbits": 365,
+       "formula": 365,
+       "lengths_match": true
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-010-D": {
+   "id": "CX-010-D",
+   "origin": "review 9; defines CX-010 at close-out",
+   "hypothesis": "Under the order-6 group generated by polarity (x -> -x) and Frobenius (x -> x^3), the 27 domains fall into 6 families of sizes 1, 2, 6, 6, 6, 6, and the minimal polynomial up to x -> -x is constant on each family and separates them",
+   "scope": "Construct X domains F27",
+   "falsification": "other family sizes, or an invariant that varies inside a family or repeats across families",
+   "test": "t_CX010 (exhaustive)",
+   "data": "none",
+   "criterion": "sizes [1,2,6,6,6,6], invariant constant and separating",
+   "blinding": "blind (computed after registration; sizes predicted by theory)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "defines the Structural Family Register of the 27 domains (X-CONSTRUCTED)",
+   "supersedes": "CX-010",
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:28:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "family_sizes": [
+       1,
+       2,
+       6,
+       6,
+       6,
+       6
+      ],
+      "invariant_constant": true,
+      "invariant_separates": true,
+      "families_as_seed_exponents": [
+       [],
+       [
+        2,
+        5,
+        6,
+        15,
+        18,
+        19
+       ],
+       [
+        1,
+        3,
+        9,
+        14,
+        16,
+        22
+       ],
+       [
+        4,
+        10,
+        12,
+        17,
+        23,
+        25
+       ],
+       [
+        0,
+        13
+       ],
+       [
+        7,
+        8,
+        11,
+        20,
+        21,
+        24
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:33+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "family_sizes": [
+       1,
+       2,
+       6,
+       6,
+       6,
+       6
+      ],
+      "invariant_constant": true,
+      "invariant_separates": true,
+      "families_as_seed_exponents": [
+       [],
+       [
+        2,
+        5,
+        6,
+        15,
+        18,
+        19
+       ],
+       [
+        1,
+        3,
+        9,
+        14,
+        16,
+        22
+       ],
+       [
+        4,
+        10,
+        12,
+        17,
+        23,
+        25
+       ],
+       [
+        0,
+        13
+       ],
+       [
+        7,
+        8,
+        11,
+        20,
+        21,
+        24
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-011": {
+   "id": "CX-011",
+   "origin": "close-out review section 4: compare with ordinary forecasters",
+   "hypothesis": "On the synthetic weekly demonstration series, the Lagged-Increment Model at the selected lag has lower held-out error than every baseline (seasonal-naive, persistence, drift, training mean, training trend)",
+   "scope": "one synthetic series (seed 5, 182 days)",
+   "falsification": "any baseline with error <= LIS",
+   "test": "t_CX011",
+   "data": "generated",
+   "criterion": "LIS strictly best",
+   "blinding": "NOT BLIND: the v2.3 self-test printed seasonal-naive 7.7 < LIS 10.5 on a similar series before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the Temporal Engine is a stability detector, not a forecaster",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:30:22+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "best": 7,
+      "lis": 5.5597,
+      "seasonal_naive": 4.3867,
+      "persistence": 14.4267,
+      "drift": 22.8066,
+      "train_mean": 12.6569,
+      "train_trend": 12.3497,
+      "best_forecaster": "seasonal_naive",
+      "lis_beats_all_baselines": false
+     },
+     "code_sha": {
+      "stp": "71c4067a4bc6029f",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:33+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "best": 7,
+      "lis": 5.5597,
+      "seasonal_naive": 4.3867,
+      "persistence": 14.4267,
+      "drift": 22.8066,
+      "train_mean": 12.6569,
+      "train_trend": 12.3497,
+      "best_forecaster": "seasonal_naive",
+      "lis_beats_all_baselines": false
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-012a": {
+   "id": "CX-012a",
+   "origin": "close-out review: justify the block length",
+   "hypothesis": "With block length 24, the block null keeps the false-positive rate at or below 5 of 40 on AR(1) noise (phi = 0.5, n = 300) that has no cycle",
+   "scope": "40 generated series, 99 surrogates each",
+   "falsification": "more than 5 of 40 at p <= 0.05",
+   "test": "t_CX012a",
+   "data": "generated",
+   "criterion": "<= 5 of 40",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "block length 24 calibrated for short-memory noise",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:30:44+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "false_positives_of_40": 1,
+      "block_len": 24
+     },
+     "code_sha": {
+      "stp": "71c4067a4bc6029f",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:40+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "false_positives_of_40": 1,
+      "block_len": 24
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-012b": {
+   "id": "CX-012b",
+   "origin": "close-out review: iid null under dependence",
+   "hypothesis": "The iid null keeps the false-positive rate at or below 5 of 40 on the same AR(1) series",
+   "scope": "as CX-012a",
+   "falsification": "more than 5 of 40",
+   "test": "t_CX012b",
+   "data": "generated",
+   "criterion": "<= 5 of 40",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the iid null is unsafe under serial dependence and the block null should be primary",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:30:51+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "false_positives_of_40": 0
+     },
+     "code_sha": {
+      "stp": "71c4067a4bc6029f",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:48+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "false_positives_of_40": 0
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "I-001": {
+   "id": "I-001",
+   "origin": "close-out review: independent reproduction",
+   "hypothesis": "An independent implementation (tools/independent_check.py: raw XML, cached values, no shared code) reproduces the pairs, partners, H-004-R1/R2 anchor lists, H-005, H-011 and H-014 of the main implementation",
+   "scope": "workbook seed rows",
+   "falsification": "any difference",
+   "test": "t_I001",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked",
+   "criterion": "no differences",
+   "blinding": "same author, different code and read path; not an independent reviewer",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "H-004 results become reproducible by a second implementation",
+   "supersedes": null,
+   "date": "2026-11-18T17:27:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:29:39+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "agree_on": [
+       "H005",
+       "H011",
+       "H014",
+       "R1_holds_for",
+       "R2_fails_for",
+       "R2_holds_for",
+       "pairs",
+       "partner_of_P"
+      ],
+      "differences": {},
+      "independent_reads": "raw XML, cached J6:O6 of each seed sheet minus cached MP!J6:O6; no formula evaluation"
+     },
+     "code_sha": {
+      "stp": "4e9e9e682c1eb4c9",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:48:10+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "agree_on": [
+       "H005",
+       "H011",
+       "H014",
+       "R1_holds_for",
+       "R2_fails_for",
+       "R2_holds_for",
+       "pairs",
+       "partner_of_P"
+      ],
+      "differences": {},
+      "independent_reads": "raw XML, cached J6:O6 of each seed sheet minus cached MP!J6:O6; no formula evaluation"
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "UP-04b-R1": {
+   "id": "UP-04b-R1",
+   "origin": "UP-04b, corrected: the first run used an incomplete irreducibility test (accepted x^6 + x^5 + 1, a product of factors of degrees 1, 2, 3)",
+   "hypothesis": "F729 contains exactly one subfield of order 9 and one of order 27, they meet in F3, and Construct X's F9 (phi^2 = phi + 1) and F27 (g^3 = g - 1) both embed as fields",
+   "scope": "F729 = F3[x]/(sextic chosen by Rabin's test)",
+   "falsification": "as UP-04b",
+   "test": "t_UP04bR1 (Rabin test, then every nonzero element checked for a^728 = 1)",
+   "data": "none",
+   "criterion": "as UP-04b: 9, 27, intersection 3, both embeddings multiplicative on all pairs",
+   "blinding": "NOT BLIND: the defective first run had been seen",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "as UP-04b",
+   "supersedes": "UP-04b",
+   "date": "2026-11-18T17:30:13+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:30:15+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       1
+      ],
+      "is_field": true,
+      "subfield_9": 9,
+      "subfield_27": 27,
+      "intersection": 3,
+      "phi_roots": 2,
+      "g_roots": 3,
+      "F9_embeds": true,
+      "F27_embeds": true
+     },
+     "code_sha": {
+      "stp": "ebc12841b1652e59",
+      "construct_x": "3e212f78975ec4ea"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "sextic": [
+       1,
+       0,
+       0,
+       0,
+       1,
+       1
+      ],
+      "is_field": true,
+      "subfield_9": 9,
+      "subfield_27": 27,
+      "intersection": 3,
+      "phi_roots": 2,
+      "g_roots": 3,
+      "F9_embeds": true,
+      "F27_embeds": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "QA-01": {
+   "id": "QA-01",
+   "origin": "close-out: Question-to-Address Mapping Rule, candidate QAM-1 (CA-14)",
+   "hypothesis": "QAM-1 is total and deterministic on all 216 Axis readings (24 positions x 9 anchors) and returns a valid Matrix node each time",
+   "scope": "Construct X address engine",
+   "falsification": "any reading without a node, or two runs that differ",
+   "test": "t_QA01",
+   "data": "none",
+   "criterion": "216 valid nodes, identical on rerun",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "QAM-1 becomes IMPLEMENTED; adoption stays with ESC",
+   "supersedes": null,
+   "date": "2026-11-18T17:31:17+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:31:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "inputs": 216,
+      "deterministic": true,
+      "valid_nodes": true,
+      "distinct_nodes": 72
+     },
+     "code_sha": {
+      "stp": "0f7a420be39d2df6",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "inputs": 216,
+      "deterministic": true,
+      "valid_nodes": true,
+      "distinct_nodes": 72
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "QA-02": {
+   "id": "QA-02",
+   "origin": "Navigator speculation on QAM-1",
+   "hypothesis": "QAM-1 reaches exactly 24 of the 27 domains; the 3 unreached are the line (0, 0, c), because the canonical orbit mod 3 never passes through (0, 0)",
+   "scope": "216 Axis readings",
+   "falsification": "any other set of unreached domains",
+   "test": "t_QA02",
+   "data": "none",
+   "criterion": "unreached == {(0,0,0), (0,0,1), (0,0,2)}",
+   "blinding": "blind (predicted from the period-8 Fibonacci cycle mod 3 before any run)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: under QAM-1 the origin line of the Matrix is reserved, never addressed by a question",
+   "supersedes": null,
+   "date": "2026-11-18T17:31:17+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:31:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "domains_reached": 24,
+      "unreached": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        1
+       ],
+       [
+        0,
+        0,
+        2
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "0f7a420be39d2df6",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "domains_reached": 24,
+      "unreached": [
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        1
+       ],
+       [
+        0,
+        0,
+        2
+       ]
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "W-002": {
+   "id": "W-002",
+   "origin": "close-out review: H-008 needed a fresh spreadsheet recalculation",
+   "hypothesis": "A full LibreOffice recalculation (forced on load; control copy without cached values gives the same result) agrees with the workbook's cached values on every formula cell except MP!F10, MP!G10 and REV!AI51, AJ51, AK51, AL51, AN51, AO51",
+   "scope": "all 104,925 formula cells with cached values",
+   "falsification": "any other difference, or any of the eight agreeing",
+   "test": "t_W002 (env OMEGA42_RECALC)",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked; LibreOffice recalculation of it (not stored: contains the Originator's name)",
+   "criterion": "difference set equals the eight cells",
+   "blinding": "NOT BLIND: the comparison was run and the eight cells traced before registration; this entry records the finding reproducibly",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "H-008 gains a recalculation check; two Classic fragilities recorded: silent #REF! criteria in REV and an engine-dependent MODE tie in MP!F10",
+   "supersedes": null,
+   "date": "2026-11-18T17:33:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:34:05+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "compared": 104925,
+      "differences": [
+       "MP!F10",
+       "MP!G10",
+       "REV!AI51",
+       "REV!AJ51",
+       "REV!AK51",
+       "REV!AL51",
+       "REV!AN51",
+       "REV!AO51"
+      ],
+      "explanation": "REV!AJ51:AO51 (5 cells) use #REF! as a COUNTIF criterion: Excel stores 0, LibreOffice reports #REF!; AI51 sums them. MP!F10 = MODE of 27 values with a three-way tie (218, 219, 220 seven times each): Excel returns the first in argument order (219), LibreOffice the smallest (218); G10 is its residue. No formula depends on F10 or G10."
+     },
+     "code_sha": {
+      "stp": "7cbf90476e82f139",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "compared": 104925,
+      "differences": [
+       "MP!F10",
+       "MP!G10",
+       "REV!AI51",
+       "REV!AJ51",
+       "REV!AK51",
+       "REV!AL51",
+       "REV!AN51",
+       "REV!AO51"
+      ],
+      "explanation": "REV!AJ51:AO51 (5 cells) use #REF! as a COUNTIF criterion: Excel stores 0, LibreOffice reports #REF!; AI51 sums them. MP!F10 = MODE of 27 values with a three-way tie (218, 219, 220 seven times each): Excel returns the first in argument order (219), LibreOffice the smallest (218); G10 is its residue. No formula depends on F10 or G10."
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-017": {
+   "id": "H-017",
+   "origin": "Navigator speculation from H-006d vs CX-011",
+   "hypothesis": "The Lagged-Increment Model beats seasonal-naive when trend and season combine, and loses to it when there is no trend: on the weekly demonstration profile (seed 7), it loses at slope 0 and wins at slope 0.5 per day",
+   "scope": "two synthetic series, lag 7, held-out 40%",
+   "falsification": "LIS wins at slope 0 or loses at slope 0.5",
+   "test": "t_H017",
+   "data": "generated",
+   "criterion": "loses at slope 0 and wins at slope 0.5",
+   "blinding": "blind (seed 7 not run before registration)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: the LIS forecast is the seasonal-difference-with-drift forecaster; use it when trend and season coexist, seasonal-naive otherwise",
+   "supersedes": null,
+   "date": "2026-11-18T17:33:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:33:49+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "no_trend": {
+       "lis": 4.4163,
+       "seasonal_naive": 3.0169
+      },
+      "trend_0.5_per_day": {
+       "lis": 4.4163,
+       "seasonal_naive": 4.1677
+      }
+     },
+     "code_sha": {
+      "stp": "7cbf90476e82f139",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "no_trend": {
+       "lis": 4.4163,
+       "seasonal_naive": 3.0169
+      },
+      "trend_0.5_per_day": {
+       "lis": 4.4163,
+       "seasonal_naive": 4.1677
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "REJECTED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-017b": {
+   "id": "H-017b",
+   "origin": "H-017 rejected at slope 0.5 (LIS 4.42 vs seasonal-naive 4.17); a Gaussian error calculation puts the crossover near slope 0.5",
+   "hypothesis": "The LIS held-out error does not change with a linear trend, and LIS beats seasonal-naive at slopes 1.0 and 2.0 per day on the same profile and noise",
+   "scope": "as H-017 plus slopes 1.0 and 2.0",
+   "falsification": "LIS error changes with slope, or seasonal-naive wins at 1.0 or 2.0",
+   "test": "t_H017b",
+   "data": "generated",
+   "criterion": "identical LIS error at all slopes and LIS < seasonal-naive at 1.0 and 2.0",
+   "blinding": "NOT BLIND: noise seed and slopes 0, 0.5 already seen",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: LIS cancels linear trend exactly; choose LIS over seasonal-naive once trend per cycle exceeds roughly the noise level",
+   "supersedes": "H-017",
+   "date": "2026-11-18T17:34:24+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:34:24+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "by_slope": {
+       "0.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 3.0169
+       },
+       "0.5": {
+        "lis": 4.4163,
+        "seasonal_naive": 4.1677
+       },
+       "1.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 7.148
+       },
+       "2.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 13.9856
+       }
+      },
+      "lis_error_trend_invariant": true
+     },
+     "code_sha": {
+      "stp": "81e60d30ae6d5381",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "by_slope": {
+       "0.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 3.0169
+       },
+       "0.5": {
+        "lis": 4.4163,
+        "seasonal_naive": 4.1677
+       },
+       "1.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 7.148
+       },
+       "2.0": {
+        "lis": 4.4163,
+        "seasonal_naive": 13.9856
+       }
+      },
+      "lis_error_trend_invariant": true
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-018": {
+   "id": "H-018",
+   "origin": "Navigator speculation, close-out reply",
+   "hypothesis": "No CX-010 family separates a Classic polarity pair: for every seed g^n, its partner g^(n+13) = -g^n lies in the same family",
+   "scope": "26 seeds, 6 families",
+   "falsification": "any pair split across two families",
+   "test": "t_H018",
+   "data": "none",
+   "criterion": "0 split pairs",
+   "blinding": "blind (not computed before registration; expected because negation is one of the two generators)",
+   "on_pass": "PROVED",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: the domain families are unions of whole polarity pairs, so the Classic Polarity Pairing is a sub-structure of the X families",
+   "supersedes": null,
+   "date": "2026-11-18T17:41:32+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:41:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "pairs_split": []
+     },
+     "code_sha": {
+      "stp": "a66ad08cb41e85ed",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "pairs_split": []
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "PROVED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "PROVED",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-019": {
+   "id": "H-019",
+   "origin": "Navigator speculation, close-out reply",
+   "hypothesis": "Under QAM-1, the antipodal readings (p, p + 12) land in the same CX-010 family for every p exactly when the anchor k is a Crown digit (3, 6, 9)",
+   "scope": "12 antipodal position pairs x 9 anchors",
+   "falsification": "the set of anchors with this property differs from {3, 6, 9}",
+   "test": "t_H019",
+   "data": "none",
+   "criterion": "anchor set == [3, 6, 9]",
+   "blinding": "blind (not computed before registration; Frobenius could add anchors)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: under QAM-1 the Crown anchors are the ones whose antipodes stay in one structural family",
+   "supersedes": null,
+   "date": "2026-11-18T17:41:48+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T17:41:48+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "anchors_where_every_antipodal_pair_shares_a_family": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "75f4ad91f6dbaa5a",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "anchors_where_every_antipodal_pair_shares_a_family": [
+       3,
+       6,
+       9
+      ]
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "H-021": {
+   "id": "H-021",
+   "origin": "Companion sweep: Part 108.3 (the Construct Engine loses to the latest row on slow sequences) read beside CX-011",
+   "hypothesis": "On stationary seasonal series with Gaussian noise, held-out MAE relative to seasonal-naive is sqrt(2) for the Lagged-Increment Model and sqrt(3) for the Construct Engine's scalar rule, the square roots of their noise gains 4/2 and 6/2",
+   "scope": "200 generated series, period 7, n = 600, no trend",
+   "falsification": "either mean ratio more than 10% from its prediction",
+   "test": "t_H021",
+   "data": "generated",
+   "criterion": "both ratios within 10% of sqrt(2) and sqrt(3)",
+   "blinding": "blind (predicted from the operator coefficients before any run)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: one law (noise gain = sum of squared operator coefficients) explains CX-011, H-017b and Companion 108.3 together",
+   "supersedes": null,
+   "date": "2026-11-18T18:26:03+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T18:26:03+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "lis_over_seasonal_naive": 1.4127,
+      "predicted": 1.4142,
+      "construct_engine_over_seasonal_naive": 1.7268,
+      "predicted_ce": 1.7321
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:21+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "lis_over_seasonal_naive": 1.4127,
+      "predicted": 1.4142,
+      "construct_engine_over_seasonal_naive": 1.7268,
+      "predicted_ce": 1.7321
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-013": {
+   "id": "CX-013",
+   "origin": "Companion sweep: Part 108.3 holds that a block shuffle keeping runs of the rule's interval keeps the rule's own evidence",
+   "hypothesis": "The block null loses power as its block length grows past the cycle: on period-12 seasonal series, detections at p <= 0.05 fall (weakly) from block 6 to 12 to 24 to 48, and strictly from 6 to 48",
+   "scope": "20 generated series per block length (n = 240, period 12, amplitude 2, sd 3, slope 0.02), 99 surrogates",
+   "falsification": "detections rise with block length at any step, or equal at 6 and 48",
+   "test": "t_CX013",
+   "data": "generated",
+   "criterion": "non-increasing in block length and strictly lower at 48 than at 6",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: Companion 108.3 is confirmed for Construct X; the block length 24 of CX-012a buys calibration with power, and the block-null-primary proposal of CA-14 needs a block shorter than the cycle",
+   "supersedes": null,
+   "date": "2026-11-18T18:26:03+00:00",
+   "runs": [
+    {
+     "time": "2026-11-18T18:26:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "detections_of_20_by_block_length": {
+       "6": 4,
+       "12": 2,
+       "24": 0,
+       "48": 0
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    },
+    {
+     "time": "2026-11-19T00:46:32+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "detections_of_20_by_block_length": {
+       "6": 4,
+       "12": 2,
+       "24": 0,
+       "48": 0
+      }
+     },
+     "code_sha": {
+      "stp": "eafe2d2622afaa96",
+      "construct_x": "1f088993d6a52fc8"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "VERIFIED COMPUTATION",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    }
+   ]
+  },
+  "CX-003": {
+   "id": "CX-003",
+   "origin": "CA-08 review 8A (proposed, never registered until the 19 Nov audit)",
+   "hypothesis": "The Lab's Polarity and Seed Navigator gives, for every one of the 26 seeds, the workbook's exact-negative partner (H-001), and the offset rows it shows for a seed and its partner are exact negatives",
+   "scope": "site/construct_x_lab.html, all 26 seeds",
+   "falsification": "any mismatch",
+   "test": "t_CX003 (headless browser, tools/lab_selftest.js)",
+   "data": "original workbook (PRIMORDIAL FRACTURE), formulas recomputed from MP; cached values checked and the published Lab page",
+   "criterion": "26 seeds, 0 mismatches, 0 non-negative offset pairs",
+   "blinding": "blind (not checked seed by seed before registration)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the navigator is CROSS-VALIDATED against the workbook",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "seeds": 26,
+      "partner_mismatches": [],
+      "non_negative_offsets": [],
+      "page_errors": []
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": "ceb7a396d951a78c"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CX-008": {
+   "id": "CX-008",
+   "origin": "CA-08 review 8F (proposed, never registered until the 19 Nov audit)",
+   "hypothesis": "The Transformation Laboratory's template is exact on the rule-generated melody at lag 8, and when the rule changes (step 5 to step 2 from t = 24) its failures fall only in the window where the lag-8 history straddles the change (t = 23 to 31), after which it is exact again",
+   "scope": "Z/12, 48 notes",
+   "falsification": "accuracy below 1 on the melody, failures outside 23 to 31, or none",
+   "test": "t_CX008",
+   "data": "generated",
+   "criterion": "exact, failures confined to 23..31, exact after",
+   "blinding": "blind (window predicted from lag 8 before running)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the composition-consistency test localises a rule change to within one lag",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "melody_accuracy_lag8": 1.0,
+      "accuracy_after_new_rule_settles": 1.0,
+      "failures_at": [
+       23,
+       31
+      ]
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CX-009": {
+   "id": "CX-009",
+   "origin": "CA-08 review 8G (proposed, never registered until the 19 Nov audit)",
+   "hypothesis": "The permanent register keeps every CA-08 field for every entry, a code fingerprint and time for every run, every entry ever registered, and REVISED for every superseded entry",
+   "scope": "records/stp/registry.json",
+   "falsification": "any missing field, unfingerprinted run, deleted entry, or superseded entry not REVISED",
+   "test": "t_CX009",
+   "data": "records/stp/registry.json",
+   "criterion": "all four checks clean",
+   "blinding": "NOT BLIND: the UP-04b overwrite was found by the audit rerun before registration and fixed in the runner",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the register meets its own specification",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "entries": 60,
+      "missing_fields": {},
+      "runs_without_fingerprint": [
+       "H-001",
+       "H-002",
+       "H-003",
+       "H-004",
+       "H-005",
+       "UP-01d"
+      ],
+      "deleted_entries": [],
+      "superseded_not_revised": [
+       "H-017"
+      ]
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "from": "UNPROVEN",
+     "to": "REJECTED",
+     "reason": "run outcome FAIL"
+    }
+   ]
+  },
+  "CX-015": {
+   "id": "CX-015",
+   "origin": "19 Nov audit: on sunspots the block null rejects (p = 0.005) where the iid null does not (p = 0.885)",
+   "hypothesis": "With block length 24 the block null keeps the false-positive rate at or below 5 of 40 on smooth AR(1) noise (phi = 0.9, n = 300) with no cycle",
+   "scope": "40 generated series, 99 surrogates",
+   "falsification": "more than 5 of 40 at p <= 0.05",
+   "test": "t_CX015",
+   "data": "generated",
+   "criterion": "<= 5 of 40",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if rejected, the block null is miscalibrated on smooth series and its sunspot result is not evidence of a cycle",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:51:14+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "false_positives_of_40": 2,
+      "phi": 0.9,
+      "block_len": 24
+     },
+     "code_sha": {
+      "stp": "de49410b5a58a512",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:51:14+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CX-016": {
+   "id": "CX-016",
+   "origin": "19 Nov audit: the guide prints a Williams schedule that no code generated",
+   "hypothesis": "construct_x.williams_schedule(6) is a Latin square covering all 30 ordered transitions once, equals the guide's printed table, and the construction balances carryover for every even n from 2 to 12",
+   "scope": "n = 2..12 even",
+   "falsification": "any check fails",
+   "test": "t_CX016",
+   "data": "none",
+   "criterion": "all checks pass",
+   "blinding": "NOT BLIND: the guide's table was verified by hand before registration",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the Six-Treatment Williams Crossover Schedule becomes IMPLEMENTED",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "latin": true,
+      "ordered_transitions": 30,
+      "matches_guide_table": true,
+      "even_n_2_to_12": true
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:50:17+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CX-017": {
+   "id": "CX-017",
+   "origin": "review 2a55c661 section 4D, applied at the 19 Nov audit",
+   "hypothesis": "The new periodicity interpretation reads supported on Mauna Loa CO2, unsupported on sunspots and unsupported on the first 400 digits of pi (iid null)",
+   "scope": "three real or reference series",
+   "falsification": "any other reading",
+   "test": "t_CX017",
+   "data": "records/data/ (co2, sunspots); pi digits",
+   "criterion": "supported / unsupported / unsupported",
+   "blinding": "NOT BLIND: p values of all three known from H-006b, H-006c, H-006d",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the Temporal Engine reports a conservative verdict alongside its numbers",
+   "supersedes": null,
+   "date": "2026-11-19T00:49:54+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:18+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "co2": {
+       "p": 0.005,
+       "base": 12,
+       "base_status": "common divisor",
+       "interp": "supported"
+      },
+      "sunspots": {
+       "p": 0.885,
+       "base": 11,
+       "base_status": "fallback: best lag (no family member divides all)",
+       "interp": "unsupported"
+      },
+      "pi": {
+       "p": 0.45,
+       "base": 17,
+       "base_status": "fallback: best lag (no family member divides all)",
+       "interp": "unsupported"
+      }
+     },
+     "code_sha": {
+      "stp": "a0aeeff1b3a33ca7",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": "d0529e3c0a7c355d"
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:04+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "history kept from 19 Nov 2026; earlier transitions are recorded in runs"
+    },
+    {
+     "time": "2026-11-19T00:50:18+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CX-009-R1": {
+   "id": "CX-009-R1",
+   "origin": "CX-009 rejected: six legacy runs (the CA-08 first runs of H-001 to H-005 and the proof record UP-01d) predate the runner and carry no fingerprint; and 'superseded implies REVISED' was a wrong criterion (H-017 is superseded by a refinement after a genuine failure and is rightly REJECTED)",
+   "hypothesis": "Every entry carries the CA-08 fields and a status history; every run made by the runner carries a code fingerprint (the six legacy runs are the only exceptions); no entry has been deleted; and the REVISED entries H-004, UP-04b and CX-010 keep REVISED after rerun",
+   "scope": "records/stp/registry.json",
+   "falsification": "any check fails",
+   "test": "t_CX009R1",
+   "data": "records/stp/registry.json",
+   "criterion": "all four checks clean",
+   "blinding": "NOT BLIND: written after CX-009 failed",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the register meets its specification with its legacy exceptions named",
+   "supersedes": "CX-009",
+   "date": "2026-11-19T00:50:47+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:50:47+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "entries": 61,
+      "missing_fields": {},
+      "unfingerprinted_runs_outside_legacy": [],
+      "legacy_unfingerprinted": [
+       "H-001",
+       "H-002",
+       "H-003",
+       "H-004",
+       "H-005",
+       "UP-01d"
+      ],
+      "deleted_entries": [],
+      "revised_entries_kept": true
+     },
+     "code_sha": {
+      "stp": "de49410b5a58a512",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:50:47+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T00:50:47+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "H-023": {
+   "id": "H-023",
+   "origin": "19 Nov audit: on sunspots the block null rejects (p = 0.005) and the iid null does not (p = 0.885), while the block null is calibrated on smooth noise (CX-015)",
+   "hypothesis": "On white residuals around a trend, the kind of series the iid null generates, the Lagged-Increment Model's skill over the drift baseline is built in at 1 - sqrt(4/6) = 0.184 by the noise gains 4 and 6, so a smooth real series whose observed skill falls below that (sunspots, 0.115) cannot reach significance under the iid null",
+   "scope": "100 generated series, n = 326 (the sunspot length), slope 0.3, sd 1",
+   "falsification": "mean skill more than 0.03 from 0.184",
+   "test": "t_H023",
+   "data": "generated",
+   "criterion": "|mean skill - 0.184| <= 0.03",
+   "blinding": "blind (predicted from the operator coefficients before running)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: the iid null is biased against detection on smooth series, because its surrogates carry a built-in skill; the block null is the informative test there (CX-015), with blocks shorter than the cycle (CX-013)",
+   "supersedes": null,
+   "date": "2026-11-19T00:52:02+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T00:52:02+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "mean_skill_on_white_noise": 0.1761,
+      "predicted": 0.1835,
+      "sunspot_observed_skill": 0.115
+     },
+     "code_sha": {
+      "stp": "e7e1e7695fa346df",
+      "construct_x": "c24ba23d29a2644c"
+     },
+     "data_sha": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T00:52:02+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T00:52:02+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CAP-01": {
+   "id": "CAP-01",
+   "origin": "capability test 1 (19 Nov 2026): orbit addressing at any depth",
+   "hypothesis": "The Complete Orbit Signature names orbits without walking them: on 4,000 state pairs at depth 3^7 (random, same-orbit by construction, and same-valuation) Lambda agrees with orbit membership found by walking in every case; and 10,000 states at depth 3^100, with valuations 0, 5, 40, 77 and 99, are classified in under 5 seconds, each label unchanged after 10^6 + 7 steps",
+   "scope": "(Z/3^7)^2 and (Z/3^100)^2",
+   "falsification": "any disagreement, a slow classification, a label that changes, or a valuation lost",
+   "test": "t_CAP01",
+   "data": "generated (seed 101)",
+   "criterion": "0 disagreements; < 5 s; labels invariant; valuations [0, 5, 40, 77, 99] recovered",
+   "blinding": "blind (the depth cap at r = 30 in 2.3.1 was fixed before registration)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "orbit classification becomes an O(depth) computation at any depth, where it was an enumeration to 3^6",
+   "supersedes": null,
+   "date": "2026-11-19T02:08:10+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:21+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "pairs_checked_at_3^7": 4000,
+      "same_orbit_pairs": 1005,
+      "disagreements": 0,
+      "states_classified_at_3^100": 10000,
+      "seconds": 0.285,
+      "valuations_seen": [
+       0,
+       1,
+       2,
+       3,
+       5,
+       6,
+       7,
+       8,
+       9,
+       40,
+       41,
+       42,
+       43,
+       77,
+       78,
+       79,
+       80,
+       99,
+       100
+      ],
+      "invariant_after_10^6_steps": true
+     },
+     "code_sha": {
+      "stp": "1e15c0a897ffd3d7",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "REVISED",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:10+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:21+00:00",
+     "from": "UNPROVEN",
+     "to": "REJECTED",
+     "reason": "run outcome FAIL"
+    },
+    {
+     "time": "2026-11-19T02:08:51+00:00",
+     "from": "REJECTED",
+     "to": "REVISED",
+     "reason": "test-design defect in the valuation clause; superseded by CAP-01-R1"
+    }
+   ]
+  },
+  "CAP-02": {
+   "id": "CAP-02",
+   "origin": "capability test 2: balanced comparison of 27 Navigators",
+   "hypothesis": "The 13-round schedule compares all 351 pairs of 27 Navigators exactly once, where no random schedule of the same size does (200 tried); and from scheduled pairwise disagreement it identifies all three planted biased Navigators in at least 90% of 300 trials, more often than a random schedule of the same size",
+   "scope": "27 simulated Navigators, 40 items, bias 1.2 sd",
+   "falsification": "coverage below 351, a random schedule reaching 351, recovery below 0.9 or not above the random schedule's",
+   "test": "t_CAP02",
+   "data": "generated (seed 202)",
+   "criterion": "351; random < 351; recovery >= 0.9 and > random",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "inter-Navigator agreement can be measured completely and evenly, so a biased reader shows",
+   "supersedes": null,
+   "date": "2026-11-19T02:08:10+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:27+00:00",
+     "run_state": "RAN",
+     "outcome": "FAIL",
+     "result": {
+      "steiner_pairs_covered": 351,
+      "random_schedule_pairs_covered_mean": 227.1,
+      "random_schedule_pairs_covered_max": 241,
+      "steiner_recovers_all_3_biased": 0.893,
+      "random_schedule_recovers_all_3_biased": 0.81
+     },
+     "code_sha": {
+      "stp": "1e15c0a897ffd3d7",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "REJECTED",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:10+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:27+00:00",
+     "from": "UNPROVEN",
+     "to": "REJECTED",
+     "reason": "run outcome FAIL"
+    }
+   ]
+  },
+  "CAP-03": {
+   "id": "CAP-03",
+   "origin": "capability test 3: independent support in comparison",
+   "hypothesis": "Under uniform draws of six distinct values from 1 to 49 for Y and X, at least 10% of the Classic pooled flags (4 of 6) rest on references reused by more than one observation, so one-to-one matching withdraws them",
+   "scope": "100,000 draws",
+   "falsification": "share below 10%",
+   "test": "t_CAP03",
+   "data": "generated (seed 303)",
+   "criterion": "share of pooled flags not met by matching >= 0.10",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the Construct can tell a flag carried by independent support from one carried by a reused reference",
+   "supersedes": null,
+   "date": "2026-11-19T02:08:10+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "draws": 100000,
+      "pooled_flag_rate": 0.381,
+      "matching_flag_rate": 0.217,
+      "share_of_pooled_flags_without_independent_support": 0.4305
+     },
+     "code_sha": {
+      "stp": "1e15c0a897ffd3d7",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:10+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CAP-04": {
+   "id": "CAP-04",
+   "origin": "capability test 4: choosing a forecaster before seeing the held-out data",
+   "hypothesis": "On 300 series with a period-7 cycle, random slope 0 to 1.5 and noise sd 3, the noise-gain law read off the training part alone (LIS wins iff mean(D)^2 > var(D) for the seasonal differences D) names the held-out winner between the Lagged-Increment Model and seasonal-naive in at least 85% of series",
+   "scope": "300 generated series, n = 182, 60/40 split",
+   "falsification": "below 85%",
+   "test": "t_CAP04",
+   "data": "generated (seed 404)",
+   "criterion": ">= 0.85",
+   "blinding": "blind",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the instrument can say which rule to trust before the held-out data exist",
+   "supersedes": null,
+   "date": "2026-11-19T02:08:10+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "series": 300,
+      "law_predicts_held_out_winner": 0.94,
+      "training_error_predicts_held_out_winner": 0.933
+     },
+     "code_sha": {
+      "stp": "1e15c0a897ffd3d7",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:10+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CAP-05": {
+   "id": "CAP-05",
+   "origin": "capability test 5 = CX-018 (Navigator speculation of 19 Nov): congruence of the Navigator Synthesis at orbit level and with matching",
+   "hypothesis": "On the Congruence Register, same-orbit meetings (equal Lambda mod 9) occur at no more than 1.2 times their exact chance over the 729 residue triples, and one-to-one matching of the same-state and mirror meetings counts fewer meetings than pooling them",
+   "scope": "records/congruence/domains.txt (all registered domains)",
+   "falsification": "orbit ratio above 1.2, or matching not lower",
+   "test": "t_CAP05",
+   "data": "records/congruence/domains.txt",
+   "criterion": "observed/expected <= 1.2 and matched < pooled",
+   "blinding": "blind (not computed before registration)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: orbit-level congruence sits at chance, and matching is the part of the new mathematics that changes congruence counts",
+   "supersedes": null,
+   "date": "2026-11-19T02:08:10+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "domains": 19,
+      "pairs": 171,
+      "same_state": 4,
+      "mirror": 2,
+      "same_orbit": 40,
+      "same_orbit_beyond_state_and_mirror": 34,
+      "chance_same_orbit_per_pair": 0.2733,
+      "expected_same_orbit": 46.73,
+      "observed_over_expected": 0.856,
+      "pooled_meetings": 6,
+      "one_to_one_meetings": 4
+     },
+     "code_sha": {
+      "stp": "1e15c0a897ffd3d7",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:10+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:29+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "CAP-01-R1": {
+   "id": "CAP-01-R1",
+   "origin": "CAP-01, corrected: its valuation clause demanded exactly [0, 5, 40, 77, 99], but a state built as 3^r times a random pair has valuation at least r (exactly r only when the quotient pair is primitive)",
+   "hypothesis": "As CAP-01, with the valuation clause stated correctly: every constructed state's valuation is at least its construction exponent r, and exactly r when the quotient pair is not divisible by 3",
+   "scope": "as CAP-01",
+   "falsification": "any disagreement, a slow classification, a changed label, or a valuation below r or wrong for a primitive quotient",
+   "test": "t_CAP01R1",
+   "data": "generated (seeds 101, 7)",
+   "criterion": "0 disagreements; < 5 s; labels invariant; both valuation clauses hold",
+   "blinding": "NOT BLIND: written after CAP-01's run",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "as CAP-01",
+   "supersedes": "CAP-01",
+   "date": "2026-11-19T02:08:51+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T02:08:55+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "pairs_checked_at_3^7": 4000,
+      "same_orbit_pairs": 1005,
+      "disagreements": 0,
+      "states_classified_at_3^100": 10000,
+      "seconds": 0.331,
+      "valuations_seen": [
+       0,
+       1,
+       2,
+       3,
+       5,
+       6,
+       7,
+       8,
+       9,
+       40,
+       41,
+       42,
+       43,
+       77,
+       78,
+       79,
+       80,
+       99,
+       100
+      ],
+      "invariant_after_10^6_steps": true,
+      "valuation_at_least_construction_exponent": true,
+      "valuation_exact_when_quotient_is_primitive": true
+     },
+     "code_sha": {
+      "stp": "e8dc328d6d7192aa",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T02:08:51+00:00",
+     "from": null,
+     "to": "UNPROVEN",
+     "reason": "registered"
+    },
+    {
+     "time": "2026-11-19T02:08:55+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
+  },
+  "H-024": {
+   "id": "H-024",
+   "origin": "Strategic Synthesis (APE-497), R&D priority",
+   "hypothesis": "A full Omega42 navigation helps a reader spot hidden assumptions and contradictions in a problem better than an ordinary answer from the same AI system",
+   "scope": "30 fixed problems from at least 3 fields; the same AI model answers each problem twice, once with the protocol and once without, on the same day",
+   "falsification": "the protocol answers find no more seeded assumptions and contradictions than the plain answers (paired difference <= 0) or the difference has p > 0.05",
+   "test": "each problem carries 2 seeded hidden assumptions and 1 seeded contradiction, fixed and hashed before the run; 3 independent human raters, blind to the condition (outputs stripped of protocol format into plain prose of matched length), count the seeded items each answer surfaces; paired Wilcoxon signed-rank test over the 30 problems, one-sided",
+   "data": "NOT AVAILABLE in this session (needs the problem set and 3 independent raters)",
+   "criterion": "median paired difference > 0 and one-sided p <= 0.05, with inter-rater agreement (Krippendorff alpha) >= 0.67; otherwise INCOMPLETE",
+   "blinding": "blind (raters); the problem author does not rate",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the first controlled measure of what the protocol adds; a fail names what it does not add",
+   "supersedes": null,
+   "date": "2026-11-19T03:42:01+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T03:42:01+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (needs the problem set and 3 independent raters)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T03:42:01+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "registered with test and criterion fixed before any run (CA-08)"
+    }
+   ]
+  },
+  "H-025": {
+   "id": "H-025",
+   "origin": "Physics Initiative (APE-498), milestone",
+   "hypothesis": "The Navigator rediscovers established connections between areas of physics without hints",
+   "scope": "20 established cross-area results sealed by a physicist (for example Noether's theorem; the black-hole area law)",
+   "falsification": "fewer than 12 of 20 connections stated correctly",
+   "test": "the Navigator receives each pair of areas only; two physicists, blind to the sealed list's order, judge each stated connection correct or not; disagreements go to a third",
+   "data": "NOT AVAILABLE in this session (needs a physicist to seal the list and two blind judges)",
+   "criterion": "at least 12 of 20 judged correct",
+   "blinding": "blind (judges); the sealing physicist does not judge",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "a Navigator that cannot rediscover known results is not offered new ones",
+   "supersedes": null,
+   "date": "2026-11-19T03:44:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (needs a physicist to seal the list and two blind judges)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "registered with test and criterion fixed before any run (CA-08)"
+    }
+   ]
+  },
+  "H-026": {
+   "id": "H-026",
+   "origin": "Physics Initiative (APE-498), milestone",
+   "hypothesis": "The adversarial reviewer role finds planted errors in physics derivations",
+   "scope": "15 derivations, 10 carrying one planted error each (a sign, a dropped term, a hidden assumption), 5 clean; order randomized and sealed",
+   "falsification": "fewer than 8 of 10 planted errors flagged, or more than 2 of 5 clean derivations flagged",
+   "test": "the reviewer role reads each derivation and flags it or passes it, with the location of the error; a flag counts only at the right location",
+   "data": "NOT AVAILABLE in this session (needs the 15 derivations, prepared and sealed by a physicist)",
+   "criterion": "at least 8 of 10 planted errors flagged at their location and at most 2 of 5 clean derivations flagged",
+   "blinding": "blind (the Navigator does not know the count or positions)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "measures the critical opponent before it reviews outside work",
+   "supersedes": null,
+   "date": "2026-11-19T03:44:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (needs the 15 derivations, prepared and sealed by a physicist)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "registered with test and criterion fixed before any run (CA-08)"
+    }
+   ]
+  },
+  "H-027": {
+   "id": "H-027",
+   "origin": "Physics Initiative (APE-498), milestone",
+   "hypothesis": "The CURRENT KNOWLEDGE layer finds the core literature of a question in the foundations of physics",
+   "scope": "10 questions in foundations; for each, a physicist seals the 5 works a review article would cite",
+   "falsification": "fewer than 7 of 10 questions with at least 3 of 5 sealed works found, or any cited work that does not exist",
+   "test": "the Navigator runs the four lanes of L-503 on each question; the found works are matched to the sealed list by title and year",
+   "data": "NOT AVAILABLE in this session (needs a physicist to seal the lists, and web retrieval)",
+   "criterion": "at least 3 of 5 found for at least 7 of 10 questions, and every cited work exists and was opened",
+   "blinding": "blind (the sealed lists are not shown)",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "measures retrieval before the researched reach is trusted on physics",
+   "supersedes": null,
+   "date": "2026-11-19T03:44:49+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "run_state": "NOT RUNNABLE",
+     "outcome": null,
+     "result": "NOT AVAILABLE in this session (needs a physicist to seal the lists, and web retrieval)",
+     "code_sha": null,
+     "data_sha": null
+    }
+   ],
+   "status": "TESTABLE",
+   "status_history": [
+    {
+     "time": "2026-11-19T03:44:49+00:00",
+     "from": null,
+     "to": "TESTABLE",
+     "reason": "registered with test and criterion fixed before any run (CA-08)"
+    }
+   ]
+  }
+ }
+}

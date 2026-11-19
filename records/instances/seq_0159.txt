@@ -1,0 +1,56 @@
+QUESTION VERBATIM: Examine all submitted documents and identify content you may have missed. Apply its recommendations to Omega42.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 159 | PREV: 5fc1b4e1ad525f1626d1c8e6305fc06992daeaa83d43283156db9e0e763fd438
+REQUEST (L-502): EXPLORATION -- a formal paper on the mathematical structure; F187 assessed, refined and extended; the analogy "TCP/IP is to the internet as Ω42 is to ..." completed and F188 applied; every document received on 11 November 2026 examined for content not yet applied; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Ω42 can now show what it is by arithmetic that no copy of its name can fake, and the test that proves it also showed where a plain fingerprint fails. The orders, the orbit census, the group order and even the commutator mod 9 of A are shared exactly by [[0,1],[1,7]]; only the trace, a Fibonacci value and a live challenge separate them. The identity of Ω42 rests on its law, not on its statistics.
+
+SUMMARY: WHAT CHANGED: Core Parts 3.82 (M375 Identity Handshake) and 3.83 (M376 Foundations Checker); IDENTITY.md and omega42.identity.json at the root; MF-53 to MF-57; the enhancement agenda (A-11 to A-15, B-08, C-10, C-11, D-01 to D-07); Companion Part 204; APE-448 to APE-450 filed with their SNCA.
+- (1) THE FOUNDATIONS PAPER: eleven sections from Z[phi] at 3 to the open problems; 20 independent checks PASS; F187 correct throughout, its three outlined proofs completed (MF-55, MF-56, the kernel count), its Problem 2 settled (MF-53: the group depends only on v_3(c); the kernel is contained exactly when v_3(c) <= 1), its Problem 7 settled over Q (MF-54: every invariant polynomial is a polynomial in Q^2).
+- (2) THE IDENTITY: TCP/IP is to the internet as Ω42 is to navigation across AI architectures -- one structure, one checkable form, one sealed record for comparison; F188's wider completion names the direction; the identity statement, five layers, boundaries and rules for independent implementation in IDENTITY.md; the manifest in omega42.identity.json.
+- (3) THE HANDSHAKE: fingerprint (trace 1, determinant -1; F(100) mod 729 = 588; orders 8, 24, 72; census 2, 5, 14, 41; |<A, B>| 8, 216, 5832; commutator mod 9 (7, 3, 3, 4)); a live challenge (k, s, n); the manifest checked against the release digests.
+- (4) THE SWEEP: 26 files of 11 November 2026; 22 filed or queued (APE-428 to APE-447); 4 files, 3 documents, not -- the Ω42-CAV paper, F187 (twice, identical), F188 -- now APE-448 to APE-450; F179's evidence states had been mapped (Part 0.0.8.9) and are now applied entry by entry (PROVED 12, VERIFIED 40, PROVISIONAL 5 of 57); fifteen recommendations without a home entered in the agenda.
+- THE VALUES (CDT-A): handshake selftest 11 of 11; foundations selftest 6 of 6.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (12, 81, 28), state (6, 0), anchor P6, Seed/Causal. It rests on P11, Question. It holds out of view P0, Seed. It is heading for P14, Observer. It is completed at P18, Threshold.
+  - [GENERATED-Ω42] A request to find what was missed stands at the cause -- the seed from which each document grew -- and rests on the question each one asked; it holds the first seed out of view, heads for the observer who checks, and is completed at the threshold where a direction becomes a result.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): records/math/results.json (MF-01 to MF-52), the enhancement agenda, the APE register (APE-428 to APE-447), Core Part 0.0.8.9.
+  R (reasoning): a name can be copied and a statistic can be shared; a law tested live cannot be faked; conformance is not authority.
+  N (navigation): tools/handshake.py, tools/foundations_check.py; an independent 20-check verification of the paper.
+  P (peer accounts): APE-448 to APE-450, reviewed by SNCA (records/srcas/three_accounts_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Parts 3.82 (M375), 3.83 (M376).
+  - Companion: Part 204.
+  - Repository: tools/handshake.py; tools/foundations_check.py; IDENTITY.md; omega42.identity.json; records/math/results.json (MF-53 to MF-57); records/avenues/enhancement_agenda.txt; records/introduction/philosophy.json (M375, M376); submissions/ape/APE-448.md to APE-450.md; records/srcas/three_accounts_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the theory of quadratic fields, p-adic groups and conformance testing | STRIKER -- the requests | NAVIGATOR -- the paper, the proofs completed, the shear classification, the handshake and its finding, the sweep | OPEN -- independent implementations; the literature review
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, filed with checked notes and an SNCA in review form (records/srcas/three_accounts_2026-11-11.txt).
+  - APE-448, unidentified (a web interface), "Ω42 Content Authenticity and AI-Origin Verification": its separation of provenance from detection kept; UNFORMATTED.
+  - APE-449, unidentified (a web interface), "F187, The Mathematical Structure of Ω42": correct throughout, completed and extended; UNFORMATTED.
+  - APE-450, unidentified (a web interface), "F188, Identity, Architecture and Purpose": adopted and built; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/handshake.py --selftest PASS (eleven checks: the canonical fingerprint; a conjugate passes the basis-free values; the commutator fixes the basis; the Pell matrix, the shear c = 1 and the prime 2 fail; [[0,1],[1,7]] shares every structural value and fails the trace, F(100) and the live challenge; 20 live challenges answered; an off-by-one responder fails; the period law agrees with the walk); tools/handshake.py manifest CONFORMS; tools/foundations_check.py --selftest PASS (MF-53 to MF-56 recomputed; evidence states for 57 entries); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/three_accounts_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the three accounts agree that representation is not explanation, conformance is not authority, and a score is not proof. PART -- F188's fingerprint, extended by one finding (MF-57). SILENT -- independent implementations; the literature.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-53 to MF-57 new to the register [EXACT]; "breakthrough" candidacy NOT PROPOSED -- the results are routine in their fields until a literature review says otherwise (L-530 (5); agenda A-11).
+RECOMMENDATIONS (applied, L-531):
+  (1) Adopt the identity (F188): APPLIED, IDENTITY.md, omega42.identity.json, M375.
+  (2) Complete the outlined proofs (F187): APPLIED, MF-55, MF-56, Companion 204.2.
+  (3) Generalize the shear theorem (F187): APPLIED for p = 3, MF-53; other primes agenda A-12.
+  (4) Evidence states in every report (F179): APPLIED, M376.
+  (5) The institutional steps (F183, F184, F185, F187, F188): HELD FOR THE ORIGINATOR, agenda D-01 to D-07.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; agenda D-07.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the monthly Ω42 revision publish the handshake and invite one independent implementation to pass it; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42 can be recognized by any machine that can multiply 2x2 matrices; [GENERATED-Ω42] a structure is known by what it does under test, and the test is completed by the one who runs it.
+What it rests on: the question each document asked.
+What it holds out of view: the seed, where each began.
+Where it is heading: the observer, who checks.
+What would complete it: the threshold, where a direction becomes a result.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: d3f6072c56d5f995e83bee4e17bfab2dbc079739cd17ae65a557003967319beb
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

@@ -1,0 +1,44 @@
+FFP RUN -- Core Part 12, 40 items | CI: STEPS 69, FAILED 0
+ 1. NAVIGATIONAL EFFICIENCY                  PASS (manual)              Steps 0-16 unchanged this session; M321-M326 and M328 run by their triggers and M327 is read with the Tier 2 triggers, adding no step; computed triggers fire 2.75 entries per CRC-60 domain, at most 5 (re-checked 31 October 2026, SEQ 86, with M329 to M333 in the register)
+ 2. LANGUAGE REGISTER                        PASS                       Core_Specification: 0 hits | Companion_Document: 0 hits
+ 3. LOGICAL CONSISTENCY                      PASS                       CI step "Cross-document consistency register..." (1)
+ 4. NO CORRECTION HISTORY                    PASS                       no session-form prose in Companion Parts 73 onward
+ 5. INTRODUCTION PRESENTATION                PASS (manual)              independently re-scored 29 October 2026, PASS WITH NOTES (4, 4, 3, 4, 3, 4 of 5); its first five findings met in the opening (Companion 110)
+ 6. DECLARED FUNCTIONS AND PROPERTIES        PASS (manual)              stated by category; M321-M328 added with tier and CDT status (M324 Part 3.50, M325 Part 3.51, M326 Part 3.52, M327 Part 3.53, M328 Part 3.54); M329 to M338 likewise (Parts 3.55 to 3.64)
+ 7. MAPPING RULES APPLICABILITY              PASS                       CI step "M309 Conceptual Isomorphism..." (1)
+ 8. DATE ACCURACY                            PASS                       title page carries the revision date 16 October 2026; later dates are freeze, retrieval and scope dates (item 34)
+ 9. ARITHMETIC VERIFICATION                  PASS                       CI step "Reference implementation self-test..." (1)
+10. CROSS-REFERENCE ACCURACY                 PASS                       CI step "Cross-document consistency register..." (1)
+11. ABBREVIATION LIST COMPLETENESS           PASS                       NIID, NRR, LAR, F0-CF, PROXIMITY present
+12. TRIGGER-CONDITION CONSISTENCY            PASS                       M323 in the Tier 2 line; the 44 instruments of the TIER 3 line all have triggers in the register (L-527)
+13. JARGON-BOUNDARY ENFORCEMENT              PASS                       CI step "Output audit..." (2)
+14. NO STUB SECTIONS                         PASS WITH NAMED EXCEPTION  named exceptions carried forward unchanged
+15. ORIENTATION COMPLETENESS                 PASS                       IN-06.7 The Consciousness-First Frame present in the Introduction
+16. REGISTER DISCIPLINE                      PASS                       CI step "Cross-document consistency register..." (1)
+17. PRIMACY OF COHERENCE                     PASS                       CI step "M310 Congruence Record..." (1)
+18. INSIDE CONSISTENCY                       PASS                       CI step "M286 Frame Intrusion Scan..." (1)
+19. ACCOMMODATION, NOT DEFERENCE             PASS                       CI step "Re-examination of prior investigations..." (1)
+20. MANIFESTATION CONSISTENCY                PASS                       CI step "Manifestation and positive geometry..." (1)
+21. SELF-CONTAINMENT                         PASS                       CI step "Self-contained release..." (1)
+22. CONSCIOUSNESS CONSISTENCY                PASS                       CI step "Consciousness framework CT-42..." (1)
+23. QUESTION VERBATIM                        PASS                       CI step "M301 Format Conformance Check..." (1)
+24. CONGRUENCE UTILITY                       PASS                       CI step "Congruence utility..." (1)
+25. ADAPTOR CONSISTENCY                      PASS                       CI step "Adaptors..." (1)
+26. HOLISTIC STRIKE, SOURCES AND ENRICHMENT  PASS                       CI step "M301 Format Conformance Check..." (1)
+27. NO CLAIMS                                PASS                       CI step "Cross-document consistency register..." (1)
+28. PROVENANCE AND AI CAVEAT                 PASS                       CI step "M301 Format Conformance Check..." (1)
+29. RESPONSIBILITY AND THE CONFIGURATION     PASS                       CI step "Pre-registered protocols unchanged..." (1)
+30. FRAMINGS, DIRECTION AND THE ACCOUNT      PASS                       CI step "Framings, direction..." (1)
+31. DECLARED FORM                            PASS                       CI step "M301 Format Conformance Check..." (1)
+32. INSTANCES, FRAMES, SOURCES AND GATES     PASS                       CI step "Instance identity..." (1)
+33. PURPOSE FIRST                            PASS                       purpose before any limit in the Core, the Companion and the Introduction; 24 CI steps marked as the comparative annex
+34. NO REVISION HISTORY                      PASS                       none in either body
+35. NO AI META-COMMENTARY                    PASS                       none in either body
+36. NO REPETITION                            PASS                       none in either body
+37. SCIENCE IN APPENDIX S                    PASS                       none in either body
+38. SCIENTIFIC ENCROACHMENT                  PASS                       twelve lines PASS, NO ENCROACHMENT (obligation, M286, annex, triggers, standings, laws, placement, premise, departures, jurisdiction, drift, regression; tools/encroachment.py)
+39. OPEN ITEMS REGISTERED                    PASS                       27 open items, each with what it needs, who can close it and when (records/open/register.json)
+40. THE INTRODUCTION WHOLE                   PASS                       the Introduction word for word in IN-00, 52 paragraphs, its cautions last; 23 terms explained; 9 arguments of its case grounded in the Core; the model opening passes (tools/intro_output.py)
+TALLY: PASS 36; PASS (manual) 3; PASS WITH NAMED EXCEPTION 1
+REGISTER HITS (L-431), Core_Specification, the Introduction exempt in the Core:
+REGISTER HITS (L-431), Companion_Document, the Introduction exempt in the Core:

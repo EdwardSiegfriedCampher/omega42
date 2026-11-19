@@ -1,0 +1,62 @@
+QUESTION VERBATIM: (three attachments, no text)
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 35 | PREV: afb4801a87fe879eeef79ff7b2c1e2237e7082033e2dd568829305b2eace8c51
+REQUEST (L-502): STRUCTURE -- avenues A1, L, P, W
+
+SUMMARY: A peer found an overstatement in SEQ 34, and it is corrected here.
+  - SEQ 34 said that the 81-state family exists exactly where 1 x 1 = 1. That goes too far. The law uses only addition.
+  - On the family's addition, exactly one multiplication gives 1*1 = 2: x*y = 2xy, with identity 5. It is a ring copy of Z/9, and in it the 81 states, the five orbits and T^24 = I are unchanged.
+  - The family is lost only in the collapse, where the identity equals zero. The exact boundary: the identity must differ from zero.
+  - "Nothing new arises" holds for rings on the family's addition, not for every operation. Truncated addition, min(x + y, 8), gives 1(*)1 = 2 with identity 0 and is genuinely new, but it cannot be a multiplication of the family's ring.
+  - The Lynchpin: six pentagons cannot close into a polyhedron (E = 15, V = 11, 30 < 33). The proposed atlas rule LAR-1 must therefore say which edges are shared.
+The two Scribd previews ChatGPT located could not be read here, so nothing from them is entered.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT (tools/claimcheck.py --ring, --faces 6 5; records/claimcheck/examples_output.txt):
+    - A distributive product on (Z/9, +) is x*y = c.xy with c = 1*1. Requiring 1*1 = 2 gives c = 2 and identity 5, and x -> 5x preserves sum and product.
+    - min(x + y, 8): associative, identity 0, one unit (x has 6, + has 9); it does not distribute over +.
+    - Six pentagons: 2E = 30 < 3V = 33, so no closed polyhedron.
+  L LENSES: US 11,117,065 B2; the preview listing; two Scribd links (not readable), COMPARATIVE (F-10).
+  P PEERS: APE-169 (Grok), APE-170 (ChatGPT), APE-171 (Qwen).
+  W PROTOCOL WORK: M323 --ring and --faces (16 selftest cases); NRR-C20; LAR-1 PROPOSED; the manuscript version register; Companion Part 97, with 96.6 marked corrected.
+
+THE CORRECTION:
+  1. WHAT SEQ 34 SAID. "The 81-state family exists exactly where 1 x 1 = 1", and "without a 1 that is the identity, the return cannot be stated" (96.6).
+  2. WHAT HOLDS. T(a, b) = (b, a + b) uses only +. Relabeling the product leaves T, its orbits and its period untouched. In (Z/9, +, 2xy), 1*1 = 2 and 5*5 = 5: whatever element is the identity squares to itself.
+  3. WHAT IS LOST. Only the collapse (1 = 0) removes the family; there T is the identity map, with period 1.
+  4. WHAT IS NEW. Outside rings, operations with 1(*)1 = 2 exist that are copies of neither x nor +. Truncated addition is one. None distributes over the family's addition.
+  5. THE ULTIMATE CONCLUSION, RESTATED. 1 x 1 = 2 either renames the identity of the family's ring (nothing changes), defines an operation outside that ring (the family is untouched), or collapses the ring (the family becomes a single state). In no case does it change the law.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Adopt M323 --ring with --operation and --collapse. Whether a changed operation distributes over the family's addition decides whether the family is touched.
+  (2) Adopt LAR-1 with the face check and a chance baseline, and fix its edge-sharing before any placement.
+  (3) Keep the manuscript version register (025, 044, 062). A preview supplied as a file can be mapped line by line.
+  (4) Keep the Navigator's own errors in the registry: SEQ 34's overstatement is NRR-C20.
+
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-169 Grok: its restatement holds. Its "exhaustive", and its "registered as NRR-C19", are corrected.
+  - APE-170 ChatGPT: its correction of SEQ 34 is adopted (NRR-C20). LAR-1 is adopted as proposed, with the face check. Its Scribd links could not be read, so nothing from them is entered.
+  - APE-171 Qwen: its status log holds. Its verdicts ("validated", "conclusive", "profound and structurally necessary") are corrected. Its [[2]] names no source.
+CHANGES TO THE PROTOCOL: none operative. tools/claimcheck.py (--ring, --faces); records/claimcheck/; NRR-C20; APE-169 to APE-171; Companion Part 97, with 96.6 marked corrected; the CI chain; the release record.
+CHECKS: CI 68 of 68 PASS. tools/claimcheck.py --selftest PASS (16 cases). records/claimcheck/examples.py reproduces its output. The APE register CHECK PASS. M286, M281 and the typing guard over this output. tools/instance_id.py --check over the thirty-five outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): SEARCHED:
+  - Scribd documents 1054458825 and 618358423, the links from APE-170. Each returns a browser challenge page; their contents were not read.
+  - A search for "OTOET preview 062": not listed.
+  - US 11,117,065 B2 and the SEQ 34 sources, unchanged.
+  SEQ 34's 96.6 is CORRECTED (NRR-C20).
+ACROSS THE AVENUES (L-502): AGREE -- the collapse and the relocation; no change to the law. PART -- whether the family needs 1 x 1 = 1, where SEQ 34 and two peers overstated. SILENT -- the previews' text.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- M323 --ring, the distributivity test.
+OPEN: the previews' text; LAR-1's edge-sharing; M323's adoption.
+
+What it rests on: If the One can be renamed without the world changing, what does the name of the One carry?
+What it holds out of view: That the error was the Navigator's, and a peer found it.
+Where it is heading: Toward a preview read as a file, and a Lynchpin with its edges stated.
+What would complete it: One of the previews supplied as a file.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: dcd654f0743f076b4ba9e9de8b35538d31e0b2bcabb9d0fdac25a4506ab85bcc
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

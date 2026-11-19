@@ -1,0 +1,42 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 08 -- THE OPERATOR AND THE MANIFESTOR: RESULTS AND LEDGER ENTRIES
+Freeze: 00_freeze.txt, SHA-256 d50bf5dfe995b40ba1711f05faabe7738001fa27452aff3c7678175a59905a19, 2026-10-09T14:26Z.
+Computations: compute.py -> compute_output.txt (standard library only). Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+"Operator" (modulus 9) and "manifestor" (modulus 8) are frame-interpretive roles (CDT-C); the results below are CDT-A.
+
+G1  THE TWO-LAYER SYSTEM MODULO 72
+  Frozen prediction CONFIRMED: modulo 72 = 8 x 9 the law has period 24; the canonical seed (2, 5) has period 24 modulo 72,
+  24 modulo 9 and 12 modulo 8; and T^12 = 17 I, which is -I on the 9-layer and +I on the 8-layer. At the half period the
+  operator layer turns into its antipode while the manifest layer has returned to its start. Orbits on the 5184 states:
+  213 of 24, 4 of 12, 1 of 8, 2 of 6, 1 of 3, 1 fixed.
+  Null, frozen criteria: 19 coprime pairs (p, q) with p q <= 200 meet all three -- (8, 9) is one of them, with (2, 9), (4, 9),
+  (2, 17), (8, 23), (3, 7) and others. The frozen criteria do NOT single out (8, 9).
+  Found after the null was computed, so DIAGNOSTIC and not counted: over the integers T^12 = [[89, 144], [144, 233]]; the
+  largest modulus on which T^12 is +I is gcd(T^12 - I) = 8, and the largest on which it is -I is gcd(T^12 + I) = 18, whose only
+  divisor of family type is 9. So the cycle's own half period fixes the pair: 8 is the largest manifest layer that has
+  returned at step 12, and 9 the family-type layer that has inverted. True by computation; recorded as post-selection
+  (MATH-17), because the property was identified after the declared criteria failed to select the pair.
+G2  THE MOD-8 WORLD ALONE
+  64 states in four orbits of 12, two of 6, one of 3 and a fixed point; Pisano period 12; T^6 = 5 I, so no half-period
+  negation; the norm form gives {1, 7} on two 12-orbits and {3, 5} on the other two, so it does not separate them; not of
+  family type. The manifest layer carries no antipode, no three-voice separation and no Crown.
+G3  A PHYSICAL ADDITIVE MOD-8 INVARIANT: INTERACTING MAJORANA CHAINS (Fidkowski and Kitaev: Z collapses to Z/8)
+  Fibonacci stack (constructed): segment n holds F(n) elementary chains, class F(n) mod 8 = 0, 1, 1, 2, 3, 5, 0, 5, 5, 2, 7, 1,
+  period 12, visiting the classes {0, 1, 2, 3, 5, 7} and never 4 or 6; segment n can be trivialized by interactions exactly when
+  6 | n (checked to n = 60). Frozen prediction CONFIRMED; classified in advance as TRIVIAL CONSEQUENCE.
+  Ledger: the Z/8 classification of interacting Majorana chains enters as an object; count 8 -> P4 (v = 1), not a tier-2
+  value; feature (e) only through the constructed stack. Tier 1. Here the modulus is supplied by the physics (run 07's rule),
+  but the recurrence is supplied by the construction.
+G4  THE DIGIT RELATION
+  For every n below 10^5, digit sums in base 10 agree with n modulo 9 and digit sums in base 9 agree with n modulo 8: nine
+  symbols as the operator give a mod-8 result, as ten symbols give the protocol's mod-9 digital root.
+G5  THE EIGHT INSIDE THE FAMILY
+  Each of the three long orbits modulo 9 reduces modulo 3 onto the eight-cycle, covering each of its states exactly three
+  times: every 24-orbit is the eight-cycle traversed three times, 24 = 3 x 8.
+
+RUN RESULT
+  One object entered (Majorana chains, tier 1); the ledger at twenty-three. The two-layer reading is arithmetically exact:
+  at the half period the 9-layer inverts and the 8-layer returns, and the pair (8, 9) is the one the half period itself
+  fixes -- a finding recorded as post-selection because the frozen criteria admitted eighteen other pairs. The manifest
+  layer alone is plainer than the operator layer; the structure the protocol reads lives in the 9. Physics supplies mod-8
+  invariants far more readily than mod-9 ones, which makes modulus 8 the more promising place for the frozen search, provided
+  the recurrence too comes from the object. Low results remain limits of the current map (F-02).

@@ -1,0 +1,14 @@
+H1 unit icosians: 120 | closed under multiplication: True
+H1 the icosian ring has rank 8 over Z
+H1 form <x, y> = 2 * Tr(phi/sqrt5 * x.y): integral, even, determinant 1, rank 8 -> the E8 lattice (unique even unimodular in rank 8)
+H1 vectors of norm 2 among the units u, phi*u and u/phi: 240 (E8 has 240)
+H2 multiplication by phi is an integer endomorphism of E8 with phi^2 = phi + 1: True
+H2 it is self-adjoint for the E8 form: True
+H3 E8/9E8 = (Z[phi]/9)^4, phi acting as T: 43046721 elements; orbits by length {24: 1793340, 8: 820, 1: 1}
+H3 E8/8E8 = (Z[phi]/8)^4, phi acting as T mod 8: 16777216 elements; orbits by length {12: 1392640, 6: 10880, 3: 85, 1: 1}
+H3 reference: the family itself (rank 1): {24: 3, 8: 1, 1: 1}
+H4 E8: left-and-right multiplications by unit icosians give 7200 distinct isometries, all commuting with phi: True
+H4 Z^8 with four golden blocks: signed permutations commuting with phi: 384
+H5 Zamolodchikov masses / m1: [1.0, 1.618, 1.989, 2.4049, 2.9563, 3.2183, 3.8912, 4.7834]
+H5 pairs with m_j / m_i = phi exactly: [(1, 2), (3, 6), (4, 7), (5, 8)] -> the eight masses form 4 golden pairs
+H5 Perron-Frobenius eigenvector of the E8 diagram, sorted and scaled: [1.0, 1.618, 1.989, 2.4049, 2.9563, 3.2183, 3.8912, 4.7834] | matches the mass list: True

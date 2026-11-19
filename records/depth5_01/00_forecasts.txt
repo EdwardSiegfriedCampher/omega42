@@ -1,0 +1,31 @@
+DEPTH 5, RUN 01 -- FORECASTS FROM THE DEPTH-4 CORRESPONDENCE, REGISTERED BEFORE ANY COMPUTATION (Core L-550 (7), Part 0.14.5)
+Registered by claude-opus-5-5 (Anthropic; serving model may differ) for the Originator, 7 November 2026. Nothing below has
+been computed for this run when this file is frozen; its SHA-256 and the UTC time are recorded in 01_freeze.txt before
+compute.py is written. The correspondence is that of run 11 and CERT-0006: the golden form q(a, b) = (a^2 + ab - b^2)/9 on
+(Z/9)^2 is the anyon theory SU(9)_1 x SU(9)_1, with T a time-reversal symmetry. Depth 5 asks that the correspondence predict a
+property not known when the mapping was fixed, and that the property then be observed. Each forecast is classified now, before
+the look: TRIVIAL CONSEQUENCE (it follows at once from what run 11 computed), CONSEQUENCE (it follows with a further step), or
+NON-TRIVIAL (it is about objects or invariants run 11 did not touch). Depth 5 is counted only on NON-TRIVIAL forecasts that hold.
+
+F-01 [TRIVIAL CONSEQUENCE] In the theory's own labels (a, b), spins h(a) + h(b) with h(a) = a(9 - a)/18, the bosons of
+     SU(9)_1 x SU(9)_1 are exactly the nine anyons (3i, 3j) -- the Crown of each factor -- and they form its only Lagrangian
+     subgroup, so the theory has exactly one gapped boundary.
+F-02 [CONSEQUENCE] Condensing that subgroup gives the even unimodular lattice of rank 16 that splits as E8 + E8 -- its 480 roots
+     fall into two orthogonal systems of 240 -- and not D16+, whose 480 roots form one irreducible system.
+F-03 [TRIVIAL CONSEQUENCE] Every time-reversal symmetry carrying T preserves that subgroup: the one gapped boundary is
+     time-reversal symmetric.
+F-04 [NON-TRIVIAL] The tower: for every depth m >= 1, the golden form (a^2 + ab - b^2)/3^m on (Z/3^m)^2 is a nondegenerate
+     anyon theory isometric to SU(3^m)_1 x SU(3^m)_1, and T is a time-reversal symmetry of it whose order is the Pisano period
+     of 3^m, 8 x 3^(m-1). Observed for m = 1, 2, 3, 4 by exhaustive search. Chance for one m, guessing between the two
+     classes of nondegenerate binary forms modulo an odd prime power: 1/2; for four values of m: 1/16 (m = 2 is known, so 1/8
+     for the three new values).
+F-05 [NON-TRIVIAL] Gapped boundaries along the tower: the golden theory at depth m has a Lagrangian subgroup exactly when m is
+     even -- none at m = 1 and m = 3, at least one at m = 2 and m = 4 -- so the family's own depth (m = 2) is the first that can
+     end on a gapped boundary. Observed for m = 1 to 4 by counting every isotropic subgroup of order 3^m. Chance: the parity
+     pattern of four independent yes/no values, 1/16.
+F-06 [NON-TRIVIAL] The condensates along the tower: at m = 4 the Lagrangian subgroup 9(Z/81)^2 condenses SU(81)_1 x SU(81)_1
+     to an even unimodular lattice of rank 160; forecast: it is the sum of two copies of one even unimodular lattice of rank 80
+     (the condensate of each SU(81)_1 by its subgroup of order 9), as at m = 2 it is E8 + E8. Observed by the gluing of A80 by
+     its subgroup of order 9 and the norms of its glue vectors.
+Null control: F-04 and F-05 are also computed for the decoy form a^2 + b^2 (not the golden form) at m = 1 to 4, so that what
+the golden form shares with every form of its class is told apart from what it alone shows.

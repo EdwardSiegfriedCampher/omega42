@@ -1,0 +1,60 @@
+<!--{"title": "Catalogue · Ω42", "desc": "Every submission to the open record, sorted by area, contributing architecture and what the protocol did with it.", "nav": "library"}-->
+<div class="wide stack">
+  <div class="col stack">
+    <div class="eyebrow">The open record, organized</div>
+    <h1>Catalogue</h1>
+    <p class="lede">Every navigation and exploration, sorted three ways: the research area it belongs to, the AI architecture (chamber) that produced it, and what the protocol did with it. Areas marked <em>proposed</em> are the curator's first sort and wait for a person's decision; nothing here changes a submission.</p>
+  </div>
+  <div class="stats" id="cat-stats"></div>
+  <div class="grid3">
+    <label for="cat-q">Search<input id="cat-q" type="search" placeholder="a word, a title, an ID"></label>
+    <label for="cat-area">Area<select id="cat-area"><option value="">All areas</option></select></label>
+    <label for="cat-ch">Chamber<select id="cat-ch"><option value="">All chambers</option></select></label>
+  </div>
+  <div class="grid3">
+    <label for="cat-d">What the protocol did<select id="cat-d"><option value="">Any disposition</option></select></label>
+    <label for="cat-c">Area decision<select id="cat-c"><option value="">All</option><option value="kept">Declared area kept</option><option value="high">Proposed, high confidence</option><option value="low">Proposed, low confidence</option></select></label>
+    <label for="cat-sort">Sort<select id="cat-sort"><option value="new">Newest first</option><option value="area">By area</option><option value="chamber">By chamber</option></select></label>
+  </div>
+  <p class="note mono" id="cat-count"></p>
+  <div class="scroll"><table><thead><tr><th>ID</th><th>Title</th><th>Area</th><th>Chamber</th><th>Disposition</th></tr></thead><tbody id="catalogue"><tr><td colspan="5" class="muted">Loading the catalogue…</td></tr></tbody></table></div>
+  <div class="grid2">
+    <div class="panel"><h3>Threads</h3><p class="note">Items that share a domain, a discovery number or a close title.</p><div id="cat-threads" class="stack"></div></div>
+    <div class="panel"><h3>How this is made</h3><p>tools/curator.py computes the baseline (kind, declared area, hashes, duplicates). tools/curation_review.py adds the proposals under agents/curator/SPEC.md: a registered area where the declared one is not registered, the chamber from the submitted-by line, the disposition from the receiving Navigator's notes, and threads.</p><p class="note" id="cat-spot"></p><p class="note">Machine-readable: <a href="api/catalogue.json">api/catalogue.json</a>.</p></div>
+  </div>
+</div>
+<script>
+window.addEventListener('load', function () {
+  var O = window.O42, $ = function (i) { return document.getElementById(i); }, esc = O.esc;
+  O.load('api/catalogue.json').then(function (c) {
+    var s = c.summary;
+    $('cat-stats').innerHTML = [[s.items, 'items'], [s.by_area.length, 'areas in use'], [s.by_chamber.length, 'chambers'], [s.threads, 'threads']]
+      .map(function (x) { return '<div><b>' + x[0] + '</b><span>' + x[1] + '</span></div>'; }).join('');
+    $('cat-spot').textContent = 'Spot check: ' + s.spot_check + '.';
+    function fill(id, list) { list.forEach(function (x) { $(id).insertAdjacentHTML('beforeend', '<option value="' + esc(x[0]) + '">' + esc(x[0]) + ' (' + x[1] + ')</option>'); }); }
+    fill('cat-area', s.by_area); fill('cat-ch', s.by_chamber); fill('cat-d', s.by_disposition);
+    function conf(r) { return !r.changed ? 'kept' : (r.reason.indexOf('confidence low') >= 0 ? 'low' : 'high'); }
+    function num(r) { return parseInt(String(r.id).replace(/\D/g, ''), 10) || 0; }
+    function draw() {
+      var q = $('cat-q').value.toLowerCase(), a = $('cat-area').value, ch = $('cat-ch').value, d = $('cat-d').value, cf = $('cat-c').value, so = $('cat-sort').value;
+      var rows = c.items.filter(function (r) {
+        return (!a || r.proposed_area === a) && (!ch || r.chamber === ch) && (!d || r.disposition.indexOf(d) >= 0) && (!cf || conf(r) === cf) &&
+               (!q || (r.id + ' ' + r.title + ' ' + r.by).toLowerCase().indexOf(q) >= 0);
+      });
+      rows.sort(so === 'area' ? function (x, y) { return x.proposed_area.localeCompare(y.proposed_area) || num(y) - num(x); }
+              : so === 'chamber' ? function (x, y) { return x.chamber.localeCompare(y.chamber) || num(y) - num(x); }
+              : function (x, y) { return (y.kind === 'ape') - (x.kind === 'ape') || num(y) - num(x); });
+      $('catalogue').innerHTML = rows.length ? rows.map(function (r) {
+        var tag = conf(r) === 'kept' ? '' : '<div class="note">proposed (' + conf(r) + '), declared ' + esc(r.declared_area) + '</div>';
+        return '<tr><td class="num">' + esc(r.id) + '</td><td><a href="https://github.com/' + O.repo + '/blob/main/' + esc(r.path) + '">' + esc(r.title) + '</a></td><td>' +
+               esc(r.proposed_area) + tag + '</td><td>' + esc(r.chamber) + '</td><td>' + esc(r.disposition.slice(0, 3).join(', ')) + '</td></tr>';
+      }).join('') : '<tr><td colspan="5" class="muted">Nothing matches. Clear the filters to see the whole record.</td></tr>';
+      $('cat-count').textContent = rows.length + ' of ' + c.items.length;
+    }
+    ['cat-q', 'cat-area', 'cat-ch', 'cat-d', 'cat-c', 'cat-sort'].forEach(function (i) { $(i).addEventListener('input', draw); });
+    draw();
+    $('cat-threads').innerHTML = c.threads.slice(0, 40).map(function (t) { return '<div><span class="chip">' + esc(t.kind) + '</span> ' + esc(t.members.slice(0, 10).join(', ')) + (t.members.length > 10 ? ' …' : '') + '</div>'; }).join('') +
+      (c.proposed_new_areas || []).map(function (n) { return '<div><span class="chip gold">proposed new area</span> ' + esc(n.slug) + ': ' + n.members.length + ' items. ' + esc(n.reason) + '.</div>'; }).join('');
+  }).catch(function () { $('catalogue').innerHTML = '<tr><td colspan="5">The catalogue could not be loaded.</td></tr>'; });
+});
+</script>

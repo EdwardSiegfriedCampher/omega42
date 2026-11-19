@@ -1,0 +1,23 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 05 -- FREEZE RECORD
+Frozen before any computation or literature reading for this run. Navigator: claude-opus-5-5 (Anthropic; serving
+model may differ). Selection NOT BLIND (CB NO). Premise as amended (L-465): the canonical 24-cycle and its 81-state
+family are ALL THAT EXISTS. Inputs: run 04's leads.
+
+E-A  The hexagonal result, physically. Representation: a triangular lattice with 3 x 3 periodic boundary conditions
+     (nine sites; the cluster used in numerical studies of triangular-lattice models, and the unit cell of a 3 x 3
+     charge-density wave on a triangular lattice). Its own symmetry: rotation by 60 degrees about a site.
+     Criterion, frozen: the rotation acts on the nine sites with cycle type (6, 2, 1), as multiplication by 2 acts on
+     the nine values of Z/9, the fixed site and the 2-cycle forming the three sites of one sqrt3 x sqrt3 sublattice
+     (the Crown), the 6-cycle the other six (the Torsion Loop). Null controls: the square lattice with 3 x 3 periodic
+     boundaries under its 90-degree rotation; the triangular lattice with N x N periodic boundaries, N = 2..9, under
+     the 60-degree rotation (does any other N give a 6-cycle together with a three-site sublattice orbit structure?).
+     Literature: whether nine-site triangular clusters and 3 x 3 charge-density waves on triangular lattices occur.
+E-B  The 24-cell at the level of the family (Companion 25.2b, item 1). The 24 vertices of the 24-cell are the
+     Hurwitz units, a group of order 24 (the binary tetrahedral group). Question: reduced modulo 3, do they act on the
+     family's nine-state core -- the eight-cycle and fixed point, the states (3a, 3b), a plane over the field of
+     three elements -- as exactly the determinant-1 linear maps, SL(2,3)? Is T^2 among them, and T not?
+     Null control: every subgroup of order 24 of GL(2,3), the linear symmetries of the nine-state core; is the
+     24-cell's group the only one? And the cube's rotation group S4 (order 24, first-pass tier 2): does it act
+     faithfully and linearly on the core?
+E-C  The Leech lattice over the Eisenstein integers: literature only -- its construction from the ternary Golay
+     code and the role of reduction modulo sqrt-3.

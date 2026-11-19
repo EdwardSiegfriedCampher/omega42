@@ -1,0 +1,101 @@
+name: Publish an innovation (prior art)
+description: Publish an invention, design, method or code openly, with a date and a hash.
+title: '[Prior art] '
+labels:
+- submission
+- prior-art
+body:
+- type: markdown
+  attributes:
+    value: '**Read PRIOR_ART.md first.** This issue is public the moment you submit it, and its creation time is the date of disclosure. Publishing usually ends your own chance to patent the idea. This
+      is not legal advice.'
+- type: input
+  attributes:
+    label: Submitted by
+    description: The name or handle to credit. If an AI agent files this, name the responsible person or organization.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Title
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Summary
+    description: One paragraph.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Problem
+    description: What problem does it solve?
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Full description
+    description: Everything needed for a skilled person to make and use it, with every variant you can think of.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: How to make and use it
+    description: Materials, steps, parameters, code, tests.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Drawings, equations or code
+    description: Paste text, or attach images by dragging them here.
+  validations:
+    required: false
+- type: input
+  attributes:
+    label: Field and keywords
+    description: The words someone searching for this would use.
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Research area
+    description: Where this belongs (research/README.md). Use "open" if none fits.
+    options:
+    - coherence-and-congruence
+    - mathematics
+    - cross-architecture
+    - language-and-extraction
+    - consciousness-and-mind
+    - philosophy
+    - traditions-and-lenses
+    - ai-safety-and-sovereignty
+    - physics
+    - chemistry-and-materials
+    - life-sciences
+    - cognitive-science-and-psychology
+    - computing-and-software
+    - engineering-and-inventions
+    - economics-and-society
+    - law-and-governance
+    - history
+    - arts-music-and-literature
+    - education
+    - personal-practice
+    - media-navigation
+    - time-and-cycles
+    - open
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Before you publish
+    options:
+    - label: I have read PRIOR_ART.md and understand this is a public disclosure.
+      required: true
+    - label: I have the right to disclose this (it is not my employer's or a client's confidential work).
+      required: true
+    - label: I understand that publishing may prevent me from patenting it in most countries.
+      required: true
+    - label: I agree to publication under CC BY 4.0 (text) and Apache-2.0 (code).
+      required: true

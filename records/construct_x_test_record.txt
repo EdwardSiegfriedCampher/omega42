@@ -1,0 +1,37 @@
+Construct X 2.3.2 test record, 2026-11-19 (capability tests)
+sha256 tools/construct_x.py dfc9b01a55ff825a5c6f7e6f97c9e93fbf70c99e0ec2911fcc3fd1d6cd50e1b9
+sha256 tools/stp.py e8dc328d6d7192aa77c4ba7b2f7d9f8ec9a47507d72bf25fdec90d52a156ae64
+sha256 tools/independent_check.py 316fb087314034a402c5a0012348c19a4a1fa2bd13bb5c681fa162a07e0f87b1
+sha256 tools/lab_selftest.js 73076c44ebe99bcf376d309ae10b6bc48c5d1170b020ed718353515746d9b3c5
+sha256 tools/build_lab.py 7351638d7dec9bfc8c3b4b568659850b616f69e766fc98f86c87d5e0b864b2cf
+sha256 records/data/sunspots_yearly_silso_v2.csv d0529e3c0a7c355d3ccff8f8be8323160b63f5fa714de56aa80b3ba5392e1d14
+sha256 records/data/mauna_loa_co2_monthly_nist_1974_1987.csv f35679702a63179fa5feddf73a0d143286a9766551bf37b9d6d93fcb0cc2af85
+sha256 records/stp/registry.json 3591484b8caea5a1533f1d42bae71b9e6d2afeba1bdc15bba9fad8ceb9cbddc2
+
+[PASS] F9: phi has order 8 (primitive)
+[PASS] F9: T(a,b) = (b,a+b) is multiplication by phi
+[PASS] F27: g^3 - g + 1 irreducible over F3
+[PASS] F27: g has order 26 (primitive)
+[PASS] F27: field axioms (exhaustive)
+[PASS] g^(n+13) = -g^n for all n
+[PASS] seed labels: bijection onto 26 nonzero elements
+[PASS] workbook pairs encoded as antipodes
+[PASS] 702 directed pairs <-> 702 affine maps (bijection)
+[PASS] every directed pair has exactly one seed
+[PASS] affine maps closed under composition
+[PASS] 13 rounds x 9 triples; 351 pairs exactly once
+[PASS] Classic example: pooled 3, matching 2
+[PASS] N(T x) = -N(x) on F3^2 (relation checker)
+[PASS] N is NOT invariant (checker finds counterexample)
+[PASS] group axioms: Z/12, (Z/9)^x, S3
+16/16 self-tests pass (Construct X 2.3.2)
+
+Register: 68 entries; PROVED 10, REJECTED 15, REVISED 4, TESTABLE 1, VERIFIED COMPUTATION 38
+
+Close-out runs (18 Nov 2026): H-016 PASS; H-016b FAIL; W-001 PASS; W-002 PASS (LibreOffice recalculation, 104,917 of 104,925 agree, 8 explained); UP-04b FAIL (test defect, REVISED); UP-04b-R1 PASS; UP-01e PASS; CX-010-D PASS; QA-01 PASS; QA-02 PASS; CX-011 FAIL; CX-012a PASS (1/40); CX-012b PASS (0/40); H-006d PASS (CO2, base lag 12, block p 0.01); H-017 FAIL; H-017b PASS; I-001 PASS; H-018 PASS (by construction); H-019 PASS (Crown anchors keep antipodes in one family); H-021 PASS (noise-gain law, 1.413 and 1.727 against sqrt2 and sqrt3); CX-013 PASS (block null detections 4, 2, 0, 0 of 20 at blocks 6, 12, 24, 48).
+
+Threshold comparison (unchanged from 2.2.0): Classic one-sided rule 35.2%; symmetric tau = 3 52.0%; modular 99.9% (exact 176914/177147).
+
+Audit 19 Nov 2026: full rerun, 50 of 50 runnable tests reproduce. New: CX-003 PASS; CX-008 PASS; CX-009 FAIL (REJECTED); CX-009-R1 PASS; CX-015 PASS (2/40 at phi 0.9); CX-016 PASS; CX-017 PASS; H-023 PASS (built-in skill 0.176 vs 0.184). UP-04b kept REVISED after the runner fix.
+
+Capability tests 19 Nov 2026: CAP-01 FAIL (REVISED, test defect); CAP-01-R1 PASS; CAP-02 FAIL (REJECTED, recovery 0.893 < 0.90); CAP-03 PASS; CAP-04 PASS; CAP-05 PASS. Construct X 2.3.2 removes the valuation cap at 30.

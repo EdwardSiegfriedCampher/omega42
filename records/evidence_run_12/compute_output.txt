@@ -1,0 +1,31 @@
+FAMILY: cycle type of T on the 81 states: {24: 3, 8: 1, 1: 1}
+
+R1  SYMMETRY GROUPS AND PLANAR QUASICRYSTAL MODULES
+  full group G: order 48, involutions 13; dihedral D24 (point group of 24-fold diffraction): order 48, involutions 25 -> G ~ D24: False
+  unitary subgroup: order 24, element orders {1: 1, 2: 13, 3: 2, 4: 2, 6: 2, 12: 4}; D12 (point group of 12-fold diffraction) has {1: 1, 2: 13, 3: 2, 4: 2, 6: 2, 12: 4} -> equal: True
+  G = <r, j> with j r j = r^11 (not r^-1): True; finite subgroups of O(2) are cyclic or dihedral, so G is no planar point group
+  faithful 2-dim complex rep of G induced from zeta24: character zeta + zeta^11 real? False -> smallest faithful real rep has dimension 4; zeta24 has degree 8 over Q, so the order-24 element is non-crystallographic in R^4 (an 8-rank module, quasicrystalline)
+  8-fold  Z[zeta8]/3   81 states | rotation zeta: {8: 10, 1: 1} | golden elements 4, cycle types [{8: 10, 1: 1}, {8: 10, 1: 1}, {8: 10, 1: 1}, {8: 10, 1: 1}] | carries the family (criterion): False | some unit has type (24^3,8,1): False
+  10-fold Z[zeta5]/3   81 states | rotation zeta: {5: 16, 1: 1} | golden elements 2, cycle types [{8: 10, 1: 1}, {8: 10, 1: 1}] | carries the family (criterion): False | some unit has type (24^3,8,1): False
+  12-fold Z[zeta12]/3  81 states | rotation zeta: {12: 6, 4: 2, 1: 1} | golden elements 2, cycle types [{8: 10, 1: 1}, {8: 10, 1: 1}] | carries the family (criterion): False | some unit has type (24^3,8,1): True
+  10-fold Z[zeta5]/9 (6561 states): phi = -(zeta^2+zeta^3) satisfies phi^2 = phi + 1: True
+    the subring {a + b phi} has 81 elements: True; multiplication by phi acts on it as T: True; cycle type there {24: 3, 8: 1, 1: 1}; on all 6561 states {24: 270, 8: 10, 1: 1}
+
+R2  PHYLLOTACTIC SERIES BY VOICE
+  Fibonacci 1,2,3,5            integer norm   -1 | voice A | pairs mod 9 on the canonical 24-orbit: False | e.g. 13/21 | survey
+  Lucas 1,3,4,7                integer norm   -5 | voice B | pairs mod 9 on the canonical 24-orbit: False | e.g. 18/29 | survey
+  F4 1,4,5,9                   integer norm  -11 | voice C | pairs mod 9 on the canonical 24-orbit: True  | e.g. 23/37 | survey
+  double Fibonacci 2,4,6,10    integer norm   -4 | voice B | pairs mod 9 on the canonical 24-orbit: False | e.g. 26/42 | survey
+  accessory 1,5,6,11           integer norm  -19 | voice A | pairs mod 9 on the canonical 24-orbit: False | e.g. 28/45 | botanical literature
+  canonical seed 2,5,7,12      integer norm  -11 | voice C | pairs mod 9 on the canonical 24-orbit: True  | e.g. 31/50 | not reported
+  triple Fibonacci 3,6,9,15    integer norm   -9 | voice core | pairs mod 9 on the canonical 24-orbit: False | e.g. 39/63 | not reported
+  null (100000 random coprime pairs): voice frequencies {'A': 0.334, 'B': 0.334, 'C': 0.333}
+
+R3  QUANTUM CAT MAP AT FAMILY LEVEL
+  (b) trace identity |Tr U^k|^2 = #Fix(A^k) holds for every odd N in 3..27 and k = 1..24: True
+      N = 9: #Fix(A^k), k = 1..12 = [1, 1, 1, 9, 1, 1, 1, 9, 1, 1, 1, 81] -- read off the family's cycle type under T^2 (12^6, 4^2, 1)
+      spectra of nine twelfth roots consistent with these fixed-point counts: 12; all simple: True; their missing classes: [(0, 3, 6), (0, 3, 9), (0, 6, 9), (1, 4, 7), (1, 4, 10), (1, 7, 10), (2, 5, 8), (2, 5, 11), (2, 8, 11), (3, 6, 9), (4, 7, 10), (5, 8, 11)]
+      every solution misses a coset {c, c+3, c+6, c+9} minus one point? -> True
+  (a) orbits of V on the 81 displacement operators: [(1, [0]), (8, [0]), (24, [1, 8]), (24, [2, 7]), (24, [4, 5])]
+  (c) matrices of GL(2,Z/9) whose orbits are exactly the family's five: 8 (= generators of <T>, phi(24) = 8: True)
+      they are T^k with gcd(k, 24) = 1: True

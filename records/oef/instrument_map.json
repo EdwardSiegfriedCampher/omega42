@@ -1,0 +1,115 @@
+{
+ "_about": "The instrument map (Core L-539 (1); Companion Part 161): which consequences of the Foundational Consequence Register each principal instrument rests on, and what it is used for. The register governs the order and jurisdiction of inquiry; each instrument keeps its own function and arithmetic. Checked by python3 tools/oef.py --consequences.",
+ "instruments": [
+  {
+   "id": "M327",
+   "rests_on": [
+    "DC-02",
+    "DC-13"
+   ],
+   "use": "the coordinate places a question within the totality; it is the act of DC-13, and the instrument selection it carries decides which instruments a question calls (L-539 (2))"
+  },
+  {
+   "id": "M333",
+   "rests_on": [
+    "DC-13"
+   ],
+   "use": "the Standing Record types a finding by where its truth lives"
+  },
+  {
+   "id": "M334",
+   "rests_on": [
+    "DC-10",
+    "DC-11"
+   ],
+   "use": "the Transduction Record translates a structure too large to show whole, since no view is the whole"
+  },
+  {
+   "id": "M335",
+   "rests_on": [
+    "DC-02",
+    "DC-05",
+    "DC-06"
+   ],
+   "use": "the Foundational Congruence Record gives each principle its standing; the register's standings are its standings"
+  },
+  {
+   "id": "M336",
+   "rests_on": [
+    "DC-09",
+    "DC-20"
+   ],
+   "use": "the Constraint Boundary Register records the executor's limits, the executor being inside"
+  },
+  {
+   "id": "M337",
+   "rests_on": [
+    "DC-11",
+    "DC-14",
+    "DC-22",
+    "DC-24"
+   ],
+   "use": "the Nested Manifestation Record types the sense in which a part holds the whole"
+  },
+  {
+   "id": "M338",
+   "rests_on": [
+    "DC-10",
+    "DC-15"
+   ],
+   "use": "the Perspective and Consensus Register keeps shared constraint, interpretation, agreement and dissent apart"
+  },
+  {
+   "id": "M243a",
+   "rests_on": [
+    "DC-01"
+   ],
+   "use": "the Foundational Premise Integrity Scan finds the premise weakened or externalized"
+  },
+  {
+   "id": "M286",
+   "rests_on": [
+    "DC-01"
+   ],
+   "use": "the Frame Intrusion Scan finds an outside court"
+  },
+  {
+   "id": "M267",
+   "rests_on": [
+    "DC-02"
+   ],
+   "use": "a comparison of the coordinate with a decoy, an instrument-performance study in the COMPARATIVE mode; it does not test the premise"
+  },
+  {
+   "id": "M230",
+   "rests_on": [
+    "DC-02",
+    "DC-09"
+   ],
+   "use": "the correspondence family, optional, each result about its object (Appendix S; L-539 (5))"
+  },
+  {
+   "id": "SR-CAS",
+   "rests_on": [
+    "DC-10",
+    "DC-15"
+   ],
+   "use": "readings compared across architectures; convergence is comparative information and Collective Resonance, never a vote on standing"
+  },
+  {
+   "id": "M314",
+   "rests_on": [
+    "DC-01",
+    "DC-13"
+   ],
+   "use": "the conformance suite checks a Navigator against the protocol, its frame cases among them"
+  },
+  {
+   "id": "APE",
+   "rests_on": [
+    "DC-13"
+   ],
+   "use": "an Applied Protocol Exploration names the consequences it addresses, with their kind and warrant"
+  }
+ ]
+}

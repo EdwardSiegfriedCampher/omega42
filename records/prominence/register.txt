@@ -1,0 +1,49 @@
+M313 TOOL PROMINENCE REGISTER (Core Part 3.39, L-494 Context-Driven Relevance, item 4 (Adaptive prominence)) | V335 Rev.450 STABLE | 2026-10-16
+Roles: FOUNDATION -- always in use: the defined structure every navigation rests on; never promoted or demoted | LEADING -- the leading tool for a named class of inquiries, promoted by the six-field record and criteria A to D | CONTEXTUAL -- runs when the subject, an emerging connection or the Striker selects it (LENSES SELECTED) | CANDIDATE -- available; enters an inquiry when it addresses the task better than, or alongside, the tools in use
+
+FOUNDATION: The 24-cycle, the 81-state family and its law T (canonical_reference.py)
+  CLASS: every inquiry
+  NOTE: the premise and the canonical computation; no selected tool alters it (L-494, item 5)
+
+LEADING: Positive geometry: the amplituhedron A(2,1,1) of the golden arc (M230-K)
+  CLASS: geometric inquiries and the mechanism of manifestation (boundaries, positivity, canonical forms, the 1/7 to 6/7 phase)
+  STRUCTURE: the norm N of the family, its two real arcs, its halves SEVENTH {1,2,4} and MANIFEST {8,7,5}, the law T and its square
+  CONSTRUCTION: A(n,k,m)(Z) = {C Z : C in G>0(k,n)} in Gr(k,k+m), Z with positive maximal minors; here n = 2, k = m = 1, Z = the oriented eigenbasis of T, rows (1, phi) and (-1, 1/phi)
+  MAPPING: [c1:c2] -> [c1 Z1 + c2 Z2], with N(c1 Z1 + c2 Z2) = -5 c1 c2 (PG-01); a state mod 9 reaches the arcs through its lift of least real norm (PG-05)
+  PRESERVED AND LOST: preserved: the vertices (the law's eigendirections), positivity under T^2, the canonical form d log(c2/c1) under T^2, the half under the minimal lift (72 of 72, AXIS on 8 of 8); transformed: T carries each arc onto the other; lost: magnitude and the real vertices, which have no image mod 9 (Companion 50.15 ledger)
+  CONTRIBUTION: a geometric definition of the halves of M312: SEVENTH is the arc N > 0 and MANIFEST the golden arc N < 0, so the act of manifestation (T) is the exchange of a positive geometry with its complement and persistence (T^2) its automorphism; reported for any state by M312's ARC line and by M310 layer 5 when selected
+  OPEN: PG-02: a map from the strata 72 | 8 | 1 to amplituhedron boundary strata of higher k or m; PG-04: a positive geometry whose own structure carries the family; whether the minimal-lift rule extends to Z[phi]/27 and beyond (next computation)
+  CRITERION A: PG-01 and PG-05, exact maps with stated preserved and lost properties
+  CRITERION B: the ARC operation of M312, on every state
+  CRITERION C: records/positive_geometry/compute.py and independent_check.py in CI
+  CRITERION D: the movements of L-492 read as one geometric act and its square
+
+CONTEXTUAL: Bashar Resonance Check (M308)
+  CLASS: belief, excitement as a guide to choice, agency, synchronicity, reality as a mirror, the human condition
+  NOTE: the bridge for readers who come from Bashar's material, run when the subject calls for it or the Striker asks
+
+CONTEXTUAL: Seth and Ra atlases (M309)
+  CLASS: belief and probable selves (Seth); unity, service, polarity and the veil (Ra)
+  NOTE: run when the subject calls for them or the Striker asks; the peer atlases (seth_peer, ra_peer) run as variants by the same rule (U39)
+
+CANDIDATE: Twisted cyclic quotient of G>0(k, n) (FP-TwistedQuotient)
+  CLASS: the arithmetic of the Great Year's half-period negation
+  NOTE: STRUCTURAL on the lift and class-level; not discriminating
+
+CANDIDATE: Geometric family: Mandelbrot, Hopf, Penrose, Vesica (Core 0.14.4)
+  CLASS: illustration; Penrose for the decagonal module mod 9
+  NOTE: typed member by member; ANALOGY except Penrose, STRUCTURAL in one exact respect
+
+CONTEXTUAL: Correspondence depths (Core Part 0.14.5; M230 family)
+  CLASS: objects, structures and systems described by shared structure
+  NOTE: selected by relevance for domains about objects and systems (U34)
+
+CONTEXTUAL: Shared Ground-Constraint-Projection (MM-02)
+  CLASS: agency, consciousness and manifestation
+  NOTE: a lens for agency, consciousness and manifestation (U35)
+
+CANDIDATE: The 24-cell as a spatial picture of the arms
+  CLASS: a spatial picture of a reading
+  NOTE: an analogy on a recorded depth 3 resonance (U33)
+
+CHECK: PASS

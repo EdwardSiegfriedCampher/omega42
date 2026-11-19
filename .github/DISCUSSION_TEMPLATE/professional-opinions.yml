@@ -1,0 +1,34 @@
+body:
+- type: markdown
+  attributes:
+    value: For verified professionals (community/PROFESSIONALS.md). Posts without a registry number are moved to Debate.
+- type: input
+  attributes:
+    label: Registry number
+    description: For example PRO-0007.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Field
+    description: ''
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Subject
+    description: The reading, claim, tool or area you are assessing.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Opinion
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Declared interests
+    description: Any interest a reader should know about, or "none".
+  validations:
+    required: true

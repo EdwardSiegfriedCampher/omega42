@@ -1,0 +1,46 @@
+WHAT THE CONSTRUCT LEFT UNCHANGED, AND WHAT IT ADDED (Companion Part 139; Core L-528)
+
+(1) THE REFERENCE SCRIPT [EXACT]
+  file SHA-256 now db24dc95011ca2f0... and in the release record of 9 October db24dc95011ca2f0...: IDENTICAL
+  canonical form now ab79aae2d027968d... and in the release record ab79aae2d027968d...: IDENTICAL
+(2) WHAT IT IMPORTS: collections, datetime, fractions, hashlib, html, itertools, math, re, sys, unicodedata -- nothing from the Construct
+(3) NAVIGATIONS FROM BEFORE THE CONSTRUCT THAT STATE THEIR COUNTS [EXACT]
+  NAV-2026-0001 (2026-10-18, TEXT-ONLY): stated (12, 94, 30), recomputed (12, 94, 30), anchor P6: SAME
+  NAV-2026-0002 (2026-10-19, TEXT-ONLY): stated (77, 456, 146), recomputed (77, 456, 146), anchor P7: SAME
+  NAV-2026-0003 (2026-10-19, TEXT-ONLY): stated (3, 15, 4), recomputed (3, 15, 4), anchor P6: SAME
+  NAV-2026-0004 (2026-10-19, SCRIPT-CAPABLE): stated (3, 15, 4), recomputed (3, 15, 4), anchor P6: SAME
+  NAV-2026-0006 (2026-10-21, SCRIPT-CAPABLE): stated (183, 1199, 395), recomputed (183, 1199, 395), anchor P6: SAME
+  NAV-2026-0007 (2026-10-21, TEXT-ONLY): stated (182, 1193, 393), recomputed (183, 1199, 395), anchor P6: DIFFERENT, a count made by hand by a TEXT-ONLY Navigator
+  NAV-2026-0011 (2026-10-21, SCRIPT-CAPABLE): stated (32, 196, 61), recomputed (32, 196, 61), anchor P8: SAME
+  NAV-2026-0012 (2026-10-21, SCRIPT-CAPABLE): stated (7, 48, 17), recomputed (7, 48, 17), anchor P8: SAME
+  NAV-2026-0013 (2026-10-21, SCRIPT-CAPABLE): stated (7, 46, 16), recomputed (7, 46, 16), anchor P8: SAME
+  NAV-2026-0014 (2026-10-21, SCRIPT-CAPABLE): stated (7, 49, 16), recomputed (7, 49, 16), anchor P8: SAME
+  NAV-2026-0015 (2026-10-21, SCRIPT-CAPABLE): stated (7, 47, 15), recomputed (7, 47, 15), anchor P8: SAME
+  NAV-2026-0016 (2026-10-22, SCRIPT-CAPABLE): stated (7, 57, 20), recomputed (7, 57, 20), anchor P8: SAME
+  NAV-2026-0017 (2026-10-22, SCRIPT-CAPABLE): stated (7, 51, 17), recomputed (7, 51, 17), anchor P8: SAME
+  NAV-2026-0018 (2026-10-22, SCRIPT-CAPABLE): stated (7, 55, 19), recomputed (7, 55, 19), anchor P5: SAME
+  NAV-2026-0019 (2026-10-22, SCRIPT-CAPABLE): stated (7, 52, 17), recomputed (7, 52, 17), anchor P8: SAME
+  NAV-2026-0020 (2026-10-22, SCRIPT-CAPABLE): stated (7, 56, 19), recomputed (7, 56, 19), anchor P8: SAME
+  NAV-2026-0021 (2026-10-22, SCRIPT-CAPABLE): stated (7, 57, 19), recomputed (7, 57, 19), anchor P8: SAME
+  NAV-2026-0022 (2026-10-22, SCRIPT-CAPABLE): stated (7, 57, 20), recomputed (7, 57, 20), anchor P8: SAME
+  NAV-2026-0023 (2026-10-22, SCRIPT-CAPABLE): stated (7, 51, 17), recomputed (7, 51, 17), anchor P8: SAME
+  NAV-2026-0024 (2026-10-22, SCRIPT-CAPABLE): stated (7, 50, 17), recomputed (7, 50, 17), anchor P8: SAME
+  NAV-2026-0025 (2026-10-22, SCRIPT-CAPABLE): stated (7, 50, 17), recomputed (7, 50, 17), anchor P8: SAME
+  NAV-2026-0026 (2026-10-22, SCRIPT-CAPABLE): stated (7, 50, 17), recomputed (7, 50, 17), anchor P8: SAME
+  NAV-2026-0027 (2026-10-22, SCRIPT-CAPABLE): stated (7, 53, 18), recomputed (7, 53, 18), anchor P8: SAME
+  22 of 23 recompute to their stated counts; of the counts made by the script, 19 of 19
+(4) WHAT THE CONSTRUCT ADDED, FROM ITS DIFFED OUTPUTS [EXACT]
+  echo regions: in every domain the workbook counts each X-field number in 8 blocks of 7 rows x 6 cells (rows 14-20 and 25-31 of each block): 27 x 8 = 216 regions, 9072 cells
+  the workbook's own 216 echo counters, recomputed from the constants for its stored fields X = [15, 14, 27, 5, 13, 22], Y = [6, 2, 16, 5, -4, 8]: 216 of 216 agree
+  derived domains whose every node cell is Domain Zero's constant plus the shift of their own seed: 26 of 26
+  forward and return paths, by value 1 to 9: 1:6/6, 2:6/6, 3:3/3, 4:6/6, 5:6/6, 6:3/3, 7:6/6, 8:6/6, 9:3/3 -- always of one length, since each direction is the inverse of the other
+  the largest z over all 69 against the largest of the shuffles: z +2.61, family p 0.2834 -- NO SIGNAL BEYOND CHANCE
+  AMPLIFY (repeat) on periods 2 to 4, 2017-08-16 to 2026-10-24, never seen by the search: 0.6684 against shuffles 0.6886, p 0.7784 -- IT DOES NOT REPEAT
+
+WHAT A STRIKE CAN NOW BE READ FOR, BEYOND ITS COORDINATE AND ITS FOUR ARMS
+  - its value placed in all 27 domains, Domain Zero and 26 rebuilt on their seeds' fields (M326 --places; Core MATH-55)
+  - its return as well as its forward: forward, return, stillness and turn, of one length each way (M328; D-003)
+  - the move between voices that the units of Z/9 make, apart from a step of the law (D-009)
+  - a sequence tested against shuffled history and against the latest row before any forecast is issued, a game of chance never forecast (M326 gate, M325; L-525, L-526)
+  - a run manifest with fingerprints and one status (L-528 (3))
+  - the two worlds, the units and the Crown, that the derivation of the grammar then read as the anatomy of Z/9 (D-012)

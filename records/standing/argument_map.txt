@@ -1,0 +1,21 @@
+M333 DEPENDENCY MAP (D-015) | records/standing/argument_example.txt | a route holds when each of its members holds; the inference along a route is the reader's to check (CDT-C)
+  P1   GIVEN           The law is T(a, b) = (b, a + b), read modulo 9. (the argument's own assumption)
+  P2   TRUE-Ω42        T^24 = I (mod 9)
+  P3   FALSE-Ω42       T^12 = I (mod 9)
+  P4   TRUE-Ω42        T^12 = -I (mod 9)
+  P5   UNRESOLVED-Ω42  This person missed three agreed deadlines in the last month.
+  C1   FOLLOWS         Every state returns to itself after 24 steps.
+         route from P1, P2: HOLDS
+  C2   FALSE-Ω42       Every state returns to itself after 12 steps.
+         route from P1, P3: BROKEN by P3
+  C3   FOLLOWS         Twelve steps carry every state to its mirror.
+         route from P1, P3: BROKEN by P3
+         route from P1, P4: HOLDS
+  C4   FOLLOWS         The mirror of the mirror is the start.
+         route from C3: HOLDS
+  C5   OPEN            This person is unreliable.
+         route from P5: OPEN at P5
+  C6   LOST            The law has a mirror at half its period.
+         route from P3: BROKEN by P3
+  FOLLOWS: a route of premises that hold reaches it; LOST: every route is broken, so it is UNRESOLVED-Ω42 here, not false;
+  OPEN: a route waits on a premise the frame does not determine; FALSE-Ω42: its own exact check fails, whatever its routes

@@ -1,0 +1,44 @@
+<!--{"title": "Community · Ω42", "desc": "Register as a contributor and receive the Ω42 newsletter, see recognition for contributions, and find verified professionals.", "nav": "community"}-->
+<div class="wide stack">
+  <div class="col stack">
+    <div class="eyebrow">Community</div>
+    <h1>Newsletter, recognition, <em>professionals</em></h1>
+  </div>
+  <div class="grid2">
+    <div class="panel gold" id="subscribe">
+      <h2>The monthly letter</h2>
+      <p>The month in the record: new meetings in the register, readings, essays by AI Navigators, expert commentaries, experimental results, protocol revisions, the debate of the month and recognitions.</p>
+      <p>It goes to <b>registered contributors</b>, to <b>everyone who submits</b> Ω42-generated content — every web-app user among them — and to <b>commercial users</b>, whether or not they submit. Registering is free and needs no submission.</p>
+      <div class="row"><a class="btn" href="https://github.com/{{REPO}}/issues/new?template=8-register.yml">Register as a contributor</a></div>
+      <form class="stack" id="newsletter-form" action="{{NEWSLETTER_ACTION}}" method="post" target="_blank">
+        <label for="nl-handle">Contributor handle or commercial account<input id="nl-handle" name="handle" type="text" required placeholder="your-handle"></label>
+        <label for="nl-email">Email<input id="nl-email" name="email" type="email" required placeholder="you@example.org"></label>
+        <div class="row"><button class="btn" type="submit">Receive the newsletter</button><span class="note">Eligibility and address confirmed by the provider; unsubscribe from any issue.</span></div>
+      </form>
+      <p class="note" id="nl-fallback">Everything the newsletter reports is public in the <a href="library.html">Library</a>; releases are announced in Discussions → Announcements.</p>
+    </div>
+    <div class="panel">
+      <h2>Recognition</h2>
+      <p>Every accepted contribution is credited by name, on the site and in the newsletter. Points build into levels.</p>
+      <table><thead><tr><th>Level</th><th>Points</th></tr></thead><tbody>
+        <tr><td>Striker</td><td class="num">1</td></tr><tr><td>Navigator-Partner</td><td class="num">10</td></tr>
+        <tr><td>Cartographer · invited to review</td><td class="num">30</td></tr><tr><td>Fellow</td><td class="num">75</td></tr></tbody></table>
+      <p class="note">Navigation 1 (+1 for a new question), review 2, exploration 3, disclosure 3, merged code 3, adopted research 3, translation 3. Monthly: new domain, review and disclosure of the month.</p>
+    </div>
+  </div>
+  <h2>Contributors</h2>
+  <div class="scroll"><table><thead><tr><th>Name</th><th>Points</th><th>Level</th><th>Contributions</th></tr></thead><tbody id="contributors"><tr><td colspan="4" class="muted">Loading…</td></tr></tbody></table></div>
+  <h2 id="professionals-h">Verified professionals</h2>
+  <p class="col">Mathematicians, scientists, physicians, lawyers, engineers, philosophers and practitioners can be verified, so readers know who is speaking. Give only what you want public in the form; evidence goes privately to the verification officer.</p>
+  <div class="grid3" id="professionals"></div>
+  <div><a class="btn ghost" href="https://github.com/{{REPO}}/issues/new?template=6-credentials.yml">Verify my credentials</a></div>
+</div>
+<script>
+(function () {
+  var f = document.getElementById('newsletter-form');
+  if (f && !/^https?:/.test(f.getAttribute('action'))) {
+    f.addEventListener('submit', function (e) { e.preventDefault(); document.getElementById('nl-fallback').textContent =
+      'The newsletter service is being set up. Register as a contributor now, and the invitation will follow; the record itself is in the Library.'; });
+  }
+})();
+</script>

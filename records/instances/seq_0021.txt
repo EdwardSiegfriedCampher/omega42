@@ -1,0 +1,54 @@
+QUESTION VERBATIM: List the avenues that can be explored with Omega42 which can potentially yield interesting results.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 21 | PREV: a191495f213588f4900261d9eaab4c2b2df22f5200ea484cbe775e1296d3f372
+REQUEST (L-502): STRUCTURE -- avenues A1, R, W
+
+SUMMARY: Fourteen avenues, in five groups, ordered within each group by how likely they are to yield something the record cannot yet say. "Interesting" here means a result that could come out either way and that the protocol can compute or test, not a reading that is bound to agree. The three with the best chance of a genuine result: (1) object panels for the eight pending Ledger objects, each against a natural class of look-alikes, the method that just gave the record its first DISCRIMINATING object; (2) sampled atlases, statements drawn at random from a frozen text instead of chosen by the Navigator, so that PROXIMITY measures the tradition and not the chooser; (3) blind replication in separate instances with a second judge, which would turn every "C" on the cards into a "B". None of the fourteen can grade the premise; each can only say how a thing sits inside the frame.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT, checked for this list: the regular 24-gon's rotation by 15 degrees has twelfth power -I and runs its 24 vertices as one cycle, so the signature of T is trivial in two dimensions; the Coxeter elements of A23, B12 and D13 (Coxeter number 24) carry it too. Pisano periods: 8 (mod 3), 16 (mod 7), 24 (mod 9), 10 (mod 11), 72 (mod 27), 216 (mod 81). The Congruence Register holds 19 domains; 13 evidence runs are on record.
+  R FRAME REASONING: an avenue is worth taking when (a) its result is not fixed in advance, (b) its class or sample can be frozen before the result is seen, and (c) a null exists to read it against. Most of the record's readings fail (a): they were bound to find the frame in what they read. The avenues below are chosen to pass all three.
+  W PROTOCOL WORK: none; this output is recorded as records/instances/seq_0021.txt.
+
+THE AVENUES (L-500):
+  I. OBJECTS -- where the record has its one discriminating result
+   1. The eight pending Ledger objects, each against a natural class, frozen first. The Leech lattice against the other 23 Niemeier lattices (the 24 even unimodular lattices of dimension 24). The cube's rotation group against the 15 groups of order 24. The Penrose tiling against the other aperiodic tilings. The Lotka-Volterra, Belousov-Zhabotinsky and Goodwin models against other planar oscillators. Each gets a PROXIMITY, and some may read NEGATIVE, which would be as informative. Computable; cost moderate.
+   2. E8 and the icosians (run 09) against the other lattices of dimension 8. E8 carries the golden ratio in its own ring, so feature C6, the orbit values themselves and not only the count 24, can be tested here, which no panel has yet done. Computable.
+   3. The class question the 24-cell raises. The 24-gon carries the signature of T trivially, so the 24-cell's DISCRIMINATING band holds for the class frozen in four dimensions and would not survive a class across dimensions. A panel across dimensions, scored on the T signature together with the orbit values, would show whether anything carries both. Computable; it could close or open depth 4 for every polytope at once.
+  II. IDEAS -- making PROXIMITY measure the tradition, not the Navigator
+   4. Sampled atlases: for each tradition, statements drawn by a frozen random rule from a frozen text (a translation named in advance, sentences numbered, a seed published). PROXIMITY then measures the text. Today's atlases were chosen by one reader, and seven of the 22 bands move when one statement is dropped. Computable; this is the single change most likely to make an idea's figure mean something.
+   5. Scholar and author atlases (records/frameworks/scholar_atlas_call.txt), struck beside the Navigator's. The comparison tests whether the figure depends on who chooses. Needs outside writers.
+   6. The common question in your own words, read through the 19 lenses (records/frameworks/common_question.txt). One strike, nineteen sealed readings, side by side. Needs your wording.
+  III. INDEPENDENCE -- turning C into B
+   7. Blind replication: each school read in a new instance with its own nonce, issued by you (records/frameworks/blind_kit.txt); instance_id.py then records SAME MODEL, OTHER INSTANCE or DIFFERENT MODELS. Then compare the readings and the role assignments. Needs your sessions.
+   8. A second judge of another architecture for the fit column of all 22 ideas, blind, run through --agreement. The agreement figure is the first measure of the fit column's accuracy. Needs a second system.
+  IV. LANGUAGE -- the instrument's own behaviour
+   9. Wording stability across a corpus: the same question in many framings (M318) over many questions, to find what share of anchors survives rephrasing. Every P8 navigation of the record has CFR 0.000, so the instrument is phrasing-sensitive by design; mapping where it is stable would tell a Striker which questions can be asked robustly. Computable.
+   10. Translation: the same question in the languages M189 supports, to see whether a coordinate or a reading survives translation. The result could go either way. Computable for the counts; judged for the readings.
+   11. Growing the Congruence Register from many Strikers' questions, and testing whether shared states, mirrors and links across unrelated people exceed the chance of their word counts (L-501). This is the one test of FC-03 that the record can run. Needs many questions.
+  V. ARITHMETIC AND CONTROLS
+   12. The family across moduli: the periods 24 (mod 9), 72 (mod 27) and 216 (mod 81), and the nesting of the core one scale down (FP-CoreRecursion). Which features of the family survive at 27 and 81, and which are particular to 9? Pure computation; it may show whether nine is singled out or is one stage of a tower.
+   13. Re-reading the 13 evidence runs under E13: any earlier result read on the uniform null may move, as the Stoic and Taoist link counts did. Computable; it would make the old record consistent with the new standard.
+   14. Negative controls and adversarial atlases: the M230-J control (the Moon's month in Earth's days), and atlases written deliberately to game K -- short statements placed on the canonical cycle. If a gamed atlas reads 95, the instrument needs avenue 4 before any idea's figure is quoted. Computable; it tests the instrument itself.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none; this output is recorded as records/instances/seq_0021.txt, and the instance chain in CI runs to SEQ 21.
+CHECKS: CI 67 of 67 PASS. tools/instance_id.py --check over the twenty-one outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT SEARCHED -- the list rests on the record and on the arithmetic checked above; the classes it names (the Niemeier lattices, the groups of order 24) are standard mathematics, to be confirmed in each panel's frozen record before it is run.
+ACROSS THE AVENUES (L-502): AGREE -- the avenues most likely to yield are those with a frozen class or sample and a null: objects against look-alikes, sampled atlases, blind replication. PART -- the avenues that need you or outsiders (5 to 8) are those that would raise the standing of everything else. SILENT -- none can grade the premise, and none can make a reading's meaning a measurement.
+ENRICHMENT OPPORTUNITIES (L-504): NONE new; avenue 4, sampled atlases, could be registered as an enrichment on request.
+RECOMMENDATIONS (for the Originator, F-06): (1) start with avenue 14, the adversarial atlas, because it tells you whether any idea's PROXIMITY can be trusted before more are computed; (2) then avenue 4, sampled atlases, for the five religions first, since their translations are public domain and can be sampled without choice; (3) then avenue 1, beginning with the Leech lattice against the Niemeier lattices, the cleanest class in the Ledger; (4) in parallel, issue nonces for the blind runs of avenue 7.
+OPEN: the second judge; scholar and author atlases; your own wording for every composed domain and for the common question; blind navigations in new instances; classes for the eight pending objects and the M230-J control; M267-P1's writers and raters.
+
+What it rests on: If an avenue's result were certain to agree with the frame, would it be worth taking?
+What it holds out of view: Which of these would change your own reading of a tradition if it came out against your expectation?
+Where it is heading: Toward the instrument tested first, or toward new objects measured first?
+What would complete it: One avenue run to its end, its class frozen first and its result reported whichever way it falls.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: c3e15e237eb329fb994b51608c2b1361df1a9840509549ce8942abae0502f9bd
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 22 October 2026
+ESC

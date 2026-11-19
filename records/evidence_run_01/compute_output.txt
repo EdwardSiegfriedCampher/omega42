@@ -1,0 +1,15 @@
+CANONICAL ORBIT (Voice C) first terms: [2, 5, 7, 3, 1, 4, 5, 0, 5, 5, 1, 6, 7, 4, 2, 6, 8, 5, 4, 0, 4, 4, 8, 3]
+E2 Fibonacci (21,34)            state mod 9 (3, 7) | norm 8 | on canonical orbit: NO
+E2 Fibonacci (34,55)            state mod 9 (7, 1) | norm 1 | on canonical orbit: NO
+E2 Fibonacci (55,89)            state mod 9 (1, 8) | norm 8 | on canonical orbit: NO
+E2 Fibonacci (89,144)           state mod 9 (8, 0) | norm 1 | on canonical orbit: NO
+E2 Lucas (29,47)                state mod 9 (2, 2) | norm 4 | on canonical orbit: NO
+E2 Lucas (47,76)                state mod 9 (2, 4) | norm 5 | on canonical orbit: NO
+E2 double Fibonacci (68,110)    state mod 9 (5, 2) | norm 4 | on canonical orbit: NO
+E3 cat map A is conjugate to T^2 by the coordinate swap on all 81 states: True
+E3 cat map orbit sizes on (Z/9)^2: [1, 4, 4, 12, 12, 12, 12, 12, 12]
+E3 order of A mod 9: 12 | A^(order/2) = -I: True
+E3 NULL (A mod N): N:order:half-negation -> 2:3:n 3:4:Y 4:3:n 5:10:Y 6:12:Y 7:8:Y 8:6:n 9:12:Y 10:30:Y 11:5:n 12:12:n 13:14:Y 14:24:Y 15:20:n 16:12:n 17:18:Y 18:12:Y 19:9:n 20:30:n 21:8:n 22:15:n 23:24:Y 24:12:n 25:50:Y 26:42:Y 27:36:Y 28:24:n 29:7:n 30:60:n
+E3 NULL share of N in 3..30 with half-period negation: 14/28
+E3 quantum cat map at N = 9 (Weil representation, word SSLSLL): U^6 = parity up to phase: True | U^12 = identity up to phase: True | quantum period: 12
+E3 check: U acts on the Weyl displacements as the matrix ((2, 1), (1, 1)) (det 1 mod 9), on all 81 displacements: True | its order mod 9: 12 | trace 3 (A has trace 3)

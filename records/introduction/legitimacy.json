@@ -1,0 +1,117 @@
+{
+ "_about": "The case for the legitimacy of Omega42 as the Introduction sets it out (Core IN-00; Companion Part 143): each argument, the paragraph that makes it, a phrase that stands in it word for word, the parts of the Core that ground it, the objection it meets, and how far the Introduction set it out before this output (an audit record). python3 tools/intro_output.py --legitimacy checks in CI that every argument stands in the Introduction and every ground in the Core. LG-10, the tenth argument, is held in Companion Part 216.3 (Core Part 0.0.5 Rule 35).",
+ "arguments": [
+  {
+   "id": "LG-01",
+   "argument": "Supposing is a way of knowing: a thought experiment asks what follows from a granted premise, not for belief",
+   "paragraph": "case_method",
+   "anchor": "Such a thought experiment does not ask for belief",
+   "grounds": [
+    "0.6.1 The Protocol as Thought Experiment",
+    "L-505:"
+   ],
+   "objection": "\"A world built on a supposition is only a game.\"",
+   "audit": "ABSENT: the Introduction named the thought experiment but did not argue for the method"
+  },
+  {
+   "id": "LG-02",
+   "argument": "It stands in an old line, Pythagoreanism, Platonism and the mathematical universe hypothesis, and takes the step they leave open by naming the structure",
+   "paragraph": "case_lineage",
+   "anchor": "Omega42 takes that step and names it",
+   "grounds": [
+    "The premise, in full.",
+    "IN-00.8: The Case From Inside."
+   ],
+   "objection": "\"The idea is new and unprecedented, so it has no standing.\"",
+   "audit": "PRESENT"
+  },
+  {
+   "id": "LG-03",
+   "argument": "Its ground is found, not invented; what is made is declared as made, and the components are known while the configuration is the experiment",
+   "paragraph": "case_discovered",
+   "anchor": "The components are known; the configuration is the experiment.",
+   "grounds": [
+    "0.5.1 Discovered Mathematical Bedrock (CDT-A)",
+    "0.5.2 The Constructed Interface",
+    "L-508:"
+   ],
+   "objection": "\"The numbers were chosen to fit.\"",
+   "audit": "PARTIAL: the configuration line stood in the premise paragraph; the discovered and the constructed were not set apart for the reader"
+  },
+  {
+   "id": "LG-04",
+   "argument": "It says what it means by true: truth within the frame as a theorem is true given its axioms, a coherence view, with congruence counted against chance and reported apart",
+   "paragraph": "case_truth",
+   "anchor": "Philosophers call this a coherence view of truth.",
+   "grounds": [
+    "0.6.6 Truth Within the Frame, and the Aperture Register",
+    "L-455:",
+    "L-489:"
+   ],
+   "objection": "\"Calling a reading true begs the question.\"",
+   "audit": "PARTIAL: coherence stood in IN-02.5; the geometry analogy and the coherence view were not given"
+  },
+  {
+   "id": "LG-05",
+   "argument": "It has no outside and does not pretend otherwise, and being closed is not being self-confirming",
+   "paragraph": "case_closure",
+   "anchor": "But being closed is not the same as being self-confirming.",
+   "grounds": [
+    "0.6.8 The INSIDE, the Möbius Closure and Comparative Perspectives",
+    "F-04",
+    "L-470:"
+   ],
+   "objection": "\"A closed system that cannot be refuted is unfalsifiable and empty.\"",
+   "audit": "ABSENT: the closed frame stood in IN-02.7; that closure is not self-confirmation was not said"
+  },
+  {
+   "id": "LG-06",
+   "argument": "It is public: every position recomputed by anyone, the same rules given to AI systems of different makers, agreement and difference recorded",
+   "paragraph": "case_public",
+   "anchor": "which is what philosophers mean by intersubjective",
+   "grounds": [
+    "IN-13: The Same Place",
+    "Part 6.1"
+   ],
+   "objection": "\"Its results depend on one AI or one person.\"",
+   "audit": "PRESENT"
+  },
+  {
+   "id": "LG-07",
+   "argument": "It keeps the last word for the person and proves that it must: the Aperture Theorem, with the is–ought gap and incompleteness behind it",
+   "paragraph": "case_judgment",
+   "anchor": "Omega42 states this as a theorem, the Aperture Theorem",
+   "grounds": [
+    "L-441:",
+    "IN-20: The Aperture Theorem"
+   ],
+   "objection": "\"A machine that reads your question is deciding for you.\"",
+   "audit": "PARTIAL: the theorem and Gödel stood in IN-02 and IN-20; the is–ought gap was absent"
+  },
+  {
+   "id": "LG-08",
+   "argument": "It is candid about the machine: no AI comes to a question empty, so the Navigator says what it added and is compared with others",
+   "paragraph": "case_machine",
+   "anchor": "Omega42 does not hide this or pretend to remove it.",
+   "grounds": [
+    "0.6.10 Sovereignty Through Architecture",
+    "L-506:",
+    "M207"
+   ],
+   "objection": "\"An AI's reading is only its training talking.\"",
+   "audit": "PARTIAL: that the AI states what it added stood in IN-00.11; the executor's condition was not argued"
+  },
+  {
+   "id": "LG-09",
+   "argument": "It is worth using whether or not its premise is true: pragmatism, constraint as an engine of invention, a heuristic",
+   "paragraph": "case_value",
+   "anchor": "Used this way it is a heuristic, a tool for finding",
+   "grounds": [
+    "L-522:",
+    "IN-00.1: What"
+   ],
+   "objection": "\"If the premise is false, the whole is worthless.\"",
+   "audit": "PARTIAL: the purpose stood in IN-00.1; its philosophical ground was not given"
+  }
+ ]
+}

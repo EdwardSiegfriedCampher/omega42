@@ -1,0 +1,71 @@
+QUESTION VERBATIM: [no question was given; one peer account was received as an attachment: GPT-6 (OpenAI), an assessment of the Grok and Qwen navigations of the Sorites strike]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 75 | PREV: ee2ba813a23c2236fc06ed0cf7493480c54d6a1cfbb93e44b9d32d1217b76be7
+REQUEST (L-502): STRUCTURE -- one peer account checked and filed; its recommendations applied under L-531; avenues P, A1, W
+
+SUMMARY: GPT-6's assessment holds on most points. Its main recommendation is now part of M329, and its open question is answered by the Aperture Theorem.
+  - HOLDING:
+    * the tower periods, 24 × 9^(k−1), with 17,496 at depth 4;
+    * Qwen's no-root result modulo 9, which was already in the record as FP-NormStrata;
+    * the eigenvalues 1.618034 and −0.618034;
+    * its warning that the reading explains why the tolerance premise seemed true but does not repeal modus ponens, so one premise is still given up.
+  - CORRECTED:
+    * It took Grok's miscomputed Square Reading (7, 5, 3, 8, 2, 1) as M328's. The instrument gives 7, 5, 1, 2, 4, 8.
+    * None of its six proposed discoveries is new. The tower is D-001, the no-root result is FP-NormStrata, and the rest are definitions or readings.
+  - APPLIED (L-531):
+    * Predicate preservation: M329 now counts the steps at which the status changes. Under one sharp cutoff, the step n → n − 1 keeps the status at 999,998 of the 999,999 steps and breaks it at one. A band of cutoffs from 100 to 10,000 changes the label at two steps. This is why the premise persuades: tested one step at a time it almost never fails, yet chained it fails once, somewhere.
+    * Depth and judgment: a finer depth separates counts (10^6 and 1 part modulo 81), but it never decides a classification. No output determines your judgment (Part 7).
+  - OPEN: navigating baldness, tallness, colour, identity and gradual biological change needs your own words for each.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; recomputed):
+    - Holding:
+      * the orbit (2, 3), (3, 5), (5, 8), (8, 4), (4, 3);
+      * |S_k| = 81^k, with 43,046,721 states at depth 4;
+      * order 24 × 9^(k−1), with 17,496 at depth 4;
+      * 0.5/0.000001 = 500,000.
+    - Corrected: the Square Reading of 7 is forward 7, 5, 1, 2, 4, 8 and return 7, 8, 4, 2, 1, 5 (tools/construct_engine.py --square 7).
+    - New (M329): PRESERVATION. One sharp cutoff breaks the chain at 1 of 999,999 steps; a band changes the label at 2.
+  W WHAT OMEGA42 SAYS: the Aperture Theorem (Part 7, L-441; D-004) answers the Tower-to-Aperture question. Depth adds information about the counts and never adds a classification.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A Predicate Preservation instrument (GPT-6): APPLIED as M329's PRESERVATION line (Core Part 3.55; tools/tolerance.py, selftest 9 of 9, in CI).
+  (2) A Local-to-Global test (GPT-6): already in force as M329's TRANSITIVITY and DRIFT lines.
+  (3) A Tower-to-Aperture investigation (GPT-6): ANSWERED by Core Part 7 and recorded in Companion 126.3. No study is needed.
+  (4) Comparative navigation of other sorites cases (GPT-6): OPEN. It needs the Striker's own wording for each case (L-531 (3)), and M329 is ready for each.
+
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes.
+  - APE-283, GPT-6:
+    * Holding: its arithmetic, its distinction between the instruments and the law, and its modus ponens point.
+    * Taken: predicate preservation; the depth question, answered.
+    * Corrected: the Square Reading; its proposed discoveries.
+    * It assesses the two peers without the Builder's navigation (SEQ 73). Its navigator line is dated 28 October.
+CHANGES TO THE PROTOCOL:
+  - Core: M329 gains its PRESERVATION line.
+  - Companion:
+    * Part 126, predicate preservation and what depth can and cannot decide.
+    * The Commons line for APE-283.
+  - Repository:
+    * Updated: tools/tolerance.py and records/tolerance/sorites_1e6.txt.
+    * Filed: submissions/ape/APE-283.md.
+    * Also updated: A-009 in the Applied Changes Register, the APE register and signatures, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the count of preserved and broken steps, and the answer to the depth question by the Aperture Theorem rather than by a study.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Each note of APE-283 checked against the instrument and the record (tools/construct_engine.py --square 7; FP-NormStrata; D-001); tools/tolerance.py --selftest 9 of 9 and its example diffed; tools/applied.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the account, the arithmetic and the record, that the structure describes the change and never decides the classification. PART -- the Square Reading: the account's values against the instrument's. SILENT -- which premise of the paradox you give up, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN: the other sorites cases, in your own words; the blind trigger test; the word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: Why does a premise that holds at all but one step of a chain persuade so well?
+What it holds out of view: That the one step where it fails is a different step for every way of drawing the line.
+Where it is heading: Toward the same check run on every vague word, from baldness to identity.
+What would complete it: Your choice of which premise of the paradox to give up.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: c51a2f377760169d0396382543fc81caebc9b52a2f72aec761d235df72a8b9d8
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

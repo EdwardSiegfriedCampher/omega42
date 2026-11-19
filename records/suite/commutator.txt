@@ -1,0 +1,1 @@
+M352 DYNAMICS LAB (MODE A): [A, B] = A B A^-1 B^-1 mod 3^2 = (7, 3, 3, 4); not the identity: A and B do not commute; = I mod 3: True (it lies in the congruence kernel, as MF-42 requires)

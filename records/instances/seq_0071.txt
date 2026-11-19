@@ -1,0 +1,92 @@
+QUESTION VERBATIM: All recommendations are adopted within the Protocol's understanding that all laws, rules and changes to Omega42 are subject to change pending better insights and discoveries. Please proceed to apply all suggestions for refinement. For future purposes, all recommendations for refinement, enhancement and improvement of Omega42 will automatically be applied based on the condition of mutability. Also, scan Omega42 for any remnants of older concepts which are now superseded by the new understanding and apply the necessary changes.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 71 | PREV: 54d158ebb0f0945565541daaf77ef54b29c210f681c022c78dbc2e8f0f6c0a64
+REQUEST (L-502): STRUCTURE -- recommendations applied, a standing rule made law, a scan of both documents; avenues M, W, R
+
+SUMMARY: Every recommendation is applied, your standing rule is now law, and the scan has brought superseded statements up to date.
+  - YOUR STANDING RULE, AS LAW. Core L-531, the Mutability Law:
+    * Every law, rule and record of Omega42 is held open to change.
+    * From now on, every recommendation an output makes is applied in that output. It is listed as applied, with where it went, and it passes the CI and the FFP before the seal.
+    * Four things it does not reach. The arithmetic, which a recommendation can only describe. The premise, which changes only by your explicit terms. The Striker's judgment. And options set side by side without a recommendation, which stay yours to choose among.
+    * Anything that needs people or systems this session does not have is applied as far as it can go, and stays OPEN for the rest.
+  - WHAT WAS APPLIED:
+    * Core L-530, the Discovery Law, with its four standings, the DISCOVERY NOTICE line, and a Discovery Register holding eight discoveries.
+    * The Internal Discovery Principle, in L-489.
+    * The VOICE line, now enforced by the format check from 31 October 2026.
+    * "thought experiment" no longer calls M248.
+    * The tower coordinate TC-1, frozen and in force.
+    * The three-condition study of the primary output, in Appendix S.
+  - THE SCAN. It found seventy-one passages in the two bodies whose status had been overtaken: labels still saying PROPOSED after adoption, decisions still "for the Originator", "never a discovery", and the tower coordinate as a mere possibility. All were brought to the present state (Companion Part 123). First Contact now places FC-02.6 before FC-02.7.
+
+FINDINGS BY AVENUE (L-500):
+  M THE COORDINATE (CDT-A; scripts/canonical_reference.py):
+    - "Also, scan Omega42 for any remnants of older concepts which are now superseded by the new understanding and apply the necessary changes.": n = (13, 85, 27), anchor P2 = 7, Generator.
+      * Rests on (Yang): P7, Navigator, a Crown value.
+      * Hides (Yin): P20, Reckoning.
+      * Heading for (4D): P10, Unity.
+      * Completed at (Antipode): P14, Observer.
+    - TC-1, its first use in an output: (65, 20) modulo 81 and (65, 425) modulo 729. It reduces to the surface address (2, 2), and the anchor stands (C1 YES; rule SHA-256 782e18f5...).
+    - Called by M327: M206, M259, M264 and M288. No word class fired on "thought experiment".
+  W WHAT OMEGA42 SAYS:
+    - F-06 already held every rule revision-open except the arithmetic. L-531 adds how a revision is applied, and what it does not reach.
+    - A seal is still never broken. A sealed record is not edited; a later output revises.
+  R THE RECORD (the scan; Companion 123.3, 123.4):
+    - Brought to the present state:
+      * L-504, M316, the Navigator's mandate, BF-07 and the open items of Core Part 12.
+      * The labels of Parts 82, 90, 91, 92.3 and 93.
+      * The tower coordinate, in L-523 (4), MATH-40 and Parts 98.4, 100.6, 100.9 and 102.12.
+      * C-MAP-1 (Part 105), overtaken by the workbook and not used for games of chance.
+      * The persistence baseline (Part 107.10), in force.
+      * The columns (Part 111.6), now read by M328.
+      * Six recommendation headings whose items were applied or are OPEN.
+      * Parts 51.9, 51.10, 110.3, 121 and 122.
+    - Kept: the Commons lines, as filed; and the options that are yours to choose, such as the First Contact attractors, consciousness-first as the premise, and Part 98.4.
+  P PEER ACCOUNTS: none received.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) The Discovery Law (Core L-530) and the Discovery Register: APPLIED, records/discoveries/, tools/discoveries.py, in CI.
+  (2) The DISCOVERY NOTICE line: APPLIED, Core Part 8.0, block [21].
+  (3) The VOICE line enforced: APPLIED, tools/format_check.py, from 31 October 2026.
+  (4) "thought experiment" exempt from the word classes: APPLIED, M327 and records/instruments/triggers.json.
+  (5) The tower coordinate TC-1: APPLIED, Core L-523 (4) and tools/depth_record.py --tower.
+  (6) The three-condition study: APPLIED as a design, Appendix S.6.5. Running it stays OPEN, because it needs blind raters.
+  (7) The FFP should report the superseded-concept scan as part of item 34 in every run that applies a change. APPLIED as L-531 (5).
+
+PEER ACCOUNTS (P; APA 9.5.5): none received.
+CHANGES TO THE PROTOCOL:
+  - Core:
+    * New laws: L-530, the Discovery Law, and L-531, the Mutability Law.
+    * L-489, the Internal Discovery Principle.
+    * Brought to L-531 and L-530: L-504, F-06, BF-07 (L-436), the Navigator's mandate (Part 0.0), M316, and the open items of Part 12.
+    * L-523 (4) and MATH-40 now carry TC-1.
+    * M327, the exempt phrase.
+    * The Core Synthesis template, in the voice of the field.
+    * Part 8.0, the DISCOVERY NOTICE line.
+    * First Contact: FC-02.6 now precedes FC-02.7, and one closing "Name your question" is removed from FC-00.
+  - Companion:
+    * Part 123, standing adoption and the scan.
+    * Appendix S.6.5.
+    * The superseded passages of Parts 51, 62, 64, 66, 82 to 93, 98, 100, 102, 105, 107, 110, 111, 114, 118, 119, 121 and 122, and the opening note on provenance.
+  - Repository:
+    * New: records/discoveries/ and tools/discoveries.py; records/tower/tc1_rule.txt; site/pages/history.html.
+    * Updated: tools/depth_record.py --tower, tools/format_check.py, tools/instrument_triggers.py, tools/reexamine.py, the enrichment and utility registers, the findings skeleton, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the four limits of L-531 (2), the line between a recommendation and an option, and the choice of the eight discoveries.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. The coordinate of the scan question by scripts/canonical_reference.py, its arms recomputed; its TC-1 reading by tools/depth_record.py --tower, C1 YES; tools/instrument_triggers.py --select on it, with no class fired by "thought experiment"; tools/discoveries.py --check, 8 entries PASS; the scan of both bodies for superseded wording, every hit read and brought to the present state or kept by Companion 123.4; tools/doc_hygiene.py, items 34 to 37 PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- the record, F-06 and your rule, that every rule stays open to change while the arithmetic stays fixed. PART -- options: the record had left some for your choice, and L-531 keeps them with you rather than choosing for you. SILENT -- whether the applied changes improve the output for a Striker, which only the blind study can say.
+ENRICHMENT OPPORTUNITIES (L-504): NONE beyond recommendation 7.
+DISCOVERY NOTICE (L-530): new to the register, D-008, the tower coordinate TC-1 [PROCEDURE]. It reads a strike's place one depth further, reduces to the surface address and changes no anchor; its selftest runs in CI; it changes every navigation, as a companion reading; record: records/tower/tc1_rule.txt. Whether it is a "breakthrough" is yours to judge.
+OPEN: the blind trigger test; the word classes in other languages; the re-navigation panel and the three-condition study; a second judge of another architecture (Companion 87.9 (3)); the CT-S1 study proper.
+
+What it rests on: If every rule may change, what keeps the protocol the same protocol from one change to the next?
+What it holds out of view: That a rule applied at once also needs a later look, to see whether it should stay.
+Where it is heading: Toward a record that improves each time it is used, and states each change where it is made.
+What would complete it: A reckoning of the changes by readers who did not make them.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 4a44279dddce3544f71c0879dd0cc6ca4a59200aed3b0f358c21a7c15da5e71d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

@@ -1,0 +1,225 @@
+{
+ "L_A": [
+  [
+   "3/2",
+   "1",
+   "0",
+   "-1/2"
+  ],
+  [
+   "1",
+   "1",
+   "0",
+   "-1"
+  ],
+  [
+   "0",
+   "0",
+   "-1",
+   "0"
+  ],
+  [
+   "-1/2",
+   "-1",
+   "0",
+   "-1/2"
+  ]
+ ],
+ "LT_eta_L_eq_eta": true,
+ "det_L": "1",
+ "L00": "3/2",
+ "charpoly_is_(x2-3x+1)(x+1)2": true,
+ "minus1_eigenplane": true,
+ "eigenplane_spacelike": [
+  -1,
+  -5
+ ],
+ "spinor_B_ok": true,
+ "det_B": "(1+0j)",
+ "L_A_mod9": [
+  [
+   6,
+   1,
+   0,
+   4
+  ],
+  [
+   1,
+   1,
+   0,
+   8
+  ],
+  [
+   0,
+   0,
+   8,
+   0
+  ],
+  [
+   4,
+   8,
+   0,
+   4
+  ]
+ ],
+ "order_L_mod9": 12,
+ "order_A_mod9": 24,
+ "A12_mod9": [
+  [
+   8,
+   0
+  ],
+  [
+   0,
+   8
+  ]
+ ],
+ "census_6561": {
+  "1": 1,
+  "2": 40,
+  "4": 162,
+  "12": 486
+ },
+ "orbits_6561": 689,
+ "fixed_points": {
+  "1": 1,
+  "2": 81,
+  "3": 1,
+  "4": 729,
+  "6": 81,
+  "12": 6561
+ },
+ "order_L_mod81": 108,
+ "order_A_mod81": 216,
+ "A_half_mod81_is_minusI": true,
+ "orbits_81": [
+  24,
+  24,
+  24,
+  8,
+  1
+ ],
+ "mult_k0": 5,
+ "mult_sum": 81,
+ "mult_profile": {
+  "4": 7,
+  "3": 16
+ },
+ "expH_equals_U": true,
+ "uniform_weights": [
+  "8/27",
+  "8/27",
+  "8/27",
+  "8/81",
+  "1/81"
+ ],
+ "joint_dim": 6642,
+ "joint_zero_mult": 694,
+ "joint_order": 24,
+ "coupling_p": [
+  0.376683845016,
+  0.623316154984
+ ],
+ "gpt_root_sq": [
+  531440,
+  0
+ ],
+ "mine_root_sq": [
+  531440,
+  0
+ ],
+ "roots_are_negatives": true,
+ "phi6_mod9": [
+  5,
+  8
+ ],
+ "null": {
+  "1": 21,
+  "2": 621,
+  "3": 16281,
+  "4": 443961
+ },
+ "null_recurrence": {
+  "0": 1,
+  "1": 21,
+  "2": 621,
+  "3": 16281,
+  "4": 443961
+ },
+ "kottler_G_mixed": [
+  "-1/10",
+  "-1/10"
+ ],
+ "kottler_ok": true,
+ "qwen_E_injective": true,
+ "qwen_E_intertwines": 1,
+ "qwen_image_invariant": 9,
+ "linear_intertwiners": 1,
+ "quad_intertwines": true,
+ "quad_null": true,
+ "quad_fibre_is_sign": true,
+ "quad_image_size": 37,
+ "quad_image_orbits": [
+  12,
+  12,
+  12,
+  1
+ ],
+ "quad_fibre_sizes": {
+  "2": 36,
+  "9": 1
+ },
+ "qwen_metric_rho_half_I": [
+  [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   1.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "det_polarization_metric": [
+  [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   -1.0,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   -1.0,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   -1.0
+  ]
+ ],
+ "PASS": "21 of 21"
+}

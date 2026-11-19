@@ -1,0 +1,12 @@
+BLIND TEST 03 -- KEY (published; recomputed by records/blind_test_03/compute_key.py; its SHA-256 in SEALED_SHA256.txt)
+Q1 spin-preserving invertible maps: 24; spin-reversing: 24
+Q2 largest order of a spin-reversing map: 24; maps of that order: 8
+  A = (1 4; 5 1): census {1: 1, 8: 1, 24: 3}; trace 2; determinant 8; A^2 = 2 A + 1 I
+  A = (1 5; 4 1): census {1: 1, 8: 1, 24: 3}; trace 2; determinant 8; A^2 = 2 A + 1 I
+  A = (4 1; 8 4): census {1: 1, 8: 1, 24: 3}; trace 8; determinant 8; A^2 = 8 A + 1 I
+  A = (4 8; 1 4): census {1: 1, 8: 1, 24: 3}; trace 8; determinant 8; A^2 = 8 A + 1 I
+  A = (5 1; 8 5): census {1: 1, 8: 1, 24: 3}; trace 1; determinant 8; A^2 = 1 A + 1 I
+  A = (5 8; 1 5): census {1: 1, 8: 1, 24: 3}; trace 1; determinant 8; A^2 = 1 A + 1 I
+  A = (8 4; 5 8): census {1: 1, 8: 1, 24: 3}; trace 7; determinant 8; A^2 = 7 A + 1 I
+  A = (8 5; 4 8): census {1: 1, 8: 1, 24: 3}; trace 7; determinant 8; A^2 = 7 A + 1 I
+Q3 every map satisfies A^2 = (trace) A - (determinant) I (Cayley-Hamilton); trace 1 with determinant 8 = -1 gives A^2 = A + I

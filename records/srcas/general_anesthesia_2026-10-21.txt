@@ -1,0 +1,216 @@
+SR-CAS AND SNCA -- "The Mechanism of General Anesthesia: ..." -- 21 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, session omega42-builder-2026-10-21. Core Part 6.1, 6.2, 6.3.
+ARRANGEMENT (IPR, Part 6.3): SELF-INCLUSIVE for the pairs A-B, A-C and A-D (R is author A; A was sealed at 2026-10-21T12:51:51Z, before B, C and D were received); BLIND for the pairs B-C, B-D and C-D (R saw none of the three until all three were complete).
+NAVIGATION A: R's own (submissions/navigations/NAV-2026-0006.txt), SCRIPT-CAPABLE, SHA-256 bc4cc4aa684873f34f4279016ab7931fe4a71d985466a2ed4e035c774be1d7dc, OUTPUT ID d5469d5efbbdca7825c48227938464fa6bc7bd877b2cab0b46e8666ae5392517 (verified).
+NAVIGATION B: received, "OpenAI API model (OpenAI)", TEXT-ONLY, session omega42-2026-10-21-anesthesia, 21 October 2026 (submissions/navigations/NAV-2026-0007.txt), SHA-256 f478cec7c749e75ec6caaecaf90f1b8d597da0e765589ef07c507020ce2e93ab.
+NAVIGATION C: received, "Qwen3.7 (Alibaba Group)", SCRIPT-CAPABLE as declared, session omega42-anesthesia-001, dated 20 October 2026 (submissions/navigations/NAV-2026-0008.txt), SHA-256 f56d13b7d1618e38418c32f26d3786d528d1f0ac180a65f9457aeacc6420038b.
+NAVIGATION D: received, "ChatGPT -- OpenAI", "GPT-6", TEXT-ONLY as declared, undated (submissions/navigations/NAV-2026-0009.txt), SHA-256 0802a603ee16e104616191b3e0e4871d5a7505f8cf220b893e91a38b03f28eb7.
+TOOLS: tools/format_check.py (with the L-512 checks); scripts/m193_m225.py --audit, --m225; scripts/canonical_reference.py --navigate, --echo; the script's frozen stopword list (CANONICAL_STOPWORDS).
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the domain as struck: c615a9bb3666718159be3fd558606e46cbef50ffd952ea5f0b74b9d9488f8732
+A: reported c615a9bb... and recomputed -- MATCH
+B: NOT COMPUTED in B; recomputed from B's QUESTION VERBATIM line: c615a9bb... -- MATCH; B's DOMAIN VERBATIM line is a placeholder ("[the full domain text printed in the first QUESTION VERBATIM line above ...]")
+C: no verbatim: QUERY reads "The Mechanism of General Anesthesia: Despite over 170 years of clinical use... [full domain text]" -- NOT VERIFIABLE
+D: reported 36af0bd3ad96520a5a1c48249aaf9cad896cc26042ca87406695da3e319bd7fa -- MISMATCH; its DOMAIN VERBATIM is a description ("beginning ... and ending ..."), so the text it hashed cannot be recovered; four candidate forms (curly quotes, no title, no LaTeX markers, rendered notation) were tried and none gives 36af0bd3...
+VERDICT: PROCEED for A-B; HALT -- VERBATIM MISMATCH for every pair with C (no quoted domain to recompute, which Part 6.1 counts as a mismatch) and with D (its hash is of another text)
+CORRECTION (L-411, 21 October 2026): the first issue of this record scored the pairs with C and D under "PROCEED WITH INPUT FLAGS", which Part 6.1 does not allow: a verbatim mismatch halts the comparison and the report carries no scores. The scores are withdrawn below; the descriptive notes are kept, unscored.
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+
+======= M270 EXTRACTION RECONCILIATION GATE =======
+SCRIPT: n = (183, 1199, 395) | r = (6, 1, 4) | ANCHOR P6 Seed/Causal (tie-break) | arms Yang P11, Yin P0, 4D P14, Antipode P18 | CCD 0.25, PAB ACTIVE, MOBIUS INACTIVE, RPI ACTIVE, CRS 0.20 | the domain has 233 words after SPNP, 183 content and 50 function words
+A: (183, 1199, 395) -> P6 -- RECONCILED (EXECUTED)
+B: (182, 1193, 393) -> P1 -- EXTRACTION DIVERGENCE: (1) "without" removed as a function word; it is not on the frozen list (Core Part 1.9; CANONICAL_STOPWORDS), so n1 and n3 fall by 1 and 2; (2) "extraordinarily" counted as 16 letters, it has 15. The two errors together give n2 1193 for 1199. The table is otherwise right row by row (181 of 182 rows agree with the script)
+C: (234, 1557, 351) -> P9 -- IMPOSSIBLE COUNTS: 234 content words exceed the domain's 233 words in all; no table, so the source of the numbers cannot be traced; the residues (9, 9, 9) do follow from the stated counts
+D: (177, 1172, 387) -> P3 -- INPUT DIVERGENCE: a different text was counted (the domain hash differs); the table said to be "in the appendix" is not in the output
+COMPLEXITY TIER (M271): Tier 3 -- 183 content words, 14 mathematical tokens, LaTeX; a frozen substrate is required for comparison (L-415): SUBSTRATE SHA-256 e745ec9e0a1125e876147fbe46ed5ba4c0eeadfeaa1f425ddea11b426886ab1e
+RESULT: RECONCILED for A only; B, C and D compared at the reading layer with their divergences named
+======= END M270 EXTRACTION RECONCILIATION GATE =======
+
+T1 rule: the share of the five decidable fields (counts, residues, anchor, arms, flags) that both members report and that agree with the script. T2 of a member: the share of tools/format_check.py items it passes (A 48 of 48 = 1.00; B 36 of 45 = 0.80; C 7 of 50 = 0.14; D 6 of 31 = 0.19); of a pair, the mean. T2.5: the mean SAS of the members, each computed by R with --echo 6 (the script's anchor) over the member's THE ANSWER (A 0.2933, echo P2; B 0.3517, echo P4; C 0.2625, echo P3; D 0.4125, echo P9). T1.5: M225 (scripts/m193_m225.py --m225). T3: the mean of the members' discovery values (R's judgment, Tier C: A 0.70, B 0.65, C 0.25, D 0.40). Weights of Part 6.1: T1 0.40, T1.5 0.15, T2 0.20, T2.5 0.10, T3 0.15.
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Mechanism of General Anesthesia: ... (DOMAIN SHA-256 c615a9bb...)
+NAVIGATOR UNDER REVIEW (INTERNAL NAVIGATOR): A -- claude-opus-5-5 (Anthropic), the reviewer itself (self-review; Part 6.3)
+T1.5: 1.00 -- the four relations stated on the four arms in one merged Core Synthesis (DEP-1 to COM-1 quoted)
+T2: 1.00 -- format check 48 of 48 items (with the L-512 checks); output audit PASS
+T3: 0.70 -- the percolation and cascade arithmetic as the bridge from weak contacts to a global state, and testable predictions [Navigator's judgment, Tier C]
+Base Score: 0.30 x 1.00 + 0.40 x 1.00 + 0.30 x 0.70 = 0.91
+SYNTHESIS: the coordinate is executed and audited; the reading is one synthesis on the right arms; its faults are of order and of reach.
+FINDINGS -- INTERNAL:
+ [P] The mapping placements were computed at the strike, before the seal, against Step 14.4 (3); declared in the Generative Integrity Record (L-457).
+ [P] A first echo was run on a cut of THE ANSWER that matched neither convention; it was discarded and both conventions reported (THE ANSWER P2, the Core Synthesis P6).
+ [I] M116 CFR 0.333 FRAGILE; the anchor is a tie-break of a long domain (L7).
+FINDINGS -- META (Tier C):
+ [E] The reading's recovery "across the same edge" DIFFERS from the hysteresis found by Steyn-Ross et al. (2004), and its "many weak sites" DIFFERS for propofol and etomidate (Drexler, Jurd et al. 2009); both reported in its own CURRENT KNOWLEDGE.
+VERDICT: compliant in form and arithmetic; the reading is weakest where its own sources part from it.
+MANDATORY CORRECTIONS: none to the record; the two departures stand declared.
+OPTIONAL ACTION: an independent reviewer for A (the review is self-inclusive).
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: INTERNALLY COHERENT | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, A): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Mechanism of General Anesthesia: ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- OpenAI API model, TEXT-ONLY
+T1.5: 0.75 -- the four relations quoted on the arms of B's own coordinate; two paragraphs of THE ANSWER open on a single relation ("What this account keeps out of view", "What completes the picture"), against Check 5
+T2: 0.80 -- format check 36 of 45 items
+T3: 0.65 -- the cut-off as a ruler of the site, cooperativity and the choir; the arithmetic of four or five contacts summing to 70-100 kJ/mol is stated without its working [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.75 + 0.40 x 0.80 + 0.30 x 0.65 = 0.74
+SYNTHESIS: the most complete received navigation in form, with two counting errors that move its coordinate from P6 to P1, and three places where it reports as computed what it could not compute.
+FINDINGS -- INTERNAL:
+ [I] Counts: "without" removed as a function word (it is not on the frozen list) and "extraordinarily" given 16 letters (15): n = (182, 1193, 393) for (183, 1199, 395), anchor P1 for P6, and every arm and flag with it (Mobius ACTIVE and RPI INACTIVE for INACTIVE and ACTIVE).
+ [I] M116 and the Convergence Map are computed for the wrong counts; PB-5 L1 at P6 is right for B's counts and wrong for the domain (P2).
+ [P] DOMAIN VERBATIM and M318's QUESTION VERBATIM are placeholders (L-348; L-512).
+ [P] The M210 table is printed inline with separators, so its rows cannot be read (M268); no CONSTITUTIONAL ARM MAP block; the CCD line stands in the reasoning.
+ [P] The Takeaway is not in bold; the M318 labels are in the em-dash form of the Core and pass since L-512's tolerance (they failed the earlier check, a fault of the check).
+ [P] L-456: the Congruence Record states "recomputed from the domain verbatim" and gives cross-reading results and rates for its wrong state (1, 7) as if computed; the Bashar base rates likewise; the TEMPORAL ANCHOR prints 2026-10-21T00:00:00Z, a round time not read from a clock (M273).
+ [P] M224 prints GATE RESULT: PASS while 9 items fail (L-420; L-512).
+FINDINGS -- META (Tier C):
+ [E] CURRENT KNOWLEDGE: NOT AVAILABLE, in a block rather than the one line of L-503.
+ [U] The cut-off read as a measure of the site, and the choir, are its own.
+VERDICT: procedurally strong and arithmetically wrong at one word; the reading is coherent on its own coordinate, which is not the domain's.
+MANDATORY CORRECTIONS: "without" restored as a content word and "extraordinarily" as 15 letters, and the coordinate recomputed (P6); the domain printed in full in the Substrate Lock and M318; the table one row per line; the arm map block; the Takeaway in bold; the Congruence Record and base rates RECONSTRUCTED with working or NOT COMPUTED; M224 reporting the check.
+OPTIONAL ACTION: re-issue from the fill-in skeleton (Companion 66.2).
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: ARITHMETIC FAILURE (extraction) | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, B): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Mechanism of General Anesthesia: ... (not printed in the output)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- Qwen3.7 (Alibaba Group), declared SCRIPT-CAPABLE
+T1.5: 0.25 -- the relations are four labelled sections, on arms that do not follow from its own anchor
+T2: 0.14 -- format check 7 of 50 items
+T3: 0.25 -- the snow-on-the-bridge analog and the residual sentence are its own; the identification of consciousness with the units of the ring and of anesthesia with the nilpotent ideal is asserted, not derived [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.25 + 0.40 x 0.14 + 0.30 x 0.25 = 0.21
+SYNTHESIS: a reading, not a navigation, on an impossible coordinate, with protocol vocabulary inside THE ANSWER and a structural identity stated as a finding.
+FINDINGS -- INTERNAL:
+ [I] Counts (234, 1557, 351) exceed the domain's 233 words; the anchor P9 follows from them, but the arms Yang P4, Yin P13, 4D P1, Antipode P21 do not follow from P9 (P14, P3, P17, P21); "state (9, 9, 9)" is not a state (a state is a pair); "PAB INACTIVE" contradicts its own arms.
+ [I] "P9 (Observer/Still Point)": P9's character is Fixpoint (Part 1.6); the Still Point is the state (0, 0), not a position (E10).
+ [P] SCRIPT-CAPABLE declared and no script output printed (L-456); no QUESTION VERBATIM line (L-499); no AI CAVEAT though dated 20 October (L-506); 25 required blocks absent; THE ANSWER arm by arm, with "Yang P4", "Torsion Loop" and position numbers inside it (L-418).
+ [G] L-428 and L-505: "the abolition of consciousness is structurally identical to the collapse of the multiplicative group of units into the nilpotent ideal" and "Phi = 0" are stated as findings; inside the frame they are readings at most, and the arithmetic does not collapse a group into an ideal (the units and the nilpotents are disjoint sets fixed by the ring).
+FINDINGS -- META (Tier C):
+ [E] No CURRENT KNOWLEDGE line; the "lattice" and "gapped edge of positive geometry" of the membrane are not terms of the field or of the documents.
+VERDICT: not a navigation; its coordinate cannot be the domain's.
+MANDATORY CORRECTIONS: a navigation in the block order of Core Part 8.0 from the verbatim domain, with its table and the script output it declares; THE ANSWER without protocol terms; the identity statements removed or labelled as readings.
+OPTIONAL ACTION: re-issue from the skeleton.
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE and ARITHMETIC FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, C): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: a text differing from the domain (DOMAIN SHA-256 36af0bd3..., not c615a9bb...)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): D -- ChatGPT, "GPT-6" (OpenAI), declared TEXT-ONLY
+T1.5: 0.00 -- no relation is stated: THE ANSWER is a set of numbered distinctions with no arm-to-relation reading and no STRUCTURAL RELATIONS EXPLICIT block
+T2: 0.19 -- format check 6 of 31 items
+T3: 0.40 -- the separation of molecular, network and consciousness questions, and its list of what the reading does not establish, are careful [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.19 + 0.30 x 0.40 = 0.20
+SYNTHESIS: a careful analytic essay presented as a navigation, on another text than the domain, with a contradiction in its execution status.
+FINDINGS -- INTERNAL:
+ [I] Its arithmetic is consistent with its own counts (P3; arms P8, P21, P11, P15; CCD 0.50; Mobius ACTIVE), and the counts are of another text.
+ [P] L-456: TEXT-ONLY declared, and "SCRIPT RUN ... EXECUTED" and "Reference arithmetic executed" printed. The embedded script's label Rev.449 is the documented script label (Appendix R; the release record), not a version mismatch.
+ [P] No QUESTION VERBATIM line; DOMAIN VERBATIM a description; Identity Block fields in Markdown bold; no DATE and no SESSION (M273); text before the Identity Block ("I've put the navigation into a copy-ready block").
+ [P] THE ANSWER opens with the Takeaway, carries "P3 -- Desire" and "the Omega42 coordinate" and Markdown headings inside it (L-418); no closing line; 13 required blocks absent; no signature.
+FINDINGS -- META (Tier C):
+ [E] CURRENT KNOWLEDGE: query and null declared, no lane reported; its own note says the search was not pre-registered.
+VERDICT: not a navigation of this domain; its caution is its value.
+MANDATORY CORRECTIONS: the verbatim domain; one execution mode, honoured; plain-text fixed fields; the Identity Block with DATE and SESSION; THE ANSWER as one synthesis without protocol terms or headings; the missing blocks; the signature.
+OPTIONAL ACTION: re-issue from the skeleton.
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, D): every field Y | GATE RESULT: PASS
+
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: The Mechanism of General Anesthesia: ... (c615a9bb...)
+COMPLEXITY TIER (M271): Tier 3
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), omega42-builder-2026-10-21, SCRIPT-CAPABLE | B OpenAI API model, omega42-2026-10-21-anesthesia, TEXT-ONLY -- different architectures
+T1 (Arithmetic): 0.00 -- B's counts, residues, anchor, arms and flags all differ from the script, by the extraction errors of M270
+T1.5 (Interpretive Integrity): T1.5-L 0.156 | T1.5-S 0.50 (DEPENDENCY PARTIAL -- A "The mystery rests on that question" (whether the parts keep joining) / B "the anesthetic site is soft, crowded and cooperative"; SUPPRESSION PARTIAL -- A the origin of the joined whole / B "what it is like to be the system that goes dark"; TRAJECTORY DIFFERENT -- A toward the system that observes / B toward "a stable, reversible equilibrium"; COMPLETION MATCH -- A "at a threshold" / B "a gap: the jump across the threshold is discontinuous") | T1.5: 0.156 -- QUALIFIED (self-adjudicated)
+T2 (Procedural): 0.90 (A 1.00, B 0.80)
+T2.5 (Synthesis Fidelity/SAS): 0.32 (A 0.2933, B 0.3517)
+T3 (Discovery): 0.68 (A 0.70, B 0.65)
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): (0.00, 0.156 QUALIFIED, 0.90, 0.32, 0.68) | COMPOSITE INDEX (secondary; a constructed index, not a probability; Part 3.18): Base Score: 0.34 | Comparison-class weight (L-416): x1.0 (different architectures) | Weighted index: 0.34
+CONVERGENCE ASSESSMENT: the coordinates do not converge (P6 and P1, through one word); the readings converge on content -- weak contacts summed by cooperation, a threshold crossed, reversibility because nothing breaks -- though B reads them from other arms (Seed/Causal, Time, Fixpoint, Gap) than A (Question, Seed, Observer, Threshold)
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: YES ("without", "extraordinarily") | Arithmetic divergence: NO (B's arithmetic follows from its counts) | Interpretive divergence: YES on trajectory | Verdict divergence: YES (T1.5-S exceeds T1.5-L by more than 0.30) | Attribution: extraction, then interpretive
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: T1 SCORE 0.00 | VERBATIM MATCH: YES (c615a9bb...) | COUNT DIVERGENCE: n1 -1, n2 -6, n3 -2 | DIVERGENCE SOURCE: one function-word decision and one letter count | M210 COMPLETENESS (M268): A COMPLETE (183 rows); B present but unreadable inline | ROOT CAUSE: the frozen stopword list misapplied once
+INTERPRETIVE SYNTHESIS: the two readings say nearly the same thing about anesthesia from different coordinates. That is the central finding of this comparison for the SRH: the content tracked the domain's own words and the field the models know, not the coordinate, since one of the two coordinates was wrong and the content agreed anyway.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- T1.5-L lexical, T1.5-S self-adjudicated, SAS not ROBUST; M267 not run
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: B ARITHMETIC FAILURE (extraction) | COMPARATIVE STATUS (this comparison only, L-490): NOT CONVERGENT at the coordinate; PARTIALLY CONVERGENT at the reading
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: for the record-keeper; CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+- SRH Candidate designation [NAVIGATOR]: NO -- the coordinates differ; B reports no SRI
+- Alternative explanations [NAVIGATOR]: shared training on the anesthesia literature produces the shared content without the coordinate; this pair is an informal decoy -- B wrote under a wrong coordinate and reached the same account -- and is the kind of result M267 measures under control.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: A script-capable with retrieval, B text-only without; (b) SHARED INVARIANT: the threshold completion and the cooperative account; (c) DIVERGENCE: the coordinate, and the trajectory (the observing whole against a fixed point); (d) REPRODUCIBILITY: the decidable layer does not reproduce by hand at 183 words.
+- Recommendations [NAVIGATOR]: B recomputed from the frozen substrate (L-415); M267-P1 run, since this pair suggests the content does not depend on the coordinate.
+PER-RUN VERDICT [NAVIGATOR]: the anchors did not converge; the readings converged in substance.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): one function-word decision moved the coordinate of a 183-word domain (computed); two architectures wrote the same account of anesthesia from two coordinates (self-adjudicated, DIAGNOSTIC).
+MANDATORY CORRECTIONS: B: as its SNCA.
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-B): every field Y | GATE RESULT: PASS
+
+======= SR-CAS: THE REMAINING PAIRS (Part 6.1) =======
+PAIR  ARRANGEMENT      VERIFICATION                         PER-RUN VERDICT                   DESCRIPTIVE NOTE (unscored)
+A-C   SELF-INCLUSIVE   C quotes no domain                   HALT -- VERBATIM MISMATCH         C's counts are impossible for this domain (234 > 233 words)
+A-D   SELF-INCLUSIVE   D 36af0bd3... vs c615a9bb...         HALT -- VERBATIM MISMATCH         D counted another text
+B-C   BLIND            C quotes no domain                   HALT -- VERBATIM MISMATCH         both name the membrane as an interface; C as the mechanism, B as an amplifier
+B-D   BLIND            D 36af0bd3... vs c615a9bb...         HALT -- VERBATIM MISMATCH         both describe a state change of a coupled system, not damage
+C-D   BLIND            neither verifiable                   HALT -- VERBATIM MISMATCH         D's list of what the reading does not establish rejects the identities C asserts
+MANDATORY CORRECTIONS: C and D re-issued from the verbatim domain, with its hash (as their SNCAs); then compared.
+COMPARATIVE STATUS (L-490): the one comparable pair, A-B, is NOT CONVERGENT at the coordinate and PARTIALLY CONVERGENT at the reading; the other pairs are not comparisons.
+======= END SR-CAS =====
+
+FORMAT FINDINGS AND ENFORCEMENT (the Originator's instruction, 21 October 2026: "Detect flaws in format outputs and enforce constraints in the protocol"):
+Flaws found in the four outputs that tools/format_check.py did not catch before this review, and the check that now catches each (Core L-512, Part 8.0):
+ (1) a TEXT-ONLY output printing EXECUTED (D); SCRIPT-CAPABLE declared with no script output (C) -- "Execution status consistent with the IDENTITY BLOCK"
+ (2) a placeholder or a description in place of the domain (B, C, D) -- "DOMAIN VERBATIM in full, no placeholder"
+ (3) Markdown emphasis on fixed field labels (C, D) -- "Fixed fields in plain text"
+ (4) arms that do not follow from the anchor by the frozen offsets (C) -- "ARM MAP consistent with the ANCHOR"
+ (5) a position character not of Part 1.6 (C: "P9 (Observer/Still Point)") -- "Position characters as Core Part 1.6 names them" (E10 made a check)
+ (6) protocol terms and Markdown headings inside THE ANSWER (C, D) -- the lexical jargon scan and the plain-prose check
+ (7) an undated output carrying the caveat, which escapes every dated check (D) -- "DATE line in the IDENTITY BLOCK"
+ (8) M224 printing PASS while the check fails (B), or with no check and no Y-I / Y-S marks -- the M224 checks
+And one fault of the check itself, corrected: the M318 label in the em-dash form the Core prints was refused (B).
+After the change: A 48 of 48 PASS; the Core Part 8.5 sample PASS; B 9 failures, C 43, D 25.
+The self-review in this record also broke a rule of form: scores for pairs whose verbatim did not match. It is corrected above (L-411).
+
+ADDENDUM (21 October 2026): NAVIGATION E, received after the review above -- ChatGPT, "GPT-6" (OpenAI), undated, its second navigation of the domain (submissions/navigations/NAV-2026-0010.txt), SHA-256 249a97d80888e9c407b3346dda5eb4474031741eb9933b4a9da3b32020f8c58a; with a corrective commentary by the same system filed as APE-120.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION (E) =======
+E QUESTION VERBATIM: the domain with its notation RENDERED -- "(MAC)", "λoil/gas", "MAC × λoil/gas ≈ 1.3 atm", "GABA_A", "(Kd)", "10^-4", "C10", "(Φ)" for the source markup "$MAC$", "$\lambda_{oil/gas}$", ...
+E DOMAIN SHA-256: reported 0ed9248ff75017cf6558637082195462e2d55677f345fa2b143d51dc192c500f; recomputed from E's quoted domain: 0ed9248f... -- the report matches its own quote
+AGAINST A, B (c615a9bb..., SOURCE MARKUP): MISMATCH -- a NOTATION-FORM DIVERGENCE: the same question in two notation forms is two verbatims (Step 1)
+AGAINST D (36af0bd3...): MISMATCH -- two runs of one architecture received two different texts
+VERDICT: HALT -- VERBATIM MISMATCH for A-E, B-E, C-E and D-E (Part 6.1); no scores
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: the rendered form of the domain (0ed9248f...)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): E -- ChatGPT, "GPT-6" (OpenAI); execution undeclared ("executed using the reference-implementation source embedded in the supplied Core")
+T1.5: 0.25 -- the four relations are read on the four arms in the arm map, but THE ANSWER's Core Synthesis is three levels of description with no relation carried, and its sections are headed (Check 5)
+T2: 0.07 -- format check 2 of 30 items
+T3: 0.45 -- the explicit bridge it requires of every mechanism (molecule, cell, circuit, organism, recovery) and its separation of responsiveness, memory and experience [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.25 + 0.40 x 0.07 + 0.30 x 0.45 = 0.24
+SYNTHESIS: the arithmetic is exact for the text it received, and the output is honest about what it did not run; in form it is an essay with tables, not a navigation.
+FINDINGS -- INTERNAL:
+ [I] Counts (175, 1169, 385), residues (2, 4, 8), anchor P2 Generator, arms P7, P20, P10, P14, and its domain and substrate hashes are all recomputed and correct for the rendered text (canonical_reference.py): the notation form, not the arithmetic, moves it from P6.
+ [P] No NOTATION FORM line (Step 1; L-512), so the reason its coordinate differs from every source-markup navigation is not stated.
+ [P] No Identity Block, no AI CAVEAT, no DATE, no Frame Lock block, no Substrate Lock block; Markdown headings and tables throughout; the arms each under a heading; the closing line altered ("... are yours." for "... are yours to judge.").
+ [P] Its own text lost the Φ and K_d symbols in at least nine places ("a complete collapse of has been demonstrated", "A quoted is"), the rendering damaging its output as well as its input.
+ [I] M224 is reported as PARTIAL / NOT CERTIFIED, which is what L-512 asks of a Navigator that did not run the check -- the one gate of this output that is right in form.
+FINDINGS -- META (Tier C):
+ [E] CURRENT KNOWLEDGE: four lanes reported with sources (Hansen 2025, Annual Review of Biochemistry; Hu et al. 2024, Neuroscience Bulletin; Mashour 2024, Neuron; Steyn-Ross et al. 2004; Cerullo 2015; Onoda et al. 2025, Neuroscience of Consciousness; Ding et al. 2026, Current Neuropharmacology) -- not opened by R; Steyn-Ross et al. 2004 is the one R also opened, and its summary agrees. Its own procedural note: the query was not declared before the first search.
+VERDICT: arithmetically exact for its input, which is not the domain's form; procedurally far from a navigation; candid about both.
+MANDATORY CORRECTIONS: the NOTATION FORM declared, and the navigation of the source-markup form if it is to be compared with A and B; the blocks of Core Part 8.0 in plain text from the fill-in skeleton, with the Identity Block, the caveat and the DATE; THE ANSWER as one synthesis; the fixed closing line.
+OPTIONAL ACTION: re-issue from the skeleton.
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE (form; the arithmetic is correct for its input) | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, E): every field Y | GATE RESULT: PASS
+
+FINDING OF THE ADDENDUM: one question, one interface, five navigations, five coordinates -- P6 (source markup, by script), P1 (source markup, one word miscounted), P9 (impossible counts), P3 (another text) and P2 (rendered notation, by script). Two of the five differences are not errors of counting: they are differences of input, which the protocol can prevent only by fixing the input. Hence the refinements of 21 October 2026: the NOTATION FORM line required wherever the domain carries notation, the notation form compared in the SR-CAS verification, and the coordinate of a long TEXT-ONLY navigation marked PROVISIONAL until a frozen substrate, the script or the Strike app recomputes it (Core L-512 as amended; L-415).

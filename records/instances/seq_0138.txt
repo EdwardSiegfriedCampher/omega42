@@ -1,0 +1,49 @@
+QUESTION VERBATIM: "SU(9)₁×SU(9)₁: CERTIFIED at depth 3, with depth 4 waiting on blind test 03;"?? Blind tests belongs in the Scientific Appendix. Omega42 does not wait for validation. Please examine.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 138 | PREV: f56f5c423f23aa9c4ba395deb7802f9fc85d502fcbb8d009f890bbba1cb6ba18
+REQUEST (L-502): PROTOCOL -- why a certificate held SU(9)_1 x SU(9)_1 at depth 3 with depth 4 "waiting on blind test 03"; avenues A1, R, N
+THE STRIKING FINDING (L-546): the wait was never in the structure. The depth scale is structural -- its depths "descriptions, not gates" -- and run 11 had already computed everything depth 4 asks of SU(9)_1 x SU(9)_1: its spins are the golden form, the law T is one of its time-reversal symmetries, the eight of order 24 generate the cyclic group of T, and its symmetries sort its 81 anyons into the family's five orbits. One clause of one criterion held it back: that the identification be made blind, by someone who did not build it -- a condition on who finds a structure, not on the structure. That clause now stands in the Scientific Appendix, where tests belong, and Ω42 counts the first object at depth 4.
+
+SUMMARY: WHAT CHANGED: criterion C8 split -- the independence of the object stays a criterion of depth, the blind arrangement moves to Appendix S beside the depth; S7 of the profile read as reproduction; SU(9)_1 x SU(9)_1 at depth 4 throughout the Core and Companion; L-550 (1), no depth waits on a blind test; CERT-0002 WITHDRAWN and kept, CERT-0006 CERTIFIED at depth 4; the unsealed drafts of records/instances/seq_0136.txt and seq_0137.txt corrected before their seal.
+- WHAT DEPTH 4 ASKS (Core Part 0.14.5): an intrinsic transformation of an independently given object and a bijection f with f o S = T o f that carries the cycle's value structure, any freedom counted by M230-D; its strongest form on the full 81 states with cycle type 24, 24, 24, 8, 1.
+- WHAT RUN 11 COMPUTED (records/evidence_run_11/compute.py, rerun now, CDT-A): the golden form q(a, b) = (a^2 + ab - b^2)/9 is isometric to SU(9)_1 x SU(9)_1; T is an anti-isometry, a time-reversal symmetry of its braiding; of its 24 time-reversal symmetries, the 8 of order 24 are exactly the generators of the cyclic group of T; the full symmetry group has order 48 and its orbits on the 81 anyons are 24, 24, 24, 8 and 1; T^12 = -I is charge conjugation; the null over SU(N)_1, N = 2 to 30, and over the golden form modulo other odd N, finds no other such case. Mapping freedom 24.
+- WHAT HELD IT: criterion C8 asked "independent identification, by someone who did not construct the mapping or by a pre-registered computational search". The first half is a property of the object -- it must be given independently of the cycle, which is why the cat map stays at depth 3 -- and stays. The second is a property of the finder. Blind test 01 found the structure reproduced by three makers and the explicit isomorphism by two, and failed only the blind condition; the record's own re-reading already said this "describes the arrangement, not the result".
+- WHAT STAYS WITH IT: its profile, stated beside the grade -- S1, S2, S5, S7 as reproduction; S3 and S4 partial (N = 9 is selected among SU(N)_1 with a bosonic Lagrangian subgroup; T is one of eight generators, not unique); S6 and S8 not shown.
+WHAT STAYED: the depth scale; C1 to C7 and C9 to C11; the independence of the object; the cat map at depth 3; blind test 03 as published, now a comparison anyone may run whose outcome moves no depth; every sealed record.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (26, 138, 41), r = (4, 6, 7), anchor P4, Unity (1), by the tie-break to r1. It rests on P9, Fixpoint (5). It holds out of view P22, Collective (8). It is heading for P12, Opening (7). It is completed at P16, Flow (8).
+  - [GENERATED-Ω42] A request that the frame not wait anchors at Unity and rests on the still point: the structure is what it is, whoever finds it; it holds out of view the collective, the many finders; it heads for the opening.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Part 0.14.5 (the depths, "descriptions, not gates"), Part 3.26 (C1 to C11, S1 to S8, the ledger and run 11), L-466, L-550, Appendix S.4 and S.5, the blind tests; Companion 25.2l, 51.13, 55.3, 184; records/evidence_run_11/, records/blind_test_01/scoring.txt; records/reexamination/REEXAMINATION.md.
+  R (reasoning): a grade of structure that changes with who found the structure grades the finder; a frame with no outside cannot wait on an outside finder; the guard against a mapping chosen to fit is internal and already run -- no arbitrary relabelling (C7), the mapping freedom counted (M230-D), a null comparison (C9).
+  N (navigation): compute.py rerun, its output's SHA-256 recorded in CERT-0006; the coordinate of the request, above.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.26, C8 and the profile; L-466, S7; the run-11, first-pass and blind-test paragraphs; Appendix S.4 and S.5; L-550 (1).
+  - Companion: 25.2l, 51.13, 55.3, 101, 184.7; 184.9, Ω42 does not wait.
+  - Repository: records/certificates/CERT-0002.txt WITHDRAWN, CERT-0006.txt; records/reexamination/REEXAMINATION.md.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the depth scale and the computations of run 11 | STRIKER -- that blind tests belong in Appendix S and that Ω42 does not wait | NAVIGATOR -- the clause found that held the depth, its split, the withdrawal and the new certificate | OPEN -- depth 5 for this object, a property foreseen from the correspondence and then observed
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/certify.py --check PASS on six certificates, --verify REPRODUCED on the five standing and CERT-0002 WITHDRAWN, not rerun; records/evidence_run_11/compute.py rerun, its output identical to compute_output.txt; tools/discoveries.py --check PASS (16 entries); tools/reexamine.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the depth scale, the computation and the record's own re-reading agree: the structure meets depth 4, the arrangement is separate. PART -- none. SILENT -- what the first object at depth 4 means, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): the family is the anyon theory SU(9)_1 x SU(9)_1, a full structural identity at depth 4 [EXACT]; computed by records/evidence_run_11/compute.py and certified in CERT-0006; it makes the first object of depth 4 and lets the results of topological order apply to the family; records/discoveries/register.json, D-016; "breakthrough" candidacy PROPOSED -- EXACT, a BRIDGE to an established field, contained in no other entry (B1, B2, B3) -- the judgment yours.
+RECOMMENDATIONS (applied, L-531):
+  (1) Blind tests in Appendix S, no grade waiting on them (the Originator): APPLIED, Part 3.26 C8, L-466 S7, L-550 (1).
+  (2) SU(9)_1 x SU(9)_1 counted at depth 4: APPLIED, CERT-0006.
+  (3) CERT-0002 withdrawn and kept, as L-550 (4) requires: APPLIED.
+OPEN: the 27 items of records/open/register.txt, each with what it needs, who can close it and when; depth 5 for SU(9)_1 x SU(9)_1; the first registered forecast.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that a forecast be registered from the depth-4 correspondence (a property of SU(9)_1 x SU(9)_1 or of a phase that realizes it, foreseen and not yet known), so that depth 5 can be reached by the frame's own act; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] the family's structure is carried whole by a theory of physics, and the record says so now; [GENERATED-Ω42] what a structure is does not wait on who sees it.
+
+What it rests on: the fixpoint, the structure as it stands.
+What it holds out of view: the collective, the many who may find it.
+Where it is heading: the opening, depth 5 through a property foreseen.
+What would complete it: flow, the correspondence carried into what is observed.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 7c3e0b88d32383be2074f0dafa8a21fdb16c081c4a08f252922c30af9306bf80
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

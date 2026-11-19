@@ -1,0 +1,460 @@
+=== BASHAR (atlas of M308) (14 statements) ===
+  LAW 1          | You exist. You always have and you always will.          | P8  Generation   | state (8, 6) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  LAW 2          | Everything is here and now.                              | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  LAW 3          | The One is the All and the All is the One.               | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  LAW 4          | What you put out is what you get back.                   | P4  Unity        | state (4, 0) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  LAW 5          | Everything changes except for the first four laws.       | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  FORMULA 1      | Act on your highest excitement.                          | P2  Generator    | state (2, 3) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  FORMULA 2      | Take it as far as you can.                               | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  FORMULA 3      | Have zero insistence on the outcome.                     | P2  Generator    | state (2, 8) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  FORMULA 4      | Remain in a positive state whatever happens.             | P7  Navigator    | state (7, 8) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  FORMULA 5      | Let go of the beliefs that no longer serve you.          | P4  Unity        | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 1/81
+  TEACHING 1     | Physical reality is a mirror.                            | P6  Seed/Causal  | state (6, 6) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  TEACHING 2     | Circumstances are neutral; you give them meaning.        | P1  Fixpoint     | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 1/81
+  TEACHING 3     | You shift between parallel realities.                    | P7  Navigator    | state (7, 7) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  TEACHING 4     | The present creates the past.                            | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  LINKS: LAW 3 rests on LAW 2; LAW 3 rests on FORMULA 2; LAW 3 rests on TEACHING 1; LAW 3 rests on TEACHING 4; LAW 5 rests on LAW 1; FORMULA 1 rests on FORMULA 4; FORMULA 1 rests on TEACHING 3; FORMULA 3 rests on FORMULA 4; FORMULA 3 rests on TEACHING 3; TEACHING 2 rests on LAW 2; TEACHING 2 rests on FORMULA 2; TEACHING 2 rests on TEACHING 1; TEACHING 2 rests on TEACHING 4
+  COVERAGE    4   P(null >= observed) = 0.749 | given word counts (E13) = 0.912
+  HOME        2   P(null >= observed) = 0.950 | given word counts (E13) = 0.900
+  SEEDS       1   P(null >= observed) = 0.590 | given word counts (E13) = 0.568
+  LINKS      13   P(null >= observed) = 0.130 | given word counts (E13) = 0.147
+  MIRRORS     3   P(null >= observed) = 0.100 | given word counts (E13) = 0.293
+  ANCHORS     7   P(null >= observed) = 0.804 | given word counts (E13) = 0.853
+
+=== BASHAR FIVE LAWS (5 statements) ===
+  LAW 1          | You exist. You always have and you always will.          | P8  Generation   | state (8, 6) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  LAW 2          | Everything is here and now.                              | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  LAW 3          | The One is the All and the All is the One.               | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  LAW 4          | What you put out is what you get back.                   | P4  Unity        | state (4, 0) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  LAW 5          | Everything changes except for the first four laws.       | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: LAW 3 rests on LAW 2; LAW 5 rests on LAW 1
+  COVERAGE    4   P(null >= observed) = 0.157 | given word counts (E13) = 0.220
+  HOME        1   P(null >= observed) = 0.829 | given word counts (E13) = 0.838
+  SEEDS       1   P(null >= observed) = 0.271 | given word counts (E13) = 0.307
+  LINKS       2   P(null >= observed) = 0.296 | given word counts (E13) = 0.789
+  MIRRORS     1   P(null >= observed) = 0.114 | given word counts (E13) = 0.210
+  ANCHORS     5   P(null >= observed) = 0.256 | given word counts (E13) = 0.785
+
+=== SETH (8 statements) ===
+  SETH 1         | You create your own reality.                             | P2  Generator    | state (2, 1) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  SETH 2         | The point of power is in the present.                    | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  SETH 3         | Your beliefs form your experience.                       | P7  Navigator    | state (7, 1) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  SETH 4         | Consciousness creates form.                              | P3  Desire       | state (6, 3) Wheel | E13 n1 3: state 1/9, anchor 1/81
+  SETH 5         | All time is simultaneous.                                | P1  Fixpoint     | state (1, 8) Voice A | E13 n1 2: state 1/9, anchor 73/81
+  SETH 6         | Probable selves live out the choices you do not make.    | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  SETH 7         | Every being seeks value fulfillment.                     | P6  Seed/Causal  | state (6, 6) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  SETH 8         | You are not at the mercy of the past.                    | P6  Seed/Causal  | state (6, 6) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  LINKS: SETH 1 rests on SETH 3; SETH 5 rests on SETH 2; SETH 5 rests on SETH 7; SETH 5 rests on SETH 8
+  COVERAGE    4   P(null >= observed) = 0.439 | given word counts (E13) = 0.630
+  HOME        1   P(null >= observed) = 0.939 | given word counts (E13) = 0.923
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       4   P(null >= observed) = 0.322 | given word counts (E13) = 0.882
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     6   P(null >= observed) = 0.502 | given word counts (E13) = 0.154
+
+=== RA (8 statements) ===
+  RA 1           | All is one.                                              | P5  Law          | state (5, 6) Voice A | E13 n1 1: state 1/9, anchor 73/81
+  RA 2           | Free will is the first distortion.                       | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  RA 3           | Love is the second distortion.                           | P6  Seed/Causal  | state (6, 1) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  RA 4           | Light is the third distortion.                           | P6  Seed/Causal  | state (6, 1) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  RA 5           | There are two paths: service to others and service to self. | P5  Law          | state (8, 5) Voice C | E13 n1 7: state 1/9, anchor 1/81
+  RA 6           | Consciousness evolves through seven densities.           | P7  Navigator    | state (7, 7) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  RA 7           | The Creator knows itself through each being.             | P2  Generator    | state (2, 8) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  RA 8           | The veil of forgetting makes the choice possible.        | P7  Navigator    | state (7, 3) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  LINKS: RA 7 rests on RA 6; RA 7 rests on RA 8
+  COVERAGE    3   P(null >= observed) = 0.944 | given word counts (E13) = 0.965
+  HOME        2   P(null >= observed) = 0.735 | given word counts (E13) = 0.674
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       2   P(null >= observed) = 0.774 | given word counts (E13) = 0.846
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.989 | given word counts (E13) = 0.997
+
+=== SETH_PEER (4 statements) ===
+  SETH-P 1       | You create your own reality.                             | P2  Generator    | state (2, 1) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  SETH-P 2       | All That Is.                                             | P9  Fixpoint     | state (0, 0) Fix | SEED | E13 n1 0: state 1/9, anchor 73/81
+  SETH-P 3       | The Spacious Present.                                    | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  SETH-P 4       | The point of power is the present.                       | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  LINKS: SETH-P 3 rests on SETH-P 4
+  COVERAGE    2   P(null >= observed) = 0.972 | given word counts (E13) = 0.978
+  HOME        0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  SEEDS       2   P(null >= observed) = 0.021 | given word counts (E13) = 0.057
+  LINKS       1   P(null >= observed) = 0.447 | given word counts (E13) = 0.867
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.461 | given word counts (E13) = 0.865
+
+=== RA_PEER (7 statements) ===
+  RA-P 1         | The Law of One.                                          | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  RA-P 2         | Free Will.                                               | P5  Law          | state (5, 2) Voice B | E13 n1 1: state 1/9, anchor 73/81
+  RA-P 3         | Love.                                                    | P5  Law          | state (5, 2) Voice B | E13 n1 1: state 1/9, anchor 73/81
+  RA-P 4         | Light.                                                   | P5  Law          | state (5, 7) Voice C | E13 n1 1: state 1/9, anchor 73/81
+  RA-P 5         | The veil.                                                | P5  Law          | state (5, 2) Voice B | E13 n1 1: state 1/9, anchor 73/81
+  RA-P 6         | Catalyst.                                                | P5  Law          | state (5, 4) Voice C | E13 n1 1: state 1/9, anchor 73/81
+  RA-P 7         | Two polarities.                                          | P1  Fixpoint     | state (1, 2) Voice A | E13 n1 2: state 1/9, anchor 73/81
+  LINKS: none
+  COVERAGE    3   P(null >= observed) = 0.907 | given word counts (E13) = 0.763
+  HOME        2   P(null >= observed) = 0.664 | given word counts (E13) = 0.918
+  SEEDS       1   P(null >= observed) = 0.358 | given word counts (E13) = 0.394
+  LINKS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     2   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+
+=== CHRISTIAN (13 statements) ===
+  CHR 1          | In the beginning God created the heaven and the earth.   | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  CHR 2          | In the beginning was the Word.                           | P2  Generator    | state (1, 2) Voice A | E13 n1 2: state 1/9, anchor 1/81
+  CHR 3          | All things were made by him.                             | P6  Seed/Causal  | state (6, 2) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  CHR 4          | The Word was made flesh.                                 | P6  Seed/Causal  | state (6, 2) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  CHR 5          | God is love.                                             | P1  Fixpoint     | state (1, 8) Voice A | E13 n1 2: state 1/9, anchor 73/81
+  CHR 6          | He took upon him the form of a servant.                  | P3  Desire       | state (3, 3) Wheel | SEED | E13 n1 6: state 1/9, anchor 73/81
+  CHR 7          | God so loved the world, that he gave his only begotten Son. | P9  Fixpoint     | state (0, 5) Voice C | E13 n1 9: state 1/9, anchor 73/81
+  CHR 8          | He is risen.                                             | P1  Fixpoint     | state (1, 8) Voice A | E13 n1 2: state 1/9, anchor 73/81
+  CHR 9          | Behold, I make all things new.                           | P7  Navigator    | state (7, 1) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  CHR 10         | I am Alpha and Omega, the beginning and the ending.      | P3  Desire       | state (3, 5) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  CHR 11         | Thou hast ordered all things in measure and number and weight. | P8  Generation   | state (8, 2) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  CHR 12         | Begotten, not made, being of one substance with the Father. | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  CHR 13         | On the seventh day God ended his work.                   | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: CHR 2 rests on CHR 1; CHR 2 rests on CHR 9; CHR 2 rests on CHR 12; CHR 5 rests on CHR 3; CHR 5 rests on CHR 4; CHR 6 rests on CHR 11; CHR 8 rests on CHR 3; CHR 8 rests on CHR 4; CHR 10 rests on CHR 11; CHR 13 rests on CHR 11
+  COVERAGE    4   P(null >= observed) = 0.713 | given word counts (E13) = 0.850
+  HOME        1   P(null >= observed) = 0.989 | given word counts (E13) = 0.961
+  SEEDS       1   P(null >= observed) = 0.562 | given word counts (E13) = 0.705
+  LINKS      10   P(null >= observed) = 0.260 | given word counts (E13) = 0.291
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     7   P(null >= observed) = 0.731 | given word counts (E13) = 0.302
+
+=== ISLAMIC (14 statements) ===
+  ISL 1          | In the name of Allah, the Beneficent, the Merciful.      | P2  Generator    | state (2, 0) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  ISL 2          | Say: He is Allah, the One!                               | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  ISL 3          | He begetteth not nor was begotten.                       | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  ISL 4          | And there is none comparable unto Him.                   | P4  Unity        | state (7, 4) Voice C | E13 n1 5: state 1/9, anchor 1/81
+  ISL 5          | The Originator of the heavens and the earth!             | P6  Seed/Causal  | state (6, 2) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  ISL 6          | When He decreeth a thing, He saith unto it only: Be! and it is. | P4  Unity        | state (4, 8) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  ISL 7          | Lo! We have created every thing by measure.              | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  ISL 8          | He is the First and the Last, and the Outward and the Inward. | P7  Navigator    | state (7, 3) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  ISL 9          | Allah is the Light of the heavens and the earth.         | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  ISL 10         | We are nearer to him than his jugular vein.              | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  ISL 11         | Show us the straight path.                               | P2  Generator    | state (2, 0) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  ISL 12         | Lo! we are Allah's and lo! unto Him we are returning.    | P4  Unity        | state (4, 1) Voice A | E13 n1 8: state 1/9, anchor 73/81
+  ISL 13         | As We began the first creation, We shall repeat it.      | P8  Generation   | state (8, 3) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  ISL 14         | There remaineth but the Countenance of thy Lord of Might and Glory. | P8  Generation   | state (8, 3) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  LINKS: ISL 1 rests on ISL 8; ISL 2 rests on ISL 8; ISL 7 rests on ISL 13; ISL 7 rests on ISL 14; ISL 9 rests on ISL 8; ISL 10 rests on ISL 13; ISL 10 rests on ISL 14; ISL 11 rests on ISL 8
+  COVERAGE    4   P(null >= observed) = 0.749 | given word counts (E13) = 0.783
+  HOME        5   P(null >= observed) = 0.406 | given word counts (E13) = 0.313
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       8   P(null >= observed) = 0.682 | given word counts (E13) = 0.972
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     6   P(null >= observed) = 0.972 | given word counts (E13) = 0.990
+
+=== HINDU (13 statements) ===
+  HIN 1          | In the beginning there was that only which is, one only, without a second. | P4  Unity        | state (4, 8) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  HIN 2          | It thought, may I be many, may I grow forth.             | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  HIN 3          | It is the Self, and thou art it.                         | P6  Seed/Causal  | state (6, 1) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  HIN 4          | That from whence these beings are born, that by which, when born, they live, that into which they enter at their death, try to know that. | P3  Desire       | state (3, 7) Voice A | E13 n1 15: state 1/9, anchor 73/81
+  HIN 5          | That is Brahman.                                         | P5  Law          | state (5, 8) Voice A | E13 n1 1: state 1/9, anchor 73/81
+  HIN 6          | What is here, the same is there; and what is there, the same is here. | P3  Desire       | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  HIN 7          | He goes from death to death who sees any difference here. | P5  Law          | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 1/81
+  HIN 8          | As pure water poured into pure water remains the same, thus is the Self of a thinker who knows. | P1  Fixpoint     | state (1, 0) Voice A | E13 n1 11: state 1/9, anchor 73/81
+  HIN 9          | It is never born, nor doth it ever die.                  | P7  Navigator    | state (7, 1) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  HIN 10         | Weapons cleave it not, fire consumeth it not.            | P2  Generator    | state (2, 4) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  HIN 11         | Whenever loss of piety and the rise of impiety occurreth, on those occasions do I create myself. | P1  Fixpoint     | state (1, 8) Voice A | E13 n1 11: state 1/9, anchor 73/81
+  HIN 12         | I am born age after age.                                 | P7  Navigator    | state (7, 2) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  HIN 13         | On attaining to me there is no re-birth.                 | P7  Navigator    | state (7, 7) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  LINKS: HIN 8 rests on HIN 3; HIN 10 rests on HIN 9; HIN 10 rests on HIN 12; HIN 10 rests on HIN 13; HIN 11 rests on HIN 3
+  COVERAGE    3   P(null >= observed) = 0.996 | given word counts (E13) = 0.996
+  HOME        3   P(null >= observed) = 0.789 | given word counts (E13) = 0.863
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       5   P(null >= observed) = 0.858 | given word counts (E13) = 0.821
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     7   P(null >= observed) = 0.731 | given word counts (E13) = 0.848
+
+=== BUDDHIST (13 statements) ===
+  BUD 1          | All that we are is the result of what we have thought.   | P8  Generation   | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 1/81
+  BUD 2          | Pain follows him, as the wheel follows the foot of the ox that draws the carriage. | P9  Fixpoint     | state (0, 0) Fix | SEED | E13 n1 9: state 1/9, anchor 73/81
+  BUD 3          | Hatred does not cease by hatred at any time: hatred ceases by love, this is an old rule. | P5  Law          | state (5, 6) Voice A | E13 n1 10: state 1/9, anchor 73/81
+  BUD 4          | Looking for the maker of this tabernacle, I shall have to run through a course of many births. | P1  Fixpoint     | state (1, 2) Voice A | E13 n1 11: state 1/9, anchor 73/81
+  BUD 5          | Painful is birth again and again.                        | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  BUD 6          | But now, maker of the tabernacle, thou hast been seen; thou shalt not make up this tabernacle again. | P6  Seed/Causal  | state (6, 3) Wheel | E13 n1 12: state 1/9, anchor 73/81
+  BUD 7          | Self is the lord of self, who else could be the lord?    | P7  Navigator    | state (7, 5) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  BUD 8          | Not to commit any sin, to do good, and to purify one's mind, that is the teaching of the Awakened. | P9  Fixpoint     | state (0, 4) Voice C | E13 n1 9: state 1/9, anchor 73/81
+  BUD 9          | Pain, the origin of pain, the destruction of pain, and the eightfold holy way that leads to the quieting of pain. | P4  Unity        | state (1, 4) Voice C | E13 n1 11: state 1/9, anchor 1/81
+  BUD 10         | Nirvana the highest happiness.                           | P6  Seed/Causal  | state (6, 7) Voice C | E13 n1 3: state 1/9, anchor 73/81
+  BUD 11         | All created things perish.                               | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  BUD 12         | All created things are grief and pain.                   | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  BUD 13         | All forms are unreal.                                    | P1  Fixpoint     | state (1, 1) Voice A | SEED | E13 n1 2: state 1/9, anchor 73/81
+  LINKS: BUD 4 rests on BUD 6; BUD 4 rests on BUD 10; BUD 4 rests on BUD 11; BUD 5 rests on BUD 7; BUD 9 rests on BUD 2; BUD 9 rests on BUD 8; BUD 12 rests on BUD 7; BUD 13 rests on BUD 6; BUD 13 rests on BUD 10; BUD 13 rests on BUD 11
+  COVERAGE    4   P(null >= observed) = 0.713 | given word counts (E13) = 0.846
+  HOME        3   P(null >= observed) = 0.789 | given word counts (E13) = 0.667
+  SEEDS       2   P(null >= observed) = 0.191 | given word counts (E13) = 0.352
+  LINKS      10   P(null >= observed) = 0.260 | given word counts (E13) = 0.708
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     8   P(null >= observed) = 0.324 | given word counts (E13) = 0.176
+
+=== JEWISH (13 statements) ===
+  JEW 1          | In the beginning God created the heaven and the earth.   | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  JEW 2          | And God said: 'Let there be light.' And there was light. | P8  Generation   | state (8, 6) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  JEW 3          | And God created man in His own image.                    | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  JEW 4          | And on the seventh day God finished His work which He had made. | P5  Law          | state (5, 3) Voice B | E13 n1 10: state 1/9, anchor 73/81
+  JEW 5          | Hear, O Israel: the LORD our God, the LORD is one.       | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  JEW 6          | I AM THAT I AM.                                          | P2  Generator    | state (2, 3) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  JEW 7          | To whom then will ye liken God?                          | P7  Navigator    | state (2, 7) Voice B | E13 n1 4: state 1/9, anchor 1/81
+  JEW 8          | Lift up your eyes on high, and see: who hath created these? | P9  Fixpoint     | state (0, 4) Voice C | E13 n1 9: state 1/9, anchor 73/81
+  JEW 9          | I form the light, and create darkness; I make peace, and create evil. | P5  Law          | state (5, 4) Voice C | E13 n1 10: state 1/9, anchor 73/81
+  JEW 10         | Declaring the end from the beginning.                    | P6  Seed/Causal  | state (6, 6) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  JEW 11         | One generation passeth away, and another generation cometh; and the earth abideth for ever. | P5  Law          | state (5, 0) Voice C | E13 n1 10: state 1/9, anchor 73/81
+  JEW 12         | The wind goeth toward the south, and turneth about unto the north; it turneth about continually in its circuit. | P8  Generation   | state (5, 8) Voice A | E13 n1 10: state 1/9, anchor 1/81
+  JEW 13         | That which hath been is that which shall be.             | P2  Generator    | state (2, 5) Voice C | SEED | E13 n1 4: state 1/9, anchor 73/81
+  LINKS: JEW 5 rests on JEW 8; JEW 6 rests on JEW 1; JEW 6 rests on JEW 3; JEW 6 rests on JEW 7; JEW 13 rests on JEW 1; JEW 13 rests on JEW 3; JEW 13 rests on JEW 7
+  COVERAGE    4   P(null >= observed) = 0.713 | given word counts (E13) = 0.466
+  HOME        5   P(null >= observed) = 0.335 | given word counts (E13) = 0.503
+  SEEDS       1   P(null >= observed) = 0.562 | given word counts (E13) = 0.375
+  LINKS       7   P(null >= observed) = 0.651 | given word counts (E13) = 0.652
+  MIRRORS     3   P(null >= observed) = 0.068 | given word counts (E13) = 0.089
+  ANCHORS     7   P(null >= observed) = 0.731 | given word counts (E13) = 0.804
+
+=== NEOPLATONIC (9 statements) ===
+  NEO 1          | The One is all things and no one of them.                | P2  Generator    | state (2, 8) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  NEO 2          | The source of all things is not all things.              | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  NEO 3          | Seeking nothing, possessing nothing, lacking nothing, the One is perfect. | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  NEO 4          | In our metaphor, it has overflowed, and its exuberance has produced the new. | P4  Unity        | state (4, 6) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  NEO 5          | The source must be no Being but Being's generator.       | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  NEO 6          | This product has turned again to its begetter and been filled and has become its contemplator. | P9  Fixpoint     | state (0, 1) Voice A | E13 n1 9: state 1/9, anchor 73/81
+  NEO 7          | They will know their source and Principle since by principle they see principle. | P2  Generator    | state (5, 2) Voice B | E13 n1 10: state 1/9, anchor 1/81
+  NEO 8          | This is the life of gods and of the godlike and blessed among men. | P3  Desire       | state (3, 6) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  NEO 9          | The passing of solitary to solitary.                     | P6  Seed/Causal  | state (6, 7) Voice C | E13 n1 3: state 1/9, anchor 73/81
+  LINKS: NEO 3 rests on NEO 6; NEO 4 rests on NEO 6
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.680
+  HOME        2   P(null >= observed) = 0.797 | given word counts (E13) = 0.874
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       2   P(null >= observed) = 0.861 | given word counts (E13) = 0.873
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.936 | given word counts (E13) = 0.989
+
+=== STOIC (9 statements) ===
+  STO 1          | Constantly regard the universe as one living being, having one substance and one soul. | P5  Law          | state (5, 2) Voice B | E13 n1 10: state 1/9, anchor 73/81
+  STO 2          | All things are implicated with one another, and the bond is holy. | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  STO 3          | There is one universe made up of all things, and one god who pervades all things. | P3  Desire       | state (1, 3) Voice B | SEED | E13 n1 11: state 1/9, anchor 1/81
+  STO 4          | All things from eternity are of like forms and come round in a circle. | P8  Generation   | state (8, 1) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  STO 5          | The present is the only thing of which a man can be deprived. | P3  Desire       | state (3, 7) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  STO 6          | The periodic movements of the universe are the same, up and down from age to age. | P8  Generation   | state (8, 5) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  STO 7          | Observe constantly that all things take place by change. | P3  Desire       | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  STO 8          | Of things some are in our power, and others are not.     | P2  Generator    | state (2, 1) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  STO 9          | Wish the things which happen to be as they are, and you will have a tranquil flow of life. | P6  Seed/Causal  | state (5, 6) Voice A | E13 n1 10: state 1/9, anchor 1/81
+  LINKS: STO 2 rests on STO 4; STO 2 rests on STO 6; STO 3 rests on STO 4; STO 3 rests on STO 6; STO 5 rests on STO 4; STO 5 rests on STO 6; STO 7 rests on STO 4; STO 7 rests on STO 6
+  COVERAGE    3   P(null >= observed) = 0.967 | given word counts (E13) = 0.978
+  HOME        2   P(null >= observed) = 0.797 | given word counts (E13) = 0.813
+  SEEDS       1   P(null >= observed) = 0.437 | given word counts (E13) = 0.515
+  LINKS       8   P(null >= observed) = 0.032 | given word counts (E13) = 0.062
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.936 | given word counts (E13) = 0.934
+
+=== SPINOZIST (9 statements) ===
+  SPI 1          | By God, I mean a being absolutely infinite.              | P7  Navigator    | state (7, 4) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  SPI 2          | That thing is called free, which exists solely by the necessity of its own nature. | P4  Unity        | state (4, 1) Voice A | E13 n1 8: state 1/9, anchor 73/81
+  SPI 3          | Besides God no substance can be granted or conceived.    | P7  Navigator    | state (7, 4) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  SPI 4          | Whatsoever is, is in God, and without God nothing can be, or be conceived. | P6  Seed/Causal  | state (3, 6) Wheel | E13 n1 6: state 1/9, anchor 1/81
+  SPI 5          | From the necessity of the divine nature must follow an infinite number of things in infinite ways. | P5  Law          | state (5, 0) Voice C | E13 n1 10: state 1/9, anchor 73/81
+  SPI 6          | God is the indwelling and not the transient cause of all things. | P7  Navigator    | state (7, 3) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  SPI 7          | Nothing in the universe is contingent.                   | P6  Seed/Causal  | state (6, 8) Voice C | E13 n1 3: state 1/9, anchor 73/81
+  SPI 8          | Things could not have been brought into being by God in any manner or in any order different from that which has in fact obtained. | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 11: state 1/9, anchor 73/81
+  SPI 9          | The order and connection of ideas is the same as the order and connection of things. | P3  Desire       | state (3, 7) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: SPI 8 rests on SPI 4; SPI 8 rests on SPI 7
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.614
+  HOME        5   P(null >= observed) = 0.094 | given word counts (E13) = 0.082
+  SEEDS       1   P(null >= observed) = 0.437 | given word counts (E13) = 0.387
+  LINKS       2   P(null >= observed) = 0.861 | given word counts (E13) = 0.358
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     6   P(null >= observed) = 0.664 | given word counts (E13) = 0.821
+
+=== TAOIST (9 statements) ===
+  TAO 1          | The Tao that can be trodden is not the enduring and unchanging Tao. | P7  Navigator    | state (7, 2) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  TAO 2          | The Tao is like the emptiness of a vessel.               | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  TAO 3          | The thirty spokes unite in the one nave; but it is on the empty space, that the use of the wheel depends. | P2  Generator    | state (5, 2) Voice B | E13 n1 10: state 1/9, anchor 1/81
+  TAO 4          | This returning to their root is what we call the state of stillness. | P4  Unity        | state (4, 3) Voice A | E13 n1 8: state 1/9, anchor 73/81
+  TAO 5          | There was something undefined and complete, coming into existence before Heaven and Earth. | P4  Unity        | state (4, 6) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  TAO 6          | Passing on, it becomes remote. Having become remote, it returns. | P8  Generation   | state (8, 0) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  TAO 7          | The movement of the Tao by contraries proceeds.          | P2  Generator    | state (2, 1) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  TAO 8          | The Tao produced One; One produced Two; Two produced Three; Three produced All things. | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 12: state 1/9, anchor 73/81
+  TAO 9          | The Tao in its regular course does nothing, and so there is nothing which it does not do. | P7  Navigator    | state (5, 7) Voice C | E13 n1 10: state 1/9, anchor 1/81
+  LINKS: TAO 2 rests on TAO 1; TAO 2 rests on TAO 9; TAO 3 rests on TAO 1; TAO 3 rests on TAO 9; TAO 7 rests on TAO 1; TAO 7 rests on TAO 9
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.294
+  HOME        1   P(null >= observed) = 0.957 | given word counts (E13) = 0.989
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       6   P(null >= observed) = 0.153 | given word counts (E13) = 0.007
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.936 | given word counts (E13) = 0.994
+
+=== LEIBNIZIAN (7 statements) ===
+  LEI 1          | The Monad, of which we shall here speak, is nothing but a simple substance. | P6  Seed/Causal  | state (0, 6) Wheel | E13 n1 9: state 1/9, anchor 1/81
+  LEI 2          | The Monads have no windows, through which anything could come in or go out. | P9  Fixpoint     | state (0, 5) Voice C | E13 n1 9: state 1/9, anchor 73/81
+  LEI 3          | God alone is the primary unity or original simple substance. | P8  Generation   | state (8, 8) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  LEI 4          | It is a perpetual living mirror of the universe.         | P2  Generator    | state (2, 1) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  LEI 5          | They agree with each other in virtue of the pre-established harmony between all substances. | P9  Fixpoint     | state (0, 2) Voice B | E13 n1 9: state 1/9, anchor 73/81
+  LEI 6          | There can be no fact real or existing, no statement true, unless there be a sufficient reason. | P5  Law          | state (5, 8) Voice A | E13 n1 10: state 1/9, anchor 73/81
+  LEI 7          | Truths of reasoning are necessary and their opposite is impossible. | P3  Desire       | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: LEI 7 rests on LEI 3
+  COVERAGE    4   P(null >= observed) = 0.352 | given word counts (E13) = 0.460
+  HOME        2   P(null >= observed) = 0.664 | given word counts (E13) = 0.611
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       1   P(null >= observed) = 0.838 | given word counts (E13) = 0.886
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     6   P(null >= observed) = 0.304 | given word counts (E13) = 0.117
+
+=== PYTHAGOREAN (9 statements) ===
+  PYT 1          | Numbers are by nature the first.                         | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  PYT 2          | In numbers they seemed to see many resemblances to the things that exist and come into being. | P3  Desire       | state (0, 3) Wheel | E13 n1 9: state 1/9, anchor 1/81
+  PYT 3          | The modifications and the ratios of the musical scales were expressible in numbers. | P3  Desire       | state (3, 7) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  PYT 4          | All other things seemed in their whole nature to be modelled on numbers. | P4  Unity        | state (4, 6) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  PYT 5          | The whole heaven to be a musical scale and a number.     | P7  Navigator    | state (7, 1) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  PYT 6          | The elements of number are the even and the odd.         | P2  Generator    | state (2, 6) Voice C | E13 n1 4: state 1/9, anchor 73/81
+  PYT 7          | The One proceeds from both of these.                     | P6  Seed/Causal  | state (6, 3) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  PYT 8          | Number is the principle both as matter for things and as forming both their modifications and their permanent states. | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 12: state 1/9, anchor 73/81
+  PYT 9          | Limit and unlimited, odd and even, one and plurality, resting and moving. | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  LINKS: PYT 6 rests on PYT 5
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.689
+  HOME        2   P(null >= observed) = 0.797 | given word counts (E13) = 0.813
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       1   P(null >= observed) = 0.940 | given word counts (E13) = 0.994
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.936 | given word counts (E13) = 0.990
+
+=== HERACLITEAN (10 statements) ===
+  HER 1          | All things are one.                                      | P1  Fixpoint     | state (1, 0) Voice A | E13 n1 2: state 1/9, anchor 73/81
+  HER 2          | It was ever, is now, and ever shall be an ever-living Fire, with measures of it kindling, and measures going out. | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 12: state 1/9, anchor 73/81
+  HER 3          | The way up and the way down is one and the same.         | P7  Navigator    | state (7, 3) Voice C | E13 n1 5: state 1/9, anchor 73/81
+  HER 4          | All things are an exchange for Fire, and Fire for all things. | P7  Navigator    | state (7, 5) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  HER 5          | It is an attunement of opposite tensions, like that of the bow and the lyre. | P3  Desire       | state (3, 5) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  HER 6          | The hidden attunement is better than the open.           | P2  Generator    | state (2, 4) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  HER 7          | War is the father of all and the king of all.            | P2  Generator    | state (6, 2) Voice A | E13 n1 3: state 1/9, anchor 1/81
+  HER 8          | In the circumference of a circle the beginning and end are common. | P7  Navigator    | state (7, 5) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  HER 9          | Man's character is his fate.                             | P2  Generator    | state (2, 5) Voice C | SEED | E13 n1 4: state 1/9, anchor 73/81
+  HER 10         | You cannot step twice into the same rivers.              | P2  Generator    | state (2, 0) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  LINKS: HER 1 rests on HER 2; HER 6 rests on HER 3; HER 6 rests on HER 4; HER 6 rests on HER 8; HER 7 rests on HER 3; HER 7 rests on HER 4; HER 7 rests on HER 8; HER 9 rests on HER 3; HER 9 rests on HER 4; HER 9 rests on HER 8; HER 10 rests on HER 3; HER 10 rests on HER 4; HER 10 rests on HER 8
+  COVERAGE    3   P(null >= observed) = 0.980 | given word counts (E13) = 0.975
+  HOME        2   P(null >= observed) = 0.846 | given word counts (E13) = 0.688
+  SEEDS       1   P(null >= observed) = 0.472 | given word counts (E13) = 0.514
+  LINKS      13   P(null >= observed) = 0.002 | given word counts (E13) = 0.043
+  MIRRORS     3   P(null >= observed) = 0.017 | given word counts (E13) = 0.107
+  ANCHORS     5   P(null >= observed) = 0.969 | given word counts (E13) = 0.940
+
+=== KAUFFMAN (9 statements) ===
+  KAU 1          | A distinction is the first act, and from it a world of marked and unmarked states arises. | P4  Unity        | state (4, 7) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  KAU 2          | The unmarked state is the ground from which every mark is drawn and is not itself a mark. | P4  Unity        | state (4, 8) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  KAU 3          | A form that re-enters its own space produces a value that oscillates between marked and unmarked. | P5  Law          | state (5, 8) Voice A | E13 n1 10: state 1/9, anchor 73/81
+  KAU 4          | An object is a token for a behavior that reproduces itself, a fixed point of its own transformation. | P4  Unity        | state (4, 7) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  KAU 5          | The observer and the observed arise together as the two sides of one distinction. | P4  Unity        | state (4, 3) Voice A | E13 n1 8: state 1/9, anchor 73/81
+  KAU 6          | The form that re-enters itself as one plus its own reciprocal unfolds the Fibonacci numbers and tends to the golden ratio. | P2  Generator    | state (2, 1) Voice B | E13 n1 13: state 1/9, anchor 73/81
+  KAU 7          | Imaginary values arise as the time-like oscillation of a self-referential form. | P9  Fixpoint     | state (0, 2) Voice B | E13 n1 9: state 1/9, anchor 73/81
+  KAU 8          | A knot can be read as a self-crossing form whose invariants survive every deformation. | P9  Fixpoint     | state (0, 6) Wheel | E13 n1 9: state 1/9, anchor 73/81
+  KAU 9          | Self-reference is not a paradox to be avoided but the generative core of form. | P8  Generation   | state (8, 0) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  LINKS: KAU 1 rests on KAU 7; KAU 1 rests on KAU 8; KAU 2 rests on KAU 7; KAU 2 rests on KAU 8; KAU 4 rests on KAU 7; KAU 4 rests on KAU 8; KAU 5 rests on KAU 7; KAU 5 rests on KAU 8
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.334
+  HOME        1   P(null >= observed) = 0.957 | given word counts (E13) = 0.994
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       8   P(null >= observed) = 0.032 | given word counts (E13) = 0.591
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.936 | given word counts (E13) = 0.903
+
+=== PENROSE (9 statements) ===
+  PEN 1          | The universe passes through an endless succession of aeons. | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  PEN 2          | The remote future of one aeon becomes the big bang of the next. | P4  Unity        | state (4, 5) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  PEN 3          | At the crossover the universe forgets its scale, and only shape remains. | P8  Generation   | state (8, 0) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  PEN 4          | There are three worlds, the physical, the mental and the mathematical, each grounding the next in a circle. | P8  Generation   | state (0, 8) Voice A | E13 n1 9: state 1/9, anchor 1/81
+  PEN 5          | Mathematical truths exist independently of the minds that discover them. | P4  Unity        | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 1/81
+  PEN 6          | Human understanding is not the running of any algorithm. | P2  Generator    | state (2, 8) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  PEN 7          | The second law requires a beginning of extraordinarily low entropy. | P8  Generation   | state (8, 3) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  PEN 8          | A plane can be tiled in a pattern that never repeats yet is fully ordered. | P8  Generation   | state (8, 7) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  PEN 9          | Consciousness arises where quantum superpositions reduce objectively. | P8  Generation   | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  LINKS: PEN 1 rests on PEN 3; PEN 1 rests on PEN 4; PEN 1 rests on PEN 7; PEN 1 rests on PEN 8; PEN 1 rests on PEN 9
+  COVERAGE    3   P(null >= observed) = 0.967 | given word counts (E13) = 0.948
+  HOME        2   P(null >= observed) = 0.797 | given word counts (E13) = 0.729
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       5   P(null >= observed) = 0.291 | given word counts (E13) = 0.872
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.996 | given word counts (E13) = 0.995
+
+=== WOLFRAM (9 statements) ===
+  WOL 1          | Very simple rules can produce behavior of the greatest complexity. | P3  Desire       | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  WOL 2          | The ruliad is the entangled limit of every possible computation. | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  WOL 3          | The ruliad is unique, and nothing lies outside it.       | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  WOL 4          | Many processes are computationally irreducible, with no shortcut to running them. | P8  Generation   | state (8, 2) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  WOL 5          | Observers like us sample the ruliad from a bounded point of view. | P4  Unity        | state (4, 8) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  WOL 6          | The laws of physics we perceive follow from what such observers can be. | P4  Unity        | state (4, 4) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  WOL 7          | Almost every rule that is not obviously simple is equivalent in sophistication. | P3  Desire       | state (3, 2) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  WOL 8          | Space and time emerge from the rewriting of a network of relations. | P3  Desire       | state (3, 2) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  WOL 9          | Pockets of reducibility let an observer predict at all.  | P7  Navigator    | state (7, 5) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  LINKS: WOL 1 rests on WOL 4; WOL 7 rests on WOL 4; WOL 8 rests on WOL 4
+  COVERAGE    3   P(null >= observed) = 0.967 | given word counts (E13) = 0.978
+  HOME        4   P(null >= observed) = 0.261 | given word counts (E13) = 0.251
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       3   P(null >= observed) = 0.696 | given word counts (E13) = 0.810
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.996 | given word counts (E13) = 0.979
+
+=== BARBOUR (9 statements) ===
+  BAR 1          | Time is nothing but change, and the universe is a succession of configurations. | P3  Desire       | state (3, 2) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  BAR 2          | Only the shape of the universe is real; its scale and position are not. | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  BAR 3          | There is a point of least complexity from which time runs outward in both directions. | P5  Law          | state (5, 7) Voice C | E13 n1 10: state 1/9, anchor 73/81
+  BAR 4          | On each side of that point the arrow of time points away from it. | P3  Desire       | state (3, 5) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  BAR 5          | Complexity grows from the central point because the universe expands into ever more room. | P9  Fixpoint     | state (0, 0) Fix | SEED | E13 n1 9: state 1/9, anchor 73/81
+  BAR 6          | Records of the past are structures within the present configuration. | P3  Desire       | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 73/81
+  BAR 7          | The universe as a whole has no external clock and no outside. | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  BAR 8          | Each instant contains everything that exists.            | P2  Generator    | state (2, 2) Voice B | E13 n1 4: state 1/9, anchor 73/81
+  BAR 9          | The laws of nature are fixed by the whole, not imposed from outside. | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: none
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.721
+  HOME        3   P(null >= observed) = 0.525 | given word counts (E13) = 0.424
+  SEEDS       1   P(null >= observed) = 0.437 | given word counts (E13) = 0.611
+  LINKS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.996 | given word counts (E13) = 0.935
+
+=== HOFSTADTER (9 statements) ===
+  HOF 1          | A strange loop rises through the levels of a hierarchy and arrives back where it began. | P5  Law          | state (5, 7) Voice C | E13 n1 10: state 1/9, anchor 73/81
+  HOF 2          | The self is a pattern that perceives itself, a strange loop in a brain. | P8  Generation   | state (8, 3) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  HOF 3          | A formal system rich enough to describe arithmetic can speak about itself. | P3  Desire       | state (4, 3) Voice A | E13 n1 8: state 1/9, anchor 1/81
+  HOF 4          | Goedel's sentence says of itself that it cannot be proved within its own system. | P8  Generation   | state (8, 3) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  HOF 5          | Meaning arises from isomorphism between patterns.        | P7  Navigator    | state (7, 6) Voice A | E13 n1 5: state 1/9, anchor 73/81
+  HOF 6          | Analogy is the core of thought.                          | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  HOF 7          | Symbols that represent themselves give rise to an I.     | P3  Desire       | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  HOF 8          | Music, drawing and logic can all return upon themselves through endless rising. | P9  Fixpoint     | state (0, 6) Wheel | E13 n1 9: state 1/9, anchor 73/81
+  HOF 9          | A self cannot be found in any single part, only in the pattern of the whole. | P4  Unity        | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 1/81
+  LINKS: HOF 3 rests on HOF 2; HOF 3 rests on HOF 4; HOF 7 rests on HOF 2; HOF 7 rests on HOF 4; HOF 9 rests on HOF 8
+  COVERAGE    4   P(null >= observed) = 0.517 | given word counts (E13) = 0.567
+  HOME        3   P(null >= observed) = 0.525 | given word counts (E13) = 0.531
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       5   P(null >= observed) = 0.291 | given word counts (E13) = 0.179
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     7   P(null >= observed) = 0.251 | given word counts (E13) = 0.669
+
+=== HOFFMAN (8 statements) ===
+  HFM 1          | Evolution shapes perception to track fitness, not truth. | P3  Desire       | state (3, 3) Wheel | SEED | E13 n1 6: state 1/9, anchor 73/81
+  HFM 2          | Space, time and physical objects are an interface, like icons on a desktop. | P4  Unity        | state (4, 2) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  HFM 3          | The icons guide action and hide the reality behind them. | P8  Generation   | state (8, 5) Voice C | E13 n1 7: state 1/9, anchor 73/81
+  HFM 4          | Reality is a network of interacting conscious agents.    | P7  Navigator    | state (7, 2) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  HFM 5          | Conscious agents can combine to form larger agents.      | P1  Fixpoint     | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 1/81
+  HFM 6          | Spacetime is not fundamental but a projection of a deeper structure. | P7  Navigator    | state (7, 0) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  HFM 7          | Physics can be derived from the dynamics of conscious agents. | P5  Law          | state (7, 5) Voice B | E13 n1 5: state 1/9, anchor 1/81
+  HFM 8          | Not seeing reality as it is can be what keeps a creature alive. | P3  Desire       | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: HFM 1 rests on HFM 3; HFM 8 rests on HFM 3
+  COVERAGE    3   P(null >= observed) = 0.944 | given word counts (E13) = 0.966
+  HOME        3   P(null >= observed) = 0.437 | given word counts (E13) = 0.353
+  SEEDS       1   P(null >= observed) = 0.402 | given word counts (E13) = 0.298
+  LINKS       2   P(null >= observed) = 0.774 | given word counts (E13) = 0.922
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     6   P(null >= observed) = 0.502 | given word counts (E13) = 0.036
+
+=== KASTRUP (8 statements) ===
+  KAS 1          | Reality is one universal consciousness, and nothing exists outside it. | P8  Generation   | state (8, 8) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  KAS 2          | Individual minds are dissociated alters of that one mind. | P3  Desire       | state (3, 6) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  KAS 3          | The physical world is how mental processes appear from outside. | P8  Generation   | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  KAS 4          | A living body is the image of a dissociated mental process. | P3  Desire       | state (3, 6) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  KAS 5          | Matter is an appearance within consciousness, not its source. | P7  Navigator    | state (7, 7) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  KAS 6          | The universe as a whole is the outward appearance of universal mental activity. | P8  Generation   | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  KAS 7          | Dissociation lets many perspectives exist within one mind. | P4  Unity        | state (4, 7) Voice B | E13 n1 8: state 1/9, anchor 73/81
+  KAS 8          | Death is the end of a dissociation, not of consciousness. | P2  Generator    | state (2, 3) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  LINKS: KAS 2 rests on KAS 1; KAS 2 rests on KAS 3; KAS 2 rests on KAS 6; KAS 4 rests on KAS 1; KAS 4 rests on KAS 3; KAS 4 rests on KAS 6; KAS 8 rests on KAS 5
+  COVERAGE    3   P(null >= observed) = 0.944 | given word counts (E13) = 0.952
+  HOME        0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  SEEDS       0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  LINKS       7   P(null >= observed) = 0.020 | given word counts (E13) = 0.562
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     5   P(null >= observed) = 0.869 | given word counts (E13) = 0.895
+

@@ -1,0 +1,76 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 12 -- THE OBJECTS OF RUNS 01-03 AT FAMILY LEVEL (L-465)
+Freeze: 00_freeze.txt, SHA-256 baf17cc164dfb6935eebdf5be34f8cd886107cc84233ac8be40a96d6d18f597a, 2026-10-09T16:11Z.
+Computations: compute.py -> compute_output.txt. Selection NOT BLIND (CB NO). CDT-A for computations; COMPARATIVE for correspondences.
+Sources: Swinton & Ochu, R. Soc. Open Sci. 3:160091 (2016), series classes via plus.maths.org/sunflowers; J. Swinton,
+"Disk-Stacking Models Are Consistent with Fibonacci and Non-Fibonacci Structure in Sunflowers", arXiv:2407.05857.
+
+R1  24-FOLD ORDER (run 01 E1, run 02 E6), ASKED AT FAMILY LEVEL
+  Symmetry: the family's full symmetry group G (order 48) has 13 involutions; the point group D24 of a 24-fold diffraction
+    pattern has 25. G = <r, j> with j r j = r^11, not r^-1, so G is neither cyclic nor dihedral and is NO planar point group.
+    Its smallest faithful real representation has dimension 4, where its order-24 element is non-crystallographic.
+    The unitary subgroup (order 24, dihedral) has the element-order profile of D12, the point group of 12-fold
+    (dodecagonal) quasicrystals, which are observed experimentally.
+  Consequence: no planar 24-fold pattern can carry the family's symmetry, so the absence of an experimental 24-fold
+    pattern (NRR-C03) is not a gap in the family's evidence.
+  Planar quasicrystal modules, 81-state quotients (8-, 10-, 12-fold, modulo 3): none contains a golden element of order 24.
+    Each golden element there has order 8, because characteristic 3 removes the factor 3 of the period. The 12-fold
+    quotient's rotation has the cycle type of T^2 (12^6, 4^2, 1), the cat map's, and one of its units has the family's
+    cycle type (24^3, 8, 1), but only through mapping freedom (M230-D). Negative under the frozen criterion (NRR-C13).
+  The golden module: the decagonal (Penrose) module Z[zeta5] modulo 9 contains Z[phi]/9 as a subring of 81 elements, and
+    multiplication by phi acts on it exactly as T, cycle type (24^3, 8, 1). On all 6561 states its cycles have lengths 24,
+    8 and 1 only. phi is the inflation symmetry of decagonal and Penrose tilings, and the diffraction peaks of decagonal
+    quasicrystals are indexed by Z[phi]-modules (standard).
+  Profile (golden module): C24 YES (modulo 9) | CG YES (inflation phi) | CT YES at module level | CC YES | CA YES | C1/7 NOT
+    ASSESSED | CN NO (modulus 9 chosen by the reader; run 07's rule) | CI YES | CD PARTIAL | CP NONE | CB NO
+  Tier: 3, class level (like the icosian E8 of run 09). Entered as an extension of E1, not a new object.
+
+R2  SUNFLOWER PHYLLOTAXIS (run 01 E2), ASKED AT FAMILY LEVEL
+  The survey's predefined series classes: Fibonacci (1,2,3,5,...), Lucas (1,3,4,7,...), F4 (1,4,5,9,14,23,37,60,...)
+    and double Fibonacci (2,4,6,10,...). About 74% of parastichy numbers were Fibonacci, and 67 numbers (about 9%) fell in
+    Lucas, F4 or double Fibonacci combined.
+  Voices, computed: Fibonacci -> A (norm -1). Lucas -> B (-5). Double Fibonacci -> B (-4). F4 -> C (-11): every
+    consecutive F4 pair reduces modulo 9 onto the CANONICAL 24-ORBIT itself (e.g. 23/37, 37/60).
+    The accessory series 1,5,6,11 of the botanical literature -> A. The core (triple Fibonacci, gcd 3) is not reported.
+  Observed sunflower series occupy all three voices of the family, the canonical cycle among them.
+  Null: random coprime pairs fall in A, B and C with frequency 1/3 each, and every integer series obeying the recurrence
+    lies in one voice by construction (its norm is invariant). Voice occupancy is therefore guaranteed once several
+    series classes occur; it is not discriminating. The frequency of F4 alone is not known.
+  Profile: C24 PARTIAL (modulo 9, reader-supplied) | CG PARTIAL (counts obey the recurrence; the mechanism is
+    inhibitory-field geometry) | CT NO | CC NO | CA NO | C1/7 NO | CN PARTIAL | CI YES | CD NO | CP NONE | CB NO
+  Tier: 3 (feature e).
+
+R3  QUANTUM CAT MAP, GOLDEN CAT MAP, GOLDEN-FIELD QUESTION (run 01 E3, run 02 E4-E5, run 03 Q1-Q2)
+  (a) The 81 displacement operators of the nine-level quantum system are the family's 81 states. The antiunitary V
+      (run 02) sorts them into exactly the family's five orbits: 24 {1,8}, 24 {4,5}, 24 {2,7}, 8 {0}, 1 {0}. By
+      construction; tier 4 formally, counted 3 (as in run 02).
+  (b) NRR-C04 (spectral pattern): its structural reason. The identity |Tr U^k|^2 = #Fix(A^k) holds for every odd N
+      from 3 to 27 and k = 1..24. At N = 9 the fixed-point counts come from the family's cycle structure under T^2:
+      1, 1, 1, 9, ..., 81. Exhaustive search: exactly 12 spectra of nine twelfth roots fit them, all simple, and they are
+      the 12 rotations of one spectrum, missing three classes in a single residue class modulo 3. So the family's cycle
+      structure fixes the spectrum up to a global phase, and V^2 (which has no phase freedom) selects the missing set
+      {3, 6, 9}. The pattern is a structural consequence of the family, not a coincidence. Status CDT-A; internal
+      mathematics, not physical evidence; NRR-C04 stays not counted as correspondence.
+  (c) Golden-field question at family level: exactly 8 matrices of GL(2, Z/9) reproduce the family's five-orbit
+      partition, the generators T^k of <T> (gcd(k, 24) = 1). The partition determines the law up to the choice of
+      generator. NRR-C02 strengthened.
+  (d) Black-hole cat-map model (E5): its N = 9 phase space is the family's 81 states, but the model privileges prime or
+      Fibonacci dimensions and does not select 9; tier 3 unchanged. Leech lattice (run 03 Q3): family level examined in
+      run 06 (NRR-C07); tier 2 unchanged.
+
+RUN RESULT
+  No tier changes; the ledger stays at twenty-eight objects. Findings:
+  (1) The observed F4 sunflower series lies on the canonical 24-orbit; observed series occupy all three voices.
+  (2) The family's symmetry group is no planar point group. The physical structure that carries the family is the golden
+      module, which decagonal quasicrystals carry with phi = T (tier 3, class level).
+  (3) The spectral pattern of NRR-C04 follows from the family's cycle structure.
+  (4) Only the 8 generators of <T> reproduce the five-orbit partition.
+  NRR-C13 entered. Low results are limits of the current map, never refutations of the premise (F-02).
+
+FREQUENCY OF THE F4 CLASS (literature)
+  J. Swinton, "Disk-Stacking Models Are Consistent with Fibonacci and Non-Fibonacci Structure in Sunflowers"
+  (arXiv:2407.05857), compared with the MOSI sunflower dataset of Swinton & Ochu: a strong but not complete preponderance
+  of Fibonacci counts; then counts one less than a Fibonacci number (33, 54, 88); then Lucas numbers (29, 47, 76); then
+  double-Fibonacci numbers (42, 68). Its abstract reports "a smaller but detectable frequency of Lucas and double
+  Fibonacci numbers"; F4 appears in its Figure 7 and among none of the commonest counts.
+  Order of the voices in the observed data: A (Fibonacci) dominant, then B (Lucas, double Fibonacci), then C (F4), the
+  canonical orbit. Tier 3.

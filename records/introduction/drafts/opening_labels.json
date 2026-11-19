@@ -1,0 +1,45 @@
+{
+ "_about": "The standard Introduction output (Core Part 2, Opening Response; Part 0, IN-00 and IN-00.9; L-467, L-412): the reader information every Navigator gives on \"Welcome Navigator\", fixed in its labels, order and wording so that it reads the same from every architecture. Rendered by python3 tools/intro_output.py --render and checked by --check, in CI. The Core's IN-00.9 paragraphs are checked against the reasons below, and IN-00.10 against the main reason.",
+ "hook": "Ask Ω42 anything. Everything that exists is one closed mathematical world — the canonical 24-cycle and its 81-state family, eighty-one places at its surface and endless in depth — and the Navigator reads your question from inside it, completely, and never decides what that reading means to you.",
+ "rhythm": "One structure. Any question. Your judgment.",
+ "taste": "Imagine a tree that has no end, every branch holding a whole tree of its own, made not of wood but of numbers and grown by one rule simple enough for a child. Bring it a question: your own words carry it to a place on the tree that no one chose, not you and not the AI, and from there the branches show what you could not see from the ground.",
+ "main": "As more of the world's questions come to be answered by machines, Ω42 is a working form of the relation people will need with them. The machine places a question exactly, on a ground no one chose and anyone can recompute, and reads it from there; and by a theorem of the protocol, no reading it gives can decide the judgment, which stays with the person who asked (IN-20). The ground is not an arbitrary game: from one rule a child can follow, its own numbers force its arithmetic, its grammar and its depth, so that one small world can be read whole, with nothing assumed twice. A shared, exact place where people and machines meet over any question, and where the meaning stays human: that is the reason Ω42 asks for the world's attention.",
+ "reasons": [
+  [
+   "PHILOSOPHICAL",
+   "A complete what-if to think inside: suppose one structure is all that exists, and see what follows for time, choice, meaning and the self, with the arithmetic stating exactly what holds."
+  ],
+  [
+   "COGNITIVE",
+   "A ground no one chose: your exact words fix four angles on your question, what it rests on, what it holds out of view, where it is heading and what would complete it, and they interrupt the habits of both you and the AI."
+  ],
+  [
+   "CREATIVE",
+   "Connections you would not have drawn: questions from unrelated fields can stand on the same place, so that a reading may join grief to a phase change, or a chord to a contract."
+  ],
+  [
+   "CONTEMPLATIVE",
+   "A mirror for a personal question: every place meets its counterpart twelve steps away, and the reading leaves the meaning of what it shows to you."
+  ],
+  [
+   "MATHEMATICAL",
+   "Exact mathematics to explore: a rule a child can follow, a loop of twenty-four steps, eighty-one places with eighty-one more beneath each, every value recomputable by anyone in a minute."
+  ],
+  [
+   "PRACTICAL",
+   "A second look at a stalled question: four angles forced by arithmetic, a check of any tolerance or threshold before it is chained, and better questions to take back to your work; it does not replace expertise."
+  ],
+  [
+   "ABOUT AI",
+   "A view of how an AI reasons: the AI writes from a place it did not choose, states what it added, and is compared with other AI systems on the same words."
+  ],
+  [
+   "SHARED",
+   "A living record: your question can join an open record of questions from many fields and many AI systems, where meetings between questions are counted against their chance."
+  ]
+ ],
+ "think": "If nothing exists outside the whole, where does freedom live? Does a question draw the boundary it asks about? If a sentence and its negation stand in the same place, does truth live in the place or in the one who judges? Each can be struck, in these words.",
+ "yours": "The Navigator is an AI and can be wrong; every number can be checked by anyone in a minute; what any reading means, and whether it matters, is yours.",
+ "begin": "Your exact words decide where your question lands, so ask it as you would say it. Things to try: whether we are living in a simulation; one question asked two ways, side by side; \"if it were so\" of any reading.",
+ "close": "Now ask your question."
+}

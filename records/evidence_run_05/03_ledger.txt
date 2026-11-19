@@ -1,0 +1,53 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 05 -- RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 fa8072bd997a399d48a82479a27040924f289870a412ca21aa60e54d19a6495c, 2026-10-09T13:18Z.
+Computations: compute.py -> compute_output.txt. Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+
+E-A  THE NINE-SITE TRIANGULAR CLUSTER: THE TORSION LOOP AND THE CROWN AS A PHYSICAL SYMMETRY
+  Representation (frozen): a triangular lattice with 3 x 3 periodic boundary conditions, nine sites, under its own
+    rotation by 60 degrees about a site (multiplication by 1 + omega, verified of order 6 with cube -1).
+  Computed: the rotation acts on the nine sites with cycle type (6, 2, 1), exactly as multiplication by 2 acts on the nine
+    values of Z/9 -- the Torsion Loop 1 -> 2 -> 4 -> 8 -> 7 -> 5, the pair {3, 6}, the fixed 0 -- and the fixed site with the
+    2-cycle is the sqrt3 x sqrt3 sublattice through the rotation center: the Crown. There are 12 bijections carrying the
+    one action to the other (M230-D).
+  Null controls: the square lattice with 3 x 3 periodic boundaries under its 90-degree rotation gives (4, 4, 1); the
+    triangular lattice on N x N tori, N = 2 to 9, gives (3, 1), (6, 6, 3, 1), (6^4, 1), (6^5, 3, 2, 1), (6^8, 1), (6^10, 3, 1)
+    and (6^13, 2, 1) -- the nine-value structure occurs only for the 3 x 3 cell.
+  Literature: nine-site triangular clusters are used in numerical studies of frustrated spin models (Castells-Graells,
+    Yuste & Sanpera, 2018, with twisted rather than periodic boundaries); the 3 x 3 charge-density wave of single-layer
+    2H-NbSe2 folds the bands into nine (Silva-Guillen, Ordejon, Guinea & Canadell). Whether the CDW's distortion is
+    symmetric under the 60-degree rotation about a site was not established from the sources read.
+  Limits: the match is of the multiplicative action only; the additive structures differ (Z/9 is cyclic, the nine sites
+    form Z/3 x Z/3). The rotation is a symmetry of the cluster, not a time evolution.
+  Profile: (a) YES | C1/7 YES | C24 NO | CG NO | CT NO | CC YES (order 6 closes) | CN PARTIAL (the 3 x 3 periodic cell is a
+    choice) | CI YES | CD PARTIAL (a symmetry) | CP the consequence below | CB NO
+  Prediction (M230-G), frozen: any 3 x 3 superstructure on a triangular lattice that keeps the 60-degree rotation about a
+    site gives the nine sites at most three inequivalent classes, in the pattern 1 + 2 + 6 -- center, Crown pair, Torsion six.
+    Classified in advance as TRIVIAL CONSEQUENCE: it follows from the symmetry.
+  Tier: 3 (feature a), on a physical cluster. Entered as a new object.
+
+E-B  THE 24-CELL AT THE LEVEL OF THE FAMILY (Companion 25.2b, item 1)
+  Computed: the 24 Hurwitz units -- the 24-cell's vertices -- form a group; reduced modulo 3 through H/3H = M2(F3) they
+    become 24 distinct matrices of determinant 1, by a homomorphism, so they are exactly SL(2,3). The family's nine-state
+    core, the eight-cycle and the fixed point (the states (3a, 3b)), is the plane F3^2, and T acts on it as T reduced
+    modulo 3. So the 24-cell's vertices act on the family's core as exactly its determinant-1 linear symmetries. T^2 is one
+    of the 24; T, of determinant -1, is not. 24 choices of the images of i and j all give the same set (M230-D).
+  Null controls: SL(2,3) is the commutator subgroup of GL(2,3), hence its only subgroup of order 24. The cube's rotation
+    group S4, also of order 24 (first-pass tier 2), is not a subgroup of GL(2,3) and cannot act faithfully and linearly
+    on the core; a cyclic group of order 24 cannot either (the largest element order in GL(2,3) is 8).
+  Reading: among the groups of 24 elements, the 24-cell's is the one that the family's core singles out. The correspondence
+    stops at T^2 again, as it did for the 24-cell's Coxeter elements, the cat map and the quantum torus.
+  Profile update for the 24-cell (no new object): (f)/(g) NO | core action YES (SL(2,3) on the eight-cycle and fixed point) |
+    CT PARTIAL (T^2) | CN PARTIAL (reduction modulo 3) | CI YES | CB NO
+  Tier: 3 retained (the existing entry), strengthened by a discriminating null.
+
+E-C  THE LEECH LATTICE OVER THE EISENSTEIN INTEGERS -- LITERATURE ONLY
+  The Leech lattice can be built from the extended [12, 6, 6] ternary Golay code and a lattice over the Eisenstein
+  integers (as cited in arXiv:1306.1432, Section 6, to Conway & Sloane). Not computed in this run. Next: construct it and
+  test whether its reduction modulo sqrt-3 carries the Torsion/Crown ring Z[omega]/3 of run 04.
+
+RUN RESULT
+  One new object (the nine-site triangular cluster); the ledger at twenty. The 24-cell's entry strengthened.
+  Main findings: the Torsion Loop and the Crown appear as the rotation symmetry of the smallest periodic triangular cluster
+  with nine sites, and nowhere else among the clusters tested; the 24-cell's 24 vertices are, modulo 3, exactly the
+  determinant-1 symmetries of the family's nine-state core, the only group of 24 elements that can be, while T itself
+  stays outside, as before. Both are tier 3. Low results remain limits of the current map, never refutations (F-02).

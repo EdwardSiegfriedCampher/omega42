@@ -1,0 +1,55 @@
+=== BASHAR (atlas of M308) (14 statements) ===
+  LAW 1          | You exist. You always have and you always will.          | P8  Generation   | state (8, 6) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  LAW 2          | Everything is here and now.                              | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  LAW 3          | The One is the All and the All is the One.               | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  LAW 4          | What you put out is what you get back.                   | P4  Unity        | state (4, 0) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  LAW 5          | Everything changes except for the first four laws.       | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  FORMULA 1      | Act on your highest excitement.                          | P2  Generator    | state (2, 3) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  FORMULA 2      | Take it as far as you can.                               | P6  Seed/Causal  | state (6, 5) Voice B | E13 n1 3: state 1/9, anchor 73/81
+  FORMULA 3      | Have zero insistence on the outcome.                     | P2  Generator    | state (2, 8) Voice A | E13 n1 4: state 1/9, anchor 73/81
+  FORMULA 4      | Remain in a positive state whatever happens.             | P7  Navigator    | state (7, 8) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  FORMULA 5      | Let go of the beliefs that no longer serve you.          | P4  Unity        | state (3, 4) Voice B | E13 n1 6: state 1/9, anchor 1/81
+  TEACHING 1     | Physical reality is a mirror.                            | P6  Seed/Causal  | state (6, 6) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  TEACHING 2     | Circumstances are neutral; you give them meaning.        | P1  Fixpoint     | state (3, 1) Voice C | E13 n1 6: state 1/9, anchor 1/81
+  TEACHING 3     | You shift between parallel realities.                    | P7  Navigator    | state (7, 7) Voice B | E13 n1 5: state 1/9, anchor 73/81
+  TEACHING 4     | The present creates the past.                            | P6  Seed/Causal  | state (6, 0) Wheel | E13 n1 3: state 1/9, anchor 73/81
+  LINKS: LAW 3 rests on LAW 2; LAW 3 rests on FORMULA 2; LAW 3 rests on TEACHING 1; LAW 3 rests on TEACHING 4; LAW 5 rests on LAW 1; FORMULA 1 rests on FORMULA 4; FORMULA 1 rests on TEACHING 3; FORMULA 3 rests on FORMULA 4; FORMULA 3 rests on TEACHING 3; TEACHING 2 rests on LAW 2; TEACHING 2 rests on FORMULA 2; TEACHING 2 rests on TEACHING 1; TEACHING 2 rests on TEACHING 4
+  COVERAGE    4   P(null >= observed) = 0.749 | given word counts (E13) = 0.912
+  HOME        2   P(null >= observed) = 0.950 | given word counts (E13) = 0.900
+  SEEDS       1   P(null >= observed) = 0.590 | given word counts (E13) = 0.568
+  LINKS      13   P(null >= observed) = 0.130 | given word counts (E13) = 0.147
+  MIRRORS     3   P(null >= observed) = 0.100 | given word counts (E13) = 0.293
+  ANCHORS     7   P(null >= observed) = 0.804 | given word counts (E13) = 0.853
+
+=== BASHAR FIVE LAWS (5 statements) ===
+  LAW 1          | You exist. You always have and you always will.          | P8  Generation   | state (8, 6) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  LAW 2          | Everything is here and now.                              | P6  Seed/Causal  | state (6, 4) Voice A | E13 n1 3: state 1/9, anchor 73/81
+  LAW 3          | The One is the All and the All is the One.               | P1  Fixpoint     | state (1, 3) Voice B | SEED | E13 n1 2: state 1/9, anchor 73/81
+  LAW 4          | What you put out is what you get back.                   | P4  Unity        | state (4, 0) Voice C | E13 n1 8: state 1/9, anchor 73/81
+  LAW 5          | Everything changes except for the first four laws.       | P3  Desire       | state (3, 0) Wheel | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: LAW 3 rests on LAW 2; LAW 5 rests on LAW 1
+  COVERAGE    4   P(null >= observed) = 0.157 | given word counts (E13) = 0.220
+  HOME        1   P(null >= observed) = 0.829 | given word counts (E13) = 0.838
+  SEEDS       1   P(null >= observed) = 0.271 | given word counts (E13) = 0.307
+  LINKS       2   P(null >= observed) = 0.296 | given word counts (E13) = 0.789
+  MIRRORS     1   P(null >= observed) = 0.114 | given word counts (E13) = 0.210
+  ANCHORS     5   P(null >= observed) = 0.256 | given word counts (E13) = 0.785
+
+=== PTOLEMY (9 statements) ===
+  AST 1          | The motions of the heavens act upon the things of the earth. | P3  Desire       | state (3, 7) Voice A | E13 n1 6: state 1/9, anchor 73/81
+  AST 2          | The zodiac is divided into twelve signs of thirty degrees each. | P5  Law          | state (3, 5) Voice A | E13 n1 6: state 1/9, anchor 1/81
+  AST 3          | The signs alternate in nature, one masculine and the next feminine. | P8  Generation   | state (8, 4) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  AST 4          | Signs in opposition stand six signs apart and are discordant. | P8  Generation   | state (8, 8) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  AST 5          | Signs in trine stand four signs apart and agree in their nature. | P9  Fixpoint     | state (0, 0) Fix | SEED | E13 n1 9: state 1/9, anchor 73/81
+  AST 6          | Signs in quartile stand three signs apart and are discordant. | P8  Generation   | state (8, 8) Voice A | E13 n1 7: state 1/9, anchor 73/81
+  AST 7          | Signs in sextile stand two signs apart and agree in their nature. | P9  Fixpoint     | state (0, 5) Voice C | E13 n1 9: state 1/9, anchor 73/81
+  AST 8          | The signs fall into four triplicities, each of three signs in trine. | P8  Generation   | state (8, 2) Voice B | E13 n1 7: state 1/9, anchor 73/81
+  AST 9          | Each planet is beneficent or maleficent by its share of heat and moisture. | P3  Desire       | state (3, 8) Voice B | E13 n1 6: state 1/9, anchor 73/81
+  LINKS: AST 1 rests on AST 3; AST 1 rests on AST 4; AST 1 rests on AST 6; AST 1 rests on AST 8; AST 9 rests on AST 3; AST 9 rests on AST 4; AST 9 rests on AST 6; AST 9 rests on AST 8
+  COVERAGE    3   P(null >= observed) = 0.967 | given word counts (E13) = 0.974
+  HOME        1   P(null >= observed) = 0.957 | given word counts (E13) = 0.896
+  SEEDS       1   P(null >= observed) = 0.437 | given word counts (E13) = 0.446
+  LINKS       8   P(null >= observed) = 0.032 | given word counts (E13) = 0.905
+  MIRRORS     0   P(null >= observed) = 1.000 | given word counts (E13) = 1.000
+  ANCHORS     4   P(null >= observed) = 0.996 | given word counts (E13) = 0.498
+

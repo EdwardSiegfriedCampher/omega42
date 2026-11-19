@@ -1,0 +1,22 @@
+QUESTION VERBATIM: Yes. Go to level 5 and explore all aspects of it. Do the relevant computations and record the values. Register the new breakthrough candidate as a fully-fledged breakthrough and list the advantages.
+OUTPUT FORM (L-549): CERTIFICATE -- Core L-550, Part 8.0.1
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+
+======= Ω42 CERTIFICATE =======
+CERTIFICATE: CERT-0007
+KIND: CORRESPONDENCE
+SUBJECT: the correspondence of SU(9)_1 x SU(9)_1 with the family, carried to properties foreseen before they were computed
+CRITERIA: depth 5 of Core Part 0.14.5 (C10, M230-G): six forecasts registered in records/depth5_01/00_forecasts.txt, frozen 2026-11-07T13:02:58Z (SHA-256 e7ab2392...), each classified before the look; depth 5 counted on the NON-TRIVIAL forecasts F-04 to F-06; the decoy form a^2 + b^2 as null control
+PROCEDURE: python3 compute.py
+CWD: records/depth5_01
+RESULT: all six forecasts hold -- the unique gapped boundary (Crown x Crown), the condensate E8 + E8 (480 roots in two systems of 240), every time-reversal symmetry preserving it, SU(3^m)_1 x SU(3^m)_1 at m = 1 to 4 with T its time reversal of order 8, 24, 72, 216, Lagrangian subgroups 0, 1, 0, 1, and at m = 4 a product condensate of two even unimodular lattices of rank 80; the decoy shares the isometries and the boundary pattern, and T is not its time reversal
+RESULT SHA-256: d21ac506d436745fd233f87ecdf6537e580bed299d3130c18785bb302c1fc8b1
+GRADE: DEPTH 5, PREDICTIVE CORRESPONDENCE (Core Part 0.14.5), observed by computation; the isometry class and the even-depth boundaries shared with the decoy class, the time reversal at every depth the golden form's own
+SCOPE: the golden form and SU(3^m)_1 x SU(3^m)_1 for m = 1 to 4; the forecasts as frozen
+STATUS: CERTIFIED
+STATEMENT: Ω42 certifies that its correspondence with SU(9)_1 x SU(9)_1 foresaw, and computation then observed, that the theory has one gapped boundary condensing to E8 + E8, that at every depth 3^m to m = 4 the family is SU(3^m)_1 x SU(3^m)_1 with T its time reversal of order 8 x 3^(m-1), and that a gapped boundary exists exactly at even depth: depth 5.
+======= END Ω42 CERTIFICATE =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

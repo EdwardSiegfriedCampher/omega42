@@ -1,0 +1,108 @@
+QUESTION VERBATIM: Please proceed with complete derivation and present the final solution. Resolve all outstanding issues. [with four peer accounts on the necessity of the nine: Grok (xAI), pasted and attached; GPT-6 (OpenAI), two attachments]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 80 | PREV: d277c6991b24ec81323950343ff53d014879c16e1e3c80b0a5ea08eacd707923
+REQUEST (L-502): STRUCTURE -- the complete derivation, proved and computed; four peer accounts checked and filed; every review owed given its report; avenues A1, R, P
+
+SUMMARY: The derivation is complete. The premise's own numbers force the arithmetic, and nothing ternary needs to be assumed.
+  - THE FINAL SOLUTION, in five steps:
+    1. The law T(a, b) = (b, a + b) uses only addition. So what a coordinate contributes is its additive group G.
+    2. The premise names 81 states. So G has 9 elements.
+    3. There are exactly two groups of nine elements: Z/9 and Z/3 × Z/3. Every ring of order nine (there are four) carries one of them.
+    4. The premise names the 24-cycle. On Z/3 × Z/3 the law has period 8; on Z/9 it has period 24.
+    5. Hence the coordinate is Z/9, and nothing else.
+  - THE SAME RESULT FROM THE OTHER SIDE: the mirror at 12, a single world, and the smallest such group give Z/9 again (SEQ 79).
+  - Everything else is a consequence: the square 9 = 3², the three voices, the norm classes ±1, ±2 and ±4, and the tower 9^k.
+  - THE TOWER, PROVED FOR EVERY DEPTH: A⁸ = I + 3B with B = [[4, 7], [7, 11]], so the period at depth k is 24 × 9^(k−1).
+  - THE THREE OPEN QUESTIONS, ANSWERED:
+    * Why two ternary levels: the 24-cycle forces them. One level gives a period of 8, with the mirror at 4.
+    * Why cyclic: two copies of the law modulo 3 side by side cannot raise the period above 8.
+    * Why every second ternary depth: a depth is one more copy of the base, and the base is 9. The odd powers 27, 243 and so on are the half-depths inside each depth, and both sequences have the same 3-adic limit.
+  - OUTSTANDING ISSUES RESOLVED:
+    * The reviews owed before the check (APE-271 to APE-279) now have their SNCAs, and --owed covers them.
+    * The four new accounts are filed and reviewed.
+    * The two errors that could hide in a proof are corrected: GPT-6's lifting matrix was A^10, not A⁸, and there are four rings of order nine, not two.
+    * What remains needs others, and is listed under OPEN with what each needs.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; records/necessity/nine.py, in CI):
+    - The law's period on the additive groups of order nine: Z/9, 24; Z/3 × Z/3, 8 (A⁴ ≡ −I modulo 3).
+    - The four rings of order nine: Z/9 has the group Z/9; Z/3 × Z/3, GF(9) and F₃[x]/(x²) have Z/3 × Z/3.
+    - Without the count 81, the exponent of G:
+      * the mirror needs exponent | gcd(90, 144, 234) = 18;
+      * a period of 24 needs 9 | exponent;
+      * one world excludes 18;
+      * so the exponent is 9, and Z/9 is the smallest group with it.
+    - The tower:
+      * A⁸ = [[13, 21], [21, 34]] = I + 3[[4, 7], [7, 11]];
+      * det B ≡ 1 modulo 3;
+      * so ord modulo 3^n is 8 × 3^(n−1) for every n, checked to n = 7, which gives 24, 216, 1,944, 17,496 and 157,464.
+    - The Crown under the mirror: −3 ≡ 6 and −6 ≡ 3; only 9 is fixed.
+  R THE RECORD:
+    - In force: MATH-17's chain, the ten moduli of period 24 (Companion 37.5) and Part 130.
+    - New: the derivation from the premise's own numbers, the tower proved for every depth, and the three questions answered (Companion Part 131).
+    - Standing: a post-selection property (Part 1.8.3). It shows that no other arithmetic could carry the premise's numbers; it did not select them.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Derive the two-level, cyclic and even-depth requirements (both peers, M-9-07 to M-9-09): APPLIED, derived in Companion 131.2 and 131.3 from the 24-cycle and the 81 states.
+  (2) Prove the tower's lifting (GPT-6): APPLIED with the correct decomposition (Companion 131.4).
+  (3) Seal the comparative table (Grok): APPLIED, and superseded by a proof for every modulus (Companion 130.2).
+  (4) Record the result's standing (GPT-6): APPLIED, EXACT, D-011, as a post-selection property.
+  (5) Give every review owed its report: APPLIED for APE-271 to 279 and APE-287 to 290 (records/srcas/reviews_2026-10-31.txt); tools/srcas_check.py --owed now runs from APE-271.
+
+PEER ACCOUNTS (P; APA 9.5.5): FOUR received, filed with checked notes and SNCAs in review form.
+  - APE-287, Grok (pasted):
+    * Holding: its acceptance of the circularity.
+    * Corrected: uniqueness is not open; its revised conditions still assume the nine-element cyclic group.
+    * SNCA: 0.46.
+  - APE-288, GPT-6:
+    * Holding: its table of moduli and censuses, recomputed.
+    * Corrected: the result is not limited to the tested set.
+    * SNCA: 0.60.
+  - APE-289, Grok:
+    * Holding: its conclusion.
+    * Corrected: the Crown is not fixed by the mirror; the two Construct polarities are not in the record; its standing is not one of L-530.
+    * SNCA: 0.42.
+  - APE-290, GPT-6:
+    * Holding: the product excluded by the order of A.
+    * Corrected: there are four rings of order nine; its lifting matrix was A^10, not A⁸.
+    * SNCA: 0.60.
+    * Its navigator line is dated 28 October.
+CHANGES TO THE PROTOCOL:
+  - Core: MATH-17.
+  - Companion: Part 127.3; the heading of Part 130; Part 131; the Commons lines for APE-287 to APE-290.
+  - Repository:
+    * Extended: records/necessity/nine.py and its output.
+    * Added: the SNCAs in records/srcas/reviews_2026-10-31.txt.
+    * Updated: tools/srcas_check.py (--owed from APE-271).
+    * Registered: D-011 and A-015.
+    * Filed: submissions/ape/APE-287.md to APE-290.md.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law, the premise's 81 states and 24-cycle, the record's MATH-17 and Part 130 | STRIKER -- the request for the complete derivation, with the four accounts | NAVIGATOR -- the reduction to additive groups, the use of the premise's two numbers, the correct lifting decomposition, the answers to M-9-07 to M-9-09, and the reviews owed | OPEN -- what it means that the arithmetic is forced by the premise's own numbers
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Run on the documents of SEQ 79 to 81, built in one run. records/necessity/nine.py, sections (4) to (6), run and diffed: the period on Z/9 and Z/3 x Z/3, the exponent argument, and the lifting A^8 = I + 3B checked to n = 7; each note of APE-287 to APE-290 checked; the SNCAs of APE-271 to APE-279 and APE-287 to APE-290 checked by tools/srcas_check.py; --owed PASS from APE-271; tools/discoveries.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the record and all four accounts, that the cyclic nine is forced once the right conditions are named. PART -- which conditions: the peers sought them in the Crown and in polarities; the derivation finds them in the premise's 81 states and 24-cycle. SILENT -- what the necessity means within the frame, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): new to the register, D-011 [EXACT]. The premise's own numbers force the arithmetic: with 81 states and a cycle of 24, the coordinate is Z/9 and no other, and the tower's period is 24 × 9^(k−1) at every depth. Proof by derivation and computation (records/necessity/nine.py, in CI). It changes the reading of the arithmetic from stipulated to stipulated and forced by the premise's own numbers. Whether it is a "breakthrough" is yours to judge.
+OPEN, each needing someone other than this session:
+  - a fresh reader for the new First Contact opening;
+  - re-issue of the three Sorites navigations by their Navigators;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for the re-navigation panel and the studies of Appendix S.6.5 and S.6.6;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: Which of the premise's own numbers already carried the whole arithmetic?
+What it holds out of view: That the two levels of the nine were never a separate choice, only what the cycle of 24 needs.
+Where it is heading: Toward a premise that can be read off its own numbers, every structure a consequence.
+What would complete it: Your judgment of what it means that the premise could not have been otherwise.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 1f4cf0343c8c3f190b57b38a93f61a68ba4dd39c696bd06ec03352ca5ca61f89
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

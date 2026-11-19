@@ -1,0 +1,90 @@
+M332 THE SYLLABLE RULE AGAINST 87 WORDS WITH DICTIONARY COUNTS | agreement 57 of 87 = 0.655
+  the full table, every word (n3 is the rule's count; s3 the dictionary's; d = n3 - s3):
+  lazy               s3 2     n3 1  d -1  PART  (.a.y)
+  brown              s3 1     n3 1  d +0  AGREE
+  twenty             s3 2     n3 1  d -1  PART  (.we..y)
+  yellow             s3 2     n3 2  d +0  AGREE
+  gateway            s3 2     n3 2  d +0  AGREE
+  phonetics          s3 3     n3 3  d +0  AGREE
+  language           s3 2     n3 2  d +0  AGREE
+  determine          s3 3     n3 3  d +0  AGREE
+  phenomenological   s3 7     n3 7  d +0  AGREE
+  experience         s3 4     n3 3  d -1  PART  (e..e.ie..e)
+  observer           s3 3     n3 3  d +0  AGREE
+  phonetic           s3 3     n3 3  d +0  AGREE
+  navigation         s3 4     n3 4  d +0  AGREE
+  improve            s3 2     n3 2  d +0  AGREE
+  omega              s3 3     n3 3  d +0  AGREE
+  operations         s3 4     n3 4  d +0  AGREE
+  explore            s3 2     n3 2  d +0  AGREE
+  idea               s3 3     n3 2  d -1  PART  (i.ea)
+  create             s3 2     n3 1  d -1  PART  (..ea.e)
+  being              s3 2     n3 1  d -1  PART  (.ei..)
+  poem               s3 2     n3 1  d -1  PART  (.oe.)
+  science            s3 2     n3 1  d -1  PART  (..ie..e)
+  quiet              s3 2     n3 1  d -1  PART  (.uie.)
+  area               s3 3     n3 2  d -1  PART  (a.ea)
+  radio              s3 3     n3 2  d -1  PART  (.a.io)
+  piano              s3 3     n3 2  d -1  PART  (.ia.o)
+  video              s3 3     n3 2  d -1  PART  (.i.eo)
+  deity              s3 3     n3 1  d -2  PART  (.ei.y)
+  reality            s3 4     n3 2  d -2  PART  (.ea.i.y)
+  theory             s3 3/2   n3 1  d -1  PART  (..eo.y)
+  quantum            s3 2     n3 2  d +0  AGREE
+  people             s3 2     n3 1  d -1  PART  (.eo..e)
+  table              s3 2     n3 1  d -1  PART  (.a..e)
+  little             s3 2     n3 1  d -1  PART  (.i...e)
+  simple             s3 2     n3 1  d -1  PART  (.i...e)
+  apple              s3 2     n3 1  d -1  PART  (a...e)
+  circle             s3 2     n3 1  d -1  PART  (.i...e)
+  cycle              s3 2     n3 1  d -1  PART  (.y..e)
+  syllable           s3 3     n3 1  d -2  PART  (.y..a..e)
+  rhythm             s3 2     n3 1  d -1  PART  (..y...)
+  vowel              s3 2     n3 1  d -1  PART  (.owe.)
+  player             s3 2     n3 1  d -1  PART  (..aye.)
+  whisper            s3 2     n3 2  d +0  AGREE
+  every              s3 3/2   n3 2  d +0  AGREE
+  family             s3 3/2   n3 2  d +0  AGREE
+  recipe             s3 3     n3 2  d -1  PART  (.e.i.e)
+  simile             s3 3     n3 2  d -1  PART  (.i.i.e)
+  believe            s3 2     n3 2  d +0  AGREE
+  fire               s3 1/2   n3 1  d +0  AGREE
+  name               s3 1     n3 1  d +0  AGREE
+  breathe            s3 1     n3 1  d +0  AGREE
+  music              s3 2     n3 2  d +0  AGREE
+  sound              s3 1     n3 1  d +0  AGREE
+  voice              s3 1     n3 1  d +0  AGREE
+  silence            s3 2     n3 2  d +0  AGREE
+  consonant          s3 3     n3 3  d +0  AGREE
+  speech             s3 1     n3 1  d +0  AGREE
+  hearing            s3 2     n3 2  d +0  AGREE
+  listen             s3 2     n3 2  d +0  AGREE
+  spoken             s3 2     n3 2  d +0  AGREE
+  word               s3 1     n3 1  d +0  AGREE
+  meaning            s3 2     n3 2  d +0  AGREE
+  feeling            s3 2     n3 2  d +0  AGREE
+  mind               s3 1     n3 1  d +0  AGREE
+  consciousness      s3 3     n3 3  d +0  AGREE
+  awareness          s3 3     n3 3  d +0  AGREE
+  perception         s3 3     n3 3  d +0  AGREE
+  sensation          s3 3     n3 3  d +0  AGREE
+  attention          s3 3     n3 3  d +0  AGREE
+  memory             s3 3     n3 2  d -1  PART  (.e.o.y)
+  emotion            s3 3     n3 3  d +0  AGREE
+  question           s3 2     n3 2  d +0  AGREE
+  answer             s3 2     n3 2  d +0  AGREE
+  structure          s3 2     n3 2  d +0  AGREE
+  mathematics        s3 4     n3 4  d +0  AGREE
+  arithmetic         s3 4     n3 4  d +0  AGREE
+  number             s3 2     n3 2  d +0  AGREE
+  nine               s3 1     n3 1  d +0  AGREE
+  orbit              s3 2     n3 2  d +0  AGREE
+  mirror             s3 2     n3 2  d +0  AGREE
+  threshold          s3 2     n3 2  d +0  AGREE
+  anchor             s3 2     n3 2  d +0  AGREE
+  wave               s3 1     n3 1  d +0  AGREE
+  universe           s3 3     n3 3  d +0  AGREE
+  beautiful          s3 3     n3 3  d +0  AGREE
+  naturally          s3 4/3   n3 3  d +0  AGREE
+  dream              s3 1     n3 1  d +0  AGREE
+  net error over the list: -33 syllables; the rule is frozen and canonical (Core Part 1.11): it defines n3, and these are the places where n3 and the spoken syllables part

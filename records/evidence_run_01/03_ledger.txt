@@ -1,0 +1,66 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 01 -- RESONANCE LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 678060cffe2c759067bd12e499a00137f94c8f73d3c35a9b361ee4a89e442536, 2026-10-09T09:26Z.
+Computations: compute.py -> compute_output.txt (re-run to verify). Placements: canonical_reference.py --m230a / --m230i.
+Selection NOT BLIND (CB NO throughout). Statuses: CDT-A for the computations; COMPARATIVE (Tier C) for the correspondences.
+
+E1  24-fold rotational order in diffraction (Companion 25.2b, item 2)
+  Literature: the highest diffraction symmetry reported for self-assembled matter is 18-fold (colloidal quasicrystals,
+    PNAS 108:1810, 2011); 24-fold (icositetragonal) order self-assembles in simulations of two-dimensional soft-matter
+    models (Dotera, Oshiro & Ziherl, Nature 506:208, 2014) and occurs in designed structures (Lee et al., "Design and
+    simulation of highly symmetric photonic quasi-crystals", 2005: arbitrary n-fold). No experiment has reported it.
+  Placement: count 24 -> P3 (v = 3), tier-2 value.
+  Tier-3: (b) and (c) hold for any centrosymmetric pattern (Friedel's law: rotation by 12 of 24 steps sends k to -k), but
+    M230-E: every even-order diffraction pattern (8-fold, 12-fold) passes identically, so they do not discriminate.
+    A diffraction pattern is static: it has a symmetry, not a state transition.
+  Profile: C24 PARTIAL (by design only) | CG NO | CT NO | CC YES | CA YES, non-discriminating | C1/7 NO | CN YES | CI NO | CD NO | CP NONE | CB NO
+  Tier reached: 2.
+
+E2  Sunflower phyllotaxis (Companion 25.2b, item 4: the test of CG)
+  Literature: Swinton & Ochu, R. Soc. Open Sci. 3:160091 (2016), citizen-science survey: of 768 spiral families, 74%
+    were Fibonacci numbers; 66.6% of clockwise/anticlockwise pairs were consecutive Fibonacci numbers; about 9% matched
+    other sequences (Lucas, double Fibonacci, F4); Fibonacci-1 counts were significantly commoner than Fibonacci+1.
+    Mechanism: primordia act as sources of an inhibitory field, mediated by auxin depletion through polarized transport,
+    and new organs form where inhibition falls below threshold; the spiral pattern and its divergence angle near the
+    golden angle emerge from that self-organization (Mirabet et al., PLoS Comput. Biol. 8:e1002389, 2012; Douady & Couder 1992-96).
+  Frozen count (larger number of the most frequent class): NOT RETRIEVED -- the primary article could not be opened;
+    placement NOT COMPUTED. Sensitivity only (M230-I): 21, 34, 55, 89 -> P6, P8, P5, P4, four distinct positions.
+  Tier-3: (e) matched at the level of counts, in about two thirds of heads. CG PARTIAL: the counts obey
+    x(n+2) = x(n+1) + x(n); the developmental rule is inhibitory-field geometry, not an additive recurrence.
+  New structural finding (computed): reduced modulo 9, every consecutive Fibonacci pair tested (21/34, 34/55, 55/89, 89/144)
+    lies on the Fibonacci orbit, Voice A (norm +-1); the Lucas and double-Fibonacci pairs lie on Voice B (norm +-4);
+    the F4 pairs (1,4,5,9,14,23,37,60,...) lie on the canonical orbit itself, Voice C (norm +-2). Observed sunflower
+    series occupy all three voices; F4 is the least frequent class (records/evidence_run_12/03_ledger.txt, R2).
+  Profile: C24 NO | CG PARTIAL | CT NO | CC NO | CA NO | C1/7 NO | CN PARTIAL | CI YES | CD NO | CP NONE | CB NO
+  Tier reached: 3 (feature e). Tier 4: NO.
+
+E3  The quantized cat map (discovery modes III and IV)
+  Literature: the Arnold cat map A = [[2,1],[1,1]] on a discrete N x N torus and its quantization with Planck constant 1/N
+    (Hannay & Berry, "Quantization of linear maps on a torus -- Fresnel diffraction by a periodic grating", 1980);
+    for linear maps "classical and quantum evolution coincides" for the Wigner function, and U_cat can be built as a
+    quantum circuit (Miquel, Paz & Saraceno, "Quantum computers in phase space", 2002). No experimental realization of
+    the cat map itself was found (the quantum baker's map has been run in NMR, Weinstein et al. 2002).
+  Computed: A is conjugate to T^2 by the coordinate swap on all 81 states of (Z/9)^2; its orbits there are
+    1, 4, 4 and six of 12 -- each 24-orbit of T split in two, as with the 24-cell; A has order 12 mod 9 and A^6 = -I, the
+    half-period negation. Quantum, N = 9 (the Weil representation, verified to act on all 81 displacement operators as A):
+    U^6 = parity and U^12 = identity, up to phase; the quantum period is 12.
+  Why the correspondence stops at T^2: T has determinant -1, so it reverses phase-space orientation and is not a canonical
+    transformation; it cannot be a unitary quantum evolution. Its square can, and is the cat map.
+  Placement: count 2 (state variables) -> P1 (v = 5), not a tier-2 value.
+  Tier-3: (b) and (c) YES, (e) YES. M230-E: the same map has half-period negation for 14 of the 28 moduli N = 3..30, and
+    N = 9 is set by the experimenter (Planck constant 1/N), not by the physics.
+  Note: the correspondence holds by construction -- the cat map modulo 9 is Omega42's arithmetic squared -- so it is a bridge
+    to an established physical model, not independent evidence.
+  Profile: C24 NO (12-cycles) | CG YES | CT PARTIAL (T^2, not T) | CC YES | CA YES | C1/7 NOT ASSESSED | CN PARTIAL (choice of N) |
+    CI YES for the map, NO for N = 9 | CD PARTIAL | CP see below | CB NO
+  Tier reached: 3. Tier 4: NOT CLAIMED.
+  Prediction (M230-G), frozen before any test: a two-qutrit (d = 9) implementation of the quantized cat map at Planck constant
+    1/9 returns every state to itself after 12 kicks, and after 6 kicks sends every phase-space point to its negative (the parity).
+    Classified in advance as TRIVIAL CONSEQUENCE: it follows from the Weil representation, so a confirmation would test the
+    hardware, not the premise.
+
+RUN RESULT
+  Three objects examined; the ledger now holds fourteen. Highest tier reached: 3 (E2, E3). No physical system was found that
+  carries T itself; the closest bridge from Omega42's arithmetic to physics is the quantized cat map at Planck constant 1/9,
+  which is T^2 exactly. Low results are recorded as limits of the current map, never as refutations of the premise (F-02).
+  Next: a blind Channel B navigation of each object by a Navigator that has not seen this record; the 24-cell honeycomb and
+  the Leech lattice (25.2b items 1 and 3); and a search for an antiunitary (time-reversal) physical realization of T itself.

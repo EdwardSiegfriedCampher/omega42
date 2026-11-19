@@ -1,0 +1,31 @@
+{
+ "kind": "navigation",
+ "submitted_by": "ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 18 October 2026 (received by the Navigator)",
+ "disclosed_utc": "2026-10-18T20:00:00Z",
+ "accepted_utc": "2026-10-18T08:59:13Z",
+ "area": "protocol",
+ "id": "NAV-2026-0001",
+ "navigator": "Claude (Anthropic)",
+ "execution": "TEXT-ONLY",
+ "exposure": "Core Specification and Companion Document in full",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "If the Omega42 cycle is the foundational blueprint for existence, then it implies that everything can be measured against it to test alignment and coherence.",
+ "domain_sha256": "a3b10745f7434319feabd52f6f6421549d7786074d850ab9df77dbaf9cbb7bc9",
+ "sha256": "cf7e0e0fb05ffa0d25bf03c7391e32541da9556d801034568fc870cb676e7e3d",
+ "correction_requested": {
+  "rule": "Core L-411: the record is append-only; a correction is a new navigation citing this one (Companion 51.9)",
+  "items": [
+   "THE ANSWER's Takeaway in bold",
+   "a date on the CUMULATIVE STATUS line",
+   "NONE standing alone on the LENSES SELECTED line",
+   "M232 before the CCD line",
+   "the calibration's word table",
+   "no line before the first QUESTION VERBATIM line",
+   "the identity date (16 October 2026) earlier than the question, first asked on 18 October 2026 -- a provenance item under M273"
+  ],
+  "status": "awaiting the Navigator's corrected re-issue, which will cite NAV-2026-0001"
+ }
+}

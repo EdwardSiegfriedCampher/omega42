@@ -1,0 +1,5 @@
+M356 Ω42-ATTEND attend.csv -- two Ω42 blocks per interval, (D, V) and (O, R), never one forced pair
+  interval 1  D (d') 2.00  V (RT sd) 0.036  O (omissions) 0.15  R (accuracy) 0.85
+  interval 2  D (d') 1.35  V (RT sd) 0.058  O (omissions) 0.30  R (accuracy) 0.77
+  interval 3  D (d') 1.23  V (RT sd) 0.076  O (omissions) 0.24  R (accuracy) 0.73
+  interval 4  D (d') 0.73  V (RT sd) 0.112  O (omissions) 0.33  R (accuracy) 0.64

@@ -1,0 +1,220 @@
+{
+ "_about": "The release record (RELEASES.md section 4), written by python3 tools/release_manifest.py --build. Checksums: SHA256SUMS at the release tag.",
+ "version": {
+  "name": "Omega42 V335 Rev.450 STABLE",
+  "major": 335,
+  "revision": 450,
+  "channel": "STABLE",
+  "tag": "v335-rev450"
+ },
+ "date": "2026-11-19",
+ "change_log": "docs/AMENDMENTS_PENDING.md",
+ "amendments": [
+  {
+   "id": "CA-02",
+   "title": "CA-02: Truth definition (clarifying)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-03",
+   "title": "CA-03: Unit/Ideal Bridge (Mathematical Section)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-04",
+   "title": "CA-04: Construct prediction mechanism (Appendix S)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-05",
+   "title": "CA-05: CT-S6 retyped",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-06",
+   "title": "CA-06: Construct repurposed (Companion)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-07",
+   "title": "CA-07: Construct X adopted",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-08",
+   "title": "CA-08: Speculation Test Protocol (STP) — formal part of operations",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-09",
+   "title": "CA-09: Discovery Operations (three layers) and Construct X v2",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-10",
+   "title": "CA-10: Striker sovereignty in Discovery Operations",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-11",
+   "title": "CA-11: Orbit classification theorem and the uniqueness proof (pending ESC)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-12",
+   "title": "CA-12: Terminology facelift (proposal only; the Core is not renamed until ESC decides)",
+   "status": "RATIFIED",
+   "level": "C",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-12",
+   "title": "CA-12 (status update): Terminology adopted as Core Part 10.5, Omega42-T01",
+   "status": "RATIFIED",
+   "level": "C",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-13",
+   "title": "CA-13: Guide revision after external review (18 November 2026, on the Originator's instruction)",
+   "status": "RATIFIED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "CA-14",
+   "title": "CA-14: Technical close-out (18 November 2026, on the Originator's instruction; pending ESC)",
+   "status": "RATIFIED",
+   "level": "C",
+   "level_source": "inferred from the text",
+   "date": "2026-11-18"
+  },
+  {
+   "id": "CA-15",
+   "title": "CA-15: Part 10.5 restructured (Option 2) and the Companion read through the new mathematics (pending ESC)",
+   "status": "RATIFIED",
+   "level": "C",
+   "level_source": "inferred from the text",
+   "date": null
+  },
+  {
+   "id": "CA-16",
+   "title": "CA-16: Audit after ratification (19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-17",
+   "title": "CA-17: Refinements from the reviews' remaining recommendations (19 November 2026; PENDING ESC)",
+   "status": "PENDING ESC",
+   "level": "C",
+   "level_source": "inferred from the text",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-18",
+   "title": "CA-18: Five capability tests and Construct X 2.3.2 (19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "inferred from the text",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-19",
+   "title": "CA-19: The researched reach of the essay (19 November 2026; PENDING ESC)",
+   "status": "PENDING ESC",
+   "level": "C",
+   "level_source": "declared",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-20",
+   "title": "CA-20: The strategic recommendations applied (APE-497; 19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
+  },
+  {
+   "id": "CA-21",
+   "title": "CA-21: The Physics Initiative and the candidate dossier (APE-498; 19 November 2026; PENDING ESC)",
+   "status": "PENDING ESC",
+   "level": "C",
+   "level_source": "declared",
+   "date": "2026-11-19"
+  }
+ ],
+ "approval": {
+  "ratified_by": "ESC",
+  "ratified": [
+   "CA-02",
+   "CA-03",
+   "CA-04",
+   "CA-05",
+   "CA-06",
+   "CA-07",
+   "CA-08",
+   "CA-09",
+   "CA-10",
+   "CA-11",
+   "CA-12",
+   "CA-13",
+   "CA-14",
+   "CA-15"
+  ],
+  "pending_esc": [
+   "CA-17",
+   "CA-19",
+   "CA-21"
+  ]
+ },
+ "validation": {
+  "ci": "every step of .github/workflows/omega42-ci.yml must pass",
+  "stp_by_status": {
+   "PROVED": 10,
+   "REJECTED": 15,
+   "REVISED": 4,
+   "TESTABLE": 5,
+   "VERIFIED COMPUTATION": 38
+  },
+  "stp_entries": 72,
+  "snca_reports": 57
+ },
+ "compatibility": "The Companion elaborates the Core and never modifies it (Core Part 10.5.1); where they differ, the Core holds.",
+ "checksums": "SHA256SUMS"
+}

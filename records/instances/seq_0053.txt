@@ -1,0 +1,54 @@
+QUESTION VERBATIM: Double-check all documents submitted since the discovery of the mathematical extension. Check that all documents has been read and that all salient points had been responded to and recorded into the Omega42 ecosystem. Do a complete FFP (consistency check).
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 53 | PREV: c7f1a782f6c920d0af3092efa29bea64a4cac9f289a8ab145b5013dfcac85448
+REQUEST (L-502): STRUCTURE -- avenues D, W
+
+SUMMARY: Every document received since the depth discovery on 24 October 2026 is filed: 69 records, APE-172 to APE-240, from 66 attachments and 3 pasted texts. Each text attachment matches its record exactly. The two Construct .docx files were re-read in full, including their table. Of 1,544 salient points, 18 had a thin written response; reading them found 17 answered and three gaps, and all three are now closed. The full FFP run passes all 33 items: 29 by CI or text, 3 by manual check, 1 with its named exception.
+  - ALL READ, ALL FILED. No attachment since 24 October is missing from the record, and three are second copies (APE-183, APE-223, APE-239).
+  - THREE GAPS CLOSED. Protocol axiomatization (APE-203, Track 2) and the diagonal-workflow comparison (APE-216, Stage 4) go to Appendix S.6 (13) and (14). Reversibility, exit and review of the arrangement (APE-217, HAI-11 and HAI-12) become Core L-524 (7).
+  - EVERY REQUEST ANSWERED. The twelve requests of SEQ 50, the Construct (SEQ 51) and the Lotto history (SEQ 52) each have a sealed output carrying the question verbatim.
+  - FFP 33 OF 33. CI 68 of 68; the register of both documents shows 0 hits; the only open item is the independent re-score of First Contact (item 5).
+
+FINDINGS BY AVENUE (L-500):
+  D DOCUMENTS (the audit; Companion Part 106):
+    - Matching: each of the 64 text attachments equals the body of one record; the 2 .docx files are frozen from their full text (APE-236, APE-237). The 3 pasted texts are APE-181, APE-205 and APE-227.
+    - The one image inside the Construct architecture document is an empty 70-byte placeholder; its 897 KB is embedded fonts.
+    - Salient points: every heading, bold lead and numbered item, checked against the document's own notes and every paragraph of the Core, the Companion and the sealed outputs that cites it. 18 fell below three quarters coverage. 17 are answered in substance: APE-172, APE-174, APE-177, APE-184, APE-185, APE-208, APE-215, APE-216 (Stage 3), APE-217 (Alternative 4, HAI-9), APE-220, APE-225, APE-228, APE-230 and APE-203 (13.1). One, APE-203 Track 2, was not recorded. Reading around the flagged points found two more: APE-216 Stage 4, and APE-217 HAI-11 and HAI-12.
+    - The method is lexical: it finds points that have no written response; whether a response is adequate is yours to judge.
+  W PROTOCOL WORK: the changes listed under CHANGES TO THE PROTOCOL.
+
+THE FFP RUN (Core Part 12; tools/ffp_run.py over the full CI log):
+  - Items 2 to 4, 7 to 13 and 15 to 33: PASS, each from its CI step or a check of the documents' text. Item 2, the language register: 0 hits in either document. Item 4: no session-form prose in Companion Parts 73 onward.
+  - Items 1 and 6: PASS (manual), re-checked this time against M324 and M325. Both are Tier 3, carry their tier and CDT status (Core Parts 3.50 and 3.51), and add no step to the mandatory path.
+  - Item 5, the First Contact presentation: PASS (manual), self-certified. An independent re-score is still requested.
+  - Item 14, no stub sections: PASS WITH NAMED EXCEPTION, the named exceptions carried forward unchanged.
+  - TALLY: PASS 29; PASS (manual) 3; PASS WITH NAMED EXCEPTION 1. Frozen in records/ffp/ffp_run.txt.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Read Companion 106.3 and mark any of the 17 answered points whose answer you find thin; each can be reopened by number.
+  (2) Item 5 of the FFP, the First Contact presentation, is still self-certified. An independent re-score by a peer AI or a reader would close it.
+  (3) Keep the audit as a standing step after each batch of documents. The script is in the scratch record of this session and can be added to the repository as a tool if you want it run by CI.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL:
+  - Core: L-524 (7), reversibility and review; Appendix S.6 (13) and (14).
+  - Companion: Part 106, The Documents Received Since the Depth Discovery, Audited.
+  - Repository: notes added to APE-203, APE-216 and APE-217; tools/ffp_run.py, the manual items re-checked against M324 and M325; records/ffp/ffp_run.txt re-run; the release record; the CI chain.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written; the build that follows it checks both. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, and --text with no FAIL. The audit script over APE-172 to APE-240 and the 66 attachments, and the full re-extraction of the two .docx files. The consistency register, M286, M281 and the typing guard over the documents and this output. tools/instance_id.py --check over the fifty-three outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed; the audit reads only the record and the attachments.
+ACROSS THE AVENUES (L-502): AGREE -- the documents and the record, item by item. PART -- none. SILENT -- the adequacy of each written response, which the method cannot judge.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 3 -- the audit as a standing tool.
+OPEN: the independent re-score of First Contact (FFP item 5).
+
+What it rests on: If every document has been answered, what in the answers has not yet been tested?
+What it holds out of view: That a written response can be present and still miss the point it answers.
+Where it is heading: Toward a record in which nothing received is left without a place.
+What would complete it: Your reading of the seventeen answers the audit could only count.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5c8984ef097385959ad1f9c5dfa01ff10a18db8f809986706e18d3d76fff620d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 28 October 2026
+ESC

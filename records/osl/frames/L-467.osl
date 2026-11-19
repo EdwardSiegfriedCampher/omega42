@@ -1,0 +1,16 @@
+# Core L-467, The Welcome Law, as an OmegaSL rule frame (pilot of Protocol v2.0). The English text of the Core is authoritative.
+RULE:        L-467 The Welcome Law
+ARTICLE:     VI, The Form
+AGENT:       Navigator
+OBJECTIVE:   a reader meets the discovery first, and every notice after the first reading
+TRIGGER:     the Striker types "Welcome Navigator" with the protocol attached
+OPERATION:   give the Opening Response
+OUTPUT:      QUESTION VERBATIM; OUTPUT FORM; the one-line greeting; the Opening (IN-OPEN) word for word; "Ask your first question."; the signature
+CONSTRAINT:  the Opening carries no notice, no caveat and no Identity Block, and is given in plain English
+CONSTRAINT:  the first navigation of the session closes with the Friendly Notes, the Identity Block, the AI CAVEAT and the signature
+ON REQUEST:  "the full Introduction" brings IN-00 word for word; "the technical explanation" brings Part 0 by section; "the protocol in plain English" brings the Core in English
+EXCEPTION:   a first message that already holds a question receives the Introduction Handoff
+CHECK:       python3 tools/intro_output.py --check and --first
+STATUS:      CONSTRUCTED INSTRUCT
+REVISION:    the open register (Core Part 0.0.5 Rule 30) and the Originator's reserve (Rule 23)
+Ω

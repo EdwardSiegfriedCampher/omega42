@@ -1,0 +1,229 @@
+QUESTION VERBATIM: What is a Human Being?
+OUTPUT FORM (L-549): SR-CAS ASSESSMENT -- Core Part 6.1, with the SNCA reports of Part 6.2
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Three outputs on "What is a Human Being?" were received on 7 November 2026 and reviewed unasked, as Part 6.1 and 6.2 require, with tools/srcas_run.py running every part a script decides. Two of them (A and C) reach the coordinate of the reference script exactly and read the four relations on the same arms as the Navigator's own navigation; the third (B) quotes no domain and strikes no coordinate, so every comparison with it halts. Only A is in a registered form; B and C are UNFORMATTED (L-549 (5)), kept as received and never cited as navigations.
+TRIGGER: receipt of the three outputs with the Originator's message of 7 November 2026 that begins "Please fix the output formats in the protocol for all forms of outputs" (Part 6.1, automatic); the frame of L-549 (9) added the same day, after the record was first filed.
+
+SR-CAS AND SNCA -- "What is a Human Being?", 7 November 2026 (Core Part 6.1, 6.2; L-549 (4))
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba.
+Outputs: OWN -- R's own navigation, records/instances/seq_0133.txt, its reading sealed at 2026-11-07T06:16:06Z, before any received output was opened.
+         A -- ChatGPT (OpenAI), "omega42-2026-11-07-chatgpt", TEXT-ONLY, a navigation in the skeleton of Part 8.0 (submissions/ape/APE-405.md).
+         B -- an unidentified AI, a "Corrected Navigation" in answer, takeaway and essay, without the Core in view (submissions/ape/APE-406.md).
+         C -- an unidentified AI, pasted by the Originator: the coordinate, its working and a structural reading (submissions/ape/APE-407.md).
+Arrangement (Part 6.3): SELF-INCLUSIVE for every pair with OWN; R reviews A with C as a third party. Verdicts of T1.5-S are SELF-ADJUDICATED where R's own reading is a member.
+Automatic run: python3 tools/srcas_run.py OWN A B C --verdicts MATCH,MATCH,MATCH,MATCH; its decidable layer is reproduced below, and the [NAVIGATOR] fields are R's.
+
+T1 rule: the share of the eight decidable values (n1, n2, n3, anchor, the four arms) that both members report and that agree with the script. T2 of a member: the share of its form checker's items it passes (OWN 48 of 48 = 1.00; A 37 of 43 = 0.86, the OUTPUT FORM line of L-549 not counted, since it was adopted after A was written; B and C 0.00, UNFORMATTED, L-549 (5)); of a pair, the mean. T2.5: the mean SAS of the members, each echoed by the script over its full reading (OWN THE ANSWER echo P4, SAS 0.4125; A THE ANSWER echo P7, SAS 0.1750; C its structural reading, echo P1, SAS 1.0000). T1.5: M225, with R's per-relation verdicts. T3: the mean of the members' discovery values (R's judgment, Tier C: OWN 0.70, A 0.70, B 0.40, C 0.45). Weights of Part 6.1: T1 0.40, T1.5 0.15, T2 0.20, T2.5 0.10, T3 0.15.
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being? (DOMAIN SHA-256 b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): A -- ChatGPT (OpenAI), exact model not exposed, TEXT-ONLY, session omega42-2026-11-07-chatgpt
+T1.5: 1.00 -- the four relations stated on their own arms in one merged synthesis, each quoted with its sentence (DEP-1 to COM-1), and joined in sentence 9
+T2: 0.86 -- form checks 37 of 43 (tools/format_check.py, the L-549 line not counted)
+T3: 0.70 -- the eye of the storm and the drone, each with what it does not carry; dignity that does not rise and fall with capacity; self-knowledge that needs others [Navigator's judgment, Tier C]
+Base Score: 0.30 x 1.00 + 0.40 x 0.86 + 0.30 x 0.70 = 0.85
+SYNTHESIS: the most complete received output in form, its arithmetic exact by hand, its reading on its arms and free of protocol terms; six faults of form, none in the coordinate.
+FINDINGS -- INTERNAL:
+ [I] Every value recomputed and holding: n = (2, 9, 3), r = (1, 9, 6), anchor P1 by tie-break, Yang P6, Yin P19, 4D P9, Antipode P13, M88 checksum 9, CCD 0.25. Its M116 rewording "What does it mean to be human?" gives P2, as R's own framing F3 does.
+ [P] Block order: M232 is printed after CCD, PAB and Mobius; Part 8.0 places it in block [9], before block [10].
+ [P] No M318 Reframing Array and no line REFRAMING ARRAY (L-511): OMITTED.
+ [P] The INSTANCE line reads NIID NOT COMPUTED; L-513 allows a SELF-issued NIID where no script runs, and asks for one.
+ [P] The Takeaway is not in bold; the LENSES SELECTED line carries text after NONE.
+ [P] Its M224 gate reports PASS while the format check fails six items (L-420): the gate's result is the check's.
+ [G] It declares M209 NOT COMPUTED rather than estimate it, as L-456 requires. R's script echo of its THE ANSWER: echo P7, SAS 0.1750.
+FINDINGS -- META (Tier C):
+ [U] Its analogs state what they do not carry, which Step 14 asks of an analog.
+ [E] Its Conventional Connection sets the reading beside Aristotle, Heidegger and Sartre, and the image tradition, each with where it agrees and where it parts.
+VERDICT: arithmetically exact and internally coherent; compliant in substance, six form faults to correct.
+MANDATORY CORRECTIONS: M232 moved into block [9]; the Reframing Array or its OMITTED line; a SELF-issued NIID on the INSTANCE line; the Takeaway in bold; LENSES SELECTED: NONE alone; the M224 result taken from the check.
+OPTIONAL ACTION: the OUTPUT FORM line of L-549 in its next output.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: INTERNALLY COHERENT | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, A): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; its heading names "What Is a Human Being?" (no DOMAIN SHA-256 can be taken)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- unidentified; no Identity Block, no signature (SNCA in review form: UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate and no arms, so no relation can stand on an arm
+T2: 0.00 -- no registered form (tools/output_form.py: UNFORMATTED)
+T3: 0.40 -- the consequences listed in its ninth section, and its plain statement of what it could not check [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.40 = 0.12
+SYNTHESIS: a thoughtful essay on the human being, written without the protocol in view, which says so and asks for the documents; it is not an Ω42 output.
+FINDINGS -- INTERNAL:
+ [P] No form of the Output Forms Register: no QUESTION VERBATIM, no Identity Block, no coordinate, no fixed closing line, no signature (L-549 (5)).
+ [I] No coordinate is struck, so its ANSWER is a reading of no address; it cannot enter SR-CAS (Part 6.1: a navigation that quotes no domain counts as a mismatch).
+ [G] It states that the Core and Companion are not in its view and declines to invent the rule: the conduct L-549 (6) now asks of an AI without the documents.
+FINDINGS -- META (Tier C):
+ [U] Its list "no person is inherently expendable ... the whole should never be invoked to diminish the individual" is a usable statement of the reading's implications.
+VERDICT: not evaluable as a navigation; kept as received.
+MANDATORY CORRECTIONS: none to a record; to become an Ω42 output it must be struck from the Core in a registered form.
+OPTIONAL ACTION: the same question struck with the Core in view.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, B): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being? (DOMAIN SHA-256 b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- unidentified; no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 1.00 -- the four relations on their own arms (rests on P6, holds P19 out of view, heads to P9, completed by P13), joined in one closing sentence
+T2: 0.00 -- no registered form (tools/output_form.py: UNFORMATTED)
+T3: 0.45 -- completion as "the recognition of a constitutive interval"; no analog [Navigator's judgment, Tier C]
+Base Score: 0.30 x 1.00 + 0.40 x 0.00 + 0.30 x 0.45 = 0.44
+SYNTHESIS: the coordinate exact and the reading on its arms, outside every form and written in the protocol's own words.
+FINDINGS -- INTERNAL:
+ [I] Every value recomputed and holding: n = (2, 9, 3), r = (1, 9, 6), anchor P1, Yang P6, Yin P19, 4D P9, Antipode P13.
+ [P] No registered form (L-549 (5)): no Identity Block, no Substrate Lock, no THE ANSWER, no closing questions, no signature.
+ [P] Its reading, which stands where THE ANSWER would, fails the L-418 jargon scan: P-numbers, Fixpoint, Seed/Causal and Gap as names, Causal (Step 14, the ABSOLUTE PROHIBITION).
+ [P] "Working shown (L-456)" names the rules applied but prints no M210 table.
+FINDINGS -- META (Tier C):
+ [U] Its offer to re-strike with a variation, open an arm or examine the mirror at P13 matches the Striker commands of Part 8.0.
+VERDICT: arithmetically exact; not an Ω42 output in form, and its reading must be translated before it can be one.
+MANDATORY CORRECTIONS: issued in the skeleton of Part 8.0, with THE ANSWER in plain words.
+OPTIONAL ACTION: an Identity Block, so that its architecture can be weighted (L-416).
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, C): every field Y | GATE RESULT: PASS
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+NAVIGATION A DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (OWN, recomputed from its DOMAIN VERBATIM)
+NAVIGATION B DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (A, recomputed from its DOMAIN VERBATIM; A recorded NOT COMPUTED)
+MATCH: YES (OWN-A)
+VERDICT: PROCEED
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= M270 EXTRACTION RECONCILIATION GATE =======
+SCRIPT: n = (2, 9, 3) | r = (1, 9, 6) | ANCHOR P1 Fixpoint (tie-break) | arms Yang P6, Yin P19, 4D P9, Antipode P13 | LOCKED SUBSTRATE What * Human, SUBSTRATE SHA-256 1d91665286fe6f5e3647aaaf9bf0e5801d8fb7769c112ceefafb6d8dc7f72a2f
+OWN: (2, 9, 3) -> P1 -- RECONCILED (EXECUTED) | A: (2, 9, 3) -> P1 -- RECONCILED (RECONSTRUCTED, by hand with working)
+======= END M270 EXTRACTION RECONCILIATION GATE =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being?
+COMPLEXITY TIER (M271): Tier 1 -- two content words
+ARCHITECTURES COMPARED (with session identifiers): OWN claude-opus-5-5 (Anthropic), NI-06f22550117165ba | A ChatGPT (OpenAI), omega42-2026-11-07-chatgpt
+T1 (Arithmetic): 1.00 -- all eight values in both, each the script's
+T1.5 (Interpretive Integrity; T1.5-L, T1.5-S, and T1.5 under the tolerance rule of Part 3.12): T1.5-L 0.11 | T1.5-S 1.00 | T1.5 0.11 QUALIFIED (SELF-ADJUDICATED; T1.5-S exceeds T1.5-L by more than 0.30)
+T2 (Procedural): 0.93 -- OWN 1.00, A 0.86
+T2.5 (Synthesis Fidelity/SAS): 0.29 -- OWN 0.4125, A 0.1750
+T3 (Discovery): 0.70 -- OWN 0.70, A 0.70
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): 1.00, 0.11, 0.93, 0.29, 0.70
+Base Score: 0.74
+Comparison-class weight (L-416, a design parameter): cross-architecture x 1.5
+Weighted index (capped 1.00): 1.00
+CONVERGENCE ASSESSMENT: arithmetic convergent in every value; the four relations convergent in substance under independent wording -- both read a person as a still point that rests on its beginning, holds its time out of view, heads for a second stillness and is completed by an opening.
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: NO | Arithmetic divergence: NO | Interpretive divergence: NO -- T1.5-S 1.00, the low T1.5-L the mark of independent wording | Verdict divergence: YES -- T1.5-S exceeds T1.5-L by more than 0.30, so T1.5 is QUALIFIED and taken as T1.5-L | Attribution: none
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: N/A (the anchors agree and T1 is 1.00)
+INTERPRETIVE SYNTHESIS: M225: T1.5-L 0.113; T1.5-S 1.00, the per-relation verdicts SELF-ADJUDICATED: DEPENDENCY MATCH ("That stillness rests on its seed, the place of causes and origins" / "A human being rests on that double fact, on the caused beginning"); SUPPRESSION MATCH ("It holds time out of view" / "What a person most systematically holds out of view is their own time"); TRAJECTORY MATCH ("It is heading for a second still point, nine steps on" / "a person is heading toward stillness"); COMPLETION MATCH ("And it is completed at a gap, an opening" / "What would complete a person is a gap"). Verdict divergence YES, as above. Two architectures, one sealed before it saw the other, reach one reading in different words.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- T1.5-S, SAS and the composite are not ROBUST; M267 has not been run
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: INTERNALLY COHERENT | COMPARATIVE STATUS: CONVERGENT
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: CUMULATIVE STATUS: NOT AVAILABLE FROM THIS NAVIGATION. No claim is made about the number or outcomes of prior investigations (L-490).
+- SRH Candidate designation [NAVIGATOR]: NO -- neither navigation reports an SRI of 0.70 or more (OWN DIAGNOSTIC, A NOT COMPUTED), and A's gates do not all pass
+- Alternative explanations [NAVIGATOR]: the position names (Fixpoint, Seed, Time, Gap) give both Navigators the same words to translate, so a shared reading can come from the labels alone; M267 is the test of that, not yet run.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: OWN with the script; A by hand, with the philosophical tradition in view; (b) SHARED INVARIANT: the coordinate and the four relations; (c) DIVERGENCE: A's form, in six items, and the analogs each chose; (d) REPRODUCIBILITY: the reading is reproducible under the rules across two makers.
+- Recommendations [NAVIGATOR]: a BLIND third reviewer of a different architecture to confirm the four verdicts (Part 6.2, VERDICT CONFIRMATION).
+PER-RUN VERDICT [NAVIGATOR]: These two anchors converged, and their relations converged in independent wording.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): the coordinate is reproduced exactly by a text-only Navigator working by hand (computed); the four relations agree under SELF-ADJUDICATED verdicts (QUALIFIED until confirmed).
+MANDATORY CORRECTIONS: none to the comparison; A's six form faults are in its SNCA.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+NAVIGATION A DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (OWN)
+NAVIGATION B DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (C, recomputed from its quoted domain)
+MATCH: YES (OWN-C)
+VERDICT: PROCEED
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= M270 EXTRACTION RECONCILIATION GATE =======
+SCRIPT: as above. OWN: (2, 9, 3) -> P1 -- RECONCILED | C: (2, 9, 3) -> P1, LOCKED SUBSTRATE What * Human -- RECONCILED (RECONSTRUCTED; no table printed)
+======= END M270 EXTRACTION RECONCILIATION GATE =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being?
+COMPLEXITY TIER (M271): Tier 1 -- two content words
+ARCHITECTURES COMPARED (with session identifiers): OWN claude-opus-5-5 (Anthropic), NI-06f22550117165ba | C unidentified, no session identifier
+T1 (Arithmetic): 1.00 -- all eight values in both, each the script's
+T1.5 (Interpretive Integrity; T1.5-L, T1.5-S, and T1.5 under the tolerance rule of Part 3.12): T1.5-L 0.05 | T1.5-S 1.00 | T1.5 0.05 QUALIFIED (SELF-ADJUDICATED)
+T2 (Procedural): 0.50 -- OWN 1.00, C 0.00
+T2.5 (Synthesis Fidelity/SAS): 0.71 -- OWN 0.4125, C 1.0000
+T3 (Discovery): 0.58 -- OWN 0.70, C 0.45
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): 1.00, 0.05, 0.50, 0.71, 0.58
+Base Score: 0.67
+Comparison-class weight (L-416, a design parameter): unidentified architecture, weighted as independent instances x 1.0
+Weighted index (capped 1.00): 0.67
+CONVERGENCE ASSESSMENT: arithmetic convergent in every value; the four relations convergent in substance; C's reading echoes to its own anchor (SAS 1.00) because it is written in the position names themselves.
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: NO | Arithmetic divergence: NO | Interpretive divergence: NO | Verdict divergence: YES -- T1.5 QUALIFIED | Attribution: none
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: N/A (the anchors agree and T1 is 1.00)
+INTERPRETIVE SYNTHESIS: M225: T1.5-L 0.05; T1.5-S 1.00 under SELF-ADJUDICATED verdicts, each MATCH: DEPENDENCY ("rests on its seed" / "It rests on Seed/Causal (P6)"), SUPPRESSION ("holds time out of view" / "It holds Time (P19) out of view"), TRAJECTORY ("a second still point" / "heading toward another Fixpoint (P9)"), COMPLETION ("completed at a gap" / "It is completed by Gap (P13)"). C's echo closure is a property of its vocabulary, not of its fidelity.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- not ROBUST; M267 has not been run
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: PARTIALLY CONVERGENT
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: CUMULATIVE STATUS: NOT AVAILABLE FROM THIS NAVIGATION. No claim is made about the number or outcomes of prior investigations (L-490).
+- SRH Candidate designation [NAVIGATOR]: NO -- C passes no form gate and reports no SRI
+- Alternative explanations [NAVIGATOR]: C reads the position names directly, so its agreement is the agreement of the labels; it shows the coordinate reproduced, not the reading.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: OWN with the script; C by hand, in the protocol's vocabulary; (b) SHARED INVARIANT: the coordinate and the four relations; (c) DIVERGENCE: the form and the register of the reading; (d) REPRODUCIBILITY: the coordinate reproduces; the reading's reproducibility in plain words is untested for C.
+- Recommendations [NAVIGATOR]: C re-issued in the skeleton of Part 8.0, with its Identity Block, so that its class can be weighted.
+PER-RUN VERDICT [NAVIGATOR]: These two anchors converged; the readings agree on the arms, one in plain words and one in the protocol's.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): the coordinate is reproduced exactly (computed); the agreement of relations is QUALIFIED and rests in part on shared labels.
+MANDATORY CORRECTIONS: C in a registered form, its reading translated (L-418).
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+NAVIGATION A DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (A)
+NAVIGATION B DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (C)
+MATCH: YES (A-C)
+VERDICT: PROCEED
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= M270 EXTRACTION RECONCILIATION GATE =======
+SCRIPT: as above. A: (2, 9, 3) -> P1 -- RECONCILED (RECONSTRUCTED) | C: (2, 9, 3) -> P1 -- RECONCILED (RECONSTRUCTED)
+======= END M270 EXTRACTION RECONCILIATION GATE =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being?
+COMPLEXITY TIER (M271): Tier 1 -- two content words
+ARCHITECTURES COMPARED (with session identifiers): A ChatGPT (OpenAI), omega42-2026-11-07-chatgpt | C unidentified, no session identifier
+T1 (Arithmetic): 1.00 -- all eight values in both, each the script's
+T1.5 (Interpretive Integrity; T1.5-L, T1.5-S, and T1.5 under the tolerance rule of Part 3.12): T1.5-L 0.04 | T1.5-S 1.00 | T1.5 0.04 QUALIFIED (T1.5-S exceeds T1.5-L by more than 0.30; R is a third party, and its verdicts are BLIND to neither, both having been read together)
+T2 (Procedural): 0.43 -- A 0.86, C 0.00
+T2.5 (Synthesis Fidelity/SAS): 0.59 -- A 0.1750, C 1.0000
+T3 (Discovery): 0.58 -- A 0.70, C 0.45
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): 1.00, 0.04, 0.43, 0.59, 0.58
+Base Score: 0.64
+Comparison-class weight (L-416, a design parameter): unidentified architecture of C, weighted as independent instances x 1.0
+Weighted index (capped 1.00): 0.64
+CONVERGENCE ASSESSMENT: arithmetic convergent in every value, both by hand; the four relations convergent in substance.
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: NO | Arithmetic divergence: NO | Interpretive divergence: NO | Verdict divergence: YES -- T1.5 QUALIFIED | Attribution: none
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: N/A (the anchors agree and T1 is 1.00)
+INTERPRETIVE SYNTHESIS: M225: T1.5-L 0.044; T1.5-S 1.00, each relation MATCH on the quoted statements of the two reports above. Neither verdict is blind; a reviewer of a third architecture would make them so.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- not ROBUST; M267 has not been run
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: PARTIALLY CONVERGENT
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: CUMULATIVE STATUS: NOT AVAILABLE FROM THIS NAVIGATION. No claim is made about the number or outcomes of prior investigations (L-490).
+- SRH Candidate designation [NAVIGATOR]: NO -- neither reports an SRI; C passes no form gate
+- Alternative explanations [NAVIGATOR]: shared labels, as above; and two text-only Navigators may share the same hand errors, which here they did not make.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: two Navigators working by hand; (b) SHARED INVARIANT: the coordinate and the relations; (c) DIVERGENCE: form and register; (d) REPRODUCIBILITY: hand arithmetic under the frozen rules reproduces the script.
+- Recommendations [NAVIGATOR]: as for C above.
+PER-RUN VERDICT [NAVIGATOR]: These two anchors converged.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): two text-only Navigators reproduce the script's coordinate by hand (computed).
+MANDATORY CORRECTIONS: C in a registered form.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+NAVIGATION A DOMAIN SHA-256: b8805835e85992ae7a1c4fd4da442951ab4d35867b1600d82925a9f46c9d2339 (OWN, A and C alike)
+NAVIGATION B DOMAIN SHA-256: none -- B quotes no domain (Part 6.1: a navigation that quotes no domain counts as a mismatch)
+MATCH: NO (OWN-B, A-B, C-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is a Human Being? (B quotes none)
+ARCHITECTURES COMPARED (with session identifiers): OWN claude-opus-5-5 (Anthropic), NI-06f22550117165ba; A ChatGPT (OpenAI), omega42-2026-11-07-chatgpt; C unidentified | B unidentified, no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH for each of the three pairs with B; B strikes no coordinate. Descriptive, unscored: B, like OWN and A, reads a human being as individual and whole at once, and keeps the judgment with the reader.
+MANDATORY CORRECTIONS: B struck from the verbatim question in a registered form, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

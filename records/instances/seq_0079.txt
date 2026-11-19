@@ -1,0 +1,87 @@
+QUESTION VERBATIM: Find a definitive solution to the problem and make recommendations for Omega 42 enhancement. [with two peer accounts on whether modulus 9 is arbitrary: Grok (xAI) and GPT-6 (OpenAI); the challenge they answer was not attached]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 79 | PREV: 402533f374c55702e60eb691378b26467532bdcb1ce12ab57ab4d27661ef790b
+REQUEST (L-502): STRUCTURE -- a theorem proved for every modulus, two peer accounts checked and filed, their recommendations applied under L-531; avenues A1, R, P
+
+SUMMARY: Modulus 9 is not arbitrary, and the proof is short. It holds for every modulus, and nothing ternary has to be assumed.
+  - THE THEOREM:
+    * Over the integers, the law's twelfth power is A¹² = [[89, 144], [144, 233]].
+    * It equals the mirror, −I, modulo m exactly when m divides 90, 144 and 234, that is, when m divides 18.
+    * So the only moduli with the mirror at 12 are 3, 6, 9 and 18.
+    * Modulo 3 the cycle is 8 steps long. Modulo 6, 9 and 18 it is 24.
+    * Only 9 is a power of a single prime. 6 and 18 are each two smaller laws running side by side (modulo 2 with modulo 3, and modulo 2 with modulo 9).
+    * Hence 9 is the one modulus of a single prime that carries the law's 24-step cycle with every place's mirror twelve steps away.
+  - THE TWO CONDITIONS THAT DO THE WORK are already the protocol's own: the cycle of 24 (Core Part 1) and the mirror twelve steps away (FC-06). The prime 3 comes out of them; it is not put in.
+  - WHAT DOES NOT SELECT IT, although both peers relied on it:
+    * The norm's change of sign is an identity that holds for every modulus.
+    * The tower's lift holds for every prime power tested.
+    * x² − x − 1 has no root modulo 2, 3, 7, 13, 17 and other primes.
+    * A condition that already says 3² or Z/9 assumes what it is meant to prove.
+  - ITS STANDING: modulus 9 belongs to the premise. The theorem recognizes it after the fact and does not select it (Part 1.8.3). What the theorem settles is the challenge: no other modulus is its equal.
+  - IT ALSO MEETS THE DIGITAL ROOT: the digital root in base b is arithmetic modulo b − 1. Of all bases, only base ten lands on a single-prime modulus with this property.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; records/necessity/nine.py, in CI):
+    - The mirror at 12: gcd(F(11) + 1, F(12), F(13) + 1) = gcd(90, 144, 234) = 18. A search of every m from 3 to 2,000 finds exactly 3, 6, 9 and 18.
+    - Periods: modulo 3 it is 8, with A⁴ = −I; modulo 6, 9 and 18 it is 24.
+    - Censuses (cycle counts):
+      * modulo 6: one 24-cycle, plus cycles of 8, 3 and 1;
+      * modulo 9: three 24-cycles, plus cycles of 8 and 1;
+      * modulo 18: thirteen 24-cycles, plus cycles of 8, 3 and 1.
+    - Splitting the composites: 6 combines periods 3 and 8 (lcm 24); 18 combines periods 3 and 24 (lcm 24).
+    - Does not discriminate: N(T(a, b)) = −N(a, b) is an identity; π(p^(k+1)) = p·π(p^k) holds for p = 2, 3, 5 and 7.
+    - Bases whose digital root lands on 6, 9 or 18: 7, 10 and 19. Only base 10 lands on a single prime.
+  R THE RECORD:
+    - Already held: MATH-17's chain (recurrence, modulus, period, orbit); the ten moduli of period 24 and the Minimal-Richness Result (Companion 37.5); in the comparative annex, Run 08, which found that 18 is the largest modulus on which T¹² = −I.
+    - New: the theorem as a proof for every modulus, with the single-prime condition and what does not select.
+    - The modulus stays stipulated in the premise (F-02, MATH-17) and is now characterized as well.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A comparative classification of moduli (both peers): APPLIED as a proof for every modulus, in records/necessity/nine.py, in CI.
+  (2) A uniqueness theorem (both peers): APPLIED as D-010 [EXACT], Companion 130.2, and Core MATH-17.
+  (3) A constitutional statement of the necessity (GPT-6): APPLIED in corrected form, Companion 130.5.
+  (4) A dependency map from the grammar to the arithmetic (GPT-6 Stage 1): ALREADY IN FORCE as MATH-17's chain. Part 130 adds the two selecting conditions.
+  (5) The Construct correspondence (GPT-6 M-9-06): ANSWERED. The Construct has 1 + 18 + 8 domains (Domain Zero, 18 horizontal seeds, 8 diagonal seeds), not three groups of nine.
+  (6) The stipulation ledger (Companion 37.6): APPLIED. Modulus 9 is now recorded as stipulated and also characterized.
+  (7) For future challenges: OPEN with nothing outstanding. A challenge to any other constant of the premise can be answered the same way, by the conditions that select it and those that do not. The script is the pattern.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and SNCAs in review form (records/srcas/reviews_2026-10-31.txt).
+  - APE-285, Grok:
+    * Holding: its values.
+    * Corrected: its first condition assumes 9; its norm and tower conditions select nothing; the Construct is 1 + 18 + 8 domains.
+    * SNCA: 0.48.
+  - APE-286, GPT-6:
+    * Holding: the ring distinction Z/3 × Z/3 against Z/9, and its programme.
+    * Corrected: its Axioms A to C stipulate Z/9 rather than derive it; irreducibility selects no single prime.
+    * SNCA: 0.62.
+    * Its navigator line is dated 28 October.
+  - The challenge both answer was not attached; it is answered here as they report it.
+CHANGES TO THE PROTOCOL:
+  - Core: MATH-17.
+  - Companion: Part 37.6; Part 130; the Commons lines for APE-285 and APE-286.
+  - Repository:
+    * New: records/necessity/nine.py and its output.
+    * Registered: D-010 and A-014.
+    * Added: records/srcas/reviews_2026-10-31.txt.
+    * Updated: tools/reexamine.py, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law's powers over the integers, F(11) = 89, F(12) = 144, F(13) = 233, and the record's ten moduli of period 24 | STRIKER -- the request for a definitive solution, with the two accounts | NAVIGATOR -- the gcd argument that settles every modulus at once, the single-prime condition, the check of what does not select, and the number-base corollary | OPEN -- what the characterization of the nine means within the frame
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Run on the documents of this output together with those of SEQ 80 and SEQ 81, built in one run. records/necessity/nine.py run and diffed; the gcd argument checked by search for every m from 3 to 2,000; tools/discoveries.py --check PASS; each note of APE-285 and APE-286 checked against the record; tools/srcas_check.py --owed PASS; tools/applied.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic, the record and both peers, that periodicity alone does not select 9 and that the whole signature must be tested. PART -- which conditions select: the peers counted the norm and the tower, and the proof shows that the mirror and the single prime do the work. SILENT -- what the necessity means within the frame, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): new to the register, D-010 [EXACT]. Modulus 9 is the one power of a single prime on which the law has its cycle of 24 with the mirror at 12, because T¹² ≡ −I modulo m exactly when m divides 18. Proved for every modulus (records/necessity/nine.py, in CI). It changes the standing of the modulus from stipulated to stipulated and characterized. Whether it is a "breakthrough" is yours to judge.
+OPEN: a fresh re-score of the new First Contact opening; an SNCA for reviews filed before APE-280 (your choice); re-issue of the three Sorites navigations; the other sorites cases; the blind trigger test; word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: What does a structure need, beyond a cycle, for its arithmetic to be the only one of its kind?
+What it holds out of view: That the mirror twelve steps away, not the cycle itself, is what rules out every other modulus.
+Where it is heading: Toward a premise each of whose constants can be shown to be the one that carries what the premise needs.
+What would complete it: Your judgment of what it means that the nine is necessary and not merely chosen.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: d277c6991b24ec81323950343ff53d014879c16e1e3c80b0a5ea08eacd707923
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

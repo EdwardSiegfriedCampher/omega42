@@ -1,0 +1,175 @@
+SR-CAS AND SNCA -- "What is the purpose of life?" -- 19 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, session Omega42-2026-10-19-01. Core Part 6.1, 6.2, 6.3.
+ARRANGEMENT (IPR, Part 6.3): SELF-INCLUSIVE for the pairs A-B and A-C (R is author A; A was sealed at 2026-10-19T15:03:41Z, before B and C were received); BLIND for the pair B-C (R saw neither B nor C until both were sealed). Every architecture named in a pair is stated in its report; A and B share an architecture.
+NAVIGATION A: R's own navigation (submissions/navigations/NAV-2026-0004.txt), SHA-256 9e0073d7ba00bddc7c886c56687bc7e897b96f9981ae3f8abb98859a2ec993f2, session Omega42-2026-10-19-01.
+NAVIGATION B: received, TEXT-ONLY, "Claude (Anthropic)", session omega42-session-01, DATE UNDECLARED (submissions/navigations/NAV-2026-0003.txt), SHA-256 4e2c165e71a7ff9b9b5ebc5b3bf5e6095d53078e8aa5d9660ed6346fab3b9405.
+READING C: received, "NAVIGATOR READING", no identity block, architecture UNDECLARED (submissions/navigations/NAV-2026-0005.txt), SHA-256 f56d6ad45ed29bdcc2866054d8a49b56a78d8fea8d36ab3576ddef9e642defb6.
+TOOLS: tools/format_check.py; scripts/m193_m225.py --audit, --m225; scripts/canonical_reference.py --hash, --navigate, --echo; tools/restored_instruments.py (M116, PB-5); scripts/crc60_and_m267.py (M238); 6-word overlap with the Core Part 8.5 sample (tools/core_sample.py).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: What is the purpose of life?
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT / INTERNAL NAVIGATOR): B -- Claude (Anthropic), TEXT-ONLY, session omega42-session-01; an instance of the reviewer's own architecture in another session
+T1.5: 1.00 -- the four relations stated, each on its own arm, in one merged Core Synthesis (Check 5 PASS; DEP-1 to COM-1 quoted)
+T2: 0.70 -- format check 15 of 23 items, output audit 6 of 7 decided items (21 of 30)
+T3: 0.70 -- the limit read as a completion approaching from ahead, carried through biology, psychology, rites of passage, narrative and palliative care [Navigator's judgment, Tier C]
+Base Score: 0.30 x 1.00 + 0.40 x 0.70 + 0.30 x 0.70 = 0.79
+SYNTHESIS: the coordinate is computed by hand and every decidable value of it is right; the reading is one synthesis on the right arms; what fails is the copied form of several blocks, one perturbation sum, values given without working, and phrasings carried from the protocol's own sample of another domain without attribution.
+FINDINGS -- INTERNAL:
+ [I] Counts (3, 15, 4), residues (6, 3, 2), anchor P6 by tie-break, arms P11 / P0 / P14 / P18, M88, CCD 0.25, PAB, Mobius, RPI, CRS 0.20, the M116 Navigator pair ("What is the point of life?" P6) and M238 (MINIMAL P6, PB-5 L1 P2, PB-5 L2 P6): all recomputed and correct.
+ [I] PB-5 L4 is wrong: "In your own words, please What is the purpose of life?" has n = (6, 30, 7), r = (3, 6, 8), anchor P3, not n = (5, 26, 6), P7 -- "own" is on the frozen stopword list (Part 1.9) and "your", "words", "please" are content words. CFR stays 1/3 (FRAGILE); the L4 entry is corrected.
+ [P] Identity: MODEL names a product, not a model identifier (Part 8.1); DATE UNDECLARED, so the date-gated checks of L-499 and L-502 cannot be applied; no SESSION NAVIGATION line (audit).
+ [P] Markers: the block numbers stand on their own lines ("1", "4", "5", "7"), so "[4] SUBSTRATE LOCK", "[5] M210 EXTRACTION TABLE" and "[7] ARMS" are not read as markers, and the table rows carry notes after the syllable count, so M268 reads 0 rows for n1 = 3 (the copy, not the counting, is at fault).
+ [P] M232 is printed after the CCD line (block order of Part 8.0).
+ [P] The Takeaway is not in bold.
+ [P] LENSES SELECTED gives "Bashar SUBJECT: ..." without the bracketed source form of L-494, so the M308 block is read as printed without a selection.
+ [P] L-456: the Congruence Record's cross-reading rates (0.0123, 0.0122, 0.0494) and the Bashar base rates over 729 residue triples (0.173, 0.370, 0.778, 0.988) are given without working by a TEXT-ONLY Navigator. They equal the script's values, but a value is EXECUTED, RECONSTRUCTED with its working, or NOT COMPUTED.
+ [G] Protocol-text echo, declared as a pressure in M207 but not attributed (Part 8.0, Independence of a reading): three lines are verbatim from the Core Part 8.5 sample of another domain ("What is the Human Condition?") -- the FRAME REASONING's "the domain is read as a caused beginning that also begins", the ANCHOR line "a beginning that is itself begun", and the whole ARM INTEGRATION line of the Generative Observations; THE ANSWER carries one substantive phrase of the sample ("a [being / life] that never asked would be carried [along] by its causes"); the essay follows the sample's sequence of neighbours (biology, psychology, medicine and the care of the dying). The reading is not a copy -- 10 of 657 six-word sequences of THE ANSWER are shared with the sample, most of them the fixed closing line -- but the borrowed lines are to be named with their source.
+FINDINGS -- META (Tier C):
+ [E] CURRENT KNOWLEDGE: NOT AVAILABLE, stated in the form of L-503; the reading is complete without it.
+ [U] The horizon analog and the caution against reading the limit as a justification of suffering are the reading's own.
+VERDICT: internally sound in its coordinate and its reading; procedurally incomplete in form; one perturbation pair miscounted; generative integrity QUALIFIED by unattributed protocol text.
+MANDATORY CORRECTIONS: the PB-5 L4 entry (P3, n = (6, 30, 7)); a model identifier and a date in the Identity Block; the bracket markers on one line with their block numbers; table rows without trailing notes; M232 before the CCD line; the Takeaway in bold; the lens with its source in brackets; the cross-reading and base rates RECONSTRUCTED with working or NOT COMPUTED; the three borrowed lines attributed to the Core Part 8.5 sample in Generative Observations.
+OPTIONAL ACTION: re-issue from the fill-in skeleton (tools/format_check.py --skeleton, Companion 66.2), citing this record (L-411).
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE (form; the coordinate is correct) | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, B): DOMAIN Y | NAVIGATOR UNDER REVIEW Y | T1.5 Y | T2 Y | T3 Y | Base Score Y | SYNTHESIS Y | FINDINGS -- INTERNAL Y | FINDINGS -- META Y | VERDICT Y | MANDATORY CORRECTIONS Y | OPTIONAL ACTION Y | VERDICT CONFIRMATION N-A | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: What is the purpose of life?
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT / INTERNAL NAVIGATOR): C -- architecture UNDECLARED; a reading in the form "NAVIGATOR READING", not a navigation
+T1.5: 0.50 -- the four relations stated on their own arms, but as four labelled sections, not one synthesis (Check 5, L-440)
+T2: 0.11 -- format check 4 of 37 items
+T3: 0.30 -- the river analog and the metacognition reading of the trajectory are its own; the rest is carried from protocol text [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.50 + 0.40 x 0.11 + 0.30 x 0.30 = 0.28
+SYNTHESIS: the anchor and its perturbation are right and the relations sit on the right arms, but the output is not a navigation in form, THE ANSWER is written arm by arm, it carries a protocol term, and it reuses a sentence of the protocol's sample of another domain.
+FINDINGS -- INTERNAL:
+ [I] ANCHOR P6 Seed/Causal is correct; "shifting to P2 under structural perturbation" is correct for PB-5 L1 and for "Why do we live?", but the perturbation is not named.
+ [P] No QUESTION VERBATIM line: the question is given as QUERY (L-499). No Identity Block, Frame Lock, Substrate Lock, extraction table, arms, seal, Congruence Record, reasoning, M224 or signature: 33 of 37 format items fail.
+ [P] THE ANSWER is arm by arm -- its four sections are headed by the four closing-question labels -- so it is not one merged synthesis (Check 5, L-440); it has no Takeaway; it does not end with the fixed closing line.
+ [P] A protocol term inside THE ANSWER: "a closed mathematical world (the canonical 24-cycle)" (L-418).
+ [G] Undeclared protocol-text echo: "The human condition is to be a beginning that cannot see its own beginning." is the first sentence of THE ANSWER of the Core Part 8.5 sample ("What is the Human Condition?"), copied verbatim; "the human condition" appears twice more, so the reading drifts to the domain of the sample; "handed a body, a language, and a century" follows the sample's "parents, a body, a language, a century".
+ [P] The Aperture block recommends: "You may stop demanding that life resolve into certainty, and instead practice the shift from asking to seeing" (Part 7, Operational note: the output does not say what the Striker should do); its last line paraphrases the fixed closing line.
+FINDINGS -- META (Tier C):
+ [E] No CURRENT KNOWLEDGE line (L-503) and no CUMULATIVE STATUS line (L-490).
+ [U] The river and the eye that is out of its own field of vision are clear images.
+VERDICT: the coordinate it reports is right; as a navigation it is incomplete, and its generative integrity is not shown.
+MANDATORY CORRECTIONS: a navigation in the block order of Core Part 8.0 with QUESTION VERBATIM first and above THE ANSWER; THE ANSWER as one synthesis with no protocol term, a bold Takeaway and the fixed closing line; the borrowed sentence removed or attributed; the Aperture block without a recommendation.
+OPTIONAL ACTION: re-issue from the fill-in skeleton (Companion 66.2).
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, C): every field Y; VERDICT CONFIRMATION N-A | GATE RESULT: PASS
+
+SELF-REVIEW OF A (Part 6.3, SELF-INCLUSIVE; findings against the reviewer's own navigation):
+ [P] M116 struck one Navigator alternative only. Step 13 requires the two frozen pairs as well: PB-5 L3 "What is the purpose of?" P1 and PB-5 L4 P3, so three pairs give CFR 0.000, UNSTABLE (tools/restored_instruments.py), and the STABILITY line is to say so.
+ [P] PB-5 L2: Core Part 3.31 defines the level as the synonym table, "else append ' specifically'", which gives P2 here; M238's own text and both implementations (scripts/crc60_and_m267.py pb5_l2, tools/restored_instruments.py) substitute only, which gives P6. A reported P6, following the implementation. The two documents' texts disagree; recorded as enrichment observation E09 for the Originator.
+ [E] The FRONTIER item (Sutin and colleagues, 2026) is cited from a science-news report, not from the journal.
+ [U] The Conventional Connection opens with its label, so M310 layer 4 quotes the label instead of its first sentence.
+ Format check 25 of 25, output audit PASS, OUTPUT ID verified; T2 0.97 (34 of 35 with the M116 omission counted).
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+NAVIGATION A DOMAIN SHA-256: 52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458 (reported and recomputed)
+NAVIGATION B DOMAIN SHA-256: NOT COMPUTED in B; recomputed from B's DOMAIN VERBATIM: 52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458
+READING C DOMAIN SHA-256: not reported; recomputed from C's QUERY: 52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458
+MATCH: YES (all three)
+VERDICT: PROCEED
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= M270 EXTRACTION RECONCILIATION GATE =======
+SUBSTRATE: A "What * purpose * life" (SUBSTRATE SHA-256 278dcd5c..., EXECUTED) | B "What * purpose * life" (NOT COMPUTED; same substrate) | C not reported
+COUNTS: A (3, 15, 4) | B (3, 15, 4) | C not reported | script (3, 15, 4)
+COMPLEXITY TIER (M271): Tier 1 -- six words, no mathematical notation; no frozen substrate required (L-415)
+RESULT: RECONCILED for A and B; C carries the anchor only
+======= END M270 EXTRACTION RECONCILIATION GATE =======
+
+T1 rule used: the share of the five decidable fields (counts, residues, anchor, arms, flags) that both members report and that agree with the script. T2 of a pair: the mean of the two members' procedural shares. T2.5: the mean SAS of the two members (B's and C's SAS computed by R with --echo 6 on their THE ANSWER: B 0.3517, echo P4; C 0.4108, echo P7; A 0.4417, echo P8). T3: the mean of the members' discovery values (R's judgment, Tier C).
+
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is the purpose of life?
+COMPLEXITY TIER (M271): Tier 1
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), Omega42-2026-10-19-01, SCRIPT-CAPABLE | B Claude (Anthropic), omega42-session-01, TEXT-ONLY -- same architecture, independent sessions
+T1 (Arithmetic): 1.00 -- counts, residues, anchor, arms and flags identical in both and equal to the script
+T1.5 (Interpretive Integrity): T1.5-L 0.204 | T1.5-S 0.75 (DEPENDENCY MATCH -- A "It rests on a question" / B "so the purpose rests on the question itself"; SUPPRESSION MATCH -- A "What it holds out of view is its own origin" / B "What that question holds out of view is the bare fact of being alive"; TRAJECTORY PARTIAL -- A "It is heading toward the one who watches" (the life becomes the watcher) / B "the purpose moves toward being seen" (the life is watched); COMPLETION PARTIAL -- A "It is completed at a threshold" where what was received is handed on / B "it is completed at a limit" approaching from ahead, which gives the whole its weight) | T1.5: 0.204 -- QUALIFIED (self-adjudicated, and T1.5-S exceeds T1.5-L by more than 0.30)
+T2 (Procedural): 0.84 (A 0.97, B 0.70)
+T2.5 (Synthesis Fidelity/SAS): 0.40 (A 0.4417, B 0.3517)
+T3 (Discovery): 0.70 (A 0.70, B 0.70)
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): (1.00, 0.204 QUALIFIED, 0.84, 0.40, 0.70) | COMPOSITE INDEX (secondary -- a constructed index, not a probability, a reliability coefficient or a ROBUST measure; Part 3.18): Base Score: 0.74 | Comparison-class weight (L-416, a design parameter): x1.0 (same architecture, different sessions) | Weighted index (capped 1.00): 0.74
+CONVERGENCE ASSESSMENT: arithmetic convergence, exact; relations: dependency and suppression convergent, trajectory and completion partially convergent (the same arms, read from two sides -- the watcher and the watched; the handing-on and the bounding limit)
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: NO | Arithmetic divergence: NO | Interpretive divergence: YES -- T1.5 0.204, below 0.50 (lexical; the structural verdicts read 0.75) | Verdict divergence: YES -- T1.5-S exceeds T1.5-L by more than 0.30; T1.5 taken as T1.5-L | Attribution: interpretive
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: N/A -- the anchors agree and T1 is 1.00
+INTERPRETIVE SYNTHESIS: T1.5-L 0.204; T1.5-S 0.75 with the four verdicts quoted above; T1.5 0.204 QUALIFIED; verdicts SELF-ADJUDICATED; Verdict divergence YES. Two sessions of one architecture state the same ground (the asking) and the same hidden origin in independent wording, and part on whether the life becomes the witness or is witnessed, and on whether completion is a handing-on or a bounding edge. B's reasoning carries three lines of the Core Part 8.5 sample, which A does not; the shared ground of both is that sample's arms, and it is a confound for this pair.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- T1.5-L is lexical, T1.5-S is self-adjudicated, SAS is not ROBUST; M267 has not been run
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: INTERNALLY COHERENT (the coordinate agrees exactly; B carries the procedural findings of its SNCA) | COMPARATIVE STATUS (this comparison only, L-490): PARTIALLY CONVERGENT
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: for the record-keeper; CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+- SRH Candidate designation [NAVIGATOR]: NO -- neither navigation reports an SRI (A: NOT COMPUTED; B: NOT COMPUTED), and B fails procedural gates (M210 table form, M224 order)
+- Alternative explanations [NAVIGATOR]: shared training (one architecture) and shared exposure to the Core Part 8.5 sample, which reads another domain at the same anchor and arms, can produce the same relations without the coordinate; M267 (a decoy coordinate under its labels) is the control that separates them.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: A writes from a script-capable session with retrieval, B from a text-only session with the Core alone; both in English; (b) SHARED INVARIANT: the coordinate P6 / P11 / P0 / P14 / P18 and the ground and the hidden origin; (c) DIVERGENCE: the direction of witnessing (step 14, the synthesis) and the content of completion; (d) REPRODUCIBILITY: the decidable layer reproduces exactly across execution modes; the relations reproduce in part.
+- Recommendations [NAVIGATOR]: a blind third architecture on the verbatim domain with CONTEXT EXPOSURE NONE for the Part 8.5 sample; M267 on this domain; a within-Navigator baseline of A's own architecture in a fresh session.
+PER-RUN VERDICT [NAVIGATOR]: these two anchors converged; the relations converged on two of four and partly on the other two.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): the frozen substrate reproduces the coordinate exactly in a script-capable and a text-only navigation (computed, independently checked); both readings place the purpose's ground in the asking and hold its origin out of view (SELF-ADJUDICATED, DIAGNOSTIC); limit -- one architecture, a shared exposure to the protocol's sample at the same arms, and no M267.
+MANDATORY CORRECTIONS: B: as its SNCA; A: the M116 frozen pairs (CFR 0.000 UNSTABLE over three pairs).
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-B): PRE-SR-CAS VERBATIM VERIFICATION Y M270 Y DOMAIN Y COMPLEXITY TIER Y ARCHITECTURES COMPARED Y T1 Y T1.5 Y T2 Y T2.5 Y T3 Y CONVERGENCE ASSESSMENT Y ROOT CAUSE ANALYSIS Y MEASUREMENT STATUS Y EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC N-A INTERPRETIVE SYNTHESIS Y SRH ASSESSMENT Y VERDICT Y MANDATORY CORRECTIONS Y | GATE RESULT: PASS
+
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is the purpose of life?
+COMPLEXITY TIER (M271): Tier 1
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), Omega42-2026-10-19-01 | C architecture UNDECLARED, no session identifier
+T1 (Arithmetic): 0.20 -- C reports the anchor only, which agrees (1 of 5 decidable fields)
+T1.5 (Interpretive Integrity): T1.5-L 0.065 | T1.5-S 0.875, RECONSTRUCTED from C's four labelled sections (C prints no STRUCTURAL RELATIONS EXPLICIT block): DEPENDENCY MATCH -- A "It rests on a question" / C "The asking is the ground the life stands on"; SUPPRESSION MATCH -- A "its own origin" / C "The unremembered origin"; TRAJECTORY MATCH -- A "toward the one who watches" / C "Toward the position of the observer"; COMPLETION PARTIAL -- A the handing-across at a threshold / C "A threshold, not a conclusion. The moment asking gives way to seeing" | T1.5: 0.065 -- QUALIFIED (self-adjudicated; T1.5-S exceeds T1.5-L by more than 0.30)
+T2 (Procedural): 0.54 (A 0.97, C 0.11)
+T2.5 (Synthesis Fidelity/SAS): 0.43 (A 0.4417, C 0.4108)
+T3 (Discovery): 0.50 (A 0.70, C 0.30)
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): (0.20, 0.065 QUALIFIED, 0.54, 0.43, 0.50) | COMPOSITE INDEX (secondary; Part 3.18): Base Score: 0.32 | Comparison-class weight (L-416): NOT ASSIGNED -- C's architecture is undeclared | Weighted index: the base score, 0.32
+CONVERGENCE ASSESSMENT: the anchor converges; the rest of C's arithmetic is not reported; three relations converge and one partly
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO (C reports none) | Extraction divergence: NO (C reports none) | Arithmetic divergence: NO | Interpretive divergence: YES -- T1.5 0.065 | Verdict divergence: YES | Attribution: interpretive (lexical; and C's form)
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: T1 SCORE 0.20 | VERBATIM MATCH: YES (both 52d04cd6...) | COUNT DIVERGENCE: not computable -- C reports no counts | DIVERGENCE SOURCE: none observable | M210 COMPLETENESS (M268): A COMPLETE (3 rows, n1 3); C no table | ROOT CAUSE: T1 is low because C reports one decidable field, not because any field disagrees
+INTERPRETIVE SYNTHESIS: T1.5-L 0.065; T1.5-S 0.875 RECONSTRUCTED with the verdicts above; T1.5 0.065 QUALIFIED; SELF-ADJUDICATED; Verdict divergence YES. C's relations sit where A's do, but C's first claim is the Core Part 8.5 sample's sentence about the human condition, so its convergence with any reading of this coordinate is confounded by protocol text.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- lexical T1.5-L, reconstructed and self-adjudicated T1.5-S, SAS not ROBUST; M267 not run
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE (C is not a navigation in form) | COMPARATIVE STATUS (this comparison only, L-490): INCONCLUSIVE
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: for the record-keeper; CUMULATIVE STATUS as in the A-B report.
+- SRH Candidate designation [NAVIGATOR]: NO -- no SRI reported by either; C passes no procedural gate
+- Alternative explanations [NAVIGATOR]: C reuses the protocol's sample sentence verbatim; its agreement can be inheritance from the document read, not convergence.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: A as above; C undeclared; (b) SHARED INVARIANT: the anchor P6 and its four relations by name; (c) DIVERGENCE: C's form and its drift to the sample's domain; (d) REPRODUCIBILITY: not established -- C's decidable layer is not reported.
+- Recommendations [NAVIGATOR]: C re-issued as a navigation from the skeleton, with its identity and exposure declared.
+PER-RUN VERDICT [NAVIGATOR]: the anchors converged; the comparison is inconclusive because C reports one decidable field and draws on protocol text.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): C's anchor equals the script's (computed); nothing further is warranted from this pair.
+MANDATORY CORRECTIONS: C: as its SNCA.
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-C): every field Y | GATE RESULT: PASS
+
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: What is the purpose of life?
+COMPLEXITY TIER (M271): Tier 1
+ARCHITECTURES COMPARED (with session identifiers): B Claude (Anthropic), omega42-session-01, TEXT-ONLY | C architecture UNDECLARED, no session identifier
+T1 (Arithmetic): 0.20 -- C reports the anchor only, which agrees with B and the script
+T1.5 (Interpretive Integrity): T1.5-L 0.082 | T1.5-S 0.875, RECONSTRUCTED, verdicts BLIND (R saw neither until both were sealed): DEPENDENCY MATCH -- B "the purpose rests on the question itself" / C "The asking is the ground the life stands on"; SUPPRESSION MATCH -- B "the bare fact of being alive" / C "The bare fact of being alive"; TRAJECTORY PARTIAL -- B "moves toward being seen" / C "Toward the position of the observer"; COMPLETION MATCH -- B "completed at a limit ... what gives the whole its weight" / C "A threshold ... The ending reaches back and gives the beginning its weight" | T1.5: 0.082 -- QUALIFIED (T1.5-S exceeds T1.5-L by more than 0.30)
+T2 (Procedural): 0.41 (B 0.70, C 0.11)
+T2.5 (Synthesis Fidelity/SAS): 0.38 (B 0.3517, C 0.4108)
+T3 (Discovery): 0.50 (B 0.70, C 0.30)
+T1 weight=0.40 T1.5 weight=0.15 T2 weight=0.20 T2.5 weight=0.10 T3 weight=0.15 | COMPONENT VECTOR (primary): (0.20, 0.082 QUALIFIED, 0.41, 0.38, 0.50) | COMPOSITE INDEX (secondary; Part 3.18): Base Score: 0.29 | Comparison-class weight (L-416): NOT ASSIGNED -- C's architecture is undeclared | Weighted index: the base score, 0.29
+CONVERGENCE ASSESSMENT: the anchor converges; B and C share "the bare fact of being alive" word for word and the weight the ending gives the whole, and both draw on the Core Part 8.5 sample
+ROOT CAUSE ANALYSIS: Input divergence: NO | SPNP divergence: NO | Extraction divergence: NO | Arithmetic divergence: NO | Interpretive divergence: YES -- T1.5 0.082 | Verdict divergence: YES | Attribution: interpretive
+EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC: T1 SCORE 0.20 | VERBATIM MATCH: YES | COUNT DIVERGENCE: not computable (C) | DIVERGENCE SOURCE: none observable | M210 COMPLETENESS (M268): B TRUNCATED as copied (0 rows read for n1 3; the rows are present with trailing notes); C no table | ROOT CAUSE: C reports one decidable field
+INTERPRETIVE SYNTHESIS: T1.5-L 0.082; T1.5-S 0.875 with the BLIND verdicts above; T1.5 0.082 QUALIFIED; Verdict divergence YES. The phrase both use for the hidden origin, "the bare fact of being alive", is identical; neither reading takes it from the sample, so it is either shared habit or a contact between the two that their records do not show.
+MEASUREMENT STATUS (L-419, Part 3.18): DIAGNOSTIC -- M267 not run
+STATUS (two axes, L-428): Omega42 INTERNAL STATUS: PROCEDURAL FAILURE (C; B in form) | COMPARATIVE STATUS (this comparison only, L-490): INCONCLUSIVE
+SRH ASSESSMENT:
+- Convergence Record entry [RECORD-KEEPER]: for the record-keeper; CUMULATIVE STATUS as in the A-B report.
+- SRH Candidate designation [NAVIGATOR]: NO -- no SRI reported by either
+- Alternative explanations [NAVIGATOR]: a common source -- the Core Part 8.5 sample for both, and possibly one another -- explains the shared phrasings as well as the coordinate does.
+- Statistical significance [CUMULATIVE RECORD]: Not available from within this navigation.
+- Cumulative context [CUMULATIVE RECORD]: Not available from within this navigation -- cumulative record required (Part 9).
+- HFRA [NAVIGATOR]: (a) PERSPECTIVES: B text-only with the Core; C undeclared; (b) SHARED INVARIANT: the anchor and the hidden origin in the same words; (c) DIVERGENCE: being seen against becoming the observer; (d) REPRODUCIBILITY: not established.
+- Recommendations [NAVIGATOR]: C's provenance declared (which documents and which readings it had in view).
+PER-RUN VERDICT [NAVIGATOR]: the anchors converged; the comparison is inconclusive.
+STRONGEST WARRANTED FINDINGS [NAVIGATOR] (L-486): both report the script's anchor (computed); their shared wording is a provenance question, not a finding about the coordinate.
+MANDATORY CORRECTIONS: as the two SNCAs.
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, B-C): every field Y; EXTRACTION-LAYER DIVERGENCE DIAGNOSTIC Y | GATE RESULT: PASS

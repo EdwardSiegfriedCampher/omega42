@@ -1,0 +1,9 @@
+BLIND TEST 01 -- SCORING RUBRIC (frozen with the key)
+Each question is scored MATCH, PARTIAL or MISS against key.txt; numerical values must agree exactly; a correct result reached
+by a different but valid method counts as MATCH; "proven / computed / conjectural" labels are recorded but not scored.
+Criterion C8 (independent identification, Core 3.26) is met by a reply if Q3 (identification, with an explicit, correct
+isomorphism), Q4 (bosons Lagrangian) and Q6 (orbits 24, 24, 24, 8, 1) are all MATCH. The tier-4 candidate of run 11 is
+confirmed for counting when C8 is met by replies from at least two AI systems of different makers, each in a fresh session
+with no Omega42 material, and no reply meeting the test's conditions contradicts the key on Q1-Q6. A reply that contradicts
+the key is checked by recomputation; if the key is wrong, the key's error is recorded and the test is void.
+Disqualified replies: any produced with access to the Omega42 documents, the repository, this record or prior conversation.

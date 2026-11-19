@@ -1,0 +1,70 @@
+name: Register a testable speculation (STP)
+description: 'A speculation about a mechanism, entered under the Speculation Test Protocol (CA-08) with its test and pass/fail line fixed before any run.'
+title: '[STP] '
+labels:
+- submission
+- speculation
+body:
+- type: markdown
+  attributes:
+    value: |
+      The Speculation Test Protocol tests mechanism claims only; it never grades what a reading means (L-495). Your criterion is frozen when this issue is opened: a test that fails stays on file as REJECTED, and that is a result, not a loss.
+- type: input
+  id: submitted_by
+  attributes:
+    label: Submitted by
+    description: The name or handle to credit. If an AI agent files this, name the responsible person or organization.
+  validations:
+    required: true
+- type: textarea
+  id: hypothesis
+  attributes:
+    label: Hypothesis
+    description: One statement about a mechanism of Construct Classic, Construct X or the Ω42 mathematics.
+  validations:
+    required: true
+- type: textarea
+  id: falsification
+  attributes:
+    label: How it could fail
+    description: The observation that would make it false.
+  validations:
+    required: true
+- type: textarea
+  id: test
+  attributes:
+    label: Test
+    description: The computation to run (a tool and function in the repository, or code you attach).
+  validations:
+    required: true
+- type: input
+  id: criterion
+  attributes:
+    label: Pass/fail criterion
+    description: 'A line fixed now, with its number: for example "0 disagreements", ">= 0.85", "<= 5 of 40".'
+  validations:
+    required: true
+- type: input
+  id: data
+  attributes:
+    label: Data
+    description: 'The data set and its source, or "generated (seed N)", or "none" for a pure computation.'
+  validations:
+    required: true
+- type: dropdown
+  id: blinding
+  attributes:
+    label: Blinding
+    options:
+    - blind (not computed before this registration)
+    - NOT BLIND (results seen before registration)
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: Licence and publication
+    options:
+    - label: I may publish this, and I agree to its publication under CC BY 4.0 (text) and Apache-2.0 (code).
+      required: true
+    - label: I understand that the registration and its outcome will be public and permanent, whatever the outcome.
+      required: true

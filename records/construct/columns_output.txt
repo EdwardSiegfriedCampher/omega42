@@ -1,0 +1,40 @@
+I. THE FIRST LAYER (rows 14-19 of each block) [EXACT]
+  first (Negative Lower World) block: every row constant: YES; every column carries the offsets [-1, -5, -7, -8, -4, -2]: YES; and these equal its first diagonal (row 12): YES
+  second (Positive Lower World) block: every row constant: YES; every column carries the offsets [1, 5, 7, 8, 4, 2]: YES; and these equal its first diagonal (row 12): YES
+  third (Mixed Higher World) block: every row constant: YES; every column carries the offsets [3, 9, 6, -6, -9, -3]: YES; and these equal its first diagonal (row 12): YES
+  fourth (Reversed Higher World) block: every row constant: YES; every column carries the offsets [-6, -9, -3, 3, 9, 6]: YES; and these equal its first diagonal (row 12): YES
+  so in the first layer a row moves the whole field by one offset, and a column holds one field number under every offset
+II. THE SECOND LAYER (rows 25-30) [EXACT; mod 9]
+  first (Negative Lower World) block: negative rows: along a row x2, down a column x5, each undoing the other: YES; six different offsets in every row: YES, in every column: YES
+  second (Positive Lower World) block: positive rows: along a row x2, down a column x5, each undoing the other: YES; six different offsets in every row: YES, in every column: YES
+  third (Mixed Higher World) block: positive rows: along a row +3, down a column +6, each undoing the other: YES; negative rows: along a row +6, down a column +3, each undoing the other: YES; six different offsets in every row: NO, in every column: YES
+  fourth (Reversed Higher World) block: positive rows: along a row +3, down a column +6, each undoing the other: YES; negative rows: along a row +6, down a column +3, each undoing the other: YES; six different offsets in every row: NO, in every column: YES
+  2 x 5 = 10 = 1 (mod 9): in the Lower World the rows double and the columns halve, and the two directions are the canonical seeds 2 and 5, each the inverse of the other
+III. WHAT A COLUMN REACHES (residues mod 9, for any field number y) [EXACT]
+  first (Negative Lower World) block: a column reaches the six residues of the other two classes mod 3
+  second (Positive Lower World) block: a column reaches the six residues of the other two classes mod 3
+  third (Mixed Higher World) block: a column reaches the three residues of its own class mod 3
+  fourth (Reversed Higher World) block: a column reaches the three residues of its own class mod 3
+  so a Lower World column holds every value its number is not, mod 3, and a Higher World column the three values it is, mod 3
+IV. THE COUNT [EXACT]
+  4 blocks x 6 columns = 24 vertical places; as sets of offsets the four blocks give 3 kinds, the fourth repeating the third: YES
+  so 24 vertical places hold 18 distinct columns, as 24 horizontal places hold 18 distinct rows
+V. THE DIAGONALS [EXACT; mod 9]
+  first (Negative Lower World) block, first layer: the main diagonal is row 12: YES, stepping x5; the anti-diagonal is row 21: YES, stepping x2
+  first (Negative Lower World) block, second layer: the main diagonal is row 23: YES, stepping x1; the anti-diagonal is row 32: YES, stepping x4
+  second (Positive Lower World) block, first layer: the main diagonal is row 12: YES, stepping x5; the anti-diagonal is row 21: YES, stepping x2
+  second (Positive Lower World) block, second layer: the main diagonal is row 23: YES, stepping x1; the anti-diagonal is row 32: YES, stepping x4
+  third (Mixed Higher World) block, first layer: the main diagonal is row 12: YES, stepping +6/+6; the anti-diagonal is row 21: YES, stepping +3/+3
+  third (Mixed Higher World) block, second layer: the main diagonal is row 23: YES, stepping x1/x1; the anti-diagonal is row 32: YES, stepping +3/+6
+  fourth (Reversed Higher World) block, first layer: the main diagonal is row 12: YES, stepping +6/+6; the anti-diagonal is row 21: YES, stepping +3/+3
+  fourth (Reversed Higher World) block, second layer: the main diagonal is row 23: YES, stepping x1/x1; the anti-diagonal is row 32: YES, stepping +6/+3
+  a diagonal moves along a row and down a column at once, so its step is the two steps combined: in the second layer of the Lower World
+  the main diagonal combines x2 with x5 = x1 (stillness: one offset all the way), and the anti-diagonal x2 with x2 = x4
+  x4 carries the voices of the family: A -> C, B -> A, C -> B
+  x7 carries the voices of the family: A -> B, B -> C, C -> A
+  so x4, the step of the anti-diagonal, walks the three voices in turn, and three steps bring each home (4 x 4 x 4 = 64 = 1 mod 9)
+VI. EVERY DOMAIN CARRIES THE FOUR DIRECTIONS [EXACT]
+  derived domains whose every node cell is Domain Zero's constant plus the shift of their own seed: 26 of 26
+  so each of the 27 domains is Domain Zero rebuilt on its own field, and its squares carry, relative to that field, the same rows, columns and diagonals:
+  forward along a row, return down a column, stillness on the main diagonal and the turn on the anti-diagonal; the columns seed no domain of their own
+  forward and return paths, by value 1 to 9: 1:6/6, 2:6/6, 3:3/3, 4:6/6, 5:6/6, 6:3/3, 7:6/6, 8:6/6, 9:3/3 -- always of one length, since each direction is the inverse of the other

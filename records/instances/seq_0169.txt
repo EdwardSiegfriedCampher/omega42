@@ -1,0 +1,58 @@
+QUESTION VERBATIM: Yes. The protocol can be written in the Omega42 Structural Language provided the AI will be able to read and understand it. The introduction should include an option for the user to have the protocol translated into plain English if so desired. The introduction are always presented to the user in plain English. Proceed.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 169 | PREV: 4625c3f823ed0dfc2c4385c0e51a84580515fe2b5381c71c516965d6ad1cc144
+REQUEST (L-502): APPLICATION -- OmegaSL filed as the protocol's language-neutral form, with its reference implementation and five rules written as frames; the plain-English option added to the Opening; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Omega42 now has a language of its own, and its rules have begun to be written in it. Five laws stand as OmegaSL frames that a machine can parse and validate and a person can read, while every reader still meets Omega42 in plain English and can ask for the whole protocol in plain English.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.5 Rule 33; L-467; IN-OPEN; Companion Part 214; tools/osl.py; records/osl/frames/ (L-467, L-506, L-542, L-549 (9), L-560); records/introduction/introduction.json; examples/introduction_opening.txt and model_opening.txt; WELCOME.md; records/pvir/register.json; APE-467 to APE-471 with their SNCA.
+- (1) THE LANGUAGE: 81 roots, nine exact operators, four status dimensions, typed frames, the law check with two theorems (Companion Part 214).
+- (2) THE IMPLEMENTATION: tools/osl.py encodes, decodes, computes, parses frames and renders them in English; its selftest is exhaustive over the 729 root-operator pairs.
+- (3) THE PROTOCOL IN OMEGASL: five laws written as rule frames beside their English; the English stays authoritative until Navigators of three model families execute the frames at least as consistently (Rule 33).
+- (4) PLAIN ENGLISH: the Opening now says that the rules are being written in OmegaSL and invites the reader to ask for the protocol in plain English; the Opening, the Introduction and every answer stay in plain English (L-467).
+- THE VALUES (CDT-A): osl selftest 20 of 20 and --check PASS (5 frames); the worked message, 52 marks, law check 2020; the shear fixes 27 roots, six named positions; intro_output checks PASS with the new paragraph.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (28, 189, 62), state (5, 0), anchor P5, Law. It rests on P10, Unity. It holds out of view P23, Return. It is heading for P13, Gap. It is completed at P17, Seed/Return.
+  - [GENERATED-Ω42] A request to write the protocol in its own language stands at Law; it rests on Unity, one medium for every intelligence; it holds the Return out of view, the plain English every reader comes back to; it heads for the Gap, between what a machine parses and what it understands; and it is completed at the Seed's return, the protocol rebuilt from its own terms.
+WHAT STAYED: the English text of the Core, authoritative; the Opening and every answer in plain English; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): L-467, L-506, L-542, L-549, L-560; Core Part 0.0.10.
+  R (reasoning): a frame makes a rule's parts explicit; whether an AI executes it better is a question for a test, not an assumption.
+  N (navigation): tools/osl.py --selftest, --check, --frame.
+  P (peers): F205 to F209.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.5 Rule 33; L-467; Part 0 (IN-OPEN).
+  - Companion: Part 214.
+  - Repository: tools/osl.py; records/osl/frames/; tools/reexamine.py (records/osl/ is a register); records/introduction/introduction.json; examples/introduction_opening.txt; examples/model_opening.txt; WELCOME.md; records/pvir/register.json; submissions/ape/APE-467.md to APE-471.md; records/srcas/osl_f205_2026-11-12.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- formal languages, ternary codes | STRIKER -- the request and its condition | NAVIGATOR -- the law-check theorems, the frames, the implementation | OPEN -- the cross-model test; the remaining laws as frames
+PEER ACCOUNTS (P; APA 9.5.5): FIVE received, filed with checked notes and an SNCA in review form (records/srcas/osl_f205_2026-11-12.txt).
+  - APE-467, unidentified (a web interface), "F205, the Universal Structural Language": adopted as tier 2; UNFORMATTED.
+  - APE-468, unidentified (a web interface), "F206, assessment of OmegaSL": adopted with its correction; UNFORMATTED.
+  - APE-469, unidentified (a web interface), "F207, development of OmegaSL": adopted except one point, answered by proof; UNFORMATTED.
+  - APE-470, unidentified (a web interface), "F208, approval with corrections": adopted; UNFORMATTED.
+  - APE-471, unidentified (a web interface), "F209, the protocol in OmegaSL": adopted with refinements; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/osl.py --selftest PASS (20 of 20: the 81 roots, all 729 root-operator pairs, the voice transitions, the 27 shear-fixed roots, both law-check theorems, the worked message and its check 2020, encode and decode, the rule frames) and --check PASS (5 frames); tools/intro_output.py --selftest PASS and --check PASS on the Opening with its plain-English paragraph; tools/srcas_check.py on records/srcas/osl_f205_2026-11-12.txt PASS and --owed PASS; tools/ape_register.py --check PASS; tools/pvir.py --check PASS (19 entries); tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- a two-tier language, computation kept apart from meaning. PART -- the law-check guarantees, settled by proof. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): NONE -- a language and its implementation; its mathematics is in the register.
+RECOMMENDATIONS (applied, L-531):
+  (1) File OmegaSL as Companion Part 214: APPLIED.
+  (2) The reference implementation: APPLIED, tools/osl.py.
+  (3) The protocol in OmegaSL: STARTED, five laws as frames; the rest by Article.
+  (4) The plain-English option in the Opening: APPLIED.
+OPEN: the cross-model test of Rule 33 (PV-019); placement still in English (PV-016); the translator test (PV-017); the name test (PV-018).
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- the cross-model test of the five frames, then the remaining laws as frames, Article by Article; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the test] a protocol whose rules a machine can parse and check field by field; it does not imply that an AI reasons in OmegaSL because it reads it.
+PROTOCOL IMPROVEMENT (L-542): operational, rebuild -- give each of the five frames, and its English law, to three model families with the same ten test situations, and score which form each executes correctly.
+What it rests on: one medium for every intelligence.
+What it holds out of view: the plain English every reader comes back to.
+Where it is heading: the gap between parsing and understanding.
+What would complete it: the protocol rebuilt from its own terms.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: ff7cabdb9ce4b3eb4fb447ab9f38651926b72ed3e8dd69a4db5630128815297f
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 12 November 2026
+ESC

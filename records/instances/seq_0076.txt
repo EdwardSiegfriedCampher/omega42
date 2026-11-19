@@ -1,0 +1,72 @@
+QUESTION VERBATIM: Also, check if the SR-CAS evaluation output format for Omega42 is appropriately enforced (standardized). It is the unique identifier of Omega42.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 76 | PREV: c51a2f377760169d0396382543fc81caebc9b52a2f72aec761d235df72a8b9d8
+REQUEST (L-502): STRUCTURE -- an audit of the SR-CAS format's enforcement, the gap closed under L-531, and the reviews it found missing run; avenues R, W, A1
+
+SUMMARY: It was not enforced. It is now, and the check caught a lapse of my own.
+  - WHAT WAS FOUND:
+    * L-412 makes three formats the identifier of Omega42 output: the navigation, the SR-CAS assessment and the SNCA assessment.
+    * Only the navigation was checked by a tool. The SR-CAS and SNCA templates, with their M224 field lists, were mandatory in the text and checked by nothing.
+    * Nothing checked the automatic trigger either. When the three Sorites navigations arrived, I filed them with the output audit and M286 only. The SR-CAS and SNCA that Part 6.1 runs automatically were not run.
+  - WHAT NOW ENFORCES IT: tools/srcas_check.py, in CI. For every SR-CAS and SNCA report it checks:
+    * the verification and M270 blocks;
+    * every M224 field, in order;
+    * the Base Score, recomputed from its components (0.40, 0.15, 0.20, 0.10 and 0.15 for SR-CAS; 0.30, 0.40 and 0.30 for SNCA);
+    * the weighted index, capped at 1.00;
+    * the two status axes.
+    Its --owed mode fails if any received navigation or review has no review on record.
+  - THE PAST RECORD: both earlier SR-CAS records (19 and 21 October) pass all 11 of their reports. The format was followed whenever it was used; what was missing was the enforcement and the trigger.
+  - THE OWED REVIEWS, NOW RUN:
+    * Every Sorites pair halts on VERBATIM MISMATCH. GPT-6 and Qwen quote no domain, and Grok struck the request sentence instead of the problem.
+    * SNCA Base Scores: GPT-6 0.22, Grok 0.24, Qwen 0.13. GPT-6's review of Grok and Qwen scores 0.59.
+
+FINDINGS BY AVENUE (L-500):
+  R THE RECORD (tools/srcas_check.py):
+    - records/srcas/purpose_of_life_2026-10-19.txt: 5 reports, PASS.
+    - records/srcas/general_anesthesia_2026-10-21.txt: 6 reports, PASS.
+    - records/srcas/sorites_2026-10-30.txt: 7 reports, PASS.
+    - --owed: 4 of 4 received from APE-280 are named, PASS.
+    - Selftest: 9 of 9. It catches a wrong Base Score, an index above the cap, a missing field, a missing verification block and a missing status axis.
+  A1 THE ARITHMETIC (recomputed):
+    - Domain hashes: the problem 137d0a76…; Grok's strike ff4de77e….
+    - Format scores: GPT-6 3 of 35, Grok 3 of 36, Qwen 3 of 41.
+    - Base Scores:
+      * B: 0.30 × 0.00 + 0.40 × 0.09 + 0.30 × 0.60 = 0.22
+      * C: 0.30 × 0.25 + 0.40 × 0.08 + 0.30 × 0.45 = 0.24
+      * D: 0.30 × 0.00 + 0.40 × 0.07 + 0.30 × 0.35 = 0.13
+      * E: 0.30 × 0.75 + 0.40 × 0.50 + 0.30 × 0.55 = 0.59
+  W WHAT OMEGA42 SAYS: L-412 holds that a revision may extend these formats but not abandon them. A format written into the protocol but not computed is a format only by convention; it is now enforced the way the navigation's format has been.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Enforce the SR-CAS and SNCA formats by computation: APPLIED as tools/srcas_check.py, in CI. It is recorded in Core L-412 and in the enforcement paragraph of Core Part 6.1.
+  (2) Enforce the automatic trigger: APPLIED as tools/srcas_check.py --owed, in CI, from APE-280 on.
+  (3) Run the reviews owed for the Sorites navigations: APPLIED, records/srcas/sorites_2026-10-30.txt.
+  (4) Register the change: APPLIED as A-011.
+
+PEER ACCOUNTS (P; APA 9.5.5): none received; the SNCAs of APE-280 to APE-283 are in records/srcas/sorites_2026-10-30.txt.
+CHANGES TO THE PROTOCOL:
+  - Core: L-412, now naming its enforcement; Part 6.1, a new enforcement paragraph.
+  - Companion: Part 127, the SR-CAS format enforced.
+  - Repository:
+    * New: tools/srcas_check.py and records/srcas/sorites_2026-10-30.txt.
+    * Registered: A-011.
+    * Updated: the CI steps, the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION: the field lists taken from the M224 gate of Part 6.1, the recomputation of the composites, the --owed check, and the acknowledgment that the lapse was the Builder's.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/srcas_check.py --selftest 9 of 9; tools/srcas_check.py over records/srcas/: 18 reports, PASS; --owed: 4 of 4 named, PASS; every hash and composite of records/srcas/sorites_2026-10-30.txt recomputed; tools/applied.py --check, 11 entries, 0 flagged. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the law, that the format was specified in full and followed where used. PART -- enforcement: the navigation's format was computed, the SR-CAS and SNCA formats were not, until now. SILENT -- whether reviews filed before APE-280 that were owed an SNCA in review form should receive one now, which is yours to decide.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+OPEN: the SNCA in review form for reviews filed before APE-280 (your choice); the re-issue of the three Sorites navigations from the verbatim domain by their Navigators; the other sorites cases; the blind trigger test; the word classes in other languages; the re-navigation panel and the studies of Appendix S.6.5 and S.6.6; a second judge from another architecture; the CT-S1 study proper.
+
+What it rests on: What makes a format an identifier: the template, or the check that holds every output to it?
+What it holds out of view: That a review owed automatically can be skipped when nothing counts what is owed.
+Where it is heading: Toward an output that is recognizably Omega42 because a machine, not only a reader, can tell.
+What would complete it: The peers re-issuing their navigations on the verbatim domain, so that a comparison can run to the end.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 331e3976d16a32155310a5218058f55608bfcbda578ea3fa5fe76abeb7db9520
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 30 October 2026
+ESC

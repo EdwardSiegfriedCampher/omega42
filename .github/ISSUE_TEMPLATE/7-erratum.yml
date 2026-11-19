@@ -1,0 +1,24 @@
+name: Report an erratum
+description: A mistake in the protocol, a tool or the site.
+title: '[Erratum] '
+labels:
+- erratum
+body:
+- type: input
+  attributes:
+    label: Where
+    description: Document and section, tool and line, or page.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What is wrong
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Suggested correction
+    description: ''
+  validations:
+    required: false

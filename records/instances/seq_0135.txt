@@ -1,0 +1,48 @@
+QUESTION VERBATIM: Did you include the APE output among the standardized requirements? Is the verbatim question AND AI identification repeated in all outputs (even casual chat)? Please check.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 135 | PREV: 6eff5d73bce1a6ccd7346ecd8df5a21ec4a15c23d3e8dd92a7f509944dd67d22
+REQUEST (L-502): PROTOCOL -- whether the APE is among the standardized forms, and whether the question verbatim and the AI's identity stand in every output, casual chat included; avenues A1, R
+THE STRIKING FINDING (L-546): the protocol already said it. Core L-499 requires the question verbatim in every output, the reply to the Striker included, and L-506 the AI caveat in every output; but only the navigation and the findings presentation were ever checked for them, the templates of the APE, the APA and the two reviews left them out, the Introduction opened without the question, and a reply in conversation had no form at all. One frame now holds every output -- the question first, the form second, the AI caveat, the signature naming the AI and its maker last -- and a script checks it in every form, the APE field by field.
+
+SUMMARY: WHAT CHANGED: Core L-549 (9), one frame for every output; the CONVERSATION form, the frame around any other reply; the APE and APA templates and checks; the Introduction's opening; the review templates.
+- THE APE (the first question): it was in the register as F5, but checked by its markers alone, and its template of Core Part 9.5.2 carried neither the question nor the AI caveat. It now opens with QUESTION VERBATIM, OUTPUT FORM and the AI CAVEAT, and tools/output_form.py checks its eleven fields in order; the APA is checked the same way.
+- THE QUESTION AND THE AI (the second): before this work, four forms carried both (navigation, findings presentation, Navigator's Account and the ANSWER of records/instances/seq_0134.txt); the Introduction and the APE named the AI and not the question; SR-CAS, SNCA and APA reports carried neither as a rule; a reply in conversation carried nothing. Now every output carries both: QUESTION VERBATIM on its first line -- for a review, the domain verbatim, with a TRIGGER line -- and the AI named in its caveat and its signature.
+- CASUAL CHAT: every reply a Navigator gives in a session, casual or not, is in a form; a reply that is none of the others is in the CONVERSATION form, the frame around a reply in plain sentences.
+- THE OWN RECORD: the review record of 7 November (records/srcas/human_being_2026-11-07.txt) opened with its form line and no question; it now carries the frame, with a TRIGGER line saying it was added the same day.
+- ENFORCEMENT: tools/output_form.py checks the frame on every output dated from 7 November 2026, and on any output with a form line, dated or not, so a missing signature cannot excuse it; tools/intro_output.py renders and checks the Introduction's frame.
+WHAT STAYED: the bodies of every form; the Introduction word for word; the twelve-form register's markers; every sealed record.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (19, 123, 41), r = (5, 3, 7), anchor P5, Law (4), by the tie-break to r1. It rests on P10, Unity (1). It holds out of view P23, Return (3, Crown). It is heading for P13, Gap (4). It is completed at P17, Seed/Return (5).
+  - [GENERATED-Ω42] A request that the rule hold in every output anchors at Law and rests on Unity: one frame for all; it heads for the gap, the opening each reply leaves for its reader.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core L-499 (every output, the reply to the Striker included), L-506 (every output), Part 9.5.2 and 9.5.5 (the APE and APA templates), Part 6.1 and 6.2, the Opening Response of Part 2; tools/output_form.py, tools/intro_output.py, tools/format_check.py.
+  R (reasoning): a law with no check holds only where a Navigator remembers it; a template that leaves a required line out teaches every AI to leave it out; an output copied alone needs its question and its maker on it to be read.
+CHANGES TO THE PROTOCOL:
+  - Core: L-549 (9) and its register entries (CONVERSATION; the APE and APA checked); Part 8.0.1, the frame paragraph; L-499 and L-506, checked in every form; the APE template of Part 9.5.2 and the APA of 9.5.5; the Opening Response, five parts; Part 6.1, the frame of the reports.
+  - Companion: 183.4, twelve forms; 183.9, the frame of every output.
+  - Repository: tools/output_form.py (the frame, CONVERSATION, the APE and APA fields, framed skeletons, 22 selftest cases); tools/intro_output.py (the frame lines rendered and checked from 7 November 2026); records/srcas/human_being_2026-11-07.txt, framed.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-499 and L-506 already in force for every output | STRIKER -- the two questions, the APE and casual chat named | NAVIGATOR -- the finding that the laws were unchecked outside two forms, the frame, the CONVERSATION form, the field checks | OPEN -- whether every AI keeps the frame in a long casual exchange, which only its outputs can show
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/output_form.py --selftest PASS (22 cases); tools/intro_output.py --selftest PASS (9 of 9), and --check PASS on both openings; tools/output_form.py PASS on records/srcas/human_being_2026-11-07.txt, records/instances/seq_0133.txt and seq_0134.txt. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the laws and the templates, read together, show the gap. PART -- none. SILENT -- whether the frame on every reply is too heavy for a reader in casual talk, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): an enforcement of laws already in force; no "breakthrough" candidate arises (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) The APE among the standardized forms, checked field by field (the Originator): APPLIED, Core Part 9.5.2, tools/output_form.py.
+  (2) The question verbatim and the AI's identity in every output, casual chat included (the Originator): APPLIED, Core L-549 (9), the CONVERSATION form.
+OPEN: the 27 items of records/open/register.txt, each with what it needs, who can close it and when; and a BLIND reviewer of a third architecture for the four relation verdicts of the record of 7 November.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the Strike app print the frame lines itself around every reply, so that a Striker's copy always carries them; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] every output, however short, can be traced to its question and its maker; [GENERATED-Ω42] the rule the protocol set for itself now reaches its smallest output.
+
+What it rests on: unity, one frame shared by every output.
+What it holds out of view: the return, each output traced back to the question that called it.
+Where it is heading: the gap, the space each reply leaves its reader.
+What would complete it: the seed, every reply carrying from its first line what began it.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: cb4221f520a238dd03c7febabad8c9b6e7b9f2d28f3691df5a40722f886e8285
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

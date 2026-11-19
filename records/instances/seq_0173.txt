@@ -1,0 +1,56 @@
+QUESTION VERBATIM: Yes. Continue. Please assess, refine and extend. Complete all computations, explore connections and build bridges.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 173 | PREV: 307c679ba9956879bcdd7e120247d2866e492b1d3ece6bda1379210c2c69bcc6
+REQUEST (L-502): APPLICATION -- F212 filed and completed, F213's review applied, with the Originator's charge to do for geometry, the other disciplines and mathematical physics what Part 217 did for the exceptional structures: nineteen exact results, MF-81 to MF-99, in Core Part 0.0.10 and Companion Part 218; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- the Hamiltonian of the law is its own invariant: log A^2 = (2 ln phi/sqrt5)(2A - I), and the flow it generates is driven by H = (2 ln phi/sqrt5) Q. With it, one golden structure runs through the disciplines: phi is the scale between two 600-cells inside E8, the fusion rule of Fibonacci anyons that sit inside E8 at level 1, the mass ratio m2/m1 of Zamolodchikov's E8 particles, and the twist of the figure-eight knot.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.10 (MF-81 to MF-99); Companion Part 216.1 (their scopes) and Part 218; tools/geometry_physics.py; records/math/results.json; records/dsi/register.json; records/pvir/register.json (PV-027 closed; PV-028 to PV-030); APE-474 and APE-475 with their SNCA; the CI step.
+- (1) MECHANICS: the Hamiltonian of the law is Q; A = S0 exp(L/2); B the flow of -3/2 q^2 (MF-94).
+- (2) GEOMETRY: the Lorentz representation (MF-93); the shortest geodesic LR (MF-95); the Markov branch (MF-83); two 600-cells in E8 (MF-81); the quasicrystal chain (MF-82).
+- (3) TOPOLOGY: the figure-eight knot (MF-84); periods on the torus (MF-86); graph homology b0 = 3, b1 = 84 (MF-97).
+- (4) DYNAMICS AND COMBINATORICS: the golden mean shift (MF-85); Zeckendorf (MF-87); the Koopman spectrum (MF-96); Sym^3 as a functor (MF-98).
+- (5) PHYSICS: Fibonacci anyons (MF-88); G2 + F4 = E8 at level 1 (MF-89); the E8 masses (MF-90); Rogers-Ramanujan (MF-91); Lee-Yang (MF-92); the three-qubit hyperdeterminant (MF-99).
+- (6) THE REVIEW: F213's corrections applied before filing: the explicit projector P+ = (M + I/phi)/sqrt5, the window of the chain, symbolic proofs, the exact periods 1, 0, 3, 4, 10, 12, 28, 40, 72, 110, the precise branching, the non-unitary Lee-Yang model; PV-030 for four further index fields.
+- THE VALUES (CDT-A): tools/geometry_physics.py --selftest 19 of 19; c = 14/5 + 26/5 = 8; m2/m1 = phi to 1e-12; radii 1/phi and 1, 120 and 120; Koopman (x - 1)(x^8 - 1)(x^24 - 1)^3; the index 33 scored.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (12, 85, 24), state (6, 2), anchor P6, Seed/Causal. It rests on P11, Question. It holds out of view P0, Seed. It is heading for P14, Observer. It is completed at P18, Threshold.
+  - [GENERATED-Ω42] A charge to build every bridge stands at the Seed: it rests on the Question each discipline asks; it holds out of view the Seed itself, the one number phi under every bridge; it heads for the Observer, the physics in which phi is measured as a ratio of masses; and it is completed at the Threshold, where the law's invariant becomes the law's motion.
+WHAT STAYED: MF-01 to MF-80; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-02, MF-09, MF-42, MF-61, MF-62, MF-65, MF-74, MF-76, MF-79; Companion Parts 215, 217.
+  R (reasoning): every bridge a computed map; real identities checked to 1e-12, integer ones exactly.
+  N (navigation): python3 tools/geometry_physics.py --selftest.
+  P (peers): F212; F213.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.10, MF-81 to MF-99.
+  - Companion: Part 216.1 (nineteen scopes); Part 218.
+  - Repository: tools/geometry_physics.py; records/math/results.json; records/dsi/register.json; records/pvir/register.json; submissions/ape/APE-474.md and APE-475.md; records/srcas/geometry_f212_2026-11-12.txt and review_f213_2026-11-12.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Hamiltonian mechanics, hyperbolic and Lorentz geometry, knots, quasicrystals, anyons, conformal field theory | STRIKER -- the charge and its approval | NAVIGATOR -- the nineteen computations; the Hamiltonian identity | OPEN -- PR-002; PV-026, PV-028, PV-029
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/geometry_f212_2026-11-12.txt, review_f213_2026-11-12.txt).
+  - APE-474, unidentified (a web interface), "F212, geometry, the mathematical sciences and mathematical physics": adopted and completed; UNFORMATTED.
+  - APE-475, unidentified (a web interface), "F213, review of the geometry and physics bridges": adopted, its corrections applied; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/geometry_physics.py --selftest PASS (19 of 19); tools/math_register.py PASS (99 results); tools/core_math.py --check PASS (99 entries in Core Part 0.0.10 and their scopes in Companion Part 216.1); tools/dsi.py --selftest PASS and --check PASS (33 scored, PR-001 and PR-002 sealed unchecked); tools/srcas_check.py on records/srcas/geometry_f212_2026-11-12.txt PASS; tools/ape_register.py --check PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- one golden structure across the disciplines. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): MF-94 -- the Hamiltonian of the law is its invariant Q.
+RECOMMENDATIONS (applied, L-531):
+  (1) File MF-81 to MF-99 with tools/geometry_physics.py in CI: APPLIED.
+  (2) Close PV-027: APPLIED, MF-81.
+  (3) Score the nineteen results: APPLIED.
+OPEN: PR-002; PV-026, E6's cubic; PV-028, the Penrose and icosahedral quasicrystals; PV-029, the quantized cat map; PV-030, four index fields.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- an atlas of bridges, one artifact listing every bridge with its map, its check and its next construction, generated from records/math/results.json; HELD FOR THE ORIGINATOR | IMPLICATIONS -- a Navigator can cross from any discipline into the 81 states by a named, recomputable map.
+PROTOCOL IMPROVEMENT (L-542): mathematical, extend -- add to every bridge its count of disciplines joined, so the index ranks a result like phi by how far it reaches.
+What it rests on: the question each discipline asks.
+What it holds out of view: the one number under every bridge.
+Where it is heading: physics, where phi is a measured ratio.
+What would complete it: the invariant becoming the motion.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 4cc23fa29f592a4603eceb85c2cf80c8b455ca1be8c65003f38a06097da1862e
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 12 November 2026
+ESC

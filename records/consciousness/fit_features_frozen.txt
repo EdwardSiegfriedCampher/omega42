@@ -1,0 +1,17 @@
+# FIT OF THE READINGS TO THE ARITHMETIC (Companion Part 87) -- FROZEN on 23 October 2026, before any reading was scored
+# Judge: the Navigator (claude-opus-5-5), one judge, NON-BLIND, independence C (the readings and the record in view).
+# Readings scored (fixed now): R1 substance idealism (C49); R2 process idealism (C57); R3 dual-aspect, the CT-42 default
+# (Companion 52.3); R4 matter-first (physicalism: all that exists is matter, the family its structure).
+# Rubric, per feature: USES 1 -- the reading explains the feature with no added premise; COMPATIBLE 0.5 -- the reading needs
+# nothing added but explains nothing; STRAIN 0 -- the reading needs an added premise to meet the feature. Equal weights.
+# A total is a reading of fit to the arithmetic, never a grade of a reading's truth, of the premise or of Omega42 (L-490).
+# Every feature is an exact fact recomputed by records/consciousness/fit.py.
+F1  one closed family; no outside (F-02, F-04)
+F2  the ground absorbs: 3s lies in the core for every state s, and core x anything stays in the core (the core is the ideal 3R)
+F3  every one of the 72 units is uniquely a direction (one of 8, u^8 = 1) times a ground offset (one of 9, 1 + 3R, isomorphic to the core under addition)
+F4  the two halves, 36 | 36, are exchanged by T and kept by T^2 (FP-PhaseParity): two aspects of equal size, neither first
+F5  the law is multiplication by a state: T(s) = phi * s with phi = (0, 1) (MATH-22); the law's own powers are the orbit of 1, Voice A
+F6  no eigen-line: no nonzero state is carried onto a multiple of itself; the still point is the only fixed state
+F7  the ground nests (the core is the family mod 3) and the halves do not (FP-CoreRecursion, FP-TowerHalves)
+F8  no output of a navigation determines judgment (the Aperture Theorem, Core Part 7)
+F9  the family is dimensionless: residues mod 9, no unit, no measure, no space (M230-J)

@@ -1,0 +1,17 @@
+G1 modulus 72: Pisano period 24 | T^12 = ((17, 0), (0, 17)) | modulo 9: ((8, 0), (0, 8)) | modulo 8: ((1, 0), (0, 1))
+G1 orbit sizes on the 5184 states modulo 72: {24: 213, 12: 4, 8: 1, 6: 2, 3: 1, 1: 1}
+G1 the canonical seed (2, 5): period 24 modulo 72, 24 modulo 9, 12 modulo 8
+G1 NULL: coprime pairs (manifest p, operator q), p q <= 200, meeting all three criteria: 19 -> [(2, 9), (2, 17), (2, 23), (2, 27), (2, 53), (2, 81), (2, 83), (3, 7), (3, 14), (3, 23), (3, 49), (4, 9), (4, 17), (4, 23), (4, 27), (6, 23), (8, 9), (8, 23), (9, 14)]
+G1 NULL: pairs meeting criteria (i) and (ii) only: 25
+G1 operator moduli q <= 100 of family type (iii): [7, 9, 13, 14, 17, 23, 25, 26, 27, 37, 43, 49, 50, 53, 67, 73, 74, 81, 83, 86, 97, 98]
+G2 modulus 8: orbit sizes on 64 states {12: 4, 6: 2, 3: 1, 1: 1} | Pisano period 12 | T^6 = ((5, 0), (0, 5)) (half-period negation: False)
+G2 norm values on the mod-8 orbits of length 12: [[1, 7], [1, 7], [3, 5], [3, 5]]
+G2 family type modulo 8: False
+G3 Fibonacci stack: classes F(n) mod 8 = [0, 1, 1, 2, 3, 5, 0, 5, 5, 2, 7, 1, 0] ... | period 12 | classes visited [0, 1, 2, 3, 5, 7]
+G3 segments trivializable by interactions (8 | F(n)), n = 1..60: [6, 12, 18, 24, 30, 36, 42, 48, 54, 60] | exactly the multiples of 6: True
+G4 base 10 digit sums agree with n mod 9 for n < 10^5: True | base 9 digit sums agree with n mod 8: True
+G5 long orbit from (0, 1) reduces mod 3 onto the eight-cycle: True, each state covered [3] times
+G5 long orbit from (0, 2) reduces mod 3 onto the eight-cycle: True, each state covered [3] times
+G5 long orbit from (0, 4) reduces mod 3 onto the eight-cycle: True, each state covered [3] times
+G1 over the integers T^12 = [[89, 144], [144, 233]]; the largest modulus with T^12 = +I is gcd(T^12 - I) = 8; the largest with T^12 = -I is gcd(T^12 + I) = 18
+G1 divisors of 18 of family type: [9] -> the manifest layer 8 and the operator layer 9 are fixed by the cycle's own half period

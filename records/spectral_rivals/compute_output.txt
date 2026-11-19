@@ -1,0 +1,18 @@
+M298 RIVAL-GROUND COMPARISON (frozen definitions D and O; Core 1.8.9)
+Omega42 canonical observable profile: L 24, energy 216, odd harmonics only True, integral True, levels [0.0, 324.0, 648.0]
+  mod   6: period  24, census [(1, 1), (3, 1), (8, 1), (24, 1)]
+  mod   9: period  24, census [(1, 1), (8, 1), (24, 3)]
+  mod  10: period  60, census [(1, 1), (3, 1), (4, 1), (12, 1), (20, 1), (60, 1)]
+  mod  12: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (24, 5)]
+  mod  16: period  24, census [(1, 1), (3, 1), (6, 2), (12, 4), (24, 8)]
+  mod  18: period  24, census [(1, 1), (3, 1), (8, 1), (24, 13)]
+  mod  24: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (12, 4), (24, 21)]
+  mod  36: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (24, 53)]
+  mod  48: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (12, 4), (24, 93)]
+  mod  72: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (12, 4), (24, 213)]
+  mod 144: period  24, census [(1, 1), (3, 1), (6, 2), (8, 1), (12, 4), (24, 861)]
+D shared with modulus 9 (same period and multiplicities): NONE
+O shared with the canonical orbit (same length, energy and power levels), among 11 grounds: NONE
+Rival orbits sharing each conjunct of the canonical profile: {'period 24 + half-period negation': 26, '... + covers all residues': 2, '... + integral two-level spectrum': 0}
+  (the two that share period 24, half-period negation and full coverage are Voices A and B of mod 9; for even moduli the residue m/2 is its own negative, so the centred observable cannot show the half-period negation exactly when m/2 occurs)
+Reconstruction: a window of 6 consecutive centred values, from any start of the canonical cycle, singles out the ground (mod 9) and the state, and so the whole spectrum, among all orbits of the 11 grounds

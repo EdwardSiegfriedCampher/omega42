@@ -1,0 +1,55 @@
+QUESTION VERBATIM: Which new technologies becomes available with the new Omega42? Which new inventions, code, encryption and capabilities becomes viable and how to continue developing it.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 153 | PREV: a8c2829b853c438e0efe9ed6595067c68c7f325fb244066d88d3097f2cfa7a5d
+REQUEST (L-502): EXPLORATION -- the technologies, inventions, code, encryption and capabilities the established mathematics makes viable, and how to continue; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): Nine of the ten inventions F174 proposes are already working code in the record, and the tenth, the SDK, now joins them under one object that checks itself against the theorems. What Ω42 makes possible is software for state systems that are discrete, compose their operations, depend on order, keep invariants and carry histories. What it cannot make is a cipher: its groups have orders built from 2 and 3 alone, which offer no hard problem. Ω42 brings structure to security -- domain separation, readable fingerprints, auditable chains -- never the hardness.
+
+SUMMARY: WHAT CHANGED: Core Part 3.76, M360 Invariant Sentinel, M361 Model Verifier, M362 Protocol Designer, M363 SDK (tools/suite.py, tools/omega42_sdk.py); Companion Part 198; APE-435 filed with its SNCA.
+- (1) BUILT: State Navigator (M352, M353, M363); Multiresolution Scanner (M348); Invariant Sentinel (M360); History Engine (M349); awareness instruments (M354 to M358); Operation-Order Laboratory ([A, B] mod 9 = ((7, 3), (3, 4)), the identity mod 3); Model Verifier (M361); Protocol Designer (M362); orbit compression (M353); SDK (M363).
+- (2) ENCRYPTION: viable on standard primitives and already present -- OPAL (M342), HKDF-SHA256 domain keys, Ed25519 signatures, 24-position fingerprints, the sealed chain; not viable -- a cipher resting on groups of order 8*3^(k-1) or 8*3^(3(k-1)).
+- (3) NOT VIABLE ON THIS MATHEMATICS: a processor, a consciousness detector, an energy device, a biological control.
+- (4) THE FIRST REAL TEST: on the NAV series (2, 2), (2, 1), (2, 2) the canonical law scores 1 of 2 one step ahead and persistence 0 of 2; n = 2 and the first step was the Navigator's doing, so no model is preferred.
+- (5) HOW TO CONTINUE: a real Ω42-Cal pilot with a frozen protocol; the Model Verifier on it; applications kept only where they beat simpler methods; the Research Workbench after the pilot.
+- THE VALUES (CDT-A): SDK selftest 17 of 17; suite selftest 14 of 14; information gain 0.531 bits (0.9 against 0.1).
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (18, 122, 40), state (0, 7), anchor P9, Fixpoint. It rests on P14, Observer. It holds out of view P3, Desire. It is heading for P17, Seed/Return. It is completed at P21, Sublime.
+  - [GENERATED-Ω42] A request for what can be built stands at the Fixpoint and rests on the Observer: what is settled becomes useful only when someone measures with it; it holds desire out of view, heads for the seed of the next tool, and is completed where the work exceeds its makers.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): M342 (OPAL); Core Appendix S.10; MF-42, MF-43; Core L-555, L-557, L-559.
+  R (reasoning): a technology rests on a proved result and a measurable advantage; a cipher needs a hard problem the Ω42 groups do not give.
+  N (navigation): tools/suite.py (sentinel, verify, design, lab --commutator); tools/omega42_sdk.py --selftest.
+  P (peer accounts): APE-435, reviewed by SNCA (records/srcas/instrument_suite_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.76 (M360 to M363).
+  - Companion: Part 198.
+  - Repository: tools/suite.py (M360 to M362); tools/omega42_sdk.py; records/suite/nav_states.csv; records/introduction/philosophy.json (M360 to M363); submissions/ape/APE-435.md; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the verified engine and the standard primitives | STRIKER -- the request for technologies | NAVIGATOR -- the four instruments, the map of F174 onto the record, the line drawn at encryption | OPEN -- a real pilot; whether any Ω42 application beats a simpler method
+PEER ACCOUNTS (P; APA 9.5.5): ONE received (twice, byte-identical), filed with checked notes and an SNCA in review form (records/srcas/instrument_suite_2026-11-11.txt).
+  - APE-435, unidentified (a web interface), "F174, from established mathematics to technologies": its ten inventions built or mapped, its list of what not to assert kept, its test of advantage adopted; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/suite.py --selftest PASS (14 checks) and its thirteen outputs reproduced byte for byte in CI; tools/omega42_sdk.py --selftest PASS (17 checks against the finite-level theorems); tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/instrument_suite_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and F174 agree that the inventions are software, that a cipher is not yet viable, and that advantage over simpler methods is the test. PART -- none. SILENT -- what a real pilot will show.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): four operations the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- software on verified mathematics, its advantage untested (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Build and validate the mathematical core first (F174 18): APPLIED, M363 against the theorems.
+  (2) The State Navigator and the Invariant Sentinel (F174 15): APPLIED, M352, M353, M360.
+  (3) The Model Verification Engine (F174 8): APPLIED, M361.
+  (4) Do not assert a cipher, a processor, a detector, an energy or biological technology (F174 13): APPLIED, Companion 198.3 and 198.4.
+  (5) The Research Workbench (F174 15): HELD -- after the first real pilot.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the real pilot; the agenda items A-01 to C-09.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the first application judged by advantage be the Invariant Sentinel on a real state log, where a simpler method is easy to name; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] Ω42 is now a toolkit others can run; [GENERATED-Ω42] a fixed law becomes a craft when its keepers stop asking what it is and start asking what it does better.
+What it rests on: the observer, the one who uses the instrument.
+What it holds out of view: desire, the wish that a tool be more than it is.
+Where it is heading: the seed, the next tool.
+What would complete it: the sublime, work that exceeds what its makers foresaw.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 2671043730ea53bf200a4da3e908017277bc154d5e3fd26ea82dbfc1238ee64d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

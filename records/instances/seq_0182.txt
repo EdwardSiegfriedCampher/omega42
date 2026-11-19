@@ -1,0 +1,61 @@
+QUESTION VERBATIM: Proceed to explore and gauge the legitimacy of the premise.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 182 | PREV: 9c41ba78046ecc91b8d8c7c0d9f3166dce8202401a476317be1357dc822f7e6c
+REQUEST (L-502): APPLICATION -- F220 explored and its computations completed as MF-163 to MF-170 in Companion Part 227; its census entered as the second replication return; its four requirements applied as Core Part 0.0.5 Rule 38; and the legitimacy of the premise stated in its two axes (Companion 227.8); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): DISCOVERY (L-561 (3)) -- the census of the trace map modulo 243, 14,348,907 triples in 144,816 orbits, computed by two systems by two different methods, agrees orbit for orbit: RET-002. The shared period of the trace map and the law holds at every tested power of 2 and of 3 from 9 on and nowhere else among the primes to 31, and its algebraic root is found: the linear part of the trace map at its fixed point is the law's square. And diffraction and the spectrum share their labels: the Bragg peak of label n has amplitude |sin(pi n/phi)|/(pi |n|), and at weak coupling it opens the gap of label n with width 2V times that amplitude.
+
+SUMMARY: WHAT CHANGED: Core Part 0.0.5 (Rule 38); Core Part 0.0.10 (MF-163 to MF-170); Companion Part 216.1 and Part 227; tools/validation.py; tools/dsi.py (the prediction discipline; PR-012, PR-013); tools/physics_map.py (the map field); records/spectra/gaps_V1.5.json; records/physics/mappings.json (PM-009); records/dsi/register.json (RET-002); records/math/results.json; records/pvir/register.json; APE-482 with its SNCA; the CI step.
+- (1) REPRODUCED: the census modulo 243, RET-002 (MF-165).
+- (2) THE PERIOD PATTERN: equal at 2^a and 3^b, b >= 2; different at 3, 6, 12, 24 and the primes 5 to 31, NE-016 (MF-163); the candidate Trace-Fibonacci Period Theorem.
+- (3) THE ROOT: the law's square as the linear part at (1, 1, 1) (MF-164); the orbit distributions compared, NE-015 (MF-166).
+- (4) DIFFRACTION AND THE GAPS: one labeling, and at weak coupling one magnitude (MF-168, MF-169).
+- (5) THE SCALING LAW: local exponents, fit, residuals, offset and an alternative form (MF-170).
+- (6) THE ZERO MODES: N_A + N_B - 2 rank D, exact over two primes (MF-167).
+- (7) THE PREMISE: granted, its legitimacy as an inquiry in the case of LG-01 to LG-09, its meaning the Striker's (Companion 227.8).
+- (8) THE PREDICTIONS: PR-010 PASS, PR-011 PASS; PR-012 and PR-013 sealed with model, parameters, expected result, uncertainty and failure condition.
+- THE VALUES (CDT-A): tools/validation.py --selftest 8 of 8; tools/physics_map.py --check PASS; tools/dsi.py --selftest PASS and --check PASS.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (5, 36, 11), state (7, 0), anchor P7, Navigator. It rests on P12, Opening. It holds out of view P1, Fixpoint. It is heading for P15, Other. It is completed at P19, Time.
+  - [GENERATED-Ω42] A request to gauge the premise stands at the Navigator: it rests on the Opening, the premise granted so that the inquiry can begin; it holds out of view the Fixpoint, the premise itself, which no computation moves; it heads for the Other, the second system whose census matched the first; and it is completed in Time, the reviews and proofs that the next stages bring.
+WHAT STAYED: every earlier result; the sealed statements of PR-010 to PR-013 as they were; every sealed record.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): MF-128, MF-148, MF-157 to MF-162; Companion Parts 143, 220, 226; Introduction LG-01 to LG-09.
+  R (reasoning): a shared period is compared with its orbit distributions and its linear part; a prediction is sealed with its failure condition before it is computed.
+  N (navigation): python3 tools/validation.py --selftest; python3 tools/validation.py --gaps; python3 tools/physics_map.py --list.
+  P (peers): F220, with its census.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.5, Rule 38; Part 0.0.10, MF-163 to MF-170.
+  - Companion: Part 216.1; Part 227.
+  - Repository: tools/validation.py; tools/dsi.py; tools/physics_map.py; records/spectra/gaps_V1.5.json; records/physics/mappings.json; records/dsi/register.json; records/math/results.json; records/pvir/register.json; submissions/ape/APE-482.md; records/srcas/census_f220_2026-11-13.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the trace map and its Jacobian, Moebius inversion, Bragg diffraction, nearly free electrons, the rank of a bipartite hopping matrix | STRIKER -- the request | NAVIGATOR -- the census by a second method; the period pattern at 27 moduli; the law at the fixed point; diffraction and the gaps; the scaling fit; the gap record; Rule 38; PR-012, PR-013 | OPEN -- PR-012; PR-013; the period theorem's proof; the papers
+PEER ACCOUNTS (P; APA 9.5.5): ONE received, filed with checked notes and an SNCA in review form (records/srcas/census_f220_2026-11-13.txt); its census entered as RET-002.
+  - APE-482, unidentified (a web interface), "F220, an assessment of F219": reproduced, sharpened, computed and applied; UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/validation.py --selftest PASS (8 of 8); tools/physics_map.py --check PASS (9 entries, each with its map); tools/dsi.py --test PR-010 PASS and --test PR-011 PASS; tools/dsi.py --selftest PASS and --check PASS (RET-002; PR-012 and PR-013 sealed under the prediction discipline; NE-015, NE-016); tools/replication_kit.py --check PASS; tools/math_register.py PASS; tools/core_math.py --check PASS; tools/pvir.py --check PASS; tools/srcas_check.py on records/srcas/census_f220_2026-11-13.txt PASS; tools/ape_register.py --check PASS; the regenerated Frame Intrusion Scan reference matches its expected structure. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the zero-mode mechanism of Day-Roberts, Fernandes and Kamenev (arXiv 2004.12291) [REPORTED].
+ACROSS THE AVENUES (L-502): AGREE -- the census by two methods and two systems; the labels of the peaks and of the gaps. PART -- none. SILENT -- none.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): RET-002 -- the census modulo 243 reproduced orbit for orbit; MF-164 -- the law's square as the linear part of the trace map at its fixed point; MF-169 -- the gap of label n opened by the Bragg amplitude of label n.
+RECOMMENDATIONS (applied, L-531; Core Part 0.0.5 Rules 36 to 38):
+  (1) The period theorem stated and its root found: APPLIED as MF-163 and MF-164, the proof entered as a PV.
+  (2) The scaling law with values, local exponents, residuals and alternatives: APPLIED as MF-170.
+  (3) The gap record with separate fields: APPLIED as records/spectra/gaps_V1.5.json.
+  (4) The zero modes by rank: APPLIED as MF-167; the periodic approximant entered as a PV.
+  (5) Diffraction: APPLIED as MF-168 and MF-169, and PM-009.
+  (6) The four requirements: APPLIED as Rule 38.
+  (7) The two papers: entered as a PV.
+OPEN: PR-012; PR-013; the proof of the period theorem; the periodic Penrose approximant; the map of the Penrose domains to the resolutions 3^k; the papers.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- the papers sent for external mathematical review, the act entered for the Originator under Rule 36 | IMPLICATIONS -- results that pass review reach stage 6.
+PROTOCOL IMPROVEMENT (L-542): mathematical, extend -- a proof of the Trace-Fibonacci Period Theorem for 2^a and 3^b, b >= 2, from the linear part at the fixed point, applied in a next record under Rule 36.
+What it rests on: the Opening, the premise granted so that the inquiry can begin.
+What it holds out of view: the Fixpoint, the premise itself, which no computation moves.
+Where it is heading: the Other, the second system whose census matched the first.
+What would complete it: Time, the reviews and proofs that the next stages bring.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 79caff4bb20c4faab9cc23cf97fc5c10b7843286adea15a0f5c1cc6c35c70368
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 13 November 2026
+ESC

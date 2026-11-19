@@ -1,0 +1,283 @@
+======= NINE FURTHER QUESTIONS — NAVIGATIONS =======
+Coordinates from canonical_reference.py (SCRIPT SHA ab79aae2…); M308 from tools/bashar_lens.py.
+Every value below was recomputed in this session.
+
+─── Q1 ─────────────────────────────────────────────
+DOMAIN: What is the order of this matrix in GL(2,9)?
+DOMAIN SHA-256: bc197ad529c03000b9fdc9ca16d18cffc51a31ed4df84639045cd6fbcab81c45
+n = 6/24/8 | r = 3,3,4 | P3 Desire (3) | TFI 0.67
+ARMS: YANG P8 Generation 5 | YIN P21 Sublime 4 | 4D P11 Question 6 | ANTIPODE P15 Other 6
+
+THE ANSWER
+The answer depends on what "9" names.
+  - Over the ring of integers modulo 9, in GL(2, Z/9) (3888 elements), the
+    order of A = [[0,1],[1,1]] is 24. A¹² = −I is the first return up to
+    sign, and A²⁴ = I.
+  - Over the field of nine elements, GL(2, F₉), the same matrix has order 8.
+    There x² − x − 1 splits: its two roots are elements of order 8 in F₉,
+    so A becomes diagonalisable and returns after eight steps, exactly as it
+    does modulo 3.
+The 24 is therefore 8 × 3. The eight comes from the field level beneath,
+and the factor 3 is added by the step from 3 to 9: the ring is not a
+field, φ has no eigenvalue in it, and the cycle has to go round three
+times longer before it closes. Read as GL(2, 9) in the field sense, the
+answer is 8. The family lives in the ring, and there the answer is 24.
+
+TAKEAWAY: Order 24 in GL(2, Z/9), which is the family's own setting; order
+8 in GL(2, F₉) and modulo 3.
+M308: MODERATE — same place and frequency as LAW 5 (chance 0.370). [CDT-C]
+
+─── Q2 ─────────────────────────────────────────────
+DOMAIN: How many conjugate copies of the same matrix exist inside the family?
+DOMAIN SHA-256: a47604c25a7b1d266c5569045b737a1bacb0e1104aa0e20a3f6a3dce6750dafc
+n = 8/45/15 | r = 4,9,3 | P4 Unity (1) | TFI 1.00
+ARMS: YANG P9 Fixpoint 5 | YIN P22 Collective 8 | 4D P12 Opening 7 | ANTIPODE P16 Flow 8
+
+THE ANSWER
+Fifty-four.
+  - The matrices that commute with A are exactly the 72 units of the ring
+    Z[φ]/9 acting by multiplication.
+  - By orbit–stabiliser, A has 3888 / 72 = 54 conjugates in GL(2, Z/9).
+  - These are precisely the 54 matrices with trace 1 and determinant −1, so
+    every matrix with A's characteristic polynomial is a copy of A.
+  - Each copy is multiplication by φ written in a different basis of the
+    81 states. Each moves the family through the same five orbits of 24,
+    24, 24, 8 and 1, only with the states relabelled.
+  - With the 54 copies of −A (characteristic polynomial x² + x − 1), that
+    makes 108 golden matrices in all.
+The unity behind the count: one law, one centraliser of 72, and the
+copies are its faces.
+
+TAKEAWAY: 54 conjugates of A (108 counting −A). Every matrix modulo 9 with
+trace 1 and determinant −1 is one of them.
+M308: STRONG — same state as LAW 4 "What you put out is what you get back"
+(chance 0.173). [CDT-C]
+
+─── Q3 ─────────────────────────────────────────────
+DOMAIN: Does the same matrix appear in any other natural coordinate system on the 81 states?
+DOMAIN SHA-256: ad8a7a014e458cd143181f37da5bdec2bd5dbafc9e7bb122db4429d0adeef9f0
+n = 10/59/18 | r = 5,7,9 | P5 Law (4) | TFI 1.00
+ARMS: YANG P10 Unity 1 | YIN P23 Return 3 | 4D P13 Gap 4 | ANTIPODE P17 Seed/Return 5
+
+THE ANSWER
+Yes. The rule is exact: A appears, unchanged, in every basis {1, ω} in
+which ω satisfies ω² = ω + 1. Whatever ring carries such an ω, multiplying
+a + bω by ω gives b + (a + b)ω. Natural instances:
+  - The square lattice. In the Gaussian integers modulo 9, ω = 5 + i
+    satisfies ω² = ω + 1, so multiplication by 5 + i in the basis
+    {1, 5 + i} is A itself. The same holds for every quadratic ring in
+    which 3 stays prime.
+  - The decagonal (Penrose) module Z[ζ₅] modulo 9.
+  - The E8 lattice in icosian form modulo 9, four times over.
+  - The conjugate root ψ = 1 − φ. In the basis {1, ψ}, A is multiplication
+    by ψ, and multiplication by φ becomes [[1, −1], [−1, 0]].
+Where the coordinates are not of this form, A returns as a conjugate:
+  - Reversing the basis to {φ, 1} gives [[1, 1], [1, 0]], the familiar
+    Fibonacci matrix.
+  - In the anyon coordinates u = a + 5b, v = b, where the spin form becomes
+    (u² + v²)/9, the step is [[5, 8], [1, 5]], and it reverses that form.
+    That is why it appears there as a time-reversal symmetry.
+The law is the same in every chart; the matrix is the same wherever the
+chart is built on a golden element.
+
+TAKEAWAY: A itself appears in every basis {1, ω} with ω² = ω + 1: the
+Gaussian integers (ω = 5 + i), the decagonal module, the icosians.
+Elsewhere it appears as a conjugate.
+M308: NONE (frequency only, chance 0.988). [CDT-C]
+
+─── Q4 ─────────────────────────────────────────────
+DOMAIN: What is the explicit power spectrum of the canonical sequence?
+DOMAIN SHA-256: af761479824d0230beb1542cf09d6bcab85c085c06342decc3a5617489d17aff
+n = 6/42/13 | r = 3,3,2 | P3 Desire (3) | TFI 0.67
+ARMS: YANG P8 Generation 5 | YIN P21 Sublime 4 | 4D P11 Question 6 | ANTIPODE P15 Other 6
+
+THE ANSWER
+Centred values (−4 to 4), starting at (2, 5):
+  2, −4, −2, 3, 1, 4, −4, 0, −4, −4, 1, −3, −2, 4, 2, −3, −1, −4, 4, 0, 4, 4, −1, 3.
+Power |X(k)|², k = 0 … 23:
+  - 0 at every even k, including the mean. The sequence negates at half
+    period, so only odd harmonics survive.
+  - 648 at k = 3, 9, 15, 21.
+  - 324 at k = 1, 5, 7, 11, 13, 17, 19, 23.
+  - Total: 8·324 + 4·648 = 5184 = 24 × 216, as Parseval requires.
+Every level is a whole number, and the harmonics that are odd multiples of
+3 carry twice the power of the rest.
+Read the same values on the scale 0 to 8 and the spectrum loses this form:
+  - a mean term of 9801;
+  - 81 at every even harmonic;
+  - irrational levels on the odd harmonics: 27, 55.94 and 430.06.
+The whole-number spectrum belongs to the centred reading, where each
+residue is taken at its smallest size.
+
+TAKEAWAY: Centred: 324 at the eight odd harmonics prime to 3, 648 at
+k = 3, 9, 15, 21, and 0 elsewhere. On the scale 0–8 the levels are not
+whole numbers.
+M308: MODERATE — same place and frequency as LAW 5 (chance 0.370). [CDT-C]
+
+─── Q5 ─────────────────────────────────────────────
+DOMAIN: Do the short orbit and the fixed point share any of these spectral markers?
+DOMAIN SHA-256: 21a81d3779a70345d1d69f35c1256eae9fad787039d5306e4df781b4d228a030
+n = 8/42/12 | r = 4,3,6 | P4 Unity (1) | TFI 1.00
+ARMS: YANG P9 Fixpoint 5 | YIN P22 Collective 8 | 4D P12 Opening 7 | ANTIPODE P16 Flow 8
+
+THE ANSWER
+They share two of the three markers.
+The eight-step orbit through (3, 3), centred, reads
+3, 3, −3, 0, −3, −3, 3, 0.
+  - Its power spectrum is flat and whole: 108 at every odd harmonic, 0 at
+    every even one.
+  - Its autocorrelation is zero at every lag except 0 and 4, where it is
+    −1: the half-period negation.
+  - It fails the third marker, size: its energy is 54 per cycle, 162 over
+    24 steps, against 216.
+The fixed point (0, 0) passes the first two only emptily: its spectrum is
+zero everywhere and its energy is 0.
+So whole-number spectra and autocorrelation confined to multiples of four
+mark the canonical orbit only among the three long orbits. Across the
+whole family they are shared by the nine non-units, whose values are all
+multiples of 3, so that every frequency they carry is whole.
+
+TAKEAWAY: The eight-cycle has a flat, whole-number spectrum (108) and
+autocorrelation only at lags 0 and 4; the fixed point passes trivially.
+The markers single out the canonical orbit among the long orbits only.
+M308: WEAK — same place as FORMULA 5 and LAW 4 (chance 0.778). [CDT-C]
+
+─── Q6 ─────────────────────────────────────────────
+DOMAIN: Can the same spectral tests be applied after a linear change of coordinates?
+DOMAIN SHA-256: a7d397e6df56ae1f1c84bd552b87d67c6c227b78bea7708a7460a54e3f3c93c7
+n = 6/43/12 | r = 3,8,6 | P3 Desire (3) | TFI 1.00
+ARMS: YANG P8 Generation 5 | YIN P21 Sublime 4 | 4D P11 Question 6 | ANTIPODE P15 Other 6
+
+THE ANSWER
+They can be applied, and their verdict changes.
+  - Any linear readout αa + βb, with α and β not both multiples of 3,
+    turns each long orbit into a sequence obeying the same Fibonacci law.
+    So the test always picks out exactly one long orbit as the one with a
+    whole-number spectrum.
+  - Over all 72 such readouts, the chosen orbit is the canonical one for
+    24 readouts, the orbit through (1, 3) for 24 and the orbit through
+    (1, 1) for 24: an exact three-way split.
+  - The reason: whole numbers come out whenever the readout of an orbit
+    lands on values of the canonical kind. A change of coordinates moves
+    which orbit does that, and the centred lift is not linear, so the
+    property cannot travel with the law.
+  - The standard reading (the first coordinate, α = 1, β = 0) is one of
+    the 24 readouts that favour the canonical orbit.
+So the markers are facts about a coordinate reading, not about φ. They
+recognise the canonical orbit in the protocol's own coordinates and
+nowhere else unless the coordinates are chosen to keep it.
+
+TAKEAWAY: Yes, but the verdict is not invariant. Across the 72 linear
+readouts each long orbit wins exactly 24 times; the canonical orbit wins
+in the standard coordinates.
+M308: WEAK — same place as LAW 5 (chance 0.778). [CDT-C]
+
+─── Q7 ─────────────────────────────────────────────
+DOMAIN: Which of these systems also realises the full 81-state family rather than only the period-24 orbit?
+DOMAIN SHA-256: de46e6f00316fd0b2e21bf35a10b3ff0c2cff823206777d20eec7b022759f7de
+n = 14/75/20 | r = 7,6,1 | P7 Navigator (9) | TFI 1.00
+ARMS: YANG P12 Opening 7 | YIN P1 Fixpoint 5 | 4D P15 Other 6 | ANTIPODE P19 Time 9
+
+THE ANSWER
+Two of the four carry all 81 states, and only one of them supplies the
+nine itself.
+  - The anyon theory of two copies of SU(9) at level 1 holds 81 anyons.
+    The orbits of its symmetry group are exactly the five orbits of 24,
+    24, 24, 8 and 1, and its nine bosons are the eight-cycle with the
+    fixed point. Its own fusion rule supplies the modulus 9.
+  - The quantum cat map on nine points reaches all 81 phase-space
+    operators. The full step acts on them only as an antiunitary symmetry,
+    while the motion runs at the square, in orbits of twelve. The modulus
+    is chosen by the builder.
+  - The E8 lattice, reduced modulo 9 by the reader, holds the family four
+    times over. The CoNb₂O₆ spectrum shows golden mass pairs and no
+    81-state structure.
+  - The 24-cell reaches only the nine-state core, through the square of
+    the step.
+Among mathematical objects, the square-lattice integers modulo 9 also
+carry the whole family, as an instance of a general algebraic fact.
+No measured physical system yet shows all 81 states.
+
+TAKEAWAY: The full family appears in the SU(9)₁ × SU(9)₁ anyon theory
+(modulus self-supplied), the nine-point cat map (by construction) and E8
+modulo 9 (modulus the reader's); the 24-cell reaches only the core. None
+of these is measured yet.
+M308: WEAK — same place as FORMULA 4 and TEACHING 3 (chance 0.778). [CDT-C]
+
+─── Q8 ─────────────────────────────────────────────
+DOMAIN: Has any of them produced a pre-registered numerical prediction that was later confirmed by experiment?
+DOMAIN SHA-256: f580aed5975e1e6e7967649bfc5ab326db56f53372c8eb66aeec464c32eea392
+n = 10/71/26 | r = 5,4,4 | P4 Unity (1) | TFI 0.67
+ARMS: YANG P9 Fixpoint 5 | YIN P22 Collective 8 | 4D P12 Opening 7 | ANTIPODE P16 Flow 8
+
+THE ANSWER
+In physics, yes, in the ordinary sense of a prediction published before
+the measurement:
+  - Zamolodchikov's 1989 E8 theory fixed the golden mass ratio. Neutron
+    scattering in CoNb₂O₆ found the two lightest masses approaching it
+    twenty years later.
+  - The quantum dimension φ of Fibonacci anyons was fixed by theory before
+    string-net braiding on a superconducting processor reproduced it at
+    about 98%.
+Neither was pre-registered in the formal sense, and neither concerns the
+modulus 9.
+Within this programme, every frozen prediction confirmed so far was
+confirmed by computation, not by experiment:
+  - the half-period structure of the nine-point cat map;
+  - the projection of lattice symmetries onto the family;
+  - the 8 × 9 split;
+  - the E8 golden module;
+  - the central charge fixed by the golden law.
+Several were classified in advance as trivial consequences.
+Two predictions stand open for the laboratory:
+  - A two-qutrit cat map returns after 12 kicks and negates after 6.
+  - The first intrinsic modulus found in a quasicrystal's golden structure
+    will have a Pisano period of 24.
+The requirement of an independent prediction confirmed in measured data
+remains unmet.
+
+TAKEAWAY: Physics has confirmed earlier golden predictions (E8 in
+CoNb₂O₆, Fibonacci anyons). No pre-registered prediction about the
+modulo-9 cycle has yet been confirmed by experiment; two stand open.
+M308: MODERATE — same place and frequency as LAW 4 (chance 0.370). [CDT-C]
+
+─── Q9 ─────────────────────────────────────────────
+DOMAIN: What would count as a laboratory realisation of the modular transition T itself?
+DOMAIN SHA-256: 1ed78d183d6522044aded4c6508a02c050e4ba3677315508ee0a7c112b253a13
+n = 8/54/19 | r = 4,9,5 | P4 Unity (1) | TFI 1.00
+ARMS: YANG P9 Fixpoint 5 | YIN P22 Collective 8 | 4D P12 Opening 7 | ANTIPODE P16 Flow 8
+
+THE ANSWER
+One physical object in which the nine and the step are both the object's
+own, seen in measured data. Concretely, eight things together:
+  1. Nine-valued degrees of freedom whose modulus physics supplies. The
+     natural candidate is the anyons of a ninefold topological phase,
+     where fusion itself is addition modulo 9.
+  2. T measured on all 81 labels. Because the step has determinant −1, it
+     cannot be a unitary evolution. It must appear as a time-reversal
+     symmetry: each anyon's measured spin goes to its conjugate under T,
+     and the square of T runs as a unitary operation that returns after
+     12 and negates after 6.
+  3. The measured orbits are 24, 24, 24, 8 and 1, and the nine bosons are
+     the eight-cycle with the fixed point.
+  4. The object's own structure singles out T: its time-reversal
+     symmetries of order 24 are exactly the generators of T's cycle.
+  5. Comparable null objects fail the same tests.
+  6. A non-trivial prediction, frozen in advance, is observed.
+  7. The identification is reproduced blind by independent systems.
+  8. All of this holds in the measurements, not only in the model.
+A nine-level processor that implements the step by design would test the
+apparatus, not the premise. The step appears there because it was built
+in.
+
+TAKEAWAY: A realisation counts when a physical ninefold system supplies
+its own modulus and shows, in measured data, T as its time-reversal
+symmetry on all 81 states, with the five orbits, distinctly,
+discriminatingly, blind-confirmed and predicted in advance.
+M308: STRONG — same state as LAW 4 "What you put out is what you get
+back" (chance 0.173). [CDT-C]
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 14 October 2026
+ESC
+======= END =======

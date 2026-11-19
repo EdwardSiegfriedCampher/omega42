@@ -1,0 +1,27 @@
+ATLAS OF THE RECORD (Companion Part 57; M310 Register): 19 domains, struck with canonical_reference.py
+WHAT IT IS: where the record's readings stand on the 81 states -- a record of placement, not a theory derived from the readings; what the picture means is the Striker's (L-196, 1/7)
+STATES VISITED: 15 of 81 (UNIT 13 of 72, CORE 2 of 8, STILL POINT 0 of 1)
+ANCHORS VISITED: P1, P2, P3, P4, P5, P6, P7, P8 -- of the 9 positions a strike can anchor on (P1 to P9); every other position is reached only by an arm
+POSITIONS REACHED, anchors and arms: 24 of 24
+WORD-COUNT RESIDUES r1 PRESENT: 8 of 9
+EXACT: for every word count the anchor equals r1 with chance 73/81; questions of two to four content words reach 27 of the 81 states; a uniform record visits all 81 states after 403.2 strikes on average (81 H(81))
+BY STATE:
+  (1, 7) UNIT        | SRP-H, GOLD-1
+  (2, 5) UNIT        | GOLD-0
+  (3, 3) CORE        | GOLD-Q1, GOLD-Q4
+  (3, 8) UNIT        | GOLD-Q6
+  (4, 0) UNIT        | GOLD-Q2, GOLD-Q9
+  (4, 3) UNIT        | GOLD-Q5
+  (5, 4) UNIT        | GOLD-Q8
+  (5, 7) UNIT        | GOLD-Q3
+  (6, 0) CORE        | CORPUS-1
+  (6, 2) UNIT        | CORPUS-2, NAV-2026-0001
+  (6, 8) UNIT        | GOLD-3
+  (7, 3) UNIT        | NAV-2026-0002
+  (7, 6) UNIT        | GOLD-Q7
+  (8, 2) UNIT        | SRP-C
+  (8, 7) UNIT        | GOLD-2
+NOT YET VISITED: 66 states
+ANCHORS GIVEN THE RECORD'S WORD COUNTS (Companion 62.5, E02): P1 expected 2.01, none 0.008 | P2 expected 1.12, none 0.079 | P3 expected 2.90, none 0.001 | P4 expected 2.90, none 0.001 | P5 expected 2.01, none 0.008 | P6 expected 3.79, none 0.000 | P7 expected 2.01, none 0.008 | P8 expected 2.01, none 0.008 | P9 expected 0.23, none 0.790 (unvisited)
+GROWTH, in order of entry (does a reading open a state? Companion 58.4): CORPUS-1 NEW | CORPUS-2 NEW | SRP-H NEW | SRP-C NEW | GOLD-0 NEW | GOLD-1 known | GOLD-2 NEW | GOLD-3 NEW | GOLD-Q1 NEW | GOLD-Q2 NEW | GOLD-Q3 NEW | GOLD-Q4 known | GOLD-Q5 NEW | GOLD-Q6 NEW | GOLD-Q7 NEW | GOLD-Q8 NEW | GOLD-Q9 known | NAV-2026-0001 known | NAV-2026-0002 NEW
+ON A PAGE: the readings at one state are a picture of that state only where they agree beyond the reference chance given word count, the contrast, convergence across architectures and the echo set aside (Companion 57.6); OUTCOME A, B or C of Companion 58.4 is read page by page, never for the whole record at once

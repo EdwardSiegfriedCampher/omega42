@@ -1,0 +1,6 @@
+CONTROLS -- M283 DISPLAY INVARIANCE CHECK AND FB-8 APERTURE-STATE CONFLATION (tools/zero_tools.py --audit)
+control_positive.txt carries display-dependent claims about the class 0 (true only in the display 1 to 9; Companion 39.4)
+and sentences placing the Aperture at a mathematical state (IN-02, Companion 39.7): the audit lists them.
+control_negative.txt carries the warnings against both: the audit reads it CLEAR.
+The worked navigation and the corpus navigations in examples/ read CLEAR.
+Output: controls_output.txt. A listed sentence is a candidate for review (L-420); the lexical layers have limited recall.

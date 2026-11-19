@@ -1,0 +1,44 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 07 -- FROZEN MANIFESTATIONS: RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 6978ef95ca6c801611cec710da3cfa3a2f6b157287a3d3009a112d0f7a7ac189, 2026-10-09T13:52Z.
+Computations: compute.py -> compute_output.txt (standard library only). Selection NOT BLIND (CB NO). Premise: the canonical 24-cycle and its 81-state family (L-465).
+New discovery mode: (XIII) frozen manifestation (Core 3.26). Rule: the modulus must be supplied by the object.
+
+F1  THE STATIC INVARIANT [CDT-A]
+  The norm form N = a^2 + ab - b^2 modulo 9 takes the values {1, 8} on the Fibonacci voice, {4, 5} on the Lucas voice,
+  {2, 7} on the canonical voice and 0 on the eight-cycle and the fixed point, and T sends N to -N on all 81 states.
+  Null: of 648 quadratic forms r a^2 + p ab + q b^2 modulo 9, exactly 6 are invariant under T up to sign and separate the
+  three long orbits -- the six unit multiples of N itself. The family's dynamics is stored, without motion, in one
+  quadratic form, and in essentially only that one. A mathematical result, not a physical object.
+
+F2  THE GROUND-STATE STRUCTURE (constructed model; not counted)
+  The nine-valued clock chain H = -J sum cos(2 pi (s(n+2) - s(n+1) - s(n)) / 9) has as its ground states exactly the
+  sequences obeying the law. On a ring of L sites the number of ground states is 1, rising to 9 when L is a multiple of 8
+  and to 81 when L is a multiple of 24, for every L from 1 to 72 (frozen prediction CONFIRMED). The residual entropy,
+  ln 81 = 4.394 at L = 24 and 0 at L = 23, is a static, thermodynamic signature of the cycle in which nothing moves; the
+  canonical orbit laid on a 24-site ring has the minimum energy, -24 J. Z_n clock chains are studied in theory for odd
+  n (n = 3, 5, 7 in the source read); no realization with n = 9 was found.
+
+F3  THE GROWN RECORD: CLOSE-PACKED STACKING
+  Modulo 3 the law has one nonzero orbit, the eight-cycle 0, 1, 1, 2, 0, 2, 2, 1. (a) Positions: it has equal neighbors, and
+  close packing forbids two identical layers in a row -- NEGATIVE. (b) Layer differences (+-1, never 0): it contains 0 --
+  NEGATIVE. (c) The h/c sequence, binary, can follow the law modulo 2 (period 3: 0, 1, 1): with h = 1 it gives 'chh', a
+  stacking of period 9 (ABCBCACAB, the 9R structure, h-c notation hhc), and with h = 0 it gives 'hcc', period 6 (6H, as in
+  6H-SiC). But every non-constant binary pattern of period 3 is a rotation of 0, 1, 1 or its complement, so the rule
+  selects nothing beyond "period 3", and modulo 2 is not the family's arithmetic. The 9R structure enters the ledger at
+  tier 2 (its period, 9, is a frozen tier-2 value); NRR-C08 for (a) and (b).
+
+F4  THE SCALE HIERARCHY
+  Fibonacci-chain tile counts F(n) reduced modulo 9 repeat with period 24 across inflation levels, and real quasicrystal
+  grains contain enough levels: 15.8 from 0.5 nm tiles to 1 micrometer, 30.2 to 1 mm, 34.9 to 1 cm. But no physical quantity
+  of a quasicrystal is known to depend on F(n) modulo 9, so the reader supplies the modulus: not counted, by the run's rule.
+
+F5  LITERATURE
+  No natural degree of freedom with nine cyclic values carrying a frozen Fibonacci rule was found in this run.
+
+RUN RESULT
+  One object entered (the 9R stacking, tier 2); the ledger at twenty-two. The frozen reading is mathematically natural --
+  the family is stored in a unique static invariant, and a constructed ground state holds it with a residual entropy that
+  jumps at ring lengths divisible by 24 -- but in matter the obstacle is the modulus: the Fibonacci rule is frozen
+  everywhere, while a natural nine (or three) for it to act on is rare, and close packing's three positions forbid it.
+  The strongest frozen leads remain the nine-site cells of run 05 and engineered nine-valued clock chains.
+  Low results are limits of the current map, never refutations (F-02).

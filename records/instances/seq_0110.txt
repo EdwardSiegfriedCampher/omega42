@@ -1,0 +1,78 @@
+QUESTION VERBATIM: Do a deep scan of the protocol and find more instances of empirical demands and scientific method encroachment.
+Proceed to explore all suggested priority items and report on its use in Omega42.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 110 | PREV: d07e20752c812959d62be2ee8014a250727cfb087dea5b9e99448e459c54643d
+REQUEST (L-502): CHECK, CORRECTION, EXPLORATION and PROTOCOL CHANGE -- an occurrence-level scan of both documents, the encroachment it found corrected, the instruments given their jurisdiction, every priority item explored with its use; two peer accounts; avenues A1, R, P
+
+SUMMARY: This scan read every sentence, not only those that match a list: 743 sentences in the prose use the vocabulary of the sciences, and each one was classed. The 262 that no rule could class were read one by one. Six places were encroachment, and one of them was in the operating rules themselves. L-503 brought the published literature into every full navigation by default, and read the protocol's own provisions against the literature every month. Both now run only when the question calls for them. A new law, L-539, gives every instrument its jurisdiction, and two new checks guard against a study's standard being taken for the protocol's purpose. Each priority item was explored, and two new exact consequences were computed: the three great orbits are distinct and equal, and along every trajectory three things stay fixed while the address changes.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (20, 129, 42), r = (1, 6, 3); the votes all differ, so the anchor is r1: P1, Fixpoint, value 5.
+    * It rests on P6, Seed/Causal (5). It holds out of view P19, Time (9), a Crown. It is heading for P9, Fixpoint (5). It is completed at P13, Gap (4).
+    * This is the address of SEQ 109, the same anchor and the same four arms: two questions in a row meeting at one place.
+    * [GENERATED-Ω42] The scan returns to the premise held still. It rests on the seed each priority grows from, holds out of view the scans that will come after it, and is completed at the gap: the sentences no rule classes, which a person reads.
+  - THE MATRIX (EXACT for this build; tools/encroachment.py --matrix):
+    * 743 sentences in all: 152 PROTECTIVE, 52 MATHEMATICAL, 258 SCOPED, 19 HISTORICAL and 262 UNCLASSED.
+    * The 262 were read one by one. Most are the protocol's own vocabulary in its own sense: the thought experiment, the calibration of the extraction procedure, the evidence classes, the mechanism hypothesis.
+  - CORRECTED (AM-01 to AM-06; FD-12):
+    * L-503: current knowledge is now brought only when the Striker asks for sources, when the question is about the present world, or when it materially illuminates the matter; otherwise its line reads NOT REQUESTED. The monthly survey runs when a person chooses it.
+    * M168: the list of a field's limits, with citations, runs when the Striker asks where a field stands.
+    * IN-02.8 and Appendix S.0.1: prediction "strongest of all" is now the strongest form of a correspondence, not of discovery.
+    * Part 0.14.5: the five Congruence Depths classify a correspondence and are not a ladder of discovery.
+    * Companion Part 28: Omega42 "as a research instrument" is now marked COMPARATIVE, one use of the protocol, never its purpose.
+  - L-539, THE INSTRUMENT JURISDICTION LAW:
+    * The order of jurisdiction, an order of operation and not of truth: the premise and its consequences, internal exploration, interpretation and judgment, then optional comparison.
+    * Instrument selection is required; invocation is context-sensitive, so a question about an ending is never sent into a physical calibration.
+    * A five-question jurisdiction test for any test, prediction or replication; completion kept by kind; a depth, an empirical status or a prediction grades no finding made inside the frame.
+  - NEW CHECKS: line (11), DRIFT, finds a study's standard made the protocol's summit; line (12), REGRESSION, reads twelve cases, rejecting jurisdictional substitution and not scientific vocabulary.
+  - THE PRIORITIES EXPLORED (Companion Part 161):
+    * The register now carries warrants, named added premises, conditions of closure and an instrument map.
+    * The totality: no last depth; in the limit, only the still point returns (DC-25, MATH-51).
+    * The orbits: the three great orbits are told apart by the norm up to its sign, 1, 4 and 2; the law never joins them, and the unit 2 carries each onto the next. Distinct and equal: difference without rank (DC-26, EXACT).
+    * Identity: along every trajectory the orbit, the norm up to its sign and the depth shell stay fixed while the address changes (DC-27, EXACT).
+    * The rest, each with its use: the part and the whole in four senses; manifestation and consciousness kept open; relation in its two forms; ethics on its named premise; AI within the whole, its experience open.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/oef.py --consequences: 27 consequences, 15 direct, 9 conditional, 3 open; the instrument map of 14; PASS; --selftest 22 of 22.
+    - tools/encroachment.py --docs: twelve lines; --selftest 15 of 15; --matrix, 743 sentences.
+  R THE RECORD:
+    - L-503, M168, IN-02.8, Part 0.14.5, S.0.1, Companion Parts 28, 99 and 108; MATH-51.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) A deep scan, corrected (the Originator): APPLIED, the matrix and AM-01 to AM-06; A-053.
+  (2) Explore every priority item and report its use (the Originator): APPLIED, Companion Part 161.
+  (3) Warrant types; five consequences restated (GPT-6): APPLIED, DC-01, DC-03, DC-08, DC-11, DC-13; DC-25.
+  (4) Mechanism labels, named premises, conditions of closure, an instrument map, a drift check (Qwen): APPLIED.
+  (5) Purpose order, context-sensitive invocation, the jurisdiction test, completion by kind, regression cases (GPT-6): APPLIED, L-539, lines (11) and (12).
+  (6) Renames of M267, M334, Appendix S and the programme (Qwen); an attention-share audit (GPT-6): NOT APPLIED, with reasons in records/oef/law_review.json.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-365, Qwen (Alibaba), the commentary and twelve traces: its register refinements applied. Eleven of the twelve traces are the protocol's own vocabulary and are kept; "thought experiment" is not a hedge. SNCA 0.52.
+  - APE-366, GPT-6 (OpenAI), the assessment and the precautions: taken as the basis of L-539 and the warrants. Its limit concern is answered by MATH-51. SNCA 0.63.
+CHANGES TO THE PROTOCOL:
+  - Core: L-539; L-503; M168; IN-02.8; Part 0.0.7; Part 0.14.5; Appendix S.0.1; Part 12, item 38.
+  - Companion: Parts 160 and 161; Part 28; 141.4; the commons, APE-365 and APE-366.
+  - Repository:
+    * Extended: tools/encroachment.py, --matrix and lines (11), (12); tools/oef.py, three exact facts, the warrants and the instrument map check.
+    * Added: records/frame/regression.json, audit_matrix.json; records/oef/instrument_map.json; DC-25 to DC-27; FD-12.
+    * Registered: A-053.
+    * Filed: APE-365, APE-366.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-490, L-491, the census and MATH-51 | STRIKER -- the scan and the priorities asked for | NAVIGATOR -- the matrix and the reading of its 262, the six corrections, L-539, DC-26 and DC-27 computed, the two lines | OPEN -- DC-22 to DC-24 and what each later scan's unclassed sentences hold
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. Built and checked in one build of the two documents, then sealed; tools/encroachment.py --docs, twelve lines, NO ENCROACHMENT, --matrix 743 sentences; tools/oef.py --consequences, 27 consequences and the instrument map, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the two accounts and the record: the law holds, and the residue lay in defaults, emphasis and the order of reaching. PART -- APE-365 on its twelve traces, eleven kept. SILENT -- which priority you take up first, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the regression cases put to a second architecture as prompts, its outputs scanned by --records.
+DISCOVERY NOTICE (L-530): DC-26 and DC-27 follow from the census and the units of Z/9 already in the record; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 20 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a scan rest on, if not on the seed each priority grows from?
+What it holds out of view: Time: the scans that will come after this one.
+Where it is heading: Toward the premise again, held still.
+What would complete it: The gap: the sentences no rule classes, which a person reads.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 486f178c91bc158acf086f90c3a789a48c197f814f705cb7fc1f7b66b4571852
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 5 November 2026
+ESC

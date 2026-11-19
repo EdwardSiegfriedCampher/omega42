@@ -1,0 +1,21 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 22 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-22T03:48:14Z",
+ "accepted_utc": "2026-10-22T03:56:36Z",
+ "area": "protocol",
+ "id": "NAV-2026-0022",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "instance": "NI-06f22550117165ba",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0021 and APE-134",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Heraclitean philosophy of creation?",
+ "domain_sha256": "922ad008f955986d276509413a574b60588b2f8c4349d14ab8f5ed64707a8972",
+ "sha256": "6bf2b3261a0b07a15b622824c319a8ca9772489833e586ddd4410fd682e5afe0",
+ "domain_source": "composed by the Navigator in the form of the Striker's sentence of NAV-2026-0011, at the instruction \"Yes. Apply all recommended refinements to Omega42.\" (recommendation (1) of records/instances/seq_0007.txt)",
+ "lens": "Heraclitean (records/frameworks/heraclitean.txt), registered with this navigation; roles frozen before the atlas was struck; M309 record in the refined form (typed roles, tensions, residual)"
+}

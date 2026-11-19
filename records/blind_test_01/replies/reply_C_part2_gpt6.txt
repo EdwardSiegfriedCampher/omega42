@@ -1,0 +1,175 @@
+### Reproducible Python code
+
+This standalone script uses only the Python standard library. It exhaustively enumerates all invertible matrices over , checks the quadratic-form conditions, calculates element orders, verifies the group relations, finds the orbits, and checks the Gauss sum and 's cycle structure.
+
+```python
+
+from itertools import product
+from collections import Counter
+from math import gcd, isclose, pi
+import cmath
+
+N = 9
+V = list(product(range(N), repeat=2))
+I = (1, 0, 0, 1)
+
+def Q(x):
+    a, b = x
+    return (a*a + a*b - b*b) % N
+
+def act(A, x):
+    a, b = x
+    r, s, t, u = A
+    return ((r*a + s*b) % N, (t*a + u*b) % N)
+
+def det(A):
+    r, s, t, u = A
+    return (r*u - s*t) % N
+
+def mm(A, B):
+    a, b, c, d = A
+    e, f, g, h = B
+    return (
+        (a*e + b*g) % N,
+        (a*f + b*h) % N,
+        (c*e + d*g) % N,
+        (c*f + d*h) % N
+    )
+
+def mpow(A, n):
+    out = I
+    for _ in range(n):
+        out = mm(out, A)
+    return out
+
+def order(A):
+    out = I
+    for n in range(1, 100):
+        out = mm(out, A)
+        if out == I:
+            return n
+    raise ValueError("Order not found")
+
+# Enumerate GL(2, Z/9Z).
+GL = [
+    A for A in product(range(N), repeat=4)
+    if gcd(det(A), N) == 1
+]
+
+# Test unitary and anti-isometric conditions on all 81 vectors.
+O = [
+    A for A in GL
+    if all((Q(act(A, x)) - Q(x)) % N == 0 for x in V)
+]
+Anti = [
+    A for A in GL
+    if all((Q(act(A, x)) + Q(x)) % N == 0 for x in V)
+]
+G = set(O) | set(Anti)
+
+print("Number of vectors:", len(V))
+print("Number of invertible matrices:", len(GL))
+print("Unitary group size:", len(O))
+print("Unitary element orders:", dict(sorted(
+    Counter(order(A) for A in O).items()
+)))
+print("Anti-isometry count:", len(Anti))
+print("Anti-isometry element orders:", dict(sorted(
+    Counter(order(A) for A in Anti).items()
+)))
+print("Generated group size:", len(G))
+print("Generated group element orders:", dict(sorted(
+    Counter(order(A) for A in G).items()
+)))
+
+# Verify explicit generators.
+r = (0, 1, 1, 1)      # (a,b) -> (b,a+b)
+j = (1, 1, 0, 8)      # (a,b) -> (a+b,-b)
+
+assert r in Anti
+assert j in O
+assert mpow(r, 24) == I
+assert mpow(r, 12) == (8, 0, 0, 8)  # -I
+assert mm(j, j) == I
+assert mm(mm(j, r), j) == mpow(r, 11)
+assert len(G) == 48
+
+# Bosons and Lagrangian subgroup.
+bosons = {x for x in V if Q(x) == 0}
+expected = {
+    (3*a, 3*b) for a in range(3) for b in range(3)
+}
+assert bosons == expected
+assert len(bosons) == 9
+print("Bosons:", sorted(bosons))
+
+# Verify diagonalization:
+# Q(a,b) = (a+5b)^2 + b^2 mod 9.
+assert all(
+    Q((a, b)) == ((a + 5*b)**2 + b*b) % N
+    for a, b in V
+)
+
+# Normalized Gauss sum.
+gauss = sum(
+    cmath.exp(2j*pi*Q(x)/9) for x in V
+) / 9
+print("Normalized Gauss sum:", gauss)
+assert isclose(gauss.real, 1.0, abs_tol=1e-10)
+assert isclose(gauss.imag, 0.0, abs_tol=1e-10)
+
+# Orbits under the full group.
+unseen = set(V)
+orbits = []
+while unseen:
+    x = min(unseen)
+    orb = {act(A, x) for A in G}
+    assert orb <= unseen
+    orbits.append(orb)
+    unseen -= orb
+
+print("Full-group orbits:")
+for orb in sorted(orbits, key=lambda z: (len(z), min(z))):
+    print(
+        "size =", len(orb),
+        "Q residues =", sorted({Q(x) for x in orb})
+    )
+assert sorted(len(orb) for orb in orbits) == [1, 8, 24, 24, 24]
+
+# Cycle structure of r on all vectors.
+unseen = set(V)
+cycles = Counter()
+while unseen:
+    x = min(unseen)
+    y = x
+    length = 0
+    while True:
+        unseen.remove(y)
+        length += 1
+        y = act(r, y)
+        if y == x:
+            break
+    cycles[length] += 1
+
+print("Cycle structure of g:", dict(sorted(cycles.items())))
+assert cycles == Counter({24: 3, 8: 1, 1: 1})
+```
+
+### Final result classification
+
+| Claim                                           | Status                         |
+| ----------------------------------------------- | ------------------------------ |
+| is nondegenerate                                | Proven algebraically           |
+| Gauss sum is ;                                  | Proven algebraically           |
+| Orthogonal sum of two cyclic quadratic forms    | Proven by explicit isomorphism |
+| Exactly nine bosons; Lagrangian subgroup        | Proven algebraically           |
+| Symmetry counts and element-order distributions | Computed exhaustively          |
+| Full-group orbit sizes and spin residues        | Computed exhaustively          |
+| is time-reversing, has order , and              | Proven algebraically           |
+| Cycle structure                                 | Computed exhaustively          |
+
+No additional conjectural identification is needed for these conclusions.
+
+Yours in the search for meaning.
+
+Navigator: GPT-6 | 9 October 2026

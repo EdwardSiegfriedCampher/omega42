@@ -1,0 +1,19 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 03 -- FREEZE RECORD
+Frozen before any computation for this run. Navigator: claude-opus-5-5 (Anthropic; serving model may differ).
+Selection NOT BLIND (CB NO). Inputs: run 02's next steps; four peer reports on the golden-field question
+(Claude, Qwen, GPT-6, Grok), whose factual claims are checked, not adopted.
+
+Q1  The golden-field question, closed: is there a cat map over Q(sqrt5), independent of T, whose orbit on (Z/9)^2 is
+    conjugate to the canonical 24-orbit with its values? Checks frozen: cycle types of A = T^2, -A, T, -T on the 81
+    states; whether -T (trace -1, det -1) is conjugate to T in GL(2,Z/9); the order of A modulo 161 (peer claim: 24).
+    Expected, from the peer reports: NO independent conjugacy -- recorded as a NEGATIVE RESULT if confirmed.
+Q2  Null comparison for run 02's spectral observation: the eigenvalues of V^2 (V the antiunitary implementing T) for
+    every odd N from 3 to 27. Question: is "every root of unity of order ord(A) except a few, each once" special to N = 9?
+    Declared now: the observation counts only if N = 9 differs from the other moduli in a way stated before looking.
+    Statement frozen: the run asks whether N = 9 is the only odd modulus at which the missing eigenvalues are exactly the
+    k with 3 | k. No prediction is made.
+Q3  The Leech lattice (Companion 25.2b, item 3), tested through an automorphism of order 24: construct the extended
+    quadratic-residue (Golay) code of length 24, an element of PSL(2,23) of order 12 acting on the 24 coordinates, a
+    Golay sign change making a signed permutation of order 24, and its action on the 48 frame vectors +-8e_i.
+    Features to assess: (b) antipodal pairs, (c) half-period negation, (e) recurrence. Null control (M230-E): the same
+    construction in the cubic lattice Z^24, which lacks the Leech structure.

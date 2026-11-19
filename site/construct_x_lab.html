@@ -1,0 +1,536 @@
+<title>Construct X Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: an instrument bench. A fixed header with the seven instruments as tabs; each instrument is a two-column bench (controls left, readout right) that stacks on phones. */
+:root{
+  --bg:#eef1f3; --panel:#fbfcfc; --ink:#152029; --mute:#5b6873; --rule:#d5dce1;
+  --torsion:#0e6f73; --torsion-t:rgba(14,111,115,.12);
+  --crown:#a3530e; --crown-t:rgba(163,83,14,.13);
+  --good:#2f7d32; --bad:#b3261e; --warn:#8a6d00;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-head:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f161b; --panel:#162027; --ink:#e3e9ed; --mute:#93a2ad; --rule:#2a3740;
+  --torsion:#4fc1c4; --torsion-t:rgba(79,193,196,.14); --crown:#e3a15d; --crown-t:rgba(227,161,93,.15);
+  --good:#7cc47f; --bad:#f08a80; --warn:#d9bb4f; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f161b; --panel:#162027; --ink:#e3e9ed; --mute:#93a2ad; --rule:#2a3740;
+  --torsion:#4fc1c4; --torsion-t:rgba(79,193,196,.14); --crown:#e3a15d; --crown-t:rgba(227,161,93,.15);
+  --good:#7cc47f; --bad:#f08a80; --warn:#d9bb4f; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:14.5px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--panel)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--panel);border-bottom:1px solid var(--rule)}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;padding-block:14px 6px}
+h1{font-family:var(--f-head);font-size:22px;margin:0;letter-spacing:.01em}
+.sub{color:var(--mute);font-size:13px}
+nav{display:flex;gap:2px;overflow-x:auto;padding-bottom:0}
+nav a{font-family:var(--f-head);font-weight:500;font-size:14px;color:var(--mute);text-decoration:none;padding:8px 12px;border-bottom:2px solid transparent;white-space:nowrap}
+nav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--torsion)}
+nav a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--torsion);outline-offset:2px}
+main{padding-block:20px 48px}
+section[hidden]{display:none}
+h2{font-family:var(--f-head);font-size:19px;margin:0 0 4px;text-wrap:balance}
+.lead{color:var(--mute);max-width:72ch;margin:0 0 16px}
+.bench{display:grid;grid-template-columns:minmax(260px,340px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:820px){.bench{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:14px;min-width:0}
+.panel h3{font-family:var(--f-head);font-size:15px;margin:0 0 8px}
+.label{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:10px 0 4px}
+.mono,code{font-family:var(--f-mono);font-size:13px;font-variant-numeric:tabular-nums}
+input,select,textarea,button{font:inherit;color:var(--ink)}
+input,select,textarea{background:var(--bg);border:1px solid var(--rule);border-radius:4px;padding:6px 8px;width:100%}
+textarea{font-family:var(--f-mono);font-size:12.5px;min-height:84px;resize:vertical}
+button{background:var(--panel);border:1px solid var(--rule);border-radius:4px;padding:6px 10px;cursor:pointer}
+button.primary{background:var(--torsion);border-color:var(--torsion);color:var(--panel);font-weight:600}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row>*{flex:1 1 120px;min-width:0}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(54px,1fr));gap:6px}
+.chip{font-family:var(--f-mono);font-weight:500;padding:7px 0;text-align:center;border-radius:4px;border:1px solid var(--rule);background:var(--panel);cursor:pointer}
+.chip.tor{border-color:var(--torsion);background:var(--torsion-t)}
+.chip.crn{border-color:var(--crown);background:var(--crown-t)}
+.chip.sel{outline:2px solid var(--ink);outline-offset:1px}
+.chip.par{box-shadow:inset 0 0 0 2px var(--ink)}
+.kv{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:4px 14px;align-items:baseline}
+.kv dt{color:var(--mute);font-size:13px}
+.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.tag{display:inline-block;font-size:11px;letter-spacing:.05em;text-transform:uppercase;padding:1px 6px;border-radius:3px;border:1px solid var(--rule);color:var(--mute);margin-left:6px;vertical-align:1px}
+.tag.cd{border-color:var(--crown);color:var(--crown)}
+.tag.xc{border-color:var(--torsion);color:var(--torsion)}
+.tag.cv{border-color:var(--good);color:var(--good)}
+.grid27{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:4px}
+.cell{font-family:var(--f-mono);font-size:12px;text-align:center;padding:6px 0;border:1px solid var(--rule);border-radius:3px;background:var(--panel);cursor:pointer}
+.cell.from{background:var(--torsion);color:var(--panel);border-color:var(--torsion)}
+.cell.to{background:var(--crown);color:var(--panel);border-color:var(--crown)}
+.cell.tri{background:var(--torsion-t);border-color:var(--torsion)}
+.layers{display:flex;justify-content:space-between;color:var(--mute);font-size:11.5px;margin-top:4px}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:12px;color:var(--mute);font-weight:500;letter-spacing:.03em}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.tablebox{overflow-x:auto}
+.ok{color:var(--good);font-weight:600}.no{color:var(--bad);font-weight:600}.pend{color:var(--warn);font-weight:600}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.score{font-family:var(--f-head);font-size:28px;font-weight:600;font-variant-numeric:tabular-nums}
+.vec{display:flex;gap:4px;flex-wrap:wrap;margin-top:6px}
+.vec span{font-family:var(--f-mono);font-size:12.5px;min-width:30px;text-align:center;padding:3px 4px;border-radius:3px;border:1px solid var(--rule)}
+.vec span.hit{background:var(--torsion-t);border-color:var(--torsion)}
+.vec span.shared{background:var(--crown-t);border-color:var(--crown)}
+.note{font-size:13px;color:var(--mute)}
+.progress{height:8px;background:var(--bg);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
+.progress>i{display:block;height:100%;background:var(--torsion)}
+svg text{fill:var(--mute);font-family:var(--f-mono);font-size:10px}
+.filter{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.filter button[aria-pressed="true"]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.status{font-size:11.5px;font-weight:600;letter-spacing:.04em;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.s-PROPOSED,.s-REVISED{color:var(--mute);border:1px solid var(--rule)}
+.s-TESTABLE{color:var(--warn);border:1px dashed var(--warn)}
+.s-PROVED{background:var(--good);color:var(--panel)}
+.s-VERIFIED{background:var(--torsion-t);color:var(--torsion);border:1px solid var(--torsion)}
+.s-UNPROVEN{background:transparent;color:var(--warn);border:1px solid var(--warn)}
+.s-REJECTED{background:transparent;color:var(--bad);border:1px solid var(--bad)}
+.s-INTERPRETIVE{color:var(--mute);border:1px solid var(--rule)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="top"><h1>Construct X Lab</h1><span class="sub">Ω42 instruments · names follow Core Part 10.5 (Ω42-T01) · every result labeled Classic-derived or X-constructed</span></div>
+    <nav id="tabs" aria-label="Instruments">
+      <a href="#seeds">Polarity</a><a href="#nodes">Relational Navigator</a><a href="#rounds">Comparison Schedule</a><a href="#orbits">Orbit Classifier</a>
+      <a href="#compare">Comparison Laboratory</a><a href="#temporal">Temporal Observatory</a><a href="#transform">Transformation Laboratory</a><a href="#register">Knowledge Register</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="v-seeds">
+  <h2>Polarity and seed navigator</h2>
+  <p class="lead">The 26 seeds of the original workbook form 13 exact negative pairs (STP H-001). Pick a seed sheet to see its partner, its offset row from the MP sheet, its mod-9 relation, and its address in the F27 Singer-Cycle Model (the label-to-power assignment is a Construct X convention). Teal marks Torsion seeds, ochre marks Crown and diagonal seeds.</p>
+  <div class="bench">
+    <div class="panel"><h3>Seed sheets</h3><div class="chips" id="seedChips"></div>
+      <p class="note" style="margin-top:12px">Pairs: P<sub>k</sub>↔N<sub>k</sub> for k = 1, 2, 4, 5, 7, 8, 9; P3↔N6; P6↔N3; PU↔NU; PD↔ND; T1↔T3; T2↔T4.</p></div>
+    <div class="panel" id="seedOut"></div>
+  </div>
+</section>
+
+<section id="v-nodes" hidden>
+  <h2>Relational Navigator</h2>
+  <p class="lead">Each Construct domain is a point of the Finite-Field Substrate F27, written as three digits 0–2; each ordered pair of domains is a Relational Address. Choose a starting domain and either a seed or a destination: the navigator gives the node, its reverse, and the affine map z ↦ az + b that represents it. All of this is Construct X geometry.</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="label">From domain</div><select id="nFrom"></select>
+      <div class="label">Step by seed</div><select id="nSeed"></select>
+      <div class="label">Or go to domain</div><select id="nTo"></select>
+      <p class="note">Tip: click a cell on the map to set the destination.</p>
+    </div>
+    <div class="panel"><div class="grid27" id="nGrid"></div><div class="layers"><span>c₂ = 0</span><span>c₂ = 1</span><span>c₂ = 2</span></div>
+      <div id="nOut" style="margin-top:14px"></div></div>
+  </div>
+</section>
+
+<section id="v-rounds" hidden>
+  <h2>Balanced Comparison Schedule</h2>
+  <p class="lead">Assign 27 participants (people, AI navigators, hypotheses); the schedule compares their readings, never the people (L-550). Each round splits them into nine triads along one seed pair; after 13 rounds every pair has met exactly once (351 pairs). Progress is kept in this browser only.</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="label">Participants, one per line (27)</div><textarea id="rNames" rows="9"></textarea>
+      <div class="row" style="margin-top:8px"><button id="rReset">Reset names</button><button id="rClear">Clear progress</button></div>
+      <div class="label">Round</div><select id="rRound"></select>
+      <div class="label">Pairs compared</div><div class="progress"><i id="rBar" style="width:0"></i></div><div class="note" id="rProg"></div>
+    </div>
+    <div class="panel"><div id="rOut"></div><button class="primary" id="rDone" style="margin-top:10px">Mark this round complete</button></div>
+  </div>
+</section>
+
+<section id="v-orbits" hidden>
+  <h2>Orbit Classifier</h2>
+  <p class="lead">Ω42's step T(a, b) = (b, a + b) on a clock of 3^k marks. The address Λ = (r, N(u)² mod 3^(k−r)), where 3^r is the largest power of 3 dividing the state and N(a, b) = a² + ab − b², is a complete orbit invariant at every depth (Core 10.5.7, CA-11). On the nine-mark clock the canonical orbit of (2, 5) is the one orbit with Λ = (0, 4).</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="row"><div><div class="label">a</div><input id="oA" type="number" value="2"></div><div><div class="label">b</div><input id="oB" type="number" value="5"></div></div>
+      <div class="label">Depth k (clock of 3^k marks)</div><select id="oK"><option value="1">k = 1 · 3 marks</option><option value="2" selected>k = 2 · 9 marks</option><option value="3">k = 3 · 27 marks</option><option value="4">k = 4 · 81 marks</option><option value="5">k = 5 · 243 marks</option></select>
+    </div>
+    <div class="panel"><div id="oOut"></div></div>
+  </div>
+</section>
+
+<section id="v-compare" hidden>
+  <h2>Comparison Laboratory</h2>
+  <p class="lead">Reference Vector Y holds six references, Input Vector X six observations (formerly Field Y and Field X). All four operators run side by side, with the matched positions shown and the chance rate of a pooled flag estimated for the value range in use. Ordering always holds: positional ≤ matching ≤ pooled (STP CX-006).</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="label">Reference Vector Y</div><input id="cY" class="mono" value="6, 2, 16, 5, -4, 8">
+      <div class="label">Input Vector X</div><input id="cX" class="mono" value="15, 14, 27, 5, 13, 22">
+      <div class="row"><div><div class="label">Tolerance</div><select id="cMode"><option value="units">Units (Classic, one-sided)</option><option value="symmetric">Symmetric |y − x| ≤ τ</option><option value="modular">Modular (mod 9)</option></select></div>
+      <div><div class="label">τ</div><input id="cTau" type="number" value="6" min="1"></div></div>
+      <div class="row"><div><div class="label">Flag threshold</div><input id="cThr" type="number" value="4" min="1" max="6"></div>
+      <div><div class="label">Weights</div><input id="cW" class="mono" value="1, 1, 1, 1, 1, 1"></div></div>
+      <div class="row" style="margin-top:10px"><button data-ex="classic">Classic pair</button><button data-ex="oven">Oven, 12 °C low</button></div>
+    </div>
+    <div class="panel"><div class="cards" id="cOut"></div><p class="note" id="cChance" style="margin-top:12px"></p></div>
+  </div>
+</section>
+
+<section id="v-temporal" hidden>
+  <h2>Temporal Observatory</h2>
+  <p class="lead">Lagged-Increment Library: each Lagged-Increment Model, lag interval d from 2 to 24, forecasts the next value from the change over the last d steps. The lag is chosen on the first 60%, scored on the last 40% against the trend-only forecast, and tested against 199 surrogates. Both nulls are reported. The block null passed its first test on new real data (H-006d, Mauna Loa CO₂: candidate base lag 12, block p = 0.01) and its length of 24 is calibrated on AR(1) noise (CX-012a); sunspots keep their original verdict under the rule that required both nulls (H-006b). Every scan also scores five ordinary forecasters on the held-out part, because seasonal-naive beats the Lagged-Increment Model when there is no trend (CX-011), and loses to it once trend and season combine (H-017b).</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="label">Series (comma or space separated)</div><textarea id="tData" rows="7"></textarea>
+      <div class="row" style="margin-top:8px"><button data-ts="cafe">Café sales (synthetic; not the guide's draw)</button><button data-ts="sun">Sunspots 1700–2025 (real)</button><button data-ts="co2">Mauna Loa CO₂ 1974–1987 (real)</button><button data-ts="pi">Digits of π</button></div>
+      <button class="primary" id="tRun" style="margin-top:10px;width:100%">Run scan</button>
+    </div>
+    <div class="panel"><div id="tOut"></div><div class="tablebox"><svg id="tChart" viewBox="0 0 640 210" width="100%" role="img" aria-label="Training error by lag"></svg></div></div>
+  </div>
+</section>
+
+<section id="v-transform" hidden>
+  <h2>Transformation Laboratory</h2>
+  <p class="lead">This is the Transformation Composition-Consistency Test bench. Group-relative templates learn the move r = xₜ · xₜ₋d⁻¹ and apply it to xₜ₊₁₋d. Choose a group, enter a sequence, and see which lags reproduce it, then test whether moves compose.</p>
+  <div class="bench">
+    <div class="panel">
+      <div class="label">Group</div><select id="gGroup"><option value="z12">Z/12 — pitch classes, addition</option><option value="u9">(Z/9)ˣ — Lower World, multiplication</option></select>
+      <div class="label">Sequence</div><textarea id="gSeq" rows="5"></textarea>
+      <div class="row" style="margin-top:8px"><button data-gs="melody">Melody up a fourth every 8</button><button data-gs="lower">Doubling circuit</button></div>
+      <div class="label">Composition test: move a, then move b</div>
+      <div class="row"><input id="gA" type="number" value="5"><input id="gB" type="number" value="7"></div>
+    </div>
+    <div class="panel"><div id="gOut"></div></div>
+  </div>
+</section>
+
+<section id="v-register" hidden>
+  <h2>Knowledge Register</h2>
+  <p class="lead">Every testable speculation is entered before its test runs, with the pass/fail line fixed in advance. Failures stay on file. Snapshot of <code>records/stp/registry.json</code>; tests rerun with <code>python3 tools/stp.py run</code>.</p>
+  <div class="filter" id="fFilter"></div>
+  <div class="tablebox panel" style="padding:0"><table><thead><tr><th>ID</th><th>Hypothesis</th><th>Criterion</th><th>Result</th><th>Status</th></tr></thead><tbody id="fBody"></tbody></table></div>
+</section>
+</main>
+
+<script>
+const OFFSETS = {"T1": [-9, -9, -9, 9, 9, 9], "T2": [3, 9, 6, -3, -9, -6], "T3": [9, 9, 9, -9, -9, -9], "T4": [-3, -9, -6, 3, 9, 6], "NU": [-1, -1, -1, -1, -1, -1], "ND": [-2, -8, -5, -2, -8, -5], "PU": [1, 1, 1, 1, 1, 1], "PD": [2, 8, 5, 2, 8, 5], "N3": [-9, -3, -6, -9, -3, -6], "N6": [-3, -6, -9, -3, -6, -9], "N9": [-6, -9, -3, -6, -9, -3], "P3": [3, 6, 9, 3, 6, 9], "P6": [9, 3, 6, 9, 3, 6], "P9": [6, 9, 3, 6, 9, 3], "N2": [-1, -2, -4, -8, -7, -5], "N4": [-5, -1, -2, -4, -8, -7], "N8": [-7, -5, -1, -2, -4, -8], "N7": [-8, -7, -5, -1, -2, -4], "N5": [-4, -8, -7, -5, -1, -2], "N1": [-2, -4, -8, -7, -5, -1], "P2": [1, 2, 4, 8, 7, 5], "P4": [5, 1, 2, 4, 8, 7], "P8": [7, 5, 1, 2, 4, 8], "P7": [8, 7, 5, 1, 2, 4], "P5": [4, 8, 7, 5, 1, 2], "P1": [2, 4, 8, 7, 5, 1]};
+const REGISTER = [{"id": "H-001", "h": "The 26 seeds split into 13 pairs whose offset vectors are exact integer negatives", "c": "13 pairs covering all 26 seeds", "b": "replication of an earlier run", "state": "RAN", "out": "PASS", "res": {"cached_agree": true, "cached_missing": 0}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:43:43+00:00"}, {"id": "H-002", "h": "The partner of P_k is N_k for every k = 1..9", "c": "all 9 hold", "b": "replication", "state": "RAN", "out": "FAIL", "res": {"partner_of_P": {"1": "N1", "2": "N2", "3": "N6", "4": "N4", "5": "N5", "6": "N3", "7": "N7", "8": "N8", "9": "N9"}}, "status": "REJECTED", "time": "2026-11-19T00:43:55+00:00"}, {"id": "H-003", "h": "The workbook literally implements the F27 Singer cycle (26 seeds distinct mod 9)", "c": "26 distinct", "b": "replication", "state": "RAN", "out": "FAIL", "res": {"distinct_mod_9": 19}, "status": "REJECTED", "time": "2026-11-19T00:44:07+00:00"}, {"id": "H-004", "h": "The Antipode arm lands on the seed's polarity partner for every anchor", "c": "all 9 anchors", "b": "n/a", "state": "RAN", "out": "FAIL (reported 7 of 9; script duplicated H-002)", "res": "see CA-08 first run", "status": "REVISED", "time": "2026-11-18 (first run)"}, {"id": "H-004-R1", "h": "Label level: the Antipode value a = 9-k is carried by sheet N_j with -j = a (mod 9); that sheet is the polarity partner of P_k, for every anchor k", "c": "all 9 anchors; per-anchor list recorded", "b": "NOT BLIND: the Navigator stated 7 of 9 before this implementation", "state": "RAN", "out": "FAIL", "res": {"holds_for": [1, 2, 4, 5, 7, 8, 9], "fails_for": [3, 6]}, "status": "REJECTED", "time": "2026-11-19T00:50:58+00:00"}, {"id": "H-004-R2", "h": "Value level: the offset of P_(9-k) equals, mod 9, the offset of the polarity partner of P_k, for every anchor k", "c": "all 9 anchors; per-anchor list recorded", "b": "NOT BLIND for Lower World anchors (implied by H-005); Higher World anchors not previously computed in the register", "state": "RAN", "out": "FAIL", "res": {"holds_for": [1, 2, 4, 5, 7, 8], "fails_for": [3, 6, 9]}, "status": "REJECTED", "time": "2026-11-19T00:44:30+00:00"}, {"id": "H-005", "h": "Mod 9, N_k = P_(9-k) for k in {1,2,4,5,7,8}", "c": "all 6 hold", "b": "replication", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:44:41+00:00"}, {"id": "H-007a", "h": "Anchors 3 and 6, and only they, lack the value-level property of H-004-R2", "c": "failure set == {3, 6}", "b": "NOT BLIND: designer inspected Higher World offsets while writing tests; exploratory", "state": "RAN", "out": "FAIL", "res": {"property_absent_for": [3, 6, 9]}, "status": "REJECTED", "time": "2026-11-19T00:44:54+00:00"}, {"id": "H-007b", "h": "The anchors lacking the H-004-R2 property are exactly the Crown digit class {3, 6, 9} (Core M244 definition of Crown digits)", "c": "failure set == {3, 6, 9}", "b": "NOT BLIND (as H-007a); exploratory, criterion from an independent Core definition", "state": "RAN", "out": "PASS", "res": {"property_absent_for": [3, 6, 9]}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:05+00:00"}, {"id": "H-008", "h": "Cached workbook values for all 26 seed rows equal formula recomputation, with none missing", "c": "agree and 0 missing", "b": "blind", "state": "RAN", "out": "PASS", "res": {"cached_agree": true, "cached_missing": 0}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:17+00:00"}, {"id": "CX-001", "h": "F9 and F27 are fields as constructed; phi and g are primitive; partners are 13 powers apart; labels biject onto nonzero elements", "c": "all checks pass", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:45:17+00:00"}, {"id": "CX-002", "h": "Group-relative templates are exact on rule-generated sequences, and lag-2d equals lag-d applied twice, in Z/12, (Z/9)^x and S3", "c": "all pass in all three groups", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:17+00:00"}, {"id": "CX-004", "h": "702 directed pairs biject with seeds and affine maps; the reverse edge uses the partner seed", "c": "all 702 pass", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:45:17+00:00"}, {"id": "CX-005", "h": "13 rounds of 9 triples cover all 351 pairs exactly once", "c": "351 pairs, each once", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:45:18+00:00"}, {"id": "CX-006", "h": "For any fields and mode: positional <= matching <= pooled", "c": "0 violations", "b": "blind", "state": "RAN", "out": "PASS", "res": {"violations_of_positional<=matching<=pooled": 0}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:18+00:00"}, {"id": "CX-007", "h": "The corrected temporal engine keeps its false-positive rate near 5% on noise and reports no cycle for a pure trend", "c": "<= 5 of 40 and trend p = 1", "b": "blind", "state": "RAN", "out": "PASS", "res": {"false_positives_p<=0.05": 2}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:20+00:00"}, {"id": "H-006", "h": "Weekly-cycle detection works on a real series with an independently known weekly cycle", "c": "p <= 0.05 under both nulls and fundamental = 7", "b": "blind", "state": "NOT RUNNABLE", "out": null, "res": "NOT AVAILABLE in this session (shell network off; fetch tool returns summaries, not data)", "status": "TESTABLE", "time": "2026-11-18T14:56:37+00:00"}, {"id": "H-006b", "h": "On the SILSO yearly sunspot series (1700-2025), whose ~11-year Schwabe cycle is independently established, the engine finds the cycle", "c": "p <= 0.05 under both nulls and fundamental in {10, 11, 12}", "b": "blind", "state": "RAN", "out": "FAIL", "res": {"block": {"candidate_base_lag": 11, "family": [10, 11, 12], "p": 0.005}}, "status": "REJECTED", "time": "2026-11-19T00:45:20+00:00"}, {"id": "H-006c", "h": "On the first 400 decimal digits of pi, where no cycle is expected, the engine reports no structure", "c": "p > 0.05 under both nulls", "b": "blind", "state": "RAN", "out": "PASS", "res": {"block": {"candidate_base_lag": 17, "family": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 24], "p": 0.58}}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:21+00:00"}, {"id": "CX-010", "h": "The 27 domains contain families related by shared invariants under polarity, transposition or affine maps", "c": "to be fixed before any run", "b": "blind", "state": "NOT RUNNABLE", "out": null, "res": "not yet defined", "status": "REVISED", "time": "2026-11-18T14:56:37+00:00"}, {"id": "H-006d", "h": "With the block null as the primary test, the engine detects an independently known cycle in a real series it has not been tuned on", "c": "block p <= 0.05 and fundamental within known period +/- 1", "b": "blind (new data required)", "state": "RAN", "out": "PASS", "res": {"block": {"candidate_base_lag": 12, "family": [12, 24], "p": 0.01}}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:48+00:00"}, {"id": "H-010", "h": "Among all moduli 3..2000 with period 24 and the mirror A^12 = -I, the Construct's two-world split (non-units form an additive ideal) holds for 9 alone", "c": "split holds exactly for {9}", "b": "NOT BLIND: equivalent to 'one prime' (Z/m local iff m a prime power), expected by theory", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:43:21+00:00"}, {"id": "H-011", "h": "In the workbook, the offset row of P_k is (2/k) times the doubling circuit mod 9, for k in {1,2,4,5,7,8}", "c": "all 6 hold", "b": "NOT BLIND: pattern seen while reading offsets", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:43:32+00:00"}, {"id": "OP-01a", "h": "Construct X keeps residues 0-8 internally; display (0 shown as 9) is a bijection that round-trips, and the Core's digital root equals display of the residue for every n >= 1", "c": "all hold", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:43:13+00:00"}, {"id": "OP-01b", "h": "In the original workbook, every formula that does arithmetic on a displayed value (0 shown as 9) is reduced mod 9 again, directly or by every formula downstream", "c": "zero unreduced arithmetic uses", "b": "blind", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:43:20+00:00"}, {"id": "UP-01", "h": "On (Z/9)^2 the pair (Q^2, period), Q = 2N, is constant on each orbit and separates all 5 orbits", "c": "complete classifier", "b": "NOT BLIND: reported by the review", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:43:20+00:00"}, {"id": "UP-01b", "h": "(Q^2, period) stays a complete orbit classifier on (Z/27)^2", "c": "complete classifier", "b": "NOT BLIND: the Navigator expected failure (the three r = 1 orbits all have N^2 = 0 mod 27)", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:43:20+00:00"}, {"id": "UP-01c", "h": "Lambda(x) = (r, N(u)^2 mod 3^(k-r)), x = 3^r u, is a complete orbit classifier on (Z/3^k)^2 for every k (proof in CA-11); checked for k = 1..6", "c": "complete for k = 1..6", "b": "NOT BLIND: k <= 5 was run before registration", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:43:21+00:00"}, {"id": "UP-02", "h": "The canonical orbit is exactly the set of states whose Lambda signature equals that of the seed (2, 5)", "c": "class == orbit", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:43:21+00:00"}, {"id": "UP-03a", "h": "Mod 9, the only quadratic form invariant under T is 0, and the anti-invariant forms are exactly the multiples k*N", "c": "invariant = {0}; anti-invariant = {kN}", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:43:21+00:00"}, {"id": "UP-04a", "h": "No additive surjection (Z/9)^2 -> F3^3 exists, and F9 is not a subfield of F27, so Omega42's 81 states and Construct X's 27 points have no structure-preserving link of these two kinds", "c": "no surjection and no embedding", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:43:21+00:00"}, {"id": "H-014", "h": "Entrywise, every P-seed row is Y + (k, k, k, k, k, k) and every N-seed row is Y - (k, ..., k), as Core 0.9.1 reads", "c": "all 9 k hold", "b": "NOT BLIND: H-011 had already shown the Lower World offsets are (2/k) x doubling circuit", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:43:13+00:00"}, {"id": "H-013", "h": "Every workbook sum of two displayed roots taken twelve rows apart reduces mod 9 to residue 0 (displayed 9)", "c": "all residues 0", "b": "blind (the values were not inspected mod 9 before registration)", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:43:01+00:00"}, {"id": "UP-01d", "h": "Complete Omega42 Orbit Signature Theorem: on (Z/3^k)^2, nonzero states share a T-orbit iff they share Lambda = (r, N(u)^2 mod 3^(k-r)); zero is a separate fixed orbit", "c": "proof checked step by step", "b": "n/a", "state": "RAN", "out": "PASS", "res": "proof written out (RN-3); steps 3 and 5 checked numerically for j = 1..5", "status": "PROVED", "time": "2026-11-18T17:00:50+00:00"}, {"id": "H-016", "h": "For every k = 1..9, the negated offset of N_k is a cyclic rotation of the offset of P_k (direct pairing up to rotation)", "c": "all 9 k hold", "b": "NOT BLIND: offsets inspected before registration", "state": "RAN", "out": "PASS", "res": {"holds_for": [1, 2, 3, 4, 5, 6, 7, 8, 9], "fails_for": []}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:45:33+00:00"}, {"id": "H-016b", "h": "Rotation-negation does not single out a partner in the Higher World (each of N3, N6, N9 is a rotation-negation of each of P3, P6, P9), while in the Lower World it relates no P_a to N_b with a != b", "c": "all 9 Higher World combinations related and 0 Lower World cross relations", "b": "NOT BLIND: offsets inspected before registration", "state": "RAN", "out": "FAIL", "res": {"higher_world_all_9_related": true, "lower_world_cross_relations": "30 relations"}, "status": "REJECTED", "time": "2026-11-19T00:45:45+00:00"}, {"id": "W-001", "h": "The workbook has 29 sheets, 167 formula cells without cached values, 7 #DIV/0! at MP!R74:X74 and 16 #REF! at P9!T90:AA91, and no formula outside those two blocks depends on them", "c": "all counts as stated and zero dependents", "b": "replication of the review's counts; the dependency part is new", "state": "RAN", "out": "PASS", "res": {"no_cached_value": 167, "errors": {"#DIV/0!": 7, "#REF!": 16}, "dependents_outside_error_blocks": []}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:02+00:00"}, {"id": "UP-04b", "h": "F729 contains exactly one subfield of order 9 and one of order 27, they meet in F3, and Construct X's F9 (phi^2 = phi + 1) and F27 (g^3 = g - 1) both embed as fields", "c": "9, 27, intersection 3, both embeddings multiplicative on all pairs", "b": "blind (expected by theory)", "state": "RAN", "out": "FAIL", "res": {"subfield_9": 81, "subfield_27": 243, "intersection": 27, "F9_embeds": false, "F27_embeds": false}, "status": "REVISED", "time": "2026-11-19T00:50:47+00:00"}, {"id": "UP-01e", "h": "On (Z/3^k)^2 there are (3^k + 1)/2 orbits of T: one fixed zero state and 3^(j-1) orbits of length 8*3^(j-1) for j = 1..k", "c": "all k = 1..6 match", "b": "NOT BLIND: k = 2, 3, 5 counts known", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:33+00:00"}, {"id": "CX-010-D", "h": "Under the order-6 group generated by polarity (x -> -x) and Frobenius (x -> x^3), the 27 domains fall into 6 families of sizes 1, 2, 6, 6, 6, 6, and the minimal polynomial up to x -> -x is constant on each family and separates them", "c": "sizes [1,2,6,6,6,6], invariant constant and separating", "b": "blind (computed after registration; sizes predicted by theory)", "state": "RAN", "out": "PASS", "res": {"family_sizes": [1, 2, 6, 6, 6, 6], "invariant_separates": true}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:33+00:00"}, {"id": "CX-011", "h": "On the synthetic weekly demonstration series, the Lagged-Increment Model at the selected lag has lower held-out error than every baseline (seasonal-naive, persistence, drift, training mean, training trend)", "c": "LIS strictly best", "b": "NOT BLIND: the v2.3 self-test printed seasonal-naive 7.7 < LIS 10.5 on a similar series before registration", "state": "RAN", "out": "FAIL", "res": {"best": 7, "lis": 5.5597, "seasonal_naive": 4.3867, "best_forecaster": "seasonal_naive"}, "status": "REJECTED", "time": "2026-11-19T00:46:33+00:00"}, {"id": "CX-012a", "h": "With block length 24, the block null keeps the false-positive rate at or below 5 of 40 on AR(1) noise (phi = 0.5, n = 300) that has no cycle", "c": "<= 5 of 40", "b": "blind", "state": "RAN", "out": "PASS", "res": {"false_positives_of_40": 1}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:40+00:00"}, {"id": "CX-012b", "h": "The iid null keeps the false-positive rate at or below 5 of 40 on the same AR(1) series", "c": "<= 5 of 40", "b": "blind", "state": "RAN", "out": "PASS", "res": {"false_positives_of_40": 0}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:48+00:00"}, {"id": "I-001", "h": "An independent implementation (tools/independent_check.py: raw XML, cached values, no shared code) reproduces the pairs, partners, H-004-R1/R2 anchor lists, H-005, H-011 and H-014 of the main implementation", "c": "no differences", "b": "same author, different code and read path; not an independent reviewer", "state": "RAN", "out": "PASS", "res": {"agree_on": ["H005", "H011", "H014", "R1_holds_for", "R2_fails_for", "R2_holds_for", "pairs", "partner_of_P"], "differences": {}}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:48:10+00:00"}, {"id": "UP-04b-R1", "h": "F729 contains exactly one subfield of order 9 and one of order 27, they meet in F3, and Construct X's F9 (phi^2 = phi + 1) and F27 (g^3 = g - 1) both embed as fields", "c": "as UP-04b: 9, 27, intersection 3, both embeddings multiplicative on all pairs", "b": "NOT BLIND: the defective first run had been seen", "state": "RAN", "out": "PASS", "res": {"subfield_9": 9, "subfield_27": 27, "intersection": 3, "F9_embeds": true, "F27_embeds": true}, "status": "PROVED", "time": "2026-11-19T00:46:32+00:00"}, {"id": "QA-01", "h": "QAM-1 is total and deterministic on all 216 Axis readings (24 positions x 9 anchors) and returns a valid Matrix node each time", "c": "216 valid nodes, identical on rerun", "b": "blind", "state": "RAN", "out": "PASS", "res": {"distinct_nodes": 72}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:32+00:00"}, {"id": "QA-02", "h": "QAM-1 reaches exactly 24 of the 27 domains; the 3 unreached are the line (0, 0, c), because the canonical orbit mod 3 never passes through (0, 0)", "c": "unreached == {(0,0,0), (0,0,1), (0,0,2)}", "b": "blind (predicted from the period-8 Fibonacci cycle mod 3 before any run)", "state": "RAN", "out": "PASS", "res": {"domains_reached": 24, "unreached": [[0, 0, 0], [0, 0, 1], [0, 0, 2]]}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:32+00:00"}, {"id": "W-002", "h": "A full LibreOffice recalculation (forced on load; control copy without cached values gives the same result) agrees with the workbook's cached values on every formula cell except MP!F10, MP!G10 and REV!AI51, AJ51, AK51, AL51, AN51, AO51", "c": "difference set equals the eight cells", "b": "NOT BLIND: the comparison was run and the eight cells traced before registration; this entry records the finding reproducibly", "state": "RAN", "out": "PASS", "res": {"compared": 104925, "differences": ["MP!F10", "MP!G10", "REV!AI51", "REV!AJ51", "REV!AK51", "REV!AL51", "REV!AN51", "REV!AO51"]}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:21+00:00"}, {"id": "H-017", "h": "The Lagged-Increment Model beats seasonal-naive when trend and season combine, and loses to it when there is no trend: on the weekly demonstration profile (seed 7), it loses at slope 0 and wins at slope 0.5 per day", "c": "loses at slope 0 and wins at slope 0.5", "b": "blind (seed 7 not run before registration)", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:46:21+00:00"}, {"id": "H-017b", "h": "The LIS held-out error does not change with a linear trend, and LIS beats seasonal-naive at slopes 1.0 and 2.0 per day on the same profile and noise", "c": "identical LIS error at all slopes and LIS < seasonal-naive at 1.0 and 2.0", "b": "NOT BLIND: noise seed and slopes 0, 0.5 already seen", "state": "RAN", "out": "PASS", "res": {"by_slope": {"0.0": "LIS 4.4163 / SN 3.0169", "0.5": "LIS 4.4163 / SN 4.1677", "1.0": "LIS 4.4163 / SN 7.148", "2.0": "LIS 4.4163 / SN 13.9856"}, "lis_error_trend_invariant": true}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:21+00:00"}, {"id": "H-018", "h": "No CX-010 family separates a Classic polarity pair: for every seed g^n, its partner g^(n+13) = -g^n lies in the same family", "c": "0 split pairs", "b": "blind (not computed before registration; expected because negation is one of the two generators)", "state": "RAN", "out": "PASS", "res": null, "status": "PROVED", "time": "2026-11-19T00:46:21+00:00"}, {"id": "H-019", "h": "Under QAM-1, the antipodal readings (p, p + 12) land in the same CX-010 family for every p exactly when the anchor k is a Crown digit (3, 6, 9)", "c": "anchor set == [3, 6, 9]", "b": "blind (not computed before registration; Frobenius could add anchors)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:21+00:00"}, {"id": "H-021", "h": "On stationary seasonal series with Gaussian noise, held-out MAE relative to seasonal-naive is sqrt(2) for the Lagged-Increment Model and sqrt(3) for the Construct Engine's scalar rule, the square roots of their noise gains 4/2 and 6/2", "c": "both ratios within 10% of sqrt(2) and sqrt(3)", "b": "blind (predicted from the operator coefficients before any run)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:21+00:00"}, {"id": "CX-013", "h": "The block null loses power as its block length grows past the cycle: on period-12 seasonal series, detections at p <= 0.05 fall (weakly) from block 6 to 12 to 24 to 48, and strictly from 6 to 48", "c": "non-increasing in block length and strictly lower at 48 than at 6", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:46:32+00:00"}, {"id": "CX-003", "h": "The Lab's Polarity and Seed Navigator gives, for every one of the 26 seeds, the workbook's exact-negative partner (H-001), and the offset rows it shows for a seed and its partner are exact negatives", "c": "26 seeds, 0 mismatches, 0 non-negative offset pairs", "b": "blind (not checked seed by seed before registration)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:50:17+00:00"}, {"id": "CX-008", "h": "The Transformation Laboratory's template is exact on the rule-generated melody at lag 8, and when the rule changes (step 5 to step 2 from t = 24) its failures fall only in the window where the lag-8 history straddles the change (t = 23 to 31), after which it is exact again", "c": "exact, failures confined to 23..31, exact after", "b": "blind (window predicted from lag 8 before running)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:50:17+00:00"}, {"id": "CX-009", "h": "The permanent register keeps every CA-08 field for every entry, a code fingerprint and time for every run, every entry ever registered, and REVISED for every superseded entry", "c": "all four checks clean", "b": "NOT BLIND: the UP-04b overwrite was found by the audit rerun before registration and fixed in the runner", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T00:50:17+00:00"}, {"id": "CX-015", "h": "With block length 24 the block null keeps the false-positive rate at or below 5 of 40 on smooth AR(1) noise (phi = 0.9, n = 300) with no cycle", "c": "<= 5 of 40", "b": "blind", "state": "RAN", "out": "PASS", "res": {"false_positives_of_40": 2}, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:51:14+00:00"}, {"id": "CX-016", "h": "construct_x.williams_schedule(6) is a Latin square covering all 30 ordered transitions once, equals the guide's printed table, and the construction balances carryover for every even n from 2 to 12", "c": "all checks pass", "b": "NOT BLIND: the guide's table was verified by hand before registration", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:50:17+00:00"}, {"id": "CX-017", "h": "The new periodicity interpretation reads supported on Mauna Loa CO2, unsupported on sunspots and unsupported on the first 400 digits of pi (iid null)", "c": "supported / unsupported / unsupported", "b": "NOT BLIND: p values of all three known from H-006b, H-006c, H-006d", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:50:18+00:00"}, {"id": "CX-009-R1", "h": "Every entry carries the CA-08 fields and a status history; every run made by the runner carries a code fingerprint (the six legacy runs are the only exceptions); no entry has been deleted; and the REVISED entries H-004, UP-04b and CX-010 keep REVISED after rerun", "c": "all four checks clean", "b": "NOT BLIND: written after CX-009 failed", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:50:47+00:00"}, {"id": "H-023", "h": "On white residuals around a trend, the kind of series the iid null generates, the Lagged-Increment Model's skill over the drift baseline is built in at 1 - sqrt(4/6) = 0.184 by the noise gains 4 and 6, so a smooth real series whose observed skill falls below that (sunspots, 0.115) cannot reach significance under the iid null", "c": "|mean skill - 0.184| <= 0.03", "b": "blind (predicted from the operator coefficients before running)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T00:52:02+00:00"}, {"id": "CAP-01", "h": "The Complete Orbit Signature names orbits without walking them: on 4,000 state pairs at depth 3^7 (random, same-orbit by construction, and same-valuation) Lambda agrees with orbit membership found by walking in every case; and 10,000 states at depth 3^100, with valuations 0, 5, 40, 77 and 99, are classified in under 5 seconds, each label unchanged after 10^6 + 7 steps", "c": "0 disagreements; < 5 s; labels invariant; valuations [0, 5, 40, 77, 99] recovered", "b": "blind (the depth cap at r = 30 in 2.3.1 was fixed before registration)", "state": "RAN", "out": "FAIL", "res": null, "status": "REVISED", "time": "2026-11-19T02:08:21+00:00"}, {"id": "CAP-02", "h": "The 13-round schedule compares all 351 pairs of 27 Navigators exactly once, where no random schedule of the same size does (200 tried); and from scheduled pairwise disagreement it identifies all three planted biased Navigators in at least 90% of 300 trials, more often than a random schedule of the same size", "c": "351; random < 351; recovery >= 0.9 and > random", "b": "blind", "state": "RAN", "out": "FAIL", "res": null, "status": "REJECTED", "time": "2026-11-19T02:08:27+00:00"}, {"id": "CAP-03", "h": "Under uniform draws of six distinct values from 1 to 49 for Y and X, at least 10% of the Classic pooled flags (4 of 6) rest on references reused by more than one observation, so one-to-one matching withdraws them", "c": "share of pooled flags not met by matching >= 0.10", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T02:08:29+00:00"}, {"id": "CAP-04", "h": "On 300 series with a period-7 cycle, random slope 0 to 1.5 and noise sd 3, the noise-gain law read off the training part alone (LIS wins iff mean(D)^2 > var(D) for the seasonal differences D) names the held-out winner between the Lagged-Increment Model and seasonal-naive in at least 85% of series", "c": ">= 0.85", "b": "blind", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T02:08:29+00:00"}, {"id": "CAP-05", "h": "On the Congruence Register, same-orbit meetings (equal Lambda mod 9) occur at no more than 1.2 times their exact chance over the 729 residue triples, and one-to-one matching of the same-state and mirror meetings counts fewer meetings than pooling them", "c": "observed/expected <= 1.2 and matched < pooled", "b": "blind (not computed before registration)", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T02:08:29+00:00"}, {"id": "CAP-01-R1", "h": "As CAP-01, with the valuation clause stated correctly: every constructed state's valuation is at least its construction exponent r, and exactly r when the quotient pair is not divisible by 3", "c": "0 disagreements; < 5 s; labels invariant; both valuation clauses hold", "b": "NOT BLIND: written after CAP-01's run", "state": "RAN", "out": "PASS", "res": null, "status": "VERIFIED COMPUTATION", "time": "2026-11-19T02:08:55+00:00"}, {"id": "H-024", "h": "A full Omega42 navigation helps a reader spot hidden assumptions and contradictions in a problem better than an ordinary answer from the same AI system", "c": "median paired difference > 0 and one-sided p <= 0.05, with inter-rater agreement (Krippendorff alpha) >= 0.67; otherwise INCOMPLETE", "b": "blind (raters); the problem author does not rate", "state": "NOT RUNNABLE", "out": null, "res": "NOT AVAILABLE in this session (needs the problem set and 3 independent raters)", "status": "TESTABLE", "time": "2026-11-19T03:42:01+00:00"}, {"id": "H-025", "h": "The Navigator rediscovers established connections between areas of physics without hints", "c": "at least 12 of 20 judged correct", "b": "blind (judges); the sealing physicist does not judge", "state": "NOT RUNNABLE", "out": null, "res": "NOT AVAILABLE in this session (needs a physicist to seal the list and two blind judges)", "status": "TESTABLE", "time": "2026-11-19T03:44:49+00:00"}, {"id": "H-026", "h": "The adversarial reviewer role finds planted errors in physics derivations", "c": "at least 8 of 10 planted errors flagged at their location and at most 2 of 5 clean derivations flagged", "b": "blind (the Navigator does not know the count or positions)", "state": "NOT RUNNABLE", "out": null, "res": "NOT AVAILABLE in this session (needs the 15 derivations, prepared and sealed by a physicist)", "status": "TESTABLE", "time": "2026-11-19T03:44:49+00:00"}, {"id": "H-027", "h": "The CURRENT KNOWLEDGE layer finds the core literature of a question in the foundations of physics", "c": "at least 3 of 5 found for at least 7 of 10 questions, and every cited work exists and was opened", "b": "blind (the sealed lists are not shown)", "state": "NOT RUNNABLE", "out": null, "res": "NOT AVAILABLE in this session (needs a physicist to seal the lists, and web retrieval)", "status": "TESTABLE", "time": "2026-11-19T03:44:49+00:00"}];
+const SUNSPOTS = [8.3, 18.3, 26.7, 38.3, 60.0, 96.7, 48.3, 33.3, 16.7, 13.3, 5.0, 0.0, 0.0, 3.3, 18.3, 45.0, 78.3, 105.0, 100.0, 65.0, 46.7, 43.3, 36.7, 18.3, 35.0, 66.7, 130.0, 203.3, 171.7, 121.7, 78.3, 58.3, 18.3, 8.3, 26.7, 56.7, 116.7, 135.0, 185.0, 168.3, 121.7, 66.7, 33.3, 26.7, 8.3, 18.3, 36.7, 66.7, 100.0, 134.8, 139.0, 79.5, 79.7, 51.2, 20.3, 16.0, 17.0, 54.0, 79.3, 90.0, 104.8, 143.2, 102.0, 75.2, 60.7, 34.8, 19.0, 63.0, 116.3, 176.8, 168.0, 136.0, 110.8, 58.0, 51.0, 11.7, 33.0, 154.2, 257.3, 209.8, 141.3, 113.5, 64.2, 38.0, 17.0, 40.2, 138.2, 220.0, 218.2, 196.8, 149.8, 111.0, 100.0, 78.2, 68.3, 35.5, 26.7, 10.7, 6.8, 11.3, 24.2, 56.7, 75.0, 71.8, 79.2, 70.3, 46.8, 16.8, 13.5, 4.2, 0.0, 2.3, 8.3, 20.3, 23.2, 59.0, 76.3, 68.3, 52.9, 38.5, 24.2, 9.2, 6.3, 2.2, 11.4, 28.2, 59.9, 83.0, 108.5, 115.2, 117.4, 80.8, 44.3, 13.4, 19.5, 85.8, 192.7, 227.3, 168.7, 143.0, 105.5, 63.3, 40.3, 18.1, 25.1, 65.8, 102.7, 166.3, 208.3, 182.5, 126.3, 122.0, 102.7, 74.1, 39.0, 12.7, 8.2, 43.4, 104.4, 178.3, 182.2, 146.6, 112.1, 83.5, 89.2, 57.8, 30.7, 13.9, 62.8, 123.6, 232.0, 185.3, 169.2, 110.1, 74.5, 28.3, 18.9, 20.7, 5.7, 10.0, 53.7, 90.5, 99.0, 106.1, 105.8, 86.3, 42.4, 21.8, 11.2, 10.4, 11.8, 59.5, 121.7, 142.0, 130.0, 106.6, 69.4, 43.8, 44.4, 20.2, 15.7, 4.6, 8.5, 40.8, 70.1, 105.5, 90.1, 102.8, 80.9, 73.2, 30.9, 9.5, 6.0, 2.4, 16.1, 79.0, 95.0, 173.6, 134.6, 105.7, 62.7, 43.5, 23.7, 9.7, 27.9, 74.0, 106.5, 114.7, 129.7, 108.2, 59.4, 35.1, 18.6, 9.2, 14.6, 60.2, 132.8, 190.6, 182.6, 148.0, 113.0, 79.2, 50.8, 27.1, 16.1, 55.3, 154.3, 214.7, 193.0, 190.7, 118.9, 98.3, 45.0, 20.1, 6.6, 54.2, 200.7, 269.3, 261.7, 225.1, 159.0, 76.4, 53.4, 39.9, 15.0, 22.0, 66.8, 132.9, 150.0, 149.4, 148.0, 94.4, 97.6, 54.1, 49.2, 22.5, 18.4, 39.3, 131.0, 220.1, 218.9, 198.9, 162.4, 91.0, 60.5, 20.6, 14.8, 33.9, 123.0, 211.1, 191.8, 203.3, 133.0, 76.1, 44.9, 25.1, 11.6, 28.9, 88.3, 136.3, 173.9, 170.4, 163.6, 99.3, 65.3, 45.8, 24.7, 12.6, 4.2, 4.8, 24.9, 80.8, 84.5, 94.0, 113.3, 69.8, 39.8, 21.7, 7.0, 3.6, 8.8, 29.6, 83.2, 125.5, 154.7, 123.2];
+const CO2 = [333.13, 332.09, 331.10, 329.14, 327.36, 327.29, 328.23, 329.55, 330.62, 331.40, 331.87, 333.18, 333.92, 333.43, 331.85, 330.01, 328.51, 328.41, 329.25, 330.97, 331.60, 332.60, 333.57, 334.72, 334.68, 334.17, 332.96, 330.80, 328.98, 328.57, 330.20, 331.58, 332.67, 333.17, 334.86, 336.07, 336.82, 336.12, 334.81, 332.56, 331.30, 331.22, 332.37, 333.49, 334.71, 335.23, 336.54, 337.79, 337.95, 338.00, 336.37, 334.47, 332.46, 332.29, 333.76, 334.80, 336.00, 336.63, 337.93, 338.95, 339.05, 339.27, 337.64, 335.68, 333.77, 334.09, 335.29, 336.76, 337.77, 338.26, 340.10, 340.88, 341.47, 341.31, 339.41, 337.74, 336.07, 336.07, 337.22, 338.38, 339.32, 340.41, 341.69, 342.51, 343.02, 342.54, 340.88, 338.75, 337.05, 337.13, 338.45, 339.85, 340.90, 341.70, 342.70, 343.65, 344.28, 343.42, 342.02, 339.97, 337.84, 338.00, 339.20, 340.63, 341.41, 342.68, 343.04, 345.27, 345.92, 345.40, 344.16, 342.11, 340.11, 340.15, 341.38, 343.02, 343.87, 344.59, 345.11, 347.07, 347.38, 346.78, 344.96, 342.71, 340.86, 341.13, 342.84, 344.32, 344.88, 345.62, 347.23, 347.62, 348.53, 347.87, 346.00, 343.86, 342.55, 342.57, 344.11, 345.49, 346.04, 346.70, 347.38, 349.38, 349.93, 349.26, 347.44, 345.55, 344.21, 343.67, 345.09, 346.27, 347.33, 347.82, 349.29, 350.91, 351.71, 350.94, 349.10, 346.77, 345.73];   // NIST/SEMATECH e-Handbook 6.4.4.11, Mauna Loa monthly CO2, May 1974 - Sep 1987
+const $ = s => document.querySelector(s);
+const el = (t, a = {}, h = "") => { const e = document.createElement(t); Object.assign(e, a); if (h) e.innerHTML = h; return e; };
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+                set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} } };
+
+/* ---------- F27 = F3[g]/(g^3 - g + 1) ---------- */
+const add = (a, b) => a.map((x, i) => (x + b[i]) % 3);
+const neg = a => a.map(x => (3 - x) % 3);
+const sub = (a, b) => add(a, neg(b));
+function mul(a, b) { const c = [0, 0, 0, 0, 0];
+  for (let i = 0; i < 3; i++) for (let j = 0; j < 3; j++) c[i + j] += a[i] * b[j];
+  for (const k of [4, 3]) { c[k - 2] += c[k]; c[k - 3] -= c[k]; c[k] = 0; }
+  return c.slice(0, 3).map(x => ((x % 3) + 3) % 3); }
+const key = a => a.join("");
+const SINGER = []; { let r = [1, 0, 0]; for (let n = 0; n < 26; n++) { SINGER.push(r); r = mul(r, [0, 1, 0]); } }
+const LOG = Object.fromEntries(SINGER.map((v, n) => [key(v), n]));
+const FIELD = []; for (let c2 = 0; c2 < 3; c2++) for (let c1 = 0; c1 < 3; c1++) for (let c0 = 0; c0 < 3; c0++) FIELD.push([c0, c1, c2]);
+const PARTNER = { 1: 1, 2: 2, 3: 6, 4: 4, 5: 5, 6: 3, 7: 7, 8: 8, 9: 9 };
+const LABELS = {}; for (let k = 1; k <= 9; k++) { LABELS["P" + k] = k - 1; LABELS["N" + PARTNER[k]] = k - 1 + 13; }
+Object.assign(LABELS, { PU: 9, PD: 10, T1: 11, T2: 12, NU: 22, ND: 23, T3: 24, T4: 25 });
+const LABEL_OF = Object.fromEntries(Object.entries(LABELS).map(([s, n]) => [n, s]));
+const partnerOf = s => LABEL_OF[(LABELS[s] + 13) % 26];
+const isTorsion = s => /^[PN][124578]$/.test(s);
+const sup = n => String(n).split("").map(d => "⁰¹²³⁴⁵⁶⁷⁸⁹"[d]).join("");
+
+/* ---------- Polarity ---------- */
+const order = ["P1","N1","P2","N2","P4","N4","P5","N5","P7","N7","P8","N8","P3","N6","P6","N3","P9","N9","PU","NU","PD","ND","T1","T3","T2","T4"];
+let curSeed = store.get("cx-seed", "P1");
+function renderSeeds() {
+  const box = $("#seedChips"); box.innerHTML = "";
+  const par = partnerOf(curSeed);
+  for (const s of order) {
+    const b = el("button", { className: "chip " + (isTorsion(s) ? "tor" : "crn") + (s === curSeed ? " sel" : "") + (s === par ? " par" : ""), textContent: s });
+    b.setAttribute("aria-pressed", s === curSeed); b.onclick = () => { curSeed = s; store.set("cx-seed", s); renderSeeds(); };
+    box.append(b);
+  }
+  const o = OFFSETS[curSeed], po = OFFSETS[par];
+  const m9 = v => v.map(x => ((x % 9) + 9) % 9);
+  const k = +curSeed.slice(1), lowerP = /^P[124578]$/.test(curSeed);
+  let modRel = "—";
+  if (/^[PN][124578]$/.test(curSeed)) {
+    const other = curSeed[0] === "N" ? "P" + (9 - k) : "N" + (9 - k);
+    modRel = `${curSeed} ≡ ${other} (mod 9) — the sheet of the antipode, 9 − ${k} = ${9 - k} <span class="tag cd">Classic</span>`;
+  } else if (/^[PN][369]$/.test(curSeed)) modRel = `no mod-9 antipode match: Crown seeds break the value-level rule (H-004-R2, H-007b) <span class="tag cd">Classic</span>`;
+  const n = LABELS[curSeed];
+  $("#seedOut").innerHTML = `<h3>${curSeed} <span class="tag ${isTorsion(curSeed) ? "xc" : "cd"}">${isTorsion(curSeed) ? "Torsion" : "Crown / diagonal"}</span></h3>
+  <dl class="kv">
+   <dt>Offset row (MP)</dt><dd><div class="vec">${o.map(x => `<span>${x}</span>`).join("")}</div></dd>
+   <dt>Exact negative partner</dt><dd><b>${par}</b> <span class="tag cd">Classic · H-001</span><div class="vec">${po.map(x => `<span>${x}</span>`).join("")}</div></dd>
+   <dt>Offset mod 9</dt><dd class="mono">${m9(o).join(" ")}</dd>
+   <dt>Modular relation</dt><dd>${modRel}</dd>
+   <dt>Construct X address</dt><dd class="mono">g${sup(n)} = ${key(SINGER[n])} <span class="tag xc">X-constructed</span></dd>
+   <dt>Partner address</dt><dd class="mono">g${sup((n + 13) % 26)} = ${key(SINGER[(n + 13) % 26])} = −g${sup(n)} <span class="tag cv">Cross-validated</span></dd>
+  </dl>`;
+}
+
+/* ---------- 702 nodes ---------- */
+const optsField = sel => { sel.innerHTML = FIELD.map(p => `<option value="${key(p)}">${key(p)}${key(p) === "000" ? " (Domain Zero)" : ""}</option>`).join(""); };
+function setupNodes() {
+  optsField($("#nFrom")); optsField($("#nTo"));
+  $("#nSeed").innerHTML = `<option value="">—</option>` + order.map(s => `<option>${s}</option>`).join("");
+  $("#nFrom").value = "000"; $("#nTo").value = "010";
+  $("#nFrom").onchange = renderNodes; $("#nTo").onchange = () => { $("#nSeed").value = ""; renderNodes(); };
+  $("#nSeed").onchange = () => { const s = $("#nSeed").value; if (s) $("#nTo").value = key(add($("#nFrom").value.split("").map(Number), SINGER[LABELS[s]])); renderNodes(); };
+  renderNodes();
+}
+function renderNodes() {
+  const p = $("#nFrom").value.split("").map(Number), q = $("#nTo").value.split("").map(Number);
+  const g = $("#nGrid"); g.innerHTML = "";
+  const byLayer = [0, 1, 2].map(c2 => FIELD.filter(f => f[2] === c2));
+  for (let r = 0; r < 3; r++) for (const c2 of [0, 1, 2]) for (let c = 0; c < 3; c++) {
+    const f = byLayer[c2][r * 3 + c], kf = key(f);
+    const b = el("button", { className: "cell" + (kf === key(p) ? " from" : kf === key(q) ? " to" : ""), textContent: kf, title: "Go to " + kf });
+    b.onclick = () => { $("#nTo").value = kf; $("#nSeed").value = ""; renderNodes(); }; g.append(b);
+  }
+  if (key(p) === key(q)) { $("#nOut").innerHTML = `<p class="note">Choose two different domains: a node always joins two distinct domains.</p>`; return; }
+  const v = sub(q, p), s = LABEL_OF[LOG[key(v)]], back = LABEL_OF[LOG[key(neg(v))]];
+  $("#nOut").innerHTML = `<dl class="kv">
+    <dt>Node</dt><dd class="mono">${key(p)} → ${key(q)} by seed <b>${s}</b> (v = ${key(v)})</dd>
+    <dt>Reverse node</dt><dd class="mono">${key(q)} → ${key(p)} by seed <b>${back}</b>, the partner of ${s}</dd>
+    <dt>Affine map</dt><dd class="mono">z ↦ ${key(v)}·z + ${key(p)}  (0 ↦ ${key(p)}, 1 ↦ ${key(q)})</dd>
+    <dt>Count</dt><dd>One node for each ordered pair of distinct domains: 27 × 26 = 702 = |AGL(1,27)| <span class="tag xc">X-constructed · CX-004 proven</span></dd></dl>`;
+}
+
+/* ---------- 13 rounds ---------- */
+function rounds() { const out = [];
+  for (let n = 0; n < 13; n++) { const v = SINGER[n], seen = new Set(), rnd = [];
+    for (const p of FIELD) { if (seen.has(key(p))) continue; const L = [p, add(p, v), add(add(p, v), v)]; L.forEach(x => seen.add(key(x))); rnd.push(L); }
+    out.push({ seed: LABEL_OF[n], partner: LABEL_OF[n + 13], lines: rnd }); }
+  return out; }
+const ROUNDS = rounds();
+const defaultNames = () => FIELD.map(p => "Domain " + key(p)).join("\n");
+function names() { const l = $("#rNames").value.split("\n").map(x => x.trim()).filter(Boolean); return FIELD.map((p, i) => l[i] || "Domain " + key(p)); }
+function setupRounds() {
+  $("#rNames").value = store.get("cx-names", defaultNames());
+  $("#rRound").innerHTML = ROUNDS.map((r, i) => `<option value="${i}">Round ${i + 1} — seeds ${r.seed} / ${r.partner}</option>`).join("");
+  $("#rNames").oninput = () => { store.set("cx-names", $("#rNames").value); renderRounds(); };
+  $("#rReset").onclick = () => { $("#rNames").value = defaultNames(); store.set("cx-names", $("#rNames").value); renderRounds(); };
+  $("#rClear").onclick = () => { store.set("cx-done", []); renderRounds(); };
+  $("#rRound").onchange = renderRounds;
+  $("#rDone").onclick = () => { const d = new Set(store.get("cx-done", [])); d.add(+$("#rRound").value); store.set("cx-done", [...d]); renderRounds(); };
+  renderRounds();
+}
+function renderRounds() {
+  const i = +$("#rRound").value, r = ROUNDS[i], nm = names(), idx = p => FIELD.findIndex(f => key(f) === key(p));
+  const done = new Set(store.get("cx-done", []));
+  $("#rOut").innerHTML = `<h3>Round ${i + 1} ${done.has(i) ? '<span class="tag cv">complete</span>' : ""}</h3>
+   <div class="tablebox"><table><thead><tr><th>Triad</th><th>Participants</th><th>Domains</th></tr></thead><tbody>${
+   r.lines.map((L, j) => `<tr><td class="num">${j + 1}</td><td>${L.map(p => nm[idx(p)]).join(" · ")}</td><td class="num">${L.map(key).join(" ")}</td></tr>`).join("")}</tbody></table></div>`;
+  const pairs = done.size * 27;
+  $("#rBar").style.width = (pairs / 351 * 100).toFixed(1) + "%";
+  $("#rProg").textContent = `${pairs} of 351 pairs compared · ${done.size} of 13 rounds complete`;
+}
+
+/* ---------- Comparison ---------- */
+const U = [1, 2, 4, 5, 7, 8];
+const nums = s => s.split(/[\s,;]+/).filter(Boolean).map(Number);
+function okRel(y, x, mode, tau) { const d = y - x;
+  if (mode === "units") return U.includes(d); if (mode === "symmetric") return Math.abs(d) <= tau; return U.includes(((d % 9) + 9) % 9); }
+function compareAll(X, Y, mode, tau, thr, W) {
+  const adj = X.map(x => Y.map((y, i) => okRel(y, x, mode, tau) ? i : -1).filter(i => i >= 0));
+  const pooled = adj.filter(a => a.length).length;
+  const posM = X.map((x, i) => okRel(Y[i], x, mode, tau));
+  const owner = Y.map(() => -1);
+  const aug = (j, seen) => { for (const i of adj[j]) if (!seen.has(i)) { seen.add(i); if (owner[i] < 0 || aug(owner[i], seen)) { owner[i] = j; return true; } } return false; };
+  X.forEach((_, j) => aug(j, new Set()));
+  const matching = owner.filter(o => o >= 0).length;
+  const shared = Y.map((_, i) => adj.filter(a => a.includes(i)).length > 1);
+  const t = tau > 0 ? tau : 1, q = X.map((x, i) => Math.max(0, 1 - Math.abs(Y[i] - x) / t));
+  const wsum = W.reduce((a, b) => a + b, 0);
+  const weighted = wsum > 0 ? W.reduce((a, w, i) => a + w * q[i], 0) / wsum : NaN;
+  return { pooled, positional: posM.filter(Boolean).length, matching, weighted, adj, posM, owner, shared, q };
+}
+function renderCompare() {
+  const Y = nums($("#cY").value), X = nums($("#cX").value), mode = $("#cMode").value, tau = +$("#cTau").value, thr = +$("#cThr").value;
+  let W = nums($("#cW").value);
+  if (Y.length !== X.length || !Y.length || Y.some(isNaN) || X.some(isNaN)) { $("#cOut").innerHTML = `<p class="no">X and Y need the same number of values (six in the Classic Construct). Check for stray characters.</p>`; $("#cChance").textContent = ""; return; }
+  if (W.length !== X.length || W.some(w => w < 0) || W.reduce((a, b) => a + b, 0) === 0) W = X.map(() => 1);
+  const r = compareAll(X, Y, mode, tau, thr, W);
+  const card = (name, score, of, desc, vec) => `<div class="panel"><div class="label" style="margin-top:0">${name}</div><div class="score">${score}${of}</div><div class="note">${desc}</div>${vec}</div>`;
+  const vx = flags => `<div class="vec">${X.map((x, j) => `<span class="${flags[j] ? "hit" : ""}">${x}</span>`).join("")}</div>`;
+  const flag = s => s >= thr ? ` <span class="tag cd">flag</span>` : "";
+  $("#cOut").innerHTML =
+    card("Pooled Coverage · Classic", r.pooled, ` / ${X.length}${flag(r.pooled)}`, "Each observation lies anywhere in the Candidate Set.", vx(r.adj.map(a => a.length > 0))) +
+    card("One-to-One Matching", r.matching, ` / ${X.length}${flag(r.matching)}`, r.shared.some(Boolean) ? `References shared by several observations: ${Y.filter((_, i) => r.shared[i]).join(", ")}` : "No reference is shared.", vx(X.map((_, j) => r.owner.includes(j)))) +
+    card("Positional Coverage", r.positional, ` / ${X.length}${flag(r.positional)}`, "Each observation against its own reference.", vx(r.posM)) +
+    card("Weighted Similarity", isNaN(r.weighted) ? "—" : r.weighted.toFixed(2), "", `Continuous closeness, τ = ${tau}; not the Classic rule.`, `<div class="vec">${r.q.map(v => `<span>${v.toFixed(2)}</span>`).join("")}</div>`);
+  const lo = Math.min(...X, ...Y), hi = Math.max(...X, ...Y), rnd = mulberry(7); let hits = 0, N = 4000;
+  for (let t = 0; t < N; t++) { const yy = X.map(() => lo + Math.floor(rnd() * (hi - lo + 1))), xx = X.map(() => lo + Math.floor(rnd() * (hi - lo + 1)));
+    if (compareAll(xx, yy, mode, tau, thr, W).pooled >= thr) hits++; }
+  $("#cChance").innerHTML = `Chance rate of a pooled flag (≥ ${thr}) for random values in [${lo}, ${hi}]: <b>${(hits / N * 100).toFixed(1)}%</b> (4,000 draws). State it beside any flag.`;
+}
+function setupCompare() {
+  ["#cY", "#cX", "#cMode", "#cTau", "#cThr", "#cW"].forEach(s => $(s).addEventListener("input", renderCompare));
+  document.querySelectorAll("[data-ex]").forEach(b => b.onclick = () => {
+    if (b.dataset.ex === "classic") { $("#cY").value = "6, 2, 16, 5, -4, 8"; $("#cX").value = "15, 14, 27, 5, 13, 22"; $("#cMode").value = "units"; }
+    else { $("#cY").value = "180, 182, 175, 190, 185, 178"; $("#cX").value = "168, 170, 160, 175, 172, 165"; $("#cMode").value = "symmetric"; $("#cTau").value = 6; }
+    renderCompare(); });
+  renderCompare();
+}
+
+/* ---------- Temporal ---------- */
+function mulberry(a) { return () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function gauss(r) { let u = 0, v = 0; while (u === 0) u = r(); v = r(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v); }
+const lis = (x, t, d) => x[t + 1] - x[t] - x[t + 1 - d] + x[t - d];
+function mae(x, d, lo, hi) { let s = 0, n = 0; for (let t = Math.max(lo, d); t < hi - 1; t++) { s += Math.abs(lis(x, t, d)); n++; } return n ? s / n : NaN; }
+function skill(x, lags, cut) { let best = lags[0], be = Infinity; for (const d of lags) { const e = mae(x, d, 0, cut); if (e < be) { be = e; best = d; } }
+  const base = mae(x, 1, cut, x.length); return { best, skill: base ? 1 - mae(x, best, cut, x.length) / base : 0 }; }
+function scan(x, nullType, S = 199) {
+  const lags = Array.from({ length: 23 }, (_, i) => i + 2), n = x.length, cut = Math.floor(n * 0.6), L = 24;
+  if (cut - L < 10 || n - cut < L + 10) throw new Error(`Series too short: ${n} values; at least ${Math.ceil((L + 10) / 0.4)} are needed.`);
+  const base = skill(x, lags, cut);
+  const ts = [...Array(cut).keys()], tm = (cut - 1) / 2, xm = x.slice(0, cut).reduce((a, b) => a + b, 0) / cut;
+  const den = ts.reduce((a, t) => a + (t - tm) ** 2, 0), slope = ts.reduce((a, t) => a + (t - tm) * (x[t] - xm), 0) / den;
+  const tr = x.map((_, t) => xm + slope * (t - tm)), res = x.map((v, t) => v - tr[t]), r = mulberry(nullType === "block" ? 23 : 11);
+  let k = 0;
+  for (let s = 0; s < S; s++) { let rr;
+    if (nullType === "iid") { rr = res.slice(); for (let i = rr.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [rr[i], rr[j]] = [rr[j], rr[i]]; } }
+    else { rr = []; while (rr.length < n) { const s0 = Math.floor(r() * n); for (let i = 0; i < L; i++) rr.push(res[(s0 + i) % n]); } rr.length = n; }
+    if (skill(tr.map((v, i) => v + rr[i]), lags, cut).skill >= base.skill) k++; }
+  const errs = Object.fromEntries(lags.map(d => [d, mae(x, d, 0, cut)]));
+  const family = lags.filter(d => errs[d] <= 1.15 * errs[base.best]);   // pre-registered 15% of the best training error
+  const fundamental = family.find(d => family.every(m => m % d === 0)) ?? base.best;   // Candidate Base Lag
+  const common = family.every(m => m % fundamental === 0), pv = (k + 1) / (S + 1);
+  const interp = pv > 0.05 ? "unsupported" : common ? "supported" : "unresolved";   // Construct X 2.3.1
+  return { ...base, p: pv, family, fundamental, common, interp, errs, cut, n };
+}
+function baselines(x, d, cut) {   // held-out one-step errors, Construct X 2.3.0
+  const n = x.length, ts = [...Array(cut).keys()], tm = (cut - 1) / 2, xm = x.slice(0, cut).reduce((a, b) => a + b, 0) / cut;
+  const den = ts.reduce((a, t) => a + (t - tm) ** 2, 0), sl = ts.reduce((a, t) => a + (t - tm) * (x[t] - xm), 0) / den;
+  const f = { "Lagged-Increment Model": t => x[t] + x[t + 1 - d] - x[t - d], "Seasonal-naive": t => x[t + 1 - d], "Persistence": t => x[t],
+    "Drift": t => 2 * x[t] - x[t - 1], "Training mean": t => xm, "Training trend": t => xm + sl * (t + 1 - tm) };
+  const out = {}; for (const [k, g] of Object.entries(f)) { let s = 0, m = 0; for (let t = Math.max(cut, d + 1); t < n - 1; t++) { s += Math.abs(x[t + 1] - g(t)); m++; } out[k] = s / m; }
+  return out; }
+function piDigits(n) { let q = 1n, r = 0n, t = 1n, k = 1n, m = 3n, x = 3n; const out = [];
+  while (out.length < n) { if (4n * q + r - t < m * t) { out.push(Number(m)); const nr = 10n * (r - m * t); m = (10n * (3n * q + r)) / t - 10n * m; q *= 10n; r = nr; }
+    else { const nr = (2n * q + r) * x, nm = (q * (7n * k + 2n) + r * x) / (t * x); q *= k; t *= x; x += 2n; k += 1n; m = nm; r = nr; } }
+  return out; }
+function cafe() { const r = mulberry(3), wk = [120, 95, 90, 100, 130, 180, 210]; return Array.from({ length: 182 }, (_, t) => Math.round(wk[t % 7] * (1 + 0.002 * t) + 8 * gauss(r))); }
+function runTemporal() {
+  const x = nums($("#tData").value);
+  if (x.some(isNaN)) { $("#tOut").innerHTML = `<p class="no">The series contains a value that is not a number.</p>`; return; }
+  try {
+    const b = scan(x, "block"), i = scan(x, "iid");
+    const verdict = b.p <= 0.05 ? `<span class="ok">Repeating structure beyond trend</span>` : `<span class="pend">No evidence meeting the registered criterion</span>`;
+    $("#tOut").innerHTML = `<div class="cards">
+      <div><div class="label" style="margin-top:0">Verdict (block null)</div><div>${verdict}</div></div>
+      <div><div class="label" style="margin-top:0">Lag family · candidate base lag</div><div class="mono">${b.family.join(", ")} · <b>${b.fundamental}</b>${b.common ? "" : " <span class=\"note\">(no family member divides all: best lag shown)</span>"}</div></div>
+      <div><div class="label" style="margin-top:0">Periodicity interpretation (this null)</div><div class="mono"><b>${b.interp}</b></div></div>
+      <div><div class="label" style="margin-top:0">Skill over trend</div><div class="score">${b.skill.toFixed(3)}</div></div>
+      <div><div class="label" style="margin-top:0">p, block / iid</div><div class="mono"><b>${b.p.toFixed(3)}</b> / ${i.p.toFixed(3)}</div></div></div>
+      ${(() => { const bl = baselines(x, b.best, b.cut), best = Object.keys(bl).reduce((a, k) => bl[k] < bl[a] ? k : a);
+        return `<div class="label">Held-out error at lag ${b.best}, against ordinary forecasters</div><div class="tablebox"><table><tbody>${Object.entries(bl).map(([k, v]) => `<tr><td>${k}</td><td class="num">${v.toFixed(3)}</td><td>${k === best ? `<span class="ok">lowest</span>` : ""}</td></tr>`).join("")}</tbody></table></div>`; })()}
+      <p class="note">${x.length} values; lag chosen on the first ${b.cut}, scored on the last ${x.length - b.cut}. Family: lags whose training error is within a pre-registered 15% of the best. Candidate Base Lag: the smallest family lag dividing every member, a summary rather than proof of a true period. p estimates how often this procedure, lag selection included, would score this well if the null model were true; it is not the probability that the finding is false, and 1/200 = 0.005 is its resolution limit.</p>`;
+    drawChart(b);
+  } catch (e) { $("#tOut").innerHTML = `<p class="no">${e.message}</p>`; $("#tChart").innerHTML = ""; }
+}
+function drawChart(b) {
+  const lags = Object.keys(b.errs).map(Number), vals = lags.map(d => b.errs[d]), mx = Math.max(...vals) * 1.08;
+  const W = 640, H = 210, l = 44, rgt = 10, top = 14, bot = 30, bw = (W - l - rgt) / lags.length;
+  const y = v => top + (H - top - bot) * (1 - v / mx), fam = new Set(b.family);
+  let s = `<line x1="${l}" x2="${W - rgt}" y1="${H - bot}" y2="${H - bot}" stroke="var(--rule)"/>`;
+  [0, 0.5, 1].forEach(f => { const v = mx * f; s += `<line x1="${l}" x2="${W - rgt}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule)" stroke-dasharray="2 3"/><text x="${l - 6}" y="${y(v) + 3}" text-anchor="end">${v.toFixed(v < 10 ? 1 : 0)}</text>`; });
+  lags.forEach((d, i) => { const x = l + i * bw + 2, v = b.errs[d];
+    s += `<rect x="${x}" y="${y(v)}" width="${bw - 4}" height="${H - bot - y(v)}" fill="${fam.has(d) ? "var(--torsion)" : "var(--rule)"}"/>`;
+    s += `<text x="${x + (bw - 4) / 2}" y="${H - bot + 13}" text-anchor="middle">${d}</text>`; });
+  s += `<text x="${l}" y="${H - 4}">lag d · bars: training error (lower is better); teal = lag family</text>`;
+  $("#tChart").innerHTML = s;
+}
+function setupTemporal() {
+  document.querySelectorAll("[data-ts]").forEach(bt => bt.onclick = () => {
+    const v = bt.dataset.ts === "cafe" ? cafe() : bt.dataset.ts === "sun" ? SUNSPOTS : bt.dataset.ts === "co2" ? CO2 : piDigits(400);
+    $("#tData").value = v.join(", "); runTemporal(); });
+  $("#tRun").onclick = runTemporal;
+  $("#tData").value = cafe().join(", "); runTemporal();
+}
+
+/* ---------- Transformation ---------- */
+const GROUPS = {
+  z12: { op: (a, b) => (a + b) % 12, inv: a => (12 - a) % 12, has: a => Number.isInteger(a) && a >= 0 && a < 12, name: "Z/12" },
+  u9: { op: (a, b) => (a * b) % 9, inv: a => U.find(b => (a * b) % 9 === 1), has: a => U.includes(a), name: "(Z/9)ˣ" } };
+function renderTransform() {
+  const g = GROUPS[$("#gGroup").value], x = nums($("#gSeq").value);
+  if (!x.length || !x.every(g.has)) { $("#gOut").innerHTML = `<p class="no">Every value must belong to ${g.name}${$("#gGroup").value === "u9" ? " (1, 2, 4, 5, 7, 8)" : " (0 to 11)"}.</p>`; return; }
+  const rows = [];
+  for (let d = 1; d <= Math.min(24, x.length - 2); d++) { let ok = 0, n = 0;
+    for (let t = d; t < x.length - 1; t++) { const r = g.op(x[t], g.inv(x[t - d])); if (g.op(r, x[t + 1 - d]) === x[t + 1]) ok++; n++; }
+    rows.push([d, n ? ok / n : 0]); }
+  const best = rows.filter(r => r[1] === 1).map(r => r[0]);
+  const a = +$("#gA").value, b = +$("#gB").value;
+  let comp = "";
+  if (g.has(a) && g.has(b)) { const ab = g.op(b, a), bad = [...Array(12).keys()].filter(g.has).find(z => g.op(b, g.op(a, z)) !== g.op(ab, z));
+    comp = `<p>Move ${a} then move ${b} equals the single move ${ab}: ${bad === undefined ? `<span class="ok">no counterexample on all of ${g.name}</span>` : `<span class="no">fails at ${bad}</span>`}.</p>`; }
+  else comp = `<p class="note">Enter two elements of ${g.name} to test composition.</p>`;
+  $("#gOut").innerHTML = `<h3>Lags that reproduce the sequence exactly: ${best.length ? `<span class="mono">${best.join(", ")}</span>` : "none"}</h3>
+   <div class="tablebox"><table><thead><tr><th>Lag</th><th>Exact next-value forecasts</th></tr></thead><tbody>${
+   rows.map(([d, v]) => `<tr><td class="num">${d}</td><td><div class="progress" style="max-width:260px;display:inline-block;width:60%;vertical-align:middle"><i style="width:${(v * 100).toFixed(0)}%"></i></div> <span class="mono">${(v * 100).toFixed(0)}%</span></td></tr>`).join("")}</tbody></table></div>${comp}`;
+}
+function setupTransform() {
+  const melody = () => { const m = [0, 4, 7, 4, 2, 5, 9, 5]; return Array.from({ length: 48 }, (_, t) => (m[t % 8] + 5 * Math.floor(t / 8)) % 12); };
+  document.querySelectorAll("[data-gs]").forEach(bt => bt.onclick = () => {
+    if (bt.dataset.gs === "melody") { $("#gGroup").value = "z12"; $("#gSeq").value = melody().join(", "); $("#gA").value = 5; $("#gB").value = 7; }
+    else { $("#gGroup").value = "u9"; $("#gSeq").value = Array.from({ length: 30 }, (_, t) => [1, 2, 4, 8, 7, 5][t % 6]).join(", "); $("#gA").value = 2; $("#gB").value = 5; }
+    renderTransform(); });
+  ["#gGroup", "#gSeq", "#gA", "#gB"].forEach(s => $(s).addEventListener("input", renderTransform));
+  $("#gSeq").value = melody().join(", "); renderTransform();
+}
+
+
+/* ---------- Orbit classifier ---------- */
+function orbitOf(a, b, m) { const seen = new Set(), o = []; let s = [((a % m) + m) % m, ((b % m) + m) % m];
+  while (!seen.has(s.join())) { seen.add(s.join()); o.push(s); s = [s[1], (s[0] + s[1]) % m]; } return o; }
+const normN = (v, m) => (((v[0] * v[0] + v[0] * v[1] - v[1] * v[1]) % m) + m) % m;
+function lambda(v, k) { const m = 3 ** k; let r = 0; while (r < k && v[0] % 3 ** (r + 1) === 0 && v[1] % 3 ** (r + 1) === 0) r++;
+  const q = 3 ** (k - r); if (q === 1) return [r, 0]; const u = [(v[0] / 3 ** r) % q, (v[1] / 3 ** r) % q]; return [r, (normN(u, q) ** 2) % q]; }
+function renderOrbits() {
+  const k = +$("#oK").value, m = 3 ** k, a = +$("#oA").value, b = +$("#oB").value;
+  if (!Number.isInteger(a) || !Number.isInteger(b)) { $("#oOut").innerHTML = `<p class="no">Enter whole numbers for a and b.</p>`; return; }
+  const o = orbitOf(a, b, m), L = lambda(o[0], k);
+  const all = new Map(), seen = new Set();
+  for (let x = 0; x < m; x++) for (let y = 0; y < m; y++) { if (seen.has(x + "," + y)) continue; const ob = orbitOf(x, y, m); ob.forEach(s => seen.add(s.join()));
+    const key2 = lambda(ob[0], k).join(", ") + " | " + ob.length; all.set(key2, (all.get(key2) || 0) + 1); }
+  const rows = [...all.entries()].sort();
+  $("#oOut").innerHTML = `<dl class="kv"><dt>State</dt><dd class="mono">(${o[0].join(", ")}) mod ${m}</dd>
+   <dt>Orbit length</dt><dd class="mono">${o.length}</dd><dt>Address Λ</dt><dd class="mono"><b>(${L.join(", ")})</b>${k === 2 && L[0] === 0 && L[1] === 4 ? ' <span class="tag cv">canonical orbit</span>' : ""}</dd>
+   <dt>N along the orbit</dt><dd class="mono">${[...new Set(o.map(s => normN(s, m)))].sort((x, y) => x - y).join(", ")} (sign flips each step)</dd></dl>
+   <div class="label">All orbits at k = ${k}: ${seen.size ? rows.reduce((t, [, c]) => t + c, 0) : 0} orbits, (3^k + 1)/2 = ${(m + 1) / 2}; each address names exactly one orbit</div>
+   <div class="tablebox"><table><thead><tr><th>Λ</th><th>Length</th><th>Orbits</th></tr></thead><tbody>${rows.map(([kk, c]) => { const [l, len] = kk.split(" | "); return `<tr><td class="num">(${l})</td><td class="num">${len}</td><td class="num">${c}</td></tr>`; }).join("")}</tbody></table></div>`;
+}
+function setupOrbits() { ["#oA", "#oB", "#oK"].forEach(s => $(s).addEventListener("input", renderOrbits)); renderOrbits(); }
+
+/* ---------- Register ---------- */
+let regFilter = "ALL";
+function fmtRes(r) { if (r == null) return ""; if (typeof r === "string") return r;
+  return Object.entries(r).map(([k, v]) => `${k.replace(/_/g, " ")}: ${typeof v === "object" && !Array.isArray(v) ? Object.entries(v).map(([a, b]) => `${a} ${b}`).join(", ") : Array.isArray(v) ? v.join(", ") : v}`).join("; "); }
+function renderRegister() {
+  const kinds = ["ALL", "PROVED", "VERIFIED COMPUTATION", "TESTABLE", "UNPROVEN", "PROPOSED", "REVISED", "REJECTED"];
+  $("#fFilter").innerHTML = ""; kinds.forEach(k => { const n = k === "ALL" ? REGISTER.length : REGISTER.filter(e => e.status === k).length;
+    const b = el("button", { textContent: `${k === "ALL" ? "All" : k[0] + k.slice(1).toLowerCase()} (${n})` }); b.setAttribute("aria-pressed", regFilter === k);
+    b.onclick = () => { regFilter = k; renderRegister(); }; $("#fFilter").append(b); });
+  $("#fBody").innerHTML = REGISTER.filter(e => regFilter === "ALL" || e.status === regFilter).map(e =>
+    `<tr><td class="num">${e.id}</td><td>${e.h}<div class="note">${e.b}</div></td><td>${e.c}</td><td><span class="${e.out === "PASS" ? "ok" : e.out === "FAIL" ? "no" : "pend"}">${e.state}${e.out ? " · " + e.out : ""}</span><div class="note">${fmtRes(e.res)}</div></td><td><span class="status s-${e.status.split(" ")[0]}">${e.status}</span></td></tr>`).join("");
+}
+
+/* ---------- Routing ---------- */
+const VIEWS = ["seeds", "nodes", "rounds", "orbits", "compare", "temporal", "transform", "register"];
+const inited = {};
+const SETUP = { seeds: renderSeeds, nodes: setupNodes, rounds: setupRounds, orbits: setupOrbits, compare: setupCompare, temporal: setupTemporal, transform: setupTransform, register: renderRegister };
+function route() {
+  const v = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "seeds";
+  VIEWS.forEach(n => { $("#v-" + n).hidden = n !== v; });
+  document.querySelectorAll("#tabs a").forEach(a => a.setAttribute("aria-current", a.getAttribute("href") === "#" + v ? "page" : "false"));
+  if (!inited[v]) { inited[v] = true; SETUP[v](); }
+}
+addEventListener("hashchange", route); route();
+</script>

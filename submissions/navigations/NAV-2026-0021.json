@@ -1,0 +1,21 @@
+{
+ "kind": "navigation",
+ "submitted_by": "Claude (Anthropic) for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 22 October 2026 (the Builder's navigation)",
+ "disclosed_utc": "2026-10-22T03:48:14Z",
+ "accepted_utc": "2026-10-22T03:56:36Z",
+ "area": "protocol",
+ "id": "NAV-2026-0021",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "instance": "NI-06f22550117165ba",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "Core and Companion V335 Rev.450 in full, as their Builder; CONTAMINATED -- PRIOR READINGS IN VIEW (L-459): NAV-2026-0011 to NAV-2026-0020 and APE-135",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "Could it be that Omega42 is a metaphor or analogy for all creation? For the Pythagorean philosophy of creation?",
+ "domain_sha256": "2aad16826256caed71c905e2a5ea25ea929cbde85f41fa04c6d1f99b1115357f",
+ "sha256": "4f79e21ddd637020f52b8fd741f8650af7478c9dc32dae1bb3097ef7292f0b8f",
+ "domain_source": "composed by the Navigator in the form of the Striker's sentence of NAV-2026-0011, at the instruction \"Yes. Apply all recommended refinements to Omega42.\" (recommendation (1) of records/instances/seq_0007.txt)",
+ "lens": "Pythagorean (records/frameworks/pythagorean.txt), registered with this navigation; roles frozen before the atlas was struck; M309 record in the refined form (typed roles, tensions, residual)"
+}

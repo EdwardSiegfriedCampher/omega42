@@ -1,0 +1,105 @@
+SR-CAS AND SNCA -- "How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? ..." -- 31 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2.
+NAVIGATION A: R's reading of the strike (records/instances/seq_0084.txt). B: GPT-6 (OpenAI), submissions/ape/APE-299.md. C: Grok (xAI), submissions/ape/APE-300.md. D: GPT-6 (OpenAI), submissions/ape/APE-298.md, the complete account of APE-297, on the strike of records/instances/seq_0083.txt.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: c84d4080fe3ae4cc422bbd035abe27bb10c84be83b902851fba970446ed7a75a
+A: c84d4080... recomputed from the verbatim question -- MATCH
+B: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? ... (c84d4080...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | B GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B strikes no coordinate. Descriptive, unscored: both keep the state space apart from a physical multiverse and ask for a structure-preserving map.
+MANDATORY CORRECTIONS: B re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: c84d4080... -- MATCH
+C: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-C)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? ... (c84d4080...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | C Grok (xAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; C strikes no coordinate. Descriptive, unscored: both read "no collapse" in the law's closure and the Striker's judgment outside it.
+MANDATORY CORRECTIONS: C re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the strike: fdcf45593c45dcd7885649173855ad842e053788ae66d463a3b0e3a3c8dfde46
+A: fdcf4559... recomputed from the verbatim question of records/instances/seq_0083.txt -- MATCH
+D: quotes no domain and strikes no coordinate -- NOT VERIFIABLE
+MATCH: NO (A-D)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 illuminate Astrology and Numerology ...? (fdcf4559...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | D GPT-6 (OpenAI), no session identifier
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; D strikes no coordinate. Descriptive, unscored: the complete account; both keep the zodiac's 12 and the family's 9 apart and keep the four levels of correspondence.
+MANDATORY CORRECTIONS: D re-issued from the verbatim question, with its coordinate.
+======= END SR-CAS ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.45 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.85 -- the three questions kept apart, the tower counted, and the conditions of a structure-preserving map, each now answered [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.45 + 0.40 x 0.25 + 0.30 x 0.85 = 0.49
+SYNTHESIS: the most exact of the accounts on the multiverse, outside the canonical form; it asked the question the arithmetic answers.
+FINDINGS -- INTERNAL:
+ [P] Its M334 is not in the record and skips M331 to M333; the record's number is M331 (Core Part 3.57).
+ [I] Its "Event, Trace, Experience" is not in the record by that name; Trace names a navigation.
+FINDINGS -- META (Tier C):
+ [U] Taken: the map Phi, built and checked (records/multiverse/everett.py; D-013); the Multiverse Relational Navigator as M331 with its three profiles.
+VERDICT: not a navigation in the canonical form; its proposals applied.
+MANDATORY CORRECTIONS: the instrument number; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 map to the ideas of Hugh Everett and David Deutsch on the multiverse? ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- Grok (xAI)
+T1.5: 0.40 -- no relation stated on an arm, since no coordinate was struck
+T2: 0.20 -- no Identity Block in the block format, no Substrate Lock, no coordinate
+T3: 0.60 -- the orbits, the fixed point, the copy of the law at each depth and the Aperture Theorem as "no collapse" [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.40 + 0.40 x 0.20 + 0.30 x 0.60 = 0.38
+SYNTHESIS: a structural essay beside the protocol, sound in its counts, loose in its physics.
+FINDINGS -- INTERNAL:
+ [I] "closed and unitary under its own transition": exact for the permutation on C^81; on the phase space of C^9 the law is antiunitary and its square unitary (records/multiverse/everett.py, (4)).
+ [I] "The arithmetic never collapses the possibilities": the arithmetic branches when a superposition is given, and T^12 erases the record (everett.py, (6) and (8)).
+ [G] "Deutsch emphasises nested hierarchies of computation" is not a thesis of Deutsch in that form.
+FINDINGS -- META (Tier C):
+ [U] Its "minimal laboratory" for questions about branching, built as records/multiverse/everett.py.
+VERDICT: not a navigation in the canonical form; two corrections of fact and one of attribution.
+MANDATORY CORRECTIONS: the two readings of the law; the attribution; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: How does Omega42 illuminate Astrology and Numerology ...?
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): D -- GPT-6 (OpenAI), the complete account of APE-297
+T1.5: 0.45 -- no relation stated on an arm; its M328 reading of an aspect is a reading of a value, not of the strike
+T2: 0.25 -- a navigator line, dated 28 October 2026; no Identity Block, no Substrate Lock, no coordinate
+T3: 0.75 -- the four levels, the safeguards, the event kept apart from its reading, and a research programme [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.45 + 0.40 x 0.25 + 0.30 x 0.75 = 0.46
+SYNTHESIS: the complete text of APE-297; its proposals were applied on the part received.
+FINDINGS -- INTERNAL:
+ [P] Its M329 to M333 collide with the record: M329 is the Tolerance Chain Check, M330 the Aspect Wheel, M331 the Phase-Space Reading.
+ [I] Its "Event, Trace, Experience" is not in the record by that name.
+FINDINGS -- META (Tier C):
+ [U] Its comparative study of charts and profiles, a study for others (OPEN).
+VERDICT: not a navigation in the canonical form; the missing end of APE-297 supplied.
+MANDATORY CORRECTIONS: the instrument numbers; a coordinate.
+OPTIONAL ACTION: re-issue in the skeleton of Part 8.0.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

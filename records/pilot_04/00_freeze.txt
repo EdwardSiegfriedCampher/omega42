@@ -1,0 +1,13 @@
+Omega42 PHYSICAL PILOT 04 -- S5 FOR THE ANYON CANDIDATE: NULL THEORIES ON THE SAME LABEL GROUP
+FROZEN BEFORE ANY SYSTEM BELOW IS COMPUTED. Navigator: claude-opus-5-5 (Anthropic). 10 October 2026.
+Follows pilot 03, where SU(9)_1 x SU(9)_1 met S4.
+
+NULL CLASS. Every abelian anyon theory on the label group Z/9 x Z/9 whose spins are q(x) = Q(x)/9 mod 1 for a binary
+quadratic form Q(a, b) = alpha a^2 + beta ab + gamma b^2 over Z/9 with nondegenerate bilinear form (beta^2 - 4 alpha gamma
+a unit mod 9). SU(9)_1 x SU(9)_1 is one of them (h_a = 4a^2/9 mod 1, so Q = 4a^2 + 4b^2). The Z/9 toric code is another
+(Q = ab).
+TEST. For every form, count the golden anti-isometries (A in GL2(Z/9), A^2 = A + I, q(Ax) = -q(x)) and group the forms
+into equivalence classes under GL2(Z/9) (forms related by a change of labels are the same theory).
+S5 IS MET if the property "has a golden anti-isometry" holds for the class of SU(9)_1 x SU(9)_1 and for at most one
+other class out of all classes, so that the property discriminates; NOT MET otherwise. The count of classes with the
+property is reported in full. No outcome is predicted.

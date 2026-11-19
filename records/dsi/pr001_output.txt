@@ -1,0 +1,18 @@
+p = 23: |<A, B>| = 24288, every determinant +-1 = 24288
+p = 29: |<A, B>| = 48720, every determinant +-1 = 48720
+p = 31: |<A, B>| = 59520, every determinant +-1 = 59520
+p = 37: |<A, B>| = 101232, every determinant +-1 = 101232
+p = 41: |<A, B>| = 137760, every determinant +-1 = 137760
+p = 43: |<A, B>| = 158928, every determinant +-1 = 158928
+p = 47: |<A, B>| = 207552, every determinant +-1 = 207552
+p = 53: |<A, B>| = 297648, every determinant +-1 = 297648
+p = 59: |<A, B>| = 410640, every determinant +-1 = 410640
+p = 61: |<A, B>| = 453840, every determinant +-1 = 453840
+p = 67: |<A, B>| = 601392, every determinant +-1 = 601392
+p = 71: |<A, B>| = 715680, every determinant +-1 = 715680
+p = 73: |<A, B>| = 777888, every determinant +-1 = 777888
+p = 79: |<A, B>| = 985920, every determinant +-1 = 985920
+p = 83: |<A, B>| = 1143408, every determinant +-1 = 1143408
+p = 89: |<A, B>| = 1409760, every determinant +-1 = 1409760
+p = 97: |<A, B>| = 1825152, every determinant +-1 = 1825152
+PR-001: PASS

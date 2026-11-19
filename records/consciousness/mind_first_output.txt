@@ -1,0 +1,13 @@
+MIND-FIRST READING OF CT-42 -- the exact facts it rests on [CDT-A]; the readings are HELD conjectures C49 to C63
+  (1) orbits of the law on the 81 states: 5, of sizes 1 + 8 + 24 + 24 + 24; a state never leaves its orbit under T
+  (2) doubling carries the three orbits of 24 one into the next: orbit of (0, 1) -> orbit of (0, 2), orbit of (0, 2) -> orbit of (0, 4), orbit of (0, 4) -> orbit of (0, 1)
+  (3) nonzero states the law carries onto a multiple of themselves (eigen-lines mod 9): 0; x^2 - x - 1 = 0 mod 9 has 0 roots
+  (4) T^12 = -I on all 81 states: True; negation keeps every orbit: True
+  (5) nonzero states fixed by T^k, k = 1 to 23: k=8: 8, k=16: 8
+  (6) the core (both entries divisible by 3): 9 states, orbits of sizes [1, 8] -- the family modulo 3 (9 states) one scale down
+  (7) the norm on the 72 units: 6 values, 1, 2, 4, 5, 7, 8, each held by 12 states; N(Ts) = -N(s) on all 81: True -- the norm up to sign is kept by every step (shared), its sign, the half, flips (its own; FP-PhaseParity)
+  (8) the core squares to zero in Z[phi]/9, (a + b phi)^2 = (a^2 + b^2) + (2ab + b^2) phi: True, on all 9 core states
+  (9) every state has exactly one predecessor, T^-1(a, b) = (b - a, a): True (FP-GlideMirror)
+  (10) the seeds of FP-StateSpace name the orbits: Fibonacci (1, 1) norm +-1, Voice A; Lucas (2, 1) norm +-4, Voice B, the orbit of (1, 3): True; the canonical (2, 5) norm +-2, Voice C
+READING: the facts are neutral between a mind-first, a dual-aspect and a matter-first reading of the one family; which is
+taken is a reading (INTERPRETATION), held under Core L-498, and grades nothing (L-490).

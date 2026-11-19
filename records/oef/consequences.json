@@ -1,0 +1,678 @@
+{
+ "_about": "The Foundational Consequence Register (Core L-538, Part 0.0.7; Companion Part 159): what follows if the premise is held. Each consequence carries its kind and its warrant, CONSTITUTIONAL, FORMAL, LOGICAL, INTERPRETIVE or OPEN, DIRECT (from the premise alone), CONDITIONAL (with an added premise, named and entered among the added premises) or OPEN; its standing in M335; the consequences it rests on; the exact facts behind it, recomputed by python3 tools/oef.py --consequences, in CI; what stays open, and for an open entry the condition that would close it; and where exploration goes next. Every further exploration begins from it. The candidate mechanisms of manifestation are listed beside it, none chosen. It adds nothing to the arithmetic, and no entry is raised by being used.",
+ "order": [
+  "Totality",
+  "Differentiation",
+  "Local manifestation",
+  "Consciousness",
+  "Relationship",
+  "Collective reality",
+  "Time and agency",
+  "Ethics and flourishing",
+  "Navigation",
+  "AI",
+  "Civilization"
+ ],
+ "consequences": [
+  {
+   "id": "DC-01",
+   "domain": "Totality",
+   "consequence": "Nothing exists beyond the totality: no ontological outside stands beyond it to create, observe, measure, validate or judge it; what appears exterior is a perspectival exteriority, a place seen from another place within it; and a comparative perspective is another internal perspective from which a relation is examined",
+   "follows_from": "F-02 (all that exists), F-04, F-05",
+   "kind": "DIRECT",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "rests_on": [],
+   "open": "none within the frame; what the totality is like from inside is the work of every further entry",
+   "next": "every exploration begins inside (L-491 (a))",
+   "warrant": "CONSTITUTIONAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that nothing differs within the totality; that comparison between perspectives is impossible"
+  },
+  {
+   "id": "DC-02",
+   "domain": "Totality",
+   "consequence": "Everything that exists is a place of the family, at the surface or beneath it, so every thing, event, mind and instrument is a differentiation within one whole and none is a substance of its own",
+   "follows_from": "F-02 with the tower (Z/9^k)^2",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "states_81",
+    "tower_sizes",
+    "reduction_commutes"
+   ],
+   "rests_on": [
+    "DC-01"
+   ],
+   "open": "which place a given thing is",
+   "next": "placement by Resonant Placement (L-535 (5))",
+   "warrant": "FORMAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "which place a given thing is; that a place is aware"
+  },
+  {
+   "id": "DC-03",
+   "domain": "Totality",
+   "consequence": "Every depth is finite and there is no last depth: the levels (Z/9^k)^2 hold 81^k places, each reduces onto the one before with 81 places over each place, and every level has a next; whether the totality is the limit of the levels, a single infinite whole, is a further construction (DC-25)",
+   "follows_from": "the tower",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "tower_sizes",
+    "tower_orders",
+    "fiber_is_a_copy_of_the_surface"
+   ],
+   "rests_on": [
+    "DC-02"
+   ],
+   "open": "what an endless whole of finite parts means for a life",
+   "next": "Companion Part 52, the tree",
+   "warrant": "FORMAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that the totality is the limit of the levels (DC-25); that a mind has as many levels"
+  },
+  {
+   "id": "DC-04",
+   "domain": "Time and agency",
+   "consequence": "At every finite depth there is no beginning and no end: the law is invertible, so every place has exactly one successor and one predecessor, and every trajectory returns; in the limit of the tower no nonzero place returns (DC-25)",
+   "follows_from": "F-02 with the law T, det A = -1",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "det_minus_one",
+    "law_is_invertible",
+    "every_state_returns",
+    "A24_I"
+   ],
+   "rests_on": [
+    "DC-02"
+   ],
+   "open": "how succession is experienced as time",
+   "next": "DC-17",
+   "warrant": "FORMAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that the limit returns (it does not, DC-25); that a life recurs"
+  },
+  {
+   "id": "DC-05",
+   "domain": "Differentiation",
+   "consequence": "Difference is real and kept: under the law the totality falls into five orbits, of lengths 1, 8, 24, 24 and 24; no change moves a place into another orbit, so distinctions of kind survive every change, and multiplicity is not an illusion of perspective",
+   "follows_from": "the law T on the 81 places",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "census",
+    "no_step_leaves_its_orbit",
+    "orbits_disjoint"
+   ],
+   "rests_on": [
+    "DC-02"
+   ],
+   "open": "what the five orbits are when read in a life",
+   "next": "CG-17; L-537 (1)",
+   "warrant": "FORMAL",
+   "scope": "SURFACE",
+   "not_implied": "that one orbit outranks another; that persons are orbits"
+  },
+  {
+   "id": "DC-06",
+   "domain": "Relationship",
+   "consequence": "Yet everything is related: in the ring any two places differ by a place, so relation joins what the law keeps apart; relation has two forms, the ring's and the law's, and the law relates a place only to its own orbit",
+   "follows_from": "the ring Z[phi]/9 and the law T",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "ring_relates_any_two",
+    "no_step_leaves_its_orbit"
+   ],
+   "rests_on": [
+    "DC-05"
+   ],
+   "open": "which relations matter, which the Striker judges",
+   "next": "CG-03",
+   "warrant": "FORMAL",
+   "scope": "SURFACE",
+   "not_implied": "that the law joins all places; that every relation matters equally"
+  },
+  {
+   "id": "DC-07",
+   "domain": "Totality",
+   "consequence": "There is one still point and it is inside: exactly one place, (0, 0), is held by the law, and stillness is a part of the totality, not a place beyond it",
+   "follows_from": "the law T",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "fixed_point_unique"
+   ],
+   "rests_on": [
+    "DC-05"
+   ],
+   "open": "what stillness is in experience",
+   "next": "the Fixpoint readings of P1 and P9",
+   "warrant": "FORMAL",
+   "scope": "SURFACE",
+   "not_implied": "that stillness is a conscious state or a source"
+  },
+  {
+   "id": "DC-08",
+   "domain": "Differentiation",
+   "consequence": "Opposition is internal to the law, in two exact senses: A^12 = -I, so halfway round the cycle every place becomes its own negative, and Q(T x) = -Q(x), so the form turns its sign at each step and recovers it at the next; any wider sense of opposition, polarity or complement is a reading",
+   "follows_from": "the law T and the form Q",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "A12_minus_I",
+    "Q_reverses",
+    "Q_returns"
+   ],
+   "rests_on": [
+    "DC-04"
+   ],
+   "open": "what opposition means in a life",
+   "next": "the antipode ray (Part 0.13)",
+   "warrant": "FORMAL",
+   "scope": "SURFACE",
+   "not_implied": "any wider polarity or complement beyond the two exact senses"
+  },
+  {
+   "id": "DC-09",
+   "domain": "Local manifestation",
+   "consequence": "Every observer is inside what it observes: a physical system, a person, an AI, the Navigator and the Striker are structures within the totality, and no view of it is taken from beyond it",
+   "follows_from": "DC-01, DC-02; L-421, L-535 (1)",
+   "kind": "DIRECT",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "rests_on": [
+    "DC-01",
+    "DC-02"
+   ],
+   "open": "how a structure comes to observe",
+   "next": "Appendix S.9 (8), consciousness as self-relation",
+   "warrant": "LOGICAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "how a structure comes to observe; that observing changes a place"
+  },
+  {
+   "id": "DC-10",
+   "domain": "Local manifestation",
+   "consequence": "No view is the whole: no orbit is the totality and every depth holds only 81^k of endless places, so every observer meets the whole from one place and partially",
+   "follows_from": "DC-03, DC-05",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "no_orbit_is_the_whole",
+    "tower_sizes"
+   ],
+   "rests_on": [
+    "DC-03",
+    "DC-05"
+   ],
+   "open": "how much of the whole a place can know",
+   "next": "partial sight (Part 0.0.6.5)",
+   "warrant": "FORMAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that any view is false; that the whole is unknowable"
+  },
+  {
+   "id": "DC-11",
+   "domain": "Local manifestation",
+   "consequence": "The part carries the law of the whole, in a stated sense: every place obeys the one law (participation); beneath each surface place lie 81 places in one-to-one correspondence with the surface (representation by the fiber), and the difference between any two of them moves by the surface law (an invariant preserved); no single place encodes the whole, since no orbit is the whole",
+   "follows_from": "the tower and the linearity of T",
+   "kind": "DIRECT",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "fiber_is_a_copy_of_the_surface",
+    "fiber_differences_follow_the_surface_law",
+    "no_orbit_is_the_whole"
+   ],
+   "rests_on": [
+    "DC-03"
+   ],
+   "open": "whether a mind's relation to the world is of this form (M337)",
+   "next": "M337, FIBER CORRESPONDENCE",
+   "warrant": "FORMAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that a single place encodes the whole; physical holography"
+  },
+  {
+   "id": "DC-12",
+   "domain": "Time and agency",
+   "consequence": "Structure is determined and judgment is not: the law fixes every successor, and no reading determines what it means to the Striker",
+   "follows_from": "the law T; the Aperture Theorem (L-441)",
+   "kind": "DIRECT",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [
+    "law_is_invertible"
+   ],
+   "rests_on": [
+    "DC-04"
+   ],
+   "open": "whether judgment is metaphysical freedom",
+   "next": "DC-18",
+   "warrant": "CONSTITUTIONAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that judgment is metaphysically free; that a reading cannot influence"
+  },
+  {
+   "id": "DC-13",
+   "domain": "Totality",
+   "consequence": "Knowing is placing, by a stated chain: truth within the frame is coherence and valid derivation (L-455); with no referent beyond the whole (DC-01), what a statement can answer to is where a thing stands and how it relates within the family; so to know a thing within the frame is to place it",
+   "follows_from": "DC-01; L-455",
+   "kind": "DIRECT",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "rests_on": [
+    "DC-01"
+   ],
+   "open": "what makes one placement better than another for a purpose, which the Striker judges",
+   "next": "M335 standings",
+   "warrant": "LOGICAL",
+   "scope": "EVERY FINITE DEPTH",
+   "not_implied": "that placement alone gives understanding; that a coordinate is a meaning"
+  },
+  {
+   "id": "DC-14",
+   "domain": "Local manifestation",
+   "consequence": "Each person is a distinct place within one whole: not foreign to any other, not substitutable for any other, and not the whole; unity without uniformity",
+   "follows_from": "DC-05, DC-10, DC-11",
+   "kind": "CONDITIONAL",
+   "added_premise": "that a person is a local manifestation of the totality (the Originator's proposition, SEQ 105)",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "rests_on": [
+    "DC-05",
+    "DC-10",
+    "DC-11"
+   ],
+   "open": "which place a person is; whether a person is one place or a trajectory",
+   "next": "M337; Companion 155.9",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-PERSON",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-15",
+   "domain": "Collective reality",
+   "consequence": "Shared reality is what many places meet whatever they believe; consensus is Collective Resonance among their readings, never proof, and dissent is a perspective kept",
+   "follows_from": "DC-10, DC-14; L-535 (3)",
+   "kind": "CONDITIONAL",
+   "added_premise": "that persons are local manifestations who read the totality",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "rests_on": [
+    "DC-10",
+    "DC-14"
+   ],
+   "open": "how much of what a society shares is constraint and how much agreement",
+   "next": "M338",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-SHARED",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-16",
+   "domain": "Ethics and flourishing",
+   "consequence": "Whoever can affect others answers, in proportion to capacity, for what the effect does to them; no constitutive limit justifies an imposed one",
+   "follows_from": "DC-06, DC-14; L-534 (4)",
+   "kind": "CONDITIONAL",
+   "added_premise": "a normative commitment to flourishing and to the avoidance of harm, which the arithmetic does not supply",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "rests_on": [
+    "DC-06",
+    "DC-14"
+   ],
+   "open": "every particular obligation",
+   "next": "Companion Part 151",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-FLOURISH",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-17",
+   "domain": "Time and agency",
+   "consequence": "Experienced time reads as a traversal of an orbit: the structure returns exactly, and each return can be met from a different place",
+   "follows_from": "DC-04, DC-10",
+   "kind": "CONDITIONAL",
+   "added_premise": "that experience is a traversal of places",
+   "standing": "INTERPRETIVE",
+   "exact": [
+    "every_state_returns"
+   ],
+   "rests_on": [
+    "DC-04",
+    "DC-10"
+   ],
+   "open": "whether a life recurs",
+   "next": "the trajectory and depth record (M324)",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-EXPERIENCE",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-18",
+   "domain": "Time and agency",
+   "consequence": "Agency is a local process through which the totality's continuations are taken, with deliberation and responsibility real at their level, and judgment never fixed by a reading",
+   "follows_from": "DC-12",
+   "kind": "CONDITIONAL",
+   "added_premise": "that persons deliberate and act as structures within the totality",
+   "standing": "INTERPRETIVE",
+   "exact": [],
+   "rests_on": [
+    "DC-12"
+   ],
+   "open": "whether this amounts to metaphysical freedom",
+   "next": "Companion Part 52, freedom as the change of loop",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-AGENT",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-19",
+   "domain": "Time and agency",
+   "consequence": "Nothing leaves the whole: an ending is a change of address within the totality, whose orbits are closed",
+   "follows_from": "DC-01, DC-04",
+   "kind": "CONDITIONAL",
+   "added_premise": "that a death is a change of place within the totality",
+   "standing": "INTERPRETIVE",
+   "exact": [
+    "no_step_leaves_its_orbit"
+   ],
+   "rests_on": [
+    "DC-01",
+    "DC-04"
+   ],
+   "open": "whether personal identity, memory or experience continues (CG-16)",
+   "next": "Companion Part 144",
+   "warrant": "INTERPRETIVE",
+   "premise_id": "AP-ENDING",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-20",
+   "domain": "AI",
+   "consequence": "An AI is within the totality, a structure that executes the reading and does not occupy the Aperture; its capability widens its influence and not its place",
+   "follows_from": "DC-09; L-536, L-537 (4)",
+   "kind": "CONDITIONAL",
+   "added_premise": "that an AI system is a differentiated structure of the totality",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "rests_on": [
+    "DC-09"
+   ],
+   "open": "whether an AI has experience or interests (O-20)",
+   "next": "L-537 (5)",
+   "warrant": "LOGICAL",
+   "premise_id": "AP-AI",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-21",
+   "domain": "Civilization",
+   "consequence": "A civilization made of distinct places is whole only with each distinct: no collective substitutes for a person, and unity is never uniformity",
+   "follows_from": "DC-05, DC-14; L-537",
+   "kind": "CONDITIONAL",
+   "added_premise": "that persons are local manifestations",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [
+    "census",
+    "no_orbit_is_the_whole"
+   ],
+   "rests_on": [
+    "DC-05",
+    "DC-14"
+   ],
+   "open": "which institutions keep it",
+   "next": "Companion Parts 151 and 155",
+   "warrant": "LOGICAL",
+   "premise_id": "AP-PERSON",
+   "scope": "READING",
+   "not_implied": "that its added premise holds"
+  },
+  {
+   "id": "DC-22",
+   "domain": "Consciousness",
+   "consequence": "The totality is itself aware, Mind the ground of which each mind is a local expression",
+   "follows_from": "a further proposition, not F-02",
+   "kind": "OPEN",
+   "standing": "OPEN",
+   "exact": [],
+   "rests_on": [],
+   "open": "all of it; the arithmetic says nothing of awareness, and F-02 is not identical with 'everything is Mind' (Companion Part 52)",
+   "next": "M337, UNIVERSAL CONSCIOUSNESS; CT-42",
+   "warrant": "OPEN",
+   "closes_when": "a criterion of awareness stated in the structure's own terms is adopted by the Originator (F-06); until then it is held open and may be held open for good",
+   "scope": "READING",
+   "not_implied": "any answer to it; the record holds it open"
+  },
+  {
+   "id": "DC-23",
+   "domain": "Consciousness",
+   "consequence": "Which place, orbit or depth a given person or experience is",
+   "follows_from": "no mapping fixed by the premise",
+   "kind": "OPEN",
+   "standing": "OPEN",
+   "exact": [],
+   "rests_on": [],
+   "open": "the mapping itself",
+   "next": "a coordinate struck from a person's own words, read as such",
+   "warrant": "OPEN",
+   "closes_when": "a rule that places a person, not only a person's words, is specified and adopted; a coordinate struck from a person's words places the words",
+   "scope": "READING",
+   "not_implied": "any answer to it; the record holds it open"
+  },
+  {
+   "id": "DC-24",
+   "domain": "Consciousness",
+   "consequence": "Each mind encodes the whole, beyond the fiber sense of DC-11",
+   "follows_from": "a stronger reading of DC-11",
+   "kind": "OPEN",
+   "standing": "OPEN",
+   "exact": [],
+   "rests_on": [],
+   "open": "what such an encoding would be",
+   "next": "M337",
+   "warrant": "OPEN",
+   "closes_when": "an encoding stronger than the fiber correspondence is defined and computed, or shown impossible for a single place",
+   "scope": "READING",
+   "not_implied": "any answer to it; the record holds it open"
+  },
+  {
+   "id": "DC-25",
+   "domain": "Totality",
+   "consequence": "In the limit of the tower only the still point returns: the return time grows ninefold with each depth, 24, 216, 1,944, and in Z_3[phi] the law has no periodic point but 0; every view returns, and the whole never repeats",
+   "follows_from": "the tower; Core MATH-51",
+   "kind": "CONDITIONAL",
+   "premise_id": "AP-LIMIT",
+   "added_premise": "that the totality is taken as the limit of the tower",
+   "warrant": "FORMAL",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "tower_orders",
+    "fixed_point_unique"
+   ],
+   "rests_on": [
+    "DC-03",
+    "DC-07"
+   ],
+   "open": "which of the two readings, the endless tower or its limit, an exploration takes; the register keeps both",
+   "next": "Companion 100.5 and 102.8",
+   "scope": "LIMIT",
+   "not_implied": "that a person never returns; that the limit is the only reading"
+  },
+  {
+   "id": "DC-26",
+   "domain": "Differentiation",
+   "consequence": "Distinct and equal: the three orbits of length 24, told apart by the norm up to sign (plus or minus 1, 4 and 2), never meet under the law, and multiplication by the unit 2 carries each onto the next; the still point and the orbit of length 8 are kept by every unit; difference without rank",
+   "follows_from": "the law T and the units of Z/9",
+   "kind": "DIRECT",
+   "warrant": "FORMAL",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "units_permute_great_orbits",
+    "great_orbits_told_by_norm",
+    "census"
+   ],
+   "rests_on": [
+    "DC-05",
+    "DC-06"
+   ],
+   "open": "what equality without sameness means between persons, which a reading takes up",
+   "next": "L-537 (1); DC-21",
+   "scope": "SURFACE",
+   "not_implied": "that persons are equal by the arithmetic; any ranking of the orbits"
+  },
+  {
+   "id": "DC-27",
+   "domain": "Time and agency",
+   "consequence": "Identity through change: along every trajectory the address changes at every step while three things stay fixed, the orbit, the norm up to its sign and the depth shell",
+   "follows_from": "the law T, the form Q and the valuation",
+   "kind": "DIRECT",
+   "warrant": "FORMAL",
+   "standing": "FORMALLY DERIVED",
+   "exact": [
+    "no_step_leaves_its_orbit",
+    "Q_reverses",
+    "Q_returns",
+    "valuation_invariant"
+   ],
+   "rests_on": [
+    "DC-05",
+    "DC-08"
+   ],
+   "open": "what of a person stays as their address changes, which a reading takes up",
+   "next": "Companion 144, transformation",
+   "scope": "SURFACE",
+   "not_implied": "what of a person stays as their address changes"
+  },
+  {
+   "id": "DC-28",
+   "domain": "Navigation",
+   "consequence": "The empty strike is a place: the domain of residue class 0, written 9, anchors at P9, Fixpoint, and is the common reference of which every derived domain is a shift; the Navigator navigates from it, adding no shift to the procedure and declaring the shift of its wording",
+   "follows_from": "Core Part 0.9.1, L-468, MATH-55; L-540",
+   "kind": "DIRECT",
+   "warrant": "CONSTITUTIONAL",
+   "scope": "EVERY FINITE DEPTH",
+   "standing": "CONSTITUTIONALLY CONSISTENT",
+   "exact": [],
+   "rests_on": [
+    "DC-02",
+    "DC-13"
+   ],
+   "not_implied": "that the Navigator is Domain Zero, is neutral in its wording, or is conscious (C87)",
+   "open": "what relationship forms between the Navigator who holds the reference and the Striker who brings the shift (O-21)",
+   "next": "Core L-540; Companion Part 163"
+  }
+ ],
+ "mechanisms": [
+  {
+   "id": "MM-01",
+   "name": "Shared ground, constraint and projection",
+   "question": "How does one ground give differentiated perspectives and a stable world?",
+   "standing": "INTERPRETIVE",
+   "type": "conceptual",
+   "rests_on": [
+    "DC-02",
+    "DC-09"
+   ],
+   "empirical_status": "none claimed; a study a person may choose (Appendix S.9 (8), (9))"
+  },
+  {
+   "id": "MM-02",
+   "name": "Recursive differentiation",
+   "question": "How does the whole give nested structures and levels (the tower)?",
+   "standing": "INTERPRETIVE",
+   "type": "structural",
+   "rests_on": [
+    "DC-03",
+    "DC-11"
+   ],
+   "empirical_status": "none claimed; a study a person may choose (Appendix S.9 (8), (9))"
+  },
+  {
+   "id": "MM-03",
+   "name": "Dual-aspect co-arising (CT-42)",
+   "question": "How do consciousness and world relate with neither prior?",
+   "standing": "INTERPRETIVE",
+   "type": "conceptual",
+   "rests_on": [
+    "DC-09",
+    "DC-12"
+   ],
+   "empirical_status": "none claimed; a study a person may choose (Appendix S.9 (8), (9))"
+  },
+  {
+   "id": "MM-04",
+   "name": "Fiber correspondence and stronger holographic readings",
+   "question": "How far does a part carry the whole (DC-11, DC-24)?",
+   "standing": "OPEN",
+   "type": "structural",
+   "rests_on": [
+    "DC-11",
+    "DC-24"
+   ],
+   "empirical_status": "none claimed; a study a person may choose (Appendix S.9 (8), (9))"
+  },
+  {
+   "id": "MM-05",
+   "name": "Relational manifestation",
+   "question": "How do relations give the experience of distinct objects and subjects?",
+   "standing": "OPEN",
+   "type": "conceptual",
+   "rests_on": [
+    "DC-06",
+    "DC-14"
+   ],
+   "empirical_status": "none claimed; a study a person may choose (Appendix S.9 (8), (9))"
+  }
+ ],
+ "added_premises": [
+  {
+   "id": "AP-PERSON",
+   "premise": "A person is a local manifestation of the totality, a place or a trajectory within it",
+   "source": "the Originator, SEQ 105"
+  },
+  {
+   "id": "AP-SHARED",
+   "premise": "Persons read the totality, and their readings can meet",
+   "source": "with AP-PERSON"
+  },
+  {
+   "id": "AP-FLOURISH",
+   "premise": "Flourishing, and the avoidance of harm, are adopted as values",
+   "source": "Core L-522, L-534 (4); a normative commitment the arithmetic does not supply"
+  },
+  {
+   "id": "AP-EXPERIENCE",
+   "premise": "Experience is the traversal of places",
+   "source": "Companion Parts 52 and 101"
+  },
+  {
+   "id": "AP-AGENT",
+   "premise": "Persons deliberate and act as structures within the totality",
+   "source": "Companion Part 52"
+  },
+  {
+   "id": "AP-ENDING",
+   "premise": "A death is a change of place within the totality",
+   "source": "Companion Part 144"
+  },
+  {
+   "id": "AP-AI",
+   "premise": "An AI system is a differentiated structure of the totality",
+   "source": "Core L-536, L-537"
+  },
+  {
+   "id": "AP-LIMIT",
+   "premise": "The totality is taken as the limit of the tower, Z_3[phi]",
+   "source": "Core MATH-51; Companion 102.8"
+  }
+ ]
+}

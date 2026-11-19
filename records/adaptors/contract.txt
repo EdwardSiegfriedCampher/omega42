@@ -1,0 +1,11 @@
+M317 ADAPTOR CONTRACT (L-501; Core Part 3.43) -- 9 adaptors
+EN-CANON v450  CANONICAL scripts LATIN | layers content words / letters / syllables | tests 2 | null: UNIFORM-729
+KO-HANGUL-1 v1  COMPANION scripts HANGUL | layers eojeol / syllable blocks / jamo | tests 4 | null: HANGUL-STRUCTURAL-1
+DE-LATN-1 v1  COMPANION scripts LATIN (declared) | layers content words / letters / syllables (vowel groups) | tests 3 | null: UNIFORM-729
+FR-LATN-1 v1  COMPANION scripts LATIN (declared) | layers content words / letters / syllables (vowel groups, silent final e) | tests 3 | null: UNIFORM-729
+RU-CYRL-1 v1  COMPANION scripts CYRILLIC | layers content words / letters / syllables (one per vowel) | tests 3 | null: UNIFORM-729
+EL-GREK-1 v1  COMPANION scripts GREEK | layers content words / letters / syllables (vowels, digraphs as one) | tests 3 | null: UNIFORM-729
+AR-ARAB-1 v1  COMPANION scripts ARABIC | layers content words / letters / vowel nuclei (ESTIMATE: short-vowel marks and long-vowel letters) | tests 3 | null: ABJAD-STRUCTURAL-1
+HE-HEBR-1 v1  COMPANION scripts HEBREW | layers content words / letters / vowel nuclei (ESTIMATE: niqqud and the matres vav and yod) | tests 3 | null: ABJAD-STRUCTURAL-1
+HI-DEVA-1 v1  COMPANION scripts DEVANAGARI | layers content words / aksharas / akshara components (consonants, vowels, vowel signs) | tests 3 | null: AKSHARA-STRUCTURAL-1
+CHECK: PASS

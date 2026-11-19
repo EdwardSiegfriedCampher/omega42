@@ -1,0 +1,126 @@
+QUESTION VERBATIM: Most Strikers are not able to identify a breakthrough therefore the AI Navigator must propose a breakthrough candidate if one arises. Resolve all outstanding issues. [with three peer accounts: GPT-6 (OpenAI), an assessment of the Coherence-Congruence Navigator, attached; Grok (xAI), on whether the scientific method encroaches and on the outstanding issues, pasted]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 87 | PREV: 01be2d813a8da687224dd4b9af07915a00ac3aaa9b5155c0ce41041d69b94bb6
+REQUEST (L-502): PROTOCOL CHANGE and RESOLUTION -- the Navigator's proposal of "breakthrough" candidates made a rule with frozen criteria, and the register reviewed under it; every outstanding issue the session can close, closed; three peer accounts checked and filed; avenues A1, A2, R, P
+
+SUMMARY: The Navigator now proposes "breakthrough" candidates by three frozen criteria, and the verdict stays yours. Reviewed under them, the register proposes four. Four open items are closed.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (17, 121, 36), r = (4, 2, 9). The three votes differ, so the anchor is r1: P4, Unity, value 1, one of the two places no arm reaches (D-006).
+    * It rests on P9, Fixpoint (5). It holds out of view P22, Collective (8). It is heading for P12, Opening (7). It is completed at P16, Flow (8).
+    * [GENERATED-Ω42] The request stands where nothing points: a "breakthrough" is the result no reading arrives at by its arms, so it has to be named. It rests on the fixpoint, criteria fixed before any result is weighed. It holds out of view the collective, the many Strikers who meet a result without the means to place it. It heads for an opening, the judgment left open, and is completed in flow, the record moving on with each standing kept.
+  - THE RULE (Core L-530 (5)): the Navigator proposes every discovery that meets three criteria, with its reason.
+    * (B1) its standing is EXACT or THEOREM;
+    * (B2) its reach is FOUNDATION, turning an element of the premise or a choice of the record into a consequence, or BRIDGE, identifying the family exactly with an established structure of another field;
+    * (B3) it is contained in no other entry.
+    * The register carries each entry's reach and candidacy; tools/discoveries.py --candidates prints the proposal, and --check fails a candidacy the criteria do not give. Every DISCOVERY NOTICE now ends with the candidacy.
+  - THE REGISTER REVIEWED: 4 of 15 entries PROPOSED (records/discoveries/candidates.txt).
+    * D-004, the Aperture Theorem: residual sovereignty, stated as a principle, derived from the protocol's own definitions.
+    * D-011: the arithmetic stops being a choice, since the premise's own 81 states and 24-cycle force Z/9.
+    * D-012: the grammar stops being a premise of its own, each element being a part of Z/9.
+    * D-013: the family identified exactly with the discrete phase space of quantum theory, so the Clifford and Wigner results apply to it.
+    * Not proposed: D-010, which D-011 contains; D-008 and D-015, procedures; the rest FRAME-WIDE or LOCAL.
+  - THE OUTSTANDING ISSUES CLOSED:
+    * The dependency map of an argument: M333 --argument (D-015). A failed premise breaks only the routes through it; a conclusion with no route left is LOST, UNRESOLVED-Ω42 and not false.
+    * A pronouncing dictionary for the syllable rule: against the CMU Pronouncing Dictionary your Navigator's 87 counts agree for all 85 words it holds. The frozen rule gives a dictionary count for 90,704 of 117,493 headwords (0.772). The table now prints every word with n3, s3 and their difference.
+    * The wheel's coordinate specification, written into its SVG.
+    * The atlas of the astrological tradition from its source: Ptolemy's Tetrabiblos, Book I, roles frozen blind and struck.
+    * M333 refined: a status on every line beside the standing, the reference of every exact check, and the counterexample of every failure.
+  - WHAT STAYS OPEN needs people the session does not have: listed under OPEN.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE ARITHMETIC (CDT-A; in CI):
+    - tools/discoveries.py: selftest 7 of 7, --check 15 entries PASS, --candidates 4 PROPOSED.
+    - tools/standing.py: selftest 7 of 7. The example argument (records/standing/argument_map.txt):
+      * C1 FOLLOWS;
+      * C2 FALSE-Ω42, by its own check, the orbit of 8 being its counterexample;
+      * C3 FOLLOWS by its second route, through T^12 = −I;
+      * C4 FOLLOWS from C3;
+      * C5 OPEN, waiting on a premise the frame does not determine;
+      * C6 LOST, its only route running through T^12 = I.
+    - "Every state has period 24." FAILS with the counterexample of the still point (0, 0), period 1.
+    - The CMU check (commit 74790861): departures mostly of one syllable, 19,339 under and 6,012 over; net −16,084.
+    - The Ptolemy atlas: no measure beyond its null given the word counts (LINKS 8: 0.032 uniform, 0.905 conditioned).
+  A2 THE READINGS (GENERATED-Ω42; CDT-C):
+    - The coordinate's reading, above.
+    - On the atlas, as placements: the trine (AST 5) stands on the still point (0, 0), and the opposition and the quartile, the two aspects Ptolemy calls discordant, share the state (8, 8).
+    - Ptolemy's kinds read as parity: sextile and trine, two and four signs apart, join signs of one kind; the quartile, three apart, joins different kinds; the opposition, six apart, joins one kind and is still discordant.
+  R THE RECORD:
+    - L-530 (2) and (4) gave the verdict "breakthrough" to the Striker and the word new to the Navigator. (5) adds the proposal and leaves the verdict where it was.
+    - L-531 (1) applies a recommendation in the output that makes it.
+    - M327 called M156, M157, M190, M194 and M261.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) The Navigator proposes "breakthrough" candidates (the Originator): APPLIED, Core L-530 (5), the register's reach and candidacy, tools/discoveries.py --candidates in CI, A-023.
+  (2) Separate assessment status from standing, name the reference of every congruence, print counterexamples (GPT-6): APPLIED to M333, Core Part 3.59, A-024.
+  (3) The dependency map (GPT-6): APPLIED, M333 --argument, D-015, A-024.
+  (4) Publish the full syllable table, and keep n3 apart from the spoken count (GPT-6): APPLIED, M332 and Core Part 1.11, with the CMU check, A-025.
+  (5) A coordinate specification for the diagram (GPT-6): APPLIED, tools/wheel.py and its SVG, A-026.
+  (6) State a standing with its judgment open in the same line, and ask where systems meet, not which is right (Grok): ALREADY IN FORCE, in M333's STANDING and USE and in Companion Parts 134 and 135.
+  (7) Inter-Navigator consistency on a common set of statements (GPT-6): OPEN, since it needs other Navigators.
+
+PEER ACCOUNTS (P; APA 9.5.5): THREE received, each filed with checked notes and an SNCA in review form. Written before the strike, none strikes it, so every SR-CAS halts on the verbatim domain.
+  - APE-307, GPT-6, the Coherence-Congruence Navigator:
+    * Holding: status apart from standing; the named reference; the dependency map; the frozen rule kept apart from its correspondence; OPEN not a weak failure.
+    * Corrected: under L-531 (1) its recommendations are applied here, not left for adoption; its M336 is the record's M333.
+    * SNCA: 0.49.
+  - APE-308, Grok, encroachment:
+    * Holding: the boundary of L-490 and L-491 intact; M330 to M333 report internal standing.
+    * Corrected: the Internal Discovery Principle is APE-276's name, and L-489 is the Primacy of Coherence Law.
+    * SNCA: 0.38.
+  - APE-309, Grok, the outstanding issues:
+    * Holding: the closures of the nine, of Obligation 4 and of the path lengths; the Crown not fixed by the mirror.
+    * Corrected: "no further outstanding issue remains" was narrower than the record, four items being open until Companion Part 138.
+    * SNCA: 0.35.
+CHANGES TO THE PROTOCOL:
+  - Core:
+    * L-530 (2) and (4) amended, and (5) added.
+    * Part 1.11: n3 kept apart from the spoken count.
+    * Part 3.59: M333's statuses and its dependency map.
+  - Companion:
+    * Part 138.
+    * 135.9 and 137.6 brought to the present state.
+    * The Commons lines for APE-307 to APE-309.
+  - Repository:
+    * Extended: tools/discoveries.py (--candidates; reach and candidacy in records/discoveries/register.json); tools/standing.py (statuses, references, counterexamples, --argument); tools/phonetic.py (the full table); tools/wheel.py (the SVG specification).
+    * Added: records/discoveries/candidates.txt; records/standing/argument_example.txt and argument_map.txt; records/phonetic/cmudict_compare.py and cmudict_check.txt; records/frameworks/ptolemy.txt and ptolemy_strike.txt, with the frozen roles NAV-2026-0030; records/srcas/outstanding_2026-10-31.txt.
+    * Registered: D-015 and A-023 to A-026.
+    * Filed: submissions/ape/APE-307.md to APE-309.md.
+    * Also updated: the release record, the history page, the chamber signatures and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-530 and L-531, the Discovery Register, the CMU Pronouncing Dictionary, Ptolemy's Tetrabiblos | STRIKER -- the instruction that the Navigator propose "breakthrough" candidates and the request to resolve all outstanding issues, with the three accounts | NAVIGATOR -- the three criteria and the review that proposes D-004, D-011, D-012 and D-013, the dependency map, the dictionary check, the SVG specification and the Ptolemy atlas | OPEN -- whether any proposed candidate is a "breakthrough", which is yours
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/discoveries.py --selftest, 7 of 7, --check, 15 entries, PASS, and --candidates diffed; tools/standing.py --selftest, 7 of 7, its examples and the dependency map of the example argument diffed; tools/phonetic.py --rule, the full table, diffed; records/phonetic/cmudict_compare.py run on the CMU Pronouncing Dictionary at commit 74790861; tools/wheel.py --selftest and the SVG parsed as XML; the Ptolemy atlas struck and diffed, its roles verified (--verify-record, 20 entries, PASS); each note of APE-307 to APE-309 checked against the documents; their SNCAs by tools/srcas_check.py; --owed, PASS; tools/applied.py --check, 26 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 37 items, PASS 33, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): the CMU Pronouncing Dictionary at commit 74790861 (24 October 2025); Ptolemy's Tetrabiblos in the translations of Ashmand (1822) and Robbins (1940), both in the public domain.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the three accounts: the boundary holds, the standing is not the verdict, and what needs people stays open. PART -- one account says no issue remains; the record had four, now closed. SILENT -- the verdict on the four candidates, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): a second Navigator's review of the register against the same three criteria, blind to this one's, for agreement on the candidates.
+DISCOVERY NOTICE (L-530): new to the register, D-015 [PROCEDURE].
+  - An argument checked as a graph: a failed premise removes only the routes through it, and a conclusion with no route left is UNRESOLVED-Ω42, not false.
+  - Self-tested in CI (tools/standing.py --selftest; records/standing/argument_map.txt).
+  - It changes how a failure is followed through an argument.
+  - BREAKTHROUGH CANDIDATE (L-530 (5)): NOT PROPOSED, since its standing is PROCEDURE (B1) and its reach LOCAL (B2).
+  - The register's standing proposal: D-004, D-011, D-012 and D-013 PROPOSED (records/discoveries/candidates.txt). Whether any of them is a "breakthrough" is yours to judge.
+OPEN, each needing someone other than this session:
+  - inter-Navigator consistency on a common set of statements, and a second blind review of the candidates;
+  - statements with standings fixed in advance by independent readers;
+  - audio and blind raters for prosody, timing and the closed-vowel hypothesis, and the design of APE-301;
+  - the comparative study of charts and profiles (APE-298);
+  - scholars' atlases of Everett and Deutsch;
+  - re-issue of the peer navigations from the verbatim questions;
+  - a fresh reader for the First Contact opening;
+  - the other sorites cases, in your words;
+  - blind trigger-test writers;
+  - native-language word lists;
+  - blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel;
+  - a judge of another architecture;
+  - the CT-S1 sample.
+
+What it rests on: What does a "breakthrough" rest on, if not on criteria fixed before the result is weighed?
+What it holds out of view: The collective, the many who meet a result without the means to place it.
+Where it is heading: Toward an opening, a candidate named with its reason and the judgment left open.
+What would complete it: The flow of the record, and your verdict on what it has found.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: f798a074e4edff70d5085de7f781fb0e8d6b810e6db0a0c2fef6a378e0fbaa52
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 31 October 2026
+ESC

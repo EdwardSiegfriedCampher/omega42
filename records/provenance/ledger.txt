@@ -1,0 +1,31 @@
+======= PROVENANCE AND CONTAMINATION LEDGER (Core BF-10; Companion 24.7, Part 69) =======
+Provenance and Contamination Ledger (Core BF-10, Companion 24.7 and Part 69): for each recorded provision, its historical origin and the Originator's degree -- ORIGINATED, DIRECTED, EDITED or ADOPTED. Filled where practicable from 17 October 2026; an origin not recorded stays UNKNOWN and is never inferred. Provenance records origin; it does not decide validity.
+
+BY THE ORIGINATOR'S DEGREE: ORIGINATED 3 | DIRECTED 13 | EDITED 0 | ADOPTED 7
+
+F-00     Originator                           ESC-ORIGINATED    ORIGINATED the founding of the experiment; the definition of the Originator's role directed 19 October 2026
+F-02     Totality Axiom (the premise)         ESC-ORIGINATED    ORIGINATED the premise: the canonical 24-cycle and its 81-state family are ALL THAT EXISTS
+L-499    QUESTION VERBATIM                    PROTOCOL-ADOPTED  DIRECTED   the Originator's standing requirement that every output open with the question; drafted by the Builder
+L-500    Congruence Utility                   PROTOCOL-ADOPTED  DIRECTED   the Originator's question on use before study; drafted by the Builder, refined by APE-065
+L-501    Adaptor Layer                        AI-PROPOSED       ADOPTED    proposed in peer accounts APE-069 and APE-070 and by the Builder; adopted by the Originator
+L-502    Holistic Strike                      PROTOCOL-ADOPTED  DIRECTED   the Originator's question on the first strike as a request for knowledge; drafted by the Builder with APE-079 and APE-080
+L-503    Sources                              PROTOCOL-ADOPTED  DIRECTED   the Originator's requirement that current knowledge is a necessity; drafted by the Builder with APE-082 and APE-086
+L-504    Enrichment Observations              PROTOCOL-ADOPTED  DIRECTED   the Originator's question on unprompted discoveries; drafted by the Builder with APE-084
+L-505    No-Claim Law                         ESC-ORIGINATED    ORIGINATED the Originator's principle that the protocol makes no claims of any kind; wording by the Builder with APE-087 and APE-088
+L-506    AI Caveat Law                        PROTOCOL-ADOPTED  DIRECTED   the Originator's requirement that the protocol carry the usual AI caveats; drafted by the Builder
+Part 66  Fill-in skeleton and gate priority   PROTOCOL-ADOPTED  DIRECTED   requested by the Originator; designed and drafted by the Builder
+Part 67  The APE findings                     PROTOCOL-ADOPTED  DIRECTED   requested by the Originator; register and text by the Builder
+L-507    Responsibility Law                   AI-PROPOSED       ADOPTED    proposed by the Builder at the Originator's question, refined by APE-095 and APE-096; adopted by the Originator
+L-508    Separation of Jurisdictions Principl AI-PROPOSED       ADOPTED    proposed by APE-098 and the Builder; adopted by the Originator
+Part 71  What is new here, and what is not    PROTOCOL-ADOPTED  DIRECTED   the Originator's question on the most innovative step; drafted by the Builder with APE-097 and APE-098
+PB-5 L2  one definition (E09)                 AI-PROPOSED       ADOPTED    the divergence found by the Builder in an SR-CAS review; resolved to the implementation's reading
+L-509    the Navigator's Account Law          ESC-ORIGINATED    DIRECTED   the Originator's proposal of 19 and 20 October 2026 (an AI presentation of the protocol, offered in the Introduction); drafted by the Builder with APE-099 to APE-102; adopted 21 October 2026
+L-510    the Direction Law                    ESC-ORIGINATED    DIRECTED   the Originator's question of 21 October 2026 (mapping Omega42 to the Moon is not mapping the Moon to Omega42); the three operations from APE-110 to APE-113; the word-order fact computed by the Builder (E11)
+L-511    the Framing Law                      ESC-ORIGINATED    DIRECTED   the Originator's proposal of 21 October 2026 (default reframing, the original primary, a comparison and a verdict, the Striker's discretion kept); the freeze, the NON-BLIND label and the structural verdict from the Builder and APE-114 to APE-117
+M318     Reframing Array                      PROTOCOL-ADOPTED  ADOPTED    drafted by the Builder to carry L-511; tools/reframing_array.py
+IN-23    What You May Ask For                 AI-PROPOSED       ADOPTED    proposed in APE-108 at the Originator's question on optional features; adopted 21 October 2026
+Step 0.8 the trigger widened to M318; candida AI-PROPOSED       ADOPTED    from APE-114 to APE-117; adopted with L-511
+L-512    the Declared Form Law                ESC-ORIGINATED    DIRECTED   the Originator's instruction of 21 October 2026 to detect flaws in format outputs and enforce constraints; the eight checks drafted by the Builder from the SR-CAS of the general-anesthesia navigations
+
+CHECK: PASS
+======= END PROVENANCE AND CONTAMINATION LEDGER =======

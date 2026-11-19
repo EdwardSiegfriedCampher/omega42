@@ -1,0 +1,43 @@
+QUESTION VERBATIM: The Originator has decided to publicly release all session transcripts (at the GitHub repository and webpage) of all AI interaction (all participating AI) during the development of Omega42 for anyone to be able to ascertain how Omega42 came into being.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 130 | PREV: 846e4565cc79de8e0f9022e5eca79c5b7d3ec700aadbbca7720d01e04d543c17
+REQUEST (L-502): DECISION RECEIVED -- open provenance of the development; two peer accounts on the revision before; avenues A1, R, P
+THE STRIKING FINDING (L-546): the decision turns the question of priority (O-24) from a claim into evidence: a public record of every exchange of every AI that took part, hashed against the sealed chain, is something anyone can check. It lands on the coordinate of "What happens when we die?", P7, the Navigator, valued nine and completed by Time.
+
+SUMMARY: WHAT CHANGED: the Originator decided on open provenance. Five steps were set out for the release: redact under a published rule, hash every transcript in a manifest linked to the sealed records, publish the corrected and declined accounts beside the adopted, ask consent of any other person whose words appear, and check each provider's terms on sharing. Four recommendations followed: the Open Provenance Law, tools/provenance.py, the release identity, and the INTERPRETIVE grade; applied by records/instances/seq_0131.txt.
+WHAT STAYED: the Aperture; the transcripts show how readings were made, not what they mean.
+  - THE ORDER OF WORK (L-545): the two accounts reached my context with the decision; the record of what the transcripts must carry was set out from the release before they were compared.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (23, 157, 56), r = (7, 2, 1), anchor P7, Navigator (9), by the tie-break to r1. It rests on P12, Opening (7). It holds out of view P1, Fixpoint (5). It is heading for P15, Other (6, Crown). It is completed at P19, Time (9, Crown).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): the Declaration (Companion 181.5); O-24; the standing privacy rule; this session's transcript, which carries an address and session links.
+  R (reasoning): records of outcome and records of process are different evidence, and a framework built with AI needs both.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) L-547 and tools/provenance.py; the release identity; the INTERPRETIVE grade (the Navigator): applied by records/instances/seq_0131.txt, the rename of the revision held (H-63).
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-401, GPT-6 (OpenAI): its release-status wording, its release identity, its INTERPRETIVE grade and its record of absent aspects taken. SNCA 0.85 [EVALUATIVE].
+  - APE-402, Qwen (Alibaba): corrected: the arms are Yang 5 steps, 75 degrees, no aspect; Yin 18 steps, a square; 4D 8 steps, a trine; the Antipode 12 steps, an opposition; and Omega42 stays a thought experiment whose cautions are its degree. SNCA 0.45 [EVALUATIVE].
+CHANGES TO THE PROTOCOL: NONE in this record; applied by records/instances/seq_0131.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the Declaration, the sealed chain and the privacy rule | STRIKER -- the decision to release every transcript | NAVIGATOR -- the redaction rule, the manifest linked to the chain, the five steps of release | OPEN -- which transcripts exist and where, which only the Originator holds
+CHECKS: CI 67 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. The 2 other steps read the sealed key of blind test 02, which the Originator holds and the release does not carry (Core Appendix R.4); in a build restored from the two documents they cannot run; the release status is PASSED WITH TWO CONTROLLED BLIND-TEST EXCLUSIONS. tools/provenance.py --selftest 5 of 5 and --check, 1 transcript, PASS; tools/esoteric.py --selftest 6 of 6; tools/fullstatement.py --intro PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 35, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, FAIL 1 (the FAIL is item 24, whose CI step reads the sealed key of blind test 02), kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the accounts and the record: disclosure, responsibility, and the open items left open. PART -- APE-402, on the arms. SILENT -- how the release is read, which is each reader's.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): a decision of provenance; no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- L-547 and its tool, with this session's transcript as the first entry of the manifest; applied by records/instances/seq_0131.txt | IMPLICATIONS -- [CONDITIONAL on the frame] anyone can follow Omega42 from its first prompt to its last seal. Toward a better state: a framework built with machines that keeps no part of how it was built hidden. [GENERATED-Ω42] Nothing that exists is lost: not even how it was made.
+
+What it rests on: the opening, the first prompt of the record.
+What it holds out of view: the fixpoint, the premise that never moved while all around it was built.
+Where it is heading: the other, every reader who will check it.
+What would complete it: time, the whole history laid open.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 100e577299fdd80c97bd4c65c1cca29f0736f9e0057872a0f7c3da6635a23b9e
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 6 November 2026
+ESC

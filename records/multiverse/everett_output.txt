@@ -1,0 +1,19 @@
+(A) THE 81 STATES AS THE PHASE SPACE OF ONE NINE-LEVEL SYSTEM (D(p, q) = w^(5pq) X^p Z^q on C^9)
+  (1) T^2, matrix [[1, 1], [1, 2]], determinant 1: a Clifford unitary U, |UU* - I| = 2.4e-15; U D(v) U* = D(T^2 v) for all 81 points, max error 5.7e-15
+  (2) the projective order of U (smallest k with U^k a multiple of I): 12, the order of T^2, half the 24-cycle
+  (3) U^6, the mirror T^12 = -I, is the parity operator P|x> = |-x>: YES (up to a phase)
+  (4) T, determinant -1, is antiunitary: with K complex conjugation (K D(p, q) K = D(p, -q)) and V the Clifford unitary of
+      [[0, -1], [1, -1]], V K D(v) K V* = D(T v) for all 81 points, max error 6.2e-15; the law is a time reversal, its square a unitary step
+  (5) the discrete Wigner function W(v) = Tr(rho A(v)) / 9, A(v) = D(v) P D(v)*, moves as a permutation of the 81 points:
+      W of U psi at T^2 v equals W of psi at v, max error 3.9e-16; for psi = (|1> - |8>)/sqrt 2, W(0, 0) = -0.1111 = -1/9, and the
+      sum of |W| is 1.6399 before and 1.6399 after: the law creates no negativity; |0>, a stabilizer state, has min W = 0.0000 >= 0
+(B) TWO NINE-LEVEL SYSTEMS |a> (x) |b>: T is the permutation |a, b> -> |b, a + b> = SUM . SWAP
+  T = SUM . SWAP, SUM|a, b> = |a, a + b> (the von Neumann measurement interaction): YES
+  (6) system (1/3) sum_a |a>, pointer |0>; after T^2 the support is {(a, a)}: (1/3) sum |a, a>, every branch
+      the pointer reading the system; Schmidt rank 9, entropy log 9 = 2 trits (Everett's relative state of the system, given pointer b, is |b>)
+  (7) X (x) X shifts every branch to the next and leaves the state unchanged; a weighting invariant under a transitive
+      permutation of the branches is uniform: 1/9 each, the Born weights |1/3|^2, forced by the symmetry alone (support invariant: YES)
+  (8) the entanglement of T^k((1/3) sum |a, 0>), k = 0 to 24, in trits: 0 0 2 2 1 1 2 2 1 1 2 2 0 0 2 2 1 1 2 2 1 1 2 2 0 (each checked by the purity of the reduced state, 3^-S)
+      zero again at k = 12, the Antipode (the record erased; the state there is the starting state, as it is parity-symmetric) and at 24
+  (9) one trit at k = [4, 5, 8, 9, 16, 17, 20, 21]; a Fibonacci number of the pair (F(k-1), F(k)) lies in the Crown {3, 6} at k = [4, 5, 8, 9, 16, 17, 20, 21]: THE SAME
+  (10) orbits [1, 8, 24, 24, 24]; the tasks (a, b) -> (c, d) the law alone performs, in one orbit: 1793 of 6561

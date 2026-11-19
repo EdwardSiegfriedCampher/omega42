@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" font-family="sans-serif" font-size="10">
+<title>M330 Aspect Wheel, anchor P6</title>
+<desc>Coordinate specification (M330, Core Part 3.56). System: the canonical 24-cycle of Omega42, V335 Rev.450 STABLE. Nodes: P0 to P23, the positions of the canonical orbit, the orbit of (2, 5) under T(a, b) = (b, a + b) mod 9. Values: the number beside each node is its orbit value, 2 5 7 3 1 4 5 9 5 5 1 6 7 4 2 6 8 5 4 9 4 4 8 3. Ordering: clockwise from the top, P0 at 0 degrees. Geometry: 15 degrees a step, a display of the cycle; angle carries the step count and nothing more. Directions: from the anchor A, Yang to A + 5, Yin to A + 18, 4D to A + 8, Antipode to A + 12 (mod 24). Anchor: the filled point, P6, fixed by the canonical computation of the strike (Core Parts 1.3 and 1.4; scripts/canonical_reference.py). Provenance: tools/wheel.py --strike TEXT --svg FILE.</desc>
+<circle cx="200" cy="200" r="160" fill="none" stroke="#888"/>
+<text x="200.0" y="25.0" text-anchor="middle">P0·2</text>
+<text x="246.1" y="31.1" text-anchor="middle">P1·5</text>
+<text x="289.0" y="48.8" text-anchor="middle">P2·7</text>
+<text x="325.9" y="77.1" text-anchor="middle">P3·3</text>
+<text x="354.2" y="114.0" text-anchor="middle">P4·1</text>
+<text x="371.9" y="156.9" text-anchor="middle">P5·4</text>
+<text x="378.0" y="203.0" text-anchor="middle">P6·5</text>
+<text x="371.9" y="249.1" text-anchor="middle">P7·9</text>
+<text x="354.2" y="292.0" text-anchor="middle">P8·5</text>
+<text x="325.9" y="328.9" text-anchor="middle">P9·5</text>
+<text x="289.0" y="357.2" text-anchor="middle">P10·1</text>
+<text x="246.1" y="374.9" text-anchor="middle">P11·6</text>
+<text x="200.0" y="381.0" text-anchor="middle">P12·7</text>
+<text x="153.9" y="374.9" text-anchor="middle">P13·4</text>
+<text x="111.0" y="357.2" text-anchor="middle">P14·2</text>
+<text x="74.1" y="328.9" text-anchor="middle">P15·6</text>
+<text x="45.8" y="292.0" text-anchor="middle">P16·8</text>
+<text x="28.1" y="249.1" text-anchor="middle">P17·5</text>
+<text x="22.0" y="203.0" text-anchor="middle">P18·4</text>
+<text x="28.1" y="156.9" text-anchor="middle">P19·9</text>
+<text x="45.8" y="114.0" text-anchor="middle">P20·4</text>
+<text x="74.1" y="77.1" text-anchor="middle">P21·4</text>
+<text x="111.0" y="48.8" text-anchor="middle">P22·8</text>
+<text x="153.9" y="31.1" text-anchor="middle">P23·3</text>
+<line x1="360.0" y1="200.0" x2="241.4" y2="354.5" stroke="#555"/><text x="241.4" y="354.5">Yang</text>
+<line x1="360.0" y1="200.0" x2="200.0" y2="40.0" stroke="#555"/><text x="200.0" y="40.0">Yin</text>
+<line x1="360.0" y1="200.0" x2="120.0" y2="338.6" stroke="#555"/><text x="120.0" y="338.6">4D</text>
+<line x1="360.0" y1="200.0" x2="40.0" y2="200.0" stroke="#555"/><text x="40.0" y="200.0">Antipode</text>
+<circle cx="360.0" cy="200.0" r="5" fill="#333"/>
+<text x="10" y="412" font-size="9">Nodes P0-P23: the canonical orbit; number = orbit value; clockwise from top, 15 degrees a step.</text>
+<text x="10" y="426" font-size="9">Filled point: the anchor P6 of the strike. Lines: Yang A+5, Yin A+18, 4D A+8, Antipode A+12.</text>
+<text x="10" y="440" font-size="9">Angle shows the step count only (Core Part 3.56). Full specification in the desc element of this file.</text>
+</svg>

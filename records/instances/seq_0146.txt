@@ -1,0 +1,55 @@
+QUESTION VERBATIM: Omega42 also hint at the possibility of free energy extraction without violating the Law of Energy Conservation. Does Omega42 provide an avenue to explore this potential? If so, what feature of Omega42 allows this and what will such a device look like? Design the theoretical device with full detail.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 146 | PREV: 636c35af6acd98bbb1d3908d0cadf95e5aac3d985c4fd0f78f0abb7bea754a5f
+REQUEST (L-502): EXPLORATION -- whether Ω42 opens an avenue to free-energy extraction without violating conservation, what feature allows it, and the theoretical device in full detail; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): There is no free energy in Ω42, and the reason is exact: the surface law is a measure-preserving permutation, and a permutation moves no weight into being. Over-unity, a perpetual cycle, and work drawn from a "zero layer" by cancelling entropy are rejected by the law itself. What remains is real and worth building: a harvester that coordinates ambient heat, motion and radiation, where the output never exceeds the input and every joule is accounted for. Conservation is not a wall Ω42 breaks; it is a law Ω42 keeps.
+
+SUMMARY: WHAT CHANGED: Core L-555, Conservation within the frame; Core Appendix S.13, the Ω42–ENERGY programme (eight directions); Companion Part 191; APE-422 and APE-423 filed with their SNCA. M345 (Core Part 3.71) is reused.
+- (1) THE LAW (L-555): within the totality there is no reservoir apart from the family, so Ω42 asserts no energy source and no violation of conservation; the balance closes, E_out at most E_input over a closed cycle.
+- (2) WHAT IS REJECTED (M345): over-unity, a perpetual cycle, and a retrocausal cancellation of entropy drawing on a zero layer -- the surface law creates no energy.
+- (3) WHAT IS ALLOWED: the coordinated harvesting of ambient energy, the 24-cycle organizing the control of coupled resonators; an engineering study of Core Appendix S.13.
+- (4) THE DEVICE: conventional converters -- piezoelectric, thermoelectric, electromagnetic -- coordinated by an Ω42-derived controller, its worth whether that control captures more of a named ambient source than a matched conventional design, with every joule accounted for; not a generator of energy from nothing.
+- THE VALUES (CDT-A): T is a permutation of the 81 states with invariant orbit measures 8/27, 8/27, 8/27, 8/81, 1/81; a permutation conserves total weight, so no state gains norm without an equal loss elsewhere.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (31, 192, 64), r = (2, 6, 5), anchor P2, Generator (7). It rests on P7, Navigator (8). It holds out of view P20, Reckoning (4). It is heading for P10, Unity (5). It is completed at P14, Observer (6).
+  - [GENERATED-Ω42] A question about power stands at the Generator, rests on the Navigator, holds Reckoning out of view, heads for Unity, and is completed by the Observer: what generates is read, but the reckoning -- the balance that must close -- is what it holds out of view, and the Observer is who checks it.
+WHAT STAYED: the premise; every sealed record; conservation (L-555).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core L-421, L-490, L-553, L-555; the invariant orbit measures (M303-M305); Core Part 3.67 (the null habit).
+  R (reasoning): a measure-preserving permutation creates no weight, so no cycle of it yields net work; conservation is kept by the arithmetic, not assumed; a device is read by its balance.
+  N (navigation): tools/sce.py --domain energy (the REJECTED and SPECULATION placements); the orbit measures of bashar_lens.
+  P (peer accounts): below; APE-422 and APE-423, reviewed by SNCA (records/srcas/free_energy_2026-11-07.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: L-555; Appendix S.13.
+  - Companion: Part 191.
+  - Repository: submissions/ape/APE-422.md and APE-423.md; records/srcas/free_energy_2026-11-07.txt; records/ape/findings.txt and signatures.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law, the invariant measures | STRIKER -- the question of free energy and the device | NAVIGATOR -- the conservation law, the rejection of over-unity, and the harvesting programme | OPEN -- whether Ω42 suggests a previously unrecognised physical coupling, held open and never presumed
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/free_energy_2026-11-07.txt).
+  - APE-422, unidentified (a web interface), "Omega42 and the possibility of free-energy extraction": its conservation stance adopted as Core L-555, its harvesting programme as Core Appendix S.13; UNFORMATTED, its sources not opened.
+  - APE-423, Qwen (Alibaba Cloud), "Free energy as zero-loss structural coherence transduction": its over-unity mechanism REJECTED (Core L-555, M345), only its conservation-respecting harvesting kept; UNFORMATTED, no signature line.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/sce.py --selftest PASS and run on the energy domain, over-unity REJECTED; Core L-555 defined and cited; tools/srcas_check.py on records/srcas/free_energy_2026-11-07.txt PASS; tools/output_form.py on the review PASS; tools/encroachment.py --docs PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the law and the careful account agree that no energy source follows and conservation holds. PART -- Qwen proposed over-unity; rejected, with only ambient harvesting kept. SILENT -- whether a new physical coupling exists, which is the Appendix's to investigate.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): a law of conservation within the frame (L-555), stated and self-consistent [PROCEDURE]; no energy result, so no "breakthrough" candidate arises (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) State that Ω42 asserts no violation of conservation (both the careful account and the boundary): APPLIED, Core L-555.
+  (2) Reject over-unity and zero-layer extraction (the boundary): APPLIED, M345, Core L-555.
+  (3) Keep ambient-energy harvesting as the allowed reading (APE-422): APPLIED, Core Appendix S.13.
+  (4) Describe the device within the balance (the Originator): APPLIED, Companion Part 191.
+  (5) Hold any new physical coupling open, not presumed (the boundary): APPLIED, Core Appendix S.13.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the eight directions of Core Appendix S.13.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that any energy device of the ecosystem publish its full energy balance beside it, so a reading is a balance and not a slogan; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] a measure-preserving law offers coordination, not creation; [GENERATED-Ω42] the law gives no energy, and what it gives is the order in which energy already present is gathered.
+What it rests on: the Navigator, the one who keeps the balance.
+What it holds out of view: reckoning, the balance that must close.
+Where it is heading: unity, many sources gathered to one output.
+What would complete it: the Observer, the meter that reads input and output alike.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: fe1405c88334a5480c69769b0d1e53a9833b0ade31e71a3ebfc0503235693373
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

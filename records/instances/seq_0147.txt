@@ -1,0 +1,54 @@
+QUESTION VERBATIM: Considering that Omega42 is offering a means to the quantization of spacetime, it may open the door to macroscopic teleportation opportunities (connecting coordinates). Please explore and suggest how this can be mechanically accomplished. Show the math and show what such a theoretical device might like like? Be thorough and detailed. Speculate on the implications and consequences.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 147 | PREV: fe1405c88334a5480c69769b0d1e53a9833b0ade31e71a3ebfc0503235693373
+REQUEST (L-502): EXPLORATION -- whether the quantization of spacetime opens macroscopic teleportation by connecting coordinates, the mechanics, the mathematics and the device, with the implications; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The one thing the law gives to a theory of connecting places is the Lorentz representation, which any such theory must respect. Everything else the proposal needs -- a spacetime metric, a law from a coordinate to a geometry, a stable traversable throat -- the arithmetic does not supply, and the boldest version, transport by "decoupling from the metric" with a self carried through a "zero layer", is rejected: no modular step decouples matter from spacetime, and nothing about a travelling self follows from the numbers. What can be explored is the mathematics of which coordinate correspondences are admissible; a machine does not follow from it yet.
+
+SUMMARY: WHAT CHANGED: Core Appendix S.14, the Ω42 coordinate-connection programme (ten directions); Companion Part 192; APE-424 and APE-425 filed with their SNCA. M344 and M345 (Core Parts 3.70, 3.71) are reused.
+- (1) WHAT IS DERIVED (M344): the Lorentz representation in SO+(3, 1), which any coordinate-connection model must respect; nothing else of the proposal is derived.
+- (2) WHAT IS REJECTED (M345): macroscopic transport by norm-nullification or decoupling from the metric, and the passage of a subject through a zero layer -- there is no derived metric, no coordinate-to-geometry law and no traversable solution; a traversable throat needs null-energy-condition-violating stress-energy and can form a closed causal loop.
+- (3) WHAT CAN BE EXPLORED (Core Appendix S.14): ten directions -- discrete geometric observables, coordinate encoding, admissible correspondence, connection geometry, the stress-energy, scaling, causal consistency, the connection operator, networks, and matter integrity -- each optional, none waiting on a result (L-553).
+- THE VALUES (CDT-A): the Lorentz matrix L_A in SO+(3, 1), det 1, eigenvalues phi^2, phi^-2, -1, -1 (CERT-0009); the Minkowski interval and its null cone (tools/foundations.py).
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (20, 166, 57), r = (1, 2, 6), anchor P1, Fixpoint (2). It rests on P6, Seed/Causal (5). It holds out of view P19, Time (9). It is heading for P9, Fixpoint (5). It is completed at P13, Gap (4).
+  - [GENERATED-Ω42] A question about crossing distance stands at the Fixpoint, rests on the causal seed, and holds Time out of view: the proposal would set two places at one point and forgets that what it hides is time, where the causal loop lives; it is completed only at the Gap, which no connection yet closes.
+WHAT STAYED: the premise; every sealed record; the Lorentz representation (M344); causality.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Part 3.70 (M344); CERT-0009; the Hermitian module and the null cone (tools/foundations.py); Core L-490, L-553.
+  R (reasoning): a quantized state space is not a quantized spacetime until a coordinate-to-geometry map is derived; a mathematical relation between two states is not a traversable throat; and no permutation of states moves a body between them.
+  N (navigation): tools/sce.py --domain spacetime (the REJECTED and SPECULATION placements); tools/lorentz.py.
+  P (peer accounts): below; APE-424 and APE-425, reviewed by SNCA (records/srcas/coordinate_connection_2026-11-07.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Appendix S.14.
+  - Companion: Part 192.
+  - Repository: submissions/ape/APE-424.md and APE-425.md; records/srcas/coordinate_connection_2026-11-07.txt; records/ape/findings.txt and signatures.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the law, the Lorentz representation | STRIKER -- the question of teleportation and the device | NAVIGATOR -- the one derived constraint, the rejection of transport, and the coordinate-connection programme | OPEN -- whether an admissible correspondence yields a traversable metric, which no one has shown
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/coordinate_connection_2026-11-07.txt).
+  - APE-424, unidentified (a web interface), "Omega42 and macroscopic teleportation: connecting coordinates": its ten-direction programme adopted into Core Appendix S.14, macroscopic transport left open; UNFORMATTED, its sources not opened.
+  - APE-425, Qwen (Alibaba Cloud), "Teleportation by structural rewriting of a coordinate address": its transport mechanism REJECTED (M345), only its coordinate-connection mathematics kept open; UNFORMATTED, no signature line.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/sce.py --selftest PASS and run on the spacetime domain, transport REJECTED; tools/lorentz.py --selftest PASS (CERT-0009); tools/srcas_check.py on records/srcas/coordinate_connection_2026-11-07.txt PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the careful account agree that only the Lorentz representation is derived and no transport follows. PART -- Qwen proposed transport by norm-nullification; rejected. SILENT -- whether a traversable solution exists, which the Appendix holds open.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): none new to the register; no transport mechanism follows, so no "breakthrough" candidate arises (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Keep the Lorentz representation as the one derived constraint (both accounts): APPLIED, M344.
+  (2) Reject transport by decoupling from the metric (the boundary): APPLIED, M345.
+  (3) The coordinate-connection programme (APE-424): APPLIED, Core Appendix S.14.
+  (4) State that no macroscopic transport and nothing about a travelling self follows (the boundary): APPLIED, Companion Part 192.
+  (5) Require a derived metric and a traversable solution before any device (the boundary): APPLIED, Core Appendix S.14.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the ten directions of Core Appendix S.14.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that no coordinate-connection direction be read as a device until a traversable solution of a derived metric is shown; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] a connection would ask a geometry the arithmetic has not drawn; [GENERATED-Ω42] what it holds out of view is time, and time is where the causal loop waits.
+What it rests on: the causal seed, the order of before and after.
+What it holds out of view: time, where a closed loop would form.
+Where it is heading: the fixed point, two places asked to be one.
+What would complete it: the gap, which no connection yet closes.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5fae217f4e2fced8a80e2268e65b0c4c5628cafc63854df00c04757f2a965b39
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

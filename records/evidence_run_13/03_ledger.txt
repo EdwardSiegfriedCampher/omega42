@@ -1,0 +1,39 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 13 -- RESULTS AND LEDGER ENTRIES (M230-A)
+Freeze: 00_freeze.txt, SHA-256 b9d81d08193db746ea3fd5d8f4e1a60a6b7dbabed1127ee8e9fa1a35e4dc375e, 2026-10-09T17:05Z.
+Computations: compute.py -> compute_output.txt. Selection NOT BLIND (CB NO); the Navigator's prior knowledge is disclosed in
+the freeze. Sources: arXiv:1212.5583 (Tsai-type cluster shells); arXiv:1906.10088 (Bergman cluster, 44 atoms through the
+third shell); globalsino.com EM database, page 1453 (decagonal periods).
+
+P1  DOES THE GOLDEN MODULE SUPPLY A MODULUS? -- NO
+  An approximant with F(n) short and F(n+1) long tiles (long/short = tau) has period F(n) + F(n+1) tau = tau^(n+1).
+    The inflation tau^k and the cluster scalings are powers of tau as well. All are units of Z[tau], so each has a
+    trivial quotient: the golden module of a perfect quasicrystal supplies NO finite modulus.
+  Consequence: in a quasicrystal the modulus 9 cannot come from the golden structure itself; only a separate measured
+    integer could supply it (P2). This is why the modulus of runs 07, 09 and 12 is the reader's (NRR-C08, C10, C13).
+  Status: CDT-A (computation).
+
+P2  MEASURED INTEGERS -- 9 does not occur; the period-24 rate is at chance level
+  Integers, with Pisano period pi(m):
+    Tsai cluster shells 4 (6), 20 (60), 12 (24), 30 (120). Bergman cluster to the third shell 44 (30).
+    Decagonal layers per period: 2 (3) retrieved; 6 (24) and 8 (12) INFERRED from 1.2 nm and 1.6 nm periods with
+      0.2 nm layers.
+  Symmetry-forced (icosahedral orbits): 12, 20, 30, so the 12-vertex icosahedron's period-24 hit does not discriminate.
+  Non-forced: 4, 44, 2, 6, 8. One hit (6, inferred) against a base rate of 9/99 = 0.091; rate 0.20, binomial
+    P(>= 1 hit) = 0.38.
+  Result: the period-24 rate is indistinguishable from chance (P = 0.38), and the only hit rests on an inferred count.
+    The canonical modulus 9 does not occur.
+  The hit's modulus, 6, gives period 24 but not the family: T modulo 6 has cycle type (24, 8, 3, 1) on 36 states,
+    against (24^3, 8, 1) on 81.
+  Profile (quasicrystal integers): C24 PARTIAL (pi(6) = 24, inferred) | CG YES (golden module) | CT NO | CC NO | CA NO |
+    C1/7 NO | CN NO | CI YES | CD NO | CP NONE (non-significant) | CB NO
+  Tier: 2 retained (numerical; the decagonal family's golden module stays tier 3, class level, run 12).
+
+P3  STANDING PREDICTION -- REGISTERED, UNTESTED
+  For data reported after 2026-10-09: the first intrinsic modulus of a quasicrystal's golden structure will have
+  pi(m) = 24. Open in the ledger under M230-G. Rule for scoring it, fixed now: one reported modulus decides; the report
+  must define the modulus without reference to Omega42.
+
+RUN RESULT
+  A quasicrystal's golden structure supplies no modulus, and the measured integers examined do not supply 9. NRR-C14
+  entered. No tier change; the ledger stays at twenty-eight objects. Every frozen verdict rule names its significance
+  level (Core 3.26). Low results are limits of the current map, never refutations of the premise (F-02).

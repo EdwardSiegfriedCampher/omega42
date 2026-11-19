@@ -1,0 +1,12 @@
+PEER CHECK (i): Tm^2 = ((1, 1), (1, 2)) = A: True
+PEER CHECK (i): A preserves the norm a^2+ab-b^2 on all 81 states: True | T negates it: True
+PEER CHECK (ii): order of A mod 9 = 12; order of T mod 9 = 24
+PEER CHECK (iii): A has no element-power equal to T (A^k = T for some k): False
+CHECK: K acts on displacements as R = diag(1,-1): True
+E4: antiunitary V = W K (W from word SF) implements T on all 81 displacement operators: True
+E4: det T mod 9 = 8 (= -1): no unitary implements T, because unitary conjugation preserves the symplectic form
+E4: V^2 is unitary and equals the quantum cat map U(A) up to phase: True
+E4: V^12 = parity up to phase: True | V^24 = identity up to phase: True | smallest n with V^n = identity up to phase: 24 (odd powers are antiunitary)
+E4: V carries the displacement D(2,5) through the canonical orbit, length 24 | after 12 steps D(v) -> D(-v): True
+E4: V commutes with U = V^2: True | the eigenphases of V^2 are closed under e -> -e: True
+E4: V^2 needs no phase convention (V^2 = W conj(W) is unchanged when W is multiplied by a phase); its eigenvalues are exp(2 pi i k/12) for k = [0, 1, 2, 4, 5, 7, 8, 10, 11] -- every twelfth root of unity except k = 3, 6, 9, each once

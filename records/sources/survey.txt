@@ -1,0 +1,46 @@
+======= M316 CONTEMPORARY RESONANCE SURVEY (Companion Part 64) =======
+Companion Part 64: the Contemporary Resonance Survey -- a scan of current research against the protocol's own provisions and the fields it borders, run apart from any reading, from a frozen list of provisions, each with a search for agreement and a search for challenge; every result enters the sources register with its relation and grade, and a provision with nothing found says so. It runs monthly as a scheduled task of the Originator's (adopted 19 October 2026), never inside a navigation, and the premise is not graded by it (L-490).
+LAST RUN: 2026-10-19 (test run) | SCHEDULE: monthly, the first day of each month, 07:52 UTC (a scheduled task, a fresh session each run)
+
+C1 the procedural value: an unchosen constraint interrupts habitual framing (IN-17.5)
+    for agreement: "structured perspective-taking improves problem framing" | for challenge: "random stimulus creativity experiment"
+    found: S10 DIFFERS; S11 DIFFERS; S13 DIFFERS
+C2 the cognitive value: a reading widens attention (IN-17.5; Companion 33.10)
+    for agreement: "perspective prompts widen consideration of alternatives experiment" | for challenge: "structured prompts no effect on decision quality"
+    found: S14 DIFFERS
+C3 the jurisdiction: an AI that informs judgment and never occupies it (L-463, L-441)
+    for agreement: "AI design preserving human agency decision support" | for challenge: "generative AI cognitive offloading critical thinking"
+    found: S12 EXTENDS; S23 EXTENDS
+C4 surface form decides the address, and a model's output depends on the form it is given (Part 0.10, L4; M238)
+    for agreement: "LLM sensitivity to prompt formatting" | for challenge: "LLM robust to prompt paraphrase"
+    found: S09 AGREES; S15 AGREES
+C5 identical rules give identical results across architectures (SR-CAS)
+    for agreement: "LLM instruction following consistency across models benchmark" | for challenge: "LLM nondeterminism same prompt different outputs"
+    found: S16 DIFFERS
+C6 a decoy control separates a coordinate's contribution from the Navigator's training (M267)
+    for agreement: "placebo control prompts evaluation of LLM creativity" | for challenge: "human raters cannot distinguish AI outputs conditioned on random seeds"
+    found: S17 EXTENDS
+C7 the arithmetic of the structure: Pisano periods, the norm, Catalan's identity (Core Part 1)
+    for agreement: "Pisano period modulo 9 is 24" | for challenge: "(the arithmetic is recomputed; a source can only state it alike)"
+    found: S01 AGREES; S02 EXTENDS; S03 AGREES; S04 AGREES; S08 AGREES
+C8 totality accounts of what exists (F-02, F-04)
+    for agreement: "mathematical universe hypothesis" | for challenge: "ruliad all possible rules"
+    found: S05 DIFFERS; S06 DIFFERS
+C9 consciousness read as ground, act and event (Core L-498; Companion Part 52, CT-42)
+    for agreement: "integrated information theory global workspace adversarial collaboration results" | for challenge: "adversarial collaboration consciousness theories predictions failed"
+    found: S18 EXTENDS
+C10 what exists is a structure, and there is no outside to it (F-02, F-04)
+    for agreement: "ontic structural realism" | for challenge: "objections to ontic structural realism"
+    found: S19 EXTENDS
+C11 a coordinate conditions generation by selectively activating learned representations (Stratum 2; Step 9.8)
+    for agreement: "activation steering interpretability features large language models" | for challenge: "prompt conditioning effects on LLM outputs superficial"
+    found: S20 AGREES
+C12 counting is a primitive act of distinction, and each medium has its own boundaries (CPDP; L-501)
+    for agreement: "cross-linguistic universals of word length and syllable structure" | for challenge: "tokenization disparities across languages in language models"
+    found: S21 AGREES; S22 EXTENDS
+
+NULLS: test run of 19 October 2026: one search found no published page naming Omega42 or its protocol ("Omega42" protocol 24-cycle 81 states): the record is not yet public; C7 found no new result on Pisano periods (a 2023 preprint on Fibonacci digit cycles was opened and is not on point); C8 nothing new beyond S05, S06
+
+ACROSS THE PROVISIONS: AGREES 8 | DIFFERS 7 | EXTENDS 7 -- 0 of 12 provisions with nothing found yet
+CHECK: PASS
+======= END M316 CONTEMPORARY RESONANCE SURVEY =======

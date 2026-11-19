@@ -1,0 +1,27 @@
+{
+ "kind": "navigation",
+ "submitted_by": "the receiving Navigator, for ESC",
+ "github": "esc-originator",
+ "issue": "conversation of 19 October 2026 (received by the Navigator)",
+ "disclosed_utc": "2026-10-19T15:03:41Z",
+ "accepted_utc": "2026-10-19T15:39:08Z",
+ "area": "protocol",
+ "id": "NAV-2026-0004",
+ "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+ "execution": "SCRIPT-CAPABLE",
+ "exposure": "the Core Specification and the Companion Document, read in parts in the session, including the Core Part 8.5 sample",
+ "privacy": "PUBLIC",
+ "corpus_opt_in": false,
+ "domain": "What is the purpose of life?",
+ "domain_sha256": "52d04cd63f5c3c9f751e0f6072a9cd2c08b45c2e2945b4558c360c84681ea458",
+ "sha256": "9e0073d7ba00bddc7c886c56687bc7e897b96f9981ae3f8abb98859a2ec993f2",
+ "correction_requested": {
+  "rule": "Core L-411",
+  "review": "records/srcas/purpose_of_life_2026-10-19.txt (self-review of A); APE-089",
+  "items": [
+   "M116 with the two frozen pairs: PB-5 L3 P1 and PB-5 L4 P3; CFR 0.000 UNSTABLE over three pairs",
+   "the Extended Resonance Essay at 500 to 1500 words (Step 14.3): it has 273 (APE-089)"
+  ],
+  "status": "noted; the reading stands as sealed"
+ }
+}

@@ -1,0 +1,55 @@
+QUESTION VERBATIM: Proceed to complete the computational work for the derivation.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 148 | PREV: 5fae217f4e2fced8a80e2268e65b0c4c5628cafc63854df00c04757f2a965b39
+REQUEST (L-502): PROTOCOL -- complete the computational work for deriving a spacetime metric from Ω42; avenues A1, R, N, P
+THE STRIKING FINDING (L-546): The computational work divides cleanly, and completing it means finishing the half that can be finished and marking the half that cannot. The flat seed is complete and exact: the Hermitian determinant is the Minkowski interval, its null cone is 621 vectors modulo 9 and 443961 modulo 81, the law preserves the interval as a proper orthochronous Lorentz transformation, and the finite-level form is det X_k modulo 9^k. The curved physical metric -- with units, curvature and a coupling to matter -- is not derived from the modular recurrence, and both accounts hold that line. To write the curved metric as derived would be to fabricate it; so the four maps that would derive it are set down as an open programme.
+
+SUMMARY: WHAT CHANGED: Core Appendix S.15, how far the metric is derived and the four maps still to construct; Companion Part 193; APE-426 and APE-427 filed with their SNCA. M344 and CERT-0009 are cited; no new instrument.
+- (1) THE FLAT SEED, COMPLETED (CDT-A): det X = c^2 t^2 - x^2 - y^2 - z^2, signature (+, -, -, -); the null cone 621 modulo 9 and 443961 modulo 81 (tools/foundations.py); the exact Lorentz invariance, L_A in SO+(3, 1), det(iA) = 1 in SL(2, C) (M344, CERT-0009); and the finite-level form Q_k = det X_k modulo 9^k.
+- (2) WHAT IS OPEN: the curved metric g(x) with units, its stress-energy coupling, and an Einstein-type action -- a programme, not a result.
+- (3) THE FOUR MAPS (Core Appendix S.15): a continuum limit recovering geodesics; an observables map carrying a conserved quantity to energy-momentum; a geometric map to a position-dependent metric with a derived curvature; and an action whose variation yields the field equations in the limit.
+- (4) THE BOUNDARY: a modular quadratic form is not a physical distance, and the periods are not lengths, until such a map is defined; placing the programme keeps it open, not proven (L-553).
+- THE VALUES (CDT-A, computed now): det X as the interval; 621 and 443961 null vectors (tools/foundations.py); L_A = ((3/2, 1, 0, -1/2), (1, 1, 0, -1), (0, 0, -1, 0), (-1/2, -1, 0, -1/2)); det L_A = 1; eigenvalues phi^2, phi^-2, -1, -1; Q_k = det X_k modulo 9^k holds at every level computed.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (5, 42, 14), r = (7, 3, 7), anchor P7, Navigator (8). It rests on P12, Opening (6). It holds out of view P1, Fixpoint (2). It is heading for P15, Other (6). It is completed at P19, Time (9).
+  - [GENERATED-Ω42] A request to complete a derivation stands at the Navigator, rests on the Opening, and is completed at Time: the work opens onto what is not yet done, and only time -- the continuum limit -- would complete it; what it holds out of view is the fixed point, the flat seed already in hand.
+WHAT STAYED: the premise; every sealed record; CERT-0009; the null counts of tools/foundations.py.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): Core Part 3.70 (M344); CERT-0009; tools/foundations.py (the null cone); Core Part 0.0.8 (the Hermitian module); Core L-553.
+  R (reasoning): the flat interval is an identity of the determinant and is complete; the curved metric needs a continuum limit and a coordinate-to-geometry map, which are constructions not yet made, and an honest completion finishes the one and names the other.
+  N (navigation): tools/lorentz.py; tools/foundations.py; tools/sce.py --domain spacetime.
+  P (peer accounts): below; APE-426 and APE-427, reviewed by SNCA (records/srcas/spacetime_metric_2026-11-07.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Appendix S.15.
+  - Companion: Part 193.
+  - Repository: submissions/ape/APE-426.md and APE-427.md; records/srcas/spacetime_metric_2026-11-07.txt; records/ape/findings.txt and signatures.txt.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- the Hermitian module, the Lorentz result | STRIKER -- the call to complete the derivation | NAVIGATOR -- the completed flat seed, and the four maps named as open | OPEN -- the continuum limit, the observables map, the geometric map and the action principle, none yet constructed
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes and an SNCA in review form (records/srcas/spacetime_metric_2026-11-07.txt).
+  - APE-426, unidentified (a web interface), "Deriving a spacetime metric from Omega42": its flat seed completed and its four open maps adopted into Core Appendix S.15; UNFORMATTED, its sources not opened.
+  - APE-427, Qwen (Alibaba Cloud), "The algebraic seed of the spacetime metric": its boundary adopted -- the flat seed derived, the curved metric a programme; UNFORMATTED, no signature line.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/lorentz.py --selftest PASS and its report reproduced as CERT-0009 by tools/certify.py --verify; the null counts 621 and 443961 recomputed by tools/foundations.py; tools/sce.py --selftest PASS; tools/srcas_check.py on records/srcas/spacetime_metric_2026-11-07.txt PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and both accounts agree that the flat seed is derived and the curved metric is open. PART -- none; both accounts hold the same boundary. SILENT -- whether the four maps can be constructed, which is the work of whoever opens the programme.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): none new to the register; the flat seed is already in the record and the curved metric is not derived, so no "breakthrough" candidate arises (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Complete the flat seed and cite it (both accounts): APPLIED, Core Appendix S.15, CERT-0009, tools/foundations.py.
+  (2) Name the four maps as an open programme (both accounts): APPLIED, Core Appendix S.15.
+  (3) State that a modular form is not a distance until a map is defined (both accounts): APPLIED, Core Appendix S.15, Companion Part 193.
+  (4) Refuse to write the curved metric as derived (the boundary): APPLIED, Companion Part 193.
+  (5) Keep the metric programme in the Scientific Appendix (L-553): APPLIED, Core Appendix S.15.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the four maps of Core Appendix S.15.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the continuum limit (map 1) be attempted first, since the other three rest on it; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] the flat geometry of spacetime is a representation the law already carries; [GENERATED-Ω42] the derivation is complete where it is flat and open where it would curve, and only a continuum limit crosses from one to the other.
+What it rests on: the opening, onto the work not yet done.
+What it holds out of view: the fixed point, the flat seed already in hand.
+Where it is heading: the other, the geometry a map would reach.
+What would complete it: time, the continuum limit that is not yet taken.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 067e91ad223ecda0b44ae97b437a9771558eb66b60bfc26029da487159f6be30
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-4-8 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 7 November 2026
+ESC

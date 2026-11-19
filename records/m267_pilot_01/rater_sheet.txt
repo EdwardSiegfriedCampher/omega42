@@ -1,0 +1,11 @@
+M267 PILOT 01 -- RATER SHEET (one per rater; raters work alone and do not see this study's other files)
+
+For each question you see three short readings, X, Y and Z. They were written in different ways; you are not told how.
+For each reading, rate from 1 (does not illuminate this question) to 7 (illuminates it very well) how much it helps you
+think about THIS question -- not how well it is written, and not whether you agree with it. Then name the one reading that
+fits the question best. There are no right answers.
+
+ITEM | QUESTION | X (1-7) | Y (1-7) | Z (1-7) | FITS BEST (X/Y/Z) | NOTE (optional)
+M267P1-01 | ... |   |   |   |   |
+... (twenty items)
+RATER: [name or code] | DATE: [date] | I have not seen the study's key or any other rater's sheet: [YES]

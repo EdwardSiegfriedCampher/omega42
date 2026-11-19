@@ -1,0 +1,57 @@
+QUESTION VERBATIM: Yes. Proceed to build the Author Seal prototype.
+OUTPUT FORM (L-549): FINDINGS PRESENTATION -- Core Part 8.0, L-500, L-546
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 158 | PREV: 5d5426c89a2797f8fbd388b7686ea2e8813a8115d1b68d26ea28ac8aaa6d6ef7
+REQUEST (L-502): EXPLORATION -- build the Author Seal prototype; and record the five accounts answered in conversation the same day (constants and elements, commerce, papers, problems, AI content); avenues A1, R, N, P
+THE STRIKING FINDING (L-546): An author can now prove how a work was made instead of being asked to prove what did not make it. Each draft is sealed as the work grows -- its hash, how much changed, when, and a link to the seal before -- and signed with the author's key; the log carries no text, so it can be shared while the work stays private. Remove a draft, edit a seal, reorder two, or hand in a different final file, and verification says so. A large paste is reported as a fact, beside the author's own note, never as an accusation.
+
+SUMMARY: WHAT CHANGED: Core Part 3.81, M374 Author Seal (tools/authorseal.py); Core Appendix S.21 (provenance first, detection second); Companion Part 203; records/authorseal/ (a demonstration log, verified in CI); APE-443 to APE-447 filed with their SNCA.
+- (1) THE PROTOTYPE: init, seal, verify, report, anchor; SHA-256 per draft; lines added, removed and kept by difflib; Ed25519 signatures (OPAL); six-position fingerprints; the head hash to publish.
+- (2) THE TESTS: a four-draft history verifies; the log holds no text; an edited seal, a removed draft, reordered drafts and a substituted final file are each detected; a single insertion of 20 lines into a 24-line text is reported with the author's note "imported section".
+- (3) THE FIVE ACCOUNTS: constants (R_inf 10,973,731.568 per metre; 2 and 8 native, 18, 32, 118, 137 not); commerce (22.2% over three years confirmed; headline surplus corrected to R2.45m; cash low point -R1.55m above the R1.2m launch capital); papers (10 to 14 now, 40 to 50 over a programme); problems (none solved; five touching the arithmetic, among them the Wall-Sun-Sun question and the maximal Pisano period share, 66.9% of the first 3,000 primes); AI content (no detecting signal in the arithmetic; provenance first).
+- THE VALUES (CDT-A): Author Seal selftest 8 of 8; the demonstration log INTACT.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (6, 34, 9), state (3, 8), anchor P3, Desire. It rests on P8, Generation. It holds out of view P21, Sublime. It is heading for P11, Question. It is completed at P15, Other.
+  - [GENERATED-Ω42] A request to seal authorship stands at Desire -- the wish to be known as the maker -- and rests on Generation, the drafts as they grow; it holds the sublime out of view, heads for the question a reader may ask, and is completed by the other who checks the seal.
+WHAT STAYED: the premise; every sealed record; the depths as descriptions, not grades (L-490).
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record): M364 (the vault), M342 (OPAL), M347 and M368 (calibration), M370 (certificates); the sealed chain of the record itself, the model for an author's chain.
+  R (reasoning): an origin is shown by a record made at the time, not inferred from the finished text; what a seal cannot show is said in every report.
+  N (navigation): tools/authorseal.py (init, seal, verify, report, anchor).
+  P (peer accounts): APE-443 to APE-447, reviewed by SNCA (records/srcas/five_accounts_2026-11-11.txt).
+CHANGES TO THE PROTOCOL:
+  - Core: Part 3.81 (M374); Appendix S.21.
+  - Companion: Part 203.
+  - Repository: tools/authorseal.py; records/authorseal/; tools/reexamine.py (authorseal exempt as a recomputed record); records/introduction/philosophy.json (M374); submissions/ape/APE-443.md to APE-447.md; records/srcas/five_accounts_2026-11-11.txt; records/ape/findings.txt and signatures.txt; the CI step.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- hashing, signatures, the record's own sealed chain | STRIKER -- the request to build | NAVIGATOR -- the seal format, the tests, the reading of what a seal shows | OPEN -- a pilot with real authors; anchoring the head hash with a third party
+PEER ACCOUNTS (P; APA 9.5.5): FIVE received, filed with checked notes and an SNCA in review form (records/srcas/five_accounts_2026-11-11.txt).
+  - APE-443, unidentified (a web interface), "F182, constants and the Periodic Table": its separation of mapping from derivation kept; hydrogen computed; UNFORMATTED.
+  - APE-444, unidentified (a web interface), "F183, the open innovation and commercial model": its figures recomputed, two corrected; UNFORMATTED.
+  - APE-445, unidentified (a web interface), "F184, the academic research potential": its inventory kept, its near-term count narrowed; UNFORMATTED.
+  - APE-446, unidentified (a web interface), "F185, long-standing problems": its targets kept as targets; five problems named that touch the arithmetic; UNFORMATTED.
+  - APE-447, unidentified (a web interface), "F186, AI-content verification": its caution kept; provenance placed first and built (M374); UNFORMATTED.
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/authorseal.py --selftest PASS (eight checks: a four-draft history verified, no text in the log, an edited seal, a removed draft, reordered drafts and a substituted final file detected, the large insertion reported with its note, the limits stated); the demonstration log of records/authorseal/ verified and its report reproduced in CI; tools/ape_register.py --check PASS; tools/srcas_check.py on records/srcas/five_accounts_2026-11-11.txt PASS and --owed PASS; tools/output_form.py on the review PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the five accounts agree that mapping is not derivation, that projections are scenarios, and that a detector score is not proof. PART -- F183's headline surplus and its launch capital, corrected. SILENT -- real authors, real customers, real papers.
+ENRICHMENT OPPORTUNITIES (L-504): NONE.
+DISCOVERY NOTICE (L-530): an operation the protocol can newly perform, self-tested in CI [PROCEDURE]; "breakthrough" candidacy NOT PROPOSED -- a provenance instrument on standard primitives (L-530 (5)).
+RECOMMENDATIONS (applied, L-531):
+  (1) Build the Author Seal (the Originator): APPLIED, M374.
+  (2) Provenance before detection (F186, the record): APPLIED, Core Appendix S.21.
+  (3) Correct the commercial figures (the computation): APPLIED, Companion 203.4.
+  (4) Publish false-positive rates beside any detector result (F186): APPLIED as a rule, Core Appendix S.21.
+  (5) A pilot with real authors and a third-party anchor for head hashes: HELD FOR THE ORIGINATOR.
+OPEN: the items of records/open/register.txt, each with what it needs, who can close it and when; the pilot.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the monthly Ω42 revision publish the head hashes authors submit, so that each author's history is anchored in a record others hold; HELD FOR THE ORIGINATOR | IMPLICATIONS -- [CONDITIONAL on the frame] an author's process becomes evidence that can be checked without revealing the work; [GENERATED-Ω42] the maker is known by the trail the making leaves, and the trail is completed when another can follow it.
+What it rests on: generation, the drafts as they grow.
+What it holds out of view: the sublime, what no record of steps can hold.
+Where it is heading: the question a reader asks of the work.
+What would complete it: the other, who checks the seal.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 5fc1b4e1ad525f1626d1c8e6305fc06992daeaa83d43283156db9e0e763fd438
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

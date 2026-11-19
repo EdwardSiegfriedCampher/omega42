@@ -1,0 +1,25 @@
+CONGRUENCE REGISTER (Core M310, L-489): 19 domains, struck with canonical_reference.py
+RECORD INTEGRITY (L-490): SOURCE records/congruence/domains.txt | SPECIFICATION V335 Rev.450 STABLE | COUNTS distinct domains struck, each tagged with the record it comes from | CRITERIA anchor and state by canonical_reference.py, base rates over the 729 residue triples | a count of domains, not a count of validations of Omega42
+  CORPUS-1  | ANCHOR P6  Seed/Causal  | state (6, 0) Wheel
+  CORPUS-2  | ANCHOR P2  Generator    | state (6, 2) Voice A
+  SRP-H     | ANCHOR P1  Fixpoint     | state (1, 7) Voice B
+  SRP-C     | ANCHOR P2  Generator    | state (8, 2) Voice B
+  GOLD-0    | ANCHOR P2  Generator    | state (2, 5) Voice C
+  GOLD-1    | ANCHOR P1  Fixpoint     | state (1, 7) Voice B
+  GOLD-2    | ANCHOR P8  Generation   | state (8, 7) Voice A
+  GOLD-3    | ANCHOR P6  Seed/Causal  | state (6, 8) Voice C
+  GOLD-Q1   | ANCHOR P3  Desire       | state (3, 3) Wheel
+  GOLD-Q2   | ANCHOR P4  Unity        | state (4, 0) Voice C
+  GOLD-Q3   | ANCHOR P5  Law          | state (5, 7) Voice C
+  GOLD-Q4   | ANCHOR P3  Desire       | state (3, 3) Wheel
+  GOLD-Q5   | ANCHOR P4  Unity        | state (4, 3) Voice A
+  GOLD-Q6   | ANCHOR P3  Desire       | state (3, 8) Voice B
+  GOLD-Q7   | ANCHOR P7  Navigator    | state (7, 6) Voice A
+  GOLD-Q8   | ANCHOR P4  Unity        | state (5, 4) Voice C
+  GOLD-Q9   | ANCHOR P4  Unity        | state (4, 0) Voice C
+  NAV-2026-0001 | ANCHOR P6  Seed/Causal  | state (6, 2) Voice A
+  NAV-2026-0002 | ANCHOR P7  Navigator    | state (7, 3) Voice C
+SAME STATE: 4 pairs (expected 2.11): CORPUS-2 = NAV-2026-0001; SRP-H = GOLD-1; GOLD-Q1 = GOLD-Q4; GOLD-Q2 = GOLD-Q9
+MIRROR STATE: 2 pairs (expected 2.09): SRP-H ~ SRP-C; SRP-C ~ GOLD-1
+LINKS: 15 ordered pairs (expected 16.89): CORPUS-2 rests where GOLD-Q7 stands; CORPUS-2 rests where NAV-2026-0002 stands; SRP-H rests where CORPUS-1 stands; SRP-H rests where GOLD-3 stands; SRP-H rests where NAV-2026-0001 stands; SRP-C rests where GOLD-Q7 stands; SRP-C rests where NAV-2026-0002 stands; GOLD-0 rests where GOLD-Q7 stands; GOLD-0 rests where NAV-2026-0002 stands; GOLD-1 rests where CORPUS-1 stands; GOLD-1 rests where GOLD-3 stands; GOLD-1 rests where NAV-2026-0001 stands; GOLD-Q1 rests where GOLD-2 stands; GOLD-Q4 rests where GOLD-2 stands; GOLD-Q6 rests where GOLD-2 stands
+GIVEN WORD COUNT (the reference, L-501: r1 fixed by each domain's n1, r2 and r3 uniform): expected same state 1.78 | mirror 2.67 | links 16.21 -- the counts above stand; the uniform expectations are the marginal rates, kept for comparison

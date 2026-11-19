@@ -1,0 +1,23 @@
+(a) complete spectrum <=> orbit of units <=> norm != 0 (outside the zero layer):
+    fixed point len  1 | complete spectrum False | all units False | norm values [0]
+    Voice A     len 24 | complete spectrum True  | all units True  | norm values [1, 8]
+    Voice B     len 24 | complete spectrum True  | all units True  | norm values [4, 5]
+    eight-cycle len  8 | complete spectrum False | all units False | norm values [0]
+    Voice C     len 24 | complete spectrum True  | all units True  | norm values [2, 7]
+    equivalence holds for every orbit: True
+(b) each voice's dominant pair = its zero-seeds; after a zero the next value repeats:
+    Voice A: zero-seeds [1, 8] | dominant values [1, 8] (x5) | equal: True | (0,x) -> (x,x): True
+    Voice B: zero-seeds [2, 7] | dominant values [2, 7] (x5) | equal: True | (0,x) -> (x,x): True
+    Voice C: zero-seeds [4, 5] | dominant values [4, 5] (x5) | equal: True | (0,x) -> (x,x): True
+    Voice A = 1 x the Fibonacci orbit from (0, 1): True
+    Voice B = 2 x the Fibonacci orbit from (0, 1): True
+    Voice C = 5 x the Fibonacci orbit from (0, 1): True
+    1/2 mod 9 = 5, so Voice C = (1/2) x the Fibonacci orbit
+(c) the K2 order convention is the choice between a seed and its inverse:
+    (5,2) = phi^4 * (2,5)^-1, with phi^4 = (2,3): True | T^4(1,0) = (2,3): True
+    inversion maps Voice C onto Voice B: True | Voice B onto Voice C: True | fixes Voice A: True
+    inversion reverses the law, inv(T(u)) = T^-1(inv(u)), on all 72 units: True
+    norm of the inverse = inverse of the norm (2 <-> 5, 7 <-> 4, 1 and 8 fixed): True
+(d) K-zero adversarial set: unit orbit, adjacent zero-seed values, start at a zero state:
+    survivors: [('Voice C', (0, 4)), ('Voice C', (0, 5))] -> 2, one orbit; related by T^12 = -I: True
+    the canonical reading from (2,5) meets the zero states at P7 (0,5) and P19 (0,4)

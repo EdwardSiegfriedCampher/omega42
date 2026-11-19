@@ -1,0 +1,13 @@
+# Until the Stewardship Committee is formed, the Originator reviews protocol and governance changes (GOVERNANCE.md).
+/docs/            @omega42/originator
+/scripts/         @omega42/originator
+/GOVERNANCE.md    @omega42/originator
+/TRADEMARK.md     @omega42/originator
+/records/prior_art/ @omega42/maintainers
+/RELEASES.md      @omega42/originator
+/ai/              @omega42/originator
+/tools/format_check.py   @omega42/originator
+/tools/core_economy.py   @omega42/originator
+/tools/release_manifest.py @omega42/originator
+/agents/          @omega42/originator
+/records/releases/ @omega42/maintainers

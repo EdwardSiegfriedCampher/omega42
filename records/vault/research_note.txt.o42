@@ -1,0 +1,22 @@
+{
+ "header": {
+  "protocol": "Omega42-Envelope",
+  "version": 1,
+  "cipher": "AES-256-GCM",
+  "omega42_k": 3,
+  "domain": "research/notes",
+  "rotation": 1,
+  "kdf": "scrypt+hkdf",
+  "created_utc": "2026-11-11T14:15:40Z",
+  "scrypt": {
+   "n": 32768,
+   "r": 8,
+   "p": 1
+  },
+  "name": "research_note.txt"
+ },
+ "salt": "ShnuuiJkk9ETxCHj7WBx3Q==",
+ "nonce": "QAUmfWVVSA+kx5LR",
+ "ciphertext": "CR7rgdnmKz5JryFBkUiA60c0tWNrdMhe9IV0WIhassX9bgH8HxlNXh4Ui9ckDfLZAHe+6Btk0PH+5rqAuNm8ODrUACkUMhvgvujSK52LswQ64Oi310ijaeMSKqPqKZgmwYYFUVj7sM77CvlI03TbolwVZbgNIz6d2emzRk6d4v3VclxL5Vf0I1/qBuLPELsN3/SE6URNukthjAElTrRtCX+D9i4ibHGIS1ib5P66SXa0N5JT+qytkAJug0QxrwSRx23jwnpTX2g=",
+ "fingerprint": "P13 Gap P15 Other P00 Seed P05 Law P02 Generator P00 Seed"
+}

@@ -1,0 +1,15 @@
+PILOT 03 LEDGER -- result of the frozen test (00_freeze.txt; SHA-256 in 02_freeze_sha256.txt; computed by compute.py)
+
+PART A, CALIBRATION: PASS. Among the 3888 matrices of GL2(Z/9), exactly the 54 conjugates of T pass the golden screen
+(the golden relation A^2 = A + I with modulus 9, the whole-space census and A^12 = -I); no null matrix passes. The
+golden law modulo 3, 6, 18, 27 and 81 fails. Every matrix mod 9 with trace 1 and determinant -1 is a conjugate of T.
+The screen that singles out the family is algebraic: the system's own law must satisfy x^2 = x + 1 with modulus 9.
+
+PART B, S4 on SU(9)_1 x SU(9)_1: MET within the theory. The spins of the 81 anyons have 24 isometries and 24
+anti-isometries (time reversals) in GL2(Z/9); exactly two anti-isometries are golden, they are conjugates of T, and
+they form one class under the theory's own isometries. The literal matrix T is not among them in the anyon labels
+(a, b); it is in the labels of run 11, which are related by an isometry. The anyon theory singles out the family's law,
+up to its own symmetries, among its time reversals.
+
+Standing (Core L-466): the anyon theory meets S1, S3 and S4 as a theoretical object; S7 (blind independent
+identification) and S8 (measurement) are open; S5 against null theories with the same label group is the next test.

@@ -1,0 +1,22 @@
+M319 OBJECT PANELS -- features and null classes frozen in records/resonance/object_panels_frozen.txt; every value computed here [CDT-A]
+=== PANEL 1: the 24-cell against the regular convex 4-polytopes ===
+  24-cell (F4)                 C24 YES CA YES CT2 YES CT NO | group 1152 | 24 vertices | s = 0.75
+  5-cell (A4)                  C24 NO CA NO CT2 NO CT NO | group 120 | 5 vertices | s = 0.00
+  16-cell (B4)                 C24 NO CA YES CT2 NO CT NO | group 384 | 8 vertices | s = 0.25
+  tesseract (B4)               C24 NO CA YES CT2 NO CT NO | group 384 | 16 vertices | s = 0.25
+  600-cell (H4)                C24 NO CA YES CT2 YES CT NO | group 14400 | 120 vertices | s = 0.50
+  120-cell (H4)                C24 NO CA YES CT2 YES CT NO | group 14400 | 600 vertices | s = 0.50
+  MARGIN M = 0.6429 | p = 0.1667 (5 nulls; the least p this class allows is 0.1667) | p_family = 0.0000 (k' = 0) | UNDERPOWERED (the class of 5 nulls cannot reach p <= 0.10)
+=== PANEL 2: 24-tone equal temperament against cyclic 24-systems ===
+  24-tone equal temperament    C24 YES CC YES CA YES | s = 1.00
+  24-hour day                  C24 YES CC YES CA YES | s = 1.00
+  24-item cyclic list          C24 YES CC YES CA YES | s = 1.00
+  24 half-hour marks of a 12-hour face C24 YES CC YES CA YES | s = 1.00
+  MARGIN M = 0.0000 | p = 1.0000 (3 nulls; the least p this class allows is 0.2500) | p_family = 0.0000 (k' = 0) | NONDISCRIMINATING
+=== PANEL 3: the 24-cell against the Wythoffian convex uniform 4-polytopes (A4, B4, F4, H4; 60 constructions, 47 distinct vertex sets) ===
+  24-cell (B4 ringed 3; also F4 ringed 1, F4 ringed 4)  C24 YES CA YES CT2 YES CT NO | s = 0.75
+  nulls at s = 0.50: 23 -- F4 ringed 2 (96 vertices, T^2 signature); F4 ringed 12 (192 vertices, T^2 signature); F4 ringed 13 (288 vertices, T^2 signature); F4 ringed 14 (144 vertices, T^2 signature); F4 ringed 23 (288 vertices, T^2 signature); F4 ringed 123 (576 vertices, T^2 signature); F4 ringed 124 (576 vertices, T^2 signature); F4 ringed 1234 (1152 vertices, T^2 signature); H4 ringed 1 (600 vertices, T^2 signature); H4 ringed 2 (1200 vertices, T^2 signature); H4 ringed 3 (720 vertices, T^2 signature); H4 ringed 4 (120 vertices, T^2 signature); H4 ringed 12 (2400 vertices, T^2 signature); H4 ringed 13 (3600 vertices, T^2 signature); H4 ringed 14 (2400 vertices, T^2 signature); H4 ringed 23 (3600 vertices, T^2 signature); H4 ringed 24 (3600 vertices, T^2 signature); H4 ringed 34 (1440 vertices, T^2 signature); H4 ringed 123 (7200 vertices, T^2 signature); H4 ringed 124 (7200 vertices, T^2 signature); H4 ringed 134 (7200 vertices, T^2 signature); H4 ringed 234 (7200 vertices, T^2 signature); H4 ringed 1234 (14400 vertices, T^2 signature)
+  nulls at s = 0.25: 17 -- A4 ringed 14 (20 vertices); A4 ringed 23 (30 vertices); A4 ringed 1234 (120 vertices); B4 ringed 1 (16 vertices); B4 ringed 2 (32 vertices); B4 ringed 4 (8 vertices); B4 ringed 12 (64 vertices); B4 ringed 13 (96 vertices); B4 ringed 14 (64 vertices); B4 ringed 23 (96 vertices); B4 ringed 24 (96 vertices); B4 ringed 34 (48 vertices); B4 ringed 123 (192 vertices); B4 ringed 124 (192 vertices); B4 ringed 134 (192 vertices); B4 ringed 234 (192 vertices); B4 ringed 1234 (384 vertices)
+  nulls at s = 0.00: 6 -- A4 ringed 1 (5 vertices); A4 ringed 2 (10 vertices); A4 ringed 12 (20 vertices); A4 ringed 13 (30 vertices); A4 ringed 123 (60 vertices); A4 ringed 124 (60 vertices)
+  MARGIN M = 0.6198 | p = 0.0213 (46 nulls; the least p this class allows is 0.0213) | p_family = 0.0000 (k' = 0) | DISCRIMINATING | share of look-alikes outscored 1.0000
+READING: the Margin says how far the object exceeds its frozen look-alikes on the frozen features; it does not say that the cycle produces the object (L-480), and it grades nothing (L-490)

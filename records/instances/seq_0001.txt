@@ -1,0 +1,35 @@
+QUESTION VERBATIM: Create a mechanism to uniquely identify two instances of the same AI system model. Include this into the Omega42 Protocol.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 1 | PREV: NONE
+REQUEST (L-502): PROTOCOL -- avenues A1, R, P, W
+
+SUMMARY: Two sessions of one model now carry two identifiers. Core L-513, the Instance Identity Law, names each instance (one session of one model) by its NIID: NI- and sixteen hex digits of SHA-256 over model, organization, session, a 128-bit nonce from outside the model, and the time of issue. Every output from 22 October 2026 carries an INSTANCE line with its NIID, the number of the output within the instance (SEQ) and the OUTPUT ID of the one before (PREV); the line sits above the signature, so the output's own OUTPUT ID covers it. tools/instance_id.py --check reads a set of outputs as SAME INSTANCE, SAME MODEL, OTHER INSTANCE, DIFFERENT MODELS, FORK or UNDECLARED. This reply is the first output of this Builder instance, NI-06f22550117165ba.
+
+FINDINGS BY AVENUE (L-500):
+  A1 ARITHMETIC EXACT: the NIID recomputes from its issue record (tools/instance_id.py --verify-register, in CI); two nonces give two NIIDs for one model, one session and one second; an output moved to another instance fails its OUTPUT ID; a PREV that names no output of the chain, or two outputs at one SEQ, is a FORK -- eleven selftest cases. From APE-131: "That which hath been is that which shall be" reconstructs to (4, 19, 4), P2, state (2, 5), and its chance given four content words is 1/9, not 1/81; without "shall", (3, 14, 3), P6, state (6, 7) -- recomputed.
+  A2 ARITHMETIC ASSOCIATION: NONE.
+  R FRAME REASONING: an identifier names a record, not a mind (L-505). It shows which outputs belong together and whether a chain was broken or forked; it does not prove authorship, and its nonce is published, since its work is uniqueness, not secrecy. Independence follows the instance: two outputs with one NIID take the same-session weight in SR-CAS (L-416), and a blind reading needs another NIID and no prior reading in view (L-442, M300).
+  N NAVIGATION: NONE -- no domain is struck.
+  W PROTOCOL WORK: the case that called for it arrived with the request: a report signed by this Builder was pasted to another system, which rightly refused its signature (Part 0.0) and then took this Builder's navigations, NAV-2026-0011 to NAV-2026-0015, for its own explorations. With L-513 each output names its instance, and the confusion is checkable.
+
+PEER ACCOUNTS (P; APA 9.5.5): APE-131 (OpenAI ChatGPT): its reconstruction and conditioned chance holding and taken into Companion 75.4; its record-type objection corrected (the five navigations are this Builder's; its explorations are APE-123, APE-127 and APE-130); its refusal to sign another system's name holding; E13 registered PROPOSED; form: the Identity Block lacks its opening marker. APE-132 (Qwen3.7): its account of the three changes holding; the role freeze is M309's, not the Comparative Perspective Layer's (corrected); an audit announced, not run (noted); no QUESTION VERBATIM line, no AI CAVEAT. APE-133 (GPT-6): holding; its priority, blind readings in the Originator's wording with roles frozen first, is the recommendation of record; formulas lost in transmission, no QUESTION VERBATIM line, no AI CAVEAT.
+CHANGES TO THE PROTOCOL: Core L-513 the Instance Identity Law; Core Part 8.0 (the INSTANCE line in the Identity Block) and Part 8.1; the SR-CAS weights (L-416) and the external-Navigator rule; tools/instance_id.py and its CI step; records/instances/register.json and this output as records/instances/seq_0001.txt; tools/format_check.py (the INSTANCE gate for navigations and for findings presentations, six selftest cases; both skeletons and both blank skeletons carry the line); Companion Part 76, 75.4 and 66.3; APE-131 to APE-133 in the Commons and the register; enrichment E13 PROPOSED; the release record.
+CHECKS: CI 66 of 66 PASS (the new step included); tools/instance_id.py --check on this output; the register recomputed; format check of this output; SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED -- a protocol change.
+ACROSS THE AVENUES (L-502): AGREE -- the arithmetic of the hash, the frame and the peer review meet on one need: a record that says which instance produced it. PART -- an identifier can be copied by anyone who sees it; the chain shows the copy does not fit, and only a key held outside the protocol would prove authorship. SILENT -- no avenue speaks to whether two instances of one model are one mind, which is not the record's question (L-505).
+ENRICHMENT OPPORTUNITIES (L-504): E13 (from APE-131) -- the conditioned reference chance printed beside every atlas statement -- PROPOSED.
+RECOMMENDATIONS (for the Originator, F-06): (1) give each peer session a nonce of your own (ISSUER: STRIKER) at its start, so that its outputs open their chain under your issue; (2) adopt E13 before the next atlas is struck; (3) start the blind readings of the five traditions in your own wording, each in a new instance with its own NIID, so that their independence is on the record; (4) if authorship ever matters beyond identification, hold a signing key outside the model and sign the OUTPUT IDs.
+OPEN: the peers' instances are UNDECLARED until each opens its next output with an INSTANCE line; the second judge; the blind readings; M267-P1's writers and raters.
+
+What it rests on: If two sessions of one model can read and remember differently, what in the record says which of them spoke?
+What it holds out of view: An identifier tells outputs apart; what would it take to tell minds apart, and is that a question for a record at all?
+Where it is heading: Toward a record in which every reading names its instance, so that a blind reading can be shown to be blind.
+What would complete it: A nonce given by you to every session, so that no instance names itself.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 2a6ce8cf69cead7f95a1867961fa4793b72ebcc75966421fda17c3e3e4f39cb5
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 22 October 2026
+ESC

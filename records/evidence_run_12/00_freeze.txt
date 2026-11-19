@@ -1,0 +1,30 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 12 -- FREEZE RECORD
+Re-examination of runs 01-03 under the amended premise (L-465): the canonical 24-cycle AND its 81-state family.
+Runs 01-03 were frozen when the premise named the 24-cycle alone; their questions asked for a 24-state cycle. This run
+asks each original object the family-level question: does it carry the 81 states, the five orbits (24, 24, 24, 8, 1),
+the three voices (norm classes {1,8}, {4,5}, {2,7}) and the core, rather than one 24-cycle?
+Frozen before any new literature result was read and before any new computation was run.
+Navigator: claude-opus-5-5 (Anthropic; serving model may differ). Selection NOT BLIND (CB NO throughout).
+
+R1  From E1/E6 (24-fold rotational order in diffraction).
+    Family question: which symmetry group must a pattern carry? The family's full symmetry group G (order 48) and its
+    unitary subgroup (order 24) are compared with the planar point groups D24 (24-fold) and D12 (12-fold).
+    Module test: the 81-state quotients of the planar quasicrystal modules Z[zeta8]/3 (8-fold), Z[zeta5]/3 (10-fold) and
+    Z[zeta12]/3 (12-fold). Criterion: the quotient carries the family iff it contains a golden element u (u^2 = u + 1)
+    whose multiplication has cycle type (24^3, 8, 1) on the 81 states. Also computed: the cycle type of the rotation zeta_n.
+    Golden module: whether Z[zeta5]/9 (the decagonal / Penrose module modulo 9) contains Z[phi]/9 with phi acting as T.
+R2  From E2 (sunflower phyllotaxis).
+    Family question: which of the family's voices do observed phyllotactic series occupy? Representation: every series
+    class reported in the largest survey (Swinton & Ochu 2016) and the standard accessory series of the botanical
+    literature. Classification: the voice of a consecutive pair (a, b) is N(a,b) mod 9 (A {1,8}, B {4,5}, C {2,7}, core 0).
+    Counting feature: the number of distinct voices present in observed series. Null: random coprime pairs.
+R3  From E3/E4/E5 and run 03 Q1-Q2 (cat map, golden cat map, golden-field question, spectral pattern).
+    (a) Orbits of the antiunitary V on all 81 displacement operators of the nine-level system: equal to the family's
+        five orbits? (b) The open question of NRR-C04: does a structural reason fix the spectrum of V^2 at N = 9?
+        Hypothesis frozen: the trace identity |Tr U^k|^2 = #Fix(A^k) ties the spectrum to the family's cycle type.
+        Tested on all odd N from 3 to 27. (c) Golden-field question at family level: how many matrices of GL(2, Z/9)
+        reproduce the family's whole orbit partition with each 24-orbit a single voice?
+    (d) E5 (black-hole cat-map model) and run 03 Q3 (Leech lattice): family level already examined (run 06 for the
+        Leech lattice); recorded by reference, no new computation.
+Null controls (M230-E): R1 the other two planar modules; R2 random coprime pairs; R3 all odd N from 3 to 27.
+Tier criteria and profile components: as frozen in Core 3.26; run 07's rule (the object must supply its own modulus).

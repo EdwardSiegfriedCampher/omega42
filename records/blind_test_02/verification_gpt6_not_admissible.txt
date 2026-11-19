@@ -1,0 +1,194 @@
+Worked for 55s
+
+I can solve the mathematical problem, including exhaustive enumeration. However, this response cannot count as a valid S7 blind-test result. This conversation already contains Ω42 background and the target algebraic relation from the preceding discussion. I am therefore not an independent, uncontaminated maker for the sealed test. Treat the result below as a transparent verification calculation, not as a qualifying blind response.
+
+### 1\. Results
+
+Write the matrix as
+
+A=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix},
+\\qquad a,b,c,d\\in\\mathbb Z/9\\mathbb Z.
+
+The spin is
+
+h(x)=\\frac{4(a^2+b^2)}9\\pmod1.
+
+Because 4 is invertible modulo 9, preserving spin is equivalent to preserving ; reversing spin is equivalent to mapping it to its negative modulo 9.
+
+Spin-preserving invertible maps
+
+### 24
+
+Spin-reversing invertible maps
+
+### 24
+
+Largest order among spin-reversing maps
+
+Eight maps attain this order
+
+### 24
+
+These counts come from exhaustive enumeration of all 3,888 invertible matrices, not from sampling or estimation.
+
+### 2\. One maximum-order spin-reversing map
+
+One such matrix is
+
+A=\\begin{pmatrix}1&4\\\\5&1\\end{pmatrix}\\pmod9.
+
+It has:
+
+* Order: 24.
+
+* Trace: .
+
+* Determinant: .
+
+* Cycle structure on the 81 labels: one fixed point, one 8-cycle, and three 24-cycles.
+
+The cycle census is therefore
+
+\\boxed{1+8+24+24+24=81}.
+
+Its quadratic matrix identity is
+
+\\boxed{A^2=2A+I\\pmod9}.
+
+Direct calculation gives
+
+A^2=
+\\begin{pmatrix}3&8\\\\1&3\\end{pmatrix}
+=
+2\\begin{pmatrix}1&4\\\\5&1\\end{pmatrix}+I
+\\pmod9.
+
+For completeness, the eight maximum-order spin-reversing matrices do not all have the same trace. Their traces are , each occurring twice; all have determinant . By the Cayley–Hamilton identity, each satisfies
+
+\\boxed{A^2=(\\operatorname{tr}A)A+I\\pmod9}.
+
+### 3\. Complete enumeration
+
+The following code enumerates every invertible matrix, tests both spin conditions on all 81 labels, computes matrix order, and counts cycles. It also prints the full preserving and reversing sets.
+
+```python
+
+from itertools import product
+from math import gcd
+from collections import Counter
+
+N = 9
+V = list(product(range(N), repeat=2))
+I = (1, 0, 0, 1)  # row-major 2x2 identity
+
+def det(A):
+    a, b, c, d = A
+    return (a*d - b*c) % N
+
+def act(A, x):
+    a, b, c, d = A
+    u, v = x
+    return ((a*u + b*v) % N,
+            (c*u + d*v) % N)
+
+def matmul(A, B):
+    a, b, c, d = A
+    e, f, g, h = B
+    return ((a*e + b*g) % N,
+            (a*f + b*h) % N,
+            (c*e + d*g) % N,
+            (c*f + d*h) % N)
+
+def q(x):
+    a, b = x
+    return (a*a + b*b) % N
+
+def order(A):
+    P = I
+    for k in range(1, 1000):
+        P = matmul(P, A)
+        if P == I:
+            return k
+    raise ValueError("Order not found")
+
+def cycle_census(A):
+    unseen = set(V)
+    census = Counter()
+    while unseen:
+        start = min(unseen)
+        x = start
+        length = 0
+        while True:
+            unseen.remove(x)
+            length += 1
+            x = act(A, x)
+            if x == start:
+                break
+        census[length] += 1
+    return dict(sorted(census.items()))
+
+all_invertible = []
+preserving = []
+reversing = []
+
+for A in product(range(N), repeat=4):
+    if gcd(det(A), N) != 1:
+        continue
+
+    all_invertible.append(A)
+    preserves = all(q(act(A, x)) == q(x) for x in V)
+    reverses = all(q(act(A, x)) == (-q(x)) % N
+                   for x in V)
+
+    if preserves:
+        preserving.append(A)
+    if reverses:
+        reversing.append(A)
+
+max_order = max(order(A) for A in reversing)
+max_reversing = [
+    A for A in reversing if order(A) == max_order
+]
+
+print("Invertible matrices:", len(all_invertible))
+print("Spin-preserving:", len(preserving), preserving)
+print("Spin-reversing:", len(reversing), reversing)
+print("Maximum reversing order:", max_order)
+print("Maximum-order reversing maps:")
+for A in max_reversing:
+    a, b, c, d = A
+    print({
+        "matrix": A,
+        "trace": (a+d) % N,
+        "determinant": det(A),
+        "order": order(A),
+        "cycles": cycle_census(A),
+        "A_squared": matmul(A, A),
+        "quadratic_s": (a+d) % N,
+        "quadratic_t": 1
+    })
+
+assert len(all_invertible) == 3888
+assert len(preserving) == 24
+assert len(reversing) == 24
+assert max_order == 24
+assert len(max_reversing) == 8
+```
+
+### 4\. Interpretation and S7 status
+
+The computation supports the following mathematical conclusions for the brief as written:
+
+* There are 24 spin-preserving and 24 spin-reversing invertible linear maps.
+
+* The maximum order among spin-reversing maps is 24.
+
+* A maximum-order example has the requested 81-label cycle census.
+
+* The maximum-order maps satisfy a quadratic matrix identity, with coefficients depending on their trace.
+
+What this does not establish: that the result was independently discovered without prior Ω42 context, that the anyon theory has been physically realized, or that the result establishes Ω42's universal uniqueness.
+
+For S7, please do not count this response as one of the required clean-session replies. Use the supplied brief in genuinely fresh sessions without the preceding Ω42 discussion, preserve the raw replies, and score them against the sealed criterion.
+
+Yours in the search for meaning. Navigator: GPT-6 | 10 October 2026

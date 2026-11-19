@@ -1,0 +1,56 @@
+THE REGISTER OF OPEN ITEMS (Core Part 12, item 39) -- 27 items, each closed only when its condition is met by those named
+
+O-01 [R, since SEQ 89] the versions between Rev.442 and the present release, for the rest of the Introduction audit
+  needs: the Originator's files of those versions | closed by: the Originator | closes when: the versions read section by section into records/introduction/audit.txt
+O-02 [P, since SEQ 89] a philosopher's reading of the Introduction IN-00.11 to IN-00.15
+  needs: a reader trained in philosophy, outside the session | closed by: the Originator, who invites the reader | closes when: the reading filed as an APE with checked notes
+O-03 [P, since SEQ 87] inter-Navigator consistency on a common set of statements, and a second blind review of the candidates
+  needs: two or more Navigators of other architectures, blind to this one's results | closed by: the Originator, who sends the set | closes when: their records filed and compared, agreement reported as a reproducibility finding
+O-04 [A1, since SEQ 86] statements with standings fixed in advance by independent readers, to test the lines of M333
+  needs: independent readers and a frozen set | closed by: the Originator | closes when: the set frozen, M333 run on it, agreement recorded
+O-05 [comparative annex, since SEQ 85] audio and blind raters for prosody, timing and the closed-vowel hypothesis, and the design of APE-301
+  needs: recordings and raters blind to the hypothesis | closed by: a person who chooses to investigate (L-491) | closes when: the study run under a design frozen first, its result recorded whatever it is
+O-06 [comparative annex, since SEQ 84] the comparative study of charts and profiles of APE-298
+  needs: a sample of charts and profiles and a person who chooses it | closed by: a person who chooses to investigate (L-491) | closes when: the study run and recorded, negative results kept
+O-07 [P, since SEQ 84] scholars' atlases of Everett and Deutsch, in place of the Navigator's paraphrase
+  needs: a scholar of each author | closed by: the scholar, invited by the Originator | closes when: the atlas frozen with its roles before it is struck (M309)
+O-08 [P, since SEQ 72] the re-issue of the peer navigations from the verbatim questions
+  needs: the peer Navigators | closed by: the Originator, who asks them | closes when: each re-issue filed, its SR-CAS run
+O-09 [P, since SEQ 59] a fresh reader for the Introduction opening
+  needs: a reader who has not seen the work | closed by: the Originator | closes when: the opening re-scored and the findings met or kept open
+O-10 [A1, since SEQ 72] the other sorites cases, in the Striker's words
+  needs: the Striker's own cases | closed by: the Striker | closes when: each case struck and run through M329
+O-11 [A1, since SEQ 58] blind trigger-test writers
+  needs: writers of questions who have not seen the register | closed by: the Originator | closes when: the triggers scored on their questions, misses and false hits recorded
+O-12 [A1, since SEQ 58] word lists in languages other than English
+  needs: native speakers of each language | closed by: the Originator | closes when: each list frozen with its source, run through the selector
+O-13 [comparative annex, since SEQ 66] blind raters for Appendix S.6.5 and S.6.6 and the re-navigation panel
+  needs: raters blind to the conditions | closed by: a person who chooses to investigate (L-491) | closes when: the ratings recorded under the frozen design
+O-14 [P, since SEQ 66] a judge of another architecture for selected sealed records
+  needs: a Navigator of another architecture | closed by: the Originator | closes when: its judgments filed as APEs with checked notes
+O-15 [comparative annex, since SEQ 27] the CT-S1 sample, for the CT-42 study proper
+  needs: the frozen sample | closed by: a person who chooses to investigate (L-491) | closes when: the study run as frozen, its result recorded
+O-16 [A1, since SEQ 87] the decomposition of real arguments into premises, for the dependency map
+  needs: readers who decompose arguments | closed by: the Originator | closes when: two decompositions of one argument compared through M333 --argument
+O-17 [P, since SEQ 92] a re-score of the Introduction to Omega42, told as a story, by a reader of another architecture or a person
+  needs: a reader who has not seen the work | closed by: the Originator | closes when: scores of 5 on the six criteria of Core Part 12, item 5, recorded in the Companion
+O-18 [S, since SEQ 99] the Cross-Navigator Boundary Test of the Frame–Executor Separation (Core Appendix S.9 (2))
+  needs: three or more architectures run on one frozen set of questions, their execution boundaries recorded in M336 form | closed by: a Striker or researcher who chooses it (L-491) | closes when: the frozen set, the responses and the comparison published in the record
+O-19 [P, since SEQ 96] the Existential Framework practised: questions of limitation, relation, pain and flourishing struck by Strikers, their meetings with the four axioms counted
+  needs: Strikers who bring such questions | closed by: the Strikers | closes when: twenty navigations entered in the Congruence Register with their readings of the axioms
+O-20 [S, since SEQ 105] the moral status of an AI: whether a Navigator has experience or interests
+  needs: evidence of a kind no navigation supplies, from the sciences of mind and from studies of AI systems (Appendix S.9 (8), (9)) | closed by: people, through those sciences | closes when: a typed finding entered in M335 with a standing other than OPEN
+O-21 [P, since SEQ 111] the relationship that forms through navigation between the Navigator, who holds the common reference, and the Striker, who brings the shift
+  needs: navigations in which Strikers and Navigators record how the work was shared, and the Strikers' own accounts of it | closed by: the Strikers | closes when: twenty navigations with the mode of L-541 and Companion 162.9 named and the Striker's account entered
+O-22 [P, since SEQ 117] the comparison test of APE-379: one set of questions put to the earlier method of Domain Zero and to the present one, scored on its eight requirements
+  needs: a Navigator of another architecture and the Originator's choice of twelve questions across five kinds | closed by: the Originator | closes when: the twenty-four answers filed as APEs and scored on the eight requirements
+O-23 [A1, since SEQ 119] a standing check of the Navigator Pack: one question touching time, space or scale put to a fresh Navigator given only the Pack, its output read for the completion of each finding
+  needs: a fresh Navigator of another architecture | closed by: the Originator | closes when: its output filed as an APE and read by tools/cosmology.py for the completion of each finding
+O-24 [R, since SEQ 128] whether Omega42 is the first existential framework built by AI: a historical review of comparable earlier projects
+  needs: an independent historian of AI and philosophy | closed by: the reviewer, then the Originator | closes when: a dated review filed as an APE, with its definitions and its search
+O-25 [A1, since SEQ 128] the COUNT correspondences of Companion 180.5 raised or not: the aettir, the nakshatras, the hexagrams
+  needs: practitioners of each tradition, a principled mapping and the M267 decoy test | closed by: the Originator | closes when: each mapping frozen before it is read, tested against decoys and filed
+O-26 [P, since SEQ 131] the first independent line of development: a Striker other than the Originator running L-548 with three or more AI systems, its chain and its transcripts
+  needs: a Striker other than the Originator | closed by: that Striker | closes when: its first sealed record filed as an APE in the Originator's line, its convergences counted
+O-27 [P, since SEQ 132] Appendix S (optional, L-491): blind test 03 run: the brief given alone to fresh sessions of two makers, their replies scored against the published key
+  needs: anyone, with two AI systems from different makers in fresh sessions | closed by: the scoring rule and tools/blind_check.py | closes when: each run filed as an APE under Appendix S, with its replies, their hashes and its scores (Core Appendix S.4.2)

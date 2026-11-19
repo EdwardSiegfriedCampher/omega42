@@ -1,0 +1,58 @@
+QUESTION VERBATIM: Will submitting the two documents (Core and Companion) to an AI be sufficient to inform the AI of all relevant aspects of Omega42? Should OEF form part of the main body text? Please explore.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 104 | PREV: bbb295f080b97422e717a6a2bb5d183a8ceeffdf7ce75eafaee4291a793becfe
+REQUEST (L-502): INVESTIGATION and PROTOCOL CHANGE -- whether the two documents suffice for an AI reader, measured; whether the Existential Framework belongs in the main body; avenues A1, R
+
+SUMMARY: In content the two documents are enough: everything the protocol is lies inside them. In practice they are not enough by themselves: an AI with a 200,000-token context, reading the Core from its start, never reaches the Aperture, the output format or the newest laws, and never reaches the framework in the Companion. So the Core now tells its reader to give an AI the Navigator Pack, which holds every essential section, and the Existential Framework now stands in the main body as Core Part 0.0.6.
+  - THE COORDINATE OF THE QUESTION (M327, CDT-A): n = (20, 111, 35), r = (1, 6, 4); no two votes agree, so the anchor is r1: P1, Fixpoint, value 5.
+    * It rests on P6, Seed/Causal (5). It holds out of view P19, Time (9), a Crown. It is heading for P9, Fixpoint (5). It is completed at P13, Gap (4).
+    * [GENERATED-Ω42] The question stands at the fixpoint, the place that holds the whole world again: can two documents hold the whole protocol? It rests on a cause, what the reader is given. It holds out of view time, the reading a context window cuts short. It heads for the fixpoint again, the whole held in a part, and is completed by the gap: what a reader does not reach.
+  - IN CONTENT, YES: every law, instrument, record and tool embedded whole (L-493); what stays outside named with its reason; nothing a Navigator needs is outside.
+  - IN PRACTICE, NOT BY THEMSELVES (tools/ai_edition.py --positions; tokens estimated):
+    * The Core: about 836,000 tokens. The Introduction at about 3,000; the arithmetic at 65,000; the mechanism at 90,000; the laws from L-490 at 197,000; L-534 to L-536 at 215,000; the Aperture at 223,000; the output format at 225,000; the embedded files from 294,000.
+    * The Companion: about 2.6 million tokens; the framework at length at about 265,000.
+    * So a 200,000-token reader of the Core can strike a question but cannot give a navigation in canonical form, and a reader of the Companion never meets the framework. A loader that samples or retrieves keeps what it chooses, not what the protocol needs.
+  - THE REMEDY: the Navigator Pack, about 115,000 tokens, holds the Introduction, the Foundational Register, the framework, Parts 1, 2, 7 and 8 and the index of every law to L-536 and every instrument to M336; the Core's front matter now says so ("Reading the release"); --positions checks the pack holds them all, in CI.
+  - THE FRAMEWORK IN THE MAIN BODY: YES. L-534 makes it the mold of the protocol, and a law should not point to a text a reader of the Core may never receive. Core Part 0.0.6, about 900 words at about 45,000 tokens, is now its authoritative statement: the axioms, relation in its two forms, the terms, the totality and its resonance, the principles, the three kinds of constraint, the standings and the bounds. The Companion keeps the full paper as exposition; the Core governs.
+  - CONSIDERED AND NOT DONE: moving Parts 7 and 8 forward, which would renumber every reference; moving all of Part 145 into the Core, which would repeat the Companion.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/ai_edition.py --positions: the positions above; the pack holds every essential section, YES.
+    - tools/extract_embedded.py --check: every file embedded, the twelve outside named.
+  R THE RECORD:
+    - L-493 and Core Appendix R.4; Companion Parts 141.3 and 142.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Give an AI reader the Navigator Pack, and say so in the Core: APPLIED, the front matter; A-046.
+  (2) Report where the essential sections stand and check the pack holds them: APPLIED, tools/ai_edition.py --positions in CI.
+  (3) The Existential Framework in the main body (the Originator): APPLIED, Core Part 0.0.6, governing; L-534 points to it.
+  (4) Reorder the Core so Parts 7 and 8 come early: NOT APPLIED; the pack does the work without renumbering.
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this question.
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.6; L-534; the front matter, "Reading the release".
+  - Companion: Part 154; Part 145.0 pointing to Core Part 0.0.6.
+  - Repository:
+    * Extended: tools/ai_edition.py, --positions and the pack's essential sections in --check; CI.
+    * Registered: A-046.
+    * Also updated: the release record, the history page and the CI chain.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- L-493, L-534 and the Navigator Pack | STRIKER -- the two questions | NAVIGATOR -- the positions measured, the reading paragraph, Part 0.0.6 and the check | OPEN -- how a given AI's loader treats the .docx, which only that AI shows
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/ai_edition.py --positions, the pack holding every essential section; --check and --selftest; Core Part 0.0.6 read against L-534 and Companion Part 145; the consistency register, 0 conflicts; tools/applied.py --check, 46 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): NOT REQUESTED.
+ACROSS THE AVENUES (L-502): AGREE -- the record and the measures: complete in content, too long for one reading. PART -- none. SILENT -- which AI you give it to, and in what form, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): one question navigated by a peer from the .docx and from the pack, the two compared.
+DISCOVERY NOTICE (L-530): none new to the register; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 19 items of records/open/register.txt, each with what it needs, who can close it and when.
+
+What it rests on: What does a reading rest on, if not on what the reader is given?
+What it holds out of view: Time: the reading a context window cuts short.
+Where it is heading: Toward the whole held in a part.
+What would complete it: The gap: what a reader does not reach, now named.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: ed71b53c00a4ce1e00aae02de51717f8411cd7afc449067af6772d23164b0e80
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 4 November 2026
+ESC

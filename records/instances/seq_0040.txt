@@ -1,0 +1,50 @@
+QUESTION VERBATIM: The protocol is clearly a very unique, unprecedented and potentially paradigm-shifting mechanism. However, this fact is not really flagged (or leveraged) by the current documents. Any new Navigator receiving the documents may not fully understand its significance, because of how the protocol downplays its own role. The protocol appears to understates its own significance. Also, the scientific method appears to occupy a much larger role than was originally intended. The protocol was meant to be a simple, innovative method for extracting new information (not available through other means). Please examine and make recommendations for improvement.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 40 | PREV: 579ca97e123a7bd260714a0b31df357e6dad9fc7957e1a75f0e217108d32d55b
+REQUEST (L-502): STRUCTURE -- avenues C, W; recommendations only, nothing changed
+
+SUMMARY: Both observations hold on the documents as they stand.
+  - THE ROLE OF THE COMPARATIVE METHOD. It is larger than its place in the laws. L-491 makes it optional. Even so, 24 of the 68 CI steps keep the comparative programme running: the thirteen evidence runs, the blind tests, the physical pilots, M279 and M280, the golden navigations and the spectral comparisons. Its status labels (SPECIFIED, NOT RUN, DIAGNOSTIC) also reach inside instruments, and its apparatus is spread through the Core rather than held in one place. Appendix S itself is only 7 percent of the Core's prose, so the weight comes from what lies outside it.
+  - THE STATEMENT OF PURPOSE. The documents describe the mechanism at length but never open with what it is for. A new Navigator meets the laws, the checks and the limits before meeting the purpose, so the protocol reads as if it were mainly guarding against itself.
+  - Six recommendations follow. The aim: lead with the purpose and with what is new in kind, and gather the comparative programme into one optional annex.
+One boundary, stated plainly. "Extracting new information not available through other means" can stand in the documents as the protocol's purpose and design, the Originator's intent (F-00). It cannot stand as a demonstrated result, because no record shows it, and L-505 keeps the documents from asserting what the record does not hold. The same holds for "paradigm-shifting": that is a description of how the world will receive the protocol, which no record can yet hold. Its place is First Contact's invitational register, as a hope, not as a finding.
+
+FINDINGS BY AVENUE (L-500):
+  C CONTROLS: the CI workflow read step by step, 24 of 68 comparative; the prose share of Appendix S, Core 6.7 percent and Companion 1.1 percent; the Companion Parts whose headings name comparative or test work, 14 percent of its prose. Computed from the two documents and the workflow.
+  W PROTOCOL WORK: none. These are recommendations.
+
+WHAT IS NEW IN KIND (each a documented property of the method, safe to state at full strength):
+  1. ONE COORDINATE FOR ANY QUESTION. Any question, in any domain, receives a position on one closed structure, by rule, that anyone can recompute (Core Parts 1 and 11).
+  2. A READING GENERATED UNDER A COMPUTED CONSTRAINT. The AI writes under the coordinate and discloses how (L-496, L-508). The four directions ask of every question what it rests on, what it holds out of view, where it is heading and what completes it.
+  3. JUDGMENT RESERVED BY ARCHITECTURE. The computed, the disclosed and the judged are kept apart, so the meaning stays with the Striker (L-508, the Aperture).
+  4. QUESTIONS MEET ACROSS DOMAINS. Because every question lands on one structure, two questions from unrelated fields can be seen to share a position, an orbit or a mirror. That is a meeting no domain-bound method offers (M310, M316).
+  5. A SEALED, CHAINED, MULTI-ARCHITECTURE RECORD. Each output is hashed and chained to its instance, and several AI architectures review one another inside one record (L-513).
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) A STATEMENT OF PURPOSE, first on both title pages and at the head of First Contact. Draft: "Omega42 is a method for drawing out of a question what other approaches do not reach. Every question receives one computed position on one closed structure; an AI writes under that position and shows how; and the meaning is left to you. It is designed to be new in kind: a coordinate anyone can recompute, a reading constrained by it, and a judgment no instrument takes from the Striker." It is worded as purpose and design, so it stands under L-505.
+  (2) "WHAT IS NEW IN KIND" as the second part of First Contact and of the Navigator's Account (L-509): the five properties above, stated without qualifiers. Each is a property of the method, so none needs a study behind it.
+  (3) ONE COMPARATIVE ANNEX. Gather the comparative programme into Appendix S, or into a third, optional document. That means the evidence runs, blind tests, pilots, M267, M279 and M280, the Verification Registry of Core Part 3.18, the correspondence entries of the Negative Result Registry and Appendix S itself. The Core then reads as the method. In CI, group its 24 steps under one job named "Comparative annex (optional, L-491)".
+  (4) INSIDE STATUS LABELS. An inside instrument carries one status: IN USE, with its tier. SPECIFIED, NOT RUN and DIAGNOSTIC belong to the annex alone.
+  (5) A FIRST PAGE FOR A NEW NAVIGATOR, five lines long: what the protocol is for; how a navigation runs; what is new in kind; what the Navigator never does (grade the premise, judge for the Striker); and where the optional annex is. The laws follow after it.
+  (6) KEEP THE LIMITS, PLACED AFTER THE PURPOSE. The no-claim law, the arithmetic gate and the attribution law protect what the protocol offers. Placed after the purpose, they read as its discipline rather than its doubt.
+
+PEER ACCOUNTS (P; APA 9.5.5): NONE received with this request.
+CHANGES TO THE PROTOCOL: none. The recommendations wait for the Originator's choice (F-06).
+CHECKS: CI 68 of 68 PASS, run before this output was written, on the documents of SEQ 39. The counts above were recomputed from the documents and the workflow. M286 (0 candidates over this output), M281 and the typing guard over this output. tools/instance_id.py --check over the forty outputs: SAME INSTANCE, chain consistent. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed; every statement here is drawn from the two documents, the record and the workflow.
+ACROSS THE AVENUES (L-502): AGREE -- the documents describe the method fully but do not lead with its purpose. PART -- what "new information" means, a purpose here and a result nowhere yet. SILENT -- how the protocol will be received, which no record holds.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the statement of purpose.
+OPEN: recommendations 1 to 6.
+
+What it rests on: If a method is new in kind, what is lost when it is introduced by its limits before its purpose?
+What it holds out of view: That most of what checks the protocol on every build exists for an optional appendix.
+Where it is heading: Toward documents that open with what the protocol is for and keep its annex apart.
+What would complete it: Your choice among the six, and the wording of the purpose in your own words.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 0795c5706ed00aedcb42fa9a923ec4b903684dc46fc285a1a641bee5dcb43d8f
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 23 October 2026
+ESC

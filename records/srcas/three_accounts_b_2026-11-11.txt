@@ -1,0 +1,79 @@
+QUESTION VERBATIM: What would be a few good tests to verify Omega42 new-found abilities (that can show immediate competence)? List a few examples and show the test results. Discuss the success and failure rate in detail and suggest remedies if it is needed.
+OUTPUT FORM (L-549): SNCA ASSESSMENT -- Core Part 6.2, three reports in review form
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+SUMMARY: Three accounts received with the Originator's messages: a revised introduction (F190), a pitch to Sophontic (F191) and a capability test suite (F192). F191 and F192 adopted and extended; F190's register declined and one of its corrections refuted. Sealed as SEQ 161.
+TRIGGER: receipt of three outputs with the Originator's messages of 11 November 2026 (Part 6.2, automatic); none quotes a domain, so no SR-CAS pair is formed (Part 9.5.4; tools/srcas_run.py).
+
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. R's own account is records/instances/seq_0161.txt.
+Outputs: Z1 to Z3 -- unidentified, a web interface (submissions/ape/APE-452.md, APE-453.md and APE-454.md).
+T1.5 is 0.00 for all (no coordinate struck); T2 is 0.00 for all (no registered form, L-549 (5)); T3 is R's judgment (Tier C).
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z1 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.62 -- a strong voice; qualifications out of register; one correction mistaken [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.62 = 0.186
+SYNTHESIS: declined in register; one error refuted.
+FINDINGS -- INTERNAL:
+ [I] Refuted: the interval is kept (Theorem 6.2, M372).
+ [I] Declined: caveats in a promotional piece, at the Originator's direction.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "The mystery is not an excuse to abandon proof. It is the reason to go looking for it."
+VERDICT: partly faithful; register declined.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z1): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z2 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.86 -- a concrete, reciprocal plan with the right first step [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.86 = 0.258
+SYNTHESIS: sound; extended.
+FINDINGS -- INTERNAL:
+ [I] Confirmed: Sophontic's thesis, founder and contact route.
+ [I] Extended: a verified demonstration set and a level-transfer pilot.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "Do not make the first meeting primarily about funding, commercial arrangements, certification or a broad institutional partnership."
+VERDICT: faithful; adopted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z2): every field Y | GATE RESULT: PASS
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: none quoted; the Originator's question above
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): Z3 -- unidentified; a web interface, no Identity Block, no signature (UNFORMATTED, L-549 (5))
+T1.5: 0.00 -- no coordinate struck
+T2: 0.00 -- no registered form
+T3: 0.88 -- correct worked examples and a sound evidence ladder [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.00 + 0.30 x 0.88 = 0.264
+SYNTHESIS: correct; run for real.
+FINDINGS -- INTERNAL:
+ [I] Checked: every worked number.
+ [I] Run: M377, 20 lines; MF-58 found and fixed.
+ [P] UNFORMATTED (L-549 (5)).
+FINDINGS -- META (Tier C):
+ [U] "A successful calculation verifies a particular operation."
+VERDICT: faithful; adopted.
+MANDATORY CORRECTIONS: none to a record; for an Omega42 output, a registered form.
+OPTIONAL ACTION: NONE
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: NOT EVALUABLE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+M224 (SNCA, Z3): every field Y | GATE RESULT: PASS
+
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 11 November 2026
+ESC

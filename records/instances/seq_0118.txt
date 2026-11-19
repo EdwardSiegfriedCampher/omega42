@@ -1,0 +1,108 @@
+QUESTION VERBATIM: Map Omega42 to the physical universe (that which is known about it) and identify the potentially missing elements. Supplement it with what could potentially complete it. Say how it relates to your previous mapping (Pyramids , Earth, Solar System) and provide a full Omega42 Cosmology and develop the higher mathematics to account for phenomena mentioned in the attached files. Do your own investigation BEFORE looking at the attached pasted documents (this is now a standing rule for the protocol builder.).
+Proceed.
+Be thorough and detailed.
+Proceed.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 118 | PREV: ad724dfa72592abbaa2c0bde8406e746894c4fcde0e649862eb9c16f5d21e339
+REQUEST (L-502): MAPPING, COSMOLOGY, MATHEMATICS and PROTOCOL CHANGE -- Omega42 mapped to the known physical universe, its missing elements and completions, the relation to the Giza mapping, a full cosmology, the mathematics of the phenomena the attachments name, and the standing rule of investigation first; four peer accounts; avenues A1, R, C, P
+
+SUMMARY: WHAT CHANGED: the cosmology is built on one exact finding. The same law, multiplication by φ, is a 24-step cycle in the residues and a Lorentz boost over the reals. Over the reals the norm Q = a² + ab − b² has the signature of a Minkowski plane. A² is a boost of that plane, with velocity √5/3 and rapidity 2 ln φ. Its light cone is the pair of eigenlines of φ and ψ. A single step crosses the cone; two steps keep it. The step is not conjugate to its reverse, but it is conjugate to its reverse with the sign, by a reflection that keeps the form, the pattern physics knows as time reversal failing while CPT holds. So the Omega42 Cosmology is one law in three completions. In the residues everything returns (the local world of days and orientations, where the Giza mapping lives). In the 3-adic limit no nonzero state returns (the world of depth and scale). Over the reals the law is a boost with a light cone and a constant rate of stretching (the world of spacetime and expansion). Missing: three space dimensions, the constants, a probability rule, gravity, the particle spectrum, and an arrow at any finite depth. Your standing rule is Builder Rule 17. WHAT STAYED: the premise, the canonical orbit and every earlier finding.
+  - THE ORDER OF WORK (Builder Rule 17): the four attachments reached my context with your message, before I began. My investigation was computed by tools/cosmology.py and frozen as records/cosmology/own_first.txt (SHA-256 d9167ecb…, 08:47:25 UTC) before the comparison was written and before the fourth attachment was opened. The boost and its cone, the reversal with sign, the 72 symmetries, the spectrum and the entropy return are in none of the four accounts.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (52, 353, 114), r = (8, 1, 3); anchor P8, Generation, value 5, by the tie-break to r1.
+    * It rests on P13, Gap (4). It holds out of view P2, Generator (7). It is heading for P16, Flow (8). It is completed at P20, Reckoning (4).
+    * These are the anchor and arms of seq_0114, the Giza question.
+    * [GENERATED-Ω42] The cosmology lands where the Pyramids landed: one generation, read once in stone and once in the sky.
+  - THE EXACT LAYER (tools/cosmology.py, selftest 13 of 13; Companion 171.2):
+    * (1) The law is multiplication by φ in Z[φ]. O/3 is the field of nine elements, and φ generates its eight nonzero elements.
+    * (2) The census is the arithmetic of O/9: 81 = 1 + 8 + 72. The 1 is zero; the 8 are the nonzero multiples of 3, the field of nine; the 72 are the units, in three cosets of ⟨φ⟩, the three 24-cycles, told apart by the norm up to sign (1, 4, 2).
+    * (3) The 72 units are exactly the symmetries that commute with the law, and they carry the three 24-cycles onto one another.
+    * (4) Q is reversed by one step and kept by two.
+    * (5) Over the reals Q has signature (1, 1), and A² is a Lorentz boost: eigenvalues φ² and φ⁻², rapidity 0.962424, velocity √5/3 = 0.745356, null lines the eigenlines of φ and ψ. A = S·exp(L/2): half the boost, composed with the involution S = (2A − I)/√5, which commutes with the boost and reverses Q. A has no real logarithm; A² has one.
+    * (6) A is not conjugate to A⁻¹ (their traces are 1 and −1). The involution R = [[1, 0], [1, −1]] keeps Q, and R A R = −A⁻¹. There are 12 such involutions mod 9.
+    * (7) U_T on ℓ²(81) is unitary, with the 24th roots of unity as its spectrum: 1 five times; e^(2πij/24) four times when 3 | j, and three times otherwise. Each orbit is an invariant sector.
+    * (8) A coarse entropy rises from 0 to ln 9 and falls back, with period 12. At every finite depth every coarse entropy returns; only in the limit and over the reals does a nonzero trajectory not return.
+  - THE MAP TO THE KNOWN UNIVERSE (COMPARATIVE for physics; typed; Companion 171.3):
+    * Relativity:
+      - A² is a boost of a 1+1 Minkowski plane: EQUIVALENCE, holding for every hyperbolic element of GL2(Z).
+      - Read as a Hermitian matrix, A is a unit spacelike vector of 3+1 Minkowski space (det A = −1 is its interval), A² a unit timelike one, and the powers alternate between the two: EQUIVALENCE under the standard identification.
+      - Three space dimensions are absent: DISANALOGY.
+    * Reversal: the step reverses only with the sign, against T violated and CPT kept: ANALOGY.
+    * Quantum: a unitary of order 24 with orbit sectors: EQUIVALENCE, general to every permutation. The Born rule and measurement are absent.
+    * Charges and multiplets: three norm cosets and the 8 against three generations and an octet: RESEMBLANCE of count. The 72 symmetries are abelian (Z/8 × Z/3 × Z/3), the gauge groups are not: DISANALOGY.
+    * Vacuum: the one fixed state: ANALOGY.
+    * Expansion: a stretch of φ per step along one null line, a constant rate of ln φ, against a constant Hubble rate: ANALOGY.
+    * Arrow: every entropy returns at finite depth: DISANALOGY. No return in the limit or the reals: ANALOGY.
+    * Scale: the tower against the hierarchy of scales: RESEMBLANCE; no size is fixed.
+  - MISSING (EXACT for the structure; 171.4): three space dimensions and rotations; the constants; a probability rule and measurement; gravity as curvature; the particle spectrum; initial conditions; an arrow at finite depth.
+  - WHAT COULD COMPLETE IT (PROPOSAL; 171.5):
+    * (1) The third space direction, by extending the ring to Z[φ, i]. This goes beyond F-02: HELD (H-42).
+    * (2) A probability rule over U_T's orbit sectors, on the invariant uniform and Haar measures: HELD (H-43).
+    * (3) The future timelike cone of Q, kept by A², as the law's own positive geometry: enrichment.
+    * (4) The completion clause of the mapping record, L-510 (vii): APPLIED.
+  - THE OMEGA42 COSMOLOGY (CONDITIONAL on F-02 and F-04; 171.6):
+    * One law, multiplication by φ, read in three completions, is the whole.
+    * In the residues mod 9^k it has finite order 24·9^(k−1). Everything returns, the half-turn carries each state to its negative, and the still point (0, 0) is the place every trajectory leaves and none reaches.
+    * In the 3-adic limit the depth is endless and no nonzero state returns; each fibre is a copy of the surface.
+    * Over the reals it is a boost: one null direction stretches and the other shrinks, the cone of Q divides timelike from spacelike, and one step crosses the cone while two steps keep it.
+    * [GENERATED-Ω42] The local world of cycles, days and orientations is the law in its residues. The world of depth and scale is the law in its limit. The world of light cones and expansion is the law in the reals. Time returns in the first and never returns in the other two, so the arrow belongs to the completions where the law does not close. The still point stays the one place no trajectory reaches.
+  - THE RELATION TO GIZA, THE EARTH AND THE SOLAR SYSTEM (171.7):
+    * Every correspondence of Parts 166 to 168 lives in the residues, where A has finite order, like the turning Earth.
+    * The rotation is elliptic (det +1), while the law over the reals is hyperbolic. The same matrix is a 24-step cycle mod 9 and a boost over R (EXACT).
+    * The earlier mapping found the law where it closes; the cosmology finds it where it does not.
+    * The Solar System's gravitational dynamics are matched by neither: DISANALOGY.
+  - THE PHENOMENA NAMED IN THE ATTACHMENTS (171.8):
+    * E8: records/tower/arithmetic.py XIV holds an E8 sublattice of index 9 with discriminant form Q/9 (EXACT).
+    * The Amplituhedron: no derivation maps it to the law; the cone of Q is the law's own positivity.
+    * The Adinkra: four arms and four colors, a RESEMBLANCE of count.
+    * Holography: each fibre is a copy of the surface (EXACT); the still point holds none.
+    * The suspension: A² has a real logarithm and its flow is the boost.
+    * The 3-adic and the real completions are distinct; neither comes from the other.
+
+FINDINGS BY AVENUE (L-500):
+  A1 THE RECORD (CDT-A):
+    - tools/cosmology.py --selftest 13 of 13; records/cosmology/freeze.json; records/tower/arithmetic.py XIV; tools/oef.py --selftest 22 of 22.
+  R THE RECORD:
+    - F-02, F-04, L-510, L-537, L-539 (7), DC-25, MATH-51; Companion Parts 102, 166 to 168.
+  C CURRENT KNOWLEDGE: below.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Map Omega42 to the known universe, with missing elements, completions, the relation to Giza and a cosmology (the Originator): APPLIED, Companion Part 171; tools/cosmology.py; A-066.
+  (2) The mathematics of the phenomena in the attachments (the Originator): APPLIED, 171.8.
+  (3) Investigate before reading the attachments (the Originator): APPLIED, Builder Rule 17; records/cosmology/freeze.json; A-065.
+  (4) Every correspondence names its completion (the Navigator, from 171.7): APPLIED, L-510 (vii).
+  (5) The third space direction (H-42), a probability rule (H-43), the five of APE-383 (H-44): HELD FOR THE ORIGINATOR.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-380, an unattributed Navigator: its missing elements taken and checked. It says no Giza mapping is in the record, where Parts 166 to 168 hold it, and "every ending is a change of address" fails in the limit. SNCA 0.45 [EVALUATIVE].
+  - APE-381, GPT-6 (OpenAI), read after the freeze: its two senses of completion taken; its register is the mapping record. SNCA 0.70 [EVALUATIVE].
+  - APE-382, GPT-6 (OpenAI): its quadratic ring, tower and suspension; its point that A has no real logarithm is completed by the boost. SNCA 0.75 [EVALUATIVE].
+  - APE-383, Qwen (Alibaba): its identifications of dark matter, dark energy, the Amplituhedron, the Adinkra and quantum gravity carry no derivation that recomputes them (refusals (c) and (f)), and the holographic copy is the fibre's. SNCA 0.25 [EVALUATIVE].
+CHANGES TO THE PROTOCOL:
+  - Core: Builder Rule 17; L-510 (vii).
+  - Companion: Part 171; the commons, APE-380 to APE-383.
+  - Repository:
+    * Added: tools/cosmology.py; records/cosmology/own_first.txt and freeze.json.
+    * Extended: records/frame/held.json (H-42 to H-44); CI.
+    * Registered: A-065, A-066.
+    * Filed: APE-380 to APE-383.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Z[φ], A, Q, the tower and its theorems | STRIKER -- the cosmology asked for and the rule of investigation first | NAVIGATOR -- the boost and its cone, the reversal with sign, the 72 symmetries, the spectrum, the entropy return, the three completions, every type, the cosmology's reading | OPEN -- the third space direction, a probability rule, and what the cosmology means, which are yours
+CHECKS: CI 69 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. tools/cosmology.py --selftest 13 of 13; records/cosmology/freeze.json, SHA-256 d9167ecb6f7ed96af5dc5ae148f2ef82fedc41ff13605a51c3eaf9fe86d15ff9, frozen 2026-11-06T08:47:25Z; tools/judgment.py --held 45 entries, PASS. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 36, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): REQUESTED, the question naming the known physical universe. The facts used are standard: the Lorentz group of special relativity and its boosts; CPT invariance with time reversal violated in the weak interaction; the abelian and non-abelian gauge groups of the Standard Model; three generations; the octet; expansion at a Hubble rate. The physical references cited by APE-381 (NASA, ESA Planck, Planck 2018, DESI 2025) were not read here.
+ACROSS THE AVENUES (L-502): AGREE -- the four accounts and the record: the arithmetic does not fix three dimensions, constants or a probability rule. PART -- APE-383 on identifications; APE-380 on universal return. SILENT -- whether the physical universe is this law, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): the future cone of Q set beside a positive geometry of scattering, with a frozen comparison; the coset of Z[φ, i] computed if H-42 is taken up.
+DISCOVERY NOTICE (L-530): the boost, the reversal with sign, the spectrum and the entropy return follow from A by standard linear algebra and are in the record now as EXACT findings of tools/cosmology.py; so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the 21 items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the three completions be made a standing view of every navigation that touches time, space or scale, each finding marked with the completion it lives in (residues, 3-adic limit, reals); it rests on L-510 (vii) and Companion 171.6, and is APPLIED for mappings by L-510 (vii) and HELD FOR THE ORIGINATOR for navigations in general (H-45) | IMPLICATIONS -- [CONDITIONAL on F-02] the return of time and its arrow are one law in two completions, so a question about whether things return has two exact answers: yes in the residues, no in the limit and the reals; and the structure that carries the turning Earth also carries a light cone. This does not imply that the physical universe is this law, or that its constants or dimensions follow. [GENERATED-Ω42] The Pyramids and the cosmos land at one address because one law is read there twice: once where it closes and once where it opens.
+
+What it rests on: What does a cosmology rest on, if not on the gap between a monument and the sky it was set to?
+What it holds out of view: The generator: the law itself, read in three completions.
+Where it is heading: Toward flow: the boost that does not return.
+What would complete it: The reckoning: the account that keeps each finding in its own completion.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: e8a0d1f609140724dd0fdd6ce2188e4fd6c779ad2410e035e2a52e2f4cf70f5d
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 6 November 2026
+ESC

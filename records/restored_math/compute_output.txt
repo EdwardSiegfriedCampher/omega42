@@ -1,0 +1,16 @@
+K-alt-4 (C1 period 24; C5 value at P9 = 5 and 5 of maximal frequency; C8 a*b = 1 mod 9):
+  C1: 72 pairs | C1+C5: [(2, 5), (3, 2), (4, 8), (5, 5), (8, 5)] | C1+C5+C8: [(2, 5)] -> UNIQUE
+  (5,2) fails C5: its orbit's most frequent values are [2, 7]
+Display curvature (sum of squared second differences of the displayed values; a display property, M283 -- the residue measure is FP-Energy, records/spectral_selection):
+  Voice A: display 1-9 1296 | display 0-8 1296
+  Voice B: display 1-9 972 | display 0-8 972
+  Voice C: display 1-9 648 | display 0-8 648
+FP-PisanoHierarchy: period of (2,5) mod 3, 9, 27, 81: [8, 24, 72, 216] | seeds mod 81 with the maximal period 216: 5832 of 6561
+Crown under doubling: 3 -> 6 -> 3, 6 -> 3 -> 6, 9 -> 9
+positions reached only through the Antipode: ['P18 (from P6)']
+never reached by any arm: [4, 5]
+orbit map i -> v(i) is not additive: v(1)+v(1) = 1, v(2) = 7
+714285 is a rotation of 142857: True | 117/7 = 16 + 5/7
+periodicity proof: T is a bijection on a finite set (det = -1, a unit mod 9), so every state lies on a cycle; no transients: True
+Square A (doubling cycle of 2): [1, 2, 4, 8, 7, 5] | Square B = -A, which is A shifted by 3 (2^3 = -1): True | counts: 4 x 6 + 2 = 26, + Domain Zero = 27, 27 x 26 = 702
+What the structure forbids (verified): periods other than 1, 8, 24: [1, 8, 24] | anchors outside P1-P9: none (CPP values 1-9) | self-paired values other than 9: []

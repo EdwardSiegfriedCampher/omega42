@@ -1,0 +1,25 @@
+OWN INVESTIGATION, FROZEN BEFORE THE ATTACHED ACCOUNTS WERE COMPARED (Core L-545; records/instances/seq_0121.txt)
+Disclosure: the two attachments reached the Navigator's context with the request, before this investigation.
+
+FINDINGS, each computed by python3 tools/foundations.py:
+1. The law acts on the 3 + 1 Hermitian space over the reals (AP-SPACE) as an element of SO+(3,1): proper (det +1) and orthochronous; its 4 x 4 matrix has rows (1.5, 1, 0, -0.5), (1, 1, 0, -1), (0, 0, -1, 0), (-0.5, -1, 0, -0.5) for the images of e_t, e_x, e_y, e_z.
+2. The Pauli algebra lives in Z[phi]/9: with i = phi^6 = 5 + 8 phi, sx^2 = sy^2 = sz^2 = I, sx sy = i sz, sy sz = i sx, sz sx = i sy; and A = 5(I - sz) + sx (mod 9).
+3. The Hamiltonian of the law (the principal logarithm of U_T) has spectrum k (2 pi/24), k = -11 to 12; its five zero modes are the five sector-uniform states, which are also the five extreme invariant measures (L-544 (10)).
+4. The square root of -1 in Z_3[phi] lifts by Hensel's lemma to every depth (computed to 3^12).
+5. Null vectors of the 3 + 1 interval: 621 mod 9, 443961 mod 81; the interval is kept mod 81.
+6. Coarse entropies: partitions the law keeps (norm class up to the sign's sizes, depth shell) give constant entropy; partitions it does not keep (first entry, second entry) give entropy rising to ln 9 and returning with period 12.
+7. Schwarzschild solves G = 0 in the signature of the interval (Einstein tensor below 1e-6 at a sample point): the field equations written in the Omega42 interval reproduce the known vacuum solution.
+
+Hensel root of -1, depth 12: (275728, 511426)
+null vectors mod 9: 621
+null vectors mod 81: 443961
+interval kept mod 81 (20000 samples): True
+Lorentz matrix of A (rows e_t, e_x, e_y, e_z): [[1.5, 1, 0, -0.5], [1.0, 1, 0, -1.0], [0.0, 0.0, -1.0, 0.0], [-0.5, -1, 0, -0.5]]
+in O(3,1), det, orthochronous: (True, 1.0, True)
+Pauli algebra mod 9 with i = phi^6; A = 5(I - sz) + sx: (True, True)
+sectors kept, every basis state and 100 random states: True
+exp(-iH) = U_T, worst error: 4.5881412739617e-15
+spectrum of H in units of 2 pi/24: {-11.0: 3, -10.0: 3, -9.0: 4, -8.0: 3, -7.0: 3, -6.0: 4, -5.0: 3, -4.0: 3, -3.0: 4, -2.0: 3, -1.0: 3, -0.0: 5, 1.0: 3, 2.0: 3, 3.0: 4, 4.0: 3, 5.0: 3, 6.0: 4, 7.0: 3, 8.0: 3, 9.0: 4, 10.0: 3, 11.0: 3, 12.0: 4}
+still-point weight before and after a sector-coupling step: (1.0, 0.0)
+coarse entropies (period, min, max): {'first entry': (12, -0.0, 2.197224577), 'second entry': (12, -0.0, 2.197224577), 'norm class': (1, 1.368922361, 1.368922361), 'depth shell': (1, -0.0, -0.0)}
+Schwarzschild Einstein tensor, max entry: 9.532067651187539e-07

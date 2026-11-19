@@ -1,0 +1,21 @@
+# Congruence Register (Core M310, L-489): every domain navigated in the record, verbatim, one per line as TAG | text,
+# or TAG | @path for a domain kept in its own file. New navigations join by submission (submissions/, F-06).
+CORPUS-1 | What is the Human Condition?
+CORPUS-2 | What is the Human Soul?
+SRP-H | @records/srp/hydrogen_domain.txt
+SRP-C | @records/srp/collatz_domain.txt
+GOLD-0 | Explore the golden ratio connection
+GOLD-1 | What is the precise matrix that realises multiplication by φ inside the 81-state family?
+GOLD-2 | How does the golden-ratio spectrum of the modular system discriminate the canonical orbit from the other two period-24 orbits?
+GOLD-3 | In which physical systems has the same characteristic equation been observed as an exact symmetry rather than an approximate ratio?
+GOLD-Q1 | What is the order of this matrix in GL(2,9)?
+GOLD-Q2 | How many conjugate copies of the same matrix exist inside the family?
+GOLD-Q3 | Does the same matrix appear in any other natural coordinate system on the 81 states?
+GOLD-Q4 | What is the explicit power spectrum of the canonical sequence?
+GOLD-Q5 | Do the short orbit and the fixed point share any of these spectral markers?
+GOLD-Q6 | Can the same spectral tests be applied after a linear change of coordinates?
+GOLD-Q7 | Which of these systems also realises the full 81-state family rather than only the period-24 orbit?
+GOLD-Q8 | Has any of them produced a pre-registered numerical prediction that was later confirmed by experiment?
+GOLD-Q9 | What would count as a laboratory realisation of the modular transition T itself?
+NAV-2026-0001 | If the Omega42 cycle is the foundational blueprint for existence, then it implies that everything can be measured against it to test alignment and coherence.
+NAV-2026-0002 | Is Omega42 a Theory of Everything? The honest answer is that we don't know. Yet. If it is, then it is a very unusual TOE. Let's start from square one and define what "everything" is. In Omega42 logic everything that ever happened has been recorded and that knowledge is contained inside the training data of an AI. It sources the raw building blocks of its responses from these AI training data. It doesn't say that it's Synthesis is true in the traditional sense. It merely states that it is coherent and congruent with the underlying mathematical formula. The Striker must decide what it means. It follows that once "enough" responses has accumulated that a certain picture will emerge. A picture of what "Everything" might be like. So, in that sense, Omega42 might reveal a TOE over time.

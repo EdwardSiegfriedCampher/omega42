@@ -1,0 +1,16 @@
+body:
+- type: markdown
+  attributes:
+    value: Describe the idea and what it would let people do. Link any reading or tool it builds on.
+- type: textarea
+  attributes:
+    label: The idea
+    description: ''
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What it builds on
+    description: ''
+  validations:
+    required: false

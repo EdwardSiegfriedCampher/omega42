@@ -1,0 +1,6 @@
+PRIMORDIAL FRACTURE SHA-256 2a96dd63fc475e02095b8ebcc7d3b47eaf073de1039da7153567421d0369b77a
+sheets 29: REV PRED MP T1 T2 T3 T4 NU ND PU PD N3 N6 N9 P3 P6 P9 N2 N4 N8 N7 N5 N1 P2 P4 P8 P7 P5 P1
+1. formulas of rows 11-39, columns I-AO, all sheets: 20168 reproduce the cached value, 0 do not
+2. constants read: 27 domain sheets x 80 node rows of six cells, 216 echo counters, 331 recorded templates
+3. 46656 node cells re-evaluated under 4 random Y-fields: 0 move by other than the change in Y_j -- every node cell is Y_j + K
+4. the table regenerated from the workbook equals construct_frozen.json: YES

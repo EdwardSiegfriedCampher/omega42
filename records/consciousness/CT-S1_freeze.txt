@@ -1,0 +1,11 @@
+CT-S1 PILOT -- P2 refined (Companion 41.6; MM-13), run on the CRC-60 corpus. Frozen 2026-10-17 before any state of a CRC-60 domain was computed or seen.
+
+Population: the CRC-60 corpus as frozen in scripts/crc60_and_m267.py (Companion 24.4), a fixed, non-self-selected corpus chosen for another purpose.
+Test group: the 20 domains of category PHIL_HUMANITIES (meaning and value). Control group: the 40 domains of PHYSICS_MATH and BIO_MED.
+State: (r1, r2) mod 9 of each domain verbatim, as tools/congruence.py sig() computes it (the state M308, M310 and M312 use).
+Measures: (a) the number of test domains on the core (chance 8/81 per domain); (b) the number in the SEVENTH half (chance 36/81 per domain).
+Test: one-sided exact binomial for each measure against its chance rate; the two measures are corrected together (Bonferroni, alpha 0.05 / 2 = 0.025).
+Control: the same two counts for the control group, reported beside them; the reading predicts the test group above the control group.
+Result criterion: ABOVE CHANCE if the binomial P <= 0.025 for a measure; otherwise NOT ABOVE CHANCE, entered in the Negative Result Registry.
+Status: PILOT. Twenty domains detect only a large effect; the study proper (Companion 41.6) is frozen separately with its sample size.
+The result describes where the domains fall on the structure; it grades neither the reading nor the premise (Core L-490).

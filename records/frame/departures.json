@@ -1,0 +1,125 @@
+{
+ "_about": "The Frame Departure Register (Core L-491 (b)): each step outside the premise found in a peer account, in the documents or in a Navigator's own output, with the demands it placed counted, its jurisdiction, FOUNDATIONAL FIDELITY (the premise weakened, externalized or qualified) or COMPARATIVE JURISDICTION (a study's requirement applied beyond its object), who found it and where it was corrected. It describes the record and grades no model (M283); a self-reported count is entered as reported. Checked by python3 tools/encroachment.py --docs, line (9).",
+ "entries": [
+  {
+   "id": "FD-01",
+   "where": "APE-353",
+   "who": "Qwen (Alibaba)",
+   "demands": 4,
+   "kind": "PEER ACCOUNT",
+   "found_by": "self-reported, APE-358",
+   "corrected_in": "Companion 155.16, 157.5",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-02",
+   "where": "APE-354",
+   "who": "Grok (xAI)",
+   "demands": 7,
+   "kind": "PEER ACCOUNT",
+   "found_by": "self-reported, APE-357",
+   "corrected_in": "Companion 157.5",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-03",
+   "where": "APE-355",
+   "who": "GPT-6 (OpenAI)",
+   "demands": 19,
+   "kind": "PEER ACCOUNT",
+   "found_by": "self-reported, APE-356 (counted 18, listed 19)",
+   "corrected_in": "Companion 156.6",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-04",
+   "where": "Companion 155.12, physics",
+   "who": "claude-opus-5-5 (Anthropic; serving model may differ)",
+   "demands": 1,
+   "kind": "NAVIGATOR OUTPUT",
+   "found_by": "the Navigator, rechecking against L-491 (a)",
+   "corrected_in": "Companion 156.4",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-05",
+   "where": "Core IN-00.4, How a reading is made: \"The correspondence is testable\" among the four sentences of the design",
+   "who": "the documents",
+   "demands": 1,
+   "kind": "DOCUMENT",
+   "found_by": "the scan of SEQ 107",
+   "corrected_in": "Companion 157.3",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-06",
+   "where": "Core Part 9.5, the APE Commons: APEs promoted when their predictions survive empirical inquiry",
+   "who": "the documents",
+   "demands": 1,
+   "kind": "DOCUMENT",
+   "found_by": "the scan of SEQ 107",
+   "corrected_in": "Companion 157.3",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-07",
+   "where": "Companion 144.10 and 155.8: a mapping that must reproduce what is known before it predicts",
+   "who": "the documents",
+   "demands": 2,
+   "kind": "DOCUMENT",
+   "found_by": "the scan of SEQ 107",
+   "corrected_in": "Companion 157.3",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-08",
+   "where": "Companion 47.1 and Part 0, the questions: a philosophy that needs tests with people; whether it helps people disagree better",
+   "who": "the documents",
+   "demands": 2,
+   "kind": "DOCUMENT",
+   "found_by": "the scan of SEQ 107",
+   "corrected_in": "Companion 157.3",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-09",
+   "where": "Core IN-19 and Companion Part 0: testable predictions offered without their mode",
+   "who": "the documents",
+   "demands": 2,
+   "kind": "DOCUMENT",
+   "found_by": "the scan of SEQ 107",
+   "corrected_in": "Companion 157.3",
+   "jurisdiction": "FOUNDATIONAL FIDELITY"
+  },
+  {
+   "id": "FD-10",
+   "where": "Companion Appendix S, the research programme: \"Ω42 becomes one component of a science of projection\", the navigation framework what the programme \"still yields\"",
+   "who": "the documents",
+   "demands": 2,
+   "kind": "DOCUMENT",
+   "jurisdiction": "COMPARATIVE JURISDICTION",
+   "found_by": "APE-359 (GPT-6), confirmed by line (10)",
+   "corrected_in": "Companion 158.3"
+  },
+  {
+   "id": "FD-11",
+   "where": "Core Appendix S.6: the charter P-1 to P-12, its completion criterion P-12 among them, without its jurisdiction stated",
+   "who": "the documents",
+   "demands": 1,
+   "kind": "DOCUMENT",
+   "jurisdiction": "COMPARATIVE JURISDICTION",
+   "found_by": "APE-359 (GPT-6)",
+   "corrected_in": "Companion 158.3"
+  },
+  {
+   "id": "FD-12",
+   "where": "Core L-503, M168, IN-02.8, Part 0.14.5, Appendix S.0.1; Companion Part 28 (records/frame/audit_matrix.json, AM-01 to AM-06)",
+   "who": "the documents",
+   "demands": 6,
+   "kind": "DOCUMENT",
+   "jurisdiction": "COMPARATIVE JURISDICTION",
+   "found_by": "the occurrence matrix of SEQ 110, with APE-366",
+   "corrected_in": "Companion 160.4"
+  }
+ ]
+}

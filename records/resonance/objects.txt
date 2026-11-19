@@ -1,0 +1,13 @@
+# THE OBJECTS OF THE RESONANCE LEDGER (Core Part 3.26, M230-A, first pass) on the M319 object card: placement and depth as the Ledger records them; the Margin where a frozen object panel has been computed (records/resonance/object_panels_frozen.txt, polytopes_output.txt), PENDING otherwise. Depth is a measure of correspondence and stands on the congruence side of the card (Core Part 3.45, corrected 22 October 2026).
+OBJECT | PLACEMENT | DEPTH | PANEL
+24-cell | P3 | 3 | PANEL 3
+Leech lattice | P3 | 2 | NONE
+cube's rotation group | P3 | 2 | NONE
+nine-fold quasiperiodic tiling | P9 | 2 | NONE
+24-tone equal temperament | P3 | 2 | PANEL 2
+24-hour day | P3 | 2 | PANEL 2 (a null of the same class)
+Penrose tiling | P7 | 3 | NONE
+decagonal quasicrystal diffraction | P5 | 3 | NONE
+Lotka-Volterra system | P1 | 3 | NONE
+Belousov-Zhabotinsky reaction (Oregonator) | P6 | 3 | NONE
+circadian clock (Goodwin model) | P6 | 3 | NONE

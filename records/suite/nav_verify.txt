@@ -1,0 +1,5 @@
+M361 MODEL VERIFIER nav_states.csv | 2 one-step predictions mod 3^1 (MODE B: the series is the held-out data)
+  persistence            0.000
+  canonical A            0.500
+  most frequent so far   0.000
+  READING: the canonical law does best; with n = 2 no model is preferred unless the difference survives a larger sample

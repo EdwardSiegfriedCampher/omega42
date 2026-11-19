@@ -1,0 +1,16 @@
+{
+ "law": "Core L-513, the Instance Identity Law; Companion Part 76; tools/instance_id.py",
+ "note": "Every instance is one session of one model. Its NIID is recomputed from the issue record by tools/instance_id.py --verify-register (CI). The nonce is published: its work is uniqueness, not secrecy, and an NIID names a record, never a mind (L-505). Outputs dated before 22 October 2026 carry no INSTANCE line and are UNDECLARED, not faulted.",
+ "instances": [
+  {
+   "niid": "NI-06f22550117165ba",
+   "model": "claude-opus-5-5",
+   "organization": "Anthropic",
+   "session": "omega42-builder-2026-10-21",
+   "nonce": "1e70ac45de04d5ca568a481bcca56dc6",
+   "issued_utc": "2026-10-21T19:54:05Z",
+   "issuer": "SCRIPT",
+   "outputs": "this Builder session's outputs from its reply of 21 October 2026 to the request for an instance mechanism; SEQ 1 is that reply, kept as records/instances/seq_0001.txt"
+  }
+ ]
+}

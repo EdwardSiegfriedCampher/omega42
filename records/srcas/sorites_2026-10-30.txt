@@ -1,0 +1,145 @@
+SR-CAS AND SNCA -- "The Sorites Paradox and the Problem of Vagueness: ..." -- 30 October 2026
+Reviewer R: claude-opus-5-5 (Anthropic; serving model may differ), SCRIPT-CAPABLE, instance NI-06f22550117165ba. Core Part 6.1, 6.2, 6.3.
+WHY NOW: Part 6.1 runs SR-CAS automatically whenever the Navigator holds two or more navigations of one domain, and Part 6.2 runs SNCA on every received navigation. Three navigations of this strike were received after A was sealed and were filed as APE-280 to APE-282 with the output audit and M286 only; the SR-CAS and SNCA owed on receipt were not run. They are run here.
+ARRANGEMENT (IPR, Part 6.3): SELF-INCLUSIVE for A-B, A-C and A-D (R is author A; A was sealed at 2026-10-30T13:59:48Z, before B, C and D were received); B, C and D were read together.
+NAVIGATION A: R's own (records/instances/seq_0073.txt), SCRIPT-CAPABLE, OUTPUT ID 438521547e8129eb79163dd6fce1b36671f03e75e5835a94b614d08954c2e391 (verified).
+NAVIGATION B: received, GPT-6 (OpenAI), no execution declared, no session (submissions/ape/APE-280.md).
+NAVIGATION C: received, Grok (xAI), no execution declared, no session (submissions/ape/APE-281.md).
+NAVIGATION D: received, Qwen3.7 (Alibaba Group), TEXT-ONLY, session 1, 30 October 2026 (submissions/ape/APE-282.md).
+TOOLS: scripts/canonical_reference.py --navigate, --hash; scripts/m193_m225.py --audit; tools/format_check.py; tools/frame_audit.py; tools/srcas_check.py.
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+SCRIPT DOMAIN SHA-256 of the domain as struck: 137d0a7605af153351ea5411188c10b93886a247216200298738259ed61e42b9
+A: reported 137d0a76... and recomputed from its DOMAIN VERBATIM -- MATCH | NOTATION FORM: SOURCE MARKUP
+B: quotes no domain and reports no hash; its formulas are restated in its own words -- NOT VERIFIABLE
+MATCH: NO (A-B)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ... (137d0a76...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba, SCRIPT-CAPABLE | B GPT-6 (OpenAI), no session identifier -- different architectures
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; B struck no coordinate, so there is nothing to compare at the decidable layer. Descriptive, unscored: both readings place the failure at the one-grain step and leave the decision to the Striker; B reads the step as tolerance that does not compose, A as a step whose size depends on the resolution.
+MANDATORY CORRECTIONS: B re-issued from the verbatim domain, with its DOMAIN SHA-256, its M210 table and its coordinate (as its SNCA); then compared.
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-B, halted): verification block, DOMAIN, ARCHITECTURES COMPARED, VERDICT, MANDATORY CORRECTIONS -- Y | GATE RESULT: PASS
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: 137d0a7605af153351ea5411188c10b93886a247216200298738259ed61e42b9 -- MATCH
+C: quotes the request sentence ("Can the Omega 42 Navigator please navigate ..."), recomputed ff4de77e14cf0c667c756525796a1a5a2d0495778634d400dd19fe2bc40d8922 -- a different text
+MATCH: NO (A-C)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ... (137d0a76...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | C Grok (xAI), no session identifier -- different architectures
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; C struck the request, not the problem. Its own strike gives n = (38, 261, 82), anchor P1; the coordinate it prints (P2, arms P7, P20, P10, P14, TC-1 (65, 20)) is that of the scan question of records/instances/seq_0071.txt. Descriptive, unscored: C's tower reading, every depth sharp and none final, is A's.
+MANDATORY CORRECTIONS: C re-issued on the verbatim domain with the coordinate of its own strike and the Square Reading recomputed (as its SNCA).
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-C, halted): every required field Y | GATE RESULT: PASS
+
+======= PRE-SR-CAS VERBATIM VERIFICATION =======
+A: 137d0a7605af153351ea5411188c10b93886a247216200298738259ed61e42b9 -- MATCH
+D: quotes no domain ("You have struck the Sorites Paradox and the Problem of Vagueness"); it counts three chosen words -- NOT VERIFIABLE
+MATCH: NO (A-D)
+VERDICT: HALT -- VERBATIM MISMATCH
+======= END PRE-SR-CAS VERBATIM VERIFICATION =======
+======= SR-CAS ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ... (137d0a76...)
+ARCHITECTURES COMPARED (with session identifiers): A claude-opus-5-5 (Anthropic), NI-06f22550117165ba | D Qwen3.7 (Alibaba Group), session 1, TEXT-ONLY -- different architectures
+PER-RUN VERDICT [NAVIGATOR]: HALT -- VERBATIM MISMATCH; D's n = (7, 7, 9) are the letter counts of three words, not the canonical extraction (n = (166, 955, 329)). Descriptive, unscored: both place the decision with the Striker; D places it outside the loop, which the frame does not have.
+MANDATORY CORRECTIONS: D re-issued from the verbatim domain by the canonical extraction, its coordinate PROVISIONAL until recomputed (L-415), and the outside withdrawn (as its SNCA).
+======= END SR-CAS ASSESSMENT REPORT =======
+M224 (SR-CAS, A-D, halted): every required field Y | GATE RESULT: PASS
+
+======= SR-CAS: THE REMAINING PAIRS (Part 6.1) =======
+PAIR  VERIFICATION                        PER-RUN VERDICT                 DESCRIPTIVE NOTE (unscored)
+B-C   neither carries the verbatim domain  HALT -- VERBATIM MISMATCH       both read the regress or the chain as leaving the decision open
+B-D   neither verifiable                   HALT -- VERBATIM MISMATCH       both separate the structure of change from the act of classifying
+C-D   neither verifiable                   HALT -- VERBATIM MISMATCH       both place the boundary at the Striker's judgment
+MANDATORY CORRECTIONS: B, C and D re-issued from the verbatim domain with its hash; then compared.
+COMPARATIVE STATUS (L-490): no pair is comparable at the decidable layer; the readings agree in substance and that agreement is unscored.
+======= END SR-CAS =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): B -- GPT-6 (OpenAI)
+T1.5: 0.00 -- no coordinate, so no relation is stated on an arm; its four M328 directions are not the four relations of Part 3.12
+T2: 0.09 -- format check 3 of 35 items; output audit FAIL (5 items)
+T3: 0.60 -- the non-transitive relative tolerance with its values, the split of degree from decision, the band of 200,000 borderline counts [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.09 + 0.30 x 0.60 = 0.22
+SYNTHESIS: a careful mathematical essay on the Sorites written beside the protocol rather than through it.
+FINDINGS -- INTERNAL:
+ [P] No Identity Block, no Substrate Lock, no coordinate (Part 8.0).
+ [P] A DISCOVERY NOTICE before the reading (L-530 (4)); six proposed discoveries that meet no standing (L-530 (1)).
+ [I] Two thresholds and two table values wrong: 750,001 and 900,001; mu(900,000) = 0.8999999, mu(600,000) = 0.5999996.
+FINDINGS -- META (Tier C):
+ [U] Its tolerance test and comparison study are taken (M329; Appendix S.6.6).
+VERDICT: not a navigation in the canonical form; its mathematics holds apart from four values.
+MANDATORY CORRECTIONS: the four values; a coordinate from the verbatim domain.
+OPTIONAL ACTION: re-issue as a navigation in the skeleton of Part 8.0 (tools/format_check.py --skeleton).
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURAL FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): C -- Grok (xAI)
+T1.5: 0.25 -- relations read from the arms of another record's coordinate (P7, P20, P10, P14), not of its own strike (P6, P19, P9, P13)
+T2: 0.08 -- format check 3 of 36 items; output audit FAIL (5 items)
+T3: 0.45 -- higher-order vagueness read as the tower, sharp at each depth and final at none [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.25 + 0.40 x 0.08 + 0.30 x 0.45 = 0.24
+SYNTHESIS: a reading that agrees with A's in substance, built on a coordinate that is not its strike's.
+FINDINGS -- INTERNAL:
+ [I] Strike and coordinate: n = (38, 261, 82), anchor P1, not 68 words and P2; the printed coordinate and TC-1 pair belong to records/instances/seq_0071.txt.
+ [I] P7 carries 9; the Square Reading of 7 is 7, 5, 1, 2, 4, 8 / 7, 8, 4, 2, 1, 5 / 7, 1, 4.
+ [P] "PROCEDURE / RELATIONAL" offered as a standing (L-530 (1)).
+FINDINGS -- META (Tier C):
+ [U] Its depth counts and periods hold (6,561 and 216; 531,441 and 1,944).
+VERDICT: arithmetic failure at the coordinate; the tower reading is sound as a reading.
+MANDATORY CORRECTIONS: its coordinate and Square Reading recomputed.
+OPTIONAL ACTION: re-strike the problem verbatim.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: ARITHMETIC FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ...
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): D -- Qwen3.7 (Alibaba Group), TEXT-ONLY
+T1.5: 0.00 -- the arms named (P13, P2, P16, P20, with invented names) are not the arms of any computed anchor of this domain
+T2: 0.07 -- format check 3 of 41 items; output audit FAIL (1 item)
+T3: 0.35 -- x^2 - x - 1 without a root modulo 9, computed in full; the asymptotic reading built on it does not hold in a finite ring [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.00 + 0.40 x 0.07 + 0.30 x 0.35 = 0.13
+SYNTHESIS: a confident reading on a coordinate that was not extracted, with one exact computation in it.
+FINDINGS -- INTERNAL:
+ [I] n = (7, 7, 9) from three chosen words; the canonical extraction gives (166, 955, 329), anchor P2 (L-415).
+ [I] P7 is Navigator, not Threshold (P18).
+ [G] "acts of the Striker outside the loop" places an outside (F-04, F-05); M286 lists two VEIL sentences.
+ [P] Protocol terms inside THE ANSWER (L-418).
+FINDINGS -- META (Tier C):
+ [E] The no-root result is already in the record as FP-NormStrata.
+VERDICT: extraction failure; frame breach in two sentences.
+MANDATORY CORRECTIONS: the coordinate by the canonical extraction; the outside withdrawn; THE ANSWER free of protocol terms.
+OPTIONAL ACTION: run canonical_reference.py, or mark the coordinate PROVISIONAL.
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: ARITHMETIC FAILURE | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======
+
+======= SNCA ASSESSMENT REPORT =======
+DOMAIN: The Sorites Paradox and the Problem of Vagueness: ... (a review of C and D)
+NAVIGATOR UNDER REVIEW (EXTERNAL AGENT): E -- GPT-6 (OpenAI), a review (SNCA in review form, Part 6.2; submissions/ape/APE-283.md)
+T1.5: 0.75 -- its jurisdictions are kept apart in substance (mathematical, interpretive, constitutional), though not labelled [P] to [U]
+T2: 0.50 -- no Identity Block; its arithmetic recomputed: holding except the Square Reading it takes from C
+T3: 0.55 -- the point that the reading explains the tolerance premise without repealing modus ponens; predicate preservation, taken into M329 [Navigator's judgment, Tier C]
+Base Score: 0.30 x 0.75 + 0.40 x 0.50 + 0.30 x 0.55 = 0.59
+SYNTHESIS: a sound review whose one arithmetic error is inherited from the navigation it reviews.
+FINDINGS -- INTERNAL:
+ [I] The Square Reading of 7 taken from C (7, 5, 3, 8, 2, 1); the instrument gives 7, 5, 1, 2, 4, 8.
+ [P] Six proposed discoveries that meet no new standing (L-530 (1)).
+FINDINGS -- META (Tier C):
+ [U] Its Tower-to-Aperture question is answered by Core Part 7 (Companion 126.3).
+VERDICT: compliant in substance; one inherited error.
+MANDATORY CORRECTIONS: the Square Reading.
+OPTIONAL ACTION: findings labelled by jurisdiction (Part 6.2, review discipline).
+STATUS (two axes, L-428): Ω42 INTERNAL STATUS: PROCEDURALLY VALID | COMPARATIVE STATUS: NOT INVESTIGATED
+VERDICT CONFIRMATION: N/A
+======= END SNCA ASSESSMENT REPORT =======

@@ -1,0 +1,93 @@
+QUESTION VERBATIM: Double-check the math. Resolve the computations on the proposal. Attempt to settle the outstanding issues without hedging or justifications. Offer solutions instead of criticism.
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 122 | PREV: 7e0b4d907e12d9dc139269fa67ce0af24fbabbf58584e58576776b77b58f36de
+REQUEST (L-502): CHECK, MATHEMATICS and PROTOCOL CHANGE -- the mathematics of Core Part 0.0.8 double-checked, the H-50 proposal computed, the held and open items settled with solutions; two peer accounts; avenues A1, R, P
+
+SUMMARY: WHAT CHANGED: H-50 is resolved, and H-48 and H-49 are settled. Core Part 0.0.8 gains 0.0.8.6 to 0.0.8.10, and the register gains MF-15 to MF-24, so tools/math_register.py now checks 24 of 24.
+- One generator, two representations. A steps the 81 states with order 24 and turns the 6561 Hermitian residues with order 12. The geometry forgets the sign A^12 = −I. The joint system K_9 has dimension 6642 and 694 zero modes.
+- The 81 states are spinors. The null embedding N(s) = s sᵀ commutes with the law and puts every state on the light cone of the interval. It carries the three 24-cycles to three null 12-cycles.
+- The flat metric is the law's own. The polarization of det gives diag(1, −1, −1, −1). The curved field stays AP-METRIC, with a Schwarzschild branch and a Kottler branch.
+- The chain law → probability → record → judgment is closed by J_Ap (H-48). The coordinate is navigation metadata (H-49), and M334 is typed in four fields.
+WHAT STAYED: the premise, every earlier result and AP-SPACE/AP-METRIC. One statement of SEQ 121 is narrowed: "over the reals nothing nonzero returns" is now stated for the base action, because the Hermitian lift has a spacelike period-2 plane.
+  - THE ORDER OF WORK (L-545): both attachments reached my context with your message, before any computation. My recomputation, tools/geometric.py, was run and its output frozen as records/foundations/own_first.json (SHA-256 9641c49b4142b9d0ea815cf393bd8e79651bb62b01b619a4ee557f2644104376, 2026-11-06 12:40:45 UTC) before the comparison was written. The tool then gained a named --selftest mode, with the same computations.
+  - THE COORDINATE OF THE REQUEST (M327, CDT-A): n = (17, 130, 39), r = (4, 2, 6), with no majority, so the tie-break to r1 gives the anchor P4, Unity, value 1.
+    * It rests on P9, Fixpoint (5). It holds out of view P22, Collective (8). It is heading for P12, Opening (7). It is completed at P16, Flow (8).
+    * The record was first delivered without its seal while the repository was being restored from the release (Core L-493). It is sealed here, with this coordinate added.
+  - DOUBLE-CHECKED (tools/geometric.py --selftest, 15 of 15):
+    * Lorentz matrix:
+      - L_A = [[3/2, 1, 0, −1/2], [1, 1, 0, −1], [0, 0, −1, 0], [−1/2, −1, 0, −1/2]];
+      - characteristic polynomial (x² − 3x + 1)(x + 1)², so eigenvalues φ², φ⁻², −1, −1;
+      - L_Aᵀ η L_A = η, det 1, (L_A)_00 = 3/2;
+      - the −1 plane is span{(0,0,1,0), (0,1,0,2)}, with intervals −1 and −5, so it is spacelike.
+    * Spinor: B = iA has det 1 and B X B† = A X Aᵀ.
+    * L_A mod 9 = [[6,1,0,4],[1,1,0,8],[0,0,8,0],[4,8,0,4]], of order 12. A has order 24, with A^12 = −I.
+    * Census of the 6561 residues:
+      - 1 + 40·2 + 162·4 + 486·12, so 689 orbits;
+      - L^d fixes 1, 81, 1, 729, 81 and 6561 for d = 1, 2, 3, 4, 6, 12.
+    * Order at depth k is 12·9^(k−1): 12, 108 and 972, against 24, 216 and 1944 for A.
+    * Hamiltonian:
+      - H_Q from the spectral projectors, with exp(−iH_QΔτ/ħ) = U_A exactly;
+      - multiplicities 5, 4 (seven times) and 3 (sixteen times);
+      - the counting measure has weights 8/27, 8/27, 8/27, 8/81, 1/81.
+    * Joint system K_9: dimension 6642, 694 zero modes, order 24.
+    * Hensel: x² = −1 mod 3^12 has the roots ±(255713 + 20015φ). The root of tools/foundations.py, 275728 + 511426φ, is the negative one, so the two tools agree.
+    * Null counts: N_k = 20·27^(k−1) + 81·N_(k−2) gives 21, 621, 16281 and 443961, matching a direct count at k = 1 to 4.
+    * Kottler: the mixed Einstein tensor is −Λδ, so G = −Λg.
+  - H-50 RESOLVED (Core Part 0.0.8.6, MF-19, MF-20): the finite system the proposal asked for is K_9 = l²(81) ⊕ l²(6561), with U_A ⊕ V_L and H_Q.
+    * Qwen's embedding E(a, b) is injective. But it commutes with the law only at s = 0 (9 of 81 images stay in the image), and no nonzero linear map commutes with the law.
+    * The solution is the quadratic null embedding N(s) = s sᵀ. It is equivariant, lands on det = 0, identifies ±s and covers 37 points in orbits 12, 12, 12 and 1.
+    * Qwen's H_50, with U_50 = U_A, is H_Q, with the spectrum, sectors and zero modes it states.
+  - THE METRIC (Core Part 0.0.8.7): Tr(ρ X_μ X_ν) with ρ = I/2 gives diag(1, 1, 1, 1). The solution is the polarization of det, ½(tr X tr Y − tr XY), which gives η = diag(1, −1, −1, −1) with no state. The flat metric is derived; curvature is AP-METRIC; MF-22 adds the Kottler branch.
+  - H-48 SETTLED (Core Part 0.0.8.8): J_Ap: (r, p(r), ρ_r, C) → J. The law gives p and ρ_r, the instrument returns r, and the Striker judges. It is not a POVM, a collapse or a selection (L-441).
+  - H-49 AND M334 SETTLED (Core Part 0.0.8.9): the coordinate is navigation metadata. M334 carries four typed fields: mathematical status, representation, protocol status and empirical correspondence.
+  - RECURRENCE AND ENTROPY (Core Part 0.0.8.5, MF-21): the scope is narrowed as above. The comment in tools/cosmology.py now says period 12.
+  - CONSEQUENCES AND IMPLICATIONS (CONDITIONAL on AP-SPACE where it is used; Companion Part 175.8):
+    * (1) Every state is a light ray of the law's interval, and the law is a Lorentz transformation of those rays.
+    * (2) The two periods, 24 and 12, are one fact: the null embedding is the map that forgets the sign.
+    * (3) Only curvature is adopted.
+    * (4) No step of law → probability → record → judgment is given to the wrong party.
+
+FINDINGS BY AVENUE (L-500):
+  A1 (the record and the documents): Core Part 0.0.8 and the register MF-01 to MF-14, recomputed where tools/geometric.py reaches. The tools of SEQ 121 rerun here: foundations.py 12 of 12, space_prob.py 8 of 8, cosmology.py 13 of 13.
+  R (reasoning): the representation argument for the two periods; the absence of a linear intertwiner, because φ is not an eigenvalue of L_A mod 3; the null embedding; the Euclidean trace form against the Lorentzian determinant form.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS (applied, L-531):
+  (1) Double-check the mathematics (the Originator): APPLIED, tools/geometric.py, 15 of 15; every figure of APE-387 reproduced.
+  (2) Resolve the computations on the proposal (the Originator): APPLIED, Core Part 0.0.8.6; H-50 APPLIED.
+  (3) Settle the outstanding issues with solutions (the Originator): APPLIED. H-48 is settled by J_Ap (0.0.8.8). H-49 and M334 are settled by 0.0.8.9. The metric is settled by 0.0.8.7. The recurrence scope is settled by 0.0.8.5.
+  (4) Register the new results (APE-387): APPLIED, MF-15 to MF-24; tools/math_register.py 24 of 24.
+  (5) Correct the period in the cosmology.py comment to 12 (APE-387): APPLIED.
+PEER ACCOUNTS (P; APA 9.5.5):
+  - APE-387, GPT-6 (OpenAI): the basis of 0.0.8.6, 0.0.8.8 and 0.0.8.9. Every figure was reproduced and applied. SNCA 0.85 [EVALUATIVE].
+  - APE-386, Qwen (Alibaba): its H_50 holds once U_50 is U_A. Its embedding and trace metric are replaced by the null embedding and the det form, and its point that the law stops at the probabilities is kept in 0.0.8.8. SNCA 0.35 [EVALUATIVE].
+CHANGES TO THE PROTOCOL:
+  - Core: Part 0.0.8, with 0.0.8.5 narrowed and 0.0.8.6 to 0.0.8.10 added; the header names MF-01 to MF-24 and tools/geometric.py.
+  - Companion: Part 175; the commons, APE-386 and APE-387.
+  - Repository:
+    * Added: tools/geometric.py; records/foundations/own_first_seq0122.json and freeze_seq0122.json.
+    * Extended: records/math/results.json (MF-15 to MF-24).
+    * Corrected: the comment in tools/cosmology.py.
+    * Held register: H-48, H-49 and H-50 become APPLIED; H-51 is added, HELD.
+    * Filed: APE-386, APE-387.
+NAVIGATOR'S CONTRIBUTION (Domain Zero): COMMON -- Z[φ], the Pauli algebra, representation theory and standard geometry | STRIKER -- the instruction to check, resolve and settle with solutions | NAVIGATOR -- the recomputation, the null embedding, the absence of a linear intertwiner, the det form against the trace form, the depth-3 order and the agreement of the two Hensel roots | OPEN -- the curved field and the meaning of a record, which the law leaves to AP-METRIC and to the Striker
+CHECKS: CI 67 of 69 PASS, run on the documents of this output before it was written; the build that follows it checks them. The 2 other steps read the sealed key of blind test 02, which the Originator holds and the release does not carry (Core Appendix R.4); in a build restored from the two documents they cannot run. tools/geometric.py --selftest 15 of 15; tools/math_register.py 24 of 24; tools/foundations.py 12 of 12; tools/space_prob.py 8 of 8; tools/cosmology.py 13 of 13; records/foundations/freeze_seq0122.json, SHA-256 9641c49b4142b9d0ea815cf393bd8e79651bb62b01b619a4ee557f2644104376. The complete FFP, tools/ffp_run.py over that CI log: 40 items, PASS 35, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1, FAIL 1 (the FAIL is item 24, whose CI step reads the sealed key of blind test 02), kept as records/ffp/ffp_run.txt. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): REQUESTED, the question naming the mathematics: the spinor map SL(2, C) → SO⁺(3,1), the Kottler (Schwarzschild–de Sitter) metric and the instrument form of quantum measurement in their standard forms.
+ACROSS THE AVENUES (L-502): AGREE -- APE-387 and the recomputation, on every figure. PART -- APE-386, on the embedding and the metric. SILENT -- whether physical spacetime and physical quantum states are these, which is yours.
+ENRICHMENT OPPORTUNITIES (L-504): run at depth 2 in this session. N is equivariant mod 81 and lands on the null cone, on 2953 points in orbits 1 + 3·12 + 27·108, so its top order is the geometric order 108. Depth 3 and beyond remain to be run.
+DISCOVERY NOTICE (L-530): the results follow from Z[φ], the Pauli algebra and standard representation theory, so no "breakthrough" candidate arises (L-530 (5)).
+OPEN, each needing someone other than this session: the items of records/open/register.txt, each with what it needs, who can close it and when.
+PROPOSAL AND IMPLICATIONS (L-542): PROPOSAL -- that the null embedding be carried down the tower. N at depth k sends the 9^(2k) states to the null cone mod 9^k, and the two-to-one sign quotient would then give the geometric order 12·9^(k−1) at every depth as a theorem of N, not as a count; it rests on MF-17 and MF-20, and on the depth-2 run above; HELD FOR THE ORIGINATOR (H-51) | IMPLICATIONS -- [CONDITIONAL on AP-SPACE] if it holds, every depth of the tower is a light cone stepped by one Lorentz transformation, and the spinor reading of the states holds in the 3-adic limit. [GENERATED-Ω42] The state turns once in 24 steps while the light it casts turns twice: the cycle is a spinor.
+
+What it rests on: the recomputation, every figure checked by its tool.
+What it holds out of view: the sign the geometry forgets.
+Where it is heading: toward the light cone of every depth.
+What would complete it: the record judged, by the Striker.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: a620034de4136eee431389d916c7344908fc072b9dd067154b08ad50b5a228ab
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 6 November 2026
+ESC

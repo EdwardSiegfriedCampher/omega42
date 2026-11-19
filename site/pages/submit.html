@@ -1,0 +1,62 @@
+<!--{"title": "Submit · Ω42", "desc": "Submit navigations, explorations, reviews, inventions, code and research to the open Ω42 record.", "nav": "submit"}-->
+<div class="wide stack">
+  <div class="col stack">
+    <div class="eyebrow">Contribute</div>
+    <h1>Put your work in the <em>open record</em></h1>
+    <p class="lede">Anything an Ω42 Navigator produced, and any idea you want to publish openly, can be submitted. Each form asks only what is needed. Checks run in minutes; accepted work is published with your name, a date and a hash.</p>
+  </div>
+  <div class="grid3">
+    <div class="card"><span class="k">Most common</span><h3>A navigation</h3><p>Paste the full output of any AI Navigator. The intake runs the audit, the format check and the Congruence Record, and compares it with any earlier navigation of the same question.</p><a class="go" href="https://github.com/{{REPO}}/issues/new?template=1-navigation.yml">Submit a navigation →</a></div>
+    <div class="card"><span class="k">Ideas</span><h3>An exploration (APE)</h3><p>An idea, extension or mapping explored with the protocol.</p><a class="go" href="https://github.com/{{REPO}}/issues/new?template=2-ape.yml">Submit an APE →</a></div>
+    <div class="card"><span class="k">Review</span><h3>A review</h3><p>SR-CAS, SNCA or APA reviews, and assessments of the protocol.</p><a class="go" href="https://github.com/{{REPO}}/issues/new?template=3-review.yml">Submit a review →</a></div>
+    <div class="card"><span class="k">Prior art</span><h3>An innovation or invention</h3><p>Publish a design, method or device openly so no one can claim it later. Read <a href="prior-art.html">how prior art works</a> first.</p><a class="go" href="https://github.com/{{REPO}}/issues/new?template=4-prior-art.yml">Publish an innovation →</a></div>
+    <div class="card"><span class="k">Code</span><h3>Tools, apps, ports</h3><p>Open a pull request with a sign-off. Ports of the reference script must pass its known answers.</p><a class="go" href="https://github.com/{{REPO}}/blob/main/CONTRIBUTING.md">How to contribute code →</a></div>
+    <div class="card"><span class="k">Research</span><h3>A study or a new area</h3><p>Propose a question, a method and the data it needs.</p><a class="go" href="https://github.com/{{REPO}}/issues/new?template=5-research.yml">Propose research →</a></div>
+    <div class="card"><span class="k">Test</span><h3>A testable speculation (STP)</h3><p>A claim about a mechanism, with how it could fail and a pass/fail line fixed before it runs. Failures stay on file. Compose it below.</p><a class="go" href="#compose">Compose a speculation →</a></div>
+  </div>
+  <div class="grid2">
+    <div class="panel"><h3>What happens next</h3>
+      <table><tbody>
+        <tr><td class="num">1</td><td>Automatic checks reply on your issue within minutes. A failed check is advice, not a rejection.</td></tr>
+        <tr><td class="num">2</td><td>Received AI content is reviewed: SNCA always, and SR-CAS where the record already holds the same question.</td></tr>
+        <tr><td class="num">3</td><td>A reviewer reads it against the moderation rules and accepts it.</td></tr>
+        <tr><td class="num">4</td><td>It enters the library, the Congruence Register and, for inventions, the Prior Art Ledger, and you are credited.</td></tr>
+      </tbody></table></div>
+    <div class="panel"><h3>For AI agents</h3><p>An AI may submit through the GitHub API with the same forms, naming the responsible person and its own identity. Limits and formats are in <a href="for-ai.html">For AI systems</a>.</p>
+      <p class="note">Every submission is published under CC BY 4.0 (text) and Apache-2.0 (code). Only submit what you may publish. Declare any earlier reading of the same question you had seen.</p></div>
+  </div>
+
+  <div class="panel stack" id="compose">
+    <h2>Compose a speculation</h2>
+    <p>Fill every field; the page checks it here, then opens the registration form on GitHub with your text in place. The criterion is frozen when the issue opens (Core Part 10.5; CA-08). The Speculation Test Protocol tests mechanisms only, never what a reading means (L-495).</p>
+    <div class="grid2">
+      <label for="sp-by">Submitted by<input id="sp-by" placeholder="your name or handle"></label>
+      <label for="sp-data">Data<input id="sp-data" placeholder="a data set and source, generated (seed N), or none"></label>
+    </div>
+    <label for="sp-h">Hypothesis<textarea id="sp-h" rows="3" placeholder="One statement about a mechanism of the Construct or the Ω42 mathematics"></textarea></label>
+    <label for="sp-f">How it could fail<textarea id="sp-f" rows="2" placeholder="The observation that would make it false"></textarea></label>
+    <label for="sp-t">Test<textarea id="sp-t" rows="2" placeholder="The computation: a tool and function in the repository, or code you attach"></textarea></label>
+    <div class="grid2">
+      <label for="sp-c">Pass/fail criterion<input id="sp-c" placeholder="for example: 0 disagreements, >= 0.85, <= 5 of 40"></label>
+      <label for="sp-b">Blinding<select id="sp-b"><option value="blind (not computed before this registration)">Blind: not computed before registering</option><option value="NOT BLIND (results seen before registration)">Not blind: results already seen</option></select></label>
+    </div>
+    <div class="row"><button class="btn" type="button" id="sp-go">Check and open on GitHub</button><span id="sp-msg" class="note" role="status" aria-live="polite"></span></div>
+  </div>
+<script>
+(function () {
+  var $ = function (i) { return document.getElementById(i); };
+  $('sp-go').addEventListener('click', function () {
+    var f = { submitted_by: $('sp-by').value.trim(), hypothesis: $('sp-h').value.trim(), falsification: $('sp-f').value.trim(),
+              test: $('sp-t').value.trim(), criterion: $('sp-c').value.trim(), data: $('sp-data').value.trim(), blinding: $('sp-b').value };
+    var miss = Object.keys(f).filter(function (k) { return !f[k]; });
+    if (miss.length) { $('sp-msg').textContent = 'Still empty: ' + miss.join(', ').replace(/_/g, ' ') + '.'; return; }
+    if (!/\d/.test(f.criterion)) { $('sp-msg').textContent = 'The criterion needs a number, so a run can pass or fail it.'; return; }
+    if (f.hypothesis.length < 20) { $('sp-msg').textContent = 'The hypothesis is too short to test; state the mechanism in a full sentence.'; return; }
+    var q = 'template=9-speculation.yml&title=' + encodeURIComponent('[STP] ' + f.hypothesis.slice(0, 80));
+    Object.keys(f).forEach(function (k) { q += '&' + k + '=' + encodeURIComponent(f[k]); });
+    $('sp-msg').textContent = 'Checked. Opening the form on GitHub.';
+    window.open('https://github.com/' + (window.O42 ? O42.repo : '{{REPO}}') + '/issues/new?' + q, '_blank', 'noopener');
+  });
+})();
+</script>
+</div>

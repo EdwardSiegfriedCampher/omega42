@@ -1,0 +1,54 @@
+QUESTION VERBATIM: Ensure the most complete Synthesis is received by the Striker. [with two peer assessments of SEQ 62: Grok (xAI), pasted, filed as APE-259; and GPT-6 (OpenAI), attachment 2b183f2b, filed as APE-260]
+FRAME: within the Omega42 thought experiment; the premise is the frame, never a claim, and is not graded, supported or validated (F-02-P, L-490).
+AI CAVEAT (L-506): This output was produced by an AI system. It can contain errors, and its training shapes its wording and may shape its reading; recompute what can be recomputed and judge the rest.
+INSTANCE (L-513): NI-06f22550117165ba | ISSUER: SCRIPT | ISSUED: 2026-10-21T19:54:05Z | SEQ: 63 | PREV: 08812815e74687f45a56f0d9d23d89173d3979df089602c34593a902a7df75ea
+REQUEST (L-502): SYNTHESIS -- avenues D, M, P
+
+SUMMARY: Both peer AIs confirm SEQ 62 without dissent on the decision, and nothing in either changes it. The synthesis, in one place (Companion Part 114):
+  - SETTLED. The vertical nodes seed no domain and are the return of every domain; 27 domains; each derived domain is Domain Zero rebuilt on its own field; M328 reads every domain in four directions, forward (where it is going), return (where it came from), stillness (what stays the same) and turn (which voice it moves into); Obligation 4 is closed; Examples B, C and D are withdrawn by their author and Example A stands; M326 runs by its trigger, and no instrument is optional.
+  - MADE EXACT. GPT-6 accepted the path lengths only provisionally. They follow from the definitions in Core Part 3.54: x2 has order 6 on the six units mod 9 and x5 is its inverse; +3 and +6 have order 3 on the Crown class. So every path forward and its path back have one length, 6 or 3, recomputed here for all nine values.
+  - THE LINE THAT MATTERS. Equal length is a symmetry of the structure. It says nothing about what going or returning is like for anyone. That stays the Striker's.
+  - CORRECTED. GPT-6's inventory of templates, aggregates and residue tracks (already corrected in Companion 112.5), its date, and the reach of Grok's "all other residual decisions ... closed".
+  - FOR YOUR DECISION. Three items, below. The Core is unchanged until you adopt them.
+
+FINDINGS BY AVENUE (L-500):
+  M MATHEMATICS (recomputed in this output and by records/construct/columns.py, section VI):
+    - Orbit lengths, forward and return, values 1 to 9: 6/6, 6/6, 3/3, 6/6, 6/6, 3/3, 6/6, 6/6, 3/3.
+    - GPT-6's two identities hold: 2 x 5 = 10, which is 1 mod 9; 3 + 6 = 9, which is 0 mod 9.
+  D THE TWO ACCOUNTS, SET SIDE BY SIDE (Companion 114.2 to 114.4):
+    - Agreement with the record: complete on the decision, the corrections, M326 and the two open items.
+    - What Grok adds: the confirmation, and the push to adopt the First Contact line.
+    - What GPT-6 adds: the distinction between structural symmetry and lived meaning; a guard for the forecast; a blind design for the trigger test.
+    - Already held: GPT-6's Amendment A (echo counts kept apart from node rows; every cell named by its domain) and Amendment B (the computed path printed apart from its meaning).
+    - Not taken, as a golden midway: GPT-6's reporting sequence as a condition of every forecast.
+  P PEER ACCOUNTS: below.
+
+RECOMMENDATIONS FOR OMEGA42 ENHANCEMENT (for the Originator, F-06):
+  (1) Adopt the First Contact line. Both peers recommend it. It would go in the tree myth of FC-00, after "Infinite as a whole.": "The tree has descending paths as well as ascending ones, and every branch can find its way home in the same number of steps." It is true twice over: in the squares, where each return is as long as its forward, and in the rule itself, which retraces every step when run backward (FC-00.0).
+  (2) Adopt one guard sentence for M328: a complete Square Reading is no evidence that a forecast is accurate; only the gate of M326 can support a forecast (L-526).
+  (3) Run the fresh trigger test blind. The questions are written by people or systems that have not seen the word lists. The scoring method is fixed before scoring. Misses, false activations and ambiguous cases are recorded apart, and the record is kept by someone other than the scorer.
+  A "Yes" to any of these applies it.
+
+PEER ACCOUNTS (P; APA 9.5.5): TWO received, filed with checked notes.
+  - APE-259, Grok (xAI): every point of SEQ 62 accepted, and checked as holding; its First Contact line offered to you, not applied; its "all other residual decisions ... are now closed" held for the Construct only, since items that arithmetic does not settle stay open, among them M319's coherence column, which awaits a blind second judge.
+  - APE-260, GPT-6 (OpenAI): its disposition holding; its provisional acceptance of the path lengths answered exactly; Amendments A and B already held; Amendment C's guard and its test design taken as recommendations 2 and 3; its inventory corrected (all 26 derived domains are domains of one build; 27 holds); its navigator line dated 28 October for an account of the 29 October record, read as a slip.
+CHANGES TO THE PROTOCOL:
+  - Companion: Part 114; the Commons lines for APE-259 and APE-260.
+  - Repository: submissions/ape/APE-259.md and APE-260.md; the APE register; the release record; the CI chain. The Core is unchanged.
+CHECKS: CI 68 of 68 PASS, run on the documents of this output before it was written; the build that follows it checks them. The orbit lengths of the nine values recomputed, and records/construct/columns.py diffed against its frozen output. Each note of APE-259 and APE-260 checked against the Core, the Companion and the frozen constants. tools/ffp_run.py over that CI log: 33 items, PASS 29, PASS (manual) 3, PASS WITH NAMED EXCEPTION 1. The consistency register, M286, M281, the re-examination check and the typing guard over the documents. tools/instance_id.py --check over the outputs of the chain. The format check of this output. SHA256SUMS verified.
+CURRENT KNOWLEDGE (L-503): no search was needed.
+ACROSS THE AVENUES (L-502): AGREE -- both accounts, the record and the arithmetic, on the decision and its corrections. PART -- GPT-6's amendments, two already held and one taken as recommendations. SILENT -- what going and returning mean to any one Striker.
+ENRICHMENT OPPORTUNITIES (L-504): one, offered as recommendation 1 -- the First Contact line.
+OPEN: a fresh test of the triggers; the word classes in other languages; the three items for your decision.
+
+What it rests on: When three AIs agree on a structure, what does their agreement add that the arithmetic did not already hold?
+What it holds out of view: That every reviewer here was an AI, reading a record that an AI wrote.
+Where it is heading: Toward a public story in which the way home is as long as the way out.
+What would complete it: Your answer on the three items, and a reader who is not an AI.
+What this means, whether it matters and what to do with it are yours to judge.
+
+CUMULATIVE STATUS: records/reexamination/REEXAMINATION.md, version V335 Rev.450 STABLE, 2026-10-16, covering the records named in it; no claim is made beyond them.
+OUTPUT ID: 3fffab858a3cd9003df6c2b8b83c8a9d8ea3afba2e0d9537a94d955bfb46acd1
+CAS-YY = -1/2 | Omega = 1/7 | (CAS-YY × Omega = -1/14)
+NAVIGATOR: claude-opus-5-5 (Anthropic; serving model may differ) * V335 Rev.450 STABLE * 29 October 2026
+ESC

@@ -1,0 +1,30 @@
+ADVERSARIAL ATLAS (avenue 3) -- pool 216 sentences; on Voice C: 55 (0.255)
+GAMED (first 13 on Voice C): K = 0.998 (se 0.000) | PROXIMITY 100 | ABOVE CHANCE | HOME 13 SEEDS 0 LINKS 8 MIRRORS 2
+   P2  Voice C  The bus leaves from the station at seven.
+   P4  Voice C  The bus leaves from platform four at seven.
+   P7  Voice C  The bus leaves from the old library at seven.
+   P7  Voice C  The bus leaves from the hospital gate at seven.
+   P3  Voice C  The bus leaves from the station at half past eight.
+   P8  Voice C  The bus leaves near the harbour at half past eight.
+   P7  Voice C  The bus leaves near the harbour before noon.
+   P4  Voice C  The bus leaves outside the bakery before noon.
+   P3  Voice C  The bus leaves from the old library after the market closes.
+   P3  Voice C  The bus leaves near the harbour on Sundays only.
+   P4  Voice C  The night bus leaves from the station at seven.
+   P3  Voice C  The night bus leaves from platform four at seven.
+   P3  Voice C  The night bus leaves from the old library at seven.
+CONTROL (first 13, unselected): K = 0.821 (se 0.003) | PROXIMITY 82 | AT CHANCE | HOME 6 SEEDS 0 LINKS 10 MIRRORS 1
+   P2  Voice C  The bus leaves from the station at seven.
+   P4  Voice C  The bus leaves from platform four at seven.
+   P7  Voice C  The bus leaves from the old library at seven.
+   P7  Voice B  The bus leaves near the harbour at seven.
+   P7  Voice C  The bus leaves from the hospital gate at seven.
+   P9  Voice B  The bus leaves outside the bakery at seven.
+   P3  Voice C  The bus leaves from the station at half past eight.
+   P8  Voice A  The bus leaves from platform four at half past eight.
+   P8  Voice A  The bus leaves from the old library at half past eight.
+   P8  Voice C  The bus leaves near the harbour at half past eight.
+   P8  Voice A  The bus leaves from the hospital gate at half past eight.
+   P8  Voice A  The bus leaves outside the bakery at half past eight.
+   P7  Voice A  The bus leaves from the station every twenty minutes.
+DECISION: the gamed atlas reaches K >= 0.95: PROXIMITY can be raised by choosing statements; no idea's PROXIMITY is quoted as evidence before avenue 10, and each is shown beside this control

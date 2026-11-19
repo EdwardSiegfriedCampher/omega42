@@ -1,0 +1,20 @@
+EVIDENCE MANDATE (L-464) -- DEDICATED RUN 01 -- FREEZE RECORD
+Frozen before any literature result was read and before any placement was computed.
+Navigator: claude-opus-5-5 (Anthropic; serving model may differ). Selection: NOT BLIND -- the builder knows the structure sought (CB NO for every object).
+
+Candidates, taken in order from the frozen priority list (Companion 25.2b, items 2 and 4) plus discovery mode III (Core 3.26):
+E1  Physical matter with intrinsic 24-fold rotational order in diffraction (25.2b item 2).
+    Representation: the system the literature reports with 24-fold rotational symmetry in a measured diffraction pattern of a physical sample.
+    Counting feature (Core 3.26 rule, diffraction pattern): order of its rotational symmetry.
+    Question beyond R^24 = I: does the system carry a state TRANSITION whose 24 states close, with a half-period involution?
+E2  Sunflower phyllotaxis (25.2b item 4), the test of CG.
+    Representation: parastichy counts of sunflower seed heads in the largest published survey.
+    Counting feature: the larger parastichy number of the most frequent class in that survey.
+    Question: does the developmental rule independently instantiate x(n+2) = x(n+1) + x(n), or do Fibonacci counts arise from another mechanism?
+E3  A physical system whose dynamics is the Fibonacci-type linear map on a discrete torus (discovery mode III / IV): the quantized cat map and its physical realizations.
+    Representation: the standard model of the system as stated in its literature.
+    Counting feature (dynamical system): number of state variables in its standard model.
+    Question: does a physical system realize T or T^2 on (Z/N)^2, and does N = 9 arise from the physics or by choice?
+
+Null controls (M230-E), declared now: E1 against the 12-fold and 8-fold quasicrystals; E2 against non-Fibonacci phyllotactic counts in the same survey; E3 against the same map on (Z/N)^2 for N = 2..30.
+Tier-3 features and criteria C1-C10 and profile components: as frozen in Core 3.26.
