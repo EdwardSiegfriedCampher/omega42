@@ -5922,6 +5922,54 @@
      "reason": "run outcome PASS"
     }
    ]
+  },
+  "RC-01": {
+   "id": "RC-01",
+   "origin": "Navigator answer of 19 November 2026 (relations and consensus) and APE-506 (ME-04)",
+   "hypothesis": "Two persons who each follow the law cannot reach the same state by symmetric scalar influence alone: modulo 9 never, for any influence k; over the reals the difference grows at least by sqrt(5)/2 per step for every strength of pull",
+   "scope": "(Z/9)^2, every pair of distinct states, every k, 72 steps; the reals, pull 2a in [-3, 3]",
+   "falsification": "any pair that agrees, or a real pull with spectral radius below 1",
+   "test": "t_RC01",
+   "data": "computation only",
+   "criterion": "no agreement mod 9 and least radius = sqrt(5)/2 within 1e-4",
+   "blinding": "NOT BLIND: computed before registration; recorded reproducibly",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "if passed: agreement between persons who each follow the law needs a choice aimed at their difference, or influence shaped by the law itself; averaging alone never yields it",
+   "supersedes": null,
+   "date": "2026-11-19T15:01:23+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T15:01:24+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "scalar_consensus_mod_9": "never, for every k in 0..8 (exhaustive, 72 steps)",
+      "least_real_radius": 1.118,
+      "agreement_by_one_added_term": "yes (choice_engine selftest)"
+     },
+     "code_sha": {
+      "stp": "0dfd5b7022b0abfa",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T15:01:24+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
   }
  }
 }

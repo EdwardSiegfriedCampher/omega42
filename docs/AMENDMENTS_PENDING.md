@@ -207,3 +207,11 @@ Level: B
 - STP TR-01 VERIFIED COMPUTATION (not blind). H-031 (the limit near 5/2) and H-033 (whether the coarse model arises from the law) proposed.
 - research/philosophy/MEANINGFUL_EXISTENCE.md: ME-01 to ME-03 taken in; H-ME01 to H-ME13 and ME-04 are to be registered with data before any run.
 - APE-503 to APE-505 with SNCA Z18 to Z20; COR-013 (the chronology check caught a future timestamp before commit).
+
+## CA-26: Relations and consensus (the Originator's question and APE-506; 19 November 2026)
+Level: B
+- Companion 233.15 (RC1 to RC5). Averaging alone never brings persons who follow the law to agreement: mod 9 for every influence; over the reals the least growth of their difference is √5/2. Agreement needs a choice aimed at the difference, or law-shaped influence (K = T/2). Consensus by averaging belongs to agents without an inner law. A group's shared mode follows the law, and its members' differences persist.
+- Companion 233.16: ME-04 taken in. Consensus is kept apart from truth. Four agencies; four collective outcomes; prediction as a distribution tested on unseen observations.
+- tools/choice_engine.py: relation_step, scalar_consensus_ever, agreeing_choice, real_consensus_radius, with selftests. STP RC-01 VERIFIED COMPUTATION (not blind).
+- research/philosophy/MEANINGFUL_EXISTENCE.md: project E (ME-04).
+- APE-506 with SNCA Z21.

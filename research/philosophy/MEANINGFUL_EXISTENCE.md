@@ -57,3 +57,14 @@ The three papers set out a history-dependent dynamical system with agency (ME-01
 The papers' empirical hypotheses (H-ME01 to H-ME13) and the cross-domain test ME-04 (behavior, ecology, institutions) belong to projects B to D. Each is registered in the STP register with its data and criterion fixed before any run. None has been run. The mathematical questions they open are:
 - H-033: does the logistic habit model arise from the law by coarse-graining with forgetting and noise?
 - the conditions under which a self-reinforcing pattern becomes transformable. Answered in the coarse model by the band a ∈ (−3.415, −2.585) at β = 6. Answered in the law by N(b) being a unit.
+
+## ME-04 (APE-506): relational reality and human futures
+
+Adopted as project E of the initiative. It covers persons coupled by asymmetric influence, relationships as dynamic systems, consensus reality as a collectively maintained model (kept apart from external and individual reality), the four agencies, and prediction as a distribution of futures tested on unseen observations (H-ME14 to H-ME20). The validation sequence runs relationship stability, group consensus, group cooperation, institutional change, then societal trajectories. Each hypothesis is registered with its data and criterion before any run.
+
+The law adds exact results (Companion 233.15; RC-01 VERIFIED COMPUTATION):
+- Persons who each follow the law never reach agreement by averaging alone: not modulo 9 for any influence, and over the reals the difference grows by at least √5/2 per step.
+- Agreement needs a choice aimed at the difference, or influence shaped by the law itself.
+- The shared mode of a group, its consensus reality, moves by the law, and its members' differences persist.
+
+A first test of ME-04 against the law is therefore registrable: do real belief-averaging data fit agents without an inner law (convergence), or agents with one (persistence)?

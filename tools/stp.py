@@ -969,6 +969,14 @@ def t_TR01():
     return good, {"lines": [l.strip() for l in buf.getvalue().splitlines() if l.strip()]}
 
 
+def t_RC01():
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import choice_engine as ce
+    noscalar = not any(ce.scalar_consensus_ever(9, k) for k in range(9))
+    radius = ce.real_consensus_radius()
+    return noscalar and abs(radius - 5 ** 0.5 / 2) < 1e-4, {"scalar_consensus_mod_9": "never, for every k in 0..8 (exhaustive, 72 steps)", "least_real_radius": round(radius, 4),
+                                                          "agreement_by_one_added_term": "yes (choice_engine selftest)"}
+
+
 def t_CAP05():
     import congruence as cg
     reg = cg.load_register()
@@ -1108,7 +1116,7 @@ TESTS = {"H-013": t_H013, "H-014": t_H014, "OP-01a": t_OP01a, "OP-01b": t_OP01b,
          "H-005": t_H005, "H-007a": t_H007a, "H-007b": t_H007b, "H-008": t_H008, "CX-001": t_CX001,
          "CX-002": t_CX002, "CX-004": t_CX004, "CX-005": t_CX005, "CX-006": t_CX006, "CX-007": t_CX007,
          "H-006b": t_H006b, "H-006c": t_H006c, "H-016": t_H016, "H-016b": t_H016b, "W-001": t_W001,
-         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "AR-01": t_AR01, "TR-01": t_TR01, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
+         "UP-04b": t_UP04b, "W-002": t_W002, "H-017": t_H017, "H-017b": t_H017b, "H-018": t_H018, "H-019": t_H019, "H-021": t_H021, "CX-003": t_CX003, "CX-008": t_CX008, "CX-009": t_CX009, "CX-009-R1": t_CX009R1, "CX-015": t_CX015, "CX-016": t_CX016, "CX-017": t_CX017, "H-023": t_H023, "CAP-01": t_CAP01, "CAP-01-R1": t_CAP01R1, "CAP-02": t_CAP02, "CAP-03": t_CAP03, "CAP-04": t_CAP04, "CAP-05": t_CAP05, "PHB-01": t_PHB01, "H-029": t_H029, "H-030": t_H030, "AR-01": t_AR01, "TR-01": t_TR01, "RC-01": t_RC01, "CX-013": t_CX013, "QA-01": t_QA01, "QA-02": t_QA02, "UP-04b-R1": t_UP04bR1, "UP-01e": t_UP01e, "CX-010-D": t_CX010, "CX-011": t_CX011, "CX-012a": t_CX012a,
          "CX-012b": t_CX012b, "H-006d": t_H006d, "I-001": t_I001}
 
 # ------------------------------------------------------------------ pre-registration
@@ -1381,6 +1389,10 @@ PRE = [
       scope="ME-02 at a = -3, beta = 6 (fixed points, stability, bistable band, hysteresis); ME-01's learning identity; the law mod 9 and 27", falsification="any value that does not recompute", test="t_TR01", data="computation only",
       criterion="every check of tools/transformability.py --selftest passes", blinding="NOT BLIND: computed while reading, before registration; this entry records the recomputation reproducibly", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
       consequence="the models of ME-02 and ME-03 enter the record as checked mathematics, beside the law, with their differences stated (Companion 233.13)", supersedes=None),
+ dict(id="RC-01", origin="Navigator answer of 19 November 2026 (relations and consensus) and APE-506 (ME-04)", hypothesis="Two persons who each follow the law cannot reach the same state by symmetric scalar influence alone: modulo 9 never, for any influence k; over the reals the difference grows at least by sqrt(5)/2 per step for every strength of pull",
+      scope="(Z/9)^2, every pair of distinct states, every k, 72 steps; the reals, pull 2a in [-3, 3]", falsification="any pair that agrees, or a real pull with spectral radius below 1", test="t_RC01", data="computation only",
+      criterion="no agreement mod 9 and least radius = sqrt(5)/2 within 1e-4", blinding="NOT BLIND: computed before registration; recorded reproducibly", on_pass="VERIFIED COMPUTATION", on_fail="REJECTED",
+      consequence="if passed: agreement between persons who each follow the law needs a choice aimed at their difference, or influence shaped by the law itself; averaging alone never yields it", supersedes=None),
 ]
 FIRST_RUN = {  # results of the 18 Nov 2026 first run, kept as history
  "H-001": "PASS", "H-002": "FAIL", "H-003": "FAIL", "H-004": "FAIL (reported 7 of 9; script duplicated H-002)", "H-005": "PASS"}

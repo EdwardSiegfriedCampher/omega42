@@ -1,6 +1,17 @@
 {
  "items": [
   {
+   "id": "APE-506",
+   "kind": "ape",
+   "title": "ME-04: Relational reality and the dynamics of human futures",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-506.md",
+   "text_sha256": "dfc784121cba552384eb43c2a2805e3212200c21d7e8db80f87fd0a5298707de",
+   "area_source": "declared"
+  },
+  {
    "id": "APE-505",
    "kind": "ape",
    "title": "ME-03: A mathematical measure of transformability",

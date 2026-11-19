@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-497 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
+498 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -11,7 +11,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Area | Items |
 |---|---|
 | mathematics | 77 |
-| philosophy | 69 |
+| philosophy | 70 |
 | consciousness-and-mind | 55 |
 | physics | 41 |
 | coherence-and-congruence | 41 |
@@ -23,10 +23,10 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | cross-architecture | 14 |
 | computing-and-software | 13 |
 | time-and-cycles | 13 |
+| cognitive-science-and-psychology | 11 |
 | history | 10 |
 | engineering-and-inventions | 10 |
-| cognitive-science-and-psychology | 10 |
-| economics-and-society | 7 |
+| economics-and-society | 6 |
 | education | 5 |
 | life-sciences | 5 |
 | media-navigation | 4 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 168 |
+| ChatGPT | 169 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -48,9 +48,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Disposition | APEs |
 |---|---|
-| adopted | 248 |
+| adopted | 249 |
 | checked | 239 |
-| corrected | 148 |
+| corrected | 149 |
 | form | 124 |
 | holding | 77 |
 | refined | 70 |
@@ -103,6 +103,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | APE-410 | A universal benchmark? -- an exploration | Qwen | four statements contrary to the record | from protocol (low confidence) |
+| APE-333 | Reality as mass hypnosis: three propositions and the capacity to question | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-217 | Reframing the Human-AI relationship (HAI-01) | ChatGPT | adopted, holding | from protocol (low confidence) |
 | APE-206 | Enhancement proposal, revision 3: relational Aperture and neural Mobius dynamics | ChatGPT | checked, adopted, refined | from protocol (low confidence) |
 | APE-119 | Session summary and consolidated recommendations | Claude | checked, not taken, corrected | from protocol |
@@ -264,7 +265,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-400 | A comment on the Introduction proposal | unidentified | checked | from protocol (low confidence) |
 | APE-341 | Ω42 as a constitutional framework for a balanced civilization | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-339 | A civilizational template: practical examples | Qwen | checked, adopted | from protocol (low confidence) |
-| APE-333 | Reality as mass hypnosis: three propositions and the capacity to question | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-264 | Resonance, choice, and the AI's presence in Omega42 | ChatGPT | checked, already held, adopted | from protocol (low confidence) |
 | APE-102 | The Navigator's Account as an option in First Contact | Claude | checked, corrected, form | from protocol (low confidence) |
 
@@ -519,6 +519,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0019 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philoso | Claude |  | from protocol (low confidence) |
 | NAV-2026-0018 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Spinozist phil | Claude |  | from protocol (low confidence) |
 | NAV-2026-0016 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Neoplatonic ph | Claude |  | from protocol (low confidence) |
+| APE-506 | ME-04: Relational reality and the dynamics of human futures | ChatGPT | adopted, corrected | kept |
 | APE-505 | ME-03: A mathematical measure of transformability | ChatGPT | incorporated, kept, corrected | kept |
 | APE-504 | ME-02: When does an inherited pattern become transformable? | ChatGPT | incorporated, proposed, corrected | kept |
 | APE-503 | The mathematics of meaningful existence (ME-01) | ChatGPT | incorporated, corrected | kept |

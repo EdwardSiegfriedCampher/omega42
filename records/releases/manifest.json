@@ -217,6 +217,14 @@
    "level": "B",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-26",
+   "title": "CA-26: Relations and consensus (the Originator's question and APE-506; 19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
   }
  ],
  "approval": {
@@ -250,9 +258,9 @@
    "REJECTED": 16,
    "REVISED": 4,
    "TESTABLE": 6,
-   "VERIFIED COMPUTATION": 42
+   "VERIFIED COMPUTATION": 43
   },
-  "stp_entries": 78,
+  "stp_entries": 79,
   "snca_reports": 57
  },
  "dimensions": {

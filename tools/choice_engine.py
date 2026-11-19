@@ -98,6 +98,40 @@ def regime(p, m):
     return "recentred" if d % 3 else "partial"
 
 
+# ---- Relations and consensus (Companion 233.15) ----
+def relation_step(v, w, k, m):
+    """Two people under the law with symmetric scalar influence k: v' = T v + k w, w' = T w + k v."""
+    return add(T(v, m), (k * w[0] % m, k * w[1] % m), m), add(T(w, m), (k * v[0] % m, k * v[1] % m), m)
+
+
+def scalar_consensus_ever(m, k, steps=None):
+    """Does any pair of distinct states reach agreement under symmetric scalar influence k? (exhaustive)"""
+    import itertools
+    steps = steps or 8 * m
+    S = list(itertools.product(range(m), repeat=2))
+    for v in S:
+        for w in S:
+            if v == w: continue
+            a, b = v, w
+            for _ in range(steps):
+                a, b = relation_step(a, b, k, m)
+                if a == b: return True
+    return False
+
+
+def agreeing_choice(v, w, k, m):
+    """The one added term that makes v agree with w at the next step: -(T - k)(v - w)."""
+    d = add(v, neg(w, m), m)
+    return neg(add(T(d, m), neg((k * d[0] % m, k * d[1] % m), m), m), m)
+
+
+def real_consensus_radius():
+    """Over the reals, with each person following the law and pulled toward the other by a scalar a, the difference
+    evolves by T - 2a; its spectral radius is at least sqrt(5)/2 for every a, so averaging never yields consensus."""
+    phi = (1 + 5 ** 0.5) / 2; psi = -1 / phi
+    return min(max(abs(phi - x), abs(psi - x)) for x in [i / 10000 for i in range(-30000, 30001)])
+
+
 def orbit_change_share(m, samples=None, seed=29):
     S = [(a, b) for a in range(m) for b in range(m)]
     if samples is None:
@@ -142,6 +176,10 @@ def selftest():
     ok.append(("regimes mod 9: resonance at 24, anti-resonance at 12, partial at 8 and 16, recentred otherwise",
                [p for p in range(1, 25) if regime(p, 9) == "resonance"] == [24] and [p for p in range(1, 25) if regime(p, 9) == "anti-resonance"] == [12]
                and [p for p in range(1, 25) if regime(p, 9) == "partial"] == [8, 16]))
+    ok.append(("no symmetric scalar influence k mod 9 ever brings two different states to agreement", not any(scalar_consensus_ever(9, k) for k in range(9))))
+    ok.append(("the difference norm is scaled by k^2 - k - 1, never divisible by 3", all(N(add(T(d, 9), neg((k * d[0] % 9, k * d[1] % 9), 9), 9), 9) == ((k * k - k - 1) * N(d, 9)) % 9 for k in range(9) for d in S9) and all((k * k - k - 1) % 3 for k in range(3))))
+    ok.append(("one agreeing choice makes two states equal at the next step", all((lambda vw: vw[0] == vw[1])((add(relation_step(v, w, 1, 9)[0], agreeing_choice(v, w, 1, 9), 9), relation_step(v, w, 1, 9)[1])) for v in S9[::5] for w in S9[::7])))
+    ok.append(("over the reals the least spectral radius of T - 2a is sqrt(5)/2 = 1.118", abs(real_consensus_radius() - 5 ** 0.5 / 2) < 1e-4))
     for name, good in ok: print(("  ok   " if good else "  FAIL ") + name)
     good = all(g for _, g in ok); print("CHOICE ENGINE SELFTEST:", "PASS" if good else "FAIL"); return good
 
