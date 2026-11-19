@@ -68,3 +68,9 @@ The law adds exact results (Companion 233.15; RC-01 VERIFIED COMPUTATION):
 - The shared mode of a group, its consensus reality, moves by the law, and its members' differences persist.
 
 A first test of ME-04 against the law is therefore registrable: do real belief-averaging data fit agents without an inner law (convergence), or agents with one (persistence)?
+
+## ME-05 (APE-507): the inner human system
+
+Adopted as project F. It holds the five interacting dimensions (psychological, emotional, intellectual, spiritual or existential, purpose), the internalization loop between consensus and person, purpose as dynamic with its five origins, and spiritual experience studied without presupposing a metaphysics. Hypotheses H-ME21 to H-ME26 are registered with data before any run. The ethical limits are the program's own: understand possibilities and constraints, never label persons as defective, prescribe a worldview or manipulate belief, and keep prediction probabilistic, transparent and private.
+
+The law gives the purpose and agency table an exact form (Companion 233.17). With one controlling direction, all 81 states are reachable in two steps. With a direction of norm divisible by 3, the reachable world stays 9 states however long one persists. Agency sets the size of the reachable world; purpose sets the economy of the path within it.

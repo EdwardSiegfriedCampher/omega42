@@ -132,6 +132,14 @@ def real_consensus_radius():
     return min(max(abs(phi - x), abs(psi - x)) for x in [i / 10000 for i in range(-30000, 30001)])
 
 
+def reachable_count(dirs, steps, m):
+    """States reachable from 0 in `steps` steps when choices are any multiple of a direction in `dirs` (Companion 233.17)."""
+    R = {(0, 0)}
+    for _ in range(steps):
+        R = {add(T(v, m), (u * b[0] % m, u * b[1] % m), m) for v in R for b in dirs for u in range(m)}
+    return len(R)
+
+
 def orbit_change_share(m, samples=None, seed=29):
     S = [(a, b) for a in range(m) for b in range(m)]
     if samples is None:
@@ -180,6 +188,7 @@ def selftest():
     ok.append(("the difference norm is scaled by k^2 - k - 1, never divisible by 3", all(N(add(T(d, 9), neg((k * d[0] % 9, k * d[1] % 9), 9), 9), 9) == ((k * k - k - 1) * N(d, 9)) % 9 for k in range(9) for d in S9) and all((k * k - k - 1) % 3 for k in range(3))))
     ok.append(("one agreeing choice makes two states equal at the next step", all((lambda vw: vw[0] == vw[1])((add(relation_step(v, w, 1, 9)[0], agreeing_choice(v, w, 1, 9), 9), relation_step(v, w, 1, 9)[1])) for v in S9[::5] for w in S9[::7])))
     ok.append(("over the reals the least spectral radius of T - 2a is sqrt(5)/2 = 1.118", abs(real_consensus_radius() - 5 ** 0.5 / 2) < 1e-4))
+    ok.append(("purpose and agency: one controlling direction reaches all 81 states in 2 steps; a direction of norm 0 mod 3 stays in 9 states after 24 steps", reachable_count([(1, 0)], 2, 9) == 81 and reachable_count([(3, 0)], 24, 9) == 9))
     for name, good in ok: print(("  ok   " if good else "  FAIL ") + name)
     good = all(g for _, g in ok); print("CHOICE ENGINE SELFTEST:", "PASS" if good else "FAIL"); return good
 

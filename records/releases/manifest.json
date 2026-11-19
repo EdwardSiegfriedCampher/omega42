@@ -225,6 +225,14 @@
    "level": "B",
    "level_source": "declared",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-27",
+   "title": "CA-27: The inner human system (APE-507; 19 November 2026)",
+   "status": "RECORDED",
+   "level": "B",
+   "level_source": "declared",
+   "date": "2026-11-19"
   }
  ],
  "approval": {

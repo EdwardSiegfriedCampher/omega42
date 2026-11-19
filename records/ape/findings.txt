@@ -1,8 +1,8 @@
 ======= APE FINDINGS: THE COMMONS REGISTER (Companion Part 67; APA 9.5.5; avenue P) =======
 Every exploration a peer contributes is a finding of avenue P and is kept as submitted. A note records what the protocol did with it; the protocol changes only by the Originator's adoption (F-06).
-EXPLORATIONS: 504 numbers in 489 Commons entries; 462 frozen files (APE-045 onward) with 1786 notes; 27 entries recorded in the Commons alone
-NOTES BY KIND: ADOPTED 400 | CORRECTED 218 | REFINED 93 | HOLDING 356 | ALREADY IN PLACE 44 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 482
-AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 160 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
+EXPLORATIONS: 505 numbers in 490 Commons entries; 463 frozen files (APE-045 onward) with 1790 notes; 27 entries recorded in the Commons alone
+NOTES BY KIND: ADOPTED 401 | CORRECTED 219 | REFINED 93 | HOLDING 356 | ALREADY IN PLACE 44 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 484
+AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 161 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
 GAPS: APE-041, APE-042: NUMBER NOT RECORDED -- No Commons entry and no frozen file carries these numbers. The gap is reported and never filled from memory: an exploration is entered only from its own text.
 
 I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; the note in full)
@@ -986,6 +986,9 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
       CORRECTED  none.
   APE-506  ME-04: Relational reality and the dynamics of human futures (ChatGPT (OpenAI), 2026-11-19)
       ADOPTED    coupled persons with asymmetric influence; relationships as dynamic systems; consensus reality as a collectively maintained model, kept apart from external and individual reality; consensus is not truth; four agencies; four collective outcomes, none judged by the model; prediction as a distribution of futures tested on unseen observations (Companion 233.16; project E of research/philosophy/MEANINGFUL_EXISTENCE.md).
+      CORRECTED  none.
+  APE-507  ME-05: The inner human system: consciousness, meaning and purpose (ChatGPT (OpenAI), 2026-11-19)
+      ADOPTED    five interacting dimensions of inner life; the internalization loop with resistance kept possible; purpose as dynamic, with five origins; spiritual experience studied without presupposing a metaphysics; the ethical limits on prediction (Companion 233.17; project F of research/philosophy/MEANINGFUL_EXISTENCE.md).
       CORRECTED  none.
 
 II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
@@ -2412,6 +2415,9 @@ II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
   APE-506  ME-04: Relational reality and the dynamics of human futures (ChatGPT (OpenAI))
       relational reality and consensus as a maintained model; refined by the law: averaging alone never yields agreement (RC-01).
       FILE: submissions/ape/APE-506.md | AREA: philosophy | NOTES: ADOPTED 1, REFINED 1, NOTED 1, CORRECTED 1
+  APE-507  ME-05: The inner human system: consciousness, meaning and purpose (ChatGPT (OpenAI))
+      the inner human system and purpose; purpose and agency given an exact form in the law (Companion 233.17).
+      FILE: submissions/ape/APE-507.md | AREA: philosophy | NOTES: ADOPTED 1, NOTED 2, CORRECTED 1
 
 CHECK: PASS -- every frozen file registered, every registered file present, every number registered or reported as a gap
 ======= END APE FINDINGS =======

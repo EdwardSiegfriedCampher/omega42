@@ -1,6 +1,17 @@
 {
  "items": [
   {
+   "id": "APE-507",
+   "kind": "ape",
+   "title": "ME-05: The inner human system: consciousness, meaning and purpose",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-507.md",
+   "text_sha256": "13a374c3766fa4dc24f5d8902beabd50c3d1d7b1cdf5d80451e4bf52f44ed555",
+   "area_source": "declared"
+  },
+  {
    "id": "APE-506",
    "kind": "ape",
    "title": "ME-04: Relational reality and the dynamics of human futures",

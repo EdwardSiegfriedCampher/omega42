@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-498 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
+499 items; 453 proposed area changes (152 high confidence, 257 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -10,9 +10,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Area | Items |
 |---|---|
-| mathematics | 77 |
-| philosophy | 70 |
-| consciousness-and-mind | 55 |
+| mathematics | 78 |
+| philosophy | 71 |
+| consciousness-and-mind | 54 |
 | physics | 41 |
 | coherence-and-congruence | 41 |
 | language-and-extraction | 40 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 169 |
+| ChatGPT | 170 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -48,9 +48,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Disposition | APEs |
 |---|---|
-| adopted | 249 |
+| adopted | 250 |
 | checked | 239 |
-| corrected | 149 |
+| corrected | 150 |
 | form | 124 |
 | holding | 77 |
 | refined | 70 |
@@ -183,7 +183,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0010 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol |
-| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0006 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | Claude |  | from protocol (low confidence) |
 | APE-460 | Could Ω42 become the standard for AI reasoning? (F198) | unidentified | adopted, refined, extended | from protocol (low confidence) |
 | APE-434 | F173 — The Ω42 Instrument Suite | unidentified | corrected | from protocol |
@@ -392,6 +391,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0011 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Christian crea | Claude |  | from protocol |
+| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0008 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0007 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | APE-493 | Ω42 technical close-out | ChatGPT | adopted, corrected, already in place | kept |
@@ -495,7 +495,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-298 | Astrology and numerology: a structural illumination (the complete account of APE-297) | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-297 | Astrology and numerology: a structural illumination (received cut off) | ChatGPT | checked, adopted | from protocol (low confidence) |
 | APE-296 | Astrology and numerology: mapping in place of prediction | Qwen | checked, corrected | from protocol (low confidence) |
-| APE-281 | The Sorites under the tower: surface, depth and the residual decision | Grok | checked, corrected, refined | from protocol |
+| APE-281 | The Sorites under the tower: surface, depth and the residual decision | Grok | checked, corrected, refined | from protocol (low confidence) |
 | APE-276 | The Internal Discovery Principle: a correction | ChatGPT | checked, refined | from protocol |
 | APE-274 | Protocol discovery: its name, its status and its priority (a second copy) | ChatGPT | form | from protocol |
 | APE-273 | Protocol discovery: its name, its status and its priority | ChatGPT | refined | from protocol |
@@ -519,6 +519,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0019 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philoso | Claude |  | from protocol (low confidence) |
 | NAV-2026-0018 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Spinozist phil | Claude |  | from protocol (low confidence) |
 | NAV-2026-0016 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Neoplatonic ph | Claude |  | from protocol (low confidence) |
+| APE-507 | ME-05: The inner human system: consciousness, meaning and purpose | ChatGPT | adopted, computed in the law, corrected | kept |
 | APE-506 | ME-04: Relational reality and the dynamics of human futures | ChatGPT | adopted, corrected | kept |
 | APE-505 | ME-03: A mathematical measure of transformability | ChatGPT | incorporated, kept, corrected | kept |
 | APE-504 | ME-02: When does an inherited pattern become transformable? | ChatGPT | incorporated, proposed, corrected | kept |

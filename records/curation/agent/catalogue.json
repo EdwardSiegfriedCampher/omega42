@@ -2,23 +2,23 @@
  "_about": "Proposals of the curator (agents/curator/SPEC.md). The baseline (records/curation/index.json) is not changed; a person accepts or rejects each proposal.",
  "navigator": "claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md",
  "summary": {
-  "items": 498,
+  "items": 499,
   "changed": 453,
-  "high_confidence": 153,
-  "low_confidence": 256,
+  "high_confidence": 152,
+  "low_confidence": 257,
   "spot_check": "the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide",
   "by_area": [
    [
     "mathematics",
-    77
+    78
    ],
    [
     "philosophy",
-    70
+    71
    ],
    [
     "consciousness-and-mind",
-    55
+    54
    ],
    [
     "physics",
@@ -96,7 +96,7 @@
   "by_chamber": [
    [
     "ChatGPT",
-    169
+    170
    ],
    [
     "unidentified",
@@ -126,7 +126,7 @@
   "by_disposition": [
    [
     "adopted",
-    249
+    250
    ],
    [
     "checked",
@@ -134,7 +134,7 @@
    ],
    [
     "corrected",
-    149
+    150
    ],
    [
     "form",
@@ -279,6 +279,10 @@
    [
     "restated",
     2
+   ],
+   [
+    "computed in the law",
+    1
    ],
    [
     "proposed",
@@ -590,6 +594,26 @@
   ]
  },
  "items": [
+  {
+   "id": "APE-507",
+   "kind": "ape",
+   "title": "ME-05: The inner human system: consciousness, meaning and purpose",
+   "date": "2026-11-19",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "chamber": "ChatGPT",
+   "declared_area": "philosophy",
+   "proposed_area": "philosophy",
+   "reason": "declared area is registered",
+   "changed": false,
+   "disposition": [
+    "adopted",
+    "computed in the law",
+    "corrected"
+   ],
+   "discoveries": [],
+   "path": "submissions/ape/APE-507.md",
+   "text_sha256": "13a374c3766fa4dc24f5d8902beabd50c3d1d7b1cdf5d80451e4bf52f44ed555"
+  },
   {
    "id": "APE-506",
    "kind": "ape",
@@ -1027,7 +1051,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 73.2 for physics (next mathematics, 58.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 73.3 for physics (next mathematics, 58.4); confidence low",
    "changed": true,
    "disposition": [
     "adopted"
@@ -1047,7 +1071,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 75.6 for physics (next mathematics, 21.0); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 75.7 for physics (next mathematics, 21.0); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1070,7 +1094,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 46.4 for mathematics (next language-and-extraction, 36.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 46.4 for mathematics (next language-and-extraction, 36.9); confidence low",
    "changed": true,
    "disposition": [
     "resolved",
@@ -1313,7 +1337,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "history",
-   "reason": "declared \"protocol\" is not registered; keywords score 30.9 for history (next cognitive-science-and-psychology, 26.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 31.0 for history (next cognitive-science-and-psychology, 26.7); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1379,7 +1403,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 19.8 for language-and-extraction (next mathematics, 10.6); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 19.9 for language-and-extraction (next mathematics, 10.5); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1423,7 +1447,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 40.1 for language-and-extraction (next philosophy, 13.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 40.2 for language-and-extraction (next philosophy, 13.1); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1445,7 +1469,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 44.4 for philosophy (next language-and-extraction, 13.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 44.1 for philosophy (next language-and-extraction, 13.2); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1486,7 +1510,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 22.9 for philosophy (next personal-practice, 9.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 22.7 for philosophy (next personal-practice, 9.7); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1507,7 +1531,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "history",
-   "reason": "declared \"protocol\" is not registered; keywords score 5.6 for history (next economics-and-society, 3.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 5.6 for history (next economics-and-society, 3.8); confidence low",
    "changed": true,
    "disposition": [
     "its mathematics recomputed",
@@ -1529,7 +1553,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "economics-and-society",
-   "reason": "declared \"protocol\" is not registered; keywords score 7.8 for economics-and-society (next law-and-governance, 6.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 7.6 for economics-and-society (next law-and-governance, 6.8); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1550,7 +1574,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "history",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.5 for history (next mathematics, 10.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.5 for history (next mathematics, 10.3); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1572,7 +1596,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 20.4 for consciousness-and-mind (next cognitive-science-and-psychology, 15.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 20.4 for consciousness-and-mind (next cognitive-science-and-psychology, 15.9); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -1637,7 +1661,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 5.1 for cross-architecture (next economics-and-society, 3.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 5.1 for cross-architecture (next economics-and-society, 3.3); confidence low",
    "changed": true,
    "disposition": [
     "refined"
@@ -1658,7 +1682,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 52.3 for mathematics (next cross-architecture, 40.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 52.4 for mathematics (next cross-architecture, 40.9); confidence low",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -1678,7 +1702,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 58.1 for mathematics (next physics, 8.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 58.2 for mathematics (next physics, 8.9); confidence high",
    "changed": true,
    "disposition": [
     "two errors corrected"
@@ -1738,7 +1762,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 48.9 for mathematics (next time-and-cycles, 6.6); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 49.0 for mathematics (next time-and-cycles, 6.6); confidence high",
    "changed": true,
    "disposition": [
     "one correction it made is itself wrong"
@@ -1880,7 +1904,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 45.0 for mathematics (next arts-music-and-literature, 14.0); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 45.1 for mathematics (next arts-music-and-literature, 14.0); confidence high",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2020,7 +2044,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "time-and-cycles",
-   "reason": "declared \"protocol\" is not registered; keywords score 9.6 for time-and-cycles (next physics, 9.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 9.7 for time-and-cycles (next physics, 9.1); confidence low",
    "changed": true,
    "disposition": [
     "refined"
@@ -2060,7 +2084,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "engineering-and-inventions",
-   "reason": "declared \"protocol\" is not registered; keywords score 53.6 for engineering-and-inventions (next computing-and-software, 13.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 53.7 for engineering-and-inventions (next computing-and-software, 13.8); confidence high",
    "changed": true,
    "disposition": [
     "its warning kept"
@@ -2100,7 +2124,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for consciousness-and-mind (next mathematics, 12.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.7 for consciousness-and-mind (next mathematics, 12.1); confidence high",
    "changed": true,
    "disposition": [
     "corrected"
@@ -2120,7 +2144,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 29.5 for consciousness-and-mind (next mathematics, 13.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 29.3 for consciousness-and-mind (next mathematics, 13.3); confidence high",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2140,7 +2164,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 82.8 for consciousness-and-mind (next engineering-and-inventions, 4.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 82.2 for consciousness-and-mind (next engineering-and-inventions, 4.8); confidence high",
    "changed": true,
    "disposition": [
     "its distinction is adopted"
@@ -2158,7 +2182,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 60.6 for mathematics (next coherence-and-congruence, 7.0); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 60.7 for mathematics (next coherence-and-congruence, 7.0); confidence high",
    "changed": true,
    "disposition": [
     "its proof checked step by step"
@@ -2179,7 +2203,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 73.7 for mathematics (next time-and-cycles, 2.6); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 73.8 for mathematics (next time-and-cycles, 2.6); confidence high",
    "changed": true,
    "disposition": [
     "its computations reproduced"
@@ -2236,7 +2260,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 18.8 for mathematics (next physics, 8.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 18.9 for mathematics (next physics, 8.7); confidence high",
    "changed": true,
    "disposition": [
     "adopted in substance",
@@ -2255,7 +2279,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.6 for mathematics (next time-and-cycles, 5.6); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.6 for mathematics (next time-and-cycles, 5.7); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -2274,7 +2298,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 23.5 for mathematics (next engineering-and-inventions, 20.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.4 for mathematics (next engineering-and-inventions, 20.1); confidence low",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2292,7 +2316,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 15.1 for physics (next engineering-and-inventions, 13.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 15.2 for physics (next engineering-and-inventions, 13.7); confidence low",
    "changed": true,
    "disposition": [
     "frames coordinate connection",
@@ -2311,7 +2335,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 55.9 for physics (next engineering-and-inventions, 32.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 56.0 for physics (next engineering-and-inventions, 32.1); confidence low",
    "changed": true,
    "disposition": [
     "kept only"
@@ -2329,7 +2353,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 110.1 for physics (next engineering-and-inventions, 39.6); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 110.2 for physics (next engineering-and-inventions, 39.6); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -2403,7 +2427,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 59.4 for physics (next time-and-cycles, 4.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 59.5 for physics (next time-and-cycles, 5.0); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -2461,7 +2485,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "arts-music-and-literature",
-   "reason": "declared \"protocol\" is not registered; keywords score 41.3 for arts-music-and-literature (next physics, 7.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 41.4 for arts-music-and-literature (next physics, 7.3); confidence high",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2497,7 +2521,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.9 for personal-practice (next mathematics, 9.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.8 for personal-practice (next mathematics, 9.8); confidence low",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2605,7 +2629,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 19.2 for philosophy (next time-and-cycles, 8.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 19.1 for philosophy (next time-and-cycles, 8.1); confidence high",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2623,7 +2647,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 46.2 for philosophy (next life-sciences, 20.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 46.0 for philosophy (next life-sciences, 20.7); confidence high",
    "changed": true,
    "disposition": [
     "none recorded"
@@ -2696,7 +2720,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "history",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.5 for history (next life-sciences, 6.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.6 for history (next life-sciences, 6.1); confidence high",
    "changed": true,
    "disposition": [
     "checked"
@@ -2714,7 +2738,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.9 for traditions-and-lenses (next personal-practice, 9.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.5 for traditions-and-lenses (next personal-practice, 9.8); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2732,7 +2756,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "economics-and-society",
-   "reason": "declared \"protocol\" is not registered; keywords score 7.8 for economics-and-society (next traditions-and-lenses, 7.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 7.6 for economics-and-society (next language-and-extraction, 7.1); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2768,7 +2792,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.9 for philosophy (next history, 10.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.8 for philosophy (next history, 10.2); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2804,7 +2828,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 10.8 for personal-practice (next traditions-and-lenses, 10.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 10.8 for personal-practice (next traditions-and-lenses, 10.5); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2858,7 +2882,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 28.6 for traditions-and-lenses (next philosophy, 17.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 28.1 for traditions-and-lenses (next philosophy, 17.3); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2876,7 +2900,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 41.0 for traditions-and-lenses (next philosophy, 34.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 40.2 for traditions-and-lenses (next philosophy, 34.6); confidence low",
    "changed": true,
    "disposition": [
     "checked"
@@ -2894,7 +2918,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 50.0 for traditions-and-lenses (next cognitive-science-and-psychology, 22.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 49.1 for traditions-and-lenses (next cognitive-science-and-psychology, 22.1); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -2934,7 +2958,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 24.0 for philosophy (next computing-and-software, 4.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.9 for philosophy (next computing-and-software, 4.3); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -2993,7 +3017,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 30.3 for physics (next law-and-governance, 8.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 30.3 for physics (next law-and-governance, 8.4); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3032,7 +3056,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 50.6 for mathematics (next physics, 26.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 50.7 for mathematics (next physics, 26.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3070,7 +3094,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 57.4 for mathematics (next physics, 13.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 57.5 for mathematics (next physics, 13.5); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3089,7 +3113,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 52.5 for physics (next mathematics, 9.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 52.6 for physics (next mathematics, 9.8); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3108,7 +3132,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 62.4 for physics (next time-and-cycles, 19.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 62.4 for physics (next time-and-cycles, 19.5); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3146,7 +3170,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.1 for coherence-and-congruence (next economics-and-society, 11.0); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.1 for coherence-and-congruence (next economics-and-society, 10.8); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3298,7 +3322,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 7.7 for language-and-extraction (next ai-safety-and-sovereignty, 3.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 7.7 for language-and-extraction (next ai-safety-and-sovereignty, 3.7); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3374,7 +3398,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 13.4 for coherence-and-congruence (next cognitive-science-and-psychology, 7.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 13.5 for coherence-and-congruence (next cognitive-science-and-psychology, 7.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3431,7 +3455,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "media-navigation",
-   "reason": "declared \"protocol\" is not registered; keywords score 7.1 for media-navigation (next philosophy, 5.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 7.2 for media-navigation (next philosophy, 5.7); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3583,7 +3607,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 15.7 for ai-safety-and-sovereignty (next personal-practice, 14.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 15.6 for ai-safety-and-sovereignty (next personal-practice, 14.2); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3640,7 +3664,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.6 for coherence-and-congruence (next engineering-and-inventions, 6.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.7 for coherence-and-congruence (next engineering-and-inventions, 6.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3659,7 +3683,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 18.3 for philosophy (next personal-practice, 14.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 18.2 for philosophy (next personal-practice, 14.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3678,7 +3702,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 10.7 for consciousness-and-mind (next engineering-and-inventions, 8.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 10.6 for consciousness-and-mind (next engineering-and-inventions, 8.7); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3773,7 +3797,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 10.5 for philosophy (next economics-and-society, 6.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 10.5 for philosophy (next economics-and-society, 6.6); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3792,7 +3816,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.8 for personal-practice (next ai-safety-and-sovereignty, 14.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.8 for personal-practice (next ai-safety-and-sovereignty, 14.1); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3830,7 +3854,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 27.2 for traditions-and-lenses (next ai-safety-and-sovereignty, 15.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 27.2 for traditions-and-lenses (next ai-safety-and-sovereignty, 15.9); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3849,7 +3873,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "economics-and-society",
-   "reason": "declared \"protocol\" is not registered; keywords score 37.8 for economics-and-society (next history, 26.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 37.6 for economics-and-society (next history, 26.5); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3868,7 +3892,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.2 for language-and-extraction (next philosophy, 8.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.2 for language-and-extraction (next philosophy, 8.2); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3887,7 +3911,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "economics-and-society",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.1 for economics-and-society (next education, 14.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.0 for economics-and-society (next education, 14.9); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -3963,7 +3987,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 32.1 for coherence-and-congruence (next physics, 11.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 32.1 for coherence-and-congruence (next physics, 11.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -3982,7 +4006,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 15.8 for mathematics (next coherence-and-congruence, 6.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 15.9 for mathematics (next coherence-and-congruence, 6.4); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4001,7 +4025,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "cognitive-science-and-psychology",
-   "reason": "declared \"protocol\" is not registered; keywords score 13.6 for cognitive-science-and-psychology (next economics-and-society, 13.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 13.6 for cognitive-science-and-psychology (next economics-and-society, 13.3); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4096,7 +4120,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "law-and-governance",
-   "reason": "declared \"protocol\" is not registered; keywords score 13.8 for law-and-governance (next ai-safety-and-sovereignty, 8.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 13.8 for law-and-governance (next ai-safety-and-sovereignty, 8.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4210,7 +4234,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.8 for philosophy (next ai-safety-and-sovereignty, 8.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.7 for philosophy (next ai-safety-and-sovereignty, 8.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4229,7 +4253,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.9 for cross-architecture (next philosophy, 9.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 18.0 for cross-architecture (next philosophy, 9.5); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4248,7 +4272,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.1 for philosophy (next coherence-and-congruence, 11.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.0 for philosophy (next coherence-and-congruence, 11.4); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4267,7 +4291,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.2 for coherence-and-congruence (next philosophy, 14.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.2 for coherence-and-congruence (next philosophy, 14.0); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4305,7 +4329,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 28.7 for philosophy (next coherence-and-congruence, 11.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 28.5 for philosophy (next coherence-and-congruence, 11.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4324,7 +4348,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 26.9 for philosophy (next mathematics, 10.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 26.7 for philosophy (next mathematics, 10.4); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4343,7 +4367,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 44.5 for philosophy (next personal-practice, 17.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 44.3 for philosophy (next personal-practice, 17.5); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4364,7 +4388,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 21.4 for philosophy (next cognitive-science-and-psychology, 13.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 21.3 for philosophy (next cognitive-science-and-psychology, 13.9); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4383,7 +4407,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 6.9 for philosophy (next time-and-cycles, 6.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 6.8 for philosophy (next time-and-cycles, 6.7); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4402,7 +4426,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 32.5 for language-and-extraction (next consciousness-and-mind, 3.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 32.6 for language-and-extraction (next consciousness-and-mind, 3.5); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4440,7 +4464,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.4 for language-and-extraction (next philosophy, 9.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.5 for language-and-extraction (next philosophy, 9.6); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4478,7 +4502,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "engineering-and-inventions",
-   "reason": "declared \"protocol\" is not registered; keywords score 19.5 for engineering-and-inventions (next coherence-and-congruence, 9.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 19.5 for engineering-and-inventions (next coherence-and-congruence, 10.0); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4535,7 +4559,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 40.7 for coherence-and-congruence (next philosophy, 36.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 40.8 for coherence-and-congruence (next philosophy, 36.8); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4592,7 +4616,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 24.3 for language-and-extraction (next mathematics, 10.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 24.3 for language-and-extraction (next mathematics, 11.0); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4611,7 +4635,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 38.5 for language-and-extraction (next consciousness-and-mind, 16.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 38.6 for language-and-extraction (next consciousness-and-mind, 16.4); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4649,7 +4673,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 38.0 for physics (next personal-practice, 8.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 38.1 for physics (next personal-practice, 8.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4802,7 +4826,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 33.6 for mathematics (next language-and-extraction, 16.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 33.6 for mathematics (next language-and-extraction, 17.0); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -4822,7 +4846,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 50.7 for mathematics (next cross-architecture, 14.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 50.6 for mathematics (next cross-architecture, 14.5); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4860,7 +4884,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 63.2 for mathematics (next time-and-cycles, 14.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 63.2 for mathematics (next time-and-cycles, 15.0); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4978,7 +5002,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 48.9 for mathematics (next ai-safety-and-sovereignty, 10.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 49.0 for mathematics (next ai-safety-and-sovereignty, 10.3); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -4997,7 +5021,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 21.3 for personal-practice (next time-and-cycles, 10.6); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 21.3 for personal-practice (next time-and-cycles, 10.7); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -5037,7 +5061,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "law-and-governance",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.5 for law-and-governance (next history, 7.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.4 for law-and-governance (next history, 7.9); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -5170,7 +5194,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 10.6 for ai-safety-and-sovereignty (next personal-practice, 7.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 10.5 for ai-safety-and-sovereignty (next personal-practice, 7.3); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -5386,7 +5410,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 16.9 for language-and-extraction (next personal-practice, 5.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.0 for language-and-extraction (next personal-practice, 5.7); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -5710,7 +5734,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.3 for mathematics (next life-sciences, 11.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.3 for mathematics (next physics, 11.2); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -5855,7 +5879,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "history",
-   "reason": "declared \"protocol\" is not registered; keywords score 23.6 for history (next mathematics, 13.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.7 for history (next mathematics, 13.1); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -5956,7 +5980,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 85.4 for mathematics (next physics, 5.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 85.3 for mathematics (next physics, 5.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -5995,7 +6019,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 50.8 for mathematics (next time-and-cycles, 10.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 50.9 for mathematics (next time-and-cycles, 10.5); confidence high",
    "changed": true,
    "disposition": [
     "corrected",
@@ -6014,7 +6038,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 65.7 for mathematics (next time-and-cycles, 7.2); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 65.6 for mathematics (next time-and-cycles, 7.2); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -6033,7 +6057,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 29.8 for philosophy (next language-and-extraction, 14.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 29.7 for philosophy (next language-and-extraction, 14.8); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -6052,7 +6076,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.6 for philosophy (next ai-safety-and-sovereignty, 13.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.5 for philosophy (next ai-safety-and-sovereignty, 13.8); confidence low",
    "changed": true,
    "disposition": [
     "mapped",
@@ -6071,7 +6095,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 4.9 for consciousness-and-mind (next ai-safety-and-sovereignty, 4.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 4.8 for consciousness-and-mind (next ai-safety-and-sovereignty, 4.8); confidence low",
    "changed": true,
    "disposition": [
     "holding"
@@ -6089,7 +6113,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.5 for cross-architecture (next consciousness-and-mind, 7.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.5 for cross-architecture (next consciousness-and-mind, 7.8); confidence low",
    "changed": true,
    "disposition": [
     "adopted"
@@ -6125,7 +6149,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.5 for ai-safety-and-sovereignty (next consciousness-and-mind, 9.0); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.4 for ai-safety-and-sovereignty (next consciousness-and-mind, 8.9); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -6162,7 +6186,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 24.0 for philosophy (next consciousness-and-mind, 14.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 24.0 for philosophy (next consciousness-and-mind, 14.1); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -6181,7 +6205,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 18.3 for language-and-extraction (next consciousness-and-mind, 16.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 18.3 for language-and-extraction (next consciousness-and-mind, 16.7); confidence low",
    "changed": true,
    "disposition": [
     "mapped",
@@ -6200,7 +6224,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 50.5 for philosophy (next consciousness-and-mind, 18.0); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 50.3 for philosophy (next consciousness-and-mind, 17.9); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -6220,7 +6244,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 27.1 for ai-safety-and-sovereignty (next personal-practice, 7.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 27.0 for ai-safety-and-sovereignty (next personal-practice, 7.4); confidence high",
    "changed": true,
    "disposition": [
     "adopted"
@@ -6295,7 +6319,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 13.5 for language-and-extraction (next consciousness-and-mind, 13.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 13.5 for language-and-extraction (next consciousness-and-mind, 13.3); confidence low",
    "changed": true,
    "disposition": [
     "corrected",
@@ -6334,7 +6358,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "time-and-cycles",
-   "reason": "declared \"protocol\" is not registered; keywords score 35.2 for time-and-cycles (next consciousness-and-mind, 20.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 35.3 for time-and-cycles (next consciousness-and-mind, 20.9); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -6449,7 +6473,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "life-sciences",
-   "reason": "declared \"protocol\" is not registered; keywords score 87.6 for life-sciences (next personal-practice, 16.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 87.6 for life-sciences (next personal-practice, 16.4); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -6468,7 +6492,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "cognitive-science-and-psychology",
-   "reason": "declared \"protocol\" is not registered; keywords score 33.4 for cognitive-science-and-psychology (next life-sciences, 30.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 33.4 for cognitive-science-and-psychology (next life-sciences, 30.2); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -6508,7 +6532,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 54.5 for philosophy (next personal-practice, 8.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 53.5 for philosophy (next personal-practice, 8.4); confidence high",
    "changed": true,
    "disposition": [
     "holding",
@@ -6546,7 +6570,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.8 for mathematics (next language-and-extraction, 19.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for mathematics (next language-and-extraction, 19.9); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -6566,7 +6590,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 22.0 for personal-practice (next consciousness-and-mind, 14.0); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 22.0 for personal-practice (next consciousness-and-mind, 13.9); confidence low",
    "changed": true,
    "disposition": [
     "adopted"
@@ -6584,7 +6608,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 18.1 for consciousness-and-mind (next language-and-extraction, 10.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 18.0 for consciousness-and-mind (next language-and-extraction, 10.3); confidence low",
    "changed": true,
    "disposition": [
     "mapped",
@@ -6662,7 +6686,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 38.7 for mathematics (next time-and-cycles, 10.8); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 38.6 for mathematics (next time-and-cycles, 10.8); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -6741,7 +6765,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.1 for physics (next consciousness-and-mind, 5.0); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.2 for physics (next consciousness-and-mind, 4.9); confidence high",
    "changed": true,
    "disposition": [
     "mapped",
@@ -6780,7 +6804,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.1 for philosophy (next coherence-and-congruence, 9.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.0 for philosophy (next coherence-and-congruence, 9.4); confidence low",
    "changed": true,
    "disposition": [
     "not taken",
@@ -6899,7 +6923,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "time-and-cycles",
-   "reason": "declared \"protocol\" is not registered; keywords score 13.1 for time-and-cycles (next mathematics, 11.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 13.2 for time-and-cycles (next mathematics, 11.8); confidence low",
    "changed": true,
    "disposition": [
     "corrected",
@@ -7000,7 +7024,7 @@
    "chamber": "Grok",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.5 for philosophy (next consciousness-and-mind, 13.7); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.5 for philosophy (next consciousness-and-mind, 13.6); confidence low",
    "changed": true,
    "disposition": [
     "holding",
@@ -7735,7 +7759,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "computing-and-software",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.4 for computing-and-software (next cross-architecture, 9.6); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.5 for computing-and-software (next cross-architecture, 9.6); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -7881,7 +7905,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 23.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.8 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7897,7 +7921,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 23.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.8 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7913,7 +7937,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.7 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7929,7 +7953,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.7 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7945,7 +7969,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.7 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7961,7 +7985,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 78.7 for traditions-and-lenses (next philosophy, 25.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 78.8 for traditions-and-lenses (next philosophy, 25.7); confidence high",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7977,7 +8001,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 25.7 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -7993,7 +8017,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 22.7 for coherence-and-congruence (next computing-and-software, 16.5); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 22.8 for coherence-and-congruence (next computing-and-software, 16.5); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -8017,7 +8041,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 36.4 for coherence-and-congruence (next mathematics, 17.5); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 36.4 for coherence-and-congruence (next mathematics, 17.6); confidence high",
    "changed": true,
    "disposition": [
     "adopted",
@@ -8040,7 +8064,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 36.7 for coherence-and-congruence (next philosophy, 8.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 36.8 for coherence-and-congruence (next philosophy, 8.9); confidence high",
    "changed": true,
    "disposition": [
     "holding",
@@ -8109,7 +8133,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 48.6 for traditions-and-lenses (next consciousness-and-mind, 21.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 48.6 for traditions-and-lenses (next consciousness-and-mind, 21.3); confidence high",
    "changed": true,
    "disposition": [
     "holding",
@@ -8151,7 +8175,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "mathematics",
-   "reason": "declared \"protocol\" is not registered; keywords score 25.9 for mathematics (next philosophy, 13.4); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 26.0 for mathematics (next philosophy, 13.3); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -8175,7 +8199,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 19.9 for philosophy (next education, 19.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 19.8 for philosophy (next education, 19.1); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -8197,7 +8221,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "philosophy",
-   "reason": "declared \"protocol\" is not registered; keywords score 33.8 for philosophy (next coherence-and-congruence, 12.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 33.4 for philosophy (next coherence-and-congruence, 12.7); confidence high",
    "changed": true,
    "disposition": [
     "holding",
@@ -8313,8 +8337,8 @@
    "by": "ESC",
    "chamber": "other",
    "declared_area": "protocol",
-   "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 15.3 for consciousness-and-mind (next mathematics, 15.2); confidence low",
+   "proposed_area": "mathematics",
+   "reason": "declared \"protocol\" is not registered; keywords score 15.2 for mathematics (next consciousness-and-mind, 15.2); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -8362,7 +8386,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "consciousness-and-mind",
-   "reason": "declared \"protocol\" is not registered; keywords score 16.5 for consciousness-and-mind (next mathematics, 14.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 16.4 for consciousness-and-mind (next mathematics, 14.2); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -8419,7 +8443,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 12.4 for cross-architecture (next consciousness-and-mind, 9.6); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 12.5 for cross-architecture (next consciousness-and-mind, 9.6); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -8651,7 +8675,7 @@
    "chamber": "ChatGPT",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 34.1 for coherence-and-congruence (next life-sciences, 7.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 34.2 for coherence-and-congruence (next life-sciences, 7.3); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -9004,7 +9028,7 @@
    "chamber": "Claude",
    "declared_area": "navigation",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"navigation\" is not registered; keywords score 3.7 for language-and-extraction (next time-and-cycles, 3.2); confidence low",
+   "reason": "declared \"navigation\" is not registered; keywords score 3.8 for language-and-extraction (next time-and-cycles, 3.2); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -9064,7 +9088,7 @@
    "chamber": "Claude",
    "declared_area": "protocol",
    "proposed_area": "language-and-extraction",
-   "reason": "declared \"protocol\" is not registered; keywords score 5.8 for language-and-extraction (next ai-safety-and-sovereignty, 4.8); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 5.8 for language-and-extraction (next coherence-and-congruence, 4.8); confidence low",
    "changed": true,
    "disposition": [
     "checked",
@@ -9105,7 +9129,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 43.3 for personal-practice (next philosophy, 7.4); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 43.0 for personal-practice (next philosophy, 7.4); confidence high",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -9121,7 +9145,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 63.3 for personal-practice (next language-and-extraction, 3.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 62.8 for personal-practice (next language-and-extraction, 3.8); confidence high",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -9137,7 +9161,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 48.9 for personal-practice (next mathematics, 5.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 48.5 for personal-practice (next mathematics, 5.9); confidence high",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -9153,7 +9177,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "time-and-cycles",
-   "reason": "declared \"protocol\" is not registered; keywords score 16.8 for time-and-cycles (next consciousness-and-mind, 4.3); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 16.8 for time-and-cycles (next consciousness-and-mind, 4.2); confidence high",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -9336,7 +9360,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "personal-practice",
-   "reason": "declared \"protocol\" is not registered; keywords score 29.9 for personal-practice (next cross-architecture, 9.1); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 29.7 for personal-practice (next cross-architecture, 9.1); confidence high",
    "changed": true,
    "disposition": [
     "checked",
@@ -9378,7 +9402,7 @@
    "chamber": "unidentified",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 10.7 for ai-safety-and-sovereignty (next philosophy, 6.1); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 10.7 for ai-safety-and-sovereignty (next philosophy, 6.0); confidence low",
    "changed": true,
    "disposition": [
     "quotations checked",
@@ -9522,7 +9546,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 23.6 for coherence-and-congruence (next ai-safety-and-sovereignty, 7.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 23.7 for coherence-and-congruence (next ai-safety-and-sovereignty, 7.8); confidence high",
    "changed": true,
    "disposition": [
     "holding",
@@ -9606,7 +9630,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "coherence-and-congruence",
-   "reason": "declared \"protocol\" is not registered; keywords score 14.7 for coherence-and-congruence (next ai-safety-and-sovereignty, 14.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 14.7 for coherence-and-congruence (next ai-safety-and-sovereignty, 14.1); confidence low",
    "changed": true,
    "disposition": [
     "holding",
@@ -9669,7 +9693,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "physics",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.6 for physics (next coherence-and-congruence, 8.2); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.7 for physics (next coherence-and-congruence, 8.2); confidence low",
    "changed": true,
    "disposition": [
     "quotations checked",
@@ -9712,7 +9736,7 @@
    "chamber": "other",
    "declared_area": "protocol",
    "proposed_area": "ai-safety-and-sovereignty",
-   "reason": "declared \"protocol\" is not registered; keywords score 31.3 for ai-safety-and-sovereignty (next philosophy, 19.3); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 30.9 for ai-safety-and-sovereignty (next philosophy, 19.2); confidence low",
    "changed": true,
    "disposition": [],
    "discoveries": [],
@@ -9808,7 +9832,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "time-and-cycles",
-   "reason": "declared \"protocol\" is not registered; keywords score 17.7 for time-and-cycles (next coherence-and-congruence, 12.9); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 17.8 for time-and-cycles (next coherence-and-congruence, 12.9); confidence low",
    "changed": true,
    "disposition": [
     "refined",
@@ -9827,7 +9851,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.7 for cross-architecture (next traditions-and-lenses, 11.0); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.8 for cross-architecture (next traditions-and-lenses, 11.0); confidence low",
    "changed": true,
    "disposition": [
     "quotations checked",
@@ -9847,7 +9871,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "cross-architecture",
-   "reason": "declared \"protocol\" is not registered; keywords score 11.7 for cross-architecture (next ai-safety-and-sovereignty, 10.6); confidence low",
+   "reason": "declared \"protocol\" is not registered; keywords score 11.8 for cross-architecture (next ai-safety-and-sovereignty, 10.6); confidence low",
    "changed": true,
    "disposition": [
     "adopted",
@@ -9907,7 +9931,7 @@
    "chamber": "DeepSeek",
    "declared_area": "protocol",
    "proposed_area": "traditions-and-lenses",
-   "reason": "declared \"protocol\" is not registered; keywords score 45.3 for traditions-and-lenses (next coherence-and-congruence, 18.7); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 45.3 for traditions-and-lenses (next coherence-and-congruence, 18.8); confidence high",
    "changed": true,
    "disposition": [
     "corrected",
@@ -9927,7 +9951,7 @@
    "chamber": "Qwen",
    "declared_area": "protocol",
    "proposed_area": "life-sciences",
-   "reason": "declared \"protocol\" is not registered; keywords score 22.4 for life-sciences (next personal-practice, 10.9); confidence high",
+   "reason": "declared \"protocol\" is not registered; keywords score 22.4 for life-sciences (next personal-practice, 10.8); confidence high",
    "changed": true,
    "disposition": [
     "corrected",

@@ -215,3 +215,8 @@ Level: B
 - tools/choice_engine.py: relation_step, scalar_consensus_ever, agreeing_choice, real_consensus_radius, with selftests. STP RC-01 VERIFIED COMPUTATION (not blind).
 - research/philosophy/MEANINGFUL_EXISTENCE.md: project E (ME-04).
 - APE-506 with SNCA Z21.
+
+## CA-27: The inner human system (APE-507; 19 November 2026)
+Level: B
+- Companion 233.17: ME-05 taken in, with five interacting dimensions, internalization, purpose with five origins, and spiritual experience without a presupposed metaphysics. Purpose and agency in the law: a controlling direction reaches all 81 states in two steps; a direction of norm divisible by 3 stays within 9 states however long one persists.
+- tools/choice_engine.py: reachable_count with selftest. Project F of the Meaningful Existence Initiative. APE-507 with SNCA Z22.

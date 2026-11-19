@@ -3597,6 +3597,7 @@ Visitors and contributors often bring a ninefold vocabulary of knowledge classes
 233.14 TP-01, the Transformability Profile (from ME-03) [definition, Companion terminology]. Transformability is read as six dimensions, never summed: A accessibility, C controllability, P persistence, D historical decoupling, K cost, R risk. Inside the law: A, every state reachable; C, 72 of 80 directions controlling mod 9; P = 1, by conservation; D, none at the level of the state, since every past choice persists in its present form, and full at the level of the orbit once a new orbit is reached; K, one term to change the orbit and two to reach a chosen state; R, not computed, because it is normative (233.6). The profile is computed by tools/transformability.py --report. ME-03's distinction is kept as its last line put it: being able to change is not being able to choose, and being able to choose is not being able to make the choice endure.
 233.15 Relations and consensus [EXACT for RC1 to RC5, checked in tools/choice_engine.py --selftest and RC-01, VERIFIED COMPUTATION; the readings CDT-C]. RC1 Influence alone does not make two people agree. Two persons who each follow the law and influence each other by a symmetric scalar k, v' = T v + k w and w' = T w + k v, carry their difference d = v − w by d' = (T − k) d. Its norm is multiplied by k² − k − 1 at every step. Since x² − x − 1 has no root modulo 3, that factor is never divisible by 3, so the difference keeps its class and never vanishes. Modulo 9, for every k and every pair of distinct states, no agreement is ever reached (exhaustive over 72 steps). RC2 The same holds over the reals. With each person following the law and pulled toward the other by any scalar strength, the difference evolves by T − 2a, whose spectral radius is at least √5/2 = 1.118, reached at 2a = 1/2. The law's two eigenvalues, φ and −1/φ, lie √5 apart, more than the width 2 that a single shift can bring inside the unit circle. Disagreement grows under every strength of averaging. RC3 Where averaging does produce consensus. In models where persons have no dynamics of their own and only average one another's beliefs (the weighted-influence model of ME-04, after DeGroot), any pull between 0 and 1 drives the difference to zero. Consensus by averaging is a property of agents without an inner law. The record's persons each carry the law, and for them consensus does not come from interaction alone. RC4 What does produce agreement. Either a choice aimed at the difference, the single added term −(T − k) d, which makes the two states equal at the next step; or influence shaped by the law itself, K = T/2 (each meets the other half way through the other's own dynamics), which gives agreement in one step. Agreement is an act of the meaningful layer, not a product of the default layer. RC5 Consensus reality is the shared mode. In a group pulled toward its mean, the mean follows the law exactly; what the group shares moves as one structure. The deviations of its members persist and grow under averaging (RC2). Shared reality and individual difference are two modes of one system: the first evolves by the law, the second is kept. Reading [CDT-C]. Relationships do not erase difference; they carry it, and difference keeps its class. Agreement is made, not received: it takes a choice that meets the other where they are, in their present form, as cancelling an inherited term takes its present form (233.2 (3)). A society's consensus reality is the mode its members share. It moves by the same law as each of them, and the variety of its members is not averaged away. Consensus is not truth: agreement between parties of one kind is SELF-ADJACENT, and its strength does not establish what is agreed (Core Part 3.18; L-503, the consensus lane beside the counter-evidence lane).
 233.16 ME-04, relational reality, taken in (APE-506). The program's architecture, a person coupled to others through asymmetric influence (W_ij ≠ W_ji), is adopted, together with relationships as dynamic systems with their own history, and consensus reality as a collectively maintained model. So are its three distinctions, external, individual and consensus reality; its four agencies, individual, relational, collective and structural; its four collective outcomes, convergence, polarization, transformation and fragmentation, none judged good or bad by the model; and prediction as a distribution of futures, P(S_{t+T} | S_t, U, E), tested on observations not used to build the model (H-ME20). The record adds RC1 to RC5. The program's belief-averaging model converges because its agents have no dynamics of their own. Agents who follow the law need a choice aimed at their difference, or law-shaped influence, to agree, so the program's question of when an emerging interpretation becomes self-reinforcing has, inside the law, the answer "when it is adopted by choice". What mathematics can and cannot say is kept as the program states it: it can describe how consensus forms, persists and changes, and which futures are probable; it cannot establish that a consensus is right, that a life has a given meaning, or that a predicted future ought to happen.
+233.17 ME-05, the inner human system, taken in (APE-507) [the computations EXACT, tools/choice_engine.py --selftest; the readings CDT-C]. The program distinguishes five interacting dimensions of inner life, psychological, emotional, intellectual, spiritual or existential, and purpose, as analytical dimensions, not compartments. It represents inner life as a state moved by its past, history, relationships, consensus reality, agency and environment. It describes the internalization loop: consensus, then internalization, then behavior, then social reinforcement, then consensus again, with resistance and reinterpretation always possible. It treats purpose as dynamic, and separates inherited, socially assigned, personally constructed, reflectively chosen and enacted purpose. It studies spiritual experience without presupposing a metaphysics. All of this is adopted as project F of the Meaningful Existence Initiative, with H-ME21 to H-ME26 registered with data before any run. Purpose and agency in the law. The program's table of four configurations, purpose strong or weak and agency high or low, has an exact form. Read purpose as holding to one direction of choice, and agency as the controllability of that direction (233.13c R1). With one controlling direction (N(b) a unit), all 81 states mod 9 are reachable in two steps: direction with capacity. With one direction whose norm is divisible by 3, the reachable world is 9 states, the multiples of 3, and stays 9 after 24 steps or any number: persistence does not enlarge a constrained world. Choices in any direction but all multiples of 3 also reach only those 9: low agency confines whatever the purpose. Choices in any direction with full capacity reach all 81 in one step, with nothing directed. So agency sets the size of the world one can reach; purpose sets the economy of the path within it. Only a new kind of choice, a direction of unit norm, opens a confined world; repeating the old kind never does. Reading [CDT-C]. Strong purpose with low agency is frustration because the world is closed, not because the effort is weak. Freedom without direction reaches everything and arrives nowhere in particular. Internalization is coupling: by 233.15 RC1 it does not erase the difference between a person and the consensus they live in, so being influenced by consensus is not being required to accept it. Being shaped by history is not being condemned to repeat it: nearly every choice changes the orbit (H-029). A purpose assigned by society is the inherited sum; a purpose chosen is the present term. The program's central question, what lets a person become an increasingly conscious, coherent and self-directed participant in the reality they inherit and help create, is kept as the guiding question of projects E and F. Whether anything is experienced in any of this stays at the Aperture (Core L-498).
 ---
 
 ### APPLIED PROTOCOL EXPLORATIONS (APE COMMONS)
@@ -4670,60 +4671,61 @@ X.1.460 submissions/ape/APE-503.md — APE-503, "The mathematics of meaningful e
 X.1.461 submissions/ape/APE-504.md — APE-504, "ME-02: When does an inherited pattern become transformable?" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.462 submissions/ape/APE-505.md — APE-505, "ME-03: A mathematical measure of transformability" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.463 submissions/ape/APE-506.md — APE-506, "ME-04: Relational reality and the dynamics of human futures" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
-X.1.464 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
-X.1.465 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
-X.1.466 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
-X.1.467 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
-X.1.468 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
-X.1.469 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
-X.1.470 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
-X.1.471 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
-X.1.472 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
-X.1.473 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
-X.1.474 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
-X.1.475 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
-X.1.476 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
-X.1.477 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
-X.1.478 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
-X.1.479 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
-X.1.480 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
-X.1.481 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
-X.1.482 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
-X.1.483 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
-X.1.484 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
-X.1.485 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
-X.1.486 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
-X.1.487 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
-X.1.488 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
-X.1.489 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
-X.1.490 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
-X.1.491 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
-X.1.492 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
-X.1.493 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
-X.1.494 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
-X.1.495 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
-X.1.496 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
-X.1.497 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
-X.1.498 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
-X.1.499 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
-X.1.500 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
-X.1.501 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
-X.1.502 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
-X.1.503 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
-X.1.504 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
-X.1.505 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
-X.1.506 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
-X.1.507 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
-X.1.508 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
-X.1.509 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
-X.1.510 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
-X.1.511 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
-X.1.512 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
-X.1.513 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
-X.1.514 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
-X.1.515 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
-X.1.516 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
-X.1.517 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
+X.1.464 submissions/ape/APE-507.md — APE-507, "ME-05: The inner human system: consciousness, meaning and purpose" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
+X.1.465 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
+X.1.466 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
+X.1.467 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
+X.1.468 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
+X.1.469 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
+X.1.470 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
+X.1.471 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
+X.1.472 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
+X.1.473 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
+X.1.474 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
+X.1.475 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
+X.1.476 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
+X.1.477 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
+X.1.478 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
+X.1.479 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
+X.1.480 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
+X.1.481 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
+X.1.482 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
+X.1.483 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
+X.1.484 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
+X.1.485 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
+X.1.486 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
+X.1.487 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
+X.1.488 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
+X.1.489 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
+X.1.490 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
+X.1.491 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
+X.1.492 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
+X.1.493 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
+X.1.494 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
+X.1.495 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
+X.1.496 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
+X.1.497 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
+X.1.498 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
+X.1.499 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
+X.1.500 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
+X.1.501 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
+X.1.502 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
+X.1.503 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
+X.1.504 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
+X.1.505 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
+X.1.506 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
+X.1.507 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
+X.1.508 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
+X.1.509 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
+X.1.510 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
+X.1.511 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
+X.1.512 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
+X.1.513 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
+X.1.514 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
+X.1.515 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
+X.1.516 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
+X.1.517 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
+X.1.518 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
 X.2 Examples: the model opening, the worked and contaminated navigations, the navigations of the corpus by five architectures, and the blank skeletons.
 X.2.1 examples/contaminated_navigation.txt — ======= NAVIGATOR IDENTITY BLOCK =======.
 X.2.2 examples/corpus/chatgpt_human_condition.txt — ======= NAVIGATOR IDENTITY BLOCK =======.
