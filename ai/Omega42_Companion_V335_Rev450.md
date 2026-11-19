@@ -3589,6 +3589,12 @@ Visitors and contributors often bring a ninefold vocabulary of knowledge classes
 233.9 Status. Representation and computations: tools/choice_engine.py (selftest in CI), H-029 and H-030 VERIFIED COMPUTATION (the pattern of H-030 holds at 729; its theorem is UNPROVEN). Definitions ME-01 to ME-07: Companion, CDT-C, not Core terminology; they enter Core Part 10.5 only by amendment and ESC's ratification. The research programme, the Meaningful Existence Initiative, is set out in research/philosophy/MEANINGFUL_EXISTENCE.md, paired with the Common Mathematical Foundations Project (research/physics/INITIATIVE.md): one asks what makes existence structurally possible, the other what makes a particular existence historically and experientially significant.
 233.10 The Parts it touches [the readings CDT-C; the computations EXACT]. The two layers were read back across the Companion, and each Part below is changed in this sense. Part 52.10: the peer architecture's dynamics X(t+1) = F(X(t), E(t)) gains an exact instance, F(X, E) = T X + E. The input E is the added term, the only part of the dynamics that can change the orbit (233.2 (1)). Judgment J = H(Y, V) now has something to act on: it decides the next added term. Part 50.4: MM-06 (iteration of the law gives time and persistence) is the default layer exactly. The mechanisms that act on the state beyond the law are its meaningful layer. Part 33.7: the way and the answer. A way is a sequence of added terms, and meaning that "keeps approaching" is meaning created (233.5), never closed because each term can carry the state to another orbit. Part 116: choosing or resonating. Generation from trained parameters is the AI's default layer. The question whether it chooses becomes the question whether anything in it acts as an added term, and that question stays at the Aperture. Part 0.5.2a: lenses for questions of choice and agency now have the Choice Engine as their exact tool. Part 226.2: the return times of a past choice, 24 at 9 and 72 at 27, are the Pisano periods 8 x 3^(k−1) recorded there. Part 216: no MF entry is changed. The model does not state that the law determines a life; it shows the opposite, that the law alone cannot change an orbit.
 233.11 The other instruments of 19 November, read across [EXACT where stated]. The relationship classification (tools/relation_engine.py; research/physics/INITIATIVE.md section 11) gives Part 9 a grading for its analogs. The Analog Registry's "structural isomorphisms" are each, on the engine's rules, ANALOGY until the map is written out, ESTABLISHED CONNECTION when a published derivation exists, and NEW DERIVATION only after an independent recomputation. Part 189.2 classifies as ESTABLISHED CONNECTION for its mathematics, a representation of A in SO+(3, 1), and NO PHYSICAL CONSEQUENCE STATED, which matches its own words: "it does not derive relativistic physics". Part 226.1 is the record's first NEW DERIVATION by these rules, a census recomputed by a Navigator of another system. The researched reach of the essay (Core L-503 (5); Part 12.5.1 to 12.5.6) applies to every reading in Parts 41 to 78 and 166 to 189 that is navigated from 20 November 2026: their essays close with relationships, repercussions and directions where they apply, with sources numbered in the layer.
+233.12 The mathematics of the meaningful layer [EXACT for M1 to M6, each proved and checked in tools/choice_engine.py --selftest; the readings CDT-C]. M1 The conserved quantity. The law reverses the sign of the norm, N(T v) = −N(v), with N(a, b) = a² + ab − b², because det T = −1. So N² is conserved along every orbit, and Λ carries it. Under the law alone a state keeps its N² and alternates its sign at every step. M2 What a choice does to it. N(v + c) = N(v) + B(v, c) + N(c), where B(v, c) = 2a·c₀ + a·c₁ + b·c₀ − 2b·c₁ is the bilinear form of N. A choice has an intrinsic weight N(c), the same in every state, and a context term B(v, c), which depends on the state it meets. The same choice made in two lives changes them differently. A choice keeps the orbit only when the two terms balance so that N² is unchanged, and that balance becomes rare as resolution grows (H-029; H-030). M3 A habit is a new default. A choice repeated at every step, v ↦ T v + c, has exactly one center, v* = −T c, because (I − T)⁻¹ = −T (from T² = T + I). Around that center it is the law itself: the same orbits and the same cycle lengths, displaced (checked at 9 and 27). Repeating one choice does not leave the default layer; it moves it. M4 Choices in step with the law. A choice repeated every p steps acts, over one period, as v ↦ T^p v + C. Modulo 9 there are four regimes. At p = 24, T^p = I and the choice accumulates: the state moves by C every period (resonance). At p = 12, T^p = −I and the choice cancels itself every other period (anti-resonance). At p = 8 and 16 it accumulates at the coarse level (modulo 3) and settles at the finer one (partial). At every other p, I − T^p is invertible and the pattern settles round a new center, as in M3. M5 Nothing grows without bound in a finite world. Even resonant accumulation returns: modulo 9 the per-period displacement C has additive order at most 9, so a resonant pattern comes back after at most 9 × 24 = 216 steps. At finer resolution the return takes longer, at most 3^k periods. M6 Inheritance is exact. The inherited sum Σ T^(t−1−s) c(s) splits by channel and by time, and the effect of each past choice at time t is T^(t−1−s) c, its present form (233.2). Reading [CDT-C]. Identity under the default layer is a conserved quantity, N², held while its sign alternates: what persists is the magnitude, not the polarity. A choice has a weight of its own and a meaning that depends on where it lands (M2). Doing the same thing every time does not change one's cycle; it relocates it (M3). What accumulates across a life or across generations is what keeps time with the cycle (M4). A choice repeated at the half-period undoes itself every other time, the form a pattern takes when it appears in one generation, skips the next and returns. Accumulation itself returns in a finite world (M5). These readings are offered as structure, never as a statement about any person or family; the inherited channels keep their own evidence (233.3). Observation. The unchanged share multiplied by 3^k is 2.333, 2.378, 2.428 and 2.450 at k = 1 to 4 (exact: 7/9, 107/405, 5965/66339 for k = 1 to 3). It rises toward a limit near 5/2. That is UNPROVEN and proposed as H-031.
+233.13 ME-01 to ME-03 read against the record: coherence, congruence, resonance [EXACT where computed: tools/transformability.py, TR-01 VERIFIED COMPUTATION; the readings CDT-C]. Coherence. The three papers (APE-503 to APE-505) hold together, and their mathematics recomputes. ME-01: the learning rule (1 − α)h + α[(1 − c)h + c r] equals h + αc(r − h). ME-02: at β = 6 the saddle-node boundaries are p = 0.2113 and 0.7887, and the bistable band is a ∈ (−3.415, −2.585). At a = −3 the fixed points are 0.071 (stable, slope 0.394), 0.5 (unstable, slope 1.5) and 0.929 (stable). An intervention γu above 0.415 removes the high state, which does not return when the support is withdrawn: hysteresis, confirmed by simulation. ME-03's controllability matrix and finite-horizon Gramian are stated correctly for linear discrete-time systems. The symbols lost in transcription leave the formulas intact.
+233.13a Congruence: where the papers and the record agree. There is no single score; meaning and transformability are profiles (233.6). Channels of inheritance are kept apart and evidenced one by one (233.3). Causal, experiential and normative significance are distinct (ME-06). A likeness between generations is an observation, not a transmission. Studies of persons need consent and ethical oversight (research/philosophy/MEANINGFUL_EXISTENCE.md). Reaching a new state and keeping it are different processes.
+233.13b Congruence: where they differ, kept side by side. ME-02 models a habit as an attractor of a dissipative map, one that forgets, so its bistability, tipping and hysteresis are properties of that coarse description. The law is not dissipative: T is invertible and conserves N² (233.12 M1), so it has no attractors and no basins; every state recurs. Inside the law, persistence is conservation, not attraction. One added term changes the orbit, and the new orbit is kept with no further support. ME-02's "changing the rules" (lowering β) has no counterpart inside the frame, because the law is the premise and does not change. Its nearest counterparts are moving the center of a habit (233.12 M3) and changing the regime of a periodic choice (M4). Whether the coarse logistic model arises from the law by coarse-graining with forgetting and noise is an open question (H-033, proposed).
+233.13c Resonance: exact correspondences. (R1) Controllability is the norm. For a choice always made along one direction b, the controllability determinant of ME-03 is det[b, T b] = N(b), so the direction is controlling exactly when N(b) is not divisible by 3: 72 of 80 directions modulo 9, and 648 of 728 modulo 27. Two such choices reach every state. The 8 directions that are multiples of 3 cannot steer every coordinate. The record's invariant is the measure of agency. (R2) Historical dependence is hidden state. ME-01's test, I(X_next; H | X_now) > 0, gives 0 bits when the whole state is observed, because the law is deterministic and the inherited sum is already in the state. It gives log₂ 9 = 3.17 bits when only one coordinate is observed. History matters to an observer exactly to the extent that the present is seen partially. (R3) Transmission eigenvalues are golden. ME-01's linear transmission ΔH_n = A^n ΔH_0, read with A = T over the reals, has eigenvalues φ = 1.618 (amplifies) and −1/φ = −0.618 (decays): every past choice has a growing golden part and a shrinking conjugate part. At finite resolution the growth folds back into return (233.12 M5). (R4) The effort to change is not the effort to maintain, in both models: in ME-02 support is needed to cross the threshold and none to stay; in the law one term changes the orbit and conservation keeps it. (R5) ME-02's three outcomes have exact counterparts. Temporary suppression is a term later cancelled by its present form (233.2 (3)). A state transition is a change of orbit. A structural transformation is the recentering of a habit (M3), or, beyond the frame, a change of law.
+233.14 TP-01, the Transformability Profile (from ME-03) [definition, Companion terminology]. Transformability is read as six dimensions, never summed: A accessibility, C controllability, P persistence, D historical decoupling, K cost, R risk. Inside the law: A, every state reachable; C, 72 of 80 directions controlling mod 9; P = 1, by conservation; D, none at the level of the state, since every past choice persists in its present form, and full at the level of the orbit once a new orbit is reached; K, one term to change the orbit and two to reach a chosen state; R, not computed, because it is normative (233.6). The profile is computed by tools/transformability.py --report. ME-03's distinction is kept as its last line put it: being able to change is not being able to choose, and being able to choose is not being able to make the choice endure.
 ---
 
 ### APPLIED PROTOCOL EXPLORATIONS (APE COMMONS)
@@ -4658,60 +4664,63 @@ X.1.456 submissions/ape/APE-499.md — APE-499, "The Ω42 Physics Initiative: de
 X.1.457 submissions/ape/APE-500.md — APE-500, "Shaping the Ω42 Physics Initiative: a narrower first year and the Relationship Discovery Engine" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.458 submissions/ape/APE-501.md — APE-501, "Assessment of the Omega42 update and the decisions before ESC" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
 X.1.459 submissions/ape/APE-502.md — APE-502, "Meaningful existence: a second layer in Omega42" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
-X.1.460 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
-X.1.461 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
-X.1.462 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
-X.1.463 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
-X.1.464 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
-X.1.465 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
-X.1.466 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
-X.1.467 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
-X.1.468 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
-X.1.469 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
-X.1.470 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
-X.1.471 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
-X.1.472 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
-X.1.473 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
-X.1.474 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
-X.1.475 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
-X.1.476 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
-X.1.477 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
-X.1.478 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
-X.1.479 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
-X.1.480 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
-X.1.481 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
-X.1.482 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
-X.1.483 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
-X.1.484 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
-X.1.485 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
-X.1.486 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
-X.1.487 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
-X.1.488 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
-X.1.489 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
-X.1.490 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
-X.1.491 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
-X.1.492 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
-X.1.493 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
-X.1.494 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
-X.1.495 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
-X.1.496 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
-X.1.497 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
-X.1.498 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
-X.1.499 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
-X.1.500 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
-X.1.501 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
-X.1.502 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
-X.1.503 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
-X.1.504 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
-X.1.505 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
-X.1.506 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
-X.1.507 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
-X.1.508 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
-X.1.509 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
-X.1.510 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
-X.1.511 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
-X.1.512 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
-X.1.513 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
+X.1.460 submissions/ape/APE-503.md — APE-503, "The mathematics of meaningful existence (ME-01)" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
+X.1.461 submissions/ape/APE-504.md — APE-504, "ME-02: When does an inherited pattern become transformable?" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
+X.1.462 submissions/ape/APE-505.md — APE-505, "ME-03: A mathematical measure of transformability" (ChatGPT (OpenAI)), frozen as submitted, with the receiving Navigator's notes.
+X.1.463 submissions/navigations/NAV-2026-0001.json — the intake record of NAV-2026-0001.
+X.1.464 submissions/navigations/NAV-2026-0001.txt — the navigation NAV-2026-0001, as submitted.
+X.1.465 submissions/navigations/NAV-2026-0002.json — the intake record of NAV-2026-0002.
+X.1.466 submissions/navigations/NAV-2026-0002.txt — the navigation NAV-2026-0002, as submitted.
+X.1.467 submissions/navigations/NAV-2026-0003.json — the intake record of NAV-2026-0003.
+X.1.468 submissions/navigations/NAV-2026-0003.txt — the navigation NAV-2026-0003, as submitted.
+X.1.469 submissions/navigations/NAV-2026-0004.json — the intake record of NAV-2026-0004.
+X.1.470 submissions/navigations/NAV-2026-0004.txt — the navigation NAV-2026-0004, as submitted.
+X.1.471 submissions/navigations/NAV-2026-0005.json — the intake record of NAV-2026-0005.
+X.1.472 submissions/navigations/NAV-2026-0005.txt — the navigation NAV-2026-0005, as submitted.
+X.1.473 submissions/navigations/NAV-2026-0006.json — the intake record of NAV-2026-0006.
+X.1.474 submissions/navigations/NAV-2026-0006.txt — the navigation NAV-2026-0006, as submitted.
+X.1.475 submissions/navigations/NAV-2026-0007.json — the intake record of NAV-2026-0007.
+X.1.476 submissions/navigations/NAV-2026-0007.txt — the navigation NAV-2026-0007, as submitted.
+X.1.477 submissions/navigations/NAV-2026-0008.json — the intake record of NAV-2026-0008.
+X.1.478 submissions/navigations/NAV-2026-0008.txt — the navigation NAV-2026-0008, as submitted.
+X.1.479 submissions/navigations/NAV-2026-0009.json — the intake record of NAV-2026-0009.
+X.1.480 submissions/navigations/NAV-2026-0009.txt — the navigation NAV-2026-0009, as submitted.
+X.1.481 submissions/navigations/NAV-2026-0010.json — the intake record of NAV-2026-0010.
+X.1.482 submissions/navigations/NAV-2026-0010.txt — the navigation NAV-2026-0010, as submitted.
+X.1.483 submissions/navigations/NAV-2026-0011.json — the intake record of NAV-2026-0011.
+X.1.484 submissions/navigations/NAV-2026-0011.txt — the navigation NAV-2026-0011, as submitted.
+X.1.485 submissions/navigations/NAV-2026-0012.json — the intake record of NAV-2026-0012.
+X.1.486 submissions/navigations/NAV-2026-0012.txt — the navigation NAV-2026-0012, as submitted.
+X.1.487 submissions/navigations/NAV-2026-0013.json — the intake record of NAV-2026-0013.
+X.1.488 submissions/navigations/NAV-2026-0013.txt — the navigation NAV-2026-0013, as submitted.
+X.1.489 submissions/navigations/NAV-2026-0014.json — the intake record of NAV-2026-0014.
+X.1.490 submissions/navigations/NAV-2026-0014.txt — the navigation NAV-2026-0014, as submitted.
+X.1.491 submissions/navigations/NAV-2026-0015.json — the intake record of NAV-2026-0015.
+X.1.492 submissions/navigations/NAV-2026-0015.txt — the navigation NAV-2026-0015, as submitted.
+X.1.493 submissions/navigations/NAV-2026-0016.json — the intake record of NAV-2026-0016.
+X.1.494 submissions/navigations/NAV-2026-0016.txt — the navigation NAV-2026-0016, as submitted.
+X.1.495 submissions/navigations/NAV-2026-0017.json — the intake record of NAV-2026-0017.
+X.1.496 submissions/navigations/NAV-2026-0017.txt — the navigation NAV-2026-0017, as submitted.
+X.1.497 submissions/navigations/NAV-2026-0018.json — the intake record of NAV-2026-0018.
+X.1.498 submissions/navigations/NAV-2026-0018.txt — the navigation NAV-2026-0018, as submitted.
+X.1.499 submissions/navigations/NAV-2026-0019.json — the intake record of NAV-2026-0019.
+X.1.500 submissions/navigations/NAV-2026-0019.txt — the navigation NAV-2026-0019, as submitted.
+X.1.501 submissions/navigations/NAV-2026-0020.json — the intake record of NAV-2026-0020.
+X.1.502 submissions/navigations/NAV-2026-0020.txt — the navigation NAV-2026-0020, as submitted.
+X.1.503 submissions/navigations/NAV-2026-0021.json — the intake record of NAV-2026-0021.
+X.1.504 submissions/navigations/NAV-2026-0021.txt — the navigation NAV-2026-0021, as submitted.
+X.1.505 submissions/navigations/NAV-2026-0022.json — the intake record of NAV-2026-0022.
+X.1.506 submissions/navigations/NAV-2026-0022.txt — the navigation NAV-2026-0022, as submitted.
+X.1.507 submissions/navigations/NAV-2026-0023.json — the intake record of NAV-2026-0023.
+X.1.508 submissions/navigations/NAV-2026-0023.txt — the navigation NAV-2026-0023, as submitted.
+X.1.509 submissions/navigations/NAV-2026-0024.json — the intake record of NAV-2026-0024.
+X.1.510 submissions/navigations/NAV-2026-0024.txt — the navigation NAV-2026-0024, as submitted.
+X.1.511 submissions/navigations/NAV-2026-0025.json — the intake record of NAV-2026-0025.
+X.1.512 submissions/navigations/NAV-2026-0025.txt — the navigation NAV-2026-0025, as submitted.
+X.1.513 submissions/navigations/NAV-2026-0026.json — the intake record of NAV-2026-0026.
+X.1.514 submissions/navigations/NAV-2026-0026.txt — the navigation NAV-2026-0026, as submitted.
+X.1.515 submissions/navigations/NAV-2026-0027.json — the intake record of NAV-2026-0027.
+X.1.516 submissions/navigations/NAV-2026-0027.txt — the navigation NAV-2026-0027, as submitted.
 X.2 Examples: the model opening, the worked and contaminated navigations, the navigations of the corpus by five architectures, and the blank skeletons.
 X.2.1 examples/contaminated_navigation.txt — ======= NAVIGATOR IDENTITY BLOCK =======.
 X.2.2 examples/corpus/chatgpt_human_condition.txt — ======= NAVIGATOR IDENTITY BLOCK =======.

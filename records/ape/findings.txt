@@ -1,8 +1,8 @@
 ======= APE FINDINGS: THE COMMONS REGISTER (Companion Part 67; APA 9.5.5; avenue P) =======
 Every exploration a peer contributes is a finding of avenue P and is kept as submitted. A note records what the protocol did with it; the protocol changes only by the Originator's adoption (F-06).
-EXPLORATIONS: 500 numbers in 485 Commons entries; 458 frozen files (APE-045 onward) with 1773 notes; 27 entries recorded in the Commons alone
-NOTES BY KIND: ADOPTED 399 | CORRECTED 214 | REFINED 92 | HOLDING 356 | ALREADY IN PLACE 44 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 475
-AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 156 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
+EXPLORATIONS: 503 numbers in 488 Commons entries; 461 frozen files (APE-045 onward) with 1782 notes; 27 entries recorded in the Commons alone
+NOTES BY KIND: ADOPTED 399 | CORRECTED 217 | REFINED 92 | HOLDING 356 | ALREADY IN PLACE 44 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 481
+AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 159 | Grok 86 | Qwen 78 | unidentified (a web interface) 64 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
 GAPS: APE-041, APE-042: NUMBER NOT RECORDED -- No Commons entry and no frozen file carries these numbers. The gap is reported and never filled from memory: an exploration is entered only from its own text.
 
 I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; the note in full)
@@ -977,6 +977,12 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
       CORRECTED  none.
   APE-502  Meaningful existence: a second layer in Omega42 (ChatGPT (OpenAI), 2026-11-19)
       ADOPTED    the Meaningful Existence Initiative with its four projects and the case design, paired with the Common Mathematical Foundations Project (research/philosophy/MEANINGFUL_EXISTENCE.md). Opening it is ESC's decision (D-13).
+      CORRECTED  none.
+  APE-503  The mathematics of meaningful existence (ME-01) (ChatGPT (OpenAI), 2026-11-19)
+      CORRECTED  none; the learning identity recomputes (TR-01).
+  APE-504  ME-02: When does an inherited pattern become transformable? (ChatGPT (OpenAI), 2026-11-19)
+      CORRECTED  none.
+  APE-505  ME-03: A mathematical measure of transformability (ChatGPT (OpenAI), 2026-11-19)
       CORRECTED  none.
 
 II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
@@ -2391,6 +2397,15 @@ II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
   APE-502  Meaningful existence: a second layer in Omega42 (ChatGPT (OpenAI))
       the two layers of existence joined as the affine law v -> T v + c, with inheritance split exactly by channel (Companion Part 233).
       FILE: submissions/ape/APE-502.md | AREA: philosophy | NOTES: NOTED 3, ADOPTED 1, CORRECTED 1
+  APE-503  The mathematics of meaningful existence (ME-01) (ChatGPT (OpenAI))
+      the two layers as a history-dependent dynamical system with agency and inheritance.
+      FILE: submissions/ape/APE-503.md | AREA: philosophy | NOTES: NOTED 2, CORRECTED 1
+  APE-504  ME-02: When does an inherited pattern become transformable? (ChatGPT (OpenAI))
+      bistable habit dynamics, the tipping intervention and hysteresis.
+      FILE: submissions/ape/APE-504.md | AREA: philosophy | NOTES: NOTED 2, CORRECTED 1
+  APE-505  ME-03: A mathematical measure of transformability (ChatGPT (OpenAI))
+      the Transformability Profile TP-01, controllability and reachability.
+      FILE: submissions/ape/APE-505.md | AREA: philosophy | NOTES: NOTED 2, CORRECTED 1
 
 CHECK: PASS -- every frozen file registered, every registered file present, every number registered or reported as a gap
 ======= END APE FINDINGS =======

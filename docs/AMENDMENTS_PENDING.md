@@ -198,3 +198,12 @@ Level: B
 - docs/ARCHIVE_CONCORDANCE.md: the V336 line (absorbed; its invariant restated as Λ; one lattice statement corrected); the Definitive Explanatory Document (superseded in part); the formal discovery document of December 2025 (historical and private; 3 arithmetic statements do not recompute); the build line (absorbed).
 - STP AR-01: 6 of 9 archive statements recompute, so the hypothesis that all do is REJECTED. The failures are corrected in the concordance, never in the originals.
 - D-14 for ESC.
+- Added (CA-23): Companion 233.12, the mathematics of the meaningful layer, M1 to M6. The law reverses the sign of N, so N² is conserved. A choice changes N by B(v, c) + N(c), a context term plus an intrinsic term. A constant habit has the center −T c, since (I − T)⁻¹ = −T, and is the law displaced. Periodic choices fall into four regimes mod 9: resonance at 24, anti-resonance at 12, partial at 8 and 16, otherwise recentered. Even resonant accumulation returns within 3^k periods. Inheritance is exact. All are proved and checked in tools/choice_engine.py --selftest. The limit near 5/2 is proposed as H-031.
+
+## CA-25: The mathematics of meaningful existence (APE-503 to APE-505; 19 November 2026)
+Level: B
+- Companion 233.12 (M1 to M6), 233.13 (coherence, congruence, resonance with ME-01 to ME-03) and 233.14 (TP-01, the Transformability Profile, as Companion terminology).
+- tools/transformability.py: ME-02's logistic habit model (fixed points, bistable band, hysteresis) beside the law (controllability det[b, T b] = N(b); reachability; history information; TP-01 read inside the law). Selftest in CI.
+- STP TR-01 VERIFIED COMPUTATION (not blind). H-031 (the limit near 5/2) and H-033 (whether the coarse model arises from the law) proposed.
+- research/philosophy/MEANINGFUL_EXISTENCE.md: ME-01 to ME-03 taken in; H-ME01 to H-ME13 and ME-04 are to be registered with data before any run.
+- APE-503 to APE-505 with SNCA Z18 to Z20; COR-013 (the chronology check caught a future timestamp before commit).

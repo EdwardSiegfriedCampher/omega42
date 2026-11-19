@@ -1,6 +1,6 @@
 # Curation report
 
-Built by tools/curator.py (the deterministic baseline). 494 items.
+Built by tools/curator.py (the deterministic baseline). 497 items.
 
 ## By area
 
@@ -16,7 +16,7 @@ Built by tools/curator.py (the deterministic baseline). 494 items.
 - mathematics: 6
 - navigation: 2
 - personal-practice: 1
-- philosophy: 16
+- philosophy: 19
 - philosophy-of-mind: 1
 - physics: 4
 - protocol: 407

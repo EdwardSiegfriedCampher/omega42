@@ -45,3 +45,15 @@ Three rules apply. A likeness between generations is never read as transmission.
 - H-029, VERIFIED COMPUTATION: as resolution grows, almost every single choice moves a state to another orbit.
 - H-030, VERIFIED COMPUTATION, blind at 729: the share that leaves the orbit unchanged falls by about a third per power of 3. As a theorem it is UNPROVEN.
 - The Choice Engine's selftest (in CI) confirms four results: a one-time choice never fades; its gap recurs with the period of the law; the cancelling term is the present form of the choice; and the channel parts sum exactly to the state.
+
+## ME-01 to ME-03 (APE-503 to APE-505): the mathematics taken in
+
+The three papers set out a history-dependent dynamical system with agency (ME-01), bistable habit dynamics with tipping and hysteresis (ME-02), and the Transformability Profile TP-01 (ME-03). Their mathematics recomputes (TR-01, VERIFIED COMPUTATION; `tools/transformability.py`). How they stand to the law is in Companion 233.13 and 233.14:
+- **Controllability is the norm.** For a choice made along one direction b, det[b, T b] = N(b).
+- **History matters exactly to the extent that the present is seen partially:** 0 bits with the whole state observed, 3.17 bits with one coordinate.
+- **The transmission eigenvalues are φ and −1/φ.**
+- **The papers' habit is an attractor of a forgetting system; the law conserves.** Inside the law, a new orbit is kept with no further support.
+
+The papers' empirical hypotheses (H-ME01 to H-ME13) and the cross-domain test ME-04 (behavior, ecology, institutions) belong to projects B to D. Each is registered in the STP register with its data and criterion fixed before any run. None has been run. The mathematical questions they open are:
+- H-033: does the logistic habit model arise from the law by coarse-graining with forgetting and noise?
+- the conditions under which a self-reinforcing pattern becomes transformable. Answered in the coarse model by the band a ∈ (−3.415, −2.585) at β = 6. Answered in the law by N(b) being a unit.

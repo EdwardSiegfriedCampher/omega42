@@ -2,14 +2,14 @@
  "_about": "The sections of the AI reading editions (Companion Part 142): heading, characters, estimated tokens (characters / 4) and SHA-256 of the section text; rendered from docs/*.docx by tools/ai_edition.py.",
  "editions": {
   "Omega42_Core_V335_Rev450.md": {
-   "chars": 1338380,
-   "tokens_est": 334595,
-   "sha256": "61b343973c6100daaed3f916c0735fce3749c4f99c9b5d2d3b55885eb2ddf3f2"
+   "chars": 1338412,
+   "tokens_est": 334603,
+   "sha256": "73af8143fd1c751ffec7d03fef1df1debcca9dca5e06fa9b55747780607373c5"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1967269,
-   "tokens_est": 491818,
-   "sha256": "7c501d50509d84828ce12cd66e5544d1e6adc5a733cf1183be5f8d7b39f05aad"
+   "chars": 1975819,
+   "tokens_est": 493955,
+   "sha256": "6779b915e850d6d4a0f3e5a0daf9bd9647d9db28a9213e9548d858a4acc9d264"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477727,
@@ -1293,9 +1293,9 @@
   {
    "doc": "Core",
    "heading": "APPENDIX R: REFERENCE TOOLS, DATA AND REGISTERS [REFERENCE — L-493]",
-   "chars": 33614,
-   "tokens_est": 8404,
-   "sha256": "1ffdcc32132affb37e65ad39ddba771d482864f23a24065f7dbd6d0719bce317"
+   "chars": 33646,
+   "tokens_est": 8412,
+   "sha256": "5f95368a6a24ee235857c3c560f33d0385123d56aa9e238c7f06592e8743b9c5"
   },
   {
    "doc": "Companion",
@@ -5199,9 +5199,9 @@
   {
    "doc": "Companion",
    "heading": "PART 233: THE TWO LAYERS OF EXISTENCE — STRUCTURE AND MEANINGFUL EXISTENCE",
-   "chars": 11213,
-   "tokens_est": 2803,
-   "sha256": "704932c948aa002ad55c0d1c4116b740cabf96c42b83f06d45c3a97bbb41e8b5"
+   "chars": 19224,
+   "tokens_est": 4806,
+   "sha256": "243a40d5419727d6fcba62d6db15f6c02c21cb60971d06d17966126cdb4b8d25"
   },
   {
    "doc": "Companion",
@@ -5318,9 +5318,9 @@
   {
    "doc": "Companion",
    "heading": "APPENDIX X: EVERYTHING ELSE IN THE RELEASE [REFERENCE — Core L-493]",
-   "chars": 177345,
-   "tokens_est": 44336,
-   "sha256": "8d1a65c318c867867a9d9fe9a1083149c42e3f5809b464f1e7d95ff7f663861e"
+   "chars": 177884,
+   "tokens_est": 44471,
+   "sha256": "49c9827a472c25df733a5581bb342b631ea92dc6b9ed042198d95d948bc14a5e"
   }
  ]
 }

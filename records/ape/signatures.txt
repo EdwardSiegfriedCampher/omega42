@@ -6,7 +6,7 @@ Qwen                                          24  arithmetic 7 | attribution 2 |
 Claude (Anthropic)                            19  date 1 | arithmetic 3 | attribution 3 | placement or scope 3 | other 9
 OpenAI API model (OpenAI)                     17  arithmetic 6 | attribution 1 | other 10
 GPT-6 (OpenAI)                                16  date 3 | arithmetic 7 | attribution 1 | inventory or naming 1 | other 4
-ChatGPT (OpenAI)                              10  arithmetic 1 | other 9
+ChatGPT (OpenAI)                              13  arithmetic 1 | other 12
 an unsigned peer AI                            5  attribution 1 | other 4
 DeepSeek                                       3  arithmetic 2 | other 1
 Qwen (Alibaba Cloud)                           3  arithmetic 2 | other 1

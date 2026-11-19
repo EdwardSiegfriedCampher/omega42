@@ -3104,7 +3104,7 @@ R.1.16 tools/bridges.py — Omega42 and the exceptional structures of convention
 R.1.17 tools/build_lab.py — Build site/construct_x_lab.html from site/construct_x_lab.src.html.
 R.1.18 tools/calibrate.py — M347 Calibration Instrument (Core Part 3.73, L-553, L-557).
 R.1.19 tools/certify.py — the CERTIFICATE (Core L-550, Part 8.0.1 F13): Omega42 certifies, in its own terms, what its law establishes.
-R.1.20 tools/choice_engine.py — the Choice Engine (Companion Part 233).
+R.1.20 tools/choice_engine.py — the Choice Engine.
 R.1.21 tools/claimcheck.py — M323 Arithmetic Statement Check (EXACT; ADOPTED 23 October 2026 as a gate, Core Part 3.49; Companion Parts 93, 95 to 97).
 R.1.22 tools/conformance.py — M314 Navigator Conformance Suite (Core Part 3.40; CERTIFICATION.md).
 R.1.23 tools/congruence.py — M310 Congruence Record and the Congruence Register (Core Part 3.37, L-489).
@@ -3213,13 +3213,14 @@ R.1.125 tools/suite.py — the Ω42 Instrument Suite (Core Part 3.75; APE-434, F
 R.1.126 tools/test_seed_pairs.py — STP tests H-001..H-004: polarity structure of the Construct's 26 seeds, read from the original workbook.
 R.1.127 tools/timestamp_check.py — chronology checks (CA-22).
 R.1.128 tools/tolerance.py — M329 Tolerance Chain Check (Core Part 3.55; Companion Part 125).
-R.1.129 tools/utility.py — M316 Congruence Utility (Core Part 3.42, L-500; Companion Part 54).
-R.1.130 tools/validation.py — the period pattern of the trace map, its linear part at the fixed point, the census modulo 243, the exact.
-R.1.131 tools/vault.py — M364 Ω42-Envelope v1 and the Ω42 Vault (Core Part 3.77; APE-436, F175; Core Appendix S.10).
-R.1.132 tools/wave_atlas.py — the Wave Engine resolved: the Chern number on the (k, phason) torus against the full gap label (p, q), the.
-R.1.133 tools/waves.py — the Omega42 Wave Dynamics Engine: one transfer-matrix engine for electrons, light and sound in Fibonacci.
-R.1.134 tools/wheel.py — M330 Aspect Wheel: the 24 positions read as a wheel of 15-degree steps (Core Part 3.56; Companion Part 134).
-R.1.135 tools/zero_tools.py — the zero instruments of Core Part 3.30 and the FB-8 and FB-9 scans of M243a.
+R.1.129 tools/transformability.py — TP-01 and ME-02.
+R.1.130 tools/utility.py — M316 Congruence Utility (Core Part 3.42, L-500; Companion Part 54).
+R.1.131 tools/validation.py — the period pattern of the trace map, its linear part at the fixed point, the census modulo 243, the exact.
+R.1.132 tools/vault.py — M364 Ω42-Envelope v1 and the Ω42 Vault (Core Part 3.77; APE-436, F175; Core Appendix S.10).
+R.1.133 tools/wave_atlas.py — the Wave Engine resolved: the Chern number on the (k, phason) torus against the full gap label (p, q), the.
+R.1.134 tools/waves.py — the Omega42 Wave Dynamics Engine: one transfer-matrix engine for electrons, light and sound in Fibonacci.
+R.1.135 tools/wheel.py — M330 Aspect Wheel: the 24 positions read as a wheel of 15-degree steps (Core Part 3.56; Companion Part 134).
+R.1.136 tools/zero_tools.py — the zero instruments of Core Part 3.30 and the FB-8 and FB-9 scans of M243a.
 R.2 Data the tools read.
 R.2.1 records/congruence/domains.txt — the Congruence Register: every domain in the record, verbatim (read by tools/congruence.py, M310).
 R.2.2 records/srp/collatz_domain.txt — a long domain kept in its own file (SRP-C), read by the Register.

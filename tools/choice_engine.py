@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""choice_engine.py -- the Choice Engine (Companion Part 233).
+"""choice_engine.py -- the Choice Engine.
+Companion Part 233.
 The two layers of existence as one affine law on (Z/m)^2.
 
   default layer      v -> T v,        T(a, b) = (b, a + b)       the law: it keeps every state on its orbit (Lambda fixed)
@@ -64,6 +65,39 @@ def cancelling_choice(c, s, t, m):
     return neg(T_pow(c, t - s, m), m)
 
 
+# ---- The mathematics of the meaningful layer (Companion 233.12) ----
+def N(v, m): return (v[0] * v[0] + v[0] * v[1] - v[1] * v[1]) % m
+def B(v, c, m): return (2 * v[0] * c[0] + v[0] * c[1] + v[1] * c[0] - 2 * v[1] * c[1]) % m
+
+
+def delta_norm(v, c, m):
+    """How a choice c changes the norm at state v: N(v + c) - N(v) = B(v, c) + N(c) (context term + intrinsic term)."""
+    return (B(v, c, m) + N(c, m)) % m
+
+
+def habit_center(c, m):
+    """The centre of the constant habit v -> T v + c: v* = -T c, because (I - T)^(-1) = -T (T^2 = T + I)."""
+    return neg(T(c, m), m)
+
+
+def _mat_pow(p, m):
+    R, M = ((1, 0), (0, 1)), ((0, 1), (1, 1))
+    for _ in range(p):
+        R = ((R[0][0] * M[0][0] + R[0][1] * M[1][0]) % m, (R[0][0] * M[0][1] + R[0][1] * M[1][1]) % m), \
+            ((R[1][0] * M[0][0] + R[1][1] * M[1][0]) % m, (R[1][0] * M[0][1] + R[1][1] * M[1][1]) % m)
+    return R
+
+
+def regime(p, m):
+    """What a choice repeated every p steps does: resonance (T^p = I, it accumulates), anti-resonance (T^p = -I, it
+    cancels every other period), recentred (I - T^p invertible: the pattern settles round a new centre), or partial."""
+    P = _mat_pow(p, m)
+    if P == ((1, 0), (0, 1)): return "resonance"
+    if P == ((m - 1, 0), (0, m - 1)): return "anti-resonance"
+    d = ((1 - P[0][0]) * (1 - P[1][1]) - P[0][1] * P[1][0]) % m
+    return "recentred" if d % 3 else "partial"
+
+
 def orbit_change_share(m, samples=None, seed=29):
     S = [(a, b) for a in range(m) for b in range(m)]
     if samples is None:
@@ -101,6 +135,13 @@ def selftest():
         ok.append(("an unknown channel is refused", True))
     ch9, n9 = orbit_change_share(9); ch27, n27 = orbit_change_share(27)
     ok.append(("orbit-change share 4768/6480 (mod 9) and 482992/530712 (mod 27)", (ch9, n9, ch27, n27) == (4768, 6480, 482992, 530712)))
+    S9 = [(a, b) for a in range(9) for b in range(9)]
+    ok.append(("the law flips the sign of the norm, N(T v) = -N(v), so N^2 is conserved", all(N(T(v, 9), 9) == (-N(v, 9)) % 9 for v in S9)))
+    ok.append(("a choice changes the norm by B(v, c) + N(c)", all(N(add(v, c, 9), 9) == (N(v, 9) + delta_norm(v, c, 9)) % 9 for v in S9 for c in S9)))
+    ok.append(("the centre of a constant habit c is -T c", all(add(T(habit_center(c, 9), 9), c, 9) == habit_center(c, 9) for c in S9)))
+    ok.append(("regimes mod 9: resonance at 24, anti-resonance at 12, partial at 8 and 16, recentred otherwise",
+               [p for p in range(1, 25) if regime(p, 9) == "resonance"] == [24] and [p for p in range(1, 25) if regime(p, 9) == "anti-resonance"] == [12]
+               and [p for p in range(1, 25) if regime(p, 9) == "partial"] == [8, 16]))
     for name, good in ok: print(("  ok   " if good else "  FAIL ") + name)
     good = all(g for _, g in ok); print("CHOICE ENGINE SELFTEST:", "PASS" if good else "FAIL"); return good
 

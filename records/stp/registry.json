@@ -5867,6 +5867,61 @@
      "reason": "run outcome FAIL"
     }
    ]
+  },
+  "TR-01": {
+   "id": "TR-01",
+   "origin": "APE-503 to APE-505 (ME-01 to ME-03), received 19 November 2026",
+   "hypothesis": "The mathematics of ME-01 to ME-03 recomputes as stated, and its counterparts in the law hold: det[b, T b] = N(b), so a one-direction choice is controlling exactly when N(b) is a unit; and history carries log2 9 bits when one coordinate of the state is observed",
+   "scope": "ME-02 at a = -3, beta = 6 (fixed points, stability, bistable band, hysteresis); ME-01's learning identity; the law mod 9 and 27",
+   "falsification": "any value that does not recompute",
+   "test": "t_TR01",
+   "data": "computation only",
+   "criterion": "every check of tools/transformability.py --selftest passes",
+   "blinding": "NOT BLIND: computed while reading, before registration; this entry records the recomputation reproducibly",
+   "on_pass": "VERIFIED COMPUTATION",
+   "on_fail": "REJECTED",
+   "consequence": "the models of ME-02 and ME-03 enter the record as checked mathematics, beside the law, with their differences stated (Companion 233.13)",
+   "supersedes": null,
+   "date": "2026-11-19T14:29:35+00:00",
+   "runs": [
+    {
+     "time": "2026-11-19T14:29:35+00:00",
+     "run_state": "RAN",
+     "outcome": "PASS",
+     "result": {
+      "lines": [
+       "ok   ME-02 fixed points 0.071 (stable), 0.5 (unstable), 0.929 (stable) at a = -3, beta = 6",
+       "ok   ME-02 bistable band: p = 0.2113, 0.7887 and a in (-3.415, -2.585)",
+       "ok   ME-02 no bistability for beta <= 4",
+       "ok   ME-02 hysteresis: the high state is lost at gamma u = 0.42 and does not return when the support is removed",
+       "ok   ME-03 in the law, mod 9: det[b, T b] = N(b), and two choices along b reach every state iff N(b) is a unit",
+       "ok   ME-03 in the law, mod 27: det[b, T b] = N(b), and two choices along b reach every state iff N(b) is a unit",
+       "ok   ME-01 history information with one coordinate observed is log2 9 bits",
+       "TRANSFORMABILITY SELFTEST: PASS"
+      ]
+     },
+     "code_sha": {
+      "stp": "a5b4427f12d0609f",
+      "construct_x": "dfc9b01a55ff825a"
+     },
+     "data_sha": null,
+     "environment": {
+      "python": "3.13.18",
+      "platform": "linux"
+     },
+     "author": "Navigator (claude-opus-5-5)",
+     "reviewer": null
+    }
+   ],
+   "status": "VERIFIED COMPUTATION",
+   "status_history": [
+    {
+     "time": "2026-11-19T14:29:35+00:00",
+     "from": "UNPROVEN",
+     "to": "VERIFIED COMPUTATION",
+     "reason": "run outcome PASS"
+    }
+   ]
   }
  }
 }

@@ -1,6 +1,39 @@
 {
  "items": [
   {
+   "id": "APE-505",
+   "kind": "ape",
+   "title": "ME-03: A mathematical measure of transformability",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-505.md",
+   "text_sha256": "c14d30b926b9ab99f40febcd5b254d43cd53080c6adea5b64d1790f16c6c7fe5",
+   "area_source": "declared"
+  },
+  {
+   "id": "APE-504",
+   "kind": "ape",
+   "title": "ME-02: When does an inherited pattern become transformable?",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-504.md",
+   "text_sha256": "21aeb36006b4155b0aef68727f3de05a93f2c38f7596e5948dca520920f33392",
+   "area_source": "declared"
+  },
+  {
+   "id": "APE-503",
+   "kind": "ape",
+   "title": "The mathematics of meaningful existence (ME-01)",
+   "by": "ChatGPT (OpenAI) for ESC",
+   "area": "philosophy",
+   "date": "2026-11-19",
+   "path": "submissions/ape/APE-503.md",
+   "text_sha256": "e42e93f33f61b604148a820df5f7d7c2d67dc5dd993c3eaee95e8be06feafc67",
+   "area_source": "declared"
+  },
+  {
    "id": "APE-502",
    "kind": "ape",
    "title": "Meaningful existence: a second layer in Omega42",

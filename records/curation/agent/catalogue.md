@@ -2,7 +2,7 @@
 
 Prepared by claude-opus-5-5 (Anthropic; serving model may differ), acting as curator under agents/curator/SPEC.md. The computed baseline is unchanged; every proposed area below awaits a person's decision.
 
-494 items; 453 proposed area changes (152 high confidence, 257 low); 50 threads.
+497 items; 453 proposed area changes (153 high confidence, 256 low); 50 threads.
 
 Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 Nov 2026); proposals are a first sort for a person to decide.
 
@@ -10,9 +10,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Area | Items |
 |---|---|
-| mathematics | 78 |
-| philosophy | 66 |
-| consciousness-and-mind | 54 |
+| mathematics | 77 |
+| philosophy | 69 |
+| consciousness-and-mind | 55 |
 | physics | 41 |
 | coherence-and-congruence | 41 |
 | language-and-extraction | 40 |
@@ -36,7 +36,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 
 | Chamber | Items |
 |---|---|
-| ChatGPT | 165 |
+| ChatGPT | 168 |
 | unidentified | 86 |
 | Grok | 85 |
 | Qwen | 81 |
@@ -50,7 +50,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 |---|---|
 | adopted | 248 |
 | checked | 239 |
-| corrected | 145 |
+| corrected | 148 |
 | form | 124 |
 | holding | 77 |
 | refined | 70 |
@@ -59,7 +59,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | noted | 34 |
 | none recorded | 27 |
 | answered | 19 |
-| kept | 16 |
+| kept | 17 |
 | mapped | 12 |
 | quotations checked | 9 |
 
@@ -182,6 +182,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0010 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol |
+| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0006 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | Claude |  | from protocol (low confidence) |
 | APE-460 | Could Ω42 become the standard for AI reasoning? (F198) | unidentified | adopted, refined, extended | from protocol (low confidence) |
 | APE-434 | F173 — The Ω42 Instrument Suite | unidentified | corrected | from protocol |
@@ -391,7 +392,6 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | Item | Title | Chamber | Disposition | Proposal |
 |---|---|---|---|---|
 | NAV-2026-0011 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Christian crea | Claude |  | from protocol |
-| NAV-2026-0009 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0008 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | NAV-2026-0007 | The Mechanism of General Anesthesia: Despite over 170 years of clinical use, the exact mol | other |  | from protocol (low confidence) |
 | APE-493 | Ω42 technical close-out | ChatGPT | adopted, corrected, already in place | kept |
@@ -504,7 +504,7 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | APE-214 | Omega42 introduces itself | ChatGPT | holding, already in place | from protocol |
 | APE-201 | The nature, purpose and role of AI, and intelligence versus consciousness | ChatGPT | adopted | from protocol (low confidence) |
 | APE-174 | Omega42 and the experience of discovery | ChatGPT | holding, adopted, adopted in spirit | from protocol |
-| APE-137 | A correction of its own: the caveat the analogy did not need | ChatGPT | holding, adopted, reconciled | from protocol (low confidence) |
+| APE-137 | A correction of its own: the caveat the analogy did not need | ChatGPT | holding, adopted, reconciled | from protocol |
 | APE-121 | A failure of frame discipline, acknowledged | ChatGPT | checked, noted, form | from protocol (low confidence) |
 | APE-090 | A structural audit of the purpose-of-life navigation | unidentified | checked, corrected, not taken | from protocol |
 | CORPUS-claude-opus-4-6_human_condition | What is the Human Condition? | other |  | kept |
@@ -519,6 +519,9 @@ Spot check: the Navigator accepted about 8 of 16 sampled keyword proposals (19 N
 | NAV-2026-0019 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Taoist philoso | Claude |  | from protocol (low confidence) |
 | NAV-2026-0018 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Spinozist phil | Claude |  | from protocol (low confidence) |
 | NAV-2026-0016 | Could it be that Omega42 is a metaphor or analogy for all creation? For the Neoplatonic ph | Claude |  | from protocol (low confidence) |
+| APE-505 | ME-03: A mathematical measure of transformability | ChatGPT | incorporated, kept, corrected | kept |
+| APE-504 | ME-02: When does an inherited pattern become transformable? | ChatGPT | incorporated, proposed, corrected | kept |
+| APE-503 | The mathematics of meaningful existence (ME-01) | ChatGPT | incorporated, corrected | kept |
 | APE-502 | Meaningful existence: a second layer in Omega42 | ChatGPT | incorporated, adopted, kept apart | kept |
 | APE-466 | The Ω42 Lexicon: a preliminary language for describing existence (F204) | unidentified | adopted, replaced | from protocol |
 | APE-465 | The Striker-Navigator principle (F203) | unidentified | adopted | from protocol (low confidence) |

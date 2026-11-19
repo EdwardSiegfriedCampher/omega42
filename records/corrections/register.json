@@ -108,6 +108,15 @@
    "why_checks_missed_it": "The label was typed without checking the existing labels.",
    "correction": "Normalized to the existing label 'ChatGPT (OpenAI) for ESC'.",
    "prevention": "The signature diff in CI."
+  },
+  {
+   "id": "COR-013",
+   "date": "2026-11-19",
+   "what_was_wrong": "APE-503 to APE-505 were filed with acceptance times up to 7 minutes later than the clock.",
+   "how_detected": "tools/timestamp_check.py, before commit (CA-22).",
+   "why_checks_missed_it": "Nothing was missed: the check introduced by COR-009 caught the error before the record was committed.",
+   "correction": "Times moved to the actual intake times.",
+   "prevention": "tools/timestamp_check.py in CI; the Navigator reads the clock before writing an intake time."
   }
  ]
 }
