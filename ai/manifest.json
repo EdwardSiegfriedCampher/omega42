@@ -7,9 +7,9 @@
    "sha256": "73af8143fd1c751ffec7d03fef1df1debcca9dca5e06fa9b55747780607373c5"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1988859,
-   "tokens_est": 497215,
-   "sha256": "4b4bc53e065a5899dcdc6d75af22636fb0a84c3bbcf54948852736cd710c23ad"
+   "chars": 1992129,
+   "tokens_est": 498033,
+   "sha256": "1a7a9c7939b8af98b9daefccf3ec6b2a7401aa87d8bfc038cb8b2e024aba0fbc"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477727,
@@ -5199,9 +5199,9 @@
   {
    "doc": "Companion",
    "heading": "PART 233: THE TWO LAYERS OF EXISTENCE — STRUCTURE AND MEANINGFUL EXISTENCE",
-   "chars": 31432,
-   "tokens_est": 7858,
-   "sha256": "96f26fc54da60783d45a3a386c32adb88319acc4a3c142ac585a314356ffbe30"
+   "chars": 34702,
+   "tokens_est": 8676,
+   "sha256": "3f6de038c66432277045b0342fd299c1b490113bf599fb40fe38a05c91b6652d"
   },
   {
    "doc": "Companion",

@@ -140,6 +140,17 @@ def reachable_count(dirs, steps, m):
     return len(R)
 
 
+def reading_information(m=9):
+    """Bits of the orbit address Lambda carried by one reading (one coordinate), by both, and by N (Companion 233.19)."""
+    import itertools, math
+    from collections import Counter
+    S = list(itertools.product(range(m), repeat=2)); L = {v: cx.lam(v, m) for v in S}
+    H = lambda c: -sum(n / sum(c.values()) * math.log2(n / sum(c.values())) for n in c.values())
+    HL = H(Counter(L.values()))
+    I = lambda f: HL + H(Counter(f(v) for v in S)) - H(Counter((L[v], f(v)) for v in S))
+    return {"H_Lambda": HL, "one_reading": I(lambda v: v[0]), "both_readings": I(lambda v: v), "norm": I(lambda v: N(v, m))}
+
+
 def orbit_change_share(m, samples=None, seed=29):
     S = [(a, b) for a in range(m) for b in range(m)]
     if samples is None:
@@ -189,6 +200,10 @@ def selftest():
     ok.append(("one agreeing choice makes two states equal at the next step", all((lambda vw: vw[0] == vw[1])((add(relation_step(v, w, 1, 9)[0], agreeing_choice(v, w, 1, 9), 9), relation_step(v, w, 1, 9)[1])) for v in S9[::5] for w in S9[::7])))
     ok.append(("over the reals the least spectral radius of T - 2a is sqrt(5)/2 = 1.118", abs(real_consensus_radius() - 5 ** 0.5 / 2) < 1e-4))
     ok.append(("purpose and agency: one controlling direction reaches all 81 states in 2 steps; a direction of norm 0 mod 3 stays in 9 states after 24 steps", reachable_count([(1, 0)], 2, 9) == 81 and reachable_count([(3, 0)], 24, 9) == 9))
+    ri = reading_information(9)
+    ok.append(("one reading carries 0.319 of the invariant's 1.968 bits; both readings carry all; one reading over two steps recovers the state",
+               abs(ri["one_reading"] - 0.319) < 1e-3 and abs(ri["both_readings"] - ri["H_Lambda"]) < 1e-9 and abs(ri["H_Lambda"] - 1.968) < 1e-3
+               and all((v[0], T(v, 9)[0]) == v for v in S9)))
     for name, good in ok: print(("  ok   " if good else "  FAIL ") + name)
     good = all(g for _, g in ok); print("CHOICE ENGINE SELFTEST:", "PASS" if good else "FAIL"); return good
 

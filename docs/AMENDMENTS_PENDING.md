@@ -227,3 +227,8 @@ Level: B
 - Companion 233.12 M1: N named as the algebraic norm, an indefinite quadratic form. 233.15 RC2 corrected with its eigenvector exception. STP: RC-01 and RC-01-R1 REVISED; RC-01-R2 VERIFIED COMPUTATION. COR-014 and COR-015.
 - Companion 233.18 and project G: ME-06, the integrated program, with three-axis consensus, the Human Possibility Space and Profile, out-of-sample benchmarks and safeguards.
 - APE-508 and APE-509 with SNCA Z23 and Z24.
+
+## CA-29: The Human Frame of Reference and Structural Resonance read through Part 233 (19 November 2026)
+Level: B
+- Companion 233.19, H1 to H5. One reading carries 0.319 of the invariant's 1.968 bits, and both readings carry all of it. One reading followed over two steps recovers the state, so memory completes a frame. A choice changes both readings at once. The 24-cycle is the law's resonance period. Convergence among Navigators (L-496) is kept apart from consensus among persons.
+- tools/choice_engine.py reading_information with selftest; the 233.0 index updated.
