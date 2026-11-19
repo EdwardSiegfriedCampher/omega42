@@ -1,0 +1,36 @@
+{
+ "_about": "Register of Omega42 and Construct material found in the Originator's OneDrive on 19 November 2026 (docs/ONEDRIVE_REVIEW.md). Metadata only: no file identifiers, no links, names withheld. The originals are not modified. The Documents folder holds about 4,214 items, of which the connector lists 1,000; the register is a lower bound.",
+ "searched": "listing of the drive root, the Documents folder (first 1,000 items) and OMEGA 42 BOOKS; search for Omega42, Omega 42 and Construct",
+ "files_listed": 1310,
+ "folders_listed": 66,
+ "same_title_in_google_drive_register": 583,
+ "by_category": {
+  "construct theory": 366,
+  "other Omega42 material": 346,
+  "formal and constitutional papers": 147,
+  "protocol builds": 126,
+  "AI essays and transcripts": 110,
+  "book": 76,
+  "excluded (personal or unrelated)": 51,
+  "construct versions": 33,
+  "lottery and prediction": 16,
+  "spreadsheets": 15,
+  "navigator/referee editions": 11,
+  "prompts": 7,
+  "code": 6
+ },
+ "by_extension": {
+  "docx": 1240,
+  "jpg": 22,
+  "xlsx": 19,
+  "pdf": 14,
+  "gdoc": 4,
+  "none": 4,
+  "png": 1,
+  "xlsm": 1
+ },
+ "untitled_drafts": 87,
+ "titles_naming_an_ai_system": 164,
+ "titles_announcing_a_proof_or_solution": 81,
+ "recomputed": "records/archive/recompute_external.py"
+}

@@ -88,3 +88,15 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Applied (level B):** the originals are not edited. A metadata register with names withheld and no identifiers or links. The concordance (`docs/ARCHIVE_CONCORDANCE.md`). AR-01, which recomputed the archive's arithmetic: 6 of 9 statements hold, so the hypothesis that all hold is REJECTED.
 - **For ESC:** (1) whether to publish selected historical builds, marked HISTORICAL, one family at a time; suggested first are V333 Rev.387, V335 Rev.442, V336 Rev.2 and the Philosophical Foundations documents; (2) whether the creation dates of formal builds enter the Prior Art Ledger; (3) whether the predictions P1 to P5 and I1 to I5 of the V336 Companion are registered in the STP register; (4) which navigations and syntheses (class D) to submit to the navigation archive.
 - **Normative:** no.
+
+## D-15 The October 2025 public repository
+- **Facts:** the public repository holds the October 2025 edition: 17 files, one commit, under the Originator's personal account. Its README links to 11 files that do not exist; its validator rejects its own example and accepts an empty input; its simulator draws random lottery numbers; four licences conflict (`docs/PUBLIC_REPO_REVIEW.md`).
+- **Recommended:** keep the founding PDFs and the 24-cycle as the historical origin (archive/2025-10/, marked HISTORICAL); replace everything else with the V335 tree in one commit after tagging the old state; remove the lottery framing and the unsourced quotation; enter its statements of results into the Speculation Register.
+- **For ESC:** (1) approve the migration; (2) where the project lives (the present address carries the Originator's full name; planned: an organization account); (3) whether the account of the discovery stays public.
+- **Normative:** no.
+
+## D-16 The OneDrive archive
+- **Facts:** at least 1,310 files and 66 folders of Ω42 and Construct material; 45% share a title with the Google Drive register; the Imports folder duplicates Google Drive; the organized folders are empty (`docs/ONEDRIVE_REVIEW.md`; `records/archive/onedrive_register.json`).
+- **Applied (level B):** a metadata register with names withheld; recomputation of the 24-cycle test, the order-702 circulant graph and Cassini's identity (`records/archive/recompute_external.py`).
+- **For ESC:** (1) revoke the GitHub token stored in a OneDrive document and delete the file; (2) replace the older Rev.450 exports in OneDrive after ratification; (3) withdraw the circulant-graph paper; (4) whether to register a test of proposal O42-PEP-2026-002 before adopting it; (5) public release by family, first the Construct versions 2 to 12; (6) credit the classical 24-period and the published digital-root pattern in the Prior Art Ledger.
+- **Normative:** no.
