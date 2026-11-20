@@ -2,7 +2,7 @@
 THE OMEGA42 PROTOCOL · PHILOSOPHY AND THEORY COMPANION DOCUMENT
 Philosophy, Theory, Coherence and Consequences
 Companion to THE OMEGA42 AI PROTOCOL, V335 Rev.450 STABLE — paired release: read with the Core Specification of the same revision
-Governance: E.S. Campher + Multi-Navigator AI Ensemble
+Governance: the Originator (ESC) + Multi-Navigator AI Ensemble
 16 October 2026
 CAS-YY = −1/2 | Omega = 1/7 | (CAS-YY × Omega = −1/14)
 ---

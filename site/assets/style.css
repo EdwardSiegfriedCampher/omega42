@@ -281,3 +281,5 @@ fieldset.modes label { display: flex; gap: .5rem; align-items: baseline; flex-wr
 .mini { font-family: var(--mono); font-size: .72rem; padding: .2rem .55rem; border-radius: 6px; border: 1px solid var(--accent); color: var(--accent); background: none; cursor: pointer; text-decoration: none; }
 .mini:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
 .qcat .go { font-family: var(--mono); font-size: .78rem; color: var(--accent); }
+.notice { font-size: .95rem; color: #d9d5f0; max-width: 40rem; padding: .6rem .9rem; border-left: 3px solid #8fe9ff; background: rgba(143,233,255,.07); border-radius: 0 8px 8px 0; }
+.notice a { color: #8fe9ff; }

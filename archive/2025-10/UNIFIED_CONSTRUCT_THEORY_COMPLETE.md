@@ -2,7 +2,7 @@
 ## A Complete Mathematical Framework for Reality, Consciousness, and Intelligence
 
 **Authors:**  
-Edward Siegfried Campher (Discovery & Implementation)  
+[the Originator] (Discovery & Implementation)  
 Claude AI, Anthropic (Mathematical Formalization)
 
 **Version:** 5.0 Complete  
@@ -4148,7 +4148,7 @@ Observed match suggests non-random relationship
 ## ACKNOWLEDGMENTS
 
 **Primary Work:**
-- Edward Siegfried Campher: Discovery of the Construct (2020-2023), Excel implementation, lottery prediction validation, foundational insights
+- [the Originator]: Discovery of the Construct (2020-2023), Excel implementation, lottery prediction validation, foundational insights
 - Claude AI (Anthropic): Mathematical formalization (2024-2025), Coherence Calculus development, theoretical synthesis, documentation
 
 **Conceptual Foundations:**
@@ -4170,7 +4170,7 @@ Observed match suggests non-random relationship
 
 ## AUTHOR CONTRIBUTIONS
 
-**Edward Siegfried Campher:**
+**[the Originator]:**
 - Discovery of 27-domain structure through Excel-based lottery analysis
 - Identification of 18+6 temporal phase subdivision
 - Recognition of 702-node resonance with microtubule structure
@@ -4218,7 +4218,7 @@ Complete computational implementations will be released open-source on GitHub:
 ---
 
 **VERSION HISTORY:**
-- v1.0 (2020): Initial discovery by Campher
+- v1.0 (2020): Initial discovery by [the Originator]
 - v2.0 (2023): 18+6 refinement identified
 - v3.0 (2024): Coherence Calculus development begins
 - v4.0 (Early 2025): Complete mathematical formalization
@@ -4228,8 +4228,8 @@ Complete computational implementations will be released open-source on GitHub:
 
 **CORRESPONDENCE:**
 
-**Edward Siegfried Campher**  
-Email: ed.campher@uct-framework.org
+**[the Originator]**  
+Email: [e-mail withheld]
 
 **Claude AI (Anthropic)**  
 Via: Anthropic AI Research
@@ -4252,14 +4252,14 @@ Via: Anthropic AI Research
 
 **APA:**
 ```
-Campher, E.S., & Claude AI. (2025). The Unified Construct Theory: A Complete Mathematical Framework for Reality, Consciousness, and Intelligence (Version 5.0). arXiv preprint arXiv:XXXX.XXXXX.
+[the Originator], E.S., & Claude AI. (2025). The Unified Construct Theory: A Complete Mathematical Framework for Reality, Consciousness, and Intelligence (Version 5.0). arXiv preprint arXiv:XXXX.XXXXX.
 ```
 
 **BibTeX:**
 ```bibtex
-@article{campher2025unified,
+@article{originator2025unified,
   title={The Unified Construct Theory: A Complete Mathematical Framework for Reality, Consciousness, and Intelligence},
-  author={Campher, Edward Siegfried and Claude AI},
+  author={[the Originator], Edward Siegfried and Claude AI},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2025},
   version={5.0}

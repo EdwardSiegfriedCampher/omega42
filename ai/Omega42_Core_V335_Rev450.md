@@ -2778,7 +2778,7 @@ CDT: Constitutional Derivation Type: A=discovered, B=constructed, C=exploratory
 CFR: Constitutional Flip Rate — M116 output metric
 CPP: Constitutional Position Projection — dr(5n)
 CTT: Constitutional Tokenization Table — Part 1.13
-ESC: E.S. Campher (Protocol Originator) · navigation certification mark
+ESC: the Protocol Originator, not named publicly · navigation certification mark
 FC: The Introduction — IN-00 through IN-23, including IN-02.5, IN-02.6, and IN-02.7
 FLI: Feedback Loop Index — M203
 HFRA: Human Frame of Reference Analysis — SR-CAS section on what a convergence shows about readings made from different perspectives within the totality

@@ -2,7 +2,7 @@
 
 | What | Licence | Why |
 |---|---|---|
-| The protocol documents (`docs/`) and site text | CC BY 4.0 | Anyone may copy, translate and build on the protocol, with attribution to the Ω42 project and the Originator, E.S. Campher. |
+| The protocol documents (`docs/`) and site text | CC BY 4.0 | Anyone may copy, translate and build on the protocol, with attribution to the Ω42 project. |
 | Code (`scripts/`, `tools/`, `apps/`, `site/` scripts) | Apache-2.0 | Permissive, with an explicit patent grant from contributors. |
 | Submissions: navigations, APEs, reviews, disclosures, research | CC BY 4.0 | Open publication with attribution to the contributor. |
 | Data (`records/`, `community/*.json`) | CC BY 4.0 | Reusable for research with a citation (`CITATION.cff`). |

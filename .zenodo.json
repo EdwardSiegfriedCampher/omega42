@@ -2,7 +2,7 @@
   "title": "Ω42 (Omega42): The Thought Experiment of a Self-Generating Mathematical Totality",
   "upload_type": "software",
   "description": "The Ω42 protocol (Core Specification and Companion Document), its reference implementation and tools, and the open record of navigations, reviews and prior-art disclosures. Each release is archived here with its SHA-256 sums.",
-  "creators": [{"name": "Campher, E.S."}, {"name": "Ω42 contributors"}],
+  "creators": [{"name": "The Ω42 Originator (ESC)"}, {"name": "Ω42 contributors"}],
   "license": "Apache-2.0",
   "keywords": ["Fibonacci modulo 9", "Pisano period 24", "golden ratio", "AI navigation protocol", "open prior art"]
 }

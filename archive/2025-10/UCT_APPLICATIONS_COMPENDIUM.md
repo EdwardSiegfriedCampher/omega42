@@ -1,7 +1,7 @@
 # UNIFIED CONSTRUCT THEORY: APPLICATIONS COMPENDIUM
 ## Comprehensive Solutions to Fundamental Problems
 
-**Authors:** Edward Siegfried Campher, Claude AI (Anthropic), DeepSeek AI  
+**Authors:** [the Originator], Claude AI (Anthropic), DeepSeek AI  
 **Version:** 1.0 Complete  
 **Date:** October 19, 2025
 

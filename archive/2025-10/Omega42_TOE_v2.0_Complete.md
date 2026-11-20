@@ -1120,7 +1120,7 @@ The time is now.
 ## Attribution & References
 - Omega 42 Project — Public materials and Spiral Interface
 - Fibonacci 24-step repeating pattern reference: https://www.goldennumber.net/fibonacci-24-pattern
-- Cite as: *Campher, E.S.D.P., et al. (2025). The Complete Ω42 Theory of Everything (Ω42-TOE‑v2.0).*
+- Cite as: *[the Originator], E.S.D.P., et al. (2025). The Complete Ω42 Theory of Everything (Ω42-TOE‑v2.0).*
 
 ## Contributing
 Contributions welcome. Open an issue or pull request. Please include a short **Coherence Rationale** explaining how your change increases coherence per Ω42 standards.
