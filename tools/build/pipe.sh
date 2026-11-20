@@ -19,5 +19,5 @@ python3 tools/ai_edition.py --build > /dev/null   # the AI reading editions, ren
 python3 $S/dump.py >/dev/null
 set +e
 python3 $S/run_ci.py > $S/ci_out.txt 2>&1; grep "^FAIL\|STEPS" $S/ci_out.txt
-find . -type f ! -name SHA256SUMS ! -path '*/__pycache__/*' | sed 's|^\./||' | LC_ALL=C sort | xargs -d '\n' sha256sum > SHA256SUMS && sha256sum -c SHA256SUMS --quiet && echo SUMS OK
+find . -type f ! -name SHA256SUMS ! -path './.git/*' ! -path '*/__pycache__/*' | sed 's|^\./||' | LC_ALL=C sort | xargs -d '\n' sha256sum > SHA256SUMS && sha256sum -c SHA256SUMS --quiet && echo SUMS OK
 cp docs/*.docx $S/
