@@ -7,7 +7,7 @@
   "channel": "STABLE",
   "tag": "v335-rev450"
  },
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "change_log": "docs/AMENDMENTS_PENDING.md",
  "amendments": [
   {
@@ -257,6 +257,14 @@
    "level": "B",
    "level_source": "inferred from the text",
    "date": "2026-11-19"
+  },
+  {
+   "id": "CA-31",
+   "title": "CA-31: Speculative Exploration and Intellectual Freedom (20 November 2026)",
+   "status": "RECORDED",
+   "level": "A",
+   "level_source": "declared",
+   "date": "2026-11-20"
   }
  ],
  "approval": {
@@ -290,7 +298,7 @@
    "VERIFIED COMPUTATION": 43
   },
   "stp_entries": 82,
-  "snca_reports": 57
+  "snca_reports": 58
  },
  "dimensions": {
   "integrity": "SHA256SUMS at the release tag; the build verifies it (tools/build/pipe.sh, SUMS OK)",

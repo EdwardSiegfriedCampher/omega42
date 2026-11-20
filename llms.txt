@@ -6,7 +6,7 @@
 
 - [Navigator Pack](ai/Omega42_Navigator_Pack.md): what a navigation needs, about 119 thousand tokens
 - [Core Specification, prose](ai/Omega42_Core_V335_Rev450.md): about 334 thousand tokens
-- [Companion Document, prose](ai/Omega42_Companion_V335_Rev450.md): about 498 thousand tokens
+- [Companion Document, prose](ai/Omega42_Companion_V335_Rev450.md): about 499 thousand tokens
 - [The Omega42 Existential Framework](ai/Omega42_Existential_Framework.md): the philosophical framework, Companion Part 145
 - [Section manifest](ai/manifest.json): every section with its size and hash
 

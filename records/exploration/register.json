@@ -1,0 +1,110 @@
+{
+ "_about": "The Exploration Register of the Speculative Foundations Programme (research/philosophy/SPECULATIVE_FOUNDATIONS.md; Companion Part 234). Classes describe the kind of material, not its truth; an entry may hold several classes. Entries keep their original formulation, transformations, alternatives set aside and reasons for revision, and are never deleted. A test of an entry is registered separately in records/stp/registry.json.",
+ "classes": [
+  "SPECULATION",
+  "CONJECTURE",
+  "THOUGHT EXPERIMENT",
+  "FORMAL DEVELOPMENT",
+  "CONCEPTUAL SYNTHESIS",
+  "OPEN POSSIBILITY",
+  "INTERNAL CONTRADICTION",
+  "EXTERNALLY CHALLENGED",
+  "EMPIRICALLY INVESTIGABLE",
+  "EMPIRICALLY EXAMINED"
+ ],
+ "entries": [
+  {
+   "id": "EX-001",
+   "date": "2026-11-19",
+   "theme": "Historical existence and the transformation of patterns",
+   "classes": [
+    "CONCEPTUAL SYNTHESIS",
+    "FORMAL DEVELOPMENT"
+   ],
+   "original": "Existence has three layers: structural, historical and meaningful (APE-510 section 6).",
+   "development": "In the law v(t+1) = T v(t) + c(t) the three layers are exact components: the structural layer is T, the historical layer is the inherited sum of earlier added terms carried by T, and the meaningful layer is the added term c(t) (Companion Part 233).",
+   "open": "Whether meaningful existence is an accident of structure and history or an expression of a deeper feature of existence (EX-003).",
+   "links": [
+    "Companion 233",
+    "EX-003"
+   ]
+  },
+  {
+   "id": "EX-002",
+   "date": "2026-11-19",
+   "theme": "Foundations of existence",
+   "classes": [
+    "SPECULATION",
+    "FORMAL DEVELOPMENT"
+   ],
+   "original": "Existence may be relational rather than object-based: an entity's identity is partly constituted by its relations (APE-510 section 5).",
+   "development": "In the law, the orbit address of a state is carried by the relation between its two readings: one reading alone carries 0.319 of the 1.968 bits, both carry all (Companion 233.19 H1). In a group, a person's identity relative to the shared mode is the deviation, which persists under the law (Companion 233.15 RC5).",
+   "open": "Whether identity in general, not only in this model, is relational.",
+   "links": [
+    "Companion 233.15",
+    "Companion 233.19"
+   ]
+  },
+  {
+   "id": "EX-003",
+   "date": "2026-11-19",
+   "theme": "Meaning and purpose",
+   "classes": [
+    "OPEN POSSIBILITY"
+   ],
+   "original": "Meaning may be constructed by conscious beings; may emerge from relations between living systems and environments; may follow from information processing and self-organization; or may be a feature of reality that complex systems increasingly express. These are not exclusive (APE-510 section 6).",
+   "development": "Kept open. None is selected. Meaning is never graded (Core L-495) and the Meaning Registry is never read (L-497).",
+   "links": [
+    "Companion 233.6",
+    "ME-06"
+   ]
+  },
+  {
+   "id": "EX-004",
+   "date": "2026-11-19",
+   "theme": "Possible realities",
+   "classes": [
+    "THOUGHT EXPERIMENT",
+    "FORMAL DEVELOPMENT"
+   ],
+   "original": "What if the law of Omega42 were a different two-term law?",
+   "development": "Computed while exploring (not a registered test): among the 54 invertible laws x(n+1) = p x(n) + q x(n-1) modulo 9 (q a unit), the period counts are 2:1, 3:3, 4:1, 6:11, 8:2, 9:6, 12:8, 18:6, 24:16. The longest period available is 24, reached by 16 laws; the Fibonacci law (p, q) = (1, 1) is one of them, the one with the smallest coefficients.",
+   "open": "What distinguishes the Fibonacci law among the 16 beyond its coefficients (its norm, its eigenvalues phi and -1/phi, its unit discriminant 5).",
+   "links": [
+    "F-02"
+   ]
+  },
+  {
+   "id": "EX-005",
+   "date": "2026-11-19",
+   "theme": "Consciousness and experience",
+   "classes": [
+    "SPECULATION",
+    "OPEN POSSIBILITY"
+   ],
+   "original": "The distinction between observer and observed may be emergent rather than fundamental (APE-510 section 4).",
+   "development": "In the two-reading model the observer's reading and the observed reading are coordinates of one state; neither stands apart from the other (Companion 233.19 H1, H3; F-04).",
+   "open": "Whether experience itself is captured by any reading.",
+   "links": [
+    "Companion 233.19"
+   ]
+  },
+  {
+   "id": "EX-006",
+   "date": "2026-11-19",
+   "theme": "Historical existence and the transformation of patterns",
+   "classes": [
+    "THOUGHT EXPERIMENT",
+    "FORMAL DEVELOPMENT"
+   ],
+   "original": "A world in which choices fade versus a world in which they are conserved.",
+   "development": "The habit model of ME-02 is an attractor of a forgetting system: a pattern needs continued support. Under the law, an added term never fades and a new orbit is kept with no further support (Companion 233.13, 233.14).",
+   "open": "Which of the two describes a given human pattern; registrable as H-033.",
+   "links": [
+    "Companion 233.13",
+    "Companion 233.14",
+    "H-033"
+   ]
+  }
+ ]
+}

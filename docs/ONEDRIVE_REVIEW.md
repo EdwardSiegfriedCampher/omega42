@@ -78,3 +78,26 @@ This proposal (7 September 2026, against Rev.432) would show companion readings 
 6. **Keep private:** lottery material, personal files, letters to named people, the account of the discovery (it names the Originator), and every document announcing a proof or a solved problem that has not passed a registered test.
 7. **Withdraw** the circulant-graph paper and correct the antipodal wording in the 24-cycle test. Both are recorded here; the originals are unchanged.
 8. **Register before running.** Any statement in the archive that is to enter Ω42 first goes into the STP register with its criterion, as RC-01 and AR-01 did.
+
+## Filing record (20 November 2026)
+
+ESC approved the filing (D-16). The Navigator moved 970 items within OneDrive through the connector. Nothing was deleted, renamed or opened for the move.
+
+| Destination folder | Items |
+|---|---|
+| The Construct | 371 |
+| Essays and Introductions | 165 |
+| Formal Papers | 156 |
+| To review — Duplicates and untitled drafts (the Imports folder is one item) | 99 |
+| Protocol — Archive | 49 |
+| Domain Navigations | 33 |
+| To review — Unsorted | 29 |
+| Meta and licensing | 26 |
+| NCF proposals | 20 |
+| Provenance | 13 |
+| Origin — Lottery Data | 7 |
+| Protocol — Current | 2 |
+
+In Google Drive the same scheme now stands under one parent folder, Omega42 Archive (Protocol — Current, Protocol — Archive, The Construct, Formal Papers, Domain Navigations, Essays and Introductions, To review). Seven items were filed there: four protocol builds into Protocol — Archive, a duplicate build into To review, the Construct project folder (with its contents) into The Construct, and the Imports folder into To review. The Drive search index lags behind moves, so the loose files left at the top level are the next pass.
+
+Personal files stayed where they were. The second half of the Documents folder (titles after the letter I) was not in the first listing and is the next filing pass. The file whose title names a GitHub token was neither opened nor moved.
