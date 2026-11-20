@@ -1,6 +1,6 @@
 # The Speculative Foundations Programme
 
-Ω42 is a thought experiment, and speculation is its engine. This programme gives speculation its own space, register and method, so that ideas can be explored without first meeting empirical standards. Its status labels are kept apart from the statuses of tested results. Proposed by the Originator and APE-510 (19 November 2026); the model is in Companion Part 234 and the register is `records/exploration/register.json`. The Core principle is proposed as CA-31.
+Ω42 is a thought experiment, and speculation is its engine. This programme gives speculation its own space, register and method, so that ideas can be explored without first meeting empirical standards. Its status labels are kept apart from the statuses of tested results. Proposed by the Originator and APE-510 (ChatGPT 6, OpenAI) (19 November 2026); the model is in Companion Part 234 and the register is `records/exploration/register.json`. The Core principle is proposed as CA-31.
 
 ## The governing principle
 

@@ -1,0 +1,58 @@
+<!--{"title": "Companion Explorer", "desc": "Explore the Omega42 Companion online: a navigable, searchable guide to the ideas, mathematics, methods and speculative possibilities behind Omega42, with stable links to every section.", "nav": "companion", "scripts": ["companion.js"]}-->
+<div class="wide">
+<section class="band">
+  <div class="stack">
+    <div class="eyebrow">Explore the Omega42 Companion · {{VERSION}}</div>
+    <h1>A living, navigable guide to <em>the ideas behind Omega42.</em></h1>
+    <p class="lede">{{COMPANION_COUNT}} parts on the mathematics, the methods, consciousness, existence and the open questions, each section with its own stable link and its status marked. Generated from the same version-controlled source as the downloadable Companion, so the two never disagree.</p>
+    <label for="csearch" class="mono" style="color:#cfc9f2">Search the Companion</label>
+    <input type="search" id="csearch" placeholder="historical existence, recurrence, consciousness, aperture…" style="max-width:40rem">
+  </div>
+</section>
+
+<section class="stack"><div id="cresults" class="hits"></div></section>
+
+<section class="stack">
+  <div class="eyebrow">Three ways to read</div>
+  <div class="doors">
+    <a class="door c-cyan" href="faq.html"><span class="k">Explore</span><h3>Start with the questions</h3><p>Short answers, examples and the links between ideas. For the curious.</p><span class="go">Open the FAQ →</span></a>
+    <a class="door c-violet" href="companion-part-0.html"><span class="k">Study</span><h3>Read the full Companion</h3><p>The complete text, part by part, with its terminology and the status of every reading.</p><span class="go">Begin at Part 0 →</span></a>
+    <a class="door c-magenta" href="protocol.html"><span class="k">Research</span><h3>Go to the sources</h3><p>The Core's formal definitions, the records, the scripts and the test register behind each statement.</p><span class="go">Core and records →</span></a>
+  </div>
+</section>
+
+<section class="stack">
+  <div class="eyebrow">Browse by subject</div>
+  <div class="doors four">
+    <a class="door c-cyan" href="companion.html?q=orbit"><span class="k">Mathematical foundations</span><h3>Structures, transformations, invariants and proofs</h3></a>
+    <a class="door c-orange" href="companion.html?q=physics"><span class="k">Physics and quantum ideas</span><h3>Mappings, conjectures and open questions</h3></a>
+    <a class="door c-magenta" href="companion.html?q=consciousness"><span class="k">Consciousness and existence</span><h3>Experience, meaning, history and agency</h3></a>
+    <a class="door c-lime" href="companion.html?q=relationship"><span class="k">Relationships and society</span><h3>Networks, consensus and collective futures</h3></a>
+  </div>
+</section>
+
+<section class="grid2" style="align-items:start">
+  <div class="stack">
+    <div class="eyebrow">Status, always marked</div>
+    <h2>Reading the tiers</h2>
+    <p><b>CDT-A</b> is verified mathematics, recomputed in the repository. <b>CDT-B</b> is the constructed interface: names and conventions. <b>CDT-C</b> is a reading generated within the frame, marked <i>exploratory</i>. A <b>protocol</b> statement is a rule of the Core. Every section heading carries its tier.</p>
+  </div>
+  <div class="stack">
+    <div class="eyebrow">Core and Companion</div>
+    <h2>Two documents, two roles</h2>
+    <div class="scroll"><table><thead><tr><th>Core Specification</th><th>Companion</th></tr></thead><tbody>
+      <tr><td>Normative authority</td><td>Explanatory and exploratory</td></tr>
+      <tr><td>Defines what the protocol requires</td><td>Explains and develops the ideas</td></tr>
+      <tr><td>Controls formal terminology</td><td>Can introduce proposed concepts, marked as such</td></tr>
+      <tr><td>Changes only through ratified releases</td><td>Develops more freely, within each release</td></tr>
+    </tbody></table></div>
+    <p class="note">The Companion never changes the meaning of a Core definition; where it proposes or interprets, it says so and names the Core provision. You are reading {{VERSION}}, paired with the Core of the same revision; earlier releases stay available in the <a href="history.html">history</a>.</p>
+  </div>
+</section>
+
+<section class="stack">
+  <div class="eyebrow">Contents</div>
+  <h2>Every part, in order</h2>
+  <div class="ctoc-list">{{COMPANION_TOC}}</div>
+</section>
+</div>

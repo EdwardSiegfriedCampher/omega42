@@ -1,0 +1,120 @@
+<!--{"title": "Information Integrity", "desc": "Omega42 applied to AI-generated content, misinformation and disinformation: examine the origin, accuracy, provenance, timeline and spread of information, with an integrity profile instead of a single trust score.", "nav": "integrity", "scripts": ["integrity.js"]}-->
+<div class="wide">
+<section class="band">
+  <div class="stack">
+    <div class="eyebrow">Research initiative O42-IIRA-01 · Information Integrity</div>
+    <h1>Examine the information <em>you build your world from.</em></h1>
+    <p class="lede">Was it made by a person or an AI? Is it accurate? Where did it come from, how has it changed, and how did it spread? Omega42 brings mathematics, evidence and an AI Navigator to these questions, and keeps them apart, because the origin of a text is not its truth.</p>
+    <div class="ctas"><a class="btn" href="#investigate">Investigate something now</a><a class="btn ghost" href="#value">What it gives you</a></div>
+  </div>
+</section>
+
+<section class="grid2" style="align-items:start">
+  <div class="stack">
+    <div class="eyebrow">The first distinction</div>
+    <h2>Origin is not truth</h2>
+    <p>Three questions are kept separate: <b>origin</b> (human, AI, both or unknown), <b>accuracy</b> (are the statements true?), and <b>intent and use</b> (to inform, mislead, impersonate?). An AI-written article can be accurate; a human-written one can deceive; a genuine photograph can carry a false caption; a real video can be cut to remove its context.</p>
+  </div>
+  <div class="scroll"><table><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody>
+    <tr><td>AI-generated content</td><td>Produced wholly or partly with generative AI</td></tr>
+    <tr><td>Misinformation</td><td>False or misleading, whether or not deception was intended</td></tr>
+    <tr><td>Disinformation</td><td>False or misleading, spread deliberately to deceive</td></tr>
+    <tr><td>Malinformation</td><td>Genuine information used in a harmful or misleading context</td></tr>
+    <tr><td>Manipulated content</td><td>Altered to change its meaning or evidential value</td></tr>
+    <tr><td>Synthetic impersonation</td><td>Made to imitate a real person, organization or event</td></tr>
+  </tbody></table></div>
+</section>
+
+<section class="stack" id="value">
+  <div class="eyebrow">What it gives you</div>
+  <h2>Six things you can do with it</h2>
+  <div class="doors">
+    <div class="door c-cyan"><span class="k">Before you share</span><h3>Check a viral claim</h3><p>Split a post into its individual claims and see which are supported, contradicted or unverified, instead of a thumbs-up or thumbs-down for the whole thing.</p></div>
+    <div class="door c-magenta"><span class="k">Count sources, not echoes</span><h3>See through repetition</h3><p>Ten sites repeating one article are one source. Find out how many independent confirmations a story has.</p></div>
+    <div class="door c-orange"><span class="k">Old news, new caption</span><h3>Test the timeline</h3><p>Compare when an event happened, when the content was made and when it first appeared, and catch old footage presented as new.</p></div>
+    <div class="door c-violet"><span class="k">Research and study</span><h3>Audit a paper or a headline</h3><p>Check that references exist and say what they are cited for, and measure the gap between a study and the headline about it.</p></div>
+    <div class="door c-lime"><span class="k">Unconventional sources</span><h3>Read the unusual fairly</h3><p>Compare channeled texts, ancient accounts or anomalous reports for provenance and consistency, separating what a source says from what independent evidence shows.</p></div>
+    <div class="door c-blue"><span class="k">Know what is known</span><h3>Calibrated uncertainty</h3><p>Get a profile of what is established and what is open, with the reasons, instead of a confident verdict or a single trust score.</p></div>
+  </div>
+</section>
+
+<section class="band" id="investigate">
+  <div class="grid2" style="align-items:start">
+    <div class="stack">
+      <div class="eyebrow">Investigate information</div>
+      <h2>Prepare an investigation <em>for your Navigator.</em></h2>
+      <p class="lede">Paste a claim, an article, a transcript or a link, choose the kind of investigation, and copy the prompt into any AI with the Core and the Companion attached. The prompt is built on your device; nothing is sent anywhere. The investigation itself is carried out by the AI you use, with its usual limits.</p>
+    </div>
+    <form id="ii-form" class="ask stack" autocomplete="off">
+      <label for="ii-material" class="mono">Claim, text or source URL</label>
+      <textarea id="ii-material" rows="5" placeholder="Paste what you want examined"></textarea>
+      <div class="ask-row"><label for="ii-type" class="mono">Investigation type</label>
+        <select id="ii-type"><option value="comprehensive">Comprehensive investigation</option><option value="origin">AI origin and synthetic-content analysis</option><option value="claims">Claim and evidence verification</option><option value="provenance">Source and provenance reconstruction</option><option value="propagation">Coordination and information propagation</option><option value="temporal">Historical and temporal verification</option></select></div>
+      <div class="ask-row"><label for="ii-depth" class="mono">Depth</label>
+        <select id="ii-depth"><option value="quick">Quick</option><option value="detailed" selected>Detailed</option><option value="research">Research grade</option></select></div>
+    </form>
+  </div>
+  <div class="stack" style="margin-top:1.5rem">
+    <pre id="ii-prompt" style="white-space:pre-wrap"></pre>
+    <div class="row"><button class="btn" data-copy="#ii-prompt" type="button">Copy the prompt</button></div>
+  </div>
+</section>
+
+<section class="stack">
+  <div class="eyebrow">The Information Integrity Engine (O42-IIE-01, proposed)</div>
+  <h2>Six modules, used alone or together</h2>
+  <div class="investigations">
+    <div class="c-cyan"><span class="stage">1</span><b>Synthetic content analysis</b><span class="note">Indicators of AI, human and hybrid production, read as evidence, never as proof.</span></div>
+    <div class="c-violet"><span class="stage">2</span><b>Provenance and source reconstruction</b><span class="note">A graph of copies, edits, quotations and translations back to the earliest available source.</span></div>
+    <div class="c-magenta"><span class="stage">3</span><b>Claim verification</b><span class="note">Each claim linked to its evidence, its sources, the claims it depends on and the claims that contradict it.</span></div>
+    <div class="c-orange"><span class="stage">4</span><b>Propagation analysis</b><span class="note">How a story spreads, whether apparently independent sources share one origin, whether corrections reach the same audience.</span></div>
+    <div class="c-lime"><span class="stage">5</span><b>Temporal and contextual analysis</b><span class="note">Event, creation, publication and redistribution times compared.</span></div>
+    <div class="c-blue"><span class="stage">6</span><b>Reliability assessment</b><span class="note">Evidence quality, independence and competing explanations, with uncertainty stated. Example: three origins at 0.5, 0.3 and 0.2 carry 1.49 bits of uncertainty, a measure of what is not yet known, not a truth score.</span></div>
+  </div>
+  <div class="grid2" style="align-items:start">
+    <div class="stack"><h3>An integrity profile, not a score</h3><p class="note">Origin evidence · factual support · source independence · temporal consistency · provenance · propagation, each with its finding and reasons. A single number such as "92/100 trustworthy" hides the reasons and suggests a precision that does not exist.</p></div>
+    <div class="stack"><h3>Where Omega42's own mathematics enters</h3><p class="note">Three open experiments: mapping information features into the 81-state space (does it preserve meaningful distinctions?), reading successive versions of a claim as a recurrence (can progressive distortion be detected?), and similarity across apparently independent sources (shared errors, sequences, omissions). Each counts only if it beats ordinary baselines in a registered test.</p></div>
+  </div>
+</section>
+
+<section class="grid2" style="align-items:start">
+  <div class="stack">
+    <div class="eyebrow">Safeguards</div>
+    <h2>So the checker does not become a source of error</h2>
+    <ul>
+      <li>Never declare an author to be an AI because a detector gives a high score.</li>
+      <li>Never call a person or organization deliberately deceptive without evidence of intent.</li>
+      <li>Never count agreement between AI systems that share a model or sources as independent verification.</li>
+      <li>Never confuse a source's reputation with the truth of a particular claim.</li>
+      <li>Never treat absence of evidence as proof that something did not happen.</li>
+      <li>Keep the material, the steps and the evidence so every conclusion can be challenged; protect privacy.</li>
+      <li>Challenge misinformation without suppressing disagreement, unconventional research or unpopular ideas.</li>
+    </ul>
+  </div>
+  <div class="stack">
+    <div class="eyebrow">How it will be tested</div>
+    <h2>Five hypotheses, registered before any run</h2>
+    <table><tbody>
+      <tr><td class="num">H-IIE01</td><td>Structural patterns help tell some AI-generated content from human writing, beyond existing detectors and simple baselines.</td></tr>
+      <tr><td class="num">H-IIE02</td><td>Provenance graphs expose hidden common origins of apparently independent publications.</td></tr>
+      <tr><td class="num">H-IIE03</td><td>Recurrence and transformation patterns identify progressive distortion of a claim.</td></tr>
+      <tr><td class="num">H-IIE04</td><td>Claim-by-claim analysis beats document-level assessment.</td></tr>
+      <tr><td class="num">H-IIE05</td><td>Combined content, time, source and network analysis improves detection of coordinated manipulation out of sample.</td></tr>
+    </tbody></table>
+    <p class="note">The benchmark must include unusual, formulaic, technical, translated and non-native human writing, so distinctive people are not mislabeled as machines; development and held-out test data are kept apart.</p>
+  </div>
+</section>
+
+<section class="stack">
+  <div class="eyebrow">Roadmap</div>
+  <div class="investigations">
+    <div class="c-cyan"><span class="stage">First</span><b>Claim and evidence verification</b><span class="note">Useful now, with the prompt above; it needs no new mathematics.</span></div>
+    <div class="c-violet"><span class="stage">Second</span><b>Provenance and source relationships</b><span class="note">Source graphs, document histories, independence, timelines.</span></div>
+    <div class="c-magenta"><span class="stage">Third</span><b>AI-generated content research</b><span class="note">Existing detectors tested, Omega42 features developed, a controlled benchmark.</span></div>
+    <div class="c-orange"><span class="stage">Fourth</span><b>Propagation</b><span class="note">Recurrence, coordinated spread, consensus formation.</span></div>
+    <div class="c-lime"><span class="stage">Fifth</span><b>The integrated engine</b><span class="note">All four combined and evaluated independently.</span></div>
+  </div>
+  <p class="lede">The larger question: can Omega42 help tell the appearance of consensus from the existence of independently supported knowledge?</p>
+  <p class="note">Background: NIST, <a href="https://www.nist.gov/publications/reducing-risks-posed-synthetic-content-overview-technical-approaches-digital-content">Reducing Risks Posed by Synthetic Content</a> (2024), on provenance, watermarking, detection and auditing as complementary approaches; C2PA, <a href="https://c2pa.org/">Content Credentials</a>, which records creation and edit history and distinguishes provenance from truth. Research on AI-text detectors reports performance that varies with model, subject, length and paraphrasing, with false positives. Proposal by ChatGPT 6 (OpenAI), relayed by the Originator, 20 November 2026; full text in <a href="https://github.com/{{REPO}}/blob/main/docs/INFORMATION_INTEGRITY.md">docs/INFORMATION_INTEGRITY.md</a>. Nothing here shows yet that Omega42's own mathematics adds value for these tasks; the experiments above are how that will be found out.</p>
+</section>
+</div>

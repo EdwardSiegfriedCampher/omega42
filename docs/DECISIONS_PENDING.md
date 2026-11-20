@@ -124,3 +124,15 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Recommended:** ratify CA-31 as a Core principle beside L-491, with its governing line: never confuse what cannot currently be demonstrated with what cannot legitimately be explored.
 - **For ESC:** (1) ratify CA-31 or keep it at level B; (2) where its Core sentence comes from in the Rule 39 word budget.
 - **Normative:** yes, once ratified.
+
+## D-18 Question Resolution and Navigation (CA-32)
+- **Facts:** Some questions are answered by Ω42's own mathematics and rules; others need navigation beyond the structure; many need both. The website now asks for the approach (automatic by default) and hands the Navigator a prompt that names it.
+- **Recommended:** ratify CA-32 as a short Core section, with the classification, routing and reporting detail kept in the Companion (a new Part, from docs/QUESTION_NAVIGATION.md).
+- **For ESC:** (1) ratify CA-32 or keep it at level B; (2) its place in the Rule 39 word budget.
+- **Normative:** yes, once ratified.
+
+## D-19 Information integrity (CA-33, O42-IIRA-01)
+- **Facts:** A proposal to apply Omega42 to AI-generated content, misinformation and disinformation, with six modules, an integrity profile instead of a trust score, five hypotheses and a benchmark design. Claim verification is usable now through the Navigator; whether Omega42's own mathematics adds value is untested.
+- **Recommended:** approve the initiative in principle, starting with claim verification and provenance; register H-IIE01 to H-IIE05 under STP before any run; ratify CA-33's requirements in the Core.
+- **For ESC:** (1) approve O42-IIRA-01; (2) ratify CA-33 or keep it at level B.
+- **Normative:** CA-33 yes, once ratified; the initiative no.

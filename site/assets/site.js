@@ -56,7 +56,7 @@
   });
 
   /* live numbers */
-  var stats = $('#stats');
+  var stats = $('#live-stats');
   if (stats) Promise.all([load('api/library.json'), load('api/register.json'), load('api/prior-art.json'), load('api/contributors.json')])
     .then(function (d) {
       var nav = d[0].items.filter(function (i) { return i.kind === 'navigation'; }).length;
@@ -139,3 +139,14 @@
     }).join('') : '<p class="muted">No verified professionals yet. Be the first: use the verification form below.</p>';
   }).catch(function () {});
 })();
+
+/* Ask Omega42 (home page): hand the question to the Strike app in the URL fragment, which browsers never send to a server. */
+(function () {
+  var f = document.getElementById('ask-form'); if (!f) return;
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var q = document.getElementById('ask-q').value.trim(); if (!q) { document.getElementById('ask-q').focus(); return; }
+    location.href = 'strike.html#' + new URLSearchParams({q: q, mode: document.getElementById('ask-mode').value}).toString();
+  });
+})();
+

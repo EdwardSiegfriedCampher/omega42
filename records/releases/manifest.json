@@ -265,6 +265,22 @@
    "level": "A",
    "level_source": "declared",
    "date": "2026-11-20"
+  },
+  {
+   "id": "CA-32",
+   "title": "CA-32: Question Resolution and Navigation (20 November 2026)",
+   "status": "RECORDED",
+   "level": "A",
+   "level_source": "declared",
+   "date": "2026-11-20"
+  },
+  {
+   "id": "CA-33",
+   "title": "CA-33: Information integrity (20 November 2026)",
+   "status": "RECORDED",
+   "level": "A",
+   "level_source": "declared",
+   "date": "2026-11-20"
   }
  ],
  "approval": {

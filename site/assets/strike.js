@@ -77,4 +77,26 @@
     }).then(function () { btn.disabled = false; });
   });
   $('#strike-q').addEventListener('focus', function () { boot().catch(function () {}); }, {once: true});
+
+  // the approach and the ready-made Navigator prompt (proposal CA-32: internal, external, hybrid, speculative, formal)
+  var MODES = {auto: 'Automatic: classify the question yourself (direct, exploratory, hybrid, speculative or formal), say which approach you chose and why.',
+    direct: 'Direct Omega analysis: answer from the established definitions, rules and mathematics of Omega42 only, and trace each step to them.',
+    explore: 'Active exploration: navigate the Companion, the research records and outside sources; report what you could and could not establish, with sources.',
+    hybrid: 'Hybrid: first establish what the Omega42 mathematics shows, then investigate the wider implications, keeping results, external findings and speculation apart.',
+    speculate: 'Open speculation: develop possibilities and thought experiments freely, marked as speculation.',
+    formal: 'Formal development: give definitions, equations, derivations, proofs or counterexamples.'};
+  function mode() { var m = document.querySelector('input[name=mode]:checked'); return m ? m.value : 'auto'; }
+  function prompt() {
+    var q = $('#strike-q').value.trim() || 'your question';
+    $('#nav-prompt').textContent = 'Welcome Navigator\n\nMy question: ' + q + '\n\nApproach: ' + MODES[mode()] +
+      '\nIn the report, name the approach you used and give each statement its status: mathematical derivation, logical conclusion, external finding, formal connection, speculative connection, empirical finding or open question. Do not state external verification that did not happen.';
+  }
+  form.addEventListener('input', prompt); form.addEventListener('change', prompt); prompt();
+  // arriving from the home page: the question travels in the URL fragment, which is never sent to any server
+  var h = new URLSearchParams(location.hash.slice(1));
+  if (h.get('q')) {
+    $('#strike-q').value = h.get('q');
+    var r = document.querySelector('input[name=mode][value="' + (h.get('mode') || 'auto') + '"]'); if (r) r.checked = true;
+    prompt(); if (h.get('go') !== '0') form.requestSubmit(); else $('#strike-q').focus();
+  }
 })();
