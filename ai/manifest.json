@@ -7,9 +7,9 @@
    "sha256": "5fcfdeff93f57d1a75be8851a22f0773d4fd1ddb9750525b1c480b03186d3d75"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 1992588,
-   "tokens_est": 498147,
-   "sha256": "309bd791401c557aa94ced2ae3aa978bc94dde90dcbc7305ea3c86bb8a006f09"
+   "chars": 1998035,
+   "tokens_est": 499509,
+   "sha256": "d95bfd82361da17ed6cda0ef75bc6bdec21d368eb438830186b58a0cca51bd71"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477959,
@@ -5199,9 +5199,16 @@
   {
    "doc": "Companion",
    "heading": "PART 233: THE TWO LAYERS OF EXISTENCE — STRUCTURE AND MEANINGFUL EXISTENCE",
-   "chars": 34702,
-   "tokens_est": 8676,
-   "sha256": "3f6de038c66432277045b0342fd299c1b490113bf599fb40fe38a05c91b6652d"
+   "chars": 34698,
+   "tokens_est": 8675,
+   "sha256": "901f1e765bd73d029b999ed228418a8f466896b3dabc99a901d85970f5f7d2e7"
+  },
+  {
+   "doc": "Companion",
+   "heading": "PART 234: SPECULATION AS AN ENGINE — THE SPECULATIVE FOUNDATIONS PROGRAMME",
+   "chars": 4760,
+   "tokens_est": 1190,
+   "sha256": "3051f27343393e92b236cc9050fe6b0b5670fad4499dd8c17e4d233a99e6d3b5"
   },
   {
    "doc": "Companion",
@@ -5318,9 +5325,9 @@
   {
    "doc": "Companion",
    "heading": "APPENDIX X: EVERYTHING ELSE IN THE RELEASE [REFERENCE — Core L-493]",
-   "chars": 179017,
-   "tokens_est": 44754,
-   "sha256": "d16a13cd5e82b93b5f9b64dc1a298d7f84a98fbba19f9d19333e5a7762407100"
+   "chars": 179628,
+   "tokens_est": 44907,
+   "sha256": "56bed6363e0eaa39659d450b791f0fe71402e0186b49bfe1ba11f9d2e33a40e5"
   }
  ]
 }

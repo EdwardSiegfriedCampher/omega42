@@ -118,3 +118,9 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Applied (level B):** a metadata register with names withheld; recomputation of the 24-cycle test, the order-702 circulant graph and Cassini's identity (`records/archive/recompute_external.py`).
 - **For ESC:** (1) revoke the GitHub token stored in a OneDrive document and delete the file; (2) replace the older Rev.450 exports in OneDrive after ratification; (3) withdraw the circulant-graph paper; (4) whether to register a test of proposal O42-PEP-2026-002 before adopting it; (5) public release by family, first the Construct versions 2 to 12; (6) credit the classical 24-period and the published digital-root pattern in the Prior Art Ledger.
 - **Normative:** no.
+
+## D-17 Speculation as a principal engine (CA-31)
+- **Facts:** APE-510 proposes that speculation be one of Ω42's principal engines of discovery. Core L-491 already makes the scientific method one optional mode inside Ω42. Companion Part 234, research/philosophy/SPECULATIVE_FOUNDATIONS.md and the Exploration Register (EX-001 to EX-006) apply the proposal at level B.
+- **Recommended:** ratify CA-31 as a Core principle beside L-491, with its governing line: never confuse what cannot currently be demonstrated with what cannot legitimately be explored.
+- **For ESC:** (1) ratify CA-31 or keep it at level B; (2) where its Core sentence comes from in the Rule 39 word budget.
+- **Normative:** yes, once ratified.

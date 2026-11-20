@@ -45,6 +45,7 @@ OUTSIDE = {'docs/Omega42_Core_Specification_V335_Rev450_STABLE.docx': 'the Core 
            'ai/Omega42_Existential_Framework.md': 'the Existential Framework rendered from Companion Part 145 by tools/ai_edition.py',
            'llms.txt': 'the index of the AI reading editions, rendered by tools/ai_edition.py'}
 EXEMPT = {'tools/__init__.py'}
+ARCHIVED = 'archive/2025-10/'   # the October 2025 edition, kept unchanged and not embedded (D-15; archive/2025-10/README.md)
 
 
 def paragraphs(path):
@@ -88,7 +89,7 @@ def required(repo):
         dirs[:] = [x for x in dirs if x not in ('.git', '__pycache__')]
         for f in fs:
             r = os.path.relpath(os.path.join(d, f), repo)
-            if r not in OUTSIDE and r not in EXEMPT and not r.endswith('.pyc'): req.append(r)
+            if r not in OUTSIDE and r not in EXEMPT and not r.endswith('.pyc') and not r.startswith(ARCHIVED): req.append(r)
     return sorted(req)
 
 

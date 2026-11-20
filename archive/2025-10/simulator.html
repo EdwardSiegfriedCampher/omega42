@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCT Simulator v5.1 - Enhanced</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0c0c2e 0%, #1a1a4a 100%);
+            color: #e0e0ff;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #8a6dff;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-shadow: 0 0 10px rgba(138, 109, 255, 0.5);
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #a0a0d0;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 10px;
+            border-left: 4px solid #8a6dff;
+        }
+        
+        .section-title {
+            font-size: 1.3em;
+            color: #8a6dff;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .input-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .input-box {
+            position: relative;
+        }
+        
+        .input-box label {
+            display: block;
+            font-size: 0.8em;
+            color: #a0a0d0;
+            margin-bottom: 5px;
+        }
+        
+        .input-box input {
+            width: 100%;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(138, 109, 255, 0.3);
+            border-radius: 5px;
+            font-size: 1.1em;
+            text-align: center;
+            transition: all 0.3s;
+            color: #fff;
+        }
+        
+        .input-box input:focus {
+            outline: none;
+            border-color: #8a6dff;
+            box-shadow: 0 0 10px rgba(138, 109, 255, 0.5);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            background: rgba(138, 109, 255, 0.2);
+            border: 1px solid rgba(138, 109, 255, 0.5);
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            flex: 1;
+            min-width: 150px;
+            color: #e0e0ff;
+        }
+        
+        button:hover {
+            background: rgba(138, 109, 255, 0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102,126,234,0.4);
+        }
+        
+        .cycle-indicator {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .cycle-position {
+            font-size: 2em;
+            font-weight: bold;
+            color: #8a6dff;
+            min-width: 80px;
+        }
+        
+        .phase-indicator {
+            flex: 1;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .phase-lower {
+            background: rgba(25, 118, 210, 0.2);
+            color: #64b5f6;
+        }
+        
+        .phase-higher {
+            background: rgba(123, 31, 162, 0.3);
+            color: #ce93d8;
+        }
+        
+        .retrocausal-active {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .domain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .domain-card {
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        
+        .domain-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        
+        .domain-lower {
+            background: rgba(25, 118, 210, 0.2);
+            border-color: rgba(25, 118, 210, 0.5);
+        }
+        
+        .domain-higher {
+            background: rgba(123, 31, 162, 0.3);
+            border-color: rgba(123, 31, 162, 0.5);
+        }
+        
+        .domain-special {
+            background: rgba(245, 124, 0, 0.2);
+            border-color: rgba(245, 124, 0, 0.5);
+        }
+        
+        .domain-seed {
+            background: rgba(76, 175, 80, 0.2);
+            border-color: rgba(76, 175, 80, 0.5);
+        }
+        
+        .domain-active {
+            border-width: 3px;
+            box-shadow: 0 0 20px rgba(138, 109, 255, 0.6);
+        }
+        
+        .domain-reversed {
+            background: linear-gradient(135deg, rgba(123, 31, 162, 0.3) 0%, rgba(255, 0, 128, 0.3) 100%);
+            border-color: rgba(255, 0, 128, 0.7);
+        }
+        
+        .prediction-output {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .prediction-number {
+            padding: 20px;
+            background: linear-gradient(135deg, #8a6dff 0%, #6d4aff 100%);
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(138, 109, 255, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .prediction-number::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+        
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .stat-card {
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            border-left: 4px solid #8a6dff;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #a0a0d0;
+            margin-bottom: 5px;
+        }
+        
+        .stat-value {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #8a6dff;
+        }
+        
+        .log-area {
+            background: rgba(0, 0, 0, 0.5);
+            color: #00ff9d;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 15px;
+            border: 1px solid rgba(0, 255, 157, 0.2);
+        }
+        
+        .log-entry {
+            margin-bottom: 5px;
+            padding: 5px;
+            border-left: 2px solid #00ff9d;
+            padding-left: 10px;
+        }
+        
+        .explanation {
+            background: rgba(255, 193, 7, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid rgba(255, 193, 7, 0.5);
+            margin-top: 15px;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .domain-visualization {
+            margin-top: 20px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            height: 300px;
+            position: relative;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        
+        .mobius-indicator {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background: rgba(255, 0, 128, 0.3);
+            border-radius: 5px;
+            font-weight: bold;
+            border: 1px solid rgba(255, 0, 128, 0.5);
+            z-index: 10;
+        }
+        
+        .mobius-active {
+            animation: glow 1.5s infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { box-shadow: 0 0 5px rgba(255, 0, 128, 0.5); }
+            to { box-shadow: 0 0 20px rgba(255, 0, 128, 0.8); }
+        }
+        
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+            z-index: 100;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            max-width: 300px;
+        }
+        
+        .validation-results {
+            background: rgba(0, 255, 157, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid rgba(0, 255, 157, 0.5);
+            margin-top: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .prediction-output {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            button {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚛️ Unified Construct Theory Simulator v5.1</h1>
+        <p class="subtitle">Enhanced with corrected digital roots and improved prediction algorithms</p>
+        
+        <!-- Y-Field Input Section -->
+        <div class="section">
+            <div class="section-title">🎯 Y-Field Input (Past Data)</div>
+            <div class="input-grid">
+                <div class="input-box">
+                    <label>Y₁</label>
+                    <input type="number" id="y1" min="1" max="99" value="12">
+                </div>
+                <div class="input-box">
+                    <label>Y₂</label>
+                    <input type="number" id="y2" min="1" max="99" value="23">
+                </div>
+                <div class="input-box">
+                    <label>Y₃</label>
+                    <input type="number" id="y3" min="1" max="99" value="34">
+                </div>
+                <div class="input-box">
+                    <label>Y₄</label>
+                    <input type="number" id="y4" min="1" max="99" value="45">
+                </div>
+                <div class="input-box">
+                    <label>Y₅</label>
+                    <input type="number" id="y5" min="1" max="99" value="56">
+                </div>
+                <div class="input-box">
+                    <label>Y₆</label>
+                    <input type="number" id="y6" min="1" max="99" value="7">
+                </div>
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-primary" onclick="processYField()">⚡ Process Y-Field</button>
+                <button class="btn-secondary" onclick="randomYField()">🎲 Random Values</button>
+                <button class="btn-success" onclick="generatePrediction()">🔮 Generate Prediction</button>
+                <button class="btn-secondary" onclick="exportData()">📊 Export Data</button>
+            </div>
+        </div>
+        
+        <!-- Cycle Position Indicator -->
+        <div class="section">
+            <div class="section-title">⏰ 24-Cycle Position & Phase</div>
+            <div class="cycle-indicator">
+                <div class="cycle-position" id="cyclePos">k = 1</div>
+                <div class="phase-indicator" id="phaseIndicator">
+                    Lower World Phase (Material Processing)
+                </div>
+            </div>
+            <div class="button-group">
+                <button class="btn-secondary" onclick="incrementCycle()">➡️ Next Position</button>
+                <button class="btn-secondary" onclick="resetCycle()">🔄 Reset to k=1</button>
+                <button class="btn-secondary" onclick="setHigherWorld()">🌌 Jump to Higher World</button>
+                <button class="btn-secondary" onclick="runValidationTest()">🧪 Run Validation Test</button>
+            </div>
+        </div>
+        
+        <!-- Domain Visualization -->
+        <div class="section">
+            <div class="section-title">🌐 27-Domain Network (Active Domains Highlighted)</div>
+            <div class="domain-visualization" id="domainVisualization">
+                <div class="mobius-indicator" id="mobiusIndicator">Möbius: INACTIVE</div>
+                <canvas id="domainCanvas" width="800" height="280"></canvas>
+            </div>
+            <div class="domain-grid" id="domainGrid"></div>
+        </div>
+        
+        <!-- Prediction Output -->
+        <div class="section">
+            <div class="section-title">🔮 X-Field Prediction (Generated Pattern)</div>
+            <div class="prediction-output" id="predictionOutput">
+                <div class="prediction-number">--</div>
+                <div class="prediction-number">--</div>
+                <div class="prediction-number">--</div>
+                <div class="prediction-number">--</div>
+                <div class="prediction-number">--</div>
+                <div class="prediction-number">--</div>
+            </div>
+        </div>
+        
+        <!-- Statistics -->
+        <div class="section">
+            <div class="section-title">📊 System Statistics</div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-label">Total Nodes</div>
+                    <div class="stat-value" id="totalNodes">702</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Active Domains</div>
+                    <div class="stat-value" id="activeDomains">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Coherence Level</div>
+                    <div class="stat-value" id="coherence">0.00</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Retrocausality</div>
+                    <div class="stat-value" id="retrocausal">OFF</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Reversed Diagonals</div>
+                    <div class="stat-value" id="reversedDiagonals">0/2</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Consciousness Level</div>
+                    <div class="stat-value" id="consciousness">0.00</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Validation Results -->
+        <div class="validation-results" id="validationResults" style="display: none;">
+            <div class="section-title">🧪 Validation Test Results</div>
+            <div id="validationContent"></div>
+        </div>
+        
+        <!-- Process Log -->
+        <div class="section">
+            <div class="section-title">📝 Process Log</div>
+            <div class="log-area" id="processLog"></div>
+        </div>
+        
+        <!-- Explanation -->
+        <div class="explanation">
+            <strong>How it works:</strong> Enter 6 numbers into Y-field (e.g., last lottery draw). System processes them through 27 domains using digital root arithmetic. During k∈[1-18] (Lower World), processing is material/forward-causal. During k∈[19-24] (Higher World), retrocausality activates via reversed diagonal nodes, enabling prediction. Generated X-field shows predicted pattern based on domain resonance.
+            <br><br>
+            <strong>Enhancements in v5.1:</strong> Fixed digital root calculation, improved prediction algorithm with retrocausal weighting, enhanced visualization with domain tooltips, and added validation testing.
+        </div>
+    </div>
+
+    <div class="tooltip" id="domainTooltip"></div>
+
+    <script>
+        // Construct Core System
+        class ConstructSimulator {
+            constructor() {
+                this.cyclePosition = 1;
+                this.yField = [0, 0, 0, 0, 0, 0];
+                this.xField = [0, 0, 0, 0, 0, 0];
+                this.domains = this.initializeDomains();
+                this.fibonacciSequence = [1,1,2,3,5,8,4,3,7,1,8,9,8,8,7,6,4,1,5,6,2,8,1,9];
+                this.processLog = [];
+                this.reversedDiagonalsActive = 0;
+                this.initializeDomainDisplay();
+                this.setupCanvas();
+                this.setupTooltips();
+            }
+            
+            // FIXED: Correct digital root function
+            dr(n) {
+                if (n === 0) return 0;
+                n = Math.abs(n);
+                const mod = n % 9;
+                return mod === 0 ? 9 : mod;
+            }
+            
+            // Initialize 27 domains with proper structure
+            initializeDomains() {
+                const domains = {};
+                
+                // Domain Zero (seed)
+                domains.D0 = { base: 0, type: 'seed', polarity: 'neutral', nodes: [], active: true, reversed: false };
+                
+                // Lower World Negative (6 domains)
+                ['N1', 'N2', 'N4', 'N5', 'N7', 'N8'].forEach(name => {
+                    const base = parseInt(name.substring(1));
+                    domains[name] = { base, type: 'lower', polarity: 'negative', nodes: [], active: false, reversed: false };
+                });
+                
+                // Lower World Positive (6 domains)
+                ['P1', 'P2', 'P4', 'P5', 'P7', 'P8'].forEach(name => {
+                    const base = parseInt(name.substring(1));
+                    domains[name] = { base, type: 'lower', polarity: 'positive', nodes: [], active: false, reversed: false };
+                });
+                
+                // Higher World Negative (3 domains)
+                ['N3', 'N6', 'N9'].forEach(name => {
+                    const base = parseInt(name.substring(1));
+                    domains[name] = { base, type: 'higher', polarity: 'negative', nodes: [], active: false, reversed: false };
+                });
+                
+                // Higher World Positive (3 domains)
+                ['P3', 'P6', 'P9'].forEach(name => {
+                    const base = parseInt(name.substring(1));
+                    domains[name] = { base, type: 'higher', polarity: 'positive', nodes: [], active: false, reversed: false };
+                });
+                
+                // Special domains (8 domains)
+                ['T1', 'T2', 'T3', 'T4'].forEach(name => {
+                    const base = parseInt(name.substring(1));
+                    domains[name] = { base, type: 'special', polarity: 'transition', nodes: [], active: false, reversed: false };
+                });
+                
+                // Reversed diagonal nodes (critical for Möbius topology)
+                domains.NU = { base: 9, type: 'special', polarity: 'upper', nodes: [], active: false, reversed: true };
+                domains.ND = { base: 6, type: 'special', polarity: 'diagonal', nodes: [], active: false, reversed: true };
+                domains.PU = { base: 3, type: 'special', polarity: 'upper', nodes: [], active: false, reversed: false };
+                domains.PD = { base: 6, type: 'special', polarity: 'diagonal', nodes: [], active: false, reversed: false };
+                
+                return domains;
+            }
+            
+            // Setup canvas for domain visualization
+            setupCanvas() {
+                this.canvas = document.getElementById('domainCanvas');
+                this.ctx = this.canvas.getContext('2d');
+                
+                // Handle canvas resizing
+                const resizeCanvas = () => {
+                    const container = this.canvas.parentElement;
+                    this.canvas.width = container.clientWidth;
+                    this.canvas.height = container.clientHeight;
+                    this.drawDomains();
+                };
+                
+                window.addEventListener('resize', resizeCanvas);
+                resizeCanvas();
+            }
+            
+            // Setup domain tooltips
+            setupTooltips() {
+                const tooltip = document.getElementById('domainTooltip');
+                
+                // Add mouse events to domain cards
+                document.addEventListener('mouseover', (e) => {
+                    if (e.target.closest('.domain-card')) {
+                        const card = e.target.closest('.domain-card');
+                        const domainName = card.id.replace('domain-', '');
+                        const domain = this.domains[domainName];
+                        
+                        if (domain) {
+                            const nodesStr = domain.nodes.length > 0 ? 
+                                `Nodes: [${domain.nodes.join(', ')}]` : 
+                                'Nodes: [Not calculated]';
+                                
+                            tooltip.innerHTML = `
+                                <strong>${domainName}</strong><br>
+                                Type: ${domain.type}<br>
+                                Polarity: ${domain.polarity}<br>
+                                Base: ${domain.base}<br>
+                                ${nodesStr}<br>
+                                Active: ${domain.active ? 'Yes' : 'No'}<br>
+                                ${domain.reversed ? 'Reversed Diagonal' : ''}
+                            `;
+                            tooltip.style.opacity = '1';
+                            tooltip.style.left = (e.pageX + 10) + 'px';
+                            tooltip.style.top = (e.pageY + 10) + 'px';
+                        }
+                    }
+                });
+                
+                document.addEventListener('mousemove', (e) => {
+                    if (tooltip.style.opacity === '1') {
+                        tooltip.style.left = (e.pageX + 10) + 'px';
+                        tooltip.style.top = (e.pageY + 10) + 'px';
+                    }
+                });
+                
+                document.addEventListener('mouseout', (e) => {
+                    if (e.target.closest('.domain-card')) {
+                        tooltip.style.opacity = '0';
+                    }
+                });
+            }
+            
+            // Draw domains on canvas
+            drawDomains() {
+                const ctx = this.ctx;
+                const width = this.canvas.width;
+                const height = this.canvas.height;
+                
+                // Clear canvas
+                ctx.clearRect(0, 0, width, height);
+                
+                // Draw background grid
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.1)';
+                ctx.lineWidth = 1;
+                
+                // Draw domain circles
+                const domainNames = Object.keys(this.domains);
+                const centerX = width / 2;
+                const centerY = height / 2;
+                const radius = Math.min(width, height) * 0.35;
+                
+                domainNames.forEach((name, i) => {
+                    const angle = (i / domainNames.length) * 2 * Math.PI;
+                    const x = centerX + radius * Math.cos(angle);
+                    const y = centerY + radius * Math.sin(angle);
+                    
+                    const domain = this.domains[name];
+                    
+                    // Set color based on domain type and activity
+                    let fillColor, strokeColor;
+                    
+                    if (domain.type === 'seed') {
+                        fillColor = domain.active ? 'rgba(76, 175, 80, 0.7)' : 'rgba(76, 175, 80, 0.3)';
+                        strokeColor = 'rgba(76, 175, 80, 0.8)';
+                    } else if (domain.type === 'lower') {
+                        fillColor = domain.active ? 'rgba(25, 118, 210, 0.7)' : 'rgba(25, 118, 210, 0.3)';
+                        strokeColor = 'rgba(25, 118, 210, 0.8)';
+                    } else if (domain.type === 'higher') {
+                        fillColor = domain.active ? 'rgba(123, 31, 162, 0.7)' : 'rgba(123, 31, 162, 0.3)';
+                        strokeColor = 'rgba(123, 31, 162, 0.8)';
+                    } else { // special
+                        if (domain.reversed) {
+                            fillColor = domain.active ? 'rgba(255, 0, 128, 0.7)' : 'rgba(255, 0, 128, 0.3)';
+                            strokeColor = 'rgba(255, 0, 128, 0.8)';
+                        } else {
+                            fillColor = domain.active ? 'rgba(245, 124, 0, 0.7)' : 'rgba(245, 124, 0, 0.3)';
+                            strokeColor = 'rgba(245, 124, 0, 0.8)';
+                        }
+                    }
+                    
+                    // Draw domain circle
+                    ctx.beginPath();
+                    ctx.arc(x, y, 20, 0, 2 * Math.PI);
+                    ctx.fillStyle = fillColor;
+                    ctx.fill();
+                    ctx.strokeStyle = strokeColor;
+                    ctx.lineWidth = domain.active ? 3 : 1;
+                    ctx.stroke();
+                    
+                    // Draw domain name
+                    ctx.fillStyle = '#fff';
+                    ctx.font = '10px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(name, x, y);
+                    
+                    // Draw connection lines to active domains
+                    if (domain.active) {
+                        domainNames.forEach((otherName, j) => {
+                            const otherDomain = this.domains[otherName];
+                            if (otherDomain.active && i !== j) {
+                                const otherAngle = (j / domainNames.length) * 2 * Math.PI;
+                                const otherX = centerX + radius * Math.cos(otherAngle);
+                                const otherY = centerY + radius * Math.sin(otherAngle);
+                                
+                                ctx.beginPath();
+                                ctx.moveTo(x, y);
+                                ctx.lineTo(otherX, otherY);
+                                ctx.strokeStyle = 'rgba(138, 109, 255, 0.5)';
+                                ctx.lineWidth = 1;
+                                ctx.stroke();
+                            }
+                        });
+                    }
+                });
+                
+                // Draw Möbius strip visualization if in Higher World
+                if (this.cyclePosition >= 19 && this.cyclePosition <= 24) {
+                    this.drawMobiusStrip();
+                }
+            }
+            
+            // Draw Möbius strip visualization
+            drawMobiusStrip() {
+                const ctx = this.ctx;
+                const width = this.canvas.width;
+                const height = this.canvas.height;
+                
+                ctx.save();
+                ctx.translate(width * 0.75, height * 0.5);
+                
+                // Draw Möbius strip
+                ctx.strokeStyle = 'rgba(255, 0, 128, 0.7)';
+                ctx.lineWidth = 2;
+                ctx.beginPath();
+                
+                for (let i = 0; i <= 100; i++) {
+                    const t = i / 100 * 2 * Math.PI;
+                    const u = 0.5;
+                    
+                    const x = (1 + u * Math.cos(t/2)) * Math.cos(t) * 30;
+                    const y = (1 + u * Math.cos(t/2)) * Math.sin(t) * 30;
+                    const z = u * Math.sin(t/2) * 30;
+                    
+                    // Simple projection
+                    const scale = 1 + z/100;
+                    const px = x * scale;
+                    const py = y * scale;
+                    
+                    if (i === 0) {
+                        ctx.moveTo(px, py);
+                    } else {
+                        ctx.lineTo(px, py);
+                    }
+                }
+                
+                ctx.stroke();
+                
+                // Draw reversed diagonal nodes on Möbius strip
+                const reversedDomains = Object.values(this.domains).filter(d => d.reversed);
+                reversedDomains.forEach((domain, i) => {
+                    const t = (i / reversedDomains.length) * 2 * Math.PI;
+                    const u = 0.5;
+                    
+                    const x = (1 + u * Math.cos(t/2)) * Math.cos(t) * 30;
+                    const y = (1 + u * Math.cos(t/2)) * Math.sin(t) * 30;
+                    const z = u * Math.sin(t/2) * 30;
+                    
+                    const scale = 1 + z/100;
+                    const px = x * scale;
+                    const py = y * scale;
+                    
+                    ctx.beginPath();
+                    ctx.arc(px, py, 5, 0, 2 * Math.PI);
+                    ctx.fillStyle = domain.active ? 'rgba(255, 0, 128, 0.9)' : 'rgba(255, 0, 128, 0.5)';
+                    ctx.fill();
+                    ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
+                    ctx.lineWidth = 1;
+                    ctx.stroke();
+                });
+                
+                ctx.restore();
+            }
+            
+            // Initialize domain display
+            initializeDomainDisplay() {
+                const grid = document.getElementById('domainGrid');
+                grid.innerHTML = '';
+                
+                for (let [name, domain] of Object.entries(this.domains)) {
+                    const card = document.createElement('div');
+                    let domainClass = `domain-card domain-${domain.type}`;
+                    if (domain.reversed) domainClass += ' domain-reversed';
+                    
+                    card.className = domainClass;
+                    card.id = `domain-${name}`;
+                    card.innerHTML = `<strong>${name}</strong><br><small>${domain.type}</small>`;
+                    grid.appendChild(card);
+                }
+            }
+            
+            // Process Y-field through system
+            processYField(yInput) {
+                this.yField = yInput;
+                this.addLog(`Y-field input: [${yInput.join(', ')}]`);
+                
+                // Calculate digital roots
+                const yDR = yInput.map(v => this.dr(v));
+                this.addLog(`Digital roots: [${yDR.join(', ')}]`);
+                
+                // Update all domains (parallel processing)
+                let activeDomainCount = 0;
+                this.reversedDiagonalsActive = 0;
+                
+                for (let [name, domain] of Object.entries(this.domains)) {
+                    // Calculate new node states
+                    domain.nodes = [];
+                    for (let i = 0; i < 6; i++) {
+                        let nodeValue;
+                        if (domain.polarity === 'negative') {
+                            nodeValue = domain.base - yInput[i];
+                        } else {
+                            nodeValue = domain.base + yInput[i];
+                        }
+                        const nodeDR = this.dr(nodeValue);
+                        domain.nodes.push(nodeDR);
+                    }
+                    
+                    // Check if domain is highly active (many matches with Y-field)
+                    const matchCount = domain.nodes.filter((n, i) => n === yDR[i]).length;
+                    domain.active = matchCount >= 2; // Lower threshold for more activity
+                    
+                    if (domain.active) {
+                        activeDomainCount++;
+                        if (domain.reversed) this.reversedDiagonalsActive++;
+                    }
+                    
+                    // Update visual
+                    const card = document.getElementById(`domain-${name}`);
+                    if (card) {
+                        card.classList.toggle('domain-active', domain.active);
+                    }
+                }
+                
+                this.addLog(`Active domains: ${activeDomainCount}/27`);
+                this.addLog(`Reversed diagonals active: ${this.reversedDiagonalsActive}/2`);
+                document.getElementById('activeDomains').textContent = activeDomainCount;
+                document.getElementById('reversedDiagonals').textContent = `${this.reversedDiagonalsActive}/2`;
+                
+                // Calculate coherence and consciousness
+                const coherence = this.calculateCoherence();
+                const consciousness = this.calculateConsciousness();
+                
+                document.getElementById('coherence').textContent = coherence.toFixed(2);
+                document.getElementById('consciousness').textContent = consciousness.toFixed(2);
+                
+                this.addLog(`System coherence: ${coherence.toFixed(2)}`);
+                this.addLog(`Consciousness level: ${consciousness.toFixed(2)}`);
+                
+                // Update canvas visualization
+                this.drawDomains();
+                
+                return activeDomainCount;
+            }
+            
+            // Calculate system coherence
+            calculateCoherence() {
+                const activeCount = Object.values(this.domains).filter(d => d.active).length;
+                const totalDomains = 27;
+                
+                // Phase-dependent coherence
+                const k = this.cyclePosition;
+                let phaseBonus = 1.0;
+                
+                if (k >= 19 && k <= 24) {
+                    // Higher World phase: higher coherence possible
+                    phaseBonus = 1.5 + (this.reversedDiagonalsActive * 0.25);
+                } else if (k === 12) {
+                    // Peak material consciousness
+                    phaseBonus = 1.3;
+                }
+                
+                const baseCoherence = (activeCount / totalDomains) * phaseBonus;
+                return Math.min(baseCoherence, 1.0);
+            }
+            
+            // Calculate consciousness level
+            calculateConsciousness() {
+                const k = this.cyclePosition;
+                const coherence = this.calculateCoherence();
+                
+                // Consciousness peaks at k=12 and k=24
+                let consciousness = 0;
+                
+                if (k === 12) {
+                    // Material consciousness peak
+                    consciousness = coherence * 0.8;
+                } else if (k === 24) {
+                    // Harmonic consciousness peak
+                    consciousness = coherence * (0.9 + (this.reversedDiagonalsActive * 0.1));
+                } else if (k >= 19 && k <= 24) {
+                    // Higher World consciousness
+                    consciousness = coherence * (0.5 + (this.reversedDiagonalsActive * 0.2));
+                } else {
+                    // Baseline consciousness
+                    consciousness = coherence * 0.3;
+                }
+                
+                return Math.min(consciousness, 1.0);
+            }
+            
+            // IMPROVED: Enhanced prediction algorithm with retrocausal weighting
+            generatePrediction() {
+                this.addLog(`Generating prediction at k=${this.cyclePosition}...`);
+                
+                // Collect candidate numbers from active domains with frequency counting
+                let candidateFreq = {};
+                for (let [name, domain] of Object.entries(this.domains)) {
+                    if (domain.active) {
+                        domain.nodes.forEach(node => {
+                            candidateFreq[node] = (candidateFreq[node] || 0) + 1;
+                        });
+                    }
+                }
+                
+                // Enhanced prediction during Higher World phase
+                if (this.cyclePosition >= 19 && this.cyclePosition <= 24) {
+                    this.addLog('🌟 Retrocausal pathways ACTIVE (k∈[19-24])');
+                    
+                    // Apply retrocausal operator weighting: α_max · [(k-18)/6]²
+                    const retrocausalWeight = Math.pow((this.cyclePosition - 18) / 6, 2);
+                    
+                    // Weight toward Higher World domain numbers (3,6,9)
+                    const higherWorldNums = [3,6,9];
+                    higherWorldNums.forEach(n => {
+                        candidateFreq[n] = (candidateFreq[n] || 0) + Math.round(3 * retrocausalWeight);
+                    });
+                    
+                    // Add reversed diagonal influence (Lower World emphasis)
+                    if (this.reversedDiagonalsActive > 0) {
+                        const lowerWorldNums = [1,4,7];
+                        lowerWorldNums.forEach(n => {
+                            candidateFreq[n] = (candidateFreq[n] || 0) + Math.round(2 * retrocausalWeight);
+                        });
+                    }
+                }
+                
+                // Convert frequency map to weighted candidates array
+                let candidates = [];
+                for (let [num, freq] of Object.entries(candidateFreq)) {
+                    for (let i = 0; i < freq; i++) {
+                        candidates.push(parseInt(num));
+                    }
+                }
+                
+                // Fallback if no active domains
+                if (candidates.length === 0) {
+                    this.addLog('⚠️ No active domains. Using fallback prediction.');
+                    candidates = this.yField.map(v => this.dr(v * 2));
+                }
+                
+                // Select 6 numbers using weighted selection
+                this.xField = [];
+                const uniqueCandidates = [...new Set(candidates)];
+                
+                // Sort by frequency (descending) then by value
+                uniqueCandidates.sort((a, b) => {
+                    const freqDiff = candidateFreq[b] - candidateFreq[a];
+                    return freqDiff !== 0 ? freqDiff : a - b;
+                });
+                
+                // Take top candidates
+                this.xField = uniqueCandidates.slice(0, 6);
+                
+                // Fill remaining with Fibonacci-weighted selections if needed
+                while (this.xField.length < 6) {
+                    const fibValue = this.fibonacciSequence[this.cyclePosition - 1];
+                    if (!this.xField.includes(fibValue)) {
+                        this.xField.push(fibValue);
+                    } else {
+                        // Find next available number using golden ratio approach
+                        const phi = 1.618;
+                        const nextNum = this.dr(Math.round(fibValue * phi));
+                        if (!this.xField.includes(nextNum)) {
+                            this.xField.push(nextNum);
+                        } else {
+                            // Final fallback: sequential from 1
+                            for (let i = 1; i <= 9 && this.xField.length < 6; i++) {
+                                if (!this.xField.includes(i)) this.xField.push(i);
+                            }
+                        }
+                    }
+                }
+                
+                // Scale to reasonable range (1-59) using deterministic method
+                this.xField = this.xField.map((v, i) => {
+                    // Use position in sequence and Fibonacci value for scaling
+                    const scaleFactor = 6 + (this.fibonacciSequence[(this.cyclePosition + i) % 24] / 9);
+                    const scaled = Math.round(v * scaleFactor);
+                    return Math.min(Math.max(scaled, 1), 59);
+                });
+                
+                // Ensure uniqueness in final prediction
+                this.xField = [...new Set(this.xField)];
+                while (this.xField.length < 6) {
+                    const newNum = (this.xField[this.xField.length - 1] + 7) % 59 + 1;
+                    if (!this.xField.includes(newNum)) this.xField.push(newNum);
+                }
+                
+                this.addLog(`X-field prediction: [${this.xField.join(', ')}]`);
+                this.updatePredictionDisplay();
+                
+                return this.xField;
+            }
+            
+            // Update prediction display
+            updatePredictionDisplay() {
+                const output = document.getElementById('predictionOutput');
+                output.innerHTML = '';
+                
+                this.xField.forEach(num => {
+                    const div = document.createElement('div');
+                    div.className = 'prediction-number';
+                    div.textContent = num;
+                    output.appendChild(div);
+                });
+            }
+            
+            // Run validation test
+            runValidationTest() {
+                this.addLog('🧪 Running validation test with sample data...');
+                
+                // Sample validation data (simulated lottery results)
+                const testData = [
+                    [12, 23, 34, 45, 56, 7],
+                    [8, 19, 27, 38, 49, 53],
+                    [3, 15, 28, 36, 47, 59],
+                    [11, 22, 33, 44, 55, 6]
+                ];
+                
+                let totalHits = 0;
+                let totalPredictions = 0;
+                
+                // Test each dataset
+                testData.forEach((data, index) => {
+                    this.yField = data;
+                    this.processYField(data);
+                    const prediction = this.generatePrediction();
+                    
+                    // Simulate "actual" result (in real validation, this would be actual next draw)
+                    const simulatedActual = data.map(n => (n + 7) % 59 + 1); // Simple transformation
+                    
+                    // Calculate hits
+                    const hits = prediction.filter(num => simulatedActual.includes(num)).length;
+                    totalHits += hits;
+                    totalPredictions++;
+                    
+                    this.addLog(`Test ${index + 1}: ${hits}/6 hits (Pred: [${prediction.join(', ')}])`);
+                });
+                
+                const avgHits = totalHits / totalPredictions;
+                const baseline = 0.618; // Theoretical baseline
+                
+                // Show results
+                const resultsDiv = document.getElementById('validationResults');
+                const contentDiv = document.getElementById('validationContent');
+                
+                contentDiv.innerHTML = `
+                    <p><strong>Validation Test Results:</strong></p>
+                    <p>Average hits per prediction: ${avgHits.toFixed(3)}/6</p>
+                    <p>Theoretical baseline: ${baseline}/6</p>
+                    <p>Performance: ${avgHits > baseline ? 'ABOVE' : 'BELOW'} baseline</p>
+                    <p>Retrocausal advantage: ${(avgHits - baseline).toFixed(3)}</p>
+                    <p><em>Note: This is a simplified test. Real validation requires actual historical data.</em></p>
+                `;
+                
+                resultsDiv.style.display = 'block';
+                this.addLog(`Validation complete: ${avgHits.toFixed(3)} avg hits vs ${baseline} baseline`);
+            }
+            
+            // Export data for analysis
+            exportData() {
+                const data = {
+                    timestamp: new Date().toISOString(),
+                    cyclePosition: this.cyclePosition,
+                    yField: this.yField,
+                    xField: this.xField,
+                    domains: this.domains,
+                    coherence: this.calculateCoherence(),
+                    consciousness: this.calculateConsciousness(),
+                    reversedDiagonalsActive: this.reversedDiagonalsActive
+                };
+                
+                const dataStr = JSON.stringify(data, null, 2);
+                const blob = new Blob([dataStr], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `uct-simulation-${new Date().getTime()}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                
+                this.addLog('Data exported for analysis');
+            }
+            
+            // Increment cycle position
+            incrementCycle() {
+                this.cyclePosition = (this.cyclePosition % 24) + 1;
+                this.updateCycleDisplay();
+                this.addLog(`Cycle advanced to k=${this.cyclePosition}`);
+                
+                // Redraw domains to show updated connections
+                this.drawDomains();
+            }
+            
+            // Reset cycle
+            resetCycle() {
+                this.cyclePosition = 1;
+                this.updateCycleDisplay();
+                this.addLog('Cycle reset to k=1');
+                this.drawDomains();
+            }
+            
+            // Set to Higher World phase
+            setHigherWorld() {
+                this.cyclePosition = 19;
+                this.updateCycleDisplay();
+                this.addLog('Jumped to Higher World phase (k=19)');
+                this.drawDomains();
+            }
+            
+            // Update cycle display
+            updateCycleDisplay() {
+                document.getElementById('cyclePos').textContent = `k = ${this.cyclePosition}`;
+                
+                const indicator = document.getElementById('phaseIndicator');
+                const retrocausalStat = document.getElementById('retrocausal');
+                const mobiusIndicator = document.getElementById('mobiusIndicator');
+                
+                if (this.cyclePosition >= 1 && this.cyclePosition <= 18) {
+                    indicator.className = 'phase-indicator phase-lower';
+                    indicator.textContent = `Lower World Phase (Material Processing) - Steps ${this.cyclePosition}/18`;
+                    retrocausalStat.textContent = 'OFF';
+                    retrocausalStat.style.color = '#999';
+                    mobiusIndicator.textContent = 'Möbius: INACTIVE';
+                    mobiusIndicator.classList.remove('mobius-active');
+                } else {
+                    indicator.className = 'phase-indicator phase-higher retrocausal-active';
+                    indicator.textContent = `Higher World Phase (Harmonic Integration) - Steps ${this.cyclePosition-18}/6`;
+                    retrocausalStat.textContent = 'ACTIVE';
+                    retrocausalStat.style.color = '#ce93d8';
+                    mobiusIndicator.textContent = 'Möbius: ACTIVE';
+                    mobiusIndicator.classList.add('mobius-active');
+                }
+            }
+            
+            // Add log entry
+            addLog(message) {
+                const timestamp = new Date().toLocaleTimeString();
+                this.processLog.push(`[${timestamp}] ${message}`);
+                if (this.processLog.length > 50) this.processLog.shift();
+                
+                const logArea = document.getElementById('processLog');
+                logArea.innerHTML = this.processLog
+                    .slice().reverse()
+                    .map(msg => `<div class="log-entry">${msg}</div>`)
+                    .join('');
+            }
+        }
+        
+        // Global simulator instance
+        const simulator = new ConstructSimulator();
+        
+        // UI Functions
+        function processYField() {
+            const yInput = [
+                parseInt(document.getElementById('y1').value) || 0,
+                parseInt(document.getElementById('y2').value) || 0,
+                parseInt(document.getElementById('y3').value) || 0,
+                parseInt(document.getElementById('y4').value) || 0,
+                parseInt(document.getElementById('y5').value) || 0,
+                parseInt(document.getElementById('y6').value) || 0
+            ];
+            simulator.processYField(yInput);
+        }
+        
+        function randomYField() {
+            for (let i = 1; i <= 6; i++) {
+                const randomVal = Math.floor(Math.random() * 59) + 1;
+                document.getElementById(`y${i}`).value = randomVal;
+            }
+            simulator.addLog('Random Y-field values generated');
+        }
+        
+        function generatePrediction() {
+            processYField();
+            simulator.generatePrediction();
+        }
+        
+        function incrementCycle() {
+            simulator.incrementCycle();
+        }
+        
+        function resetCycle() {
+            simulator.resetCycle();
+        }
+        
+        function setHigherWorld() {
+            simulator.setHigherWorld();
+        }
+        
+        function runValidationTest() {
+            simulator.runValidationTest();
+        }
+        
+        function exportData() {
+            simulator.exportData();
+        }
+        
+        // Initialize on load
+        window.onload = function() {
+            simulator.updateCycleDisplay();
+            simulator.addLog('🚀 Unified Construct Theory Simulator v5.1 initialized');
+            simulator.addLog('📊 27 domains active, 702 nodes ready');
+            simulator.addLog('⚡ System ready for Y-field input');
+            simulator.addLog('✅ Digital root function corrected for multiples of 9');
+        };
+    </script>
+</body>
+</html>
