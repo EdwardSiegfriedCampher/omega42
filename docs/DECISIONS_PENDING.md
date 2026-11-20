@@ -136,3 +136,9 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Recommended:** approve the initiative in principle, starting with claim verification and provenance; register H-IIE01 to H-IIE05 under STP before any run; ratify CA-33's requirements in the Core.
 - **For ESC:** (1) approve O42-IIRA-01; (2) ratify CA-33 or keep it at level B.
 - **Normative:** CA-33 yes, once ratified; the initiative no.
+
+## D-20 User-selectable presentation (CA-34)
+- **Facts:** The Core already defines THE ANSWER, the TAKEAWAY and the Extended Resonance Essay, and the commands "brief", "lite" and "full". Many users want only the finished result. The website now offers an ERE package by default and the complete navigation on request, with depth chosen apart.
+- **Recommended:** ratify CA-34 as one sentence in Part 8, naming an "ERE package" command and "show the navigation", with the rule that presentation never reduces depth or drops a material qualification.
+- **For ESC:** (1) ratify CA-34 or keep it at level B; (2) whether the ERE package becomes the default for all Strikers or only for website visitors.
+- **Normative:** yes, once ratified.

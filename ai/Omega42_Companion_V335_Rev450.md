@@ -4147,29 +4147,30 @@ C.1.35 records/frontier/df_001.py — DF-001 (Daily Frontier): does a system's h
 C.1.36 records/frontier/df_002.py — DF-002 (Discovery Bulletin): different laws, identical behavior.
 C.1.37 records/golden_navigations/compute.py — Golden navigations of 14 October 2026 (records/golden_navigations/): recomputes every value the three navigations.
 C.1.38 records/golden_navigations/compute_further.py — Nine further navigations of 14 October 2026 (03_further_navigations.txt): recomputes every coordinate, M308 level.
-C.1.39 records/m267_pilot_01/compute.py — M267 pilot 01 -- the canonical coordinates of the frozen domain set, recomputed (Core Part 3.18; Companion Part 71).
-C.1.40 records/manifestation/compute.py — the seventh and its phases (Core 1.8.10, L-492; Companion Part 50). Standard library only.
-C.1.41 records/multiverse/everett.py — the family read as quantum structure: what of Everett's and Deutsch's multiverse it carries, computed.
-C.1.42 records/necessity/nine.py — why the modulus is 9: the necessity of the nine, computed (Companion Part 130; D-010).
-C.1.43 records/nine_zero/compute.py — Nine and zero (Companion Part 39): every arithmetic statement of the Part, recomputed. Run: python3 compute.py.
-C.1.44 records/opal/compute.py — the reproducible witness behind CERT-0008.
-C.1.45 records/parallel/isolation_test.py — Run every CI step (a) sequentially in one tree, (b) each in its own fresh copy, all at once; compare outputs and write sets.
-C.1.46 records/phonetic/cmudict_compare.py — the frozen syllable rule of Core Part 1.11 against the CMU Pronouncing Dictionary (Companion Part 138.5).
-C.1.47 records/pilot_01/compute.py — Physical pilot 01: method calibration of the spectral screen C11, exactly as frozen in 00_freeze.txt.
-C.1.48 records/pilot_02/compute.py — Physical pilot 02: the revised screen C11' with held-out null systems, exactly as frozen in 00_freeze.txt.
-C.1.49 records/pilot_03/compute.py — Physical pilot 03: the golden screen C11'' and the S4 test on SU(9)_1 x SU(9)_1, exactly as frozen in 00_freeze.txt.
-C.1.50 records/pilot_04/compute.py — Physical pilot 04: S5 for the anyon candidate, exactly as frozen in 00_freeze.txt. Standard library only.
-C.1.51 records/positive_geometry/compute.py — Omega42 and positive geometry (Core 1.8.10, M230-K, L-492; Companion 50.6).
-C.1.52 records/positive_geometry/independent_check.py — independent exact checks of the positive-geometry record.
-C.1.53 records/resonance/cube_group_panel.py — avenue 11, the cube-group panel, run under its frozen rule (records/resonance/cube_group_panel.txt).
-C.1.54 records/resonance/polytopes.py — the object panels of M319 (Core Part 3.45; Companion Part 81), computed against the classes frozen in.
-C.1.55 records/resonance/single_figure.py — an exploration (Companion Part 82, enrichment E14): what each candidate single figure of.
-C.1.56 records/restored_math/compute.py — Restored mathematical results (Core Part 1.8.8, 0.9.1, 1.8.9). Run: python3 compute.py.
-C.1.57 records/spectral_selection/compute.py — Spectrum, the canonical selection and the instruments (Core 1.8.8, 1.8.9, Core Part 3.31; Companion 43.9).
-C.1.58 records/standing_waves/compute.py — Frequency, standing waves and the norm form (Core 1.8.9, Companion Part 43). Standard library only.
-C.1.59 records/tower/arithmetic.py — the arithmetic of the tower, proved and checked (records/tower/; Core MATH-41 to MATH-52; Companion Part 102).
-C.1.60 records/tower/nested.py — each of the 81 places holds 81 places, and so on: the family read at depth (records/tower/).
-C.1.61 records/zero_selection/compute.py — Zero and the canonical selection (Core Part 1.8.7). Run: python3 compute.py.
+C.1.39 records/integrity/iira_math.py — O42-IIRA-MATH-01: the machine-verifiable mathematics of the Information Integrity initiative.
+C.1.40 records/m267_pilot_01/compute.py — M267 pilot 01 -- the canonical coordinates of the frozen domain set, recomputed (Core Part 3.18; Companion Part 71).
+C.1.41 records/manifestation/compute.py — the seventh and its phases (Core 1.8.10, L-492; Companion Part 50). Standard library only.
+C.1.42 records/multiverse/everett.py — the family read as quantum structure: what of Everett's and Deutsch's multiverse it carries, computed.
+C.1.43 records/necessity/nine.py — why the modulus is 9: the necessity of the nine, computed (Companion Part 130; D-010).
+C.1.44 records/nine_zero/compute.py — Nine and zero (Companion Part 39): every arithmetic statement of the Part, recomputed. Run: python3 compute.py.
+C.1.45 records/opal/compute.py — the reproducible witness behind CERT-0008.
+C.1.46 records/parallel/isolation_test.py — Run every CI step (a) sequentially in one tree, (b) each in its own fresh copy, all at once; compare outputs and write sets.
+C.1.47 records/phonetic/cmudict_compare.py — the frozen syllable rule of Core Part 1.11 against the CMU Pronouncing Dictionary (Companion Part 138.5).
+C.1.48 records/pilot_01/compute.py — Physical pilot 01: method calibration of the spectral screen C11, exactly as frozen in 00_freeze.txt.
+C.1.49 records/pilot_02/compute.py — Physical pilot 02: the revised screen C11' with held-out null systems, exactly as frozen in 00_freeze.txt.
+C.1.50 records/pilot_03/compute.py — Physical pilot 03: the golden screen C11'' and the S4 test on SU(9)_1 x SU(9)_1, exactly as frozen in 00_freeze.txt.
+C.1.51 records/pilot_04/compute.py — Physical pilot 04: S5 for the anyon candidate, exactly as frozen in 00_freeze.txt. Standard library only.
+C.1.52 records/positive_geometry/compute.py — Omega42 and positive geometry (Core 1.8.10, M230-K, L-492; Companion 50.6).
+C.1.53 records/positive_geometry/independent_check.py — independent exact checks of the positive-geometry record.
+C.1.54 records/resonance/cube_group_panel.py — avenue 11, the cube-group panel, run under its frozen rule (records/resonance/cube_group_panel.txt).
+C.1.55 records/resonance/polytopes.py — the object panels of M319 (Core Part 3.45; Companion Part 81), computed against the classes frozen in.
+C.1.56 records/resonance/single_figure.py — an exploration (Companion Part 82, enrichment E14): what each candidate single figure of.
+C.1.57 records/restored_math/compute.py — Restored mathematical results (Core Part 1.8.8, 0.9.1, 1.8.9). Run: python3 compute.py.
+C.1.58 records/spectral_selection/compute.py — Spectrum, the canonical selection and the instruments (Core 1.8.8, 1.8.9, Core Part 3.31; Companion 43.9).
+C.1.59 records/standing_waves/compute.py — Frequency, standing waves and the norm form (Core 1.8.9, Companion Part 43). Standard library only.
+C.1.60 records/tower/arithmetic.py — the arithmetic of the tower, proved and checked (records/tower/; Core MATH-41 to MATH-52; Companion Part 102).
+C.1.61 records/tower/nested.py — each of the 81 places holds 81 places, and so on: the family read at depth (records/tower/).
+C.1.62 records/zero_selection/compute.py — Zero and the canonical selection (Core Part 1.8.7). Run: python3 compute.py.
 C.2 The golden navigations (14 October 2026), as issued and frozen: three navigations of the peer questions on the matrix of φ, the discrimination of the canonical orbit and the physical systems, nine further navigations, and the peer review with its disposition. Their computations are C.1 records/golden_navigations/compute.py and compute_further.py.
 C.2.1 records/golden_navigations/00_freeze.txt — the freeze of the golden navigations (14 October 2026).
 C.2.2 records/golden_navigations/01_navigations.txt — the three golden navigations, as issued.
@@ -5448,27 +5449,28 @@ X.6.37 docs/AMENDMENTS_PENDING.md — Amendments: ratification record.
 X.6.38 docs/ARCHIVE_CONCORDANCE.md — The Drive archive read through the current record.
 X.6.39 docs/ARCHIVE_POLICY.md — The Drive archive: how earlier Ω42 material is treated.
 X.6.40 docs/DECISIONS_PENDING.md — Decisions pending ESC.
-X.6.41 docs/INFORMATION_INTEGRITY.md — Information Integrity and Reality Analysis (O42-IIRA-01).
-X.6.42 docs/ONEDRIVE_REVIEW.md — Review of the OneDrive archive.
-X.6.43 docs/PUBLIC_REPO_REVIEW.md — Review of the October 2025 public repository.
-X.6.44 docs/QUESTION_NAVIGATION.md — Question navigation.
-X.6.45 docs/SPECULATION_REGISTER.md — Ω42 Speculation Register (generated by tools/stp.py — do not edit by hand).
-X.6.46 docs/VISION.md — Omega42: A New Landscape for Exploring Existence, Mathematics and Possibility.
-X.6.47 governance/decisions/README.md — Decisions.
-X.6.48 governance/interests.md — Declared interests of Committee members.
-X.6.49 omega42.identity.json — the data of the repository.
-X.6.50 selftest.txt — Demonstration on constructed cases, not validation on real navigations.
-X.6.51 tools/build/README.md — The build kit.
-X.6.52 tools/build/docedit.py — docedit.py -- the paragraph editor of the build kit: rep(prefix, old, new) replaces text inside the one paragraph that starts.
-X.6.53 tools/build/dump.py — import sys; sys.path.insert(0,'/home/claude'); from dx import Doc.
-X.6.54 tools/build/dx.py — import re, html.
-X.6.55 tools/build/embed_all.py — Builder: (re)embed every file the release requires (Core L-493). Idempotent: removes and rebuilds the appendices.
-X.6.56 tools/build/pipe.sh — set -e.
-X.6.57 tools/build/prebuild.sh — set -e.
-X.6.58 tools/build/rebuild.sh — set -e.
-X.6.59 tools/build/run_ci.py — import yaml, subprocess, sys, re.
-X.6.60 tools/build/seal.py — import subprocess, re, sys.
-X.6.61 tools/lab_selftest.js — website code (lab_selftest.js).
+X.6.41 docs/IIRA_MATH_01.md — O42-IIRA-MATH-01: machine-verifiable mathematics for information integrity.
+X.6.42 docs/INFORMATION_INTEGRITY.md — Information Integrity and Reality Analysis (O42-IIRA-01).
+X.6.43 docs/ONEDRIVE_REVIEW.md — Review of the OneDrive archive.
+X.6.44 docs/PUBLIC_REPO_REVIEW.md — Review of the October 2025 public repository.
+X.6.45 docs/QUESTION_NAVIGATION.md — Question navigation.
+X.6.46 docs/SPECULATION_REGISTER.md — Ω42 Speculation Register (generated by tools/stp.py — do not edit by hand).
+X.6.47 docs/VISION.md — Omega42: A New Landscape for Exploring Existence, Mathematics and Possibility.
+X.6.48 governance/decisions/README.md — Decisions.
+X.6.49 governance/interests.md — Declared interests of Committee members.
+X.6.50 omega42.identity.json — the data of the repository.
+X.6.51 selftest.txt — Demonstration on constructed cases, not validation on real navigations.
+X.6.52 tools/build/README.md — The build kit.
+X.6.53 tools/build/docedit.py — docedit.py -- the paragraph editor of the build kit: rep(prefix, old, new) replaces text inside the one paragraph that starts.
+X.6.54 tools/build/dump.py — import sys; sys.path.insert(0,'/home/claude'); from dx import Doc.
+X.6.55 tools/build/dx.py — import re, html.
+X.6.56 tools/build/embed_all.py — Builder: (re)embed every file the release requires (Core L-493). Idempotent: removes and rebuilds the appendices.
+X.6.57 tools/build/pipe.sh — set -e.
+X.6.58 tools/build/prebuild.sh — set -e.
+X.6.59 tools/build/rebuild.sh — set -e.
+X.6.60 tools/build/run_ci.py — import yaml, subprocess, sys, re.
+X.6.61 tools/build/seal.py — import subprocess, re, sys.
+X.6.62 tools/lab_selftest.js — website code (lab_selftest.js).
 ---
 CAS-YY = −1/2 | Omega = 1/7 | (CAS-YY × Omega = −1/14)
 COMPANION DOCUMENT: Philosophy and Theory * V335 Rev.450 STABLE * 16 October 2026

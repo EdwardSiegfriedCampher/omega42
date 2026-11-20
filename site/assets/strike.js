@@ -85,10 +85,14 @@
     hybrid: 'Hybrid: first establish what the Omega42 mathematics shows, then investigate the wider implications, keeping results, external findings and speculation apart.',
     speculate: 'Open speculation: develop possibilities and thought experiments freely, marked as speculation.',
     formal: 'Formal development: give definitions, equations, derivations, proofs or counterexamples.'};
+  var PRESENT = {ere: 'Presentation: give me only THE ANSWER, the TAKEAWAY and the Extended Resonance Essay as one readable package, without protocol technicalities. Do the full navigation behind it and keep every qualification that changes the meaning, in plain words, with the closing AI caveat. When I say "show the navigation", print the complete navigation without my asking again.',
+    complete: 'Presentation: the complete navigation, every block and step, then THE ANSWER, the TAKEAWAY and the Extended Resonance Essay.'};
+  function present() { var m = document.querySelector('input[name=present]:checked'); return m ? m.value : 'ere'; }
   function mode() { var m = document.querySelector('input[name=mode]:checked'); return m ? m.value : 'auto'; }
   function prompt() {
     var q = $('#strike-q').value.trim() || 'your question';
     $('#nav-prompt').textContent = 'Welcome Navigator\n\nMy question: ' + q + '\n\nApproach: ' + MODES[mode()] +
+      '\n' + PRESENT[present()] + (document.getElementById('deep') && document.getElementById('deep').checked ? '\nDepth: research in depth before writing, whatever the presentation.' : '') +
       '\nIn the report, name the approach you used and give each statement its status: mathematical derivation, logical conclusion, external finding, formal connection, speculative connection, empirical finding or open question. Do not state external verification that did not happen.';
   }
   form.addEventListener('input', prompt); form.addEventListener('change', prompt); prompt();
@@ -97,6 +101,7 @@
   if (h.get('q')) {
     $('#strike-q').value = h.get('q');
     var r = document.querySelector('input[name=mode][value="' + (h.get('mode') || 'auto') + '"]'); if (r) r.checked = true;
+    var pr = document.querySelector('input[name=present][value="' + (h.get('present') || 'ere') + '"]'); if (pr) pr.checked = true;
     prompt(); if (h.get('go') !== '0') form.requestSubmit(); else $('#strike-q').focus();
   }
 })();

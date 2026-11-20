@@ -14,6 +14,11 @@
       <label><input type="radio" name="mode" value="speculate"> <b>Open speculation</b> <span>possibilities and thought experiments</span></label>
       <label><input type="radio" name="mode" value="formal"> <b>Formal development</b> <span>definitions, equations, proofs, counterexamples</span></label>
     </fieldset>
+    <fieldset class="modes"><legend>What should you receive?</legend>
+      <label><input type="radio" name="present" value="ere" checked> <b>Answer, Takeaway and Essay</b> <span>the finished result, readable in minutes; technicalities on request</span></label>
+      <label><input type="radio" name="present" value="complete"> <b>Complete navigation</b> <span>every step: the arithmetic, the research, the sources, the challenges</span></label>
+    </fieldset>
+    <label class="mono note"><input type="checkbox" id="deep"> Research in depth (the depth of the work is chosen apart from how much of it you see)</label>
     <div class="row"><button class="btn" id="strike-go" type="submit">Strike and explore</button><span class="note" id="strike-status" aria-live="polite">The engine loads when you first strike.</span></div>
   </form>
   <div id="strike-out" class="result panel" aria-live="polite">

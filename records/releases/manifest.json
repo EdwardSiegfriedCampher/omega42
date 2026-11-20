@@ -281,6 +281,14 @@
    "level": "A",
    "level_source": "declared",
    "date": "2026-11-20"
+  },
+  {
+   "id": "CA-34",
+   "title": "CA-34: User-selectable presentation (O42-OUTPUT-01, 20 November 2026)",
+   "status": "RECORDED",
+   "level": "A",
+   "level_source": "declared",
+   "date": "2026-11-20"
   }
  ],
  "approval": {

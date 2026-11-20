@@ -77,6 +77,28 @@
   </div>
 </section>
 
+<section class="stack">
+  <div class="eyebrow">O42-IIRA-MATH-01 · verify it yourself</div>
+  <h2>Every number, checkable by any AI or person</h2>
+  <p>The mathematics behind the initiative is written out with its definitions, assumptions and worked examples, implemented in plain Python with no outside libraries, and rerun on every change to the repository. Run it, translate it, or hand it to another AI and ask it to find a mistake.</p>
+  <div class="scroll"><table><thead><tr><th>Module</th><th>Worked example</th><th>Result</th><th>What it does not show</th></tr></thead><tbody>
+    <tr><td>M1 The Omega42 law</td><td>loops of the 81 states; orbit of (1, 2)</td><td class="mono">1, 8, 24, 24, 24 · (8, 4) after four steps</td><td>Invertible in the model only</td></tr>
+    <tr><td>M2 Robust anomaly</td><td>sentence length 20 against 8…13</td><td class="mono">z = 6.745</td><td>Unusual is not AI-written</td></tr>
+    <tr><td>M4 Independent sources</td><td>ten copies of one source; five equal groups</td><td class="mono">N_eff = 1; 5</td><td>Groups need evidence</td></tr>
+    <tr><td>M5 Evidence</td><td>two independent findings, LR 3 and 4; one copied</td><td class="mono">92.31 %; 75 %</td><td>Copied evidence counts once</td></tr>
+    <tr><td>M6 Claim drift</td><td>"possible association" to "proved cause"</td><td class="mono">√26 = 5.099</td><td>The scale needs validation</td></tr>
+    <tr><td>M7 Spread</td><td>three nodes, 60 steps</td><td class="mono">evens out to ⅓ each</td><td>Real spread is nonlinear</td></tr>
+    <tr><td>M9 Uncertainty</td><td>origins 0.5, 0.3, 0.2</td><td class="mono">1.4855 bits</td><td>Not a truth score</td></tr>
+    <tr><td>M10 81-state map</td><td>evidence 2, independence 5</td><td class="mono">a 24-step loop</td><td>Meaning untested (H-IIE06)</td></tr>
+  </tbody></table></div>
+  <div class="investigations">
+    <div class="c-cyan"><span class="stage">Level 1</span><b>Arithmetic</b><span class="note">Can another system reproduce the numbers? All modules pass.</span></div>
+    <div class="c-violet"><span class="stage">Level 2</span><b>Mathematics</b><span class="note">Are the definitions and derivations valid? All modules pass.</span></div>
+    <div class="c-orange"><span class="stage">Level 3</span><b>Application</b><span class="note">Does it work on real problems? Untested: the benchmark decides.</span></div>
+  </div>
+  <p class="note">Code: <a href="https://github.com/{{REPO}}/blob/main/records/integrity/iira_math.py">records/integrity/iira_math.py</a> (<code>python3 records/integrity/iira_math.py</code> prints the report) · specification and verifier prompt: <a href="https://github.com/{{REPO}}/blob/main/docs/IIRA_MATH_01.md">docs/IIRA_MATH_01.md</a>.</p>
+</section>
+
 <section class="grid2" style="align-items:start">
   <div class="stack">
     <div class="eyebrow">Safeguards</div>
