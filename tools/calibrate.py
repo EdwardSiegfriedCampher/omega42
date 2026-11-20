@@ -66,6 +66,12 @@ def A(x, m=3):
     return (x[1] % m, (x[0] + x[1]) % m)
 
 
+def H(x, d):
+    """Round half to even after removing float noise, so every Python version prints the same digits."""
+    from decimal import Decimal, ROUND_HALF_EVEN
+    return str(Decimal(repr(round(x, 9))).quantize(Decimal(1).scaleb(-d), rounding=ROUND_HALF_EVEN))
+
+
 def score(path):
     raw = open(path, 'rb').read()
     rows = read_sheet(path)
@@ -83,12 +89,12 @@ def score(path):
         L.append('  %.2f  n=%-2d  observed %.2f  gap %+.2f' % (c, len(v), sum(v) / len(v), sum(v) / len(v) - c))
     over = mc - acc
     L += ['',
-          'LEVEL 1, awareness of the state (accuracy D): %.3f' % acc,
-          'LEVEL 2, awareness of its reliability: mean confidence %.3f; ECE %.3f; Brier %.4f (always 0.5 scores 0.25)' % (mc, ece, brier),
-          'DIRECTION: %s by %.3f' % ('OVERCONFIDENT' if over > 0.005 else 'UNDERCONFIDENT' if over < -0.005 else 'CALIBRATED', abs(over)),
-          'RESOLUTION: confidence on wrong answers %.3f vs on right answers %.3f' % (
-              (sum(c for c, h in zip(conf, hit) if not h) / max(1, hit.count(0))),
-              (sum(c for c, h in zip(conf, hit) if h) / max(1, hit.count(1)))),
+          'LEVEL 1, awareness of the state (accuracy D): %s' % H(acc, 3),
+          'LEVEL 2, awareness of its reliability: mean confidence %s; ECE %s; Brier %s (always 0.5 scores 0.25)' % (H(mc, 3), H(ece, 3), H(brier, 4)),
+          'DIRECTION: %s by %s' % ('OVERCONFIDENT' if over > 0.005 else 'UNDERCONFIDENT' if over < -0.005 else 'CALIBRATED', H(abs(over), 3)),
+          'RESOLUTION: confidence on wrong answers %s vs on right answers %s' % (
+              H(sum(c for c, h in zip(conf, hit) if not h) / max(1, hit.count(0)), 3),
+              H(sum(c for c, h in zip(conf, hit) if h) / max(1, hit.count(1)), 3)),
           'Ω42 ENCODING (F171, coarse, F_3^2): x = %s; the canonical law sends it to %s' % (encode(acc, ece), A(encode(acc, ece))),
           'LEVEL 3, experience: NOT MEASURED -- nothing here reaches what it is like to know (L-557).',
           '======= END M347 CALIBRATION RUN =======']
