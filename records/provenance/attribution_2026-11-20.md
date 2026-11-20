@@ -15,5 +15,8 @@ On 20 November 2026 the Originator stated that every AI response relayed to the 
 | FAQ and Companion Explorer | faq.html, companion.html and the Companion part pages, the search index |
 | Question navigation (signed) | CA-32, D-18, docs/QUESTION_NAVIGATION.md, the approach selector and Navigator prompt |
 | The World of Questions (signed) | records/questions/register.json, questions.html and the home page section |
+| Information integrity (signed) | integrity.html, docs/INFORMATION_INTEGRITY.md, CA-33, D-19 |
+| User-selectable presentation (signed) | CA-34, D-20, the presentation choice in the Ask form and the Strike app, an FAQ entry |
+| Machine-verifiable mathematics (signed) | docs/IIRA_MATH_01.md, records/integrity/iira_math.py (corrected on D_path, see the document) |
 
 The Navigator (claude-opus-5-5) built, edited and checked each item; the computations of DF-001 and DF-002 are the Navigator's. ESC ratifies; the Navigator never ratifies.

@@ -146,7 +146,7 @@
   f.addEventListener('submit', function (e) {
     e.preventDefault();
     var q = document.getElementById('ask-q').value.trim(); if (!q) { document.getElementById('ask-q').focus(); return; }
-    location.href = 'strike.html#' + new URLSearchParams({q: q, mode: document.getElementById('ask-mode').value}).toString();
+    location.href = 'strike.html#' + new URLSearchParams({q: q, mode: document.getElementById('ask-mode').value, present: document.getElementById('ask-present').value}).toString();
   });
 })();
 

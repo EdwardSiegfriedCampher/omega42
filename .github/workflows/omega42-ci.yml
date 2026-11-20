@@ -524,6 +524,8 @@ jobs:
           python3 tools/intake.py verify-ledger
           python3 tools/curator.py --selftest
           python3 tools/site_build.py --selftest
+          python3 records/integrity/iira_math.py --selftest
+          for f in records/frontier/df_*.py; do python3 "$f" > /dev/null; done
           python3 site/test/strike_cpython.py > /dev/null
           python3 - <<'PY'
           import glob, hashlib, json, sys
