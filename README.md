@@ -10,7 +10,7 @@ One structure. Any question. Unlimited possibilities. Your judgment.
 
 [Website](../../deployments/github-pages) · [Speculative Foundations](research/philosophy/SPECULATIVE_FOUNDATIONS.md) · [Construct X](site/construct_x_lab.html) · [Get the protocol](docs/) · [Submit](CONTRIBUTING.md) · [Forum](../../discussions)
 
-<sub>V335 Rev.450 STABLE · Originator: E.S. Campher (ESC) · Text CC BY 4.0 · Code Apache-2.0 · No patents, ever</sub>
+<sub>V335 Rev.450 STABLE · Text CC BY 4.0 · Code Apache-2.0 · No patents, ever</sub>
 
 </div>
 
@@ -29,7 +29,7 @@ The public-facing introduction: [WELCOME.md](WELCOME.md). The technical identity
 
 ## How this was made, and what to keep in mind
 
-Ω42 was conceived and directed by its Originator, E.S. Campher (ESC), who adopted every provision and is its author of record. Its text, tools and computations were drafted by AI systems under the Originator's direction — Claude (Anthropic) as the Builder, with peer accounts from other AI systems filed in the open record (Companion Parts 67 and 69).
+Ω42 was conceived and directed by its Originator (ESC), who adopted every provision and is its author of record. Its text, tools and computations were drafted by AI systems under the Originator's direction — Claude (Anthropic) as the Builder, with peer accounts from other AI systems filed in the open record (Companion Parts 67 and 69).
 
 Every Navigator is an AI system. **AI can make mistakes**: it can miscount, misquote, cite something it did not read or be out of date, and its training — including reinforcement learning from human feedback — can make it too agreeable, too cautious or too conventional, which can color a reading. Every output carries a one-line caveat saying so (Core L-506). Recompute what can be recomputed with the reference scripts; what cannot be recomputed is yours to judge. Omega42 makes no claims about the world (Core L-505). You are responsible for what you do with a reading; the project answers for the protocol, whoever runs the AI answers for that run, and the mathematics answers for nothing (Core L-507).
 

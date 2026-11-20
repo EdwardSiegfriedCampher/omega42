@@ -2,14 +2,14 @@
  "_about": "The sections of the AI reading editions (Companion Part 142): heading, characters, estimated tokens (characters / 4) and SHA-256 of the section text; rendered from docs/*.docx by tools/ai_edition.py.",
  "editions": {
   "Omega42_Core_V335_Rev450.md": {
-   "chars": 1338644,
-   "tokens_est": 334661,
-   "sha256": "5fcfdeff93f57d1a75be8851a22f0773d4fd1ddb9750525b1c480b03186d3d75"
+   "chars": 1338653,
+   "tokens_est": 334664,
+   "sha256": "17932cd902b162928631ae8833bedc94b28911ef1641d36785cb67ac873363b3"
   },
   "Omega42_Companion_V335_Rev450.md": {
-   "chars": 2000239,
-   "tokens_est": 500060,
-   "sha256": "916bd7330218603318ddadd22fd863414fdf78f48a9065689536e76ad7bdb6fc"
+   "chars": 2000247,
+   "tokens_est": 500062,
+   "sha256": "0bc893b3005170d986cfacaa871dba6d029a057bd7fbedaf7486e6a075cd5c6f"
   },
   "Omega42_Navigator_Pack.md": {
    "chars": 477959,
@@ -1230,9 +1230,9 @@
   {
    "doc": "Core",
    "heading": "PART 10: ABBREVIATIONS",
-   "chars": 11868,
-   "tokens_est": 2967,
-   "sha256": "fb592cf866b03bd74d0441c981e62f3085e143879845337e7a04ececf7013a18"
+   "chars": 11877,
+   "tokens_est": 2969,
+   "sha256": "7e60c7de566857d52b457e45f6c8fa84b40fd3fa786554edfd6fc189d98769ca"
   },
   {
    "doc": "Core",
@@ -1300,9 +1300,9 @@
   {
    "doc": "Companion",
    "heading": "(front matter)",
-   "chars": 442,
-   "tokens_est": 111,
-   "sha256": "8e176e393b1873223b61d0a4fe1c9ae0cda9f62343382941ffb950b1f4ccd1bb"
+   "chars": 450,
+   "tokens_est": 113,
+   "sha256": "5de85a1683ec4af57253938711382ca4712730f8bdd32021b6dc6314bf327f28"
   },
   {
    "doc": "Companion",

@@ -7,7 +7,7 @@
 | Role | Who | What they decide |
 |---|---|---|
 | **The Ω42 Company** | The legal entity, governed by its Board (`ENTITY.md`) | The general direction: strategy, budget, contracts, the commercial edition, and the names, marks and content badges. It owns no patents (`PATENT_PLEDGE.md`). |
-| **Originator and Overseer** (author of record; Core F-00) | E.S. Campher (ESC) | Until the transition: everything. After it: the constitutional reserve (§4) and nothing else. |
+| **Originator and Overseer** (author of record; Core F-00) | The Originator (ESC), not named publicly | Until the transition: everything. After it: the constitutional reserve (§4) and nothing else. |
 | **Stewardship Committee** | Seven members (§3) | Protocol revisions, acceptance of submissions, recognition, moderation appeals; advice to the Company's Board on the roadmap, the commercial edition and the terms of the web-app exchange. |
 | **Maintainers** | Appointed by the Committee | Merge accepted pull requests, run releases, keep CI green, triage issues. |
 | **Reviewers** | Any contributor in good standing; verified professionals | Review submissions and pull requests; their reviews are public. |
@@ -62,3 +62,7 @@ Income from commercial software, certification (`CERTIFICATION.md`), sponsorship
 ## 7. Changing this document
 
 This document is changed by the process for protocol revisions in §5. §4 is changed only with the Overseer's consent.
+
+## The Originator
+
+The Originator is not named publicly while Omega42 establishes itself, so that attention stays on the work, and may choose to introduce themself later. Decisions remain recorded in the open under the handle ESC (`docs/DECISIONS_PENDING.md`).

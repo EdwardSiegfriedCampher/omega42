@@ -142,3 +142,9 @@ Each open decision is listed on its own, so that a decision on one never implies
 - **Recommended:** ratify CA-34 as one sentence in Part 8, naming an "ERE package" command and "show the navigation", with the rule that presentation never reduces depth or drops a material qualification.
 - **For ESC:** (1) ratify CA-34 or keep it at level B; (2) whether the ERE package becomes the default for all Strikers or only for website visitors.
 - **Normative:** yes, once ratified.
+
+## D-21 The Originator not named publicly (decided by ESC, 20 November 2026)
+- **Facts:** The Originator asked that their name be removed from the repository and the website, so that attention stays on the work, with the option of introducing themself later.
+- **Applied:** the name is replaced by "the Originator (ESC)" in the README, CITATION.cff, .zenodo.json, GOVERNANCE.md, LICENSES.md, the governance page, two APE submissions and the Core and Companion front matter (one Core paragraph re-accepted in the Rule 39 baseline); in archive/2025-10/ the name, web addresses and e-mail are withheld and two personal documents withdrawn; the website carries a short origin of Omega42.
+- **Not yet changed (needs the Originator's own GitHub account):** the repository address and the website address, which contain the account name; the git history, which keeps the earlier files and one commit author name. See the migration steps in the conversation of 20 November 2026.
+- **Status:** DECIDED by ESC (instruction of 20 November 2026).

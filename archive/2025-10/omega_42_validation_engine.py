@@ -1,5 +1,5 @@
 # Omega42 Validation Engine (ΩTE ∧ ΦEE) v3.0
-# Author: Edward S. Campher & OmegaGPT
+# Author: [the Originator] & OmegaGPT
 # Purpose: Validate outputs through Ontological Coherence and Ethical Resonance
 
 import math
