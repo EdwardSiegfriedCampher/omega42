@@ -2,11 +2,13 @@
 
 # Ω42
 
-### Everything that exists is one world, eighty-one places at its surface and endless in depth — and you can ask it a question.
+### Inside Ω42 everything is one world, eighty-one places at its surface and endless in depth — and you can ask it a question.
 
-**One structure. Any question. Your judgment.**
+**What if your next question opened an entirely new world?**
 
-[Website](https://omega42.github.io/omega42/) · [Strike a question](https://omega42.github.io/omega42/strike.html) · [Get the protocol](docs/) · [Submit](CONTRIBUTING.md) · [Forum](../../discussions)
+One structure. Any question. Unlimited possibilities. Your judgment.
+
+[Website](../../deployments/github-pages) · [Speculative Foundations](research/philosophy/SPECULATIVE_FOUNDATIONS.md) · [Construct X](site/construct_x_lab.html) · [Get the protocol](docs/) · [Submit](CONTRIBUTING.md) · [Forum](../../discussions)
 
 <sub>V335 Rev.450 STABLE · Originator: E.S. Campher (ESC) · Text CC BY 4.0 · Code Apache-2.0 · No patents, ever</sub>
 
@@ -83,7 +85,7 @@ This repository is the home of an open network built around the protocol:
 
 | | |
 |---|---|
-| **Discover** | The [website](https://omega42.github.io/omega42/): the idea, the novel features, the free Strike app. |
+| **Discover** | The [website](../../deployments/github-pages): the idea, the novel features, the free Strike app. |
 | **Access** | The protocol in [`docs/`](docs/), with plain-text copies and hashes on the site, readable by people and AI systems alike (`AI_ACCESS.md`). |
 | **Contribute** | Navigations, explorations, reviews, inventions, code and research, through simple [forms](CONTRIBUTING.md). Everything accepted is published with your name, a date and a hash. |
 | **Discuss** | The [forum](../../discussions): ideas, debates, readings, and opinions from verified professionals (`community/`). |

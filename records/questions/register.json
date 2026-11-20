@@ -1,0 +1,374 @@
+{
+ "_about": "The World of Questions: entry points into Omega42 by category, with sample questions anyone can ask at once (site: questions.html and the home page). Three levels: featured questions (here), community questions (from submissions) and Navigator-generated questions (Questions Worth Asking, weekly in the Discovery Bulletin). A suggested approach is a starting point; the Navigator classifies each question itself (docs/QUESTION_NAVIGATION.md). Proposal by ChatGPT 6 (OpenAI), relayed by the Originator, 20 November 2026.",
+ "principle": "No subject is excluded from exploration because it is unconventional, controversial, speculative or outside current scientific consensus. The method of exploration and the status of every resulting statement stay transparent: what a source says, what a person reports experiencing, what a tradition teaches, what sources share, what can be independently checked, what is an interpretation, what remains unexplained, and what is speculative or metaphysical.",
+ "approaches": {
+  "direct": "Direct Omega analysis",
+  "explore": "Active research",
+  "hybrid": "Hybrid exploration",
+  "speculate": "Open speculation",
+  "formal": "Formal development"
+ },
+ "categories": [
+  {
+   "id": "mathematics",
+   "name": "Mathematics and the Nature of Structure",
+   "scope": "Number theory, geometry, algebra, topology, logic, probability, infinity, computation and foundations.",
+   "color": "c-cyan",
+   "featured": [
+    {
+     "q": "Are there mathematical structures that appear repeatedly across unrelated fields?",
+     "approach": "explore"
+    },
+    {
+     "q": "What can the Omega42 81-state structure reveal about recurrence and symmetry?",
+     "approach": "direct"
+    },
+    {
+     "q": "Can infinity be understood through finite mathematical systems?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "physics",
+   "name": "Physics, Cosmology and the Universe",
+   "scope": "Relativity, quantum mechanics, cosmology, time, gravity, dark matter, dark energy and speculative physical models.",
+   "color": "c-blue",
+   "featured": [
+    {
+     "q": "Is time fundamental, or does it emerge from something more basic?",
+     "approach": "explore"
+    },
+    {
+     "q": "Could the mathematical structures of quantum theory and general relativity share a deeper foundation?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "What could exist beyond the observable universe?",
+     "approach": "speculate"
+    }
+   ]
+  },
+  {
+   "id": "quantum",
+   "name": "Quantum Reality and Information",
+   "scope": "Quantum information, entanglement, measurement, quantum computing, information theory and interpretations of quantum mechanics.",
+   "color": "c-violet",
+   "featured": [
+    {
+     "q": "Is information more fundamental than matter?",
+     "approach": "explore"
+    },
+    {
+     "q": "What does quantum entanglement tell us about physical reality?",
+     "approach": "explore"
+    },
+    {
+     "q": "Could quantum information give a new way of understanding the structure of the universe?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "consciousness",
+   "name": "Consciousness, Mind and Experience",
+   "scope": "Consciousness studies, neuroscience, cognitive science, perception, memory, selfhood, altered states and theories of mind.",
+   "color": "c-magenta",
+   "featured": [
+    {
+     "q": "Why does subjective experience exist?",
+     "approach": "speculate"
+    },
+    {
+     "q": "Could consciousness be an emergent property, a fundamental property or something else?",
+     "approach": "explore"
+    },
+    {
+     "q": "How does personal identity persist as the brain and body change?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "spirituality",
+   "name": "Spirituality, Religion and Existential Questions",
+   "scope": "Religious traditions, theology, mysticism, contemplative practice, sacred texts, spiritual experience, purpose and meaning.",
+   "color": "c-gold",
+   "featured": [
+    {
+     "q": "Do different spiritual traditions describe a common underlying experience?",
+     "approach": "explore"
+    },
+    {
+     "q": "What is the relationship between consciousness and the idea of a soul?",
+     "approach": "speculate"
+    },
+    {
+     "q": "Can the meaning of existence be approached through mathematics, philosophy and spiritual traditions together?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "paranormal",
+   "name": "The Supernatural and Paranormal",
+   "scope": "Apparitions, telepathy, precognition, psychokinesis, anomalous experiences, survival after death and reports of extraordinary phenomena.",
+   "color": "c-violet",
+   "featured": [
+    {
+     "q": "What is the strongest evidence for and against telepathy?",
+     "approach": "explore"
+    },
+    {
+     "q": "Are there recurring patterns in reported near-death experiences?",
+     "approach": "explore"
+    },
+    {
+     "q": "How can an unexplained phenomenon be told apart from an explanation that invokes the supernatural?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "esoteric",
+   "name": "Esoteric Traditions and Hidden Knowledge",
+   "scope": "Hermeticism, alchemy, astrology, Kabbalah, occult philosophy, sacred geometry, ancient wisdom traditions and symbolism.",
+   "color": "c-orange",
+   "featured": [
+    {
+     "q": "Do different esoteric traditions share a common conceptual structure?",
+     "approach": "explore"
+    },
+    {
+     "q": "What is the historical relationship between alchemy and modern chemistry?",
+     "approach": "explore"
+    },
+    {
+     "q": "Which statements about sacred geometry have mathematical substance, and which are symbolic interpretations?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "channeled",
+   "name": "Channeled Material and Non-Human Intelligence",
+   "scope": "Channeled communications, reported contact experiences, extraterrestrial intelligence, non-human entities and comparative analysis of source material.",
+   "color": "c-magenta",
+   "featured": [
+    {
+     "q": "What recurring concepts appear in the Ra Material, the Seth Material and other channeled works?",
+     "approach": "explore"
+    },
+    {
+     "q": "Can channeled texts be compared for internal consistency, philosophical structure and distinctive teachings?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "What would distinguish a communication from an external source from human-generated content?",
+     "approach": "speculate"
+    }
+   ]
+  },
+  {
+   "id": "ancient",
+   "name": "Ancient Civilizations and Alternative History",
+   "scope": "Archaeology, ancient cultures, lost-civilization proposals, historical mysteries, mythology and ancient technology.",
+   "color": "c-orange",
+   "featured": [
+    {
+     "q": "What do ancient monuments reveal about the mathematical knowledge of their builders?",
+     "approach": "explore"
+    },
+    {
+     "q": "Which proposals about lost civilizations have credible archaeological support?",
+     "approach": "explore"
+    },
+    {
+     "q": "How do historical records and mythology shape our understanding of the distant past?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "life",
+   "name": "Life, Biology and Evolution",
+   "scope": "Genetics, epigenetics, evolution, ecology, origins of life, development, inheritance and biological organization.",
+   "color": "c-lime",
+   "featured": [
+    {
+     "q": "How do inherited biological and environmental patterns shape future generations?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "What distinguishes living systems from non-living complex systems?",
+     "approach": "explore"
+    },
+    {
+     "q": "Could life emerge through general mathematical principles of organization?",
+     "approach": "speculate"
+    }
+   ]
+  },
+  {
+   "id": "earth",
+   "name": "Earth, Nature and Complex Systems",
+   "scope": "Climate, ecosystems, geology, oceans, complexity, emergence, systems theory and planetary processes.",
+   "color": "c-lime",
+   "featured": [
+    {
+     "q": "Why do some complex systems suddenly switch into entirely different states?",
+     "approach": "explore"
+    },
+    {
+     "q": "Are there common mathematical principles behind ecological tipping points and social change?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "What would a sustainable human civilization look like?",
+     "approach": "speculate"
+    }
+   ]
+  },
+  {
+   "id": "humanity",
+   "name": "Humanity, Psychology and Society",
+   "scope": "Behavior, relationships, social systems, economics, politics, anthropology, education, culture and collective belief.",
+   "color": "c-cyan",
+   "featured": [
+    {
+     "q": "How do collective beliefs become accepted as reality?",
+     "approach": "explore"
+    },
+    {
+     "q": "Can human societies deliberately change inherited patterns?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "What conditions make cooperation possible between people with fundamentally different worldviews?",
+     "approach": "explore"
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "name": "Artificial Intelligence and Future Intelligence",
+   "scope": "AI, machine learning, general intelligence, machine consciousness, computational creativity and human–machine relationships.",
+   "color": "c-blue",
+   "featured": [
+    {
+     "q": "What would constitute convincing evidence of machine consciousness?",
+     "approach": "explore"
+    },
+    {
+     "q": "Could intelligence exist without biological embodiment?",
+     "approach": "speculate"
+    },
+    {
+     "q": "How could human and artificial intelligence develop together?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "philosophy",
+   "name": "Philosophy, Language and Meaning",
+   "scope": "Metaphysics, epistemology, ethics, logic, aesthetics, linguistics, semiotics, truth and interpretation.",
+   "color": "c-violet",
+   "featured": [
+    {
+     "q": "Is reality independent of the concepts through which we describe it?",
+     "approach": "speculate"
+    },
+    {
+     "q": "Can meaning survive translation between radically different languages?",
+     "approach": "explore"
+    },
+    {
+     "q": "What is the relationship between truth, consensus and understanding?",
+     "approach": "hybrid"
+    }
+   ]
+  },
+  {
+   "id": "art",
+   "name": "Art, Music and Creative Expression",
+   "scope": "Music, visual art, architecture, literature, creativity, symbolism, sound, cymatics and the mathematics of artistic structure.",
+   "color": "c-gold",
+   "featured": [
+    {
+     "q": "Why do certain mathematical proportions appear in music and visual art?",
+     "approach": "explore"
+    },
+    {
+     "q": "Can creative processes be described as transformations through a possibility space?",
+     "approach": "hybrid"
+    },
+    {
+     "q": "How does the brain recognize patterns in music and art?",
+     "approach": "explore"
+    }
+   ]
+  },
+  {
+   "id": "speculative",
+   "name": "Speculative Worlds and Unexplored Possibilities",
+   "scope": "Thought experiments, alternative realities, multiverse hypotheses, future scenarios, hypothetical laws of nature and new conceptual architectures.",
+   "color": "c-magenta",
+   "featured": [
+    {
+     "q": "What would a universe governed by different mathematical laws look like?",
+     "approach": "speculate"
+    },
+    {
+     "q": "Could consciousness operate through a form of reality fundamentally different from our own?",
+     "approach": "speculate"
+    },
+    {
+     "q": "What new ways of organizing knowledge have we not yet imagined?",
+     "approach": "speculate"
+    }
+   ]
+  },
+  {
+   "id": "else",
+   "name": "Something Else: Beyond the Categories",
+   "scope": "No subject required. No disciplinary boundary. Start with whatever is on your mind.",
+   "color": "c-cyan",
+   "featured": []
+  }
+ ],
+ "cross": [
+  {
+   "fields": "Mathematics + Consciousness",
+   "q": "Could mathematical structures help describe the relationship between memory, identity and subjective experience?",
+   "approach": "hybrid"
+  },
+  {
+   "fields": "Quantum physics + Spiritual traditions",
+   "q": "Which similarities between quantum theory and mystical descriptions are mathematical correspondences, and which are metaphorical?",
+   "approach": "hybrid"
+  },
+  {
+   "fields": "Biology + Human purpose",
+   "q": "How do inherited biological, cultural and psychological patterns influence the purposes people construct for themselves?",
+   "approach": "hybrid"
+  },
+  {
+   "fields": "Channeled material + Philosophy",
+   "q": "Do different channeled works describe comparable models of consciousness, existence and the evolution of intelligence?",
+   "approach": "explore"
+  },
+  {
+   "fields": "Ancient civilizations + Mathematics",
+   "q": "Can the geometry, astronomy and construction techniques of ancient monuments reveal shared mathematical principles?",
+   "approach": "hybrid"
+  },
+  {
+   "fields": "AI + Consciousness + Philosophy",
+   "q": "What would distinguish an intelligent system that convincingly describes consciousness from one that experiences it?",
+   "approach": "speculate"
+  }
+ ],
+ "community": [],
+ "worth_asking": []
+}

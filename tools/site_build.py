@@ -14,8 +14,28 @@ import records as R
 import congruence as cg
 
 SITE = os.path.join(ROOT, 'site')
-NAV = [('index', 'Home'), ('protocol', 'Protocol'), ('strike', 'Strike'), ('library', 'Library'), ('construct-x', 'Construct X'), ('submit', 'Submit'),
-       ('forum', 'Forum'), ('research', 'Research'), ('community', 'Community'), ('governance', 'Governance')]
+# Six destinations, each a group with its own pages (the first page of a group is where its heading leads).
+NAV = [('Discoveries', [('bulletin', 'The Discovery Bulletin'), ('expert-desk', 'Expert Exploration Desk'), ('vision', 'The Omega42 paper')]),
+       ('Explore', [('questions', 'World of Questions'), ('integrity', 'Information Integrity'), ('companion', 'Companion Explorer'), ('strike', 'Ask a question'), ('explore', 'How Omega42 works'), ('construct-x', 'Construct X laboratory'), ('speculate', 'Speculative Foundations')]),
+       ('FAQ', [('faq', 'Frequently asked questions')]),
+       ('Protocol', [('protocol', 'Core and Companion'), ('for-ai', 'For AI systems'), ('apps', 'Free and commercial editions')]),
+       ('Research', [('research', 'Research frontiers'), ('construct-x', 'Construct X laboratory'), ('speculate', 'Speculative Foundations')]),
+       ('Library', [('library', 'Discoveries and explorations'), ('catalogue', 'Catalogue'), ('prior-art', 'Prior art and inventions'), ('history', 'History of releases'), ('record', 'The record')]),
+       ('Community', [('community', 'Join the community'), ('forum', 'Forum'), ('submit', 'Bring your ideas')]),
+       ('Governance', [('governance', 'Governance')])]
+
+
+def nav_html(current):
+    """The grouped main navigation; the group holding the current page is marked."""
+    out = []
+    for head, items in NAV:
+        here = any(k == current for k, _ in items)
+        links = ''.join('<a href="%s.html"%s>%s</a>' % (k, ' aria-current="page"' if k == current else '', t) for k, t in items)
+        menu = '<div class="menu">%s</div>' % links if len(items) > 1 else ''
+        out.append('<div class="grp%s"><a class="head" href="%s.html">%s</a>%s</div>' % (' here' if here else '', items[0][0], head, menu))
+    return ''.join(out)
+
+
 LEVELS = [(75, 'Fellow'), (30, 'Cartographer'), (10, 'Navigator-Partner'), (1, 'Striker'), (0, '—')]
 
 
@@ -122,17 +142,58 @@ def build(out, repo):
 
     # pages
     layout = open(os.path.join(SITE, 'layout.html'), encoding='utf-8').read()
-    subs = {'{{REPO}}': repo, '{{VERSION}}': version, '{{BASE}}': '', '{{PROTOCOL_ROWS}}': '\n'.join(rows),
-            '{{SCRIPT_SHA_SHORT}}': script_sha[:16], '{{NEWSLETTER_ACTION}}': cfg.get('newsletter', {}).get('form_action') or '#subscribe'}
+    freg = json.load(open(os.path.join(ROOT, 'records', 'frontier', 'register.json'), encoding='utf-8'))
+    fsubs = frontier_html(freg)
+    json.dump(freg, open(os.path.join(out, 'api', 'frontier.json'), 'w', encoding='utf-8'), indent=1, ensure_ascii=False)   # the Daily Frontier register
+    vision = md_html(open(os.path.join(ROOT, 'docs', 'VISION.md'), encoding='utf-8').read())
+    subs = dict(fsubs, **questions_html(json.load(open(os.path.join(ROOT, 'records', 'questions', 'register.json'), encoding='utf-8'))))
+    subs.update({'{{VISION}}': vision,
+            '{{REPO}}': repo, '{{VERSION}}': version, '{{BASE}}': '', '{{PROTOCOL_ROWS}}': '\n'.join(rows),
+            '{{SCRIPT_SHA_SHORT}}': script_sha[:16], '{{NEWSLETTER_ACTION}}': cfg.get('newsletter', {}).get('form_action') or '#subscribe'})
     pages = []
+    # the Companion Explorer: one page per Part, a contents page and a search index, from the Companion's Markdown (one source)
+    cpath = os.path.join(ROOT, 'ai', 'Omega42_Companion_V335_Rev450.md')
+    if os.path.exists(cpath):
+        parts = companion_sections(cpath); index = []
+        def render(title, desc, body, navkey, fname):
+            pg = layout.replace('{{TITLE}}', html.escape(title)).replace('{{DESC}}', html.escape(desc)).replace('{{NAV}}', nav_html(navkey)) \
+                       .replace('{{BODY}}', body).replace('{{SCRIPTS}}', '')
+            for k, v in subs.items(): pg = pg.replace(k, v)
+            open(os.path.join(out, fname), 'w', encoding='utf-8').write(pg); pages.append(fname)
+        toc = []
+        for i, (pslug, ptitle, ptags, subsecs) in enumerate(parts):
+            fname = 'companion-%s.html' % pslug
+            prev = '<a class="btn ghost" href="companion-%s.html">← %s</a>' % (parts[i - 1][0], html.escape(parts[i - 1][1][:40])) if i else ''
+            nxt = '<a class="btn ghost" href="companion-%s.html">%s →</a>' % (parts[i + 1][0], html.escape(parts[i + 1][1][:40])) if i + 1 < len(parts) else ''
+            chips = ''.join('<span class="chip">%s</span>' % html.escape(t) for t in ptags)
+            secs, side = [], []
+            for anchor, stitle, stags, lines in subsecs:
+                if anchor != 'top':
+                    side.append('<a href="#%s">%s</a>' % (anchor, html.escape(stitle[:70])))
+                    secs.append('<section id="%s" class="csec"><h2><a class="anchor" href="#%s">§</a> %s %s</h2>%s</section>' % (
+                        anchor, anchor, html.escape(stitle), ''.join('<span class="chip">%s</span>' % html.escape(t) for t in stags), companion_body(lines)))
+                else:
+                    secs.append('<section class="csec">%s</section>' % companion_body(lines))
+                index.append(dict(f=fname, a='' if anchor == 'top' else anchor, p=ptitle[:80], t='' if anchor == 'top' else stitle[:120], x=' '.join(lines)))
+            body = ('<div class="wide companion"><div class="crumbs mono"><a href="companion.html">Companion Explorer</a> · %s · %s</div>'
+                    '<div class="cgrid"><aside class="ctoc">%s</aside><article class="col stack"><h1>%s</h1><div class="row">%s</div>%s'
+                    '<div class="row" style="justify-content:space-between">%s%s</div></article></div></div>') % (
+                html.escape(version), html.escape(ptitle[:60]), ''.join(side) or '<span class="note">No subsections</span>', html.escape(ptitle), chips, ''.join(secs), prev, nxt)
+            render('%s · Omega42 Companion' % ptitle[:70], 'Omega42 Companion, %s: %s' % (version, ptitle), body, 'companion', fname)
+            toc.append((pslug, ptitle, ptags, len(subsecs) - 1))
+        subs['{{COMPANION_TOC}}'] = ''.join('<a class="ctoc-row" href="companion-%s.html"><span>%s</span><span class="note">%s%s</span></a>' % (
+            p, html.escape(t), ' · '.join(html.escape(x) for x in tg[:1]), (' · %d sections' % n) if n else '') for p, t, tg, n in toc)
+        subs['{{COMPANION_COUNT}}'] = str(len(toc))
+        json.dump(index, open(os.path.join(out, 'api', 'companion-search.json'), 'w', encoding='utf-8'), ensure_ascii=False)
     for f in sorted(os.listdir(os.path.join(SITE, 'pages'))):
         src = open(os.path.join(SITE, 'pages', f), encoding='utf-8').read()
         m = re.match(r'<!--(\{.*?\})-->\n', src, re.S); meta = json.loads(m.group(1)); body = src[m.end():]
-        nav = ''.join('<a href="%s.html"%s>%s</a>' % (k, ' aria-current="page"' if k == meta.get('nav') else '', t) for k, t in NAV)
+        nav = nav_html(meta.get('nav'))
         page = layout.replace('{{TITLE}}', html.escape(meta['title'])).replace('{{DESC}}', html.escape(meta['desc'])).replace('{{NAV}}', nav) \
                      .replace('{{BODY}}', body).replace('{{SCRIPTS}}', ''.join('<script src="assets/%s"></script>' % s for s in meta.get('scripts', [])))
         for k, v in subs.items(): page = page.replace(k, v)
         open(os.path.join(out, f), 'w', encoding='utf-8').write(page); pages.append(f)
+
 
     # for machines
     open(os.path.join(out, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\nSitemap: %ssitemap.xml\n' % site_url)
@@ -157,6 +218,163 @@ def build(out, repo):
         '<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>Ω42 open record</title><id>%s</id><updated>%s</updated>'
         '<link href="%s"/>\n%s</feed>\n' % (site_url, now, site_url, entries))
     return dict(pages=pages, api=list(api), version=version)
+
+
+def md_html(text):
+    """A small Markdown subset (headings, paragraphs, lists, bold, italic) for the public paper (docs/VISION.md)."""
+    def inline(t):
+        t = html.escape(t, quote=False)
+        t = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', t)
+        return re.sub(r'(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])', r'<i>\1</i>', t)
+    out, para, items = [], [], []
+    def flush():
+        if para: out.append('<p>%s</p>' % inline(' '.join(para))); para.clear()
+        if items: out.append('<ul>%s</ul>' % ''.join('<li>%s</li>' % inline(i) for i in items)); items.clear()
+    for line in text.splitlines():
+        m = re.match(r'(#{1,3}) (.*)', line)
+        if m: flush(); out.append('<h%d>%s</h%d>' % (len(m.group(1)) + 1, inline(m.group(2)), len(m.group(1)) + 1)); continue
+        if re.match(r'(- |\d+\. )', line): (para and flush()); items.append(re.sub(r'^(- |\d+\. )', '', line)); continue
+        if not line.strip(): flush(); continue
+        para.append(line.strip())
+    flush()
+    return '\n'.join(out)
+
+
+def companion_sections(path):
+    """The Companion text before Appendix X, split into its Parts: [(slug, title, tags, [(anchor, title, tags, lines)])]."""
+    text = open(path, encoding='utf-8').read()
+    text = text[:text.find('\n### APPENDIX X')] if '\n### APPENDIX X' in text else text
+    def tags_of(t):
+        m = re.findall(r'\[([^\]]+)\]', t); return re.sub(r'\s*\[[^\]]+\]', '', t).strip(), m
+    def slug(t): return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60] or 'section'
+    parts, cur, sub = [], None, None
+    for line in text.splitlines():
+        m = re.match(r'### (.*)', line)
+        if m:
+            title, tags = tags_of(m.group(1))
+            if not re.match(r'\d', title):
+                sm = re.match(r'PART ([\d.]+)', title)
+                cur = ('part-' + sm.group(1).replace('.', '-')) if sm else slug(title)
+                parts.append([cur, title, tags, []]); sub = None
+                parts[-1][3].append(['top', '', [], []]); continue
+            nm = re.match(r'([\d.]+)', title)
+            if parts: parts[-1][3].append(['s-' + nm.group(1).replace('.', '-').strip('-'), title, tags, []])
+            continue
+        if parts and line.strip() and line.strip() != '---': parts[-1][3][-1][3].append(line.strip())
+    seen = set()
+    for p in parts:
+        while p[0] in seen: p[0] += '-b'
+        seen.add(p[0])
+    return parts
+
+
+def companion_body(lines):
+    out, items = [], []
+    def flush():
+        if items: out.append('<ul>%s</ul>' % ''.join('<li>%s</li>' % i for i in items)); items.clear()
+    for l in lines:
+        e = html.escape(l, quote=False).replace('{', '&#123;').replace('}', '&#125;')
+        e = re.sub(r'\[((?:EXPLORATORY|CDT|PROTOCOL|REFERENCE|RESEARCH)[^\]]*)\]', r'<span class="chip">\1</span>', e)
+        if re.match(r'[-*] ', l): items.append(e[2:]); continue
+        flush()
+        q = re.match(r'(Q\d+[a-z]?: .*)', e)
+        out.append('<h3 class="q">%s</h3>' % q.group(1) if q and len(e) < 200 else '<p>%s</p>' % e)
+    flush()
+    return '\n'.join(out)
+
+
+def questions_html(reg):
+    """The World of Questions (records/questions/register.json): category cards for the home page, the full catalogue and cross-field questions."""
+    from urllib.parse import urlencode
+    E = lambda t: html.escape(t)
+    ap = reg['approaches']; n = [0]
+    def q(item, show=True):
+        n[0] += 1; qid = 'wq-%d' % n[0]
+        ask = 'strike.html#' + urlencode({'q': item['q'], 'mode': item['approach'], 'go': '0'})
+        return ('<li%s><span id="%s" class="qt">%s</span><span class="qa"><span class="chip">%s</span><button class="mini" type="button" data-copy="#%s">Copy</button>'
+                '<a class="mini" href="%s">Ask →</a></span></li>') % ('' if show else ' class="more"', qid, E(item['q']), E(ap[item['approach']]), qid, E(ask))
+    home = ''.join('<div class="qcat %s"><a class="k" href="questions.html#%s">%s</a><p class="note">%s</p><ul class="qs">%s</ul>%s</div>' % (
+        c['color'], E(c['id']), E(c['name']), E(c['scope']), ''.join(q(x) for x in c['featured'][:2]),
+        '<a class="go" href="questions.html#%s">More questions →</a>' % E(c['id']) if c['featured'] else '<a class="go" href="strike.html">Ask anything →</a>') for c in reg['categories'])
+    full = ''.join('<section class="qcat %s" id="%s"><h2>%s</h2><p class="note">%s</p><ul class="qs">%s</ul></section>' % (
+        c['color'], E(c['id']), E(c['name']), E(c['scope']), ''.join(q(x) for x in c['featured']) or '<li><a class="mini" href="strike.html">Ask anything →</a></li>') for c in reg['categories'])
+    cross = ''.join('<div class="qcat c-violet"><span class="k">%s</span><ul class="qs">%s</ul></div>' % (E(x['fields']), q(x)) for x in reg['cross'])
+    return {'{{QUESTIONS_HOME}}': home, '{{QUESTIONS_ALL}}': full, '{{QUESTIONS_CROSS}}': cross, '{{QUESTIONS_PRINCIPLE}}': E(reg['principle'])}
+
+
+def series_svg(series):
+    """A small line chart of an announcement's computed series (the visual reveal); colours by series."""
+    if not series: return ''
+    W, H, P = 560, 220, 34; n = max(len(v) for _, v in series); top = max(max(v) for _, v in series)
+    cols = ['#0b8fae', '#c2307f', '#6a3fe0', '#cf5f12']
+    X = lambda i: P + i * (W - 2 * P) / (n - 1); Y = lambda y: H - P - y * (H - 2 * P) / top
+    out = ['<svg class="reveal" viewBox="0 0 %d %d" role="img" aria-label="computed series">' % (W, H),
+           '<line x1="%d" y1="%d" x2="%d" y2="%d" class="axis"/>' % (P, H - P, W - P, H - P)]
+    for k, (label, v) in enumerate(series):
+        c = cols[k % 4]
+        out.append('<polyline fill="none" stroke="%s" stroke-width="2.5" points="%s"/>' % (c, ' '.join('%.1f,%.1f' % (X(i), Y(y)) for i, y in enumerate(v))))
+        out += ['<circle cx="%.1f" cy="%.1f" r="3" fill="%s"/>' % (X(i), Y(y), c) for i, y in enumerate(v)]
+        out.append('<text x="%d" y="%d" fill="%s">%s (ends at %d)</text>' % (P + 6, 18 + 16 * k, c, html.escape(label), v[-1]))
+    out.append('<text x="%d" y="%d" class="axis-t">steps 1 to %d</text></svg>' % (W - P - 90, H - 10, n))
+    return ''.join(out)
+
+
+def universe_svg(reg):
+    """The Discovery Universe: announcements, explorations, programmes and challenges as nodes; edges styled by relationship."""
+    import math
+    nodes = sorted({x for l in reg['links'] for x in l[:2]})
+    kind = lambda n: n.split('-')[0]
+    ring = {'DF': 0.0, 'EX': 1.0, 'FP': 0.55, 'GC': 0.55, 'XC': 1.0}
+    col = {'DF': '#f3c45f', 'EX': '#c9a7ff', 'FP': '#8fe9ff', 'GC': '#ff8a3d', 'XC': '#9be37a'}
+    W = H = 460; cx = cy = W / 2; pos = {}
+    groups = {}
+    for n in nodes: groups.setdefault(kind(n), []).append(n)
+    inner = groups.get('DF', [])
+    for i, n in enumerate(inner): t = 2 * math.pi * i / len(inner) - math.pi / 2; pos[n] = (cx + 60 * math.cos(t), cy + 60 * math.sin(t))
+    mid = groups.get('FP', []) + groups.get('GC', [])
+    for i, n in enumerate(mid): t = 2 * math.pi * i / len(mid) + 0.3; pos[n] = (cx + 135 * math.cos(t), cy + 135 * math.sin(t))
+    outer = groups.get('EX', []) + groups.get('XC', [])
+    for i, n in enumerate(outer): t = 2 * math.pi * i / len(outer) - 0.2; pos[n] = (cx + 200 * math.cos(t), cy + 200 * math.sin(t))
+    dash = {'analogy': '3 5', 'formal mapping': '', 'derivation': '', 'program': '1 4', 'programme': '1 4'}
+    width = {'analogy': 1.2, 'formal mapping': 2, 'derivation': 3.2, 'program': 1.2, 'programme': 1.2}
+    out = ['<svg class="universe" viewBox="0 0 %d %d" role="img" aria-label="The Discovery Universe map">' % (W, H)]
+    for a, b, t in reg['links']:
+        (x1, y1), (x2, y2) = pos[a], pos[b]
+        out.append('<line x1="%.0f" y1="%.0f" x2="%.0f" y2="%.0f" stroke="#cfc9f2" stroke-opacity=".7" stroke-width="%s" stroke-dasharray="%s"><title>%s %s %s</title></line>' % (x1, y1, x2, y2, width[t], dash[t], a, t, b))
+    for n in nodes:
+        x, y = pos[n]; c = col[kind(n)]
+        out.append('<g><circle cx="%.0f" cy="%.0f" r="%d" fill="%s" fill-opacity=".9"/><text x="%.0f" y="%.0f" text-anchor="middle">%s</text></g>' % (x, y, 15 if kind(n) == 'DF' else 11, c, x, y + (30 if kind(n) == 'DF' else 25), n))
+    out.append('</svg>')
+    return ''.join(out)
+
+
+def frontier_html(reg):
+    """The Discovery Bulletin (the public face of the Daily Frontier) and the Expert Exploration Desk, from records/frontier/register.json."""
+    E = lambda t: html.escape(t)
+    def card(d):
+        status = ''.join('<span class="chip">%s</span>' % E(x) for x in d['status'])
+        areas = ' · '.join(E(a) for a in d['areas'])
+        comp = ('<h3>What was computed</h3><p>%s <span class="note">(recompute: <code>python3 %s</code>)</span></p>' % (E(d['computed']), E(d['script']))) if d['computed'] else ''
+        return ('<article class="entry" id="%s"><div class="row"><span class="chip gold">%s</span><span class="chip cls">%s</span><span class="chip">method: %s</span>%s<span class="note">%s · %s</span></div>'
+                '<h2>%s</h2><p class="lede"><b>What has emerged.</b> %s</p>%s'
+                '<h3>Why it matters</h3><p>%s</p><h3>The discovery itself</h3><p>%s</p>%s<h3>Follow the implications</h3><p>%s</p>'
+                '<h3>The frontier</h3><p>%s</p><blockquote class="fieldnote"><span class="k">Navigator\'s field note</span>%s</blockquote>'
+                '<h3>Join the discovery</h3><p>%s</p><div class="actions"><a class="act" href="submit.html"><b>Extend this idea</b><span>Contribute</span></a>'
+                '<a class="act" href="forum.html"><b>Challenge the reasoning</b><span>Critique</span></a><a class="act" href="speculate.html"><b>Connect it to another field</b><span>Explore</span></a></div>'
+                '<p class="note">Related: %s · Navigator: %s · %s</p></article>') % (
+            E(d['id']), E(d['id']), E(d['class']), E(d['method']), status, E(d['date']), areas, E(d['headline']), E(d['emerged']), series_svg(d['series']),
+            E(d['significance']), E(d['model']), comp, E(d['implications']), E(d['frontier']), E(d['field_note']), E(d['challenge']),
+            E(', '.join(d['related'])), E(d['navigator']), E(d['publication']))
+    lead = reg['entries'][0]
+    more = ''.join('<a class="door c-violet" href="bulletin.html#%s"><span class="k">%s · %s</span><h3>%s</h3><span class="go">Read the announcement →</span></a>' % (
+        E(d['id']), E(d['class']), E(' · '.join(d['areas'])), E(d['headline'])) for d in reg['entries'][1:])
+    w = reg['weekly']
+    weekly = ('<div class="eyebrow">Weekly event · %s · open %s to %s</div><h2>%s</h2><p><b>%s</b></p><p>%s</p><p class="note">%s</p>' % (
+        E(w['id']), E(w['opens']), E(w['closes']), E(w['title']), E(w['question']), E('Starting point: ' + w['start']), E(w['recognition'])))
+    c = ''.join('<tr><td class="num">%s</td><td>%s</td><td>%s</td></tr>' % (E(x['id']), E(x['challenge']), E(x['expertise'])) for x in reg['challenges'])
+    return {'{{BULLETIN_ENTRIES}}': ''.join(card(d) for d in reg['entries']), '{{CHALLENGES}}': c, '{{WEEKLY}}': weekly, '{{UNIVERSE}}': universe_svg(reg),
+            '{{BULLETIN_MORE}}': more, '{{LEAD_ID}}': E(lead['id']), '{{LEAD_CLASS}}': E(lead['class']), '{{LEAD_HEADLINE}}': E(lead['headline']),
+            '{{LEAD_EMERGED}}': E(lead['emerged']), '{{LEAD_AREAS}}': E(' · '.join(lead['areas']))}
 
 
 def selftest():

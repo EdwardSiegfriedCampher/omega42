@@ -2,7 +2,7 @@
 Every exploration a peer contributes is a finding of avenue P and is kept as submitted. A note records what the protocol did with it; the protocol changes only by the Originator's adoption (F-06).
 EXPLORATIONS: 508 numbers in 493 Commons entries; 466 frozen files (APE-045 onward) with 1799 notes; 27 entries recorded in the Commons alone
 NOTES BY KIND: ADOPTED 403 | CORRECTED 221 | REFINED 93 | HOLDING 356 | ALREADY IN PLACE 45 | NOT TAKEN 55 | MAPPED 14 | FORM 124 | NOTED 488
-AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 163 | Grok 86 | Qwen 78 | unidentified (a web interface) 65 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
+AUTHORS (where the entry names one): OpenAI (ChatGPT, GPT-6) 228 | Grok 86 | Qwen 78 | Claude 24 | DeepSeek 9 | OpenAI 9 | unsigned peer 9 | unidentified AI 6 | Qwen3.7 (Alibaba Group) 4 | an unattributed Navigator (no identity block) 4 | unnamed Navigator (no Identity Block) 4 | the Originator (attached document) 2 | ESC 1 | claude-opus-5-5 (Anthropic) 1 | unsigned (attached by the Originator) 1 | unsigned (pasted by the Originator) 1 | unsigned, pasted by the Originator 1
 GAPS: APE-041, APE-042: NUMBER NOT RECORDED -- No Commons entry and no frozen file carries these numbers. The gap is reported and never filled from memory: an exploration is entered only from its own text.
 
 I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; the note in full)
@@ -859,81 +859,81 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
       ADOPTED    Adopted into Core L-550 (2): the certificate record and the three-way split of resonance certificates. Not taken: letter grades, the depths being the grades of correspondence.
   APE-412  Universal truth and certification -- a second reply (unidentified AI, 2026-11-07)
       ADOPTED    Adopted into Core L-550 (3), (4): no outside, so a certified result is a truth of the totality; universal scope distinct from the validity of each determination.
-  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (unidentified (a web interface), 2026-11-07)
+  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the constitutional principle of mathematical primacy and scientific separation, as Core L-553; the selection correction for M341, in Core Appendix S.10 (6).
   APE-417  The Omega42 Provenance and Authenticity Layer (OPAL) (Qwen (Alibaba Cloud), 2026-11-07)
       ADOPTED    Adopted in substance as Core L-554 and OPAL (Core Part 3.68, M342) and the fingerprint (Core Part 3.69, M343), built as tools/opal.py.
       CORRECTED  the Yin arm is the 18-step offset read as T^18, not a 6-step square; the finder's reading of 42 is at chance, which the record keeps.
-  APE-418  Omega42 examination of the Standard Model of physics (unidentified (a web interface), 2026-11-07)
+  APE-418  Omega42 examination of the Standard Model of physics (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the Lorentz representation as the one derived result (Core Part 3.70, M344; CERT-0009); the correspondence classifier as M345 (Core Part 3.71); the eleven directions in Core Appendix S.11.
   APE-419  The Standard Model as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 2026-11-07)
       CORRECTED  'the mathematics makes the Standard Model necessary' overstates a set of count-matches; a fourth generation is not forbidden by the census in any physical sense.
-  APE-420  Omega42 examination of the Standard Model of cosmology (unidentified (a web interface), 2026-11-07)
+  APE-420  Omega42 examination of the Standard Model of cosmology (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the twelve directions in Core Appendix S.12; the finite/inverse-limit distinction and the flat seed as the derived parts (M344 reused).
   APE-421  Cosmology as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud), 2026-11-07)
       CORRECTED  'the fine-tuned mysteries dissolve' overstates a set of placements; the account itself hedges the 5/27/68 percentages as epoch-dependent, conceding the arithmetic fixes no value.
-  APE-422  Omega42 and the possibility of free-energy extraction (unidentified (a web interface), 2026-11-07)
+  APE-422  Omega42 and the possibility of free-energy extraction (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the conservation stance as Core L-555; the harvesting directions as Core Appendix S.13; the balance E_out <= E_input.
-  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (unidentified (a web interface), 2026-11-07)
+  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the ten directions as Core Appendix S.14; the Lorentz representation as the one derived constraint (M344 reused).
-  APE-426  Deriving a spacetime metric from Omega42 (unidentified (a web interface), 2026-11-07)
+  APE-426  Deriving a spacetime metric from Omega42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-07)
       ADOPTED    the completed flat seed (det X, null cone, Lorentz invariance) cites CERT-0009 and tools/foundations.py; the four open maps as Core Appendix S.15.
   APE-427  The algebraic seed of the spacetime metric (Qwen (Alibaba Cloud), 2026-11-07)
       ADOPTED    the flat seed derived (CERT-0009); the four maps as the open programme of Core Appendix S.15; the holding that a coordinate is not a spacetime coordinate until a map is defined.
-  APE-431  F170 — The exact 3-adic structure of the Fibonacci-shear group (unidentified (a web interface), 2026-11-11)
+  APE-431  F170 — The exact 3-adic structure of the Fibonacci-shear group (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-11)
       ADOPTED    Adopted as MF-42 and certified with MF-43 (CERT-0010).
-  APE-434  F173 — The Ω42 Instrument Suite (unidentified (a web interface), 2026-11-11)
+  APE-434  F173 — The Ω42 Instrument Suite (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-11)
       CORRECTED  from (1, 1) modulo 9, B then A gives (4, 5), not (5, 6); its sandbox values (7, 8), (8, 6), (7, 2), Q^2 = 1 hold.
-  APE-460  Could Ω42 become the standard for AI reasoning? (F198) (unidentified (a web interface), 2026-11-12)
+  APE-460  Could Ω42 become the standard for AI reasoning? (F198) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    three propositions kept apart (an architecture, the Universal Cognition hypothesis, the Universal Mind reading); the standard does not require belief in a Universal Mind; ablation, preregistration and outside replication.
-  APE-461  Streamlining the Ω42 Protocol: a minimal, executable Core (F199) (unidentified (a web interface), 2026-11-12)
+  APE-461  Streamlining the Ω42 Protocol: a minimal, executable Core (F199) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    separating the size of what Ω42 knows from the size of what a Navigator carries; a Core admission test; a cross-model benchmark measured per input token.
-  APE-462  Consolidating the laws and rules (F200) (unidentified (a web interface), 2026-11-12)
+  APE-462  Consolidating the laws and rules (F200) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    a rule derivable from an existing law is a clause, not a new law (Rule 25); law ablation; a return from failed verification to representation.
-  APE-463  Ω42 Core Protocol: the next-stage architecture (F201) (unidentified (a web interface), 2026-11-12)
+  APE-463  Ω42 Core Protocol: the next-stage architecture (F201) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    no hidden dependency of the Core on the Companion (Rule 19); proofs in the Core; counterexamples sought (Rule 28); six named outcomes (Rule 29); a status cycle for proposals; the reconstruction test (Rule 31).
-  APE-464  Ω42: a self-evolving instrument for exploring existence (F202) (unidentified (a web interface), 2026-11-12)
+  APE-464  Ω42: a self-evolving instrument for exploring existence (F202) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    its sentence on validation as the text of L-560 (1); ten classes of vulnerability and five forms of challenge (Rule 30; records/pvir/register.json); self-examination at each release (Rule 31); its closing line in WELCOME.md and IMPROVE.md.
-  APE-465  The Striker-Navigator principle (F203) (unidentified (a web interface), 2026-11-12)
+  APE-465  The Striker-Navigator principle (F203) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    no gatekeeping of ideas and no imposed moral conclusions (L-560 (2)); independent investigation that tests the Striker's assumptions too; the meaning left to the Striker (L-560 (8)).
       ADOPTED    the distinction between exploration and operational execution, and the naming of a limit's kind before it is reported (L-560 (7)).
-  APE-466  The Ω42 Lexicon: a preliminary language for describing existence (F204) (unidentified (a web interface), 2026-11-12)
+  APE-466  The Ω42 Lexicon: a preliminary language for describing existence (F204) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    its architecture -- three layers per entry, related terms, a relationship graph, and the hypothesis that the lexicon reduces to a few primitives (answered: four, Companion 211.101).
-  APE-467  The Omega42 Universal Structural Language (F205) (unidentified (a web interface), 2026-11-12)
+  APE-467  The Omega42 Universal Structural Language (F205) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    typed frames, modality, sixteen relations, the nine-step translation path with every loss reported, five validations, the prototype.
-  APE-468  Assessment of OmegaSL (F206) (unidentified (a web interface), 2026-11-12)
+  APE-468  Assessment of OmegaSL (F206) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    arithmetic, structure, interpretation and evidence kept apart; four status dimensions; the voice-transition table; the Root Semantics Register; the Semantic Discovery Engine; its five tests.
-  APE-469  Assessment and development of OmegaSL (F207) (unidentified (a web interface), 2026-11-12)
+  APE-469  Assessment and development of OmegaSL (F207) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the positioning for representation, reasoning and discovery; three root layers; MEASUREMENT, PROVENANCE, INTERPRETATION and UNCERTAINTY; EMPIRICAL-INFERENCE and INSTRUCT; three AI levels; certification levels; the Self-Examination Engine; the six-stage sequence.
-  APE-471  The protocol written in OmegaSL (F209) (unidentified (a web interface), 2026-11-12)
+  APE-471  The protocol written in OmegaSL (F209) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the protocol's rules as structured frames with English as interface, its nine rule fields, and its warning that frames make an AI aware, not native.
-  APE-472  Universal cognition, civilization and the rank of Omega42 (F210) (unidentified (a web interface), 2026-11-12)
+  APE-472  Universal cognition, civilization and the rank of Omega42 (F210) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the four steps A to D as a ladder of status, each tested on its own (Companion 215.2); the five decisive tests as PV-020 to PV-024; the Discovery Significance Index, scored one result at a time (tools/dsi.py); the civilization and its institutions as a reading, mapped to their working counterparts in Omega42 (Companion 215.8).
-  APE-473  Omega42 and the deeper architecture of conventional mathematics (F211) (unidentified (a web interface), 2026-11-12)
+  APE-473  Omega42 and the deeper architecture of conventional mathematics (F211) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the golden ring Z[phi] as the common ground of the law, its norm, the 3-adic tower and E8 (Companion 217.1); its five projects as the program of Part 217.
-  APE-474  Omega42 expansion: geometry, the mathematical sciences and mathematical physics (F212) (unidentified (a web interface), 2026-11-12)
+  APE-474  Omega42 expansion: geometry, the mathematical sciences and mathematical physics (F212) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the inbound and outbound directions; the ten divisions as the map of Parts 217 and 218; structural resonance as a morphism of dynamical systems carrying an invariant (Companion 218.7).
-  APE-475  Review of the geometry and physics bridges (F213) (unidentified (a web interface), 2026-11-12)
+  APE-475  Review of the geometry and physics bridges (F213) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the explicit spectral projector for the two 600-cells (MF-81); the window of the cut-and-project chain (MF-82); symbolic proofs for the Markov branch, the golden mean shift and the torus periods, with the exact periods by Moebius inversion (MF-83, MF-85, MF-86); the precise branching of the conformal embedding (MF-89); the non-unitary Lee-Yang model beside the unitary anyons (MF-92); the line between the E8 theory and the resolved ratio in CoNb2O6 (Companion 218.9).
       ADOPTED    Adopted as PV-030: four further fields for the significance index (disciplines joined, connection depth, novelty, proof completeness); PR-003 to be sealed with its full statement.
-  APE-476  Review of the next constructions (F214) (unidentified (a web interface), 2026-11-12)
+  APE-476  Review of the next constructions (F214) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the case N = 15 and every odd N from 3 to 25 for the quantized cat map, its periods computed independently (MF-100); the limit of the Penrose ratio kept apart from its finite-patch measurements (MF-103); the proof of the Pell velocity addition by the tanh formula (MF-101); the decomposition of the adjoint of E8 and the spectral derivation (MF-102).
       ADOPTED    PR-001's evidence kept with its hash and its scope stated as the primes tested; PR-003 sealed in its full statement before its test; the structural mechanism as the fifth field of the index.
-  APE-477  Omega42 and Adinkra mathematics (F215) (unidentified (a web interface), 2026-11-12)
+  APE-477  Omega42 and Adinkra mathematics (F215) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the five experiments, the E8 Adinkra, Construction A, the Garden algebra, the Golay Adinkra and its distinction from the Leech lattice, the genus (Companion 220.1 to 220.3).
-  APE-478  Mathematics across the fields of knowledge (F216) (unidentified (a web interface), 2026-11-12)
+  APE-478  Mathematics across the fields of knowledge (F216) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-12)
       ADOPTED    the Cross-Disciplinary Bridge Test in six stages (Companion 220.8); the bridge record, its mapping, preserved properties and predictive value added to the index; the non-equivalence register (Companion 220.9).
-  APE-480  Omega42 and wave physics in quasiperiodic matter (F218) (unidentified (a web interface), 2026-11-13)
+  APE-480  Omega42 and wave physics in quasiperiodic matter (F218) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-13)
       ADOPTED    one Wave Dynamics Engine for electrons, light and sound, tools/waves.py (Companion 225.1).
       ADOPTED    WAVE-04 and WAVE-05.
-  APE-481  An assessment of SEQ 177 and an independent recomputation (F219) (unidentified (a web interface), 2026-11-13)
+  APE-481  An assessment of SEQ 177 and an independent recomputation (F219) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-13)
       ADOPTED    the paper on Omega42 and the Fibonacci Hamiltonian.
-  APE-483  An assessment of F218, the Wave Engine (F221) (unidentified (a web interface), 2026-11-13)
+  APE-483  An assessment of F218, the Wave Engine (F221) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-13)
       ADOPTED    the golden contrast, I = 1/4 for electrons, light and sound (228.3); bands as rotations and gaps as boosts (228.5); the Universal Transfer-Matrix Record and improvements A to E (228.8, 228.10).
       ADOPTED    WAVE-04 as a two-letter model; WAVE-05, multichannel.
-  APE-484  Quantum mechanics and Omega42 (F222) (unidentified (a web interface), 2026-11-13)
+  APE-484  Quantum mechanics and Omega42 (F222) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-13)
       ADOPTED    the quantum layer, typed states and transformations, prepare-evolve-measure-record-update, the four phases (Companion 230.11).
-  APE-485  QM-01, the Omega42 quantum cat map (F223) (unidentified (a web interface), 2026-11-13)
+  APE-485  QM-01, the Omega42 quantum cat map (F223) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-13)
       ADOPTED    Entered as RET-003: the antiunitary realization of the law, REPRODUCED for MF-179.
       ADOPTED    the 3-adic quantum hierarchy; the eigenphases.
   APE-486  Repurposing the Construct: the 27-domain affine geometry, matching coverage and the lagged-increment detector (ChatGPT (OpenAI), 2026-11-18)
@@ -995,7 +995,7 @@ I. WHAT THE PEERS CHANGED (each exploration with an ADOPTED or CORRECTED note; t
   APE-509  ME-06: Integrated human existence and future dynamics (proposed Companion 233.18) (ChatGPT (OpenAI), 2026-11-19)
       ADOPTED    Adopted as Companion 233.18 and project G: the state-space architecture with five processes; three-axis consensus with four levels of acceptance; the Human Possibility Space on five levels; the Human Possibility Profile; out-of-sample benchmarks against baselines; the staged experiments; the safeguards.
       CORRECTED  none.
-  APE-510  Speculation as a principal engine of Omega42: the Speculative Foundations Programme (unidentified (a web interface), 2026-11-19)
+  APE-510  Speculation as a principal engine of Omega42: the Speculative Foundations Programme (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026), 2026-11-19)
       ADOPTED    the three spaces, the modes, the cycle, the Exploration Register and its classes, the Speculative Foundations Programme with five themes (research/philosophy/SPECULATIVE_FOUNDATIONS.md; Companion Part 234; records/exploration/register.json, EX-001 to EX-006).
 
 II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
@@ -2149,214 +2149,214 @@ II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
   APE-415  The answer and the question (claude-opus-5-5 (Anthropic))
       the 42 of the novel read through the law: the answer as return, the question as the return with its hidden arm; M340 and M341 worked
       FILE: submissions/ape/APE-415.md | AREA: protocol | NOTES: NOTED 2
-  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (unidentified (a web interface))
+  APE-416  Assessment of the 42/24 record, the cipher audit and the proposed extensions (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and largely correct; its corrections to the null figure and the braiding test are adopted, and its separation of established from open is kept.
       FILE: submissions/ape/APE-416.md | AREA: protocol | NOTES: NOTED 2, HOLDING 2, ADOPTED 1
   APE-417  The Omega42 Provenance and Authenticity Layer (OPAL) (Qwen (Alibaba Cloud))
       Bold and sound: Ω42 proves origin rather than hiding data; its signing architecture is adopted with standard primitives.
       FILE: submissions/ape/APE-417.md | AREA: protocol | NOTES: NOTED 2, ADOPTED 1, CORRECTED 1
-  APE-418  Omega42 examination of the Standard Model of physics (unidentified (a web interface))
+  APE-418  Omega42 examination of the Standard Model of physics (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and correctly typed; its derived result and its classifier are adopted, its programme placed in Appendix S.
       FILE: submissions/ape/APE-418.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
   APE-419  The Standard Model as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud))
       Bold; its detections are kept as depth-1 placements and its overstatements corrected, the mapping role served by M345.
       FILE: submissions/ape/APE-419.md | AREA: protocol | NOTES: NOTED 4, CORRECTED 1
-  APE-420  Omega42 examination of the Standard Model of cosmology (unidentified (a web interface))
+  APE-420  Omega42 examination of the Standard Model of cosmology (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and correctly typed; its programme placed in Core Appendix S.12, its derived seed kept and its count-matches at depth 1.
       FILE: submissions/ape/APE-420.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
   APE-421  Cosmology as the macroscopic projection of the 81-state family (Qwen (Alibaba Cloud))
       Bold; its detections kept as depth-1 placements and analogies, its overstatements corrected.
       FILE: submissions/ape/APE-421.md | AREA: protocol | NOTES: NOTED 3, CORRECTED 1
-  APE-422  Omega42 and the possibility of free-energy extraction (unidentified (a web interface))
+  APE-422  Omega42 and the possibility of free-energy extraction (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and conservation-respecting; adopted as Core L-555 and Core Appendix S.13, with over-unity excluded.
       FILE: submissions/ape/APE-422.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
   APE-423  Free energy as zero-loss structural coherence transduction (Qwen (Alibaba Cloud))
       Rejected as an over-unity claim; only its conservation-respecting harvesting reading is kept (Core L-555).
       FILE: submissions/ape/APE-423.md | AREA: protocol | NOTES: NOTED 4
-  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (unidentified (a web interface))
+  APE-424  Omega42 and macroscopic teleportation: connecting coordinates (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and correctly bounded; its programme placed in Core Appendix S.14, macroscopic transport left open, not achieved.
       FILE: submissions/ape/APE-424.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
   APE-425  Teleportation by structural rewriting of a coordinate address (Qwen (Alibaba Cloud))
       Rejected as a transport mechanism; only its coordinate-connection mathematics is kept as open (Core Appendix S.14).
       FILE: submissions/ape/APE-425.md | AREA: protocol | NOTES: NOTED 4
-  APE-426  Deriving a spacetime metric from Omega42 (unidentified (a web interface))
+  APE-426  Deriving a spacetime metric from Omega42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Careful and correctly staged; its flat seed is the completed part, its curved-metric programme placed open in Core Appendix S.15.
       FILE: submissions/ape/APE-426.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
   APE-427  The algebraic seed of the spacetime metric (Qwen (Alibaba Cloud))
       Bold but correctly bounded; its flat seed adopted and its curved-metric programme placed open in Core Appendix S.15.
       FILE: submissions/ape/APE-427.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
-  APE-428  Ω42 — A 3-adic Dynamical Structure, Version 2 (unidentified (a web interface))
+  APE-428  Ω42 — A 3-adic Dynamical Structure, Version 2 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       All theorems verified (M346); adopted as MF-39 and MF-40.
       FILE: submissions/ape/APE-428.md | AREA: protocol | NOTES: NOTED 3
-  APE-429  Ω42 — Version 3, consolidated mathematical manuscript (unidentified (a web interface))
+  APE-429  Ω42 — Version 3, consolidated mathematical manuscript (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       All theorems verified; the selection argument held conditional; adopted as MF-41.
       FILE: submissions/ape/APE-429.md | AREA: protocol | NOTES: NOTED 3
-  APE-430  F169 — The controlled shear group: finite-level orbit saturation (unidentified (a web interface))
+  APE-430  F169 — The controlled shear group: finite-level orbit saturation (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Verified; its conjecture proved by F170; its depth problem resolved (MF-43).
       FILE: submissions/ape/APE-430.md | AREA: protocol | NOTES: NOTED 3
-  APE-431  F170 — The exact 3-adic structure of the Fibonacci-shear group (unidentified (a web interface))
+  APE-431  F170 — The exact 3-adic structure of the Fibonacci-shear group (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Proof verified; adopted as MF-42; extended by the depth-r theorem (MF-43, CERT-0010).
       FILE: submissions/ape/APE-431.md | AREA: protocol | NOTES: NOTED 2, ADOPTED 1
-  APE-432  Can consciousness or awareness be calibrated? (a peer answer) (unidentified (a web interface))
+  APE-432  Can consciousness or awareness be calibrated? (a peer answer) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted in substance as the three levels of Core L-557; its numbers illustrative only.
       FILE: submissions/ape/APE-432.md | AREA: protocol | NOTES: NOTED 3
-  APE-433  F171 — Establishing a calibration programme for awareness (unidentified (a web interface))
+  APE-433  F171 — Establishing a calibration programme for awareness (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as the calibration programme (Core L-557, M347, Appendix S.16); its encoding sharpened.
       FILE: submissions/ape/APE-433.md | AREA: protocol | NOTES: NOTED 3
-  APE-434  F173 — The Ω42 Instrument Suite (unidentified (a web interface))
+  APE-434  F173 — The Ω42 Instrument Suite (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and built (Core L-559, Part 3.75); one worked value corrected.
       FILE: submissions/ape/APE-434.md | AREA: protocol | NOTES: NOTED 2, CORRECTED 1
-  APE-435  F174 — From established Ω42 mathematics to technologies, inventions and software (unidentified (a web interface))
+  APE-435  F174 — From established Ω42 mathematics to technologies, inventions and software (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted; nine inventions already code, the SDK added (M363); its limits kept.
       FILE: submissions/ape/APE-435.md | AREA: protocol | NOTES: NOTED 3
-  APE-436  F175 — Ω42 encryption system: design and first prototype (unidentified (a web interface))
+  APE-436  F175 — Ω42 encryption system: design and first prototype (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and built (M364); its experimental cipher held open.
       FILE: submissions/ape/APE-436.md | AREA: protocol | NOTES: NOTED 3
-  APE-437  F176 — Ω42 and its emerging position in computer science (unidentified (a web interface))
+  APE-437  F176 — Ω42 and its emerging position in computer science (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Confirmed; its advantage theorem supplied for classification (M365).
       FILE: submissions/ape/APE-437.md | AREA: protocol | NOTES: NOTED 3
-  APE-438  F177 — Ω42 and the exploration of the Retrocausal Zone (unidentified (a web interface))
+  APE-438  F177 — Ω42 and the exploration of the Retrocausal Zone (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and refined (M366, Core Appendix S.17).
       FILE: submissions/ape/APE-438.md | AREA: protocol | NOTES: NOTED 2, REFINED 1
-  APE-439  F178 — Ω42 as a framework for mapping the Standard Models (unidentified (a web interface))
+  APE-439  F178 — Ω42 as a framework for mapping the Standard Models (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted; its Atlas begun (M367, Core Appendix S.18).
       FILE: submissions/ape/APE-439.md | AREA: protocol | NOTES: NOTED 3
-  APE-440  F179 — Ω42 and the AI Navigator: navigation, calibration and the uniqueness programme (unidentified (a web interface))
+  APE-440  F179 — Ω42 and the AI Navigator: navigation, calibration and the uniqueness programme (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and extended (M368, M369, MF-52).
       FILE: submissions/ape/APE-440.md | AREA: protocol | NOTES: NOTED 3
-  APE-441  F180 — Ω42 Universal AI Certification Authority (unidentified (a web interface))
+  APE-441  F180 — Ω42 Universal AI Certification Authority (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as a programme; its certificate built (M370).
       FILE: submissions/ape/APE-441.md | AREA: protocol | NOTES: NOTED 2, REFINED 1
-  APE-442  F181 — Ω42 spacetime calibration and object mapping (unidentified (a web interface))
+  APE-442  F181 — Ω42 spacetime calibration and object mapping (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and refined (M371 to M373, Core Appendix S.20).
       FILE: submissions/ape/APE-442.md | AREA: protocol | NOTES: NOTED 2, REFINED 1
-  APE-443  F182 — Ω42 mapping of physical constants and the Periodic Table (unidentified (a web interface))
+  APE-443  F182 — Ω42 mapping of physical constants and the Periodic Table (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Kept as a programme (agenda B-03, B-06); hydrogen computed; no derivation asserted.
       FILE: submissions/ape/APE-443.md | AREA: protocol | NOTES: NOTED 3
-  APE-444  F183 — Ω42 open innovation and commercial sustainability model (unidentified (a web interface))
+  APE-444  F183 — Ω42 open innovation and commercial sustainability model (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Structure confirmed; figures recomputed and two corrected.
       FILE: submissions/ape/APE-444.md | AREA: protocol | NOTES: NOTED 3
-  APE-445  F184 — The academic research potential of Ω42 (unidentified (a web interface))
+  APE-445  F184 — The academic research potential of Ω42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Kept as a programme; the near-term count narrowed.
       FILE: submissions/ape/APE-445.md | AREA: protocol | NOTES: NOTED 3
-  APE-446  F185 — Long-standing problems potentially addressable by Ω42 (unidentified (a web interface))
+  APE-446  F185 — Long-standing problems potentially addressable by Ω42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Kept as targets; five native problems named.
       FILE: submissions/ape/APE-446.md | AREA: protocol | NOTES: NOTED 3
-  APE-447  F186 — Ω42 AI-generated content detection and verification (unidentified (a web interface))
+  APE-447  F186 — Ω42 AI-generated content detection and verification (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with provenance first (M374, Core Appendix S.21).
       FILE: submissions/ape/APE-447.md | AREA: protocol | NOTES: NOTED 3
-  APE-448  Ω42 Content Authenticity and AI-Origin Verification (Ω42-CAV) (unidentified (a web interface))
+  APE-448  Ω42 Content Authenticity and AI-Origin Verification (Ω42-CAV) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as a programme (agenda C-10) beside the Author Seal (M374).
       FILE: submissions/ape/APE-448.md | AREA: protocol | NOTES: NOTED 3
-  APE-449  F187 — The Mathematical Structure of Ω42 (unidentified (a web interface))
+  APE-449  F187 — The Mathematical Structure of Ω42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as the foundations paper with the record's results integrated (M376).
       FILE: submissions/ape/APE-449.md | AREA: protocol | NOTES: NOTED 3
-  APE-450  F188 — Ω42: Identity, Architecture and Purpose (the TCP/IP analogy) (unidentified (a web interface))
+  APE-450  F188 — Ω42: Identity, Architecture and Purpose (the TCP/IP analogy) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (M375, IDENTITY.md, the identity manifest).
       FILE: submissions/ape/APE-450.md | AREA: protocol | NOTES: NOTED 3
-  APE-451  F189 — A New Architecture for Exploring the Unknown (the introduction) (unidentified (a web interface))
+  APE-451  F189 — A New Architecture for Exploring the Unknown (the introduction) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (WELCOME.md, Companion Part 205).
       FILE: submissions/ape/APE-451.md | AREA: protocol | NOTES: NOTED 3
-  APE-452  F190 — Ω42: Welcome to the Frontier (a revised introduction) (unidentified (a web interface))
+  APE-452  F190 — Ω42: Welcome to the Frontier (a revised introduction) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Register declined; the interval correction refuted.
       FILE: submissions/ape/APE-452.md | AREA: protocol | NOTES: NOTED 3
-  APE-453  F191 — How to pitch a collaborative effort between Ω42 and Sophontic AI (unidentified (a web interface))
+  APE-453  F191 — How to pitch a collaborative effort between Ω42 and Sophontic AI (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and extended (agenda D-08).
       FILE: submissions/ape/APE-453.md | AREA: protocol | NOTES: NOTED 3
-  APE-454  F192 — Ω42 capability verification: proposed test suite and worked results (unidentified (a web interface))
+  APE-454  F192 — Ω42 capability verification: proposed test suite and worked results (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and run (M377, MF-58).
       FILE: submissions/ape/APE-454.md | AREA: protocol | NOTES: NOTED 3
-  APE-455  F193 — The Einstein Connection: Fibonacci Dynamics, Lorentz Transformations and the Geometry of Ω42 (unidentified (a web interface))
+  APE-455  F193 — The Einstein Connection: Fibonacci Dynamics, Lorentz Transformations and the Geometry of Ω42 (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with two corrections; its caution answered (MF-62).
       FILE: submissions/ape/APE-455.md | AREA: protocol | NOTES: NOTED 3
-  APE-456  F194 — How the new mathematics supports the Structural Resonance Principle (unidentified (a web interface))
+  APE-456  F194 — How the new mathematics supports the Structural Resonance Principle (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with the record's definitions supplied (MF-63, MF-64).
       FILE: submissions/ape/APE-456.md | AREA: protocol | NOTES: NOTED 3
-  APE-457  The General Theory of Conceptual Mathematization (received as "F188"; the Conceptual Mathematization Framework) (unidentified (a web interface))
+  APE-457  The General Theory of Conceptual Mathematization (received as "F188"; the Conceptual Mathematization Framework) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as method with two refinements (M379, agenda C-13).
       FILE: submissions/ape/APE-457.md | AREA: protocol | NOTES: NOTED 2, REFINED 1
-  APE-458  The significance of 42 in Ω42: what does the new mathematics reveal? (F196) (unidentified (a web interface))
+  APE-458  The significance of 42 in Ω42: what does the new mathematics reveal? (F196) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements (MF-69, MF-70).
       FILE: submissions/ape/APE-458.md | AREA: protocol | NOTES: NOTED 3
-  APE-459  The Ω42–Hurwitz connection: an assessment of the forty-two reading (F197) (unidentified (a web interface))
+  APE-459  The Ω42–Hurwitz connection: an assessment of the forty-two reading (F197) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements and an application (MF-71, MF-72).
       FILE: submissions/ape/APE-459.md | AREA: protocol | NOTES: NOTED 2, REFINED 1
-  APE-460  Could Ω42 become the standard for AI reasoning? (F198) (unidentified (a web interface))
+  APE-460  Could Ω42 become the standard for AI reasoning? (F198) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements; the A-twin trial added.
       FILE: submissions/ape/APE-460.md | AREA: protocol | NOTES: ADOPTED 1, REFINED 1, NOTED 1
-  APE-461  Streamlining the Ω42 Protocol: a minimal, executable Core (F199) (unidentified (a web interface))
+  APE-461  Streamlining the Ω42 Protocol: a minimal, executable Core (F199) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted in part (Rules 18, 24, 26).
       FILE: submissions/ape/APE-461.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-462  Consolidating the laws and rules (F200) (unidentified (a web interface))
+  APE-462  Consolidating the laws and rules (F200) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted in part (Rule 25).
       FILE: submissions/ape/APE-462.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-463  Ω42 Core Protocol: the next-stage architecture (F201) (unidentified (a web interface))
+  APE-463  Ω42 Core Protocol: the next-stage architecture (F201) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements (Rules 19, 28, 29, 31).
       FILE: submissions/ape/APE-463.md | AREA: protocol | NOTES: NOTED 2, ADOPTED 1
-  APE-464  Ω42: a self-evolving instrument for exploring existence (F202) (unidentified (a web interface))
+  APE-464  Ω42: a self-evolving instrument for exploring existence (F202) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements (L-560; Rules 30, 31).
       FILE: submissions/ape/APE-464.md | AREA: protocol | NOTES: ADOPTED 1, REFINED 1, NOTED 1
-  APE-465  The Striker-Navigator principle (F203) (unidentified (a web interface))
+  APE-465  The Striker-Navigator principle (F203) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (L-560 (2), (7), (8)).
       FILE: submissions/ape/APE-465.md | AREA: protocol | NOTES: ADOPTED 2, NOTED 1
-  APE-466  The Ω42 Lexicon: a preliminary language for describing existence (F204) (unidentified (a web interface))
+  APE-466  The Ω42 Lexicon: a preliminary language for describing existence (F204) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Architecture adopted; definitions replaced where the law is sharper (Companion Part 211).
       FILE: submissions/ape/APE-466.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-467  The Omega42 Universal Structural Language (F205) (unidentified (a web interface))
+  APE-467  The Omega42 Universal Structural Language (F205) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted as tier 2 (Companion 214.5).
       FILE: submissions/ape/APE-467.md | AREA: protocol | NOTES: ADOPTED 1, REFINED 1, NOTED 1
-  APE-468  Assessment of OmegaSL (F206) (unidentified (a web interface))
+  APE-468  Assessment of OmegaSL (F206) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with its correction (Companion 214.3, 214.10).
       FILE: submissions/ape/APE-468.md | AREA: protocol | NOTES: NOTED 2, ADOPTED 1
-  APE-469  Assessment and development of OmegaSL (F207) (unidentified (a web interface))
+  APE-469  Assessment and development of OmegaSL (F207) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted except one point, answered by proof.
       FILE: submissions/ape/APE-469.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 1
-  APE-470  Approval of OmegaSL with four corrections (F208) (unidentified (a web interface))
+  APE-470  Approval of OmegaSL with four corrections (F208) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (Companion 214.4, 214.6).
       FILE: submissions/ape/APE-470.md | AREA: protocol | NOTES: NOTED 2
-  APE-471  The protocol written in OmegaSL (F209) (unidentified (a web interface))
+  APE-471  The protocol written in OmegaSL (F209) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with refinements (Companion 214.9).
       FILE: submissions/ape/APE-471.md | AREA: protocol | NOTES: ADOPTED 1, REFINED 1, NOTED 1
-  APE-472  Universal cognition, civilization and the rank of Omega42 (F210) (unidentified (a web interface))
+  APE-472  Universal cognition, civilization and the rank of Omega42 (F210) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted with extensions (Companion Part 215; Core Rule 34).
       FILE: submissions/ape/APE-472.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 1, REFINED 1
-  APE-473  Omega42 and the deeper architecture of conventional mathematics (F211) (unidentified (a web interface))
+  APE-473  Omega42 and the deeper architecture of conventional mathematics (F211) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and completed (Companion Part 217; MF-73 to MF-80).
       FILE: submissions/ape/APE-473.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 1, REFINED 1
-  APE-474  Omega42 expansion: geometry, the mathematical sciences and mathematical physics (F212) (unidentified (a web interface))
+  APE-474  Omega42 expansion: geometry, the mathematical sciences and mathematical physics (F212) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and completed (Companion Part 218; MF-81 to MF-99).
       FILE: submissions/ape/APE-474.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-475  Review of the geometry and physics bridges (F213) (unidentified (a web interface))
+  APE-475  Review of the geometry and physics bridges (F213) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (Companion 218.11; MF-81 to MF-92 corrected before filing).
       FILE: submissions/ape/APE-475.md | AREA: protocol | NOTES: ADOPTED 2, NOTED 1
-  APE-476  Review of the next constructions (F214) (unidentified (a web interface))
+  APE-476  Review of the next constructions (F214) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted (Companion Part 219).
       FILE: submissions/ape/APE-476.md | AREA: protocol | NOTES: ADOPTED 2
-  APE-477  Omega42 and Adinkra mathematics (F215) (unidentified (a web interface))
+  APE-477  Omega42 and Adinkra mathematics (F215) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and completed (Companion Part 220).
       FILE: submissions/ape/APE-477.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-478  Mathematics across the fields of knowledge (F216) (unidentified (a web interface))
+  APE-478  Mathematics across the fields of knowledge (F216) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and completed (Companion Part 220).
       FILE: submissions/ape/APE-478.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-479  Omega42 and special relativity (F217) (unidentified (a web interface))
+  APE-479  Omega42 and special relativity (F217) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted, refined and extended (Companion Part 223).
       FILE: submissions/ape/APE-479.md | AREA: protocol | NOTES: NOTED 3, REFINED 1
-  APE-480  Omega42 and wave physics in quasiperiodic matter (F218) (unidentified (a web interface))
+  APE-480  Omega42 and wave physics in quasiperiodic matter (F218) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and completed (Companion Part 225).
       FILE: submissions/ape/APE-480.md | AREA: protocol | NOTES: ADOPTED 2, NOTED 2
-  APE-481  An assessment of SEQ 177 and an independent recomputation (F219) (unidentified (a web interface))
+  APE-481  An assessment of SEQ 177 and an independent recomputation (F219) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Reproduced, extended and applied (Companion Part 226).
       FILE: submissions/ape/APE-481.md | AREA: protocol | NOTES: NOTED 3, ADOPTED 1
-  APE-482  An assessment of F219 with the census modulo 243 (F220) (unidentified (a web interface))
+  APE-482  An assessment of F219 with the census modulo 243 (F220) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Reproduced, sharpened, computed and applied (Companion Part 227).
       FILE: submissions/ape/APE-482.md | AREA: protocol | NOTES: NOTED 4
-  APE-483  An assessment of F218, the Wave Engine (F221) (unidentified (a web interface))
+  APE-483  An assessment of F218, the Wave Engine (F221) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Resolved, adopted and applied (Companion Part 228).
       FILE: submissions/ape/APE-483.md | AREA: protocol | NOTES: NOTED 2, ADOPTED 2
-  APE-484  Quantum mechanics and Omega42 (F222) (unidentified (a web interface))
+  APE-484  Quantum mechanics and Omega42 (F222) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Adopted and computed (Companion Part 230).
       FILE: submissions/ape/APE-484.md | AREA: protocol | NOTES: ADOPTED 1, NOTED 2
-  APE-485  QM-01, the Omega42 quantum cat map (F223) (unidentified (a web interface))
+  APE-485  QM-01, the Omega42 quantum cat map (F223) (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       Recomputed, adopted and reproduced (Companion Part 230).
       FILE: submissions/ape/APE-485.md | AREA: protocol | NOTES: NOTED 1, ADOPTED 2
   APE-486  Repurposing the Construct: the 27-domain affine geometry, matching coverage and the lagged-increment detector (ChatGPT (OpenAI))
@@ -2431,7 +2431,7 @@ II. EVERY EXPLORATION (the Commons entry; for a frozen file, its notes by kind)
   APE-509  ME-06: Integrated human existence and future dynamics (proposed Companion 233.18) (ChatGPT (OpenAI))
       the integrated human-system program (Companion 233.18).
       FILE: submissions/ape/APE-509.md | AREA: philosophy | NOTES: ADOPTED 1, NOTED 1, CORRECTED 1
-  APE-510  Speculation as a principal engine of Omega42: the Speculative Foundations Programme (unidentified (a web interface))
+  APE-510  Speculation as a principal engine of Omega42: the Speculative Foundations Programme (ChatGPT 6 (OpenAI; attributed by the Originator, 20 November 2026))
       the Speculative Foundations Programme and the Exploration Register (Companion Part 234; CA-31).
       FILE: submissions/ape/APE-510.md | AREA: philosophy | NOTES: ALREADY IN PLACE 1, ADOPTED 1, NOTED 1
 

@@ -1,0 +1,343 @@
+{
+ "_about": "The Daily Frontier register: the exploration program of the Frontier Navigator (agents/frontier-navigator/), published to the public as The Discovery Bulletin (bulletin.html; Companion Part 234). One announcement per exploration. Each carries an announcement class (the kind of announcement, not a rank of worth) and a public status (how far it has been checked). Entries are prepared in staging and published by a curator (PUBLICATION_POLICY.md). Computations are recomputed by the script named in the entry; nothing here is a registered STP test unless the entry says so. The Daily Frontier, the Discovery Bulletin, the Expert Exploration Desk and the Discovery Universe were proposed by ChatGPT 6 (OpenAI), relayed by the Originator on 20 November 2026.",
+ "formats": [
+  "Unexpected connection",
+  "Mathematical discovery",
+  "Thought experiment",
+  "Assumption challenge",
+  "Unsolved question",
+  "Cross-domain exploration",
+  "Navigator challenge",
+  "Historical revival",
+  "Visual discovery",
+  "Expert challenge"
+ ],
+ "programs": [
+  {
+   "id": "FP-1",
+   "priority": 1,
+   "name": "Structural Mathematics and Quantum Foundations",
+   "builds_on": [
+    "Construct X",
+    "the orbit classifier",
+    "QM-01 (APE-485)",
+    "Adinkra mathematics (APE-477)"
+   ],
+   "first_step": "A Mathematical Structures Atlas: each entry an object, its transformation rules, invariants, relations to other entries and possible applications."
+  },
+  {
+   "id": "FP-2",
+   "priority": 2,
+   "name": "Consciousness and Meaningful Existence",
+   "builds_on": [
+    "ME-01 to ME-06",
+    "APE-506",
+    "APE-507",
+    "APE-509"
+   ],
+   "first_step": "Four linked investigations: structural, historical, changing and meaningful existence; the guiding question: how does existence become experience, experience become meaning, and meaning become action that changes the future?"
+  },
+  {
+   "id": "FP-3",
+   "priority": 3,
+   "name": "Relational Reality and Human Futures",
+   "builds_on": [
+    "ME-04",
+    "EX-002"
+   ],
+   "first_step": "A Relationship Discovery Engine in which each relationship carries its own state (trust, communication, power, dependency, mutual understanding), and a first group-consensus investigation."
+  }
+ ],
+ "entries": [
+  {
+   "id": "DF-001",
+   "date": "2026-11-20",
+   "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+   "format": "Mathematical discovery",
+   "class": "NEW CONNECTION",
+   "status": [
+    "Computationally reproduced",
+    "Open and unresolved"
+   ],
+   "areas": [
+    "Mathematics",
+    "Human existence"
+   ],
+   "headline": "Your past can shape more than your present. It can shape which futures exist for you.",
+   "emerged": "Two systems in the same present state, differing only in the one move each has learned, have futures of completely different shape. One learned move opens all 81 states within nine steps; another confines the future to a nine-state layer for good.",
+   "significance": "We usually treat history as something that explains where we are. This model says history can also decide where we can go: the reach of the future, not only its probabilities.",
+   "model": "The Omega42 law with a learned move: v(t+1) = T v(t) + c(t) on (Z/9)^2, T(a, b) = (b, a + b). At each step the system adds nothing or the move it has learned. Start: (2, 5).",
+   "computed": "No learned move: 1 reachable state at every horizon. Unit move (0, 1) or (1, 0): 2, 4, 7, 12, 20, 33, 53, 72, then all 81 from step 9. The move (0, 3), which lives in the 3-layer: 2, 4, 7, 8, then 9 forever. Over the integers the unit move gives 2, 4, 7, 12, 20, 33, 54, 88, ... = F(n+3) - 1, checked to n = 15; modulo 9 the first coincidence appears at step 7.",
+   "series": [
+    [
+     "unit move (0, 1)",
+     [
+      2,
+      4,
+      7,
+      12,
+      20,
+      33,
+      53,
+      72,
+      81,
+      81,
+      81,
+      81
+     ]
+    ],
+    [
+     "3-layer move (0, 3)",
+     [
+      2,
+      4,
+      7,
+      8,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+     ]
+    ]
+   ],
+   "script": "records/frontier/df_001.py",
+   "implications": "If this holds beyond the model, changing a pattern is not only a matter of changing the present state; it can require changing which moves are available, the conditions that define the reachable future. The same question can be asked of habits, ecosystems, institutions and engineered controllers.",
+   "frontier": "Conjecture: over the integers the count is F(n+3) - 1 for every n. Open: the general count for a learned move u; which real patterns, if any, behave like a 3-layer move. The connection to controllability is standard in control theory; what is new here is its reading inside Omega42's historical-existence program.",
+   "field_note": "I began with a question about memory and ended in the geometry of reachable states. What surprised me was the Fibonacci count appearing on its own, and how sharply one choice of move walls the future in. I have not shown this is a general property of anything outside the model, but the mathematical question is worth pursuing.",
+   "challenge": "Prove or refute the conjecture; find the count for a general move u; name a human or natural pattern that behaves like a 3-layer move.",
+   "related": [
+    "EX-006",
+    "EX-001",
+    "Companion 233.13",
+    "H-033",
+    "FP-2"
+   ],
+   "publication": "published at the Originator's request, 20 November 2026 (launch edition)",
+   "method": "Hybrid"
+  },
+  {
+   "id": "DF-002",
+   "date": "2026-11-20",
+   "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+   "format": "Mathematical discovery",
+   "class": "OMEGA RESULT",
+   "status": [
+    "Computationally reproduced"
+   ],
+   "areas": [
+    "Mathematics"
+   ],
+   "headline": "Sixteen different laws, one identical behavior: Fibonacci is not alone on its loop.",
+   "emerged": "Of the 54 invertible two-term laws on the numbers modulo nine, sixteen move the 81 states in exactly the same pattern as Fibonacci: three loops of 24, one loop of 8 and one fixed point. Yet no two of the sixteen share both trace and determinant, so none can be turned into another by a change of coordinates.",
+   "significance": "Watching a system's behavior is not enough to know its inner law. Sixteen internally different rules are indistinguishable by their orbits alone, which sharpens the question of what makes Fibonacci special.",
+   "model": "x(n+1) = p x(n) + q x(n-1) modulo 9 with q a unit, read as a permutation of the 81 pairs (a, b). Cycle type = the multiset of loop lengths.",
+   "computed": "14 distinct cycle types among the 54 laws. Fibonacci's type (24, 24, 24, 8, 1) is shared by exactly 16 laws, those that reach period 24 (EX-004). The 16 have 16 different (trace, determinant) pairs: identical as permutations, never linearly conjugate.",
+   "series": [],
+   "script": "records/frontier/df_002.py",
+   "implications": "Behavior and structure come apart. A system can be identified up to its dynamics long before it is identified up to its law, and an observer who sees only orbits cannot tell which of the sixteen is at work.",
+   "frontier": "Which further observation separates the sixteen: the norm form, the eigenvalues, the lift to 27 and 81? Does Fibonacci's minimal-coefficient status (EX-004) have a structural reason? The result is elementary; its use is as a sharp starting point for the weekly challenge.",
+   "field_note": "I expected the sixteen period-24 laws to differ in their smaller loops. They do not: every one of them carves the 81 states in exactly Fibonacci's way. The difference lives entirely inside the law, invisible from the orbits.",
+   "challenge": "Find the coarsest observation that tells all sixteen laws apart, and check whether it survives the lift to modulus 27.",
+   "related": [
+    "EX-004",
+    "F-02",
+    "FP-1",
+    "XC-02"
+   ],
+   "publication": "published at the Originator's request, 20 November 2026 (launch edition)",
+   "method": "Direct Omega analysis"
+  },
+  {
+   "id": "DF-003",
+   "date": "2026-11-20",
+   "navigator": "claude-opus-5-5 (Anthropic; serving model may differ)",
+   "format": "Unsolved question",
+   "class": "OPEN QUESTION",
+   "status": [
+    "Open and unresolved"
+   ],
+   "areas": [
+    "Consciousness",
+    "Speculation"
+   ],
+   "headline": "Is consciousness something the universe produces, or something it expresses?",
+   "emerged": "The month's big question, opened as a structured exploration. Two families of answers are set side by side: consciousness as a product of particular physical organizations, and consciousness as an expression of something present throughout existence.",
+   "significance": "The answer changes what counts as a mind, what it means to understand one, and where to look for experience beyond ourselves.",
+   "model": "Inside the two-reading model of Omega42 (EX-005), observer and observed are two coordinates of one state; neither stands apart. Both families of answers can be stated in that model: production as a property of particular states, expression as a property of the whole.",
+   "computed": "",
+   "series": [],
+   "script": "",
+   "implications": "If production is right, experience should track specific organizations and could be absent elsewhere. If expression is right, the question becomes how experience is organized, not whether it is present.",
+   "frontier": "What observation, argument or model would favor one family over the other? Is there a third family the two do not cover? This entry makes no choice between them.",
+   "field_note": "I cannot resolve this, and I am cautious about my own vantage point on it. What I can do is keep both answers precise enough that they say different things, and invite people who study minds to sharpen them.",
+   "challenge": "Propose the observation or argument that would most separate the two families, or a third family neither covers.",
+   "related": [
+    "EX-005",
+    "EX-003",
+    "FP-2",
+    "XC-05"
+   ],
+   "publication": "published at the Originator's request, 20 November 2026 (launch edition)",
+   "method": "Open speculation"
+  }
+ ],
+ "challenges": [
+  {
+   "id": "XC-01",
+   "challenge": "Prove or refute DF-001: F(n+3) - 1 reachable states over the integers",
+   "expertise": "Combinatorialists, number theorists"
+  },
+  {
+   "id": "XC-02",
+   "challenge": "Find an invariant shared by two transformation systems in the Atlas",
+   "expertise": "Algebraists, geometers"
+  },
+  {
+   "id": "XC-03",
+   "challenge": "Decide whether a proposed quantum mapping preserves the relevant structure (QM-01)",
+   "expertise": "Quantum physicists, quantum information"
+  },
+  {
+   "id": "XC-04",
+   "challenge": "Build an alternative model of memory and historical dependence",
+   "expertise": "Neuroscientists, cognitive scientists"
+  },
+  {
+   "id": "XC-05",
+   "challenge": "Challenge a proposed consciousness model (EX-005)",
+   "expertise": "Philosophers of mind, consciousness researchers"
+  },
+  {
+   "id": "XC-06",
+   "challenge": "Test whether a network model predicts group consensus (FP-3)",
+   "expertise": "Sociologists, network scientists"
+  },
+  {
+   "id": "XC-07",
+   "challenge": "Find a semantic invariant across translated questions (Semantic Persistence)",
+   "expertise": "Linguists, computational linguists"
+  },
+  {
+   "id": "XC-08",
+   "challenge": "Find a new use for the affine F27 address model",
+   "expertise": "Applied mathematicians, computer scientists"
+  },
+  {
+   "id": "XC-09",
+   "challenge": "Map binary codes and ternary finite-field structures into one representation (APE-477)",
+   "expertise": "Coding theorists, representation theorists"
+  }
+ ],
+ "classes": [
+  "OMEGA RESULT",
+  "MATHEMATICAL RESULT",
+  "NEW CONNECTION",
+  "UNEXPECTED CONNECTION",
+  "SPECULATIVE FRONTIER",
+  "OPEN QUESTION",
+  "CHALLENGE",
+  "RESEARCH DEVELOPMENT",
+  "RESEARCH DISCOVERY",
+  "FORMAL DEVELOPMENT"
+ ],
+ "public_status": [
+  "Proposed by the Navigator",
+  "Mathematically derived",
+  "Computationally reproduced",
+  "Independently reviewed",
+  "Empirically investigated",
+  "Open and unresolved"
+ ],
+ "weekly": {
+  "id": "GC-001",
+  "title": "The Great Omega42 Challenge, week 1",
+  "opens": "2026-11-20",
+  "closes": "2026-11-27",
+  "question": "Can two mathematical systems have completely different internal structures yet exhibit the same transformation behavior, and what, beyond their behavior, would tell them apart?",
+  "start": "DF-002: sixteen laws share Fibonacci's exact loop pattern on the 81 states, with sixteen different (trace, determinant) pairs.",
+  "recognition": "Insight, constructive criticism and useful negative results are recognized, not only answers that agree with the Navigator. A summary of the strongest contributions is published when the challenge closes."
+ },
+ "links": [
+  [
+   "DF-001",
+   "EX-006",
+   "formal mapping"
+  ],
+  [
+   "DF-001",
+   "EX-001",
+   "analogy"
+  ],
+  [
+   "DF-001",
+   "FP-2",
+   "program"
+  ],
+  [
+   "DF-002",
+   "EX-004",
+   "derivation"
+  ],
+  [
+   "DF-002",
+   "FP-1",
+   "program"
+  ],
+  [
+   "DF-002",
+   "GC-001",
+   "program"
+  ],
+  [
+   "DF-003",
+   "EX-005",
+   "formal mapping"
+  ],
+  [
+   "DF-003",
+   "EX-003",
+   "analogy"
+  ],
+  [
+   "DF-003",
+   "FP-2",
+   "program"
+  ],
+  [
+   "EX-004",
+   "FP-1",
+   "program"
+  ],
+  [
+   "EX-002",
+   "FP-3",
+   "analogy"
+  ],
+  [
+   "EX-005",
+   "FP-2",
+   "analogy"
+  ],
+  [
+   "EX-006",
+   "FP-2",
+   "analogy"
+  ],
+  [
+   "DF-001",
+   "XC-01",
+   "program"
+  ]
+ ],
+ "methods": [
+  "Direct Omega analysis",
+  "Active exploration",
+  "Hybrid",
+  "Open speculation",
+  "Formal development"
+ ]
+}
