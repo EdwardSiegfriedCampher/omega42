@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """site_build.py -- builds the Ω42 portal (GitHub Pages) from site/ and the open record.
 
-    python3 tools/site_build.py --out _site [--repo OWNER/REPO]
+    python3 tools/site_build.py --out _site [--repo OWNER/REPO] [--branch BRANCH]
     python3 tools/site_build.py --selftest
 
 Pages in site/pages/ are wrapped in site/layout.html; the record is published as JSON under api/; the protocol
@@ -186,4 +186,13 @@ if __name__ == '__main__':
     if a[:1] == ['--selftest']: sys.exit(0 if selftest() else 1)
     if '--out' not in a: print(__doc__); sys.exit(0)
     out = a[a.index('--out') + 1]; repo = a[a.index('--repo') + 1] if '--repo' in a else None
-    r = build(out, repo); print('built %d pages and %d data files into %s (%s)' % (len(r['pages']), len(r['api']), out, r['version']))
+    branch = a[a.index('--branch') + 1] if '--branch' in a else 'main'
+    r = build(out, repo)
+    if branch != 'main':   # links into the repository follow the branch the site is built from
+        for d, _, fs in os.walk(out):
+            for f in fs:
+                if f.endswith(('.html', '.xml', '.txt', '.js')):
+                    fp = os.path.join(d, f); t = open(fp, encoding='utf-8').read()
+                    u = t.replace('/blob/main/', '/blob/%s/' % branch).replace('/tree/main/', '/tree/%s/' % branch)
+                    if u != t: open(fp, 'w', encoding='utf-8').write(u)
+    print('built %d pages and %d data files into %s (%s)' % (len(r['pages']), len(r['api']), out, r['version']))
